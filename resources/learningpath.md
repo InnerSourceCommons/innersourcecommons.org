@@ -17,7 +17,7 @@ Once finished, the first edition of the Inner Source Learning Path will cover th
 
 ## Contribute to the Inner Source Learning Paths!
 
-We invite you to help us finishing the Inner Source Learning Paths. Checkout the [README.md of the Learning Path Repository](https://github.com/InnerSourceCommons/InnerSourceLearningPath/) or join our Slack channel via the signup link in the left bar of this website and ask to join the [#learning-path] _Slack_ channel.
+We invite you to help us finishing the Inner Source Learning Paths. Checkout the [README.md of the Learning Path Repository](https://github.com/InnerSourceLearningPath/) or join our Slack channel via the signup link in the left bar of this website and ask to join the [#learning-path] _Slack_ channel.
 
 [InnerSource Commons]: http://www.innersourcecommons.org/
 [#learning-path]: https://paypalflow.slack.com/messages/CARTU4XV2
