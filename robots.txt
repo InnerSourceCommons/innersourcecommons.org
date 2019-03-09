@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: /InnerSourceCommons/sitemap.xml
+Sitemap: /sitemap.xml
