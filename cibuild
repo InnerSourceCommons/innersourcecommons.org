@@ -5,6 +5,13 @@ set -e # halt script on error
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "travis-ci"
 
+
+# Clone will fail if directory not empty
+rm -rf ./_site
+
+# Clone into subdir so that htmlproofer understands the relative links
+git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG} ./_site
+
 bundle exec jekyll build -d ./_site
 bundle exec htmlproofer ./_site --disable-external --allow-hash-href
 
