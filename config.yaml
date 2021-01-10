@@ -1,0 +1,106 @@
+baseURL: 'http://examplesite.org/'
+title: InnerSource Commons
+
+languages:
+  en:
+    languageName: 🇺🇸
+    weight: 1
+    menu:
+      main:
+        - name: Events
+          URL: events
+          weight: 1
+        - name: Learning
+          URL: learning
+          weight: 2
+        - name: Patterns
+          URL: https://innersourcecommons.gitbook.io/innersource-patterns/
+          weight: 3
+          pre: _blank
+        - name: About
+          URL: about
+          weight: 4
+      footer_left:
+        - name: Events
+          URL: events
+          weight: 1
+        - name: Learning
+          URL: learning
+          weight: 2
+      footer_middle:
+        - name: Patterns
+          URL: https://innersourcecommons.gitbook.io/innersource-patterns/
+          weight: 3
+          pre: _blank
+      footer_right:
+        - name: About
+          URL: about
+          weight: 4
+  ru:
+    languageName: 🇷🇺
+    weight: 2
+    menu:
+      main:
+        - name: События
+          URL: ru/events
+          weight: 1
+        - name: Обучение
+          URL: ru/learning
+          weight: 2
+        - name: Паттерны
+          URL: https://innersourcecommons.gitbook.io/innersource-patterns/
+          weight: 3
+          pre: _blank
+        - name: О сообществе
+          URL: ru/about
+          weight: 4
+paginate: '3'
+summaryLength: '15'
+disqusShortname: ''
+googleAnalytics: ''
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/themify-icons/themify-icons.css
+      - link: plugins/slick/slick.css
+      - link: plugins/youmax/youmax.css
+    js:
+      - link: plugins/jQuery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: plugins/youmax/youmax.js
+  logo: images/logo.png
+  logo_width: 200px
+  description: This is meta description
+  author: Themefisher
+  contact_form_action: '#'
+  footer_content: >-
+    The site content is licensed under a CC-BY-SA license unless otherwise marked.
+  copyright: >-
+    Design by [Themefisher](https://themefisher.com/) and [Gethugothemes](https://gethugothemes.com/),
+    icons by [Freepik Storyset](https://storyset.com/people)
+  preloader:
+    enable: false
+    preloader: ''
+  navigation_button:
+    enable: true
+    label: Join Slack
+    link: slack
+  social:
+    - title: facebook
+      icon: ti-facebook
+      link: '#'
+    - title: twitter
+      icon: ti-twitter-alt
+      link: '#'
+    - title: skype
+      icon: ti-skype
+      link: '#'
+    - title: linkedin
+      icon: ti-linkedin
+      link: '#'

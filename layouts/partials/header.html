@@ -1,0 +1,48 @@
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="navigation">
+  <div class="container">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand" href="{{ site.BaseURL }}">
+        {{ with site.Params.logo}}
+        <img width="{{site.Params.logo_width}}" class="img-fluid" src="{{ . | absURL }}" alt="{{ site.Title }}">
+        {{ else }}{{site.Title}}{{end}}
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          {{ range site.Menus.main }}
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+              {{ .Name }}
+            </a>
+            <div class="dropdown-menu">
+              {{ range .Children }}
+              <a class="dropdown-item" href="{{ .URL | absURL }}"{{ with .Pre }} target="{{ . }}"{{ end }}>{{ .Name }}</a>
+              {{ end }}
+            </div>
+          </li>
+          {{ else }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .URL | absURL }}"{{ with .Pre }} target="{{ . }}"{{ end }}>{{ .Name }}</a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+        <a href="/slack" class="btn btn-sm btn-primary ml-3" target="_blank"><i class="ti-pencil-alt pr-2"></i>Join Slack</a>
+        {{ if .IsTranslated }}
+        <nav class="LangNav ml-3">
+        {{ range .Translations }}
+          <a class="h3" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+        {{ end}}
+        </nav>
+        {{ end }}
+      </div>
+    </nav>
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
