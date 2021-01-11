@@ -33,7 +33,7 @@
           {{ end }}
           {{ end }}
         </ul>
-        <a href="/slack" class="btn btn-sm btn-primary ml-3" target="_blank"><i class="ti-pencil-alt pr-2"></i>Join Slack</a>
+        <a href="{{ "slack" | absURL }}" class="btn btn-sm btn-primary ml-3" target="_blank"><i class="ti-pencil-alt pr-2"></i>Join Slack</a>
         {{ if .IsTranslated }}
         <nav class="LangNav ml-3">
         {{ range .Translations }}
