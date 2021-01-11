@@ -1,4 +1,4 @@
-baseURL: '/innersourcecommons-new.org/'
+baseURL: 'https://voborgus.github.io/'
 title: InnerSource Commons
 
 languages:
@@ -27,15 +27,15 @@ languages:
         - name: Learning
           URL: learning
           weight: 2
-      footer_middle:
         - name: Patterns
           URL: https://innersourcecommons.gitbook.io/innersource-patterns/
           weight: 3
           pre: _blank
-      footer_right:
         - name: About
           URL: about
           weight: 4
+#      footer_middle:
+#      footer_right:
   ru:
     languageName: 🇷🇺
     weight: 2

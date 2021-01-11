@@ -7,7 +7,7 @@ draft: false
 
 
 {{< faq "InnerSource Commons" >}}
-![InnerSource Commons Logo](images/logo.png)
+![InnerSource Commons Logo](../images/logo.png)
 
 The InnerSource Commons (ISC) is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource: the use of open source best practices for software development within the confines of an organization. Founded in 2015, the InnerSource Commons is now supporting and connecting over seventy companies, academic institutions, and government agencies.
 {{</ faq >}}
