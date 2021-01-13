@@ -13,7 +13,7 @@ title: "InnerSource Commons"
         <p class="mb-3 h1">May the InnerSource Be With You</p>
         <p class="mb-5 h4">Welcome to the InnerSource Commons</p>
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ddlb3gh4WwE?list=PLCH-i0B0otNQqCcGXbvo0hcdqfGU8oTjz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/ddlb3gh4WwE?list=PLCH-i0B0otNQqCcGXbvo0hcdqfGU8oTjz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
