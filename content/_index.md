@@ -12,7 +12,9 @@ title: "InnerSource Commons"
       <div class="col-lg-10 mx-auto text-center">
         <p class="mb-3 h1">May the InnerSource Be With You</p>
         <p class="mb-5 h4">Welcome to the InnerSource Commons</p>
-        <iframe width="853" height="505" src="https://www.youtube.com/embed/ddlb3gh4WwE?list=PLCH-i0B0otNQqCcGXbvo0hcdqfGU8oTjz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ddlb3gh4WwE?list=PLCH-i0B0otNQqCcGXbvo0hcdqfGU8oTjz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
   </div>
@@ -77,7 +79,7 @@ title: "InnerSource Commons"
           <i class="ti-settings mb-3"></i>
           <h4 class="mb-2">Patterns</h4>
           <p>Collect and document agreed-upon best practices of InnerSource in the form of patterns.</p>
-          <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> innersource-patterns</a>
+          <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/>patterns</a>
         </div>
       </div>
     </div>
@@ -101,7 +103,7 @@ title: "InnerSource Commons"
       <div class="col-md-12">
         <p class="h2 section-title text-center mb-5">InnerSource Commons News</p>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-8 offset-md-2">
         <a class="twitter-timeline" data-height="600" data-dnt="true" href="https://twitter.com/InnerSourceOrg?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
