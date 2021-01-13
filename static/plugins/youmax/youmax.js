@@ -2,27 +2,6 @@ var youmax_global_options = {};
 
 
 (function ($) {
-
-
-    var secondsToTime = function(duration) {
-        if(null==duration||duration==""||duration=="undefined")
-            return "?";
-
-        var minutes = Math.floor(duration/60);
-        //alert(minutes);
-
-        var seconds = duration%60;
-
-        if(seconds<10)
-            seconds = "0"+seconds;
-
-        var time = minutes+":"+seconds;
-        return time;
-        //alert()
-
-    },
-
-        //utility function to display time
     convertDuration = function(videoDuration) {
         var duration,returnDuration;
         videoDuration = videoDuration.replace('PT','').replace('S','').replace('M',':').replace('H',':');
@@ -369,7 +348,7 @@ var youmax_global_options = {};
 
             //$('#youmax-video-list-div').append('<div class="youmax-video-tnail-box" style="width:'+((100/youmaxColumns)-4)+'%;" id="'+videoId+'"><div class="youmax-video-tnail" style="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src=\''+videoThumbnail+'\', sizingMethod=\'scale\'); background-image:url(\''+videoThumbnail+'\')"><div class="youmax-duration">'+secondsToTime(videoDuration)+'</div></div><span class="youmax-video-list-title">'+videoTitle+'</span><br/><span class="youmax-video-list-views">'+getReadableNumber(videoViewCount)+' views | '+getDateDiff(videoUploaded)+' ago</span></div>');
 
-            $('#youmax-video-list-div').append('<div class="col-md-3 col-sm-6"><div class="youmax-video-tnail-box" id="'+videoId+'"><div class="youmax-video-tnail" style="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src=\''+videoThumbnail+'\', sizingMethod=\'scale\'); background-image:url(\''+videoThumbnail+'\')"><div class="youmax-duration"></div></div><span class="youmax-video-list-title">'+videoTitle+'</span><br/><span class="youmax-video-list-views">'+getDateDiff(videoUploaded)+'ago</span></div></div>');
+            $('#youmax-video-list-div').append('<div class="col-md-4 col-sm-6"><div class="youmax-video-tnail-box" id="'+videoId+'"><div class="youmax-video-tnail" style="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src=\''+videoThumbnail+'\', sizingMethod=\'scale\'); background-image:url(\''+videoThumbnail+'\')"><div class="youmax-duration"></div></div><span class="youmax-video-list-title">'+videoTitle+'</span><br/><span class="youmax-video-list-views">'+getDateDiff(videoUploaded)+'ago</span></div></div>');
             
         }
 
@@ -502,35 +481,12 @@ var youmax_global_options = {};
 
     prepareYoumax = function() {
         $('#youmax').empty();
-        /*
-        if(youTubeChannelURL.indexOf("youtube.com/user/")!=-1) {
-            if(null!=youTubeChannelURL&&youTubeChannelURL.indexOf("?feature")!=-1)
-                youmaxUser = youTubeChannelURL.substring(youTubeChannelURL.indexOf("youtube.com/user/")+17,youTubeChannelURL.indexOf("?feature"));
-            else
-                youmaxUser = youTubeChannelURL.substring(youTubeChannelURL.indexOf("youtube.com/user/")+17);
-        }
-
-        console.log('youTubeChannelURL-'+youTubeChannelURL);
-        console.log('youmaxUser-'+youmaxUser);
-
-        //youmaxUser = 'UCVUZWBzxM7w8ug87qYwkBLg';
-        //youmaxUser = 'AdeleVEVO';
-        */
-
         loadYoumax();
         showLoader();
 
         $('.youmax-tab').click(function(){
             $('.youmax-tab-hover').removeClass('youmax-tab-hover');
             $(this).addClass('youmax-tab-hover');
-            //$('.youmax-tab').css('color','#666');
-            //$('.youmax-tab').css('background-color','rgb(230,230,230)');
-            //$('.youmax-tab').css('text-shadow','0 1px 0 #fff');
-
-            //$(this).css('color','#eee');
-            //$(this).css('background-color','#999');
-            //$(this).css('text-shadow','0 0');
-
             youmaxTabId = this.id;
 
             showLoader();
@@ -546,13 +502,10 @@ var youmax_global_options = {};
 
         youTubeChannelURL = youmax_global_options.youTubeChannelURL;
 
-        //Get Channel header and details
         if(youTubeChannelURL!=null) {
             s=youTubeChannelURL.indexOf("/user/");
-            ////console.log('s-'+s);
             if(s!=-1) {
                 userId = youTubeChannelURL.substring(s+6);
-                //console.log('userId-'+userId);
                 apiUrl = "https://www.googleapis.com/youtube/v3/channels?part=id&forUsername="+userId+"&key="+youmax_global_options.apiKey;
                 getChannelId(apiUrl);
             } else {
