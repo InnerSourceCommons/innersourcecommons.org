@@ -32,9 +32,15 @@
           <h3>Contributors</h3>
           <ul class="nav">
             {{ range .Params.contributors }}
-            {{ $photo := index (last 1 (split .url "/")) 0 }}
+            {{ $username := index (last 1 (split .url "/")) 0 }}
+            {{ $photo := "" }}
+            {{ if $username }}
+            {{ $photo = printf "https://avatars.githubusercontent.com/%s" $username }}
+            {{ else }}
+            {{ $photo = "/images/user.jpg"}}
+            {{ end }}
             <li class="nav-item">
-              <a class="nav-link" href="{{ .url }}" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/{{ $photo }}" alt="{{ .name }}" title="{{ .name }}" /></a>
+              <a class="nav-link" href="{{ .url }}" target="_blank"><img class="rounded-circle contributor" src="{{ $photo }}" alt="{{ .name }}" title="{{ .name }}" /></a>
             </li>
             {{ end }}
           </ul>
