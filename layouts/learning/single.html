@@ -4,6 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto">
+        <h2 class="mb-4">{{ .Title }}</h2>
         {{ if .Params.youtubeCode }}
         <div class="embed-responsive embed-responsive-16by9 mb-4">
           <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/{{ .Params.youtubeCode }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
