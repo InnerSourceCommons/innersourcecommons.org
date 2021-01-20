@@ -3,7 +3,6 @@ layout: page
 title: 'Spring Summit 2016'
 image: "images/events/cities/london.jpeg"
 # post type (regular/featured)
-type: "regular"
 date: 2016-04-21
 ---
 

@@ -26,6 +26,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
+  <meta name="layout" content="{{ .Kind }} - {{ .Layout }} - {{ .Type }} - {{ .Section }} - {{ .CurrentSection }}">
   
   {{ if .IsTranslated }}
 	{{ range .Translations }}

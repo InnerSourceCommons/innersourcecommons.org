@@ -3,7 +3,6 @@ layout: page
 title: 'Fall Summit 2016'
 image: "images/events/cities/boston.jpeg"
 # post type (regular/featured)
-type: "regular"
 date: 2016-09-28
 ---
 

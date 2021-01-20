@@ -3,7 +3,6 @@ layout: page
 title: 'Spring Summit 2019'
 image: "images/events/cities/galway.jpeg"
 # post type (regular/featured)
-type: "regular"
 date: 2019-04-11
 ---
 ### 9th to 11th April 2019 in Galway, Ireland

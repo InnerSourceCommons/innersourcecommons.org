@@ -3,7 +3,6 @@ layout: page
 title: 'InnerSource Day @ OSCON 2019'
 image: "images/events/cities/portland.jpeg"
 # post type (regular/featured)
-type: "regular"
 date: 2019-05-16
 ---
 

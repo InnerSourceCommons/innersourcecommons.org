@@ -3,7 +3,6 @@ layout: page
 title: 'Fall Summit 2018'
 image: "images/events/cities/newyork.jpeg"
 # post type (regular/featured)
-type: "regular"
 date: 2018-10-03T00:00:00+00:00
 ---
 

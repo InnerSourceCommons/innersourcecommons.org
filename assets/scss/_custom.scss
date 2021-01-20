@@ -21,3 +21,15 @@
 .btn {
     text-transform: none;
 }
+
+ol.breadcrumb {
+    background: none;
+}
+
+.breadcrumb a {
+    color: $primary-color;
+}
+
+.section {
+    padding-top: 30px;
+}

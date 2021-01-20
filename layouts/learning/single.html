@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ partial "breadcrumbs.html" . }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        {{ if .Params.youtubeCode }}
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+          <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/{{ .Params.youtubeCode }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        {{ else }}
+        <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
+        {{ end }}
+        <div class="pb-4 clearfix">
+          {{ with .NextInSection }}
+            <a class="btn btn-light float-left" href="{{.Permalink}}">← {{.Title}}</a>
+          {{ end }}
+          {{ with .PrevInSection }}
+            <a class="btn btn-primary float-right" href="{{.Permalink}}"> {{.Title}} →</a>
+          {{ end }}
+        </div>
+        <div class="content">{{ .Content }}</div>
+        <div class="clearfix">
+          {{ with .NextInSection }}
+            <a class="btn btn-light float-left" href="{{.Permalink}}">← {{.Title}}</a>
+          {{ end }}
+          {{ with .PrevInSection }}
+            <a class="btn btn-primary float-right" href="{{.Permalink}}"> {{.Title}} →</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

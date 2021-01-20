@@ -3,7 +3,6 @@ layout: page
 title: 'North American Fall Virtual Summit 2020'
 image: "images/events/america2020.jpg"
 # post type (regular/featured)
-type: "regular"
 date: 2020-09-15T00:00:00+00:00
 ---
 ### 15th and 16th September 2020, online - [register now](https://www.eventbrite.ie/e/innersource-commons-fall-2020-virtual-summit-tickets-117435975163)! 

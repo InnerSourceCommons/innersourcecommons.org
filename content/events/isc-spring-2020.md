@@ -3,7 +3,6 @@ layout: page
 title: 'Spring Summit 2020'
 image: "images/events/cities/madrid.jpeg"
 # post type (regular/featured)
-type: "regular"
 date: 2020-04-14
 ---
 ### 14th to 15th April 2020, online

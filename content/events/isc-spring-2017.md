@@ -3,7 +3,6 @@ layout: page
 title: 'Spring Summit 2017'
 image: "images/events/cities/geneva.jpeg"
 # post type (regular/featured)
-type: "regular"
 date: 2017-04-18
 ---
 

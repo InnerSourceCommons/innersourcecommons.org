@@ -3,7 +3,6 @@ layout: page
 title: 'Spring Summit 2018'
 image: "images/events/cities/stuttgart.jpeg"
 # post type (regular/featured)
-type: "regular"
 date: 2018-05-16T00:00:00+00:00
 ---
 ### May 16-18 Wed-Fri near Stuttgart, Germany
