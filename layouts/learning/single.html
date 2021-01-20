@@ -28,6 +28,17 @@
             <a class="btn btn-primary float-right" href="{{.Permalink}}"> {{.Title}} →</a>
           {{ end }}
         </div>
+        <div class="mt-4">
+          <h3>Contributors</h3>
+          <ul class="nav">
+            {{ range .Params.contributors }}
+            {{ $photo := index (last 1 (split .url "/")) 0 }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .url }}" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/{{ $photo }}" alt="{{ .name }}" title="{{ .name }}" /></a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
       </div>
     </div>
   </div>
