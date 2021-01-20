@@ -3,7 +3,7 @@ title: InnerSource Commons
 
 languages:
   en:
-    languageName: 🇺🇸
+    languageName: English
     weight: 1
     menu:
       main:
@@ -37,7 +37,7 @@ languages:
 #      footer_middle:
 #      footer_right:
   ru:
-    languageName: 🇷🇺
+    languageName: Русский
     weight: 2
     menu:
       main:
@@ -69,11 +69,13 @@ params:
       - link: plugins/themify-icons/themify-icons.css
       - link: plugins/slick/slick.css
       - link: plugins/youmax/youmax.css
+      - link: plugins/bootstrap-select/css/bootstrap-select.min.css
     js:
       - link: plugins/jQuery/jquery.min.js
       - link: plugins/bootstrap/bootstrap.min.js
       - link: plugins/slick/slick.min.js
       - link: plugins/youmax/youmax.js
+      - link: plugins/bootstrap-select/js/bootstrap-select.min.js
   logo: images/logo.png
   logo_width: 200px
   description: This is meta description

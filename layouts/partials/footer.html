@@ -68,6 +68,12 @@
 	showVideoInLightbox: false,
 	maxResults: 6,
 });
+$(function(){
+  $('#langpicker').selectpicker();
+  $('#langpicker').change(function() {
+    window.location.href = this.value;
+  });
+});
 </script>
 
 <!-- Google Analytics compliant with GDPR -->

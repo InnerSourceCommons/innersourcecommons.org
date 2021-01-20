@@ -100,8 +100,6 @@ var youmax_global_options = {};
 
         ym.append('<div id="youmax-encloser"><iframe id="youmax-video" width="'+(youmaxWidgetWidth-2)+'" height="'+(youmaxWidgetWidth/youmax_global_options.youtubeVideoAspectRatio)+'" src="" frameborder="0" allowfullscreen></iframe><div id="youmax-video-list-div" class="row"></div></div>');
 
-        ym.append('<div class="text-center pb-4 pt-4"><a class="btn btn-lg btn-primary" target="_blank" href="https://www.youtube.com/channel/UCIqfZ4wqEoC6x6x-zyPCL8g">More videos</a></div>')
-
         $('#youmax-video').hide();
 
         ym.append('<div id="youmax-lightbox"><div style="width:100%; position:absolute; top:20%;"><iframe id="youmax-video-lightbox" width="640" height="360" src="" frameborder="0" allowfullscreen></iframe></div></div>');
