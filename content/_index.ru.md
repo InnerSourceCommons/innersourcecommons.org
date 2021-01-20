@@ -120,7 +120,7 @@ title: "InnerSource Commons"
       <div class="col-lg-5 col-md-6">
         <h2 class="section-title">Изучайте новые идеи вместе с сообществом</h2>
         <p class="mb-4">Общайтесь и встречайте отличных спутников для вашего InnerSource путешествия.</p>
-        <a href="{{ .link | absURL }}" class="btn btn-primary"><i class="ti-pencil-alt pr-2"></i>{{ T "join_slack" }}</a>
+        <a href="{{ .link | absURL }}" class="btn btn-primary"><i class="ti-pencil-alt pr-2"></i>Присоединяйтесь в Slack</a>
       </div>
     </div>
   </div>
