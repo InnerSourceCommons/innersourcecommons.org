@@ -41,7 +41,8 @@ title: "InnerSource Commons"
       </div>
       <div class="col-md-6 ">
         <p>The InnerSource Commons supports practitioners and those who want to learn about InnerSource by a broad array of activities. It provides learning paths on how to get started with InnerSource, curates known best practices in the form of patterns, promotes InnerSource in the market, and organizes the leading practitioner conferences dedicated to InnerSource - the InnerSource Commons Summits.
-        To get started, simply join the growing ISC community via our slack channel and introduce yourself.</p>
+        </p>
+        <p>To get started, simply join the growing ISC community via our slack channel and introduce yourself.</p>
         <a href="/slack" class="btn-link">Join Slack <i class="ti-arrow-right"></i></a>
       </div>
     </div>
@@ -65,24 +66,6 @@ title: "InnerSource Commons"
 </section>
 
 <section class="section bg-light">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4 mb-4 mb-md-0">
-        <div>
-          <img src="/images/logo-big.png" class="img-fluid">
-        </div>
-      </div>
-      <div class="col-md-6 offset-md-1 ">
-        <h2 class="section-title">What is InnerSource</h2>
-        <p>InnerSource takes the lessons learned from developing open source software and applies them to the way companies develop software internally. As developers have become accustomed to working on world class open source software, there is a strong desire to bring those practices back inside the firewall and apply them to software that companies may be reluctant to release.
-        </p>
-        <p>For companies building mostly closed source software, InnerSource can be a great tool to help break down silos, encourage internal collaboration, accelerate new engineer on-boarding, and identify opportunities to contribute software back to the open source world.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
