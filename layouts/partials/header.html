@@ -15,9 +15,8 @@
           {{ range site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-              {{ .Name }}
-            </a>
+            <a class="nav-link nav-with-toggle" href="{{ .URL | absURL }}"{{ with .Pre }} target="{{ . }}"{{ end }}>{{ .Name }}</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"></a>
             <div class="dropdown-menu">
               {{ range .Children }}
               <a class="dropdown-item" href="{{ .URL | absURL }}"{{ with .Pre }} target="{{ . }}"{{ end }}>{{ .Name }}</a>

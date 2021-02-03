@@ -7,16 +7,26 @@ languages:
     weight: 1
     menu:
       main:
-        - name: Events
-          URL: events
+        - name: Learn
+          URL: learn
           weight: 1
-        - name: Learning
-          URL: learning
+          identifier: learn
+        - name: Books
+          parent: learn
+          URL: learn/books
+          weight: 1
+        - name: Learning Path
+          parent: learn
+          URL: learn/learning-path
           weight: 2
         - name: Patterns
+          parent: learn
           URL: https://innersourcecommons.gitbook.io/innersource-patterns/
           weight: 3
           pre: _blank
+        - name: News&Events
+          URL: events
+          weight: 2
         - name: About
           URL: about
           weight: 4
@@ -24,8 +34,8 @@ languages:
         - name: Events
           URL: events
           weight: 1
-        - name: Learning
-          URL: learning
+        - name: Learn
+          URL: learn
           weight: 2
         - name: Patterns
           URL: https://innersourcecommons.gitbook.io/innersource-patterns/
@@ -45,7 +55,7 @@ languages:
           URL: ru/events
           weight: 1
         - name: Обучение
-          URL: ru/learning
+          URL: ru/learn
           weight: 2
         - name: Паттерны
           URL: https://innersourcecommons.gitbook.io/innersource-patterns/

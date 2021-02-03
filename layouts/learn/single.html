@@ -3,8 +3,8 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <h2 class="mb-4">{{ .Title }}</h2>
+      <div class="col-lg-10 mx-auto">
+        <h1 class="mb-4">{{ .Title }}</h1>
         {{ if .Params.youtubeCode }}
         <div class="embed-responsive embed-responsive-16by9 mb-4">
           <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/{{ .Params.youtubeCode }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -12,14 +12,6 @@
         {{ else }}
         <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
         {{ end }}
-        <div class="pb-4 clearfix">
-          {{ with .NextInSection }}
-            <a class="btn btn-light float-left" href="{{.Permalink}}">← {{.Title}}</a>
-          {{ end }}
-          {{ with .PrevInSection }}
-            <a class="btn btn-primary float-right" href="{{.Permalink}}"> {{.Title}} →</a>
-          {{ end }}
-        </div>
         <div class="content">{{ .Content }}</div>
         <div class="clearfix">
           {{ with .NextInSection }}
@@ -29,10 +21,11 @@
             <a class="btn btn-primary float-right" href="{{.Permalink}}"> {{.Title}} →</a>
           {{ end }}
         </div>
+        {{ with .Params.contributors }}
         <div class="mt-4">
           <h3>Contributors</h3>
           <ul class="nav">
-            {{ range .Params.contributors }}
+            {{ range . }}
             {{ $username := index (last 1 (split .url "/")) 0 }}
             {{ $photo := "" }}
             {{ if $username }}
@@ -45,6 +38,7 @@
             </li>
             {{ end }}
           </ul>
+        {{ end}}
         </div>
       </div>
     </div>
