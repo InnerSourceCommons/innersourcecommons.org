@@ -6,15 +6,59 @@ title: "InnerSource Commons"
 <i class="ti-announcement mr-2"></i>Check out videos from the InnerSource Commons APAC 2020 Online Summit. <a href="https://www.youtube.com/playlist?list=PLCH-i0B0otNSA4KltJHgcQB6450VI-8pG" class="btn-link" target="_blank"><i class="ti-youtube"></i> Watch on YouTube <i class="ti-arrow-right"></i></a>
 {{</ notice >}}
 
-<section class="banner">
+
+<section class="banner banner-head">
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <p class="mb-3 h1">May the InnerSource Be With You</p>
-        <p class="mb-5 h4">Welcome to the InnerSource Commons</p>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/ddlb3gh4WwE?list=PLCH-i0B0otNQqCcGXbvo0hcdqfGU8oTjz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="col-lg-12 mx-auto text-center">
+        <p class="h1">Welcome to the InnerSource Commons</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-1">
+        <p>The InnerSource Commons (ISC) is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource: the use of open source best practices for software development within the confines of an organization. Founded in 2015, the InnerSource Commons is now supporting and connecting over 900 individuals from over 350 companies, academic institutions, and government agencies.
+        </p>
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+        <img src="/images/logo.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-5 mb-4 mb-md-0">
+        <div>
+         {{< image-community >}}
         </div>
+      </div>
+      <div class="col-md-6 ">
+        <p>The InnerSource Commons supports practitioners and those who want to learn about InnerSource by a broad array of activities. It provides learning paths on how to get started with InnerSource, curates known best practices in the form of patterns, promotes InnerSource in the market, and organizes the leading practitioner conferences dedicated to InnerSource - the InnerSource Commons Summits.
+        To get started, simply join the growing ISC community via our slack channel and introduce yourself.</p>
+        <a href="/slack" class="btn-link">Join Slack <i class="ti-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-1">
+        <p class="section-title h2">Learn About InnerSource</p>
+        <p>If you are new to InnerSource or want to find out more about the practice, who is implementing InnerSource and why and how to get started, visit the Learning section of the site. You will find a wealth of resources to help accelerate your journey to InnerSource including training materials, best practices, books, past event recordings and case studies.
+        </p>
+        <a href="/learn" class="btn-link">Learn <i class="ti-arrow-right"></i></a>
+      </div>
+      <div class="col-md-4 offset-md-1 order-1 order-md-2 mb-4 mb-md-0">
+        <img src="/images/logo-big.png" class="img-fluid">
       </div>
     </div>
   </div>
@@ -30,7 +74,9 @@ title: "InnerSource Commons"
       </div>
       <div class="col-md-6 offset-md-1 ">
         <h2 class="section-title">What is InnerSource</h2>
-        <p>InnerSource takes the lessons learned from developing open source software and applies them to the way companies develop software internally. As developers have become accustomed to working on world class open source software, there is a strong desire to bring those practices back inside the firewall and apply them to software that companies may be reluctant to release. For companies building mostly closed source software, InnerSource can be a great tool to help break down silos, encourage internal collaboration, accelerate new engineer on-boarding, and identify opportunities to contribute software back to the open source world.</p>
+        <p>InnerSource takes the lessons learned from developing open source software and applies them to the way companies develop software internally. As developers have become accustomed to working on world class open source software, there is a strong desire to bring those practices back inside the firewall and apply them to software that companies may be reluctant to release.
+        </p>
+        <p>For companies building mostly closed source software, InnerSource can be a great tool to help break down silos, encourage internal collaboration, accelerate new engineer on-boarding, and identify opportunities to contribute software back to the open source world.</p>
       </div>
     </div>
   </div>
@@ -38,25 +84,10 @@ title: "InnerSource Commons"
 
 <section class="section">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 order-2 order-md-1">
-        <h2 class="section-title">What is InnerSource Commons</h2>
-        <p>The InnerSource Commons (ISC) is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource: the use of open source best practices for software development within the confines of an organization. Founded in 2015, the InnerSource Commons is now supporting and connecting over seventy companies, academic institutions, and government agencies.</p>
-        <a href="/about" class="btn-link">More about ISC <i class="ti-arrow-right"></i></a>
-      </div>
-      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-        {{< image-community >}}
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section bg-light">
-  <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <p class="section-title mb-5 h2">Community Working Groups</p>
-        <p><p>
+        <p class="section-title mb-5 mt-3 h1">Join the Community</p>
+        <p>Check out the community page to find out more about our working groups and other ways to participate in the InnerSource Commons community. <p>
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center">
@@ -114,13 +145,21 @@ title: "InnerSource Commons"
 <section class="section">
   <div class="container section shadow rounded-lg px-4">
     <div class="row align-items-center justify-content-center text-center text-md-left">
-      <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
+      <div class="col-lg-5 col-md-4 mb-4 mb-md-0">
         {{< image-welcome >}}
       </div>
-      <div class="col-lg-5 col-md-6">
-        <h2 class="section-title">Discover New Ideas with the Community</h2>
-        <p class="mb-4">Communicate and meet great companions for your InnerSource journey.</p>
-        <a href="{{ .link | absURL }}" class="btn btn-primary"><i class="ti-pencil-alt pr-2"></i>Join Slack</a>
+      <div class="col-lg-6 col-md-7">
+        <p class="h2 section-title">Stay Connected</p>
+        <p class="mb-4">Most of the action in the community happens in our Slack Channel. Click here to join! You can also keep informed about the InnerSource Commons news, events and activities by signing up to our mailing list, following us on Twitter, subscribing to our YouTube Channel, joining the LinkedIn Group.</p>
+        <p class="h3 section-title">Sign in to our mailing list</p>
+        <div class="mailing-box">
+          <form class="form-inline">
+            <div class="form-group pr-3">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
