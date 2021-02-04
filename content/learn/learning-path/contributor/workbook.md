@@ -5,7 +5,7 @@ contributors:
     url: https://github.com/GoFightNguyen
   - name: Johannes Tigges
     url: https://github.com/lenucksi
-image: images/learn/LP_thumbnail_introduction.jpg
+image: images/learn/LP_thumbnail_contributor.jpg
 weight: 8
 ---
 
