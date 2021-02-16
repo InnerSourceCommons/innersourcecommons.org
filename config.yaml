@@ -24,7 +24,7 @@ languages:
           URL: https://innersourcecommons.gitbook.io/innersource-patterns/
           weight: 3
           pre: _blank
-        - name: News&Events
+        - name: Events
           URL: events
           weight: 2
         - name: About
