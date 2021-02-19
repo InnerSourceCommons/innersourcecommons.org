@@ -17,7 +17,7 @@
           <h3>Public Board Meeting Notes</h3>
           <ul>
             {{ range .Data.Pages }}
-            <li><a href="{ .Permalink }}" class="btn-link">{{ .Title }} <i class="ti-arrow-right"></i></a></li>
+            <li><a href="{{ .Permalink }}" class="btn-link">{{ .Title }} <i class="ti-arrow-right"></i></a></li>
             {{ end }}
           </ul>
         </div>
