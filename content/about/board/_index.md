@@ -1,33 +1,7 @@
 ---
 title: "Board and Governanance"
-subtitle: ""
-description: "The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource."
-draft: false
-image: "/images/logo.png"
+type: "board"
 ---
-
-
-
-<section class="section">
-  <div class="container section shadow rounded-lg px-4">
-    <div class="row text-center text-md-left">
-      <div class="col-lg-5 col-md-4 mb-4 mb-md-0">
-        <h3>Incorporation Documents</h3>
-        <a href="/documents/bylaws.pdf" class="btn-link"><i class="ti-agenda"></i> Bylaws</a>
-      </div>
-      <div class="col-lg-6 col-md-7">
-        <h3>Public Board Meeting Notes</h3>
-        <ul>
-            <li><a href="/about/board_notes/2021-01-20" class="btn-link">2021-01-20<i class="ti-arrow-right"></i></a></li>
-            <li><a href="/about/board_notes/2020-12-16" class="btn-link">2020-12-16<i class="ti-arrow-right"></i></a></li>
-            <li><a href="/about/board_notes/2020-11-18" class="btn-link">2020-11-18<i class="ti-arrow-right"></i></a></li>
-            <li><a href="/about/board_notes/2020-06-10" class="btn-link">2020-06-10<i class="ti-arrow-right"></i></a></li>
-            <li><a href="/about/board_notes/2020-05-13" class="btn-link">2020-05-13<i class="ti-arrow-right"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
 
 {{< board-member name="Danese Cooper" title="President" image="/images/about/Danese_Cooper.jpg" >}}
 Danese Cooper is the founder and president of InnerSource Commons. She is also vice president of special initiatives at NearForm, an Irish tech firm. Previously, she was head of open source software at PayPal, CTO of the Wikimedia Foundation, chief open source evangelist for Sun, and senior director of open source strategies for Intel. Danese was also the inaugural chairperson of the Node.js Foundation. She concentrates on creating healthy open source communities and has served on the boards of Drupal Association, the Open Source Initiative, the Open Source Hardware Association, and she’s advised Mozilla and the Apache Software Foundation. Danese also runs a successful open source consultancy that counts the Bill & Melinda Gates Foundation, the SETI Institute, Harris, and Numenta as clients. She’s been known to knit through meetings.

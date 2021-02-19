@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+{{ partial "breadcrumbs.html" . }}
+{{ partial "page-header.html" . }}
+
+
+<section class="section">
+    <div class="container section shadow rounded-lg px-4">
+      <div class="row text-center text-md-left">
+        <div class="col-lg-5 col-md-4 mb-4 mb-md-0">
+          <h3>Incorporation Documents</h3>
+          <ul>
+            <li><a href="/documents/bylaws.pdf" class="btn-link"><i class="ti-agenda"></i> Bylaws</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-6 col-md-7">
+          <h3>Public Board Meeting Notes</h3>
+          <ul>
+            {{ range .Data.Pages }}
+            <li><a href="{ .Permalink }}" class="btn-link">{{ .Title }} <i class="ti-arrow-right"></i></a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+</section>
+{{ .Content }}
+
+{{ end }}
