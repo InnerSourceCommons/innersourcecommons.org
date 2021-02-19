@@ -21,7 +21,7 @@ title: "Community"
     <div class="row justify-content-center">
       <div class="col-12 text-center">
         <p class="section-title mb-5 mt-3 h1">Get Started Today</p>
-        <p>Here are three ways to get involved in the InnerSource Commons community.</p>
+        <p>There are various ways to get involved in the InnerSource Commons community. Here some examples.</p>
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center">
@@ -35,7 +35,7 @@ title: "Community"
         <div class="feature-card text-center">
           <i class="ti-comment-alt mb-3"></i>
           <h4 class="mb-2">Have a Chat</h4>
-          <p>Join #virtual-coffee-buddies for an in-person chat with somebody from our community.</p>
+          <p>Join #virtual-coffee-buddies for an in-person chat with somebody from our community. Discuss your specific InnerSource challenges and brainstorm ideas.</p>
           <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> Join Slack</a>
         </div>
       </div>
@@ -43,7 +43,7 @@ title: "Community"
         <div class="feature-card text-center">
           <i class="ti-key mb-3"></i>
           <h4 class="mb-2">Join a Working Group</h4>
-          <p>Join one of our three working groups to contribute to the creation of ISC resources.</p>
+          <p>Join a working group to collaborate with other InnerSource practitioners. Each working group is producing learning resources about InnerSource.</p>
          <b>See more below</b>
         </div>
       </div>
@@ -61,7 +61,7 @@ title: "Community"
       </div>
       <div class="col-md-6 ">
         <p class="section-title h2">Learning Path Working Group</p>
-        <p>The Learning Path Working Group curates the InnerSource Learning Path, a series of short videos and articles explaining and teaching various aspects of InnerSource. The working group meets weekly. To get started, simply join the #learning-path slack channel and introduce yourself.
+        <p>The Learning Path Working Group curates the <a href="/learn/learning-path/">InnerSource Learning Path</a>, a series of short videos and articles explaining and teaching various aspects of InnerSource. The working group meets weekly. To get started, join the #learning-path slack channel and introduce yourself.
         </p>
         <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> learning-path</a>
       </div>
@@ -74,7 +74,7 @@ title: "Community"
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
         <p class="section-title h2">Patterns Working Group</p>
-        <p>The Patterns Working Group is creating a book with InnerSource Patterns - best practices codified in a specific format easy to understand and reuse. The Patterns group hold regular working hours, but most of the work is done asynchronously on GitHub. Join the innersource-patterns group to get started. 
+        <p>The Patterns Working Group is creating a book with InnerSource Patterns - best practices codified in a specific format easy to understand and reuse. The Patterns group hold regular working hours, but most of the work is done asynchronously on GitHub. Join the #innersource-patterns slack channel to get started.
         </p>
         <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> innersource-patterns</a>
       </div>
@@ -95,9 +95,8 @@ title: "Community"
       </div>
       <div class="col-md-6 ">
         <p class="section-title h2">Marketing & Outreach Working Group</p>
-        <p>The Marketing & Outreach Working Group promotes InnerSource success stories, supports outreach activities, conducts research, and organizes InnerSource events and summits on an ad hoc basis. It meets bi-weekly. Join the #marketing Slack channel to find out more.
+        <p>The Marketing & Outreach Working Group promotes InnerSource success stories, supports outreach activities, conducts research, and organizes InnerSource <a href="/events/">events and summits</a>. It meets bi-weekly. Join the #marketing slack channel to find out more.
         </p>
-        <p>To get started, simply join the growing ISC community via our slack channel and introduce yourself.</p>
         <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> marketing</a>
       </div>
     </div>
@@ -109,7 +108,7 @@ title: "Community"
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
         <p class="section-title h2">Board & Governance</p>
-        <p>The InnerSource Commons Foundation is registered as a 501(c)3 non-profit organization in the US, and service on the Board is one way the community can deepen their commitment to InnerSource. Find out more about the Board in the About Us section.
+        <p>The InnerSource Commons Foundation is registered as a 501(c)3 non-profit organization in the US, and service on the Board is one way the community can deepen their commitment to InnerSource.
         </p>
         <a href="/about/board/" class="btn-link">Learn more about the ISC Board <i class="ti-arrow-right"></i></a>
       </div>
@@ -125,13 +124,13 @@ title: "Community"
     <div class="row justify-content-center">
       <div class="col-12 text-center">
         <p class="section-title mb-5 mt-3 h1">How We Work</p>
-        <p>Affiliation with the ISC is tied to individuals, not companies. We've included some guidance on how we work below. No fees are required to participate. ISC content is made available under the Creative Commons Attribution-ShareAlike 4.0 International License.</p>
+        <p>Affiliation with the InnerSource Commons is tied to individuals, not companies. We've included some guidance on how we work below. No fees are required to participate. Content is made available under the <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center">
           <i class="ti-bookmark-alt mb-3"></i>
           <h4 class="mb-2">Tools & Resources</h4>
-          <p>Most of our discussions happen in Slack. We have public and private projects on <a href="http://github.com/InnerSourceCommons"">GitHub</a> and store a lot of our working documents in gDrive. Join the respective working group Slack channel to get access.
+          <p>Most of our discussions happen in Slack. We have public and private projects on <a href="http://github.com/InnerSourceCommons">GitHub</a> and store a lot of our working documents in gDrive. Join the respective working group Slack channel to get access.
           </p>
         </div>
       </div>
@@ -146,8 +145,7 @@ title: "Community"
         <div class="feature-card text-center">
           <i class="ti-face-smile mb-3"></i>
           <h4 class="mb-2">Code of Conduct</h4>
-          <p>Be nice and kind. If you would like more details, please read our Code Of Conduct in the About Us section. </p>
-         <b>See more below</b>
+          <p>Be nice and kind. If you would like more details, please read our <a href="/about/codeofconduct/">Code Of Conduct</a>.</p>
         </div>
       </div>
     </div>
@@ -163,7 +161,7 @@ title: "Community"
       </div>
       <div class="col-lg-6 col-md-7">
         <p class="h2 section-title">Stay Connected</p>
-        <p class="mb-4">Most of the action in the community happens in our Slack Channel. Click here to join! You can also keep informed about the InnerSource Commons news, events and activities by signing up to our mailing list, following us on Twitter, subscribing to our YouTube Channel, joining the LinkedIn Group.</p>
+        <p class="mb-4">Keep informed about InnerSource Commons news, events and activities by signing up to our mailing list, following us on Twitter, subscribing to our YouTube Channel, or joining the LinkedIn Group.</p>
         <p class="h3 section-title">Sign in to our mailing list</p>
         <div class="mailing-box">
           <form class="form-inline">
