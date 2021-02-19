@@ -11,20 +11,24 @@ languages:
           URL: learn
           weight: 1
           identifier: learn
+        - name: Articles
+          parent: learn
+          URL: learn/articles
+          weight: 1
         - name: Books
           parent: learn
           URL: learn/books
-          weight: 1
+          weight: 2
         - name: Learning Path
           parent: learn
           URL: learn/learning-path
-          weight: 2
+          weight: 3
         - name: Patterns
           parent: learn
           URL: https://innersourcecommons.gitbook.io/innersource-patterns/
-          weight: 3
+          weight: 4
           pre: _blank
-        - name: News&Events
+        - name: Events
           URL: events
           weight: 2
         - name: About
