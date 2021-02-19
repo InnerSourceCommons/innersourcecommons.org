@@ -23,7 +23,6 @@ image: "/images/logo.png"
     </div>
   </div>
 </section>
-
 <section class="section bg-light">
   <div class="container">
     <div class="row align-items-center">
@@ -40,7 +39,6 @@ image: "/images/logo.png"
     </div>
   </div>
 </section>
-
 <section class="section">
   <div class="container">
     <div class="row align-items-center">
@@ -57,7 +55,6 @@ image: "/images/logo.png"
     </div>
   </div>
 </section>
-
 <section class="section bg-light">
   <div class="container">
     <div class="row align-items-center">
@@ -74,7 +71,6 @@ image: "/images/logo.png"
     </div>
   </div>
 </section>
-
 <section class="section">
   <div class="container">
     <div class="row align-items-center">
@@ -90,7 +86,6 @@ image: "/images/logo.png"
     </div>
   </div>
 </section>
-
 <section class="section bg-light">
   <div class="container">
     <div class="row align-items-center">
@@ -106,7 +101,6 @@ image: "/images/logo.png"
     </div>
   </div>
 </section>
-
 <section class="section">
   <div class="container">
     <div class="row align-items-center">
@@ -122,7 +116,6 @@ image: "/images/logo.png"
     </div>
   </div>
 </section>
-
 <section class="section bg-light">
   <div class="container">
     <div class="row align-items-center">
@@ -138,7 +131,6 @@ image: "/images/logo.png"
     </div>
   </div>
 </section>
-
 <section class="section">
   <div class="container">
     <div class="row align-items-center">
@@ -154,7 +146,6 @@ image: "/images/logo.png"
     </div>
   </div>
 </section>
-
 <section class="section bg-light">
   <div class="container">
     <div class="row align-items-center">
@@ -168,10 +159,10 @@ image: "/images/logo.png"
         <a href="/documents/bylaws.pdf" class="btn-link">Bylaws<i class="ti-arrow-down"></i></a>
         <h3 style="margin-top: 20px;">Public Board Meeting Notes</h3>
         <ul>
-            <li><a href="" class="btn-link">Page to be created 2021-01-20<i class="ti-arrow-right"></i></a></li>
-            <li><a href="" class="btn-link">Page to be created 2020-12-16<i class="ti-arrow-right"></i></a></li>
-            <li><a href="" class="btn-link">Page to be created 2020-11-18<i class="ti-arrow-right"></i></a></li>
-            <li><a href="" class="btn-link">Page to be created 2020-06-10<i class="ti-arrow-right"></i></a></li>
-            <li><a href="" class="btn-link">Page to be created 2020-05-13<i class="ti-arrow-right"></i></a></li>
+            <li><a href="/about/board_notes/2021-01-20" class="btn-link">2021-01-20<i class="ti-arrow-right"></i></a></li>
+            <li><a href="/about/board_notes/2020-12-16" class="btn-link">2020-12-16<i class="ti-arrow-right"></i></a></li>
+            <li><a href="/about/board_notes/2020-11-18" class="btn-link">2020-11-18<i class="ti-arrow-right"></i></a></li>
+            <li><a href="/about/board_notes/2020-06-10" class="btn-link">2020-06-10<i class="ti-arrow-right"></i></a></li>
+            <li><a href="/about/board_notes/2020-05-13" class="btn-link">2020-05-13<i class="ti-arrow-right"></i></a></li>
   </div>
 </section>
