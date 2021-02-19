@@ -62,8 +62,8 @@ languages:
         - name: Learn
           URL: learn
           weight: 2
-        - name: Patterns
-          URL: https://innersourcecommons.gitbook.io/innersource-patterns/
+        - name: Community
+          URL: community
           weight: 3
           pre: _blank
         - name: About
