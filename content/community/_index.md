@@ -1,16 +1,6 @@
 ---
-title: "Community Page"
+title: "Community"
 ---
-
-<section class="banner banner-head">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 mx-auto text-center">
-        <p class="h1">Welcome to the InnerSource Commons Community Page</p>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="section">
   <div class="container">
@@ -35,7 +25,7 @@ title: "Community Page"
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center">
-          <i class="ti-direction-alt mb-3"></i>
+          <i class="ti-hand-open mb-3"></i>
           <h4 class="mb-2">Meet the Community</h4>
           <p>Say hello in the #general channel in Slack. Share your own experiences or ask questions about InnerSource. We all benefit from those discussions.</p>
           <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> Join Slack </a>
@@ -43,7 +33,7 @@ title: "Community Page"
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center">
-          <i class="ti-stats-up mb-3"></i>
+          <i class="ti-comment-alt mb-3"></i>
           <h4 class="mb-2">Have a Chat</h4>
           <p>Join #virtual-coffee-buddies for an in-person chat with somebody from our community.</p>
           <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> Join Slack</a>
@@ -51,7 +41,7 @@ title: "Community Page"
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center">
-          <i class="ti-settings mb-3"></i>
+          <i class="ti-key mb-3"></i>
           <h4 class="mb-2">Join a Working Group</h4>
           <p>Join one of our three working groups to contribute to the creation of ISC resources.</p>
          <b>See more below</b>
@@ -121,7 +111,7 @@ title: "Community Page"
         <p class="section-title h2">Board & Governance</p>
         <p>The InnerSource Commons Foundation is registered as a 501(c)3 non-profit organization in the US, and service on the Board is one way the community can deepen their commitment to InnerSource. Find out more about the Board in the About Us section.
         </p>
-        <a href="/about/board.md" class="btn-link">Learn more about the ISC Board <i class="ti-arrow-right"></i></a>
+        <a href="/about/board/" class="btn-link">Learn more about the ISC Board <i class="ti-arrow-right"></i></a>
       </div>
       <div class="col-md-4 offset-md-1 order-1 order-md-2 mb-4 mb-md-0">
         <img src="/images/logo-big.png" class="img-fluid">
@@ -139,7 +129,7 @@ title: "Community Page"
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center">
-          <i class="ti-direction-alt mb-3"></i>
+          <i class="ti-bookmark-alt mb-3"></i>
           <h4 class="mb-2">Tools & Resources</h4>
           <p>Most of our discussions happen in Slack. We have public and private projects on <a href="http://github.com/InnerSourceCommons"">GitHub</a> and store a lot of our working documents in gDrive. Join the respective working group Slack channel to get access.
           </p>
@@ -147,14 +137,14 @@ title: "Community Page"
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center">
-          <i class="ti-stats-up mb-3"></i>
+          <i class="ti-comments mb-3"></i>
           <h4 class="mb-2">Chatham House Rule</h4>
           <p>All discussions in our Slack channel are held under the <a href="https://www.chathamhouse.org/about-us/chatham-house-rule">Chatham House Rule</a> to create a safe space where people can ask real questions. Some events are held under the same rule.</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center">
-          <i class="ti-settings mb-3"></i>
+          <i class="ti-face-smile mb-3"></i>
           <h4 class="mb-2">Code of Conduct</h4>
           <p>Be nice and kind. If you would like more details, please read our Code Of Conduct in the About Us section. </p>
          <b>See more below</b>

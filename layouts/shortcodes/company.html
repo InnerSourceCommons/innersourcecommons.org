@@ -1,0 +1,7 @@
+<div class="col-md-4 col-sm-6 mb-4">
+  <div class="feature-card bg-light text-center">
+    <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}">
+    {{ with .Inner }}<p><cite>“{{ . }}”</cite></p> {{ end }}
+    {{ if .Get "author_name" }}<a href="{{ .Get "link" }}"><b>{{ .Get "author_name" }}</b>, {{ .Get "author_title" }}</a>{{ end }}
+  </div>
+</div>

@@ -31,6 +31,14 @@ languages:
         - name: Events
           URL: events
           weight: 2
+        - name: Community
+          identifier: community
+          URL: community
+          weight: 3
+        - name: InnerSource in Action
+          URL: community/action
+          parent: community
+          weight: 1
         - name: About
           URL: about
           weight: 4
