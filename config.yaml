@@ -62,8 +62,8 @@ languages:
         - name: Learn
           URL: learn
           weight: 2
-        - name: Patterns
-          URL: https://innersourcecommons.gitbook.io/innersource-patterns/
+        - name: Community
+          URL: community
           weight: 3
           pre: _blank
         - name: About
@@ -129,15 +129,15 @@ params:
     label: Join Slack
     link: slack
   social:
-    - title: facebook
-      icon: ti-facebook
-      link: '#'
+    - title: github
+      icon: ti-github
+      link: 'http://github.com/InnerSourceCommons'
+    - title: youtube
+      icon: ti-youtube
+      link: 'https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA'
     - title: twitter
       icon: ti-twitter-alt
-      link: '#'
-    - title: skype
-      icon: ti-skype
-      link: '#'
+      link: 'http://twitter.com/InnerSourceOrg'
     - title: linkedin
       icon: ti-linkedin
-      link: '#'
+      link: 'https://linkedin.com/company/innersourcecommons'
