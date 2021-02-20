@@ -1,5 +1,5 @@
 ---
-title: "Board and Governanance"
+title: "Board & Governance"
 type: "board"
 ---
 
@@ -27,7 +27,6 @@ Daniel Izquierdo Cortazar is a researcher and one of the founders of Bitergia, a
 {{< board-member name="Isabel Drost-Fromm" image="/images/about/Isabel_Drost-Fromm.jpeg" style="bg-light" >}}
 Isabel Drost-Fromm is Open Source Strategist at Europace AG Germany. She`s a member of the Apache Software Foundation, co-founder of Apache Mahout and mentored several incubating projects. Isabel is interested in all things FOSS, search and text mining with a decent machine learning background. True to the nature of people living in Berlin she loves having friends fly in for a brief visit - as a result she co-founded and is still one of the creative heads behind Berlin Buzzwords, a tech conference on all things search, scale and storage.
 {{< /board-member >}}
-
 {{< board-member name="Timothy H-J Yao" image="/images/about/Timothy_Yao.jpg" >}}
 Tim is a Distinguished Member of Technical Staff and the Product Line Manager for DevOps in Nokia Core Network Services. Over his twenty-four-year career in telecommunications, Tim has held roles in product management, software testing, system engineering, architecture, and procurement. He served six years on the Alcatel-Lucent FOSS Executive Committee. In the InnerSource Commons, he helped establish the InnerSource Patterns community.Tim has experience creating grass roots communities within the company and outside of it; he is a volunteer co-Municipal Liaison for National Novel Writing Month.
 {{< /board-member >}}

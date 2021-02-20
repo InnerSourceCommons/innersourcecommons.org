@@ -43,11 +43,11 @@ languages:
           identifier: about
           URL: about/commons
           weight: 4
-        - name: Board and Governance
+        - name: Board & Governance
           URL: about/board
           parent: about
           weight: 1
-        - name: Code Of Conduct
+        - name: Code of Conduct
           URL: about/codeofconduct
           parent: about
           weight: 2
