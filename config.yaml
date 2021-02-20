@@ -43,7 +43,7 @@ languages:
           identifier: about
           URL: about/commons
           weight: 4
-        - name: Board and Governance
+        - name: Board & Governance
           URL: about/board
           parent: about
           weight: 1
