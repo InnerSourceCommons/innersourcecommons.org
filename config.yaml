@@ -89,6 +89,18 @@ languages:
         - name: О сообществе
           URL: ru/about
           weight: 4
+  de:
+    languageName: Deutsch
+    weight: 2
+  ja:
+    languageName: 日本語
+    weight: 2
+  zh:
+    languageName: 中文
+    weight: 2
+  it:
+    languageName: Italiano
+    weight: 2
 paginate: '3'
 summaryLength: '15'
 disqusShortname: ''
