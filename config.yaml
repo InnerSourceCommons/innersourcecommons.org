@@ -47,7 +47,7 @@ languages:
           URL: about/board
           parent: about
           weight: 1
-        - name: Code Of Conduct
+        - name: Code of Conduct
           URL: about/codeofconduct
           parent: about
           weight: 2
