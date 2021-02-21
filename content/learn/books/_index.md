@@ -3,4 +3,4 @@ layout: page
 title: 'Books'
 image: "images/learn/books.jpg"
 ---
-A short intro to Books
+A collection of books about InnerSource. Produced directly by or in association with the InnerSource Commons.
