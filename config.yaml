@@ -25,7 +25,7 @@ languages:
           weight: 3
         - name: Patterns
           parent: learn
-          URL: https://innersourcecommons.gitbook.io/innersource-patterns/
+          URL: learn/patterns
           weight: 4
           pre: _blank
         - name: Events
