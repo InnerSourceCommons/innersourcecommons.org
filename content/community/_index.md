@@ -56,7 +56,7 @@ title: "Community"
     <div class="row align-items-center">
       <div class="col-md-5 mb-4 mb-md-0">
         <div>
-         {{< image-community >}}
+         <img src="/images/community/Live collaboration-cuate.png" class="img-fluid">
         </div>
       </div>
       <div class="col-md-6 ">
@@ -79,7 +79,7 @@ title: "Community"
         <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> innersource-patterns</a>
       </div>
       <div class="col-md-4 offset-md-1 order-1 order-md-2 mb-4 mb-md-0">
-        <img src="/images/logo-big.png" class="img-fluid">
+        <img src="/images/community/Collaboration-bro.png" class="img-fluid">
       </div>
     </div>
   </div>
@@ -90,7 +90,7 @@ title: "Community"
     <div class="row align-items-center">
       <div class="col-md-5 mb-4 mb-md-0">
         <div>
-         {{< image-community >}}
+         <img src="/images/community/Connected-cuate.png" class="img-fluid">
         </div>
       </div>
       <div class="col-md-6 ">
