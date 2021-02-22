@@ -40,7 +40,7 @@ image: "/images/learn/innersourceinaction.png"
     </div>
   </div>
 </section>
-<h2 style= "text-align: center; margin-bottom: 55px;">Some other companies that have spoken publickly about InnerSource</h2>
+<h2 style= "text-align: center; margin-bottom: 55px;">Some other companies that have spoken publicly about InnerSource</h2>
   <div class="container">
     <div class="row justify-content-center">
       {{< company name="3M" image="/images/logos/InnerSourceLogos/3M Logo.png" >}}{{< /company >}}
