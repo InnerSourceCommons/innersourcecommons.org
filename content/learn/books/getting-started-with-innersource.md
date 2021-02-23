@@ -1,7 +1,13 @@
 ---
-layout: page
+type: book
 title: 'Getting Started With InnerSource'
-image: "https://www.dbooks.org/img/books/1491937580s.jpg"
+image: "/images/learn/books/getting-started-with-innersource-cover-thumb.jpg"
+weight: 1
+summary: InnerSource, the powerful movement for developing open source software within the walls of a single organization, where the "openness" of a project extends across teams inside the company. Author Andy Oram takes you inside InnerSource, first by reviewing the principles that make open source development successful, and then by describing how InnerSource has worked at PayPal.
+book_author: Andy Oram
+book_publish_date: July 2015
+book_publisher: O’Reilly Media
+book_url: https://www.oreilly.com/radar/getting-started-with-innersource/
 ---
 
 Welcome to InnerSource, the powerful movement for developing open source software within the walls of a single organization, where the "openness" of a project extends across teams inside the company. In this report, O'Reilly editor and author Andy Oram takes you inside InnerSource, first by reviewing the principles that make open source development successful, and then by describing how InnerSource has worked at PayPal, the leading Internet commerce facilitator.
@@ -18,10 +24,14 @@ You'll learn specific advantages of the InnerSource strategy, including:
 
 This open book is licensed under a Creative Commons License (CC BY). You can download Getting Started with InnerSource ebook for free in PDF format (3.3 MB).
 
-https://www.oreilly.com/radar/getting-started-with-innersource/
+## Read the book
 
-https://www.dbooks.org/getting-started-with-innersource-1491937580/
+The [old website](http://www.oreilly.com/programming/free/getting-started-with-innersource.csp) of the book is currently not available.
 
-By Andy Oram
+However you find find highlights from the book in the O'Reilly Radar article [Getting started with InnerSource](https://www.oreilly.com/radar/getting-started-with-innersource/).
 
-July 20, 2016
+## About the Author
+
+Andy Oram is an editor at O’Reilly Media. An employee of the company since 1992, Andy currently specializes in open source technologies and software engineering. His work for O’Reilly includes the first books ever released by a US publisher on Linux, the 2001 title Peer-to-Peer, and the 2007 bestseller Beautiful Code.
+
+<!-- As an editor at O’Reilly Media, Andy Oram brought to publication O’Reilly’s Linux series, the ground-breaking book Peer-to-Peer, and the best-seller Beautiful Code. Andy has also authored many reports on technical topics such as data lakes, web performance, and open source software. His articles have appeared in The Economist, Communications of the ACM, Copyright World, the Journal of Information Technology & Politics, Vanguardia Dossier, and Internet Law and Business. Conferences where he has presented talks include O’Reilly’s Open Source Convention, FISL (Brazil), FOSDEM (Brussels), DebConf, and LibrePlanet. Andy participates in the Association for Computing Machinery’s policy organization, USTPC. He also writes for various web sites about health IT and about issues in computing and policy. -->

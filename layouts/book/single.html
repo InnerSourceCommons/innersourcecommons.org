@@ -1,0 +1,55 @@
+{{ define "main" }}
+{{ partial "breadcrumbs.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 mx-auto">
+        <h1 class="mb-4">{{ .Title }}</h1>
+
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-50 rounded mb-4">
+          </div>
+          <div class="col-md-6">
+            <p> <b>Author:</b> {{ .Params.book_author }} </p>
+            <p> <b>Publication Date:</b> {{ .Params.book_publish_date }} </p>
+            <p> <b>Publisher:</b> {{ .Params.book_publisher }} </p>
+            <a href="{{.Params.book_url}}" class="btn btn-primary btn-sm">Read the book</a>
+          </div>
+        </div>
+
+        <div class="content">{{ .Content }}</div>
+
+        <div class="clearfix">
+          {{ with .NextInSection }}
+            <a class="btn btn-light float-left" href="{{.Permalink}}">← {{.Title}}</a>
+          {{ end }}
+          {{ with .PrevInSection }}
+            <a class="btn btn-primary float-right" href="{{.Permalink}}"> {{.Title}} →</a>
+          {{ end }}
+        </div>
+        {{ with .Params.contributors }}
+        <div class="mt-4">
+          <h3>Contributors</h3>
+          <ul class="nav">
+            {{ range . }}
+            {{ $username := index (last 1 (split .url "/")) 0 }}
+            {{ $photo := "" }}
+            {{ if $username }}
+            {{ $photo = printf "https://avatars.githubusercontent.com/%s" $username }}
+            {{ else }}
+            {{ $photo = "/images/user.jpg"}}
+            {{ end }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .url }}" target="_blank"><img class="rounded-circle contributor" src="{{ $photo }}" alt="{{ .name }}" title="{{ .name }}" /></a>
+            </li>
+            {{ end }}
+          </ul>
+        {{ end}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
