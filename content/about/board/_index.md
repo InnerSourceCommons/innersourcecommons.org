@@ -4,7 +4,7 @@ type: "board"
 subtitle: InnerSource Commons is a 501(c)(3) non-profit organization governed by a set of corporate bylaws. The Board of Directors sets the policy and appoints officers that set and execute policy. The Board is elected by the Membership on a yearly basis. InnerSource Commons initially is incorporated in the US. As the community grows, we anticipate to found sister organizations in the European Union, Latin America, and other parts of the world.
 ---
 
-<div class="mt-4 container">
+<div class="section-first container">
     <h3>Our current Board is made up of:</h3>
 </div>
 
