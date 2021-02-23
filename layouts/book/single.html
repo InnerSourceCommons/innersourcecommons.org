@@ -9,7 +9,8 @@
 
         <div class="row align-items-center">
           <div class="col-md-6 mb-4 mb-md-0">
-            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-50 rounded mb-4">
+            <a href="{{.Params.book_url}}">
+              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-50 rounded mb-4"></a>
           </div>
           <div class="col-md-6">
             <p> <b>Author:</b> {{ .Params.book_author }} </p>

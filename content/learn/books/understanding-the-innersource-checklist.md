@@ -7,7 +7,7 @@ summary: Author Silona Bonewald explains how the InnerSource initiative can help
 book_author: Silona Bonewald
 book_publish_date: May 2017
 book_publisher: O’Reilly Media
-book_url: https://innersourcecommons.org/assets/files/InnerSourceChecklist.pdf
+book_url: /documents/books/InnerSourceChecklist.pdf
 ---
 
 Do you want your day job to be more like your work on a favorite Open Source Project? Do your teams need to reduce technical debt?  Do you want to break down the silos between your people and allow more collaboration and reuse?
