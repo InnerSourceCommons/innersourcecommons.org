@@ -26,6 +26,4 @@ This open book is licensed under a Creative Commons License (CC BY). You can dow
 
 ## About the Author
 
-Andy Oram is an editor at O’Reilly Media. An employee of the company since 1992, Andy currently specializes in open source technologies and software engineering. His work for O’Reilly includes the first books ever released by a US publisher on Linux, the 2001 title Peer-to-Peer, and the 2007 bestseller Beautiful Code.
-
-<!-- As an editor at O’Reilly Media, Andy Oram brought to publication O’Reilly’s Linux series, the ground-breaking book Peer-to-Peer, and the best-seller Beautiful Code. Andy has also authored many reports on technical topics such as data lakes, web performance, and open source software. His articles have appeared in The Economist, Communications of the ACM, Copyright World, the Journal of Information Technology & Politics, Vanguardia Dossier, and Internet Law and Business. Conferences where he has presented talks include O’Reilly’s Open Source Convention, FISL (Brazil), FOSDEM (Brussels), DebConf, and LibrePlanet. Andy participates in the Association for Computing Machinery’s policy organization, USTPC. He also writes for various web sites about health IT and about issues in computing and policy. -->
+**Andy Oram** is an editor at O’Reilly Media. An employee of the company since 1992, Andy currently specializes in open source technologies and software engineering. His work for O’Reilly includes the first books ever released by a US publisher on Linux, the 2001 title Peer-to-Peer, and the 2007 bestseller Beautiful Code.
