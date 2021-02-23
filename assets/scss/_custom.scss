@@ -10,6 +10,10 @@
     padding-bottom: 20px;
 }
 
+.section-first {
+    padding-top: 20px;
+}
+
 .banner {
     padding: 50px 0 50px;
 }
@@ -30,8 +34,24 @@ ol.breadcrumb {
     color: $primary-color;
 }
 
-.section {
-    padding-top: 30px;
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.mh-300 {
+    max-height: 300px;
+}
+
+.mh-150 {
+    max-height: 150px;
+}
+
+.h-150 {
+    height: 150px;
 }
 
 .contributor {
@@ -59,4 +79,12 @@ ol.breadcrumb {
     background: $light;
     padding: 15px 30px;
     border-radius: 15px;
+}
+
+.logo-home {
+    max-height: 200px;
+    float: right;
+}
+[class*=" ti-"], [class^=ti-] {
+    vertical-align: -10%;
 }

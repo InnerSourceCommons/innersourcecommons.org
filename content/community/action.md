@@ -1,10 +1,9 @@
 ---
 layout: page
 title: "InnerSource in Action"
+subtitle: "The InnerSource Commons community has over 900 subscribers from 350 organizations and we know that InnerSource is practiced by tens of thousands of people worldwide."
 image: "/images/learn/innersourceinaction.png"
 ---
-
-<section class="section">
   <div class="container">
     <div class="row justify-content-center">
       {{< company name="PayPal" image="/images/logos/paypal.png" link="https://innersourcecommons.org/assets/files/AdoptingInnerSource.pdf" author_name="Sathish Vaidyanathan" author_title="Adopting InnerSource Book" >}}
@@ -34,6 +33,24 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Huawei" image="/images/logos/huawei.png" link="https://www.youtube.com/watch?v=MhNnK_VPLVI" author_name="Willem Jiang and Long Li" author_title="Huawei" >}}
         We need to build a community around the InnerSource projects of people who share the same ideals.
       {{< /company >}}
+      {{< company name="3M" image="/images/logos/3m.png" >}}{{< /company >}}
+      {{< company name="Accenture" image="/images/logos/accenture.png" >}}{{< /company >}}
+      {{< company name="Adeo" image="/images/logos/adeo.png" >}}{{< /company >}}
+      {{< company name="Ahold Delhaise" image="/images/logos/ahold.png" >}}{{< /company >}}
+      {{< company name="Autodesk" image="/images/logos/autodesc.png" >}}{{< /company >}}
+      {{< company name="BuzzFeed" image="/images/logos/buzzfeed.png" >}}{{< /company >}}
+      {{< company name="Caprillary" image="/images/logos/capillary.png" >}}{{< /company >}}
+      {{< company name="CHR" image="/images/logos/chr.png" >}}{{< /company >}}
+      {{< company name="Continental" image="/images/logos/continental.png" >}}{{< /company >}}
+      {{< company name="Decathlon" image="/images/logos/decathlon.png" >}}{{< /company >}}
+      {{< company name="Deliveroo" image="/images/logos/deliveroo.png" >}}{{< /company >}}
+      {{< company name="Dow Jones" image="/images/logos/dowjones.png" >}}{{< /company >}}
+      {{< company name="Nationwide" image="/images/logos/nationwide.png" >}}{{< /company >}}
+      {{< company name="Otto Group" image="/images/logos/ottogroup.png" >}}{{< /company >}}
+      {{< company name="Seagate" image="/images/logos/seagate.png" >}}{{< /company >}}
+      {{< company name="Spotify" image="/images/logos/spotify.png" >}}{{< /company >}}
+      {{< company name="Stripe" image="/images/logos/stripe.png" >}}{{< /company >}}
+      {{< company name="Tray.io" image="/images/logos/tray.png" >}}{{< /company >}}
+      {{< company name="Trustpilot" image="/images/logos/trustpilot.png" >}}{{< /company >}}
     </div>
   </div>
-</section>
