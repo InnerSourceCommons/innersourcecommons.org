@@ -3,7 +3,7 @@ title: "Board & Governance"
 type: "board"
 ---
 <div class="container section">
-    <h4>Boards are elected by the membership on a yearly basis. ISC initially is incorporated in the US. As the community grows, we anticipate to found sister organizations in the European Union, Latin America, and other parts of the world. </h4>
+    <h4>As a an IRS registered 501(c)(3) non-profit, the InnerSource Commons (ISC) is governed by a set of corporate bylaws like many companies. The Board of Directors sets the ISC's policy and appoints officers (e.g. Treasurer); various officers set and execute policy. The ISC Board is elected by the Membership on a yearly basis. ISC initially is incorporated in the US. As the community grows, we anticipate to found sister organizations in the European Union, Latin America, and other parts of the world.</h4>
     <h4>Our current Board is made up of:</h4>
 </div>
 {{< board-member name="Danese Cooper" title="President" image="/images/about/Danese_Cooper.jpg" >}}
