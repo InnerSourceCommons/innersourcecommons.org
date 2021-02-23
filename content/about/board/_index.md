@@ -1,11 +1,13 @@
 ---
 title: "Board & Governance"
 type: "board"
+subtitle: InnerSource Commons is a 501(c)(3) non-profit organization governed by a set of corporate bylaws. The Board of Directors sets the policy and appoints officers that set and execute policy. The Board is elected by the Membership on a yearly basis. InnerSource Commons initially is incorporated in the US. As the community grows, we anticipate to found sister organizations in the European Union, Latin America, and other parts of the world.
 ---
-<div class="container section">
-    <h4>As a an IRS registered 501(c)(3) non-profit, the InnerSource Commons (ISC) is governed by a set of corporate bylaws like many companies. The Board of Directors sets the ISC's policy and appoints officers (e.g. Treasurer); various officers set and execute policy. The ISC Board is elected by the Membership on a yearly basis. ISC initially is incorporated in the US. As the community grows, we anticipate to found sister organizations in the European Union, Latin America, and other parts of the world.</h4>
-    <h4>Our current Board is made up of:</h4>
+
+<div class="mt-4 container">
+    <h3>Our current Board is made up of:</h3>
 </div>
+
 {{< board-member name="Danese Cooper" title="President" image="/images/about/Danese_Cooper.jpg" >}}
 Danese Cooper is the founder and president of InnerSource Commons. She is also vice president of special initiatives at NearForm, an Irish tech firm. Previously, she was head of open source software at PayPal, CTO of the Wikimedia Foundation, chief open source evangelist for Sun, and senior director of open source strategies for Intel. Danese was also the inaugural chairperson of the Node.js Foundation. She concentrates on creating healthy open source communities and has served on the boards of Drupal Association, the Open Source Initiative, the Open Source Hardware Association, and she’s advised Mozilla and the Apache Software Foundation. Danese also runs a successful open source consultancy that counts the Bill & Melinda Gates Foundation, the SETI Institute, Harris, and Numenta as clients. She’s been known to knit through meetings.
 {{< /board-member >}}
