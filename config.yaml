@@ -11,10 +11,6 @@ languages:
           URL: learn
           weight: 1
           identifier: learn
-        - name: Articles
-          parent: learn
-          URL: learn/articles
-          weight: 1
         - name: Books
           parent: learn
           URL: learn/books
