@@ -99,14 +99,7 @@ title: "InnerSource Commons"
         <p class="h2 section-title">Stay Connected</p>
         <p class="mb-4">Most of the action in the community happens in our <a href="https://innersourcecommons-inviter.herokuapp.com/">Slack Channel</a>. You can also keep informed about the InnerSource Commons news, events and activities by signing up to our mailing list below, following us on <a href="https://twitter.com/InnerSourceOrg">Twitter</a> and on <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, and subscribing to our <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube Channel</a>.</p>
         <p class="h3 section-title">Sign in to our mailing list</p>
-        <div class="mailing-box">
-          <form class="form-inline">
-            <div class="form-group pr-3">
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            </div>
-            <button type="submit" class="btn btn-primary">Subscribe</button>
-          </form>
-        </div>
+        {{< contact-form >}}
       </div>
     </div>
   </div>
