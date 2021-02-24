@@ -62,7 +62,7 @@ Interested individuals and companies are welcome to participate and contribute c
     </div>
   </div>
 </section>
-  
+
 
 <section class="section bg-light">
   <div class="container">
@@ -90,9 +90,8 @@ Interested individuals and companies are welcome to participate and contribute c
       <div class="col-md-6">
           <p class="section-title h2">Board & Governance</p>
           <p>InnerSource Commons is a 501(c)(3) non-profit organization governed by a set of corporate bylaws. The Board of Directors sets the policy and appoints officers that set and execute policy. The Board is elected by the Membership on a yearly basis.</p>
-          <a href="/board" class="btn btn-sm btn-primary mt-1"><i class="ti-comments pr-2"></i>Learn More</a>
+          <a href="/about/board" class="btn btn-sm btn-primary mt-1"><i class="ti-comments pr-2"></i>Learn More</a>
         </div>
     </div>
   </div>
 </section>
-
