@@ -1,11 +1,11 @@
 ---
 title: "InnerSource Patterns"
-subtitle: "InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and apply them in your context."
-description: "InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and apply them in your context."
 image: "images/learn/patterns.jpg"
+summary: "InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and apply them in your context."
 aliases:
   - /patterns-officehours/
   - /patterns/
+weight: 3
 ---
 
 Over many years the InnerSource Commons has collected best practices around InnerSource, codified in a specific format to make it easy to understand, evaluate, and apply them in your context.  We call this format a **pattern**.
