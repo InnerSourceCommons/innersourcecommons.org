@@ -1,5 +1,8 @@
 // This file is empty within the template
 // You can use it to override CSS from within your project
+a {
+    color: #0aa8a7;
+}
 
 .time{ width:12% }
 
@@ -76,7 +79,7 @@ ol.breadcrumb {
 }
 
 .mailing-box {
-    background: $light;
+    background: #fff;
     padding: 15px 30px;
     border-radius: 15px;
 }

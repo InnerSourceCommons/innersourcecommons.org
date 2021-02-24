@@ -1,12 +1,12 @@
 ---
 layout: page
 title: "InnerSource in Action"
-subtitle: "The InnerSource Commons community has over 900 subscribers from 350 organizations and we know that InnerSource is practiced by tens of thousands of people worldwide."
+subtitle: "The InnerSource Commons community has over 900 subscribers from 350 organizations. Listed below is a sample of the organizations who have publicly declared they are using InnerSource."
 image: "/images/learn/innersourceinaction.png"
 ---
   <div class="container">
     <div class="row justify-content-center">
-      {{< company name="PayPal" image="/images/logos/paypal.png" link="https://innersourcecommons.org/assets/files/AdoptingInnerSource.pdf" author_name="Sathish Vaidyanathan" author_title="Adopting InnerSource Book" >}}
+      {{< company name="PayPal" image="/images/logos/paypal.png" link="/learn/books/adopting-innersource-principles-and-case-studies" author_name="Sathish Vaidyanathan" author_title="Adopting InnerSource Book" >}}
         The Process of InnerSource is actually the mindset of Collaboration.
       {{< /company >}}
       {{< company name="Capital One" image="/images/logos/capitalone.png" link="https://www.youtube.com/watch?v=1jiAGQ7y_vQ&t=130s" author_name="Roderick Randolph" author_title="Capital One" >}}

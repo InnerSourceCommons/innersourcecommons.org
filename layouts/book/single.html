@@ -1,0 +1,55 @@
+{{ define "main" }}
+{{ partial "breadcrumbs.html" . }}
+
+<section class="section section-first">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4 mb-md-0 align-items-center">
+            <a href="{{.Params.book_url}}">
+              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid rounded mb-4"></a>
+          </div>
+          <div class="col-md-6">
+            <h1 class="mb-4">{{ .Title }}</h1>
+            <p class="mb-0"> <b>Author:</b> {{ .Params.book_author }} </p>
+            <p class="mb-0"> <b>Publication Date:</b> {{ .Params.book_publish_date }} </p>
+            <p class="mb-4"> <b>Publisher:</b> {{ .Params.book_publisher }} </p>
+            <a href="{{.Params.book_url}}" class="btn btn-primary">Read the book</a>
+          </div>
+        </div>
+
+        <div class="content">{{ .Content }}</div>
+
+        <div class="clearfix">
+          {{ with .NextInSection }}
+            <a class="btn btn-light float-left" href="{{.Permalink}}">← {{.Title}}</a>
+          {{ end }}
+          {{ with .PrevInSection }}
+            <a class="btn btn-primary float-right" href="{{.Permalink}}"> {{.Title}} →</a>
+          {{ end }}
+        </div>
+        {{ with .Params.contributors }}
+        <div class="mt-4">
+          <h3>Contributors</h3>
+          <ul class="nav">
+            {{ range . }}
+            {{ $username := index (last 1 (split .url "/")) 0 }}
+            {{ $photo := "" }}
+            {{ if $username }}
+            {{ $photo = printf "https://avatars.githubusercontent.com/%s" $username }}
+            {{ else }}
+            {{ $photo = "/images/user.jpg"}}
+            {{ end }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .url }}" target="_blank"><img class="rounded-circle contributor" src="{{ $photo }}" alt="{{ .name }}" title="{{ .name }}" /></a>
+            </li>
+            {{ end }}
+          </ul>
+        {{ end}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
