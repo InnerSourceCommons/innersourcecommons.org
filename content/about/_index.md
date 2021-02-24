@@ -5,16 +5,6 @@ description: "The InnerSource Commons is a growing community of practitioners wi
 draft: false
 ---
 
-<section class="banner banner-head">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 mx-auto text-center">
-        <p class="h1">About InnerSource Commons</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="section section-first">
   <div class="container">
     <div class="row align-items-center">
