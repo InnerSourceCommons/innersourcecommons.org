@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "InnerSource in Action"
-subtitle: "The InnerSource Commons community has over 900 subscribers from 350 organizations and we know that InnerSource is practiced by tens of thousands of people worldwide."
+subtitle: "The InnerSource Commons community has over 900 subscribers from 350 organizations. Listed below is a sample of the organizations who have publicly declared they are using InnerSource."
 image: "/images/learn/innersourceinaction.png"
 ---
   <div class="container">
