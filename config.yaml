@@ -23,7 +23,6 @@ languages:
           parent: learn
           URL: learn/patterns
           weight: 4
-          pre: _blank
         - name: Events
           URL: events
           weight: 2
