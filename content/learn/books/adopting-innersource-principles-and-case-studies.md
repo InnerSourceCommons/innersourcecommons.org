@@ -1,6 +1,6 @@
 ---
 type: book
-title: 'Adopting InnerSource - Principles and Case Studies'
+title: 'Adopting InnerSource'
 image: "/images/learn/books/adopting-innersource-cover-thumb.jpg"
 weight: 4
 summary: Danese Cooper and Klaas-Jan Stol present a series of case studies at a range of companies to show when and why InnerSource may be useful to your organization. The case studies candidly discuss the difficulties of getting InnerSource projects started, along with the progress so far and the benefits or negative fallout.

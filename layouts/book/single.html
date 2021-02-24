@@ -1,22 +1,21 @@
 {{ define "main" }}
 {{ partial "breadcrumbs.html" . }}
 
-<section class="section">
+<section class="section section-first">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 mx-auto">
-        <h1 class="mb-4">{{ .Title }}</h1>
-
-        <div class="row align-items-center">
-          <div class="col-md-6 mb-4 mb-md-0">
+      <div class="col-md-10 mx-auto">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4 mb-md-0 align-items-center">
             <a href="{{.Params.book_url}}">
-              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-50 rounded mb-4"></a>
+              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid rounded mb-4"></a>
           </div>
           <div class="col-md-6">
-            <p> <b>Author:</b> {{ .Params.book_author }} </p>
-            <p> <b>Publication Date:</b> {{ .Params.book_publish_date }} </p>
-            <p> <b>Publisher:</b> {{ .Params.book_publisher }} </p>
-            <a href="{{.Params.book_url}}" class="btn btn-primary btn-sm">Read the book</a>
+            <h1 class="mb-4">{{ .Title }}</h1>
+            <p class="mb-0"> <b>Author:</b> {{ .Params.book_author }} </p>
+            <p class="mb-0"> <b>Publication Date:</b> {{ .Params.book_publish_date }} </p>
+            <p class="mb-4"> <b>Publisher:</b> {{ .Params.book_publisher }} </p>
+            <a href="{{.Params.book_url}}" class="btn btn-primary">Read the book</a>
           </div>
         </div>
 
