@@ -1,7 +1,17 @@
 // This file is empty within the template
 // You can use it to override CSS from within your project
-a {
+a, .content a {
     color: #0aa8a7;
+    border-bottom: 1px dotted #ececec;
+}
+
+a:hover, .content a:hover {
+    color: #0aa8a7;
+    border-bottom: 1px solid #ececec;
+}
+
+.card a, .navbar a {
+    border: none;
 }
 
 .time{ width:12% }
