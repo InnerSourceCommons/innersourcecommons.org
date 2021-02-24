@@ -46,9 +46,8 @@ draft: false
       <div class="col-md-6">
           <p class="section-title h2">How We Work</p>
           <p>The InnerSource Commons utilizes open source methods to provide organizations practicing InnerSource a forum for discussing and improving the practice of InnerSource through the sharing of experiences (under the <a href="https://www.chathamhouse.org/about-us/chatham-house-rule">Chatham House Rule</a>), creation and review of InnerSource patterns, and the open exchange of ideas.</p>
-        <p>
-Interested individuals and companies are welcome to participate and contribute content to the ISC. In general, contributed content will be made available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> attributed to InnerSourceCommons.org. No fees are required to participate.</p>
-                <a href="/community" class="btn btn-sm btn-primary"><i class="ti-hand-open pr-2"></i> Learn more</a>
+        <p>Interested individuals and companies are welcome to participate and contribute content to the ISC. In general, contributed content will be made available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> attributed to InnerSourceCommons.org. No fees are required to participate.</p>        
+        <a href="/community/" class="btn-link">Check out how we work <i class="ti-arrow-right"></i></a>
         </div>
     </div>
   </div>
@@ -81,7 +80,7 @@ Interested individuals and companies are welcome to participate and contribute c
       <div class="col-md-6">
           <p class="section-title h2">Board & Governance</p>
           <p>InnerSource Commons is a 501(c)(3) non-profit organization governed by a set of corporate bylaws. The Board of Directors sets the policy and appoints officers that set and execute policy. The Board is elected by the Membership on a yearly basis.</p>
-          <a href="/about/board/" class="btn btn-sm btn-primary mt-1"><i class="ti-settings pr-2"></i>Learn More</a>
+          <a href="/about/board/" class="btn-link">Learn more about the ISC Board <i class="ti-arrow-right"></i></a>
         </div>
     </div>
   </div>
