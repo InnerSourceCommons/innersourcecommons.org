@@ -42,7 +42,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="AXA" image="/images/logos/axa.png" >}}{{< /company >}}
       {{< company name="Baidu" image="/images/logos/baidu.png" >}}{{< /company >}}
       {{< company name="BBC" image="/images/logos/bbc.png" >}}{{< /company >}}
-      {{< company name="Bitergia" image="/images/logos/bitergia.png" >}}{{< /company >}}
+      {{< company name="Bitergia" image="/images/logos/bitergia-logo-big.png" >}}{{< /company >}}
       {{< company name="Bloomberg" image="/images/logos/bloomberg.png" >}}{{< /company >}}
       {{< company name="Bosch" image="/images/logos/bosch.png" >}}{{< /company >}}
       {{< company name="BuzzFeed" image="/images/logos/buzzfeed.png" >}}{{< /company >}}
