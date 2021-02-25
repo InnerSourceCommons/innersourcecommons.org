@@ -5,4 +5,5 @@ redirect: "https://innersourcecommons.gitbook.io/innersource-patterns/"
 type: "redirects"
 target: "_blank"
 image: "images/learn/patterns.jpg"
+weight: 1
 ---
