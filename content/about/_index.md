@@ -30,7 +30,7 @@ draft: false
         </p>
       </div>
       <div class="col-md-6 mt-4 mb-4 mb-md-0 float-right">
-        <img src="/images/community/collaboration.png" class="img-fluid pl-4 pr-4">
+        <img src="/images/about/Creative team-amico.png" class="img-fluid pl-4 pr-4">
       </div>
     </div>
   </div>
@@ -41,7 +41,7 @@ draft: false
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-5 mb-4 mb-md-0">
-        {{< image-community >}}
+       <img src="/images/community/collaboration.png" class="img-fluid pl-4 pr-4">
       </div>
       <div class="col-md-6">
           <p class="section-title h2">How We Work</p>
@@ -64,7 +64,7 @@ draft: false
         </p>
       </div>
       <div class="col-md-6 mt-4 mb-4 mb-md-0 float-right">
-        <img src="/images/community/collaboration.png" class="img-fluid pl-4 pr-4">
+        <img src="/images/about/Collab-pana.png" class="img-fluid pl-4 pr-4">
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@ draft: false
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-5 mb-4 mb-md-0">
-        {{< image-community >}}
+         <img src="/images/about/Team-cuate.png" class="img-fluid pl-4 pr-4">
       </div>
       <div class="col-md-6">
           <p class="section-title h2">Board & Governance</p>
