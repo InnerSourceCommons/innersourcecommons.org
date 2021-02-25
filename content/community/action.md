@@ -15,7 +15,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Tencent" image="/images/logos/tencent.png" link="https://www.youtube.com/watch?v=JCHbtKu71SQ" author_name="Jerry Tan" author_title="Tencent" >}}
         [Tencent] adopted InnerSource to promote engineer culture inside the company... 80% of  projects get InnerSourced.
       {{< /company >}}
-      {{< company name="Microsoft" image="/images/logos/microsoft.png" link="https://www.youtube.com/watch?v=eZdx5MQCLA4" author_name="Arno Mihin" author_title="Program Manager InnerSource at Microsoft" >}}
+      {{< company name="Microsoft" image="/images/logos/microsoft.png" link="https://www.youtube.com/watch?v=eZdx5MQCLA4" author_name="Arno Mihm" author_title="Program Manager InnerSource at Microsoft" >}}
         At Microsoft projects that are very successful in respect to InnerSource make an emphasis to enable the success of their collaborators parallel to their own success.
       {{< /company >}}
       {{< company name="Comcast" image="/images/logos/comcast.png" link="https://www.youtube.com/watch?v=msD-8-yrGfs&t=6s" author_name="Nithya Ruff" author_title="Head of Comcast’s Open Source Program Office" >}}
