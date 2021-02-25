@@ -9,7 +9,7 @@ draft: false
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-4 mb-4 mb-md-0">
-        <img src="/images/logo-big.png" class="img-fluid logo-home pl-4">
+        <img src="/images/logo-big.png" class="img-fluid logo-home pr-4">
       </div>
       <div class="col-md-7">
         <p>The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource. Founded in 2015, the InnerSource Commons is now supporting and connecting over 900 individuals from over 350 companies, academic institutions, and government agencies. The InnerSource Commons Foundation was incorporated on February 19th, 2020 and is now a 501(c)(3) public charity.
@@ -30,7 +30,7 @@ draft: false
         </p>
       </div>
       <div class="col-md-6 mt-4 mb-4 mb-md-0 float-right">
-        <img src="/images/about/Creative team-amico.png" class="img-fluid pl-4 pr-4">
+        <img src="/images/about/illustrations/creative.png" class="img-fluid pl-4 pr-4">
       </div>
     </div>
   </div>
@@ -41,7 +41,7 @@ draft: false
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-5 mb-4 mb-md-0">
-       <img src="/images/community/collaboration.png" class="img-fluid pl-4 pr-4">
+       <img src="/images/community/connection.png" class="img-fluid pl-4 pr-4">
       </div>
       <div class="col-md-6">
           <p class="section-title h2">How We Work</p>
@@ -56,7 +56,7 @@ draft: false
 
 <section class="section bg-light">
   <div class="container">
-    <div class="row text-right">
+    <div class="row text-right align-items-center">
       <div class="col-md-6">
         <p class="section-title h2">InnerSource Commons Members</p>
         <p>The InnerSource Commons community is open to all. Some community participants go above and beyond, and may be invited to become an ISC Member. The InnerSource Commons is a membership corporation, so ISC Members serve a similar role as shareholders do in publicly traded corporations. </p>
@@ -64,7 +64,7 @@ draft: false
         </p>
       </div>
       <div class="col-md-6 mt-4 mb-4 mb-md-0 float-right">
-        <img src="/images/about/Collab-pana.png" class="img-fluid pl-4 pr-4">
+        <img src="/images/about/illustrations/notebook.png" class="img-fluid pl-4 pr-4">
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@ draft: false
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-5 mb-4 mb-md-0">
-         <img src="/images/about/Team-cuate.png" class="img-fluid pl-4 pr-4">
+         <img src="/images/about/illustrations/team.png" class="img-fluid pl-4 pr-4">
       </div>
       <div class="col-md-6">
           <p class="section-title h2">Board & Governance</p>
