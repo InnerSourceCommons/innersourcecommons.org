@@ -37,7 +37,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Accenture" image="/images/logos/accenture.png" >}}{{< /company >}}
       {{< company name="Adeo" image="/images/logos/adeo.png" >}}{{< /company >}}
       {{< company name="Ahold Delhaise" image="/images/logos/ahold.png" >}}{{< /company >}}
-      {{< company name="American Airlines" image="/images/logos/american airlines logo.png" >}}{{< /company >}}
+      {{< company name="American Airlines" image="/images/logos/Anyshore.png" >}}{{< /company >}}
+      {{< company name="Anyshore" image="/images/logos/american airlines logo.png" >}}{{< /company >}}
       {{< company name="Autodesk" image="/images/logos/autodesc.png" >}}{{< /company >}}
       {{< company name="AXA" image="/images/logos/axa_logo.png" >}}{{< /company >}}
       {{< company name="Baidu" image="/images/logos/baidu logo.png.crdownload.png" >}}{{< /company >}}
@@ -84,6 +85,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Redmonk" image="/images/logos/redmonk logo.png" >}}{{< /company >}}
       {{< company name="SberBank" image="/images/logos/sberbank-logo-3.webp" >}}{{< /company >}}
       {{< company name="Seagate" image="/images/logos/seagate.png" >}}{{< /company >}}
+      {{< company name="Skyscanner" image="/images/logos/Skyscanner-Logo.png" >}}{{< /company >}}
       {{< company name="Societe Generale" image="/images/logos/societe-generale-logo.png" >}}{{< /company >}}
       {{< company name="Spotify" image="/images/logos/spotify.png" >}}{{< /company >}}
       {{< company name="Stack Overflow" image="/images/logos/stack overflow logo.png" >}}{{< /company >}}
@@ -96,7 +98,10 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Trustpilot" image="/images/logos/trustpilot.png" >}}{{< /company >}}
       {{< company name="Twillio" image="/images/logos/Twilio_logo.png" >}}{{< /company >}}
       {{< company name="Walmart" image="/images/logos/walmart logo.png" >}}{{< /company >}}
+      {{< company name="Wayfair" image="/images/logos/Wayfair_logo_with_tagline.png" >}}{{< /company >}}
+      {{< company name="Wiley" image="/images/logos/Wiley Logo White.png" >}}{{< /company >}}
       {{< company name="Zalando" image="/images/logos/Zalando Logo.png.crdownload.png" >}}{{< /company >}}
       {{< company name="Zendesk" image="/images/logos/zendesk logo trans 740px.png" >}}{{< /company >}}
+      {{< company name="Zibasec" image="/images/logos/zibasec-logo.png" >}}{{< /company >}}
     </div>
   </div>
