@@ -7,7 +7,9 @@ date: 2020-04-14
 ---
 ### 14th to 15th April 2020, online
 
-Welcome to the 10th InnerSource Commons taking place in *your living room*! ;) We're going virtual - see details below. Latest update: all the summit talks are now available on the <a href="https://www.youtube.com/playlist?list=PLCH-i0B0otNQeYBH5QvNRBDA3CMrS9lL9">InnerSource Commons YouTube channel</a>!
+The 10th InnerSource Commons Summit took place in *your living room*! ;) We went virtual - see details below. All the summit talks are now available on the <a href="https://www.youtube.com/playlist?list=PLCH-i0B0otNQeYBH5QvNRBDA3CMrS9lL9">InnerSource Commons YouTube channel</a>!
+
+### The following information is for reference purposes only.
 
 We are all exploring new ways to get together and keep advancing in the body of knowledge of InnerSource. Nowadays and in this industry, it is more and more important to successfully work remotely and across different geographical areas. This online event has this in mind and we hope to learn from each other, what it is working and what it is not.
 

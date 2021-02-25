@@ -74,7 +74,7 @@ title: "Community"
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
         <p class="section-title h2">Patterns Working Group</p>
-        <p>The Patterns Working Group is creating a book with InnerSource Patterns — best practices codified in a specific format easy to understand and reuse. The Patterns group hold regular working hours, but most of the work is done asynchronously on <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/" target="_blank">GitHub</a>.
+        <p>The Patterns Working Group is creating a book with InnerSource Patterns — best practices codified in a specific format easy to understand and reuse. The Patterns group hold regular office-hours, but most of the work is done asynchronously on <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/" target="_blank">GitHub</a>.
         </p>
         <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> innersource-patterns</a>
       </div>
@@ -95,7 +95,7 @@ title: "Community"
       </div>
       <div class="col-md-6 ">
         <p class="section-title h2">Marketing & Outreach Working Group</p>
-        <p>The Marketing & Outreach Working Group promotes InnerSource success stories, supports outreach activities, conducts research, and organizes InnerSource <a href="/events/">events and summits</a>. It meets bi-weekly. 
+        <p>The Marketing & Outreach Working Group promotes InnerSource success stories, supports outreach activities, conducts research, and organizes InnerSource <a href="/events/">events and summits</a>. It meets bi-weekly.
         </p>
         <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> marketing</a>
       </div>
@@ -152,16 +152,16 @@ title: "Community"
   </div>
 </section>
 
-
-<section class="section section-first">
-  <div class="container shadow rounded-lg px-4  bg-light">
+<section class="section">
+  <div class="container section-small shadow rounded-lg px-4 bg-light">
     <div class="row align-items-center justify-content-center text-center text-md-left">
       <div class="col-lg-5 col-md-4 mb-4 mb-md-0">
-        {{< image-welcome >}}
+        <a class="twitter-timeline" data-height="500" data-dnt="true" href="https://twitter.com/InnerSourceOrg?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
-      <div class="col-lg-6 col-md-7">
+      <div class="col-md-5 offset-md-1">
         <p class="h2 section-title">Stay Connected</p>
-        <p class="mb-4">Most of the action in the community happens in our <a href="https://innersourcecommons-inviter.herokuapp.com/">Slack Channels</a>. You can also keep informed about the InnerSource Commons news, events and activities by signing up to our mailing list below, following us on <a href="https://twitter.com/InnerSourceOrg">Twitter</a> and on <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, and subscribing to our <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube Channel</a>.</p>
+        <p class="mb-4">Most of the action in the community happens in our <a href="https://innersourcecommons-inviter.herokuapp.com/">Slack Channel</a>. You can also keep informed about the InnerSource Commons news, events and activities by signing up to our mailing list below, following us on <a href="https://twitter.com/InnerSourceOrg">Twitter</a> and on <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, and subscribing to our <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube Channel</a>.</p>
+        <p class="h3 section-title">Sign in to our mailing list</p>
         {{< contact-form >}}
       </div>
     </div>

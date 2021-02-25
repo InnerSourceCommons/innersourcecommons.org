@@ -1,6 +1,6 @@
 ---
 title: slack
 url: "/slack"
+type: redirects
+redirect: "https://innersourcecommons-inviter.herokuapp.com/"
 ---
-
-{{< redirect "https://innersourcecommons-inviter.herokuapp.com/" >}}
