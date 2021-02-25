@@ -74,7 +74,7 @@ title: "Community"
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
         <p class="section-title h2">Patterns Working Group</p>
-        <p>The Patterns Working Group is creating a book with InnerSource Patterns — best practices codified in a specific format easy to understand and reuse. The Patterns group hold regular working hours, but most of the work is done asynchronously on <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/" target="_blank">GitHub</a>.
+        <p>The Patterns Working Group is creating a book with InnerSource Patterns — best practices codified in a specific format easy to understand and reuse. The Patterns group hold regular office-hours, but most of the work is done asynchronously on <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/" target="_blank">GitHub</a>.
         </p>
         <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> innersource-patterns</a>
       </div>
@@ -95,7 +95,7 @@ title: "Community"
       </div>
       <div class="col-md-6 ">
         <p class="section-title h2">Marketing & Outreach Working Group</p>
-        <p>The Marketing & Outreach Working Group promotes InnerSource success stories, supports outreach activities, conducts research, and organizes InnerSource <a href="/events/">events and summits</a>. It meets bi-weekly. 
+        <p>The Marketing & Outreach Working Group promotes InnerSource success stories, supports outreach activities, conducts research, and organizes InnerSource <a href="/events/">events and summits</a>. It meets bi-weekly.
         </p>
         <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> marketing</a>
       </div>
