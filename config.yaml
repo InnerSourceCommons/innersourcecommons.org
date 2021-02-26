@@ -67,24 +67,24 @@ languages:
           weight: 4
 #      footer_middle:
 #      footer_right:
-  ru:
-    languageName: Русский
-    weight: 2
-    menu:
-      main:
-        - name: События
-          URL: ru/events
-          weight: 1
-        - name: Обучение
-          URL: ru/learn
-          weight: 2
-        - name: Паттерны
-          URL: https://innersourcecommons.gitbook.io/innersource-patterns/
-          weight: 3
-          pre: _blank
-        - name: О сообществе
-          URL: ru/about
-          weight: 4
+  # ru:
+  #   languageName: Русский
+  #   weight: 2
+  #   menu:
+  #     main:
+  #       - name: События
+  #         URL: ru/events
+  #         weight: 1
+  #       - name: Обучение
+  #         URL: ru/learn
+  #         weight: 2
+  #       - name: Паттерны
+  #         URL: https://innersourcecommons.gitbook.io/innersource-patterns/
+  #         weight: 3
+  #         pre: _blank
+  #       - name: О сообществе
+  #         URL: ru/about
+  #         weight: 4
 paginate: '3'
 summaryLength: '15'
 disqusShortname: ''
