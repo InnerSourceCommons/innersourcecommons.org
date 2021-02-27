@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ partial "breadcrumbs.html" . }}
+{{ partial "page-header.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ range .Data.Pages.ByWeight }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <div class="card border-0">
+          <a href="{{.Permalink}}">
+            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img rounded-lg mb-4">
+          </a>
+          <div class="card-body p-0">
+            <!-- <h3><a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a></h3> -->
+            <p class="card-text">{{ .Summary }}</p>
+            <a href="{{.Params.book_url}}" class="btn btn-primary btn-sm mr-1">Read</a>
+            <a href="{{.Permalink}}" class="btn btn-secondary btn-sm">About book</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -11,10 +11,6 @@ languages:
           URL: learn
           weight: 1
           identifier: learn
-        - name: Articles
-          parent: learn
-          URL: learn/articles
-          weight: 1
         - name: Books
           parent: learn
           URL: learn/books
@@ -41,7 +37,7 @@ languages:
           weight: 1
         - name: About
           identifier: about
-          URL: about/commons
+          URL: about
           weight: 4
         - name: Board & Governance
           URL: about/board
@@ -56,21 +52,59 @@ languages:
           parent: about
           weight: 3
       footer_left:
+        - name: Learn
+          URL: learn
+          weight: 1
+          post: bold
+        - name: Books
+          URL: learn/books
+          weight: 2
+        - name: Learning Path
+          URL: learn/learning-path
+          weight: 3
+        - name: Patterns
+          URL: https://innersourcecommons.gitbook.io/innersource-patterns/
+          weight: 4
+          pre: _blank
+      footer_middle:
         - name: Events
           URL: events
           weight: 1
-        - name: Learn
-          URL: learn
-          weight: 2
+          post: bold
         - name: Community
           URL: community
-          weight: 3
+          weight: 2
+          post: bold
           pre: _blank
+        - name: InnerSource in Action
+          URL: community/action
+          weight: 3
+      footer_right:
         - name: About
           URL: about
+          weight: 1
+          post: bold
+        - name: Board & Governance
+          URL: about/board
+          weight: 2
+        - name: Code of Conduct
+          URL: about/codeofconduct
+          weight: 3
+        - name: Contact Us
+          URL: about/contact
           weight: 4
-#      footer_middle:
-#      footer_right:
+  de:
+    languageName: Deutsch
+    weight: 2
+  ja:
+    languageName: 日本語
+    weight: 2
+  zh:
+    languageName: 中文
+    weight: 2
+  it:
+    languageName: Italiano
+    weight: 2
   ru:
     languageName: Русский
     weight: 2
@@ -89,18 +123,6 @@ languages:
         - name: О сообществе
           URL: ru/about
           weight: 4
-  de:
-    languageName: Deutsch
-    weight: 2
-  ja:
-    languageName: 日本語
-    weight: 2
-  zh:
-    languageName: 中文
-    weight: 2
-  it:
-    languageName: Italiano
-    weight: 2
 paginate: '3'
 summaryLength: '15'
 disqusShortname: ''
@@ -125,11 +147,10 @@ params:
       - link: plugins/bootstrap-select/js/bootstrap-select.min.js
   logo: images/logo.png
   logo_width: 200px
-  description: This is meta description
-  author: Themefisher
-  contact_form_action: '#'
+  description: The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource.
+  author: InnerSource Commons
   footer_content: >-
-    The site content is licensed under a CC-BY-SA license unless otherwise marked.
+    The site is licensed under a CC-BY-SA license unless otherwise marked.
   copyright: >-
     Design by [Themefisher](https://themefisher.com/) and [Gethugothemes](https://gethugothemes.com/),
     icons by [Freepik Storyset](https://storyset.com/people)

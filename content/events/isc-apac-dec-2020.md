@@ -8,8 +8,9 @@ date: 2020-12-03
 
 ### 2nd and 3rd December 2020, online - [event site](https://eventyay.com/e/3dbaaa50)!
 
-Welcome to the 12th InnerSource Commons Summit! Thanks to the success of the <a href="https://youtu.be/0YzOz94cNec">ISC
-Online Fall Summit 2020</a>, we are staying online for our first summit timed for our growing APAC community.
+The 12th InnerSource Commons Summit was our first summit timed for our growing APAC community. Thanks to the success of the <a href="https://youtu.be/0YzOz94cNec">ISC Online Fall Summit 2020</a>, we stayed online and recorded all the talks that you can now enjoy on our Youtube Channel in the <a href="https://www.youtube.com/watch?v=TA82AFyIaUA&list=PLCH-i0B0otNSA4KltJHgcQB6450VI-8pG">InnerSource Commons APAC Online Summit 2020</a> Playlist.
+
+### The following information is for reference purposes only.
 
 We continue to explore new ways to get together and keep advancing in the body of knowledge of InnerSource. Nowadays, particularly in this industry, it
 is more important than ever to successfully work remotely and across different geographical areas. This online event has this in mind and we hope to learn from

@@ -1,5 +1,18 @@
 // This file is empty within the template
 // You can use it to override CSS from within your project
+a, .content a {
+    color: #0aa8a7;
+    border-bottom: 1px dotted #ececec;
+}
+
+a:hover, .content a:hover {
+    color: #0aa8a7;
+    border-bottom: 1px solid #ececec;
+}
+
+.card a, .navbar a, a.post-title, footer.section a {
+    border: none;
+}
 
 .time{ width:12% }
 
@@ -8,6 +21,15 @@
 .notice {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.section-first {
+    padding-top: 20px;
+}
+
+.section-small {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .banner {
@@ -30,8 +52,24 @@ ol.breadcrumb {
     color: $primary-color;
 }
 
-.section {
-    padding-top: 30px;
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.mh-300 {
+    max-height: 300px;
+}
+
+.mh-150 {
+    max-height: 150px;
+}
+
+.h-150 {
+    height: 150px;
 }
 
 .contributor {
@@ -56,7 +94,19 @@ ol.breadcrumb {
 }
 
 .mailing-box {
-    background: $light;
+    background: #fff;
     padding: 15px 30px;
     border-radius: 15px;
+}
+
+.logo-home {
+    max-height: 200px;
+    float: right;
+}
+[class*=" ti-"], [class^=ti-] {
+    vertical-align: -10%;
+}
+
+.company-logo {
+  margin-bottom: 0;
 }
