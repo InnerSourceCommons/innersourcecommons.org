@@ -103,9 +103,8 @@ languages:
   #         URL: ru/learn
   #         weight: 2
   #       - name: Паттерны
-  #         URL: https://innersourcecommons.gitbook.io/innersource-patterns/
+  #         URL: learn/books/innersource-patterns
   #         weight: 3
-  #         pre: _blank
   #       - name: О сообществе
   #         URL: ru/about
   #         weight: 4
