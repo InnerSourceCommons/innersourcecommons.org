@@ -152,6 +152,21 @@ title: "Community"
   </div>
 </section>
 
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <p class="section-title mb-5 mt-3 h1">Join a Meeting</p>
+        <p>While most Working Group activities are asynchronous, some of the groups also hold meetings, to work together face to face. Below you see a list of the scheduled meetings.</p>
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FBerlin&amp;src=MTVlMTdrcDhhazg1OXFsc2lybnAwYm9wNGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D50000&amp;mode=AGENDA&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showNav=1&amp;showTitle=0" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section class="section">
   <div class="container section-small shadow rounded-lg px-4 bg-light">
     <div class="row align-items-center justify-content-center text-center text-md-left">
