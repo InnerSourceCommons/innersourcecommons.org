@@ -1,38 +1,23 @@
 ---
 title: "Contact Us"
-subtitle: ""
-description: "Stay in touch with InnerSource Commons!"
-draft: false
+subtitle: "Stay in touch with InnerSource Commons — here are all the ways to contact the InnerSource Commons"
+description: "Stay in touch with InnerSource Commons."
 image: "/images/logo.png"
+type: wide
 ---
 
 <section class="section">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-md-6 order-2 order-md-1">
-        <p>Welcome to the Contact Us page. Listed below are all the ways to contact the InnerSource Commons!
+      <div class="col-md-6 order-2 order-md-2">
+        <p>The quickest and best way to reach us is to join Slack and ask your question in the #general channel. 
         </p>
+        <a href="/slack" class="btn btn-primary btn-sm"><img src="/images/slack.png" class="pr-1"/>Join Slack</a>
+        <p class="mt-4">You can also email us at <a href="mailto:info@innersourcecommons.org">info@innersourcecommons.org</a>. </p>
       </div>
-      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-        <img src="/images/logo.png" class="img-fluid">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section bg-light">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 order-2 order-md-1">
-        <p class="section-title h2">Get in Touch</p>
-        <p>The quickest and best way to reach us is to join Slack and ask your question in the #general channel. You can also email us at <a href="mailto:info@innersourcecommons.org">info@innersourcecommons.org</a>. 
-        </p>
-        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> Join the ISC Slack Channel</a>
-      </div>
-      <div class="col-md-5 order-1 order-md-2 mb-4 mb-md-0">
+      <div class="col-md-5 order-1 order-md-1 mb-4 mb-md-0">
         <img src="/images/community/connection.png" class="img-fluid">
       </div>
-    </div>
   </div>
 </section>
 
