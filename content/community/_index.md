@@ -154,16 +154,19 @@ title: "Community"
 
 <section class="section bg-light">
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row">
       <div class="col-12 text-center">
-        <p class="section-title mb-5 mt-3 h1">Join a Meeting</p>
-        <p>While most Working Group activities are asynchronous, some of the groups also hold meetings, to work together face to face. Below you see a list of the scheduled meetings.</p>
-
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FBerlin&amp;src=MTVlMTdrcDhhazg1OXFsc2lybnAwYm9wNGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D50000&amp;mode=AGENDA&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showNav=1&amp;showTitle=0" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
+        <p class="section-title h1">Join a Meeting</p>
+        <p class="mb-4">While most Working Group activities are asynchronous, some of the groups also hold meetings, to work together face to face. <br />Feel free to participate in this meetings.</p>
+        </div>
+      </div>
+    <div class="row align-items-center justify-content-center text-center text-md-left">
+        <div class="col-md-7 mb-4 mb-md-0">
+          <iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=2&amp;bgcolor=%23f8f9fa&amp;ctz=America%2FNew_York&amp;src=MTVlMTdrcDhhazg1OXFsc2lybnAwYm9wNGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161&amp;showCalendars=0&amp;showTz=1&amp;showTabs=0&amp;showPrint=0&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;hl=en&amp;mode=AGENDA" style="border-width:0;" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 </section>
 
 
