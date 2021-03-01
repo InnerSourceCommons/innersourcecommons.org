@@ -1,6 +1,6 @@
 ---
 title: "Contact Us"
-subtitle: "Stay in touch with InnerSource Commons — here are all the ways to contact the InnerSource Commons"
+subtitle: "Stay in touch — here are all the ways to contact the InnerSource Commons"
 description: "Stay in touch with InnerSource Commons."
 image: "/images/logo.png"
 type: wide
