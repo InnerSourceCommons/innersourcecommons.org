@@ -37,7 +37,7 @@ title: "InnerSource Commons"
     <div class="row text-right">
       <div class="col-md-6">
         <p class="section-title h2">Learn About InnerSource</p>
-        <p>If you are new to InnerSource or want to find out more, who is implementing InnerSource and why and how to get started, visit the Learning section of the site. You will find a wealth of resources to help accelerate your journey to InnerSource including training materials, best practices, books, past event recordings and case studies.
+        <p>If you are new to InnerSource or want to find out more about who is implementing InnerSource and why and how to get started, visit the site's Learning section. You will find a wealth of resources to help accelerate your journey to InnerSource including training materials, best practices, books, past event recordings and case studies.
         </p>
         <a href="/learn/" class="btn-link">Learn About InnerSource<i class="ti-arrow-right"></i></a>
       </div>
@@ -57,7 +57,7 @@ title: "InnerSource Commons"
       </div>
       <div class="col-md-6">
           <p class="section-title h2">Join the Community</p>
-          <p>We support practitioners and those who want to learn about InnerSource by a broad array of activities. To get started, join the growing ISC community via slack and introduce yourself. Communicate and meet great companions for your InnerSource journey.</p>
+          <p>We support practitioners and those who want to learn about InnerSource through a broad array of activities. To get started, join the growing ISC community via slack and introduce yourself. Communicate and meet great companions for your InnerSource journey.</p>
           <a href="/community/" class="btn-link">Join Community<i class="ti-arrow-right"></i></a>
         </div>
     </div>
@@ -84,7 +84,7 @@ title: "InnerSource Commons"
       </div>
       <div class="col-md-5 offset-md-1">
         <p class="h2 section-title">Stay Connected</p>
-        <p class="mb-4">Most of the action in the community happens in our <a href="https://innersourcecommons-inviter.herokuapp.com/">Slack Channel</a>. You can also keep informed about the InnerSource Commons news, events and activities by signing up to our mailing list below, following us on <a href="https://twitter.com/InnerSourceOrg">Twitter</a> and on <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, and subscribing to our <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube Channel</a>.</p>
+        <p class="mb-4">Most of the action in the community happens on our <a href="https://innersourcecommons-inviter.herokuapp.com/">Slack Channel</a>. You can also keep informed about the InnerSource Commons news, events and activities by signing up to our mailing list below, follow us on <a href="https://twitter.com/InnerSourceOrg">Twitter</a> and <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, and subscribing to our <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube Channel</a>.</p>
         <p class="h3 section-title">Sign up to our mailing list</p>
         {{< contact-form >}}
       </div>
