@@ -16,13 +16,13 @@ image: "/images/learn/innersourceinaction.png"
         [Tencent] adopted InnerSource to promote engineer culture inside the company... 80% of  projects get InnerSourced.
       {{< /company >}}
       {{< company name="Microsoft" image="/images/logos/microsoft.png" link="https://www.youtube.com/watch?v=eZdx5MQCLA4" author_name="Arno Mihm" author_title="Program Manager InnerSource at Microsoft" >}}
-        At Microsoft projects that are very successful in respect to InnerSource make an emphasis to enable the success of their collaborators parallel to their own success.
+        We have seen greater engineering satisfaction among teams that practice InnerSource... we have [also] seen better product quality and responses because of InnerSource.
       {{< /company >}}
       {{< company name="Comcast" image="/images/logos/comcast.png" link="https://www.youtube.com/watch?v=msD-8-yrGfs&t=6s" author_name="Nithya Ruff" author_title="Head of Comcast’s Open Source Program Office" >}}
         InnerSource helped us create a community inside the company... InnerSource is truly a cultural transformation.
       {{< /company >}}
       {{< company name="Wipro" image="/images/logos/wipro.png" link="https://www.youtube.com/watch?v=vApVU26TZGo" author_name="Andrew Aitken" author_title="Wipro" >}}
-        InnerSource is a journey and there is no one model that fits for everyone.
+        We have thousands of developers working on these projects today and at any given time we’re doing dozens of different projects... 75% of our clients with large global enterprises are trying InnerSource in some way, shape or form.
       {{< /company >}}
       {{< company name="" image="/images/logos/sap.png" link="https://www.youtube.com/watch?v=2nhKMcv5STc&t=269s" author_name="Micheal Graf and Guilherme Dellagustin" author_title="SAP" >}}
         We work together as a team to provide InnerSource methodology to encourage new people to initiate new projects... 70% of SAP employees would like to contribute if suitable projects are available.
@@ -38,6 +38,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Adeo" image="/images/logos/adeo.png" >}}{{< /company >}}
       {{< company name="Ahold Delhaise" image="/images/logos/ahold.png" >}}{{< /company >}}
       {{< company name="American Airlines" image="/images/logos/americanairlines.png" >}}{{< /company >}}
+      {{< company name="Anyshore" image="/images/logos/anyshore.png" >}}{{< /company >}}
       {{< company name="Autodesk" image="/images/logos/autodesc.png" >}}{{< /company >}}
       {{< company name="AXA" image="/images/logos/axa.png" >}}{{< /company >}}
       {{< company name="Baidu" image="/images/logos/baidu.png" >}}{{< /company >}}
@@ -84,6 +85,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Redmonk" image="/images/logos/redmonk.png" >}}{{< /company >}}
       {{< company name="SberBank" image="/images/logos/sberbank.png" >}}{{< /company >}}
       {{< company name="Seagate" image="/images/logos/seagate.png" >}}{{< /company >}}
+      {{< company name="Skyscanner" image="/images/logos/skyscanner.png" >}}{{< /company >}}
       {{< company name="Societe Generale" image="/images/logos/societegenerale.png" >}}{{< /company >}}
       {{< company name="Spotify" image="/images/logos/spotify.png" >}}{{< /company >}}
       {{< company name="Stack Overflow" image="/images/logos/stackoverflow.png" >}}{{< /company >}}
@@ -96,7 +98,10 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Trustpilot" image="/images/logos/trustpilot.png" >}}{{< /company >}}
       {{< company name="Twillio" image="/images/logos/twilio.png" >}}{{< /company >}}
       {{< company name="Walmart" image="/images/logos/walmart.png" >}}{{< /company >}}
+      {{< company name="Wayfair" image="/images/logos/wayfair.png" >}}{{< /company >}}
+      {{< company name="Wiley" image="/images/logos/wiley.png" >}}{{< /company >}}
       {{< company name="Zalando" image="/images/logos/zalando.png" >}}{{< /company >}}
       {{< company name="Zendesk" image="/images/logos/zendesk.png" >}}{{< /company >}}
+      {{< company name="Zibasec" image="/images/logos/zibasec.png" >}}{{< /company >}}
     </div>
   </div>

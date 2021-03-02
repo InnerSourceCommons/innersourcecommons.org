@@ -1,7 +1,7 @@
 ---
 title: "Events"
-subtitle: "Share knowledge around the world."
+subtitle: "InnerSource Commons future and past events."
 # meta description
-description: "Share knowledge around the world."
+description: "InnerSource Commons future and past events."
 draft: false
 ---

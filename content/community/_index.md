@@ -152,6 +152,23 @@ title: "Community"
   </div>
 </section>
 
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="section-title h1">Join a Meeting</p>
+        <p class="mb-4">While most Working Group activities happen asynchronously, some of the groups also hold meetings to work together. <br />Feel free to participate in these meetings.</p>
+      </div>
+    </div>
+    <div class="row align-items-center justify-content-center text-center text-md-left">
+      <div class="col-md-7 mb-4 mb-md-0">
+        <iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=2&amp;bgcolor=%23f8f9fa&amp;ctz=America%2FNew_York&amp;src=MTVlMTdrcDhhazg1OXFsc2lybnAwYm9wNGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161&amp;showCalendars=0&amp;showTz=1&amp;showTabs=0&amp;showPrint=0&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;hl=en&amp;mode=AGENDA" style="border-width:0;" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section class="section">
   <div class="container section-small shadow rounded-lg px-4 bg-light">
     <div class="row align-items-center justify-content-center text-center text-md-left">
@@ -160,8 +177,8 @@ title: "Community"
       </div>
       <div class="col-md-5 offset-md-1">
         <p class="h2 section-title">Stay Connected</p>
-        <p class="mb-4">Most of the action in the community happens in our <a href="https://innersourcecommons-inviter.herokuapp.com/">Slack Channel</a>. You can also keep informed about the InnerSource Commons news, events and activities by signing up to our mailing list below, following us on <a href="https://twitter.com/InnerSourceOrg">Twitter</a> and on <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, and subscribing to our <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube Channel</a>.</p>
-        <p class="h3 section-title">Sign in to our mailing list</p>
+        <p class="mb-4">Most of the action in the community happens on our <a href="https://innersourcecommons-inviter.herokuapp.com/">Slack Channel</a>. You can also keep informed about the InnerSource Commons news, events and activities by signing up to our mailing list below, follow us on <a href="https://twitter.com/InnerSourceOrg">Twitter</a> and <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, and subscribing to our <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube Channel</a>.</p>
+        <p class="h3 section-title">Sign up to our mailing list</p>
         {{< contact-form >}}
       </div>
     </div>
