@@ -5,9 +5,11 @@ image: "images/events/america2020.jpg"
 # post type (regular/featured)
 date: 2020-09-15T00:00:00+00:00
 ---
-### 15th and 16th September 2020, online - [register now](https://www.eventbrite.ie/e/innersource-commons-fall-2020-virtual-summit-tickets-117435975163)! 
+### 15th and 16th September 2020, online! 
 
 The 11th InnerSource Commons Summit stayed online thanks to the success of the <a href="https://www.youtube.com/playlist?list=PLCH-i0B0otNQeYBH5QvNRBDA3CMrS9lL9">ISC Online Spring Summit 2020</a>. You can now enjoy watching the talks on our Youtube Channel in the <a href="https://www.youtube.com/watch?v=0YzOz94cNec&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy">InnerSource Commons Online Fall Summit 2020</a> Playlist.  
+
+You can check out the original event site [here](https://www.eventbrite.ie/e/innersource-commons-fall-2020-virtual-summit-tickets-117435975163).
 
 ### The following information is for reference purposes only.
 
