@@ -157,7 +157,7 @@ title: "Community"
     <div class="row">
       <div class="col-12 text-center">
         <p class="section-title h1">Join a Meeting</p>
-        <p class="mb-4">While most Working Group activities are asynchronous, some of the groups also hold meetings, to work together face to face. <br />Feel free to participate in this meetings.</p>
+        <p class="mb-4">While most Working Group activities happen asynchronously, some of the groups also hold meetings to work together face to face. <br />Feel free to participate in these meetings.</p>
         </div>
       </div>
     <div class="row align-items-center justify-content-center text-center text-md-left">
