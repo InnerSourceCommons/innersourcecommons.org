@@ -59,8 +59,8 @@ draft: false
     <div class="row text-right align-items-center">
       <div class="col-md-6">
         <p class="section-title h2">InnerSource Commons Members</p>
-        <p>The InnerSource Commons community is open to all. Some community participants go above and beyond, and may be invited to become an ISC Member. The InnerSource Commons is a membership corporation, so ISC Members serve a similar role as shareholders do in publicly traded corporations. </p>
-        <p>Members have particular rights in the ISC, for example they may vote in board elections. To be eligible for Membership, a person must be nominated by a current Member. Membership is purely merit-based, free of any cost, and restricted to individuals.
+        <p>The InnerSource Commons community is open to all. Some community participants go above and beyond, and may be invited to become an ISC Member. The InnerSource Commons is a membership corporation, so ISC Members serve a similar role as shareholders in publicly traded corporations. </p>
+        <p>Members have particular rights in the ISC; for example, they may vote in board elections. To be eligible for Membership, a person must be nominated by a current Member. Membership is purely merit-based, free of any cost, and restricted to individuals.
         </p>
       </div>
       <div class="col-md-6 mt-4 mb-4 mb-md-0 float-right">
