@@ -55,7 +55,7 @@ Our use of third-party service providers includes:
 
 If you have any questions about the specific service providers we currently use, please contact us at questions@innersourcecommons.org or by using the contact information set out at the bottom.
 
-Legal Compliance / Protection of the Public and Our Business / Legitimate Interests 
+## Legal Compliance / Protection of the Public and Our Business / Legitimate Interests 
 
 We will release personal and account information in response to lawful requests by public authorities, including to meet legitimate national security or law enforcement requirements; to protect, establish, or exercise our legal rights or defend against legal claims, including to collect a debt; to comply with a subpoena, court order, legal process, or other legal requirement; or when we believe in good faith that such disclosure is necessary to comply with the law, prevent imminent physical harm or financial loss, or investigate, prevent, or take action regarding illegal activities, suspected fraud and threats to our property.
 
