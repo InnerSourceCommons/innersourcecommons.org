@@ -51,7 +51,8 @@ Our use of third-party service providers includes:
 - GitHub - to host and contribute to projects
 - Mailchimp - store an email list for marketing purposes
 - Slack - for community communication
-- Eventbrite???
+- Eventbrite and Eventyay - to organise events
+- Aplos - for financial management
 
 If you have any questions about the specific service providers we currently use, please contact us at questions@innersourcecommons.org or by using the contact information set out at the bottom.
 
