@@ -24,10 +24,6 @@ You directly provide InnerSource Commons with most of the data we collect. We co
 
 We also collect certain information automatically. Like many websites, the InnerSource Commons  website uses “cookies” and we obtain certain types of information when your web browser accesses our site. On the InnerSource Commons website Cookies are used for the following purposes and using the following services:
  
-Analytics
-
-- Google Analytics - Personal Data: Cookies and Usage Data. We track number of visitors per page on our website.
-
 Displaying content from external platforms
 
 - Twitter - Personal Data: Usage Data and various types of Data as specified in the [privacy policy](https://twitter.com/en/privacy) of the service
