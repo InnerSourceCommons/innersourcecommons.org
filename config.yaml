@@ -103,6 +103,9 @@ languages:
   it:
     languageName: Italiano
     weight: 2
+  es:
+    languageName:  Español
+    weight: 2
   ru:
     languageName: Русский
     weight: 2
