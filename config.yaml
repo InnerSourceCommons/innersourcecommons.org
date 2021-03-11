@@ -91,6 +91,9 @@ languages:
         - name: Contact Us
           URL: about/contact
           weight: 4
+        - name: Privacy Policy
+          URL: about/privacy
+          weight: 4
   # ru:
   #   languageName: Русский
   #   weight: 2
