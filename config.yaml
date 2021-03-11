@@ -1,6 +1,7 @@
 baseURL: 'https://innersourcecommons.net/'
 title: InnerSource Commons
 
+pluralizeListTitles: false
 languages:
   en:
     languageName: English

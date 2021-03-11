@@ -13,7 +13,7 @@
   {{ if eq .p1 .p2 }} 
   {{ .p1.Title }}
   {{ else }}
-  <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
+  <a href="{{ .p1.Permalink | replaceRE "ru|de|it|ja|zh|es" "" }}">{{ .p1.Title }}</a>
   {{ end }}
 </li>
 {{ end }}
