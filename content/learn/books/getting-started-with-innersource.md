@@ -8,6 +8,8 @@ book_author: Andy Oram
 book_publish_date: July 2015
 book_publisher: O’Reilly Media
 book_url: /documents/books/GettingStartedWithInnerSource.pdf
+aliases:
+    - /getting-started
 ---
 
 Welcome to InnerSource, the powerful movement for developing open source software within the walls of a single organization, where the "openness" of a project extends across teams inside the company. In this report, O'Reilly editor and author Andy Oram takes you inside InnerSource, first by reviewing the principles that make open source development successful, and then by describing how InnerSource has worked at PayPal, the leading Internet commerce facilitator.

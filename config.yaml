@@ -91,6 +91,9 @@ languages:
         - name: Contact Us
           URL: about/contact
           weight: 4
+        - name: Privacy Policy
+          URL: about/privacy
+          weight: 5
   de:
     languageName: Deutsch
     weight: 2
@@ -109,20 +112,6 @@ languages:
   ru:
     languageName: Русский
     weight: 2
-    menu:
-      main:
-        - name: События
-          URL: ru/events
-          weight: 1
-        - name: Обучение
-          URL: ru/learn
-          weight: 2
-        - name: Паттерны
-          URL: learn/books/innersource-patterns
-          weight: 3
-        - name: О сообществе
-          URL: ru/about
-          weight: 4
 paginate: '3'
 summaryLength: '15'
 disqusShortname: ''
