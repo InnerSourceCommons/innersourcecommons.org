@@ -2,99 +2,99 @@ baseURL: 'https://innersourcecommons.net/'
 title: InnerSource Commons
 
 pluralizeListTitles: false
+menu:
+  main:
+    - name: Learn
+      URL: learn
+      weight: 1
+      identifier: learn
+    - name: Books
+      parent: learn
+      URL: learn/books
+      weight: 2
+    - name: Learning Path
+      parent: learn
+      URL: learn/learning-path
+      weight: 3
+    - name: Patterns
+      parent: learn
+      URL: learn/books/innersource-patterns
+      weight: 4
+    - name: Events
+      URL: events
+      weight: 2
+    - name: Community
+      identifier: community
+      URL: community
+      weight: 3
+    - name: InnerSource in Action
+      URL: community/action
+      parent: community
+      weight: 1
+    - name: About
+      identifier: about
+      URL: about
+      weight: 4
+    - name: Board & Governance
+      URL: about/board
+      parent: about
+      weight: 1
+    - name: Code of Conduct
+      URL: about/codeofconduct
+      parent: about
+      weight: 2
+    - name: Contact Us
+      URL: about/contact
+      parent: about
+      weight: 3
+  footer_left:
+    - name: Learn
+      URL: learn
+      weight: 1
+      post: bold
+    - name: Books
+      URL: learn/books
+      weight: 2
+    - name: Learning Path
+      URL: learn/learning-path
+      weight: 3
+    - name: Patterns
+      URL: learn/books/innersource-patterns
+      weight: 4
+  footer_middle:
+    - name: Events
+      URL: events
+      weight: 1
+      post: bold
+    - name: Community
+      URL: community
+      weight: 2
+      post: bold
+      pre: _blank
+    - name: InnerSource in Action
+      URL: community/action
+      weight: 3
+  footer_right:
+    - name: About
+      URL: about
+      weight: 1
+      post: bold
+    - name: Board & Governance
+      URL: about/board
+      weight: 2
+    - name: Code of Conduct
+      URL: about/codeofconduct
+      weight: 3
+    - name: Contact Us
+      URL: about/contact
+      weight: 4
+    - name: Privacy Policy
+      URL: about/privacy
+      weight: 5
 languages:
   en:
     languageName: English
     weight: 1
-    menu:
-      main:
-        - name: Learn
-          URL: learn
-          weight: 1
-          identifier: learn
-        - name: Books
-          parent: learn
-          URL: learn/books
-          weight: 2
-        - name: Learning Path
-          parent: learn
-          URL: learn/learning-path
-          weight: 3
-        - name: Patterns
-          parent: learn
-          URL: learn/books/innersource-patterns
-          weight: 4
-        - name: Events
-          URL: events
-          weight: 2
-        - name: Community
-          identifier: community
-          URL: community
-          weight: 3
-        - name: InnerSource in Action
-          URL: community/action
-          parent: community
-          weight: 1
-        - name: About
-          identifier: about
-          URL: about
-          weight: 4
-        - name: Board & Governance
-          URL: about/board
-          parent: about
-          weight: 1
-        - name: Code of Conduct
-          URL: about/codeofconduct
-          parent: about
-          weight: 2
-        - name: Contact Us
-          URL: about/contact
-          parent: about
-          weight: 3
-      footer_left:
-        - name: Learn
-          URL: learn
-          weight: 1
-          post: bold
-        - name: Books
-          URL: learn/books
-          weight: 2
-        - name: Learning Path
-          URL: learn/learning-path
-          weight: 3
-        - name: Patterns
-          URL: learn/books/innersource-patterns
-          weight: 4
-      footer_middle:
-        - name: Events
-          URL: events
-          weight: 1
-          post: bold
-        - name: Community
-          URL: community
-          weight: 2
-          post: bold
-          pre: _blank
-        - name: InnerSource in Action
-          URL: community/action
-          weight: 3
-      footer_right:
-        - name: About
-          URL: about
-          weight: 1
-          post: bold
-        - name: Board & Governance
-          URL: about/board
-          weight: 2
-        - name: Code of Conduct
-          URL: about/codeofconduct
-          weight: 3
-        - name: Contact Us
-          URL: about/contact
-          weight: 4
-        - name: Privacy Policy
-          URL: about/privacy
-          weight: 5
   de:
     languageName: Deutsch
     weight: 2
