@@ -1,8 +1,6 @@
 ---
 title: 'APAC Virtual Summit 2020'
 image: "images/events/apac2020.jpg"
-# post type (regular/featured)
-featured: true
 date: 2020-12-03
 ---
 
