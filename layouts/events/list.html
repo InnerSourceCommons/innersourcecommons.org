@@ -3,10 +3,7 @@
 {{ partial "breadcrumbs.html" . }}
 {{ partial "page-header.html" . }}
 
-{{ $pages := .Site.RegularPages }}
-{{ range .Site.Home.Translations }}
-{{ $pages = $pages | lang.Merge .Site.RegularPages }}
-{{ end }}
+{{ $pages := .Data.Pages }}
 {{ $pages = where $pages "Section" "in" "events" }}
 <section class="section">
   <div class="container">
