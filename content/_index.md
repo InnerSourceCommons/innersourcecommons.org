@@ -3,7 +3,7 @@ title: "InnerSource Commons"
 ---
 
 {{< notice >}}
-<i class="ti-announcement mr-2"></i>Check out videos from the InnerSource Commons APAC 2020 Online Summit. <a href="https://www.youtube.com/playlist?list=PLCH-i0B0otNSA4KltJHgcQB6450VI-8pG" class="btn-link" target="_blank"><i class="ti-youtube"></i> Watch on YouTube <i class="ti-arrow-right"></i></a>
+<i class="ti-announcement mr-2"></i>April 6th at 5pm GMT / 6pm CET • Online • InnerSource Metrics, Value & ROI Community Call <a href="https://www.eventbrite.com/e/innersource-commons-community-call-metrics-value-roi-tickets-147099639983" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
 {{</ notice >}}
 
 
