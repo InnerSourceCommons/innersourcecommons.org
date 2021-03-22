@@ -64,7 +64,7 @@ Example of time differences in other timezones for the first day of conference:
 
   <tr>
         <td class="time">09:00 - 09:10</td>
-        <td colspan="2">Welcome to the Summit, including an address by <a href="/events/isc-fall-2020-speakers#danese_cooper">Danese Cooper</a>, ISC President</td>
+        <td colspan="2">Welcome to the Summit, including an address by <a href="#danese_cooper">Danese Cooper</a>, ISC President</td>
   </tr>
 
 
@@ -72,8 +72,8 @@ Example of time differences in other timezones for the first day of conference:
   <tr>
         <td class="time">09:10 - 09:50</td>
 	  <td class="author">
-		  <b><a href="/events/isc-fall-2020-speakers#tim_oreilly">Tim O'Reilly</a></b> (O'Reilly Media) <br>
-		  <b><a href="/events/isc-fall-2020-speakers#danese_cooper">Danese Cooper</a></b> (NearForm)
+		  <b><a href="#tim_oreilly">Tim O'Reilly</a></b> (O'Reilly Media) <br>
+		  <b><a href="#danese_cooper">Danese Cooper</a></b> (NearForm)
        <td class="title"> <b>Keynote</b>: Tim O'Reilly joins ISC Chairperson, Danese Cooper, for a 1:1 discussion on InnerSource, Open Source and future trends in software development </td>
        </td>
   </tr>
@@ -81,7 +81,7 @@ Example of time differences in other timezones for the first day of conference:
 
   <tr>
         <td class="time"> 09:50 - 10:05</td>
-	<td class="author"> <b><a href="/events/isc-fall-2020-speakers#russ_rutledge">Russ Rutledge</a></b> (Nike) 
+	<td class="author"> <b><a href="#russ_rutledge">Russ Rutledge</a></b> (Nike) 
 	</td>
         <td class="title"> InnerSource Culture Change at Scale
             <span onClick="toggleAbstract('rutledge')" class="abstract-toggle">(<a id="rutledge-link">Show Abstract</a>)</span>
@@ -95,7 +95,7 @@ InnerSource is more than telling someone the mechanics of code and community man
 
   <tr>
         <td class="time"> 10:05 - 10:20</td>
-	<td class="author"> <b><a href="/events/isc-fall-2020-speakers#brittany_istenes">Brittany Erica Istenes</a></b> (Comcast) 
+	<td class="author"> <b><a href="#brittany_istenes">Brittany Erica Istenes</a></b> (Comcast) 
         </td>
         <td class="title"> InnerSource is established, now what?
             <span onClick="toggleAbstract('istenes')" class="abstract-toggle">(<a id="istenes-link">Show Abstract</a>)</span>
@@ -121,7 +121,7 @@ The goal of my talk is to walk through how at the last summit we talked about cu
         <td class="time">10:40 - 11:20</td>
         <td>Open Discussions and Breakout Sessions</td>
         <td><ul>
-		<li>Channel 1: InnerSource Bootcamp 101 with <a href="/events/isc-fall-2020-speakers#danese_cooper">Danese Cooper</a></li>
+		<li>Channel 1: InnerSource Bootcamp 101 with <a href="#danese_cooper">Danese Cooper</a></li>
 		<li>Channel 2: Metrics, Maturity Models & Tooling</li>
               	<li>Channel 3: Patterns: Proven Solutions to Existing Problems</li>
 		<li>Channel 4: Cultural Change: Scaling InnerSource</li>
@@ -138,7 +138,7 @@ The goal of my talk is to walk through how at the last summit we talked about cu
 
   <tr>
         <td class="time"> 11:25 - 11:35</td>
-	<td class="author"> <b><a href="/events/isc-fall-2020-speakers#sebastian_spier">Sebastian Spier</a></b> (Meltwater) 
+	<td class="author"> <b><a href="#sebastian_spier">Sebastian Spier</a></b> (Meltwater) 
         </td>
         <td class="title"> 1 year in the InnerSource Commons community: Getting your money's worth.
             <span onClick="toggleAbstract('spier')" class="abstract-toggle">(<a id="spier-link">Show Abstract</a>)</span>
@@ -152,8 +152,8 @@ Let me make the argument for you: Convince yourself (and your manager) of the be
   <tr>
         <td class="time">11:35 - 11:50</td>
         <td class="author">
-		<b><a href="/events/isc-fall-2020-speakers#michael_graf">Michael Graf</a></b> (SAP) <br>
-		<b><a href="/events/isc-fall-2020-speakers#harish_b">Harish B.</a></b> (SAP)
+		<b><a href="#michael_graf">Michael Graf</a></b> (SAP) <br>
+		<b><a href="#harish_b">Harish B.</a></b> (SAP)
         </td>
         <td class="title"> The Unexpected Path of Applying InnerSource Patterns
             <span onClick="toggleAbstract('graf')" class="abstract-toggle">(<a id="graf-link">Show Abstract</a>)</span>
@@ -174,7 +174,7 @@ With creative collaboration across organizational borders and by sharing our exp
 
   <tr>
         <td class="time"> 11:50 - 12:05</td>
-        <td class="author"> <b><a href="/events/isc-fall-2020-speakers#joe_chavez">Joe Chavez</a></b> (Cognitive Software Services) </td>
+        <td class="author"> <b><a href="#joe_chavez">Joe Chavez</a></b> (Cognitive Software Services) </td>
         <td class="title"> InnerSource in Government: our 18 month journey
             <span onClick="toggleAbstract('chavez')" class="abstract-toggle">(<a id="chavez-link">Show Abstract</a>)</span>
         <div style="display:none" class="abstract" id="chavez">
@@ -185,7 +185,7 @@ What good is source code sitting a repo? No much, might as well be ideas on the 
 
   <tr>
         <td class="time">12:05 - 12:25</td>
-	<td class="author"> <b><a href="/events/isc-fall-2020-speakers#martin_woodward">Martin Woodward</a></b> (GitHub) 
+	<td class="author"> <b><a href="#martin_woodward">Martin Woodward</a></b> (GitHub) 
         </td>
         <td class="title"> The Top 5 Myths of InnerSource
             <span class="keynoteTag"> Keynote </span>
@@ -224,19 +224,19 @@ In this session, Martin Woodward from GitHub explains some of the biggest myths 
 
   <tr>
         <td class="time">09:00 - 09:10</td>
-        <td colspan="2">Welcome back & ISC Foundation Update from ISC President <a href="/events/isc-fall-2020-speakers#danese_cooper">Danese Cooper</a> and Vice-president <a href="/events/isc-fall-2020-speakers#georg_grutter">Georg Grütter</a></td>
+        <td colspan="2">Welcome back & ISC Foundation Update from ISC President <a href="#danese_cooper">Danese Cooper</a> and Vice-president <a href="#georg_grutter">Georg Grütter</a></td>
   </tr>
 
  <tr>
         <td class="time">09:10 - 09:50</td>
 	  <td class="author">
-		  <b><a href="/events/isc-fall-2020-speakers#andrew_aitken">Andrew Aitken</a></b> (Wipro) <br>
-		  <b><a href="/events/isc-fall-2020-speakers#silona_bonewald">Silona Bonewald</a></b> (IEEE) <br>
-		  <b><a href="/events/isc-fall-2020-speakers#alex_chittock">Alex Chittock</a></b> (Lloyds Banking Group) <br>
-		  <b><a href="/events/isc-fall-2020-speakers#russell_green">Russell Green</a></b> (Deutsche Bank) <br>
-		  <b><a href="/events/isc-fall-2020-speakers#dov_katz">Dov Katz</a></b> (Morgan Stanley) <br>
-		  <b><a href="/events/isc-fall-2020-speakers#james_mcleod">James McLeod</a></b> (FINOS) <br>
-		  <b><a href="/events/isc-fall-2020-speakers#vitor_monteiro">Vitor Monteiro</a></b> (GitHub)
+		  <b><a href="#andrew_aitken">Andrew Aitken</a></b> (Wipro) <br>
+		  <b><a href="#silona_bonewald">Silona Bonewald</a></b> (IEEE) <br>
+		  <b><a href="#alex_chittock">Alex Chittock</a></b> (Lloyds Banking Group) <br>
+		  <b><a href="#russell_green">Russell Green</a></b> (Deutsche Bank) <br>
+		  <b><a href="#dov_katz">Dov Katz</a></b> (Morgan Stanley) <br>
+		  <b><a href="#james_mcleod">James McLeod</a></b> (FINOS) <br>
+		  <b><a href="#vitor_monteiro">Vitor Monteiro</a></b> (GitHub)
        <td class="title"> <b>Panel Discussion</b>: InnerSource in Financial Services </td>
        </td>
   </tr>
@@ -245,7 +245,7 @@ In this session, Martin Woodward from GitHub explains some of the biggest myths 
    <tr>
         <td class="time">09:50 - 10:05</td>
         <td class="author">
-		<b><a href="/events/isc-fall-2020-speakers#isabel_drost_fromm">Isabel Drost-Fromm</a></b> (Europace AG)</td>
+		<b><a href="#isabel_drost_fromm">Isabel Drost-Fromm</a></b> (Europace AG)</td>
         <td class="title"> Remote First - what you can learn from Open Source
             <span onClick="toggleAbstract('drost')" class="abstract-toggle">(<a id="drost-link">Show Abstract</a>)</span>
             <div style="display:none" class="abstract" id="drost">
@@ -257,7 +257,7 @@ In 2020 a lot of companies moved to a remote first setting in a hurry - and with
 
   <tr>
         <td class="time"> 10:05 - 10:20</td>
-	<td class="author"> <b><a href="/events/isc-fall-2020-speakers#arno_mihm">Arno Mihm</a></b> (Microsoft) </td>
+	<td class="author"> <b><a href="#arno_mihm">Arno Mihm</a></b> (Microsoft) </td>
         <td class="title"> InnerSource at Microsoft
             <span onClick="toggleAbstract('mihm')" class="abstract-toggle">(<a id="mihm-link">Show Abstract</a>)</span>
         <div style="display:none" class="abstract" id="mihm">
@@ -282,7 +282,7 @@ In this session, Arno Mihm (Program Manager InnerSource at Microsoft) will talk 
         <td class="time">10:40 - 11:20</td>
         <td>Open Discussions and Breakout Sessions</td>
         <td><ul>
-              <li>Channel 1: The Apache Way and InnerSource with <a href="/events/isc-fall-2020-speakers#jim_jagielski">Jim Jagielski</a></li>
+              <li>Channel 1: The Apache Way and InnerSource with <a href="#jim_jagielski">Jim Jagielski</a></li>
               <li>Channel 2: InnerSource Commons Community: How to Get Involved!</li>
               <li>Channel 3: Patterns: Proven Solutions to Existing Problems</li>
               <li>Channel 4: Cultural Change: Initial Steps on your InnerSource Journey</li>
@@ -299,7 +299,7 @@ In this session, Arno Mihm (Program Manager InnerSource at Microsoft) will talk 
 
   <tr>
         <td class="time"> 11:25 - 11:35</td>
-	<td class="author"> <b><a href="/events/isc-fall-2020-speakers#clare_dillon">Clare Dillon</a></b> (InnerSource Commons Community) </td>
+	<td class="author"> <b><a href="#clare_dillon">Clare Dillon</a></b> (InnerSource Commons Community) </td>
         <td class="title"> Why the world needs more InnerSourcerers
             <span onClick="toggleAbstract('dillon')" class="abstract-toggle">(<a id="dillon-link">Show Abstract</a>)</span>
         <div style="display:none" class="abstract" id="dillon">
@@ -312,7 +312,7 @@ Many InnerSource practitioners have spoken about how InnerSource can be a great 
    <tr>
         <td class="time">11:35 - 11:50</td>
         <td class="author">
-		<b><a href="/events/isc-fall-2020-speakers#thomas_sadler">Thomas Sadler</a></b> (BBC)</td>
+		<b><a href="#thomas_sadler">Thomas Sadler</a></b> (BBC)</td>
         <td class="title"> Using internal RFCs to enhance collaboration
             <span onClick="toggleAbstract('sadler')" class="abstract-toggle">(<a id="sadler-link">Show Abstract</a>)</span>
             <div style="display:none" class="abstract" id="sadler">
@@ -326,7 +326,7 @@ InnerSource leverages Open Source practices internally to enable collaboration, 
    <tr>
         <td class="time">11:50 - 12:05</td>
         <td class="author">
-		<b><a href="/events/isc-fall-2020-speakers#agustin_benito">Agustin Benito Bethencourt</a></b> (Daimler Group)</td>
+		<b><a href="#agustin_benito">Agustin Benito Bethencourt</a></b> (Daimler Group)</td>
         <td class="title"> You can go fast by going together: software delivery process performance metrics
             <span onClick="toggleAbstract('bethencourt')" class="abstract-toggle">(<a id="bethencourt-link">Show Abstract</a>)</span>
             <div style="display:none" class="abstract" id="bethencourt">
@@ -341,7 +341,7 @@ The goal of the talk is to introduce the audience in such software delivery proc
 
    <tr>
         <td class="time">12:05 - 12:25</td>
-	<td class="author"><b><a href="/events/isc-fall-2020-speakers#diane_mueller">Diane Mueller</a></b> (Red Hat)</td>
+	<td class="author"><b><a href="#diane_mueller">Diane Mueller</a></b> (Red Hat)</td>
         <td class="title"> Community Development in the Age of Continuous Connection
         <span class="keynoteTag">Keynote</span>
             <span onClick="toggleAbstract('keynote-mueller')" class="abstract-toggle">(<a id="keynote-mueller-link">Show Abstract</a>)</span>
@@ -395,37 +395,42 @@ The three key reasons to attend the InnerSource Common Summits are:
 
 ### Keynote Speaker Bios
 
-<img alt="Silona Bonewald photo" src="/images/events/speakers/silona_bonewald.jpg" width="200" align="right"/>
+<div class="clearfix">
+<img alt="Silona Bonewald photo" src="/images/events/speakers/silona_bonewald.jpg" width="200" class="speaker-photo" id="silona_bonewald" />
 
 **Silona Bonewald**
 
 Silona Bonewald is the Executive Director of IEEE SA Open. Previously, Silona served as Vice President of Community Architecture at Hyperledger, a global open source collaborative effort hosted by The Linux Foundation, where she integrated leaders in finance, banking, Internet of Things (IoT), supply chains, and manufacturing. Other notable career accomplishments include, while with PayPal, pioneering the InnerSource process; for Siemens AG, creating a cutting-edge and Six Sigma-compliant e-commerce website; and for Ubisoft, creating an international content management system (CMS) architecture.
 
-<img alt="Danese Cooper photo" src="/images/events/speakers/Danese_Cooper.jpg" width="200" align="right"/>
+</div><div class="clearfix">
+<img alt="Danese Cooper photo" src="/images/events/speakers/Danese_Cooper.jpg" width="200" class="speaker-photo" id="danese_cooper" />
 
 **Danese Cooper**
 
 Danese Cooper is the Chairperson of InnerSource Commons and Vice President of Special Initiatives at NearForm, an Irish tech firm. Previously, she was Head of Open Source software at PayPal, CTO of Wikipedia, Chief Open Source Evangelist for Sun, and Senior Director of Open Source Strategies for Intel. Danese was also the inaugural chairperson of the Node.js Foundation. She concentrates on creating healthy open source communities and has served on the boards of Drupal Association, the Open Source Initiative, the Open Source Hardware Association, and she’s advised Mozilla and the Apache Software Foundation. Danese also runs a successful open source consultancy that counts the Bill & Melinda Gates Foundation, the SETI Institute, Harris, and Numenta as clients. She’s been known to knit through meetings.
 
-<img alt="James McLeod photo" src="/images/events/speakers/james-mcleod.png" width="200" align="right"/>
+</div><div class="clearfix">
+<img alt="James McLeod photo" src="/images/events/speakers/james-mcleod.png" width="200" class="speaker-photo" id="james_mcleod" />
 
 **James McLeod**
 
 James is the Director of Community at FINOS and wholeheartedly believes the transformation of Financial Services can only be fulfilled if Open Source is embraced under the three pillars of Contribution, Consumption and Community. James has a twenty year career in software engineering having worked for telecommunication startups, the gaming industry, digital streaming platforms and financial services. Prior to joining FINOS James worked at Lloyds Banking Group where he focused on building engineering communities for Lloyds Bank, Halifax, Bank of Scotland, Scottish Widows and other LBG banks. While at Lloyds Banking Group, James also drove the adoption of Inner Source and Open Source partly through the creation of engineering guilds providing in-person and remote educational sessions and large hackathon events. James also spent a number of years consulting on software engineering projects for RBS, NatWest and Barclays.
 
-
-<img alt="Tim O'Reilly photo" src="/images/events/speakers/Tim_Oreilly.jpg" width="200" align="right"/>
+</div><div class="clearfix">
+<img alt="Tim O'Reilly photo" src="/images/events/speakers/Tim_Oreilly.jpg" width="200" class="speaker-photo" id="tim_oreily" />
 
 **Tim O'Reilly**
 
 Tim O’Reilly is the founder, CEO, and Chairman of O'Reilly Media, the company that has been providing the picks and shovels of learning to the Silicon Valley goldrush for the past thirty-five years. The company's online learning and knowledge-on-demand platform at oreilly.com is used by thousands of enterprises and millions of individuals worldwide. O'Reilly has a history of convening conversations that reshape the computer industry. If you've heard the term "open source software", "web 2.0", "the Maker movement","government as a platform", or "the WTF economy", he's had a hand in framing each of those big ideas. Tim is also a partner at early stage venture firm O'Reilly AlphaTech Ventures (OATV), and on the boards of Code for America, PeerJ, Civis Analytics, and PopVox. He is the author of many technical books published by O'Reilly Media, and most recently WTF? What's the Future and Why It's Up to Us (Harper Business, 2017). He is working on a new book about why we need to rethink antitrust in the era of internet-scale platforms.
 
-
-<img alt="Martin Woodward photo" src="/images/events/speakers/Martin_Woodward.png" width="200" align="right"/>
+</div><div class="clearfix">
+<img alt="Martin Woodward photo" src="/images/events/speakers/Martin_Woodward.png" width="200" class="speaker-photo" id="martin_woodward" />
 
 **Martin Woodward**
 
 Martin Woodward is the Director of Developer Relations for GitHub. Before that Martin was Executive Director of the .NET Foundation helping drive Microsoft’s move towards open source and was a Principal Group Program Manager of the team building tooling and policy to help support InnerSource communities inside the company.
+
+</div>
 
 ### Venue
 
