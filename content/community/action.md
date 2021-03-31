@@ -62,7 +62,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Engie Digital" image="/images/logos/engie.png" >}}{{< /company >}}
       {{< company name="Ericsson" image="/images/logos/ericsson.png" >}}{{< /company >}}
       {{< company name="Etsy" image="/images/logos/etsy.png" >}}{{< /company >}}
-      {{< company name="Europace" image="/images/logos/europace-logo_farbe.png" >}}{{< /company >}}
+      {{< company name="Europace" image="/images/logos/europace.png" >}}{{< /company >}}
       {{< company name="Ford" image="/images/logos/ford.png" >}}{{< /company >}}
       {{< company name="GitHub" image="/images/logos/github.png" >}}{{< /company >}}
       {{< company name="GitLab" image="/images/logos/gitlab.png" >}}{{< /company >}}
