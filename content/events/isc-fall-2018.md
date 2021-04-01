@@ -421,7 +421,173 @@ Prior to joining Disney, Nigel had a 20-year career at Sun Microsystems, where h
 Nigel is a long-term mentor to aspiring young engineers. He’s currently mentoring STEM startups through LearnLaunch, an Accelerator program for EdTech startups. He is also mentoring high school students via The Possible Project, a Cambridge, MA-based after school program that teaches students with untapped potential entrepreneurship, technical, and business skills. Nigel graduated from Imperial College, London with a degree in Computing Science. He is co-inventor on and holds multiple patents in areas that include virtual worlds, voice interaction, and electronic communications.
 </p>
 
-<div markdown="1">
+### Conference Speakers
+
+<div class="clearfix">
+<img alt="Erin Bank photo" src="/images/events/speakers/Erin Bank.png" width="200" class="speaker-photo"/>
+
+**Erin Bank**
+
+Erin Bank has more than 20 years of experience building and executing transformative programs and solutions, with roles in engineering program management, product management, and technical communications in North America and abroad. Erin is currently Sr. Director of Engineering Program Management for the CA Technologies Office of the CTO, where she drives both the Open Source and Inner Source programs for CA Product Development. Erin has also been a driver of the Accelerator, CA’s hybrid-angel VC incubator program where internal innovators receive support and funding to get new products into market. She is a contributing member of InnerSource Commons, committed to establishing inner source best practices with the community. Erin has Lean Six Sigma and Pragmatic certifications.
+
+</div>
+
+<div class="clearfix">
+<img alt="Silona Bonewald photo" src="/images/events/speakers/Silona Bonewald.png" width="200" class="speaker-photo"/>
+
+**Silona Bonewald**
+
+I've been involved in innersource since the second summit, which Danese Cooper asked me to join.  I have been hooked ever since! 
+
+I'm currently the Director of Enterprise Intelligence at PayPal, where I created a centralized set of tools and standards so that teams can innersource effectively across business units and acquisitions, removing years of backlogged features. I'm responsible for Enterprise Search, Unified DataHub, ALM (application Lifecycle Management), Monitoring and Notifications.
+
+I re-architected the FDI (Failed Developer interactions) monitoring program to be more accurate, resilient and reliable. I also worked with DevX team on the creation of a Unified Product Model for End to End Developer Experience.
+In addition, I open sourced the unified search tool <a href="https://github.com/paypal/seazme" alt="Seazme">Seazme</a>, while engaging with other companies in its adoption outside of PayPal.  
+
+</div>
+
+<div class="clearfix">
+<img alt="Noah Cawley photo" src="/images/events/speakers/Picture_Pending.png" width="200" class="speaker-photo"/>
+
+**Noah Cawley**
+
+I am a software engineer at Nike where I work to support collaborative efforts within Nike Digital. I am passionate about applying both theoretical and empirical tools to understand and measure the dynamics and impact of collaboration. I believe that collaboration can radically improve the effectiveness and health of software engineering organizations, and I am lucky I get to work on confirming that belief every day. 
+
+</div>
+
+<div class="clearfix">
+<img alt="Billy Foss photo" src="/images/events/speakers/Billy Foss.jpg" width="200" class="speaker-photo"/>
+
+**Billy Foss**
+
+Billy Foss works in the world between development and operations. As part of bridging these worlds, he has helped development teams run and operate development integration environments that provide continuous feedback on the stability of the code base. He has also helped operations and infrastructure teams adopt development techniques with source control and automated build processes of infrastructure as code. He enjoys automating to help people and helping people to automate. Prior to his experience at enterprise software companies (CA Technologies and IBM), he performed military simulation research while earning a master’s degree in computer science at the University of Central Florida. 
+
+</div>
+
+<div class="clearfix">
+<img alt="Georg Gr&uuml;tter photo" src="/images/events/speakers/Georg Gruetter.jpg" width="200" class="speaker-photo"/>
+
+**Georg Gr&uuml;tter**
+
+Georg Gr&uuml;tter is a Senior Expert at Bosch Corporate Research and a founding member of the InnerSource activities at Bosch. He is driving the adoption of InnerSource within Bosch as an evangelist and as a developer since 2009. Georg is also a passionate software craftsman with over 30 years of experience. Previously, he worked for Daimler Chrysler as a researcher, the Zurich System House as a software engineer, and the Line Information GmbH as a consultant. Georg has created two open source projects: <a href="http://xhsi.sourceforge.net" alt="XHSI">XHSI</a> and <a href="https://github.com/jenkinsci/stashnotifier-plugin" alt="stashNotifier">stashNotifier</a>. He is an avid recumbent cyclist, mountain biker, stargazer and generally collects way too many hobbies.
+
+</div>
+
+<div class="clearfix">
+<img alt="Andre Hagemeier photo" src="/images/events/speakers/Andre Hagemeier.png" width="200" class="speaker-photo"/>
+
+**Andre Hagemeier**
+
+Andre Hagemeier is the Head of Development Platforms EU at Wayfair, where he tries to improve the quality of the code base, introduce scalable patterns for a rapidly growing Engineering group and establish a sense of ownership, commitment and collaboration. Before his position at Wayfair, Andre was Principal Engineer at IBM for IBM Connections, where he led a globally distributed team of over 200 engineers and guided them through a fundamental re-architecting of an industry leading enterprise software product.
+
+</div>
+
+<div class="clearfix">
+<img alt="Robert Hansel photo" src="/images/events/speakers/Robert Hansel.png" width="200" class="speaker-photo"/>
+
+**Robert Hansel**
+
+Robert Hansel is a founding member of the Social Coding Initiative at Bosch, in which he is driving the adoption of InnerSource within Bosch as a Social Coding Evangelist. Over his ten-year career in software development, Robert has worked in different technical areas from laboratory equipment to automotive components before he joined Bosch in 2011. He joined the InnerSource movement at Bosch in 2012, has led his own community and was part of the Social Coding team before joining the Bosch Center for Artificial Intelligence, where he continues to promote Social Coding within Bosch. He is a passionate motorbike rider and a proud father of his little son which consumes nearly every bit of his spare time.
+
+</div>
+
+<div class="clearfix">
+<img alt="Raimund Hook photo" src="/images/events/speakers/Raimund Hook.jpg" width="200" class="speaker-photo"/>
+
+**Raimund Hook**
+
+As InnerSource and DevOps Specialist at EXFO Inc., Raimund Hook has a corporate mandate to introduce and develop InnerSource in his organization. He is bringing his skills honed from his 20-year career into building tools and trying to foster a community of developers across the business. A technical generalist, Raimund has experience with a vast array of technology from hardware to deep network stacks, virtualization to cloud building, and a plethora of programming languages to several automation frameworks.
+A passionate believer in Automation, Raimund believes that there is a solution for most mundane tasks – somebody simply needs to take the time to implement it. Unfortunately, he’s found out, automating people is less of an ‘easy target’. He’s admittedly learning along the way and has found that sharing his experiences is part of the InnerSource way. Raimund joined Ontology Systems in London in late 2015, which was later acquired by EXFO in 2017. Prior to working at EXFO, he spent 11 years working for Internet Solutions in South Africa, a converged Telecommunications provider. There, Raimund held various positions culminating in leading a team responsible for building and maintaining fulfilment and provisioning solutions for the business.
+
+</div>
+
+<div class="clearfix">
+<img alt="Jim Jagielski photo" src="/images/events/speakers/Jim Jagielski.png" width="200" class="speaker-photo"/>
+
+**Jim Jagielski**
+
+Jim Jagielski is a well-known and acknowledged expert and visionary in Open Source, an accomplished coder, and frequent engaging presenter on all things Open, Web and Cloud related. As a developer, he’s made substantial code contributions to just about every core technology behind the Internet and Web and in 2012 was awarded the O’Reilly Open Source Award and in 2015 received the Innovation Luminary Award from the EU. He is likely best known as one of the developers and co-founders of the Apache Software Foundation, where he has previously served as both Chairman and President and where he’s been on the Board of Directors since day one. He serves as President of the Outercurve Foundation and was also a director of the Open Source Initiative (OSI) and. Jim currently works as an Open Source Chef for ConsenSys. He credits his wife Eileen in keeping him sane.
+
+</div>
+
+<div class="clearfix">
+<img alt="Daniel Izquierdo photo" src="/images/events/speakers/Daniel_Izquierdo.jpg" width="200" class="speaker-photo"/>
+
+**Daniel Izquierdo**
+
+Daniel Izquierdo Cortazar is a researcher and one of the founders of Bitergia, a company that provides software analytics for open source ecosystems. Currently the chief data officer at Bitergia, he is focused on the quality of the data, research of new metrics, analysis, and studies of interest for Bitergia customers via data mining and processing. Daniel holds a PhD in free software engineering from the Universidad Rey Juan Carlos in Madrid, where he focused on the analysis of buggy developers activity patterns in the Mozilla community.
+
+</div>
+
+<div class="clearfix">
+<img alt="Stephen McCall photo" src="/images/events/speakers/Stephen McCall.png" width="200" class="speaker-photo"/>
+
+**Stephen McCall**
+
+Stephen McCall is currently the InnerSource Governance Architect within the Enterprise Cloud Computing Group at Fidelity Investments, where he collaborates with individuals and teams across all Fidelity business units to enable and speed the adoption of InnerSource best practices. A curious and persistent technologist, a DesignOps innovator, an InnerSource evangelist, and a Design Thinking advocate, for over 20 years, Stephen has been driving cultural change within organizations both large and small. His focus is to remove as many of the layers of translation required between product ideation and implementation by creating streamlined systems of interaction across all disciplines involved.
+
+</div>
+
+<div class="clearfix">
+<img alt="David McKenna photo" src="/images/events/speakers/David McKenna.jpg" width="200" class="speaker-photo"/>
+
+**David McKenna**
+
+Dave McKenna is an Agile Coach who has worked in the information technology field for more than 20 years. A United States Air Force veteran, he started his career in IT unboxing IBM and Apple computers in a Computerland store (Remember those?) while moonlighting as a bouncer and part time professional wrestler. Dave eventually became a Novell Certified Network Engineer and worked his way into a Sustaining Engineer position at CA Technologies. In 2009, he began his Agile journey which continues today. Dave has performed as the “World’s Strongest Mainframer” and works with kids as much as possible, putting on anti-bullying programs and running a weekly youth group.
+
+</div>
+
+<div class="clearfix">
+<img alt="David Mittman photo" src="/images/events/speakers/David Mittman.png" width="200" class="speaker-photo"/>
+
+**David Mittman**
+
+David Mittman has been developing software for over 35 years, and is currently Manager for Enterprise and Information Systems Engineering at NASA’s Jet Propulsion Laboratory, where he leads the delivery of processes, tools and services that are specially designed to serve the needs of the scientists, engineers and technicians of JPL’s Engineering and Science Directorate. His software helped plan the Mars Pathfinder mission that put the first-ever rover on Mars in the late 1990s, and is planning observations for NASA’s Spitzer Space Telescope. As an advocate for the software developer, David is helping to modernize the state of software product development and encourage a culture of collaboration across the Laboratory.
+
+</div>
+
+<div class="clearfix">
+<img alt="Loren Sanz photo" src="/images/events/speakers/Loren Sanz.png" width="200" class="speaker-photo"/>
+
+**Loren Sanz**
+
+Loren Sanz is a gregarious engineer on Nike's Community Core team - a startup within the company that fosters cross-team and community interaction and development. Loren brings a broad background of experience to the team. His background includes management, enterprise sales, customer service and software engineering. Loren is passionate about collaboration and believes that we are strongest when we are all working together.
+
+</div>
+
+<div class="clearfix">
+<img alt="Kristof Van Tomme photo" src="/images/events/speakers/Kristof Van Tomme.png" width="200" class="speaker-photo"/>
+
+**Kristof Van Tomme**
+
+Kristof Van Tomme is an open source strategist and architect. He is the CEO and co-founder of Pronovix. He’s got a degree in bioengineering and is a regular speaker at conferences in the API, DevRel, and technical writing communities. For a few years now he’s been building bridges between the documentation and Drupal community. He is co-organiser of the London Write the Docs meetup, and cheerleader for the Amsterdam and Brussels Write the Docs meetup groups. After a first InnerSourcing Conference, Kristof got really excited about pattern languages and how they can be applied to help teams develop better documentation despite the constraints that exist for internal software programs.
+
+</div>
+
+<div class="clearfix">
+<img alt="Kanchana Welagedara photo" src="/images/events/speakers/Kanchana Welagedara.jpg" width="200" class="speaker-photo"/>
+
+**Kanchana Welagedara**
+
+A long-time open source enthusiast and community contributor, Kanchana Welagedara is a member of The Apache Software Foundation, and a contributor for Apache Axis C++, Geronimo, and other open source projects. Kanchana's experience includes being Lead Developer at JPMorgan Chase. Previously, she was an innersource evangelist at PayPal. Kanchana is also the proud mother of a geeky 3-year-old boy.
+
+</div>
+
+### Formerly Scheduled
+ <p>
+Due to a conflict, the following speaker is unable to attend.
+
+<div class="clearfix">
+<img alt="Nithya Ruff photo" src="/images/events/speakers/Nithya Ruff.png" width="200" class="speaker-photo"/>
+
+**Nithya Ruff**
+
+Nithya A. Ruff is the Head of Comcast’s Open Source Practice.  She is responsible for growing Open Source culture inside of Comcast and engagement with external communities.  Prior to this, she started and grew the Western Digital’s Open Source Strategy Office. She first glimpsed the power of open source while at SGI in the 90s and has been building bridges between companies and the open source community ever since. She’s also held leadership positions at Wind River (an Intel Company), Synopsys, Avaya, Tripwire and Eastman Kodak. At Wind River, she led a team of product managers in managing a world class embedded Linux distribution and was a key member of the Yocto Project advocacy team on the board. Nithya is a Director at Large on the Linux Foundation Board and represents community interests on the board.
+ 
+Nithya has been a passionate advocate and a speaker for opening doors to new people in Open Source for many years. She has also been a promoter of valuing diverse ways of contributing to open source such as in marketing, legal and community. You can often find her on social media promoting dialogue on diversity and open source.  She has spoken at multiple conferences such as OSSummit, OSCON, All Things Open, SCALE, Grace Hopper, OpenStack, VMWorld, OS Strategy Summit and Red Hat Summit on the business and community of open source.   In recognition of her work in open source both on the business and community side, she was named to CIO magazine’s most influential women in open source list. She was recently one of 4 people to win the 2017 O’Reilly Open Source Award for exceptional contribution to open source.  
+Nithya graduated with an MS in Computer Science from NDSU and an MBA from the University of Rochester, Simon Business School. She lives in the San Francisco Bay Area and is a proud mother of two daughters. You can follow her on twitter @nithyaruff.
+
+</div>
 
 ### What is the InnerSource Commons?
 The InnerSource Commons ([InnerSourceCommons.org](http://innersourcecommons.org)) aka ISC is a consortium of representatives from over sixty companies and institutions. It utilizes open source methods to provide organizations pursuing inner sourcing a forum for discussing and improving the practice of InnerSource through the sharing of experiences (under the [Chatham House Rule](https://www.chathamhouse.org/about/chatham-house-rule)), creation and review of InnerSource patterns, and the open exchange of ideas.

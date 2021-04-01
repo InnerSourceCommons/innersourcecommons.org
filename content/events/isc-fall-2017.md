@@ -33,7 +33,7 @@ John Landy is Lead Product Owner for a group championing inner source community 
 
 ### Who are the Speakers?
 
-See [the list of speakers](/events/isc-fall-2017-speakers)
+<iframe width="960" height="5200" src="https://docs.google.com/document/d/e/2PACX-1vRaHfTleJAKWYUQd8R5sd_44HuBMJ_m6ZvI3LPVbgD5G8v4qNBhhOtDOhEkgjT7IiVkAAMBJutfjJzO/pub?embedded=true"></iframe>
 
 ### What is InnerSource?
 InnerSource takes the lessons learned from developing open source software and applies them to the way companies develop software internally. As developers have become accustomed to working on world class open source software, there is a strong desire to bring those practices back inside the firewall and apply them to software that companies may be reluctant to release. For companies building mostly closed source software, InnerSource can be a great tool to help break down silos, encourage internal collaboration, accelerate new engineer on-boarding, and identify opportunities to contribute software back to the open source world.
@@ -134,14 +134,6 @@ Hotel Info:~126 USD per night, ~5 miles bout 10 mins by car to Nokia
 The [city of Naperville](http://www.naperville.il.us/) is a suburb of Chicago, located about forty minutes west of the Chicago downtown and about forty minutes away from the O'Hare International Airport. It was ranked among the nation's safest cities by USAToday and Business Insider. Naperville was voted the second-best place to live in the United States by Money magazine in 2006. It was rated 1st on the list of best cities for early retirement in 2013 by Kiplinger. As of the 2010 census, the city had a population of 141,853, which was estimated to have increased to 147,100 by July 2015. It is the fifth-largest city in Illinois.
 
 Downtown Naperville features [its own riverwalk](http://www.naperville.il.us/enjoy-naperville/naperville-riverwalk/), [created in 1981 to celebrate the city's Sesquicentennial](http://www.napervilleparks.org/the-riverwalk) (150th anniversary). The park features covered bridges, relaxing fountains and distinctive shepherd's crook lights. 
-
-
-<img alt="The Naperville Riverwalk features a covered bridge" width="600" src="/images/events/speakers/naperville_riverwalk_4755340966_fc7390571a_z_brian_jelonek.jpg"/>
-<p style="font-size: 8pt; font-style: italic;">Photo by <a href="https://www.flickr.com/photos/jelonekphotography/4755340966/">Brian Jelonek</a></p>
-<img alt="The Naperville Riverwalk is a pleasant place to walk" width="600" src="/images/events/speakers/naperville_riverwalk_4754699889_719ac628ba_z_brian_jelonek.jpg"/>
-<p style="font-size: 8pt; font-style: italic;">Photo by <a href="https://www.flickr.com/photos/jelonekphotography/4754699889/">Brian Jelonek</a></p>
-<img alt="The Riverwalk is near an iconic bell tower" width="600" src="/images/events/speakers/naperville_riverwalk_4754409033_9389f267ca_z_brian_jelonek.jpg"/>
-<p style="font-size: 8pt; font-style: italic;">Photo by <a href="https://www.flickr.com/photos/jelonekphotography/4754409033/">Brian Jelonek</a></p>
 
 Only a 40 minute drive to the east, Chicago has [many worthwhile attractions](http://www.planetware.com/tourist-attractions-/chicago-us-il-chi.htm) for those who are looking for something to do outside of the Fall Summit.
 
