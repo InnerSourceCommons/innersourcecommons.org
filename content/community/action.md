@@ -38,7 +38,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Adeo" image="/images/logos/adeo.png" >}}{{< /company >}}
       {{< company name="Ahold Delhaise" image="/images/logos/ahold.png" >}}{{< /company >}}
       {{< company name="American Airlines" image="/images/logos/americanairlines.png" >}}{{< /company >}}
-      {{< company name="Anyshore" image="/images/logos/anyshore.png" >}}{{< /company >}}
+      {{< company name="Anyshore" image="/images/logos/Anyshore.png" >}}{{< /company >}}
       {{< company name="Autodesk" image="/images/logos/autodesc.png" >}}{{< /company >}}
       {{< company name="AXA" image="/images/logos/axa.png" >}}{{< /company >}}
       {{< company name="Baidu" image="/images/logos/baidu.png" >}}{{< /company >}}
