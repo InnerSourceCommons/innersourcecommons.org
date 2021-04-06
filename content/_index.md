@@ -3,7 +3,7 @@ title: "InnerSource Commons"
 ---
 
 {{< notice >}}
-<i class="ti-announcement mr-2"></i>April 6th at 5pm GMT / 6pm CET • Online • InnerSource Metrics, Value & ROI Community Call <a href="https://www.eventbrite.com/e/innersource-commons-community-call-metrics-value-roi-tickets-147099639983" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
+<i class="ti-announcement mr-2"></i>May 4th at 5pm GMT / 6pm CET • Online • InnerSource in Government <a href="https://www.eventbrite.com/e/innersource-commons-community-call-innersource-in-government-tickets-149394552127" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
 {{</ notice >}}
 
 
