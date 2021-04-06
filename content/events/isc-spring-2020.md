@@ -341,12 +341,11 @@ Georg Grütter examines the main differences between InnerSource and open source
 
 [Registration](https://www.brownpapertickets.com/event/4450343) is already open! We are using Brown Paper Tickets for this process. Please notice that **taxes** will be added on top of the sales process. There is a fix rate of 30€ that includes taxes, and a t-shirt and stickers that we will send as soon as possible.
 
-### Agenda and Speakers
+### Speakers
 
 We are delighted to welcome Danese Cooper (VP of Special Initiatives at NearForm), and Nithya Ruff (Head of Comcast’s Open Source Program Office) as our keynote speakers for the first day. And Isabel Drost-Fromm (Open Source Strategist at Europace AG) and Georg  Grütter (Social Coding Evangelist and Developer Advocate at Bosch.IO) as our keynote speakers during the second day!
 
-The Summit agenda is available [here](https://innersourcecommons.org/events/isc-spring-2020-agenda/) and you can start checking the great set of speakers [here](https://innersourcecommons.org/events/isc-spring-2020-speakers/).
-
+#### Keynote Speakers
 
 <img alt="Danese Cooper photo" src="/images/events/speakers/Danese_Cooper.jpg" width="200" align="right"/>
 
@@ -367,7 +366,7 @@ Isabel Drost-Fromm is Open Source Strategist at Europace AG Germany. She's a mem
 Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO. He cofounded and led the first InnerSource community at Bosch. Georg is a passionate software developer with over 30 years of experience. Previously, he held various positions and roles at Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg has created two open source projects, [XHSI](http://xhsi.sourceforge.net) and [stashNotifier](https://wiki.jenkins-ci.org/display/JENKINS/StashNotifier+Plugin). He's an avid recumbent cyclist and mountain biker who also loves photography and chocolate.
 
 
-<img alt="Nithya Ruff photo" src="/images/events/speakers/isc_madrid_nithya_ruff.jpg" width="200" align="right"/>
+<img alt="Nithya Ruff photo" src="/images/events/speakers/Nithya Ruff.png" width="200" align="right"/>
 
 **Nithya Ruff**
 
@@ -375,6 +374,91 @@ Nithya A. Ruff is the Head of Comcast’s Open Source Program Office.  She is re
 
 Nithya has been a passionate advocate and a speaker for opening doors to new people in Open Source for many years. She has also been a promoter of valuing diverse ways of contributing to open source such as in marketing, legal and community.   You can often find her on social media promoting dialogue on diversity and open source.
 
+#### Conference Speakers
+
+<div class="clearfix">
+<img alt="Maximilian Capraro photo" src="/images/events/speakers/Max_Capraro.png" width="200" class="speaker-photo"/>
+
+**Maximilian Capraro**
+
+Maximilian Capraro is a researcher and doctoral candidate at the Open Source Research Group at Friedrich-Alexander-University Erlangen-Nürnberg. He worked on inner source in research projects with a variety of companies including Black Duck Software, Continental, and multiple Siemens business units. He developed the patch-flow measurement method (for measuring software development collaboration) and the first classification framework for inner source projects and programs. His research interests the quantification of software development collaboration, inner source governance including legal and taxation aspects, and many other things around inner source, open source, and software engineering.
+
+</div><div class="clearfix">
+<img alt="Guilherme Dellagustin photo" src="/images/events/speakers/guilherme_dellagustin.jpg" width="200" class="speaker-photo"/>
+
+**Guilherme Dellagustin**
+
+Guilherme is a multipurpose developer at SAP, <a href="https://support.sap.com/en/product/globalization.html">Globalization Services</a>, passionate about everything in software, especially in InnerSource and Open Source.<br>
+Find him on GitHub (<a href="https://github.com/dellagustin" class="icon-github">dellagustin</a> and <a href="https://github.com/dellagustin-sap" class="icon-github">dellagustin-sap</a>), Twitter (<a href="https://twitter.com/dellagustindev" class="icon-twitter">@dellagustindev</a>) and LinkedIn (<a href="https://www.linkedin.com/in/dellagustin/" class="icon-linkedin">dellagustin</a>).
+
+</div><div class="clearfix">
+<img alt="Michael Graf photo" src="/images/events/speakers/michael_graf.png" width="200" class="speaker-photo"/>
+
+**Michael Graf**
+
+Michael is software developer at SAP and Open Source enthusiast. He loves evangelizing technology, sharing knowledge, and collaborating with the community.
+
+</div><div class="clearfix">
+<img alt="Ana Jiménez Santamaría photo" src="/images/events/speakers/ana_jimenez_santamaria_2.png" width="200" class="speaker-photo"/>
+
+**Ana Jiménez Santamaría**
+
+Ana is currently working at Bitergia, a Software Development Analytics firm specialized in Open Source and InnerSource projects, while studying for her master’s in Data Science.  As a software marketing specialist and data nerd, Ana is really interested in DevRel community, Open Source and community metrics.
+
+She has been a speaker at international conferences such as DevRelCon Tokyo and London 2019 or past Innersource Commons Summit editions.
+
+</div><div class="clearfix">
+<img alt="José Manrique López photo" src="/images/events/speakers/jose_manrique.jpg" width="200" class="speaker-photo"/>
+
+**José Manrique López**
+
+Manrique is the CEO and shareholder in Bitergia and a free, libre, open source software development communities passionate. He is a graduate Industrial Engineer with research and development experience from the Technological Center for Computer Science and Communications of the Principality of Asturias (CTIC), W3C working groups, Ándago Engineering, and Continua Health Alliance. Former executive director of the Spanish Open Source Enterprises Association (ASOLIF), and expert consultant for the Spanish National Open Source Reference Center (CENATIC). Involved in several communities related to free, libre, open source software he is currently active in GrimoireLab and CHAOSS(Community Health Analytics for Open Source Software). He has been recognized as AWS Data Hero and GitLab Community Hero. You can reach him on Twitter as @jsmanrique, and when he is not online he loves to spend time with his family and surfing.
+
+</div><div class="clearfix">
+<img alt="Katrina Novakovic photo" src="/images/events/speakers/Katrina_Novakovic.jpg" width="200" class="speaker-photo"/>
+
+**Katrina Novakovic**
+
+Katrina is a business architect in the Red Hat EMEA Office of Technology, working with organisations to strategically use open source software and methodologies and to establish communities. She guides customers through the process and cultural changes needed for digital transformation and technology adoption. Katrina is passionate about sharing best practices around the people, process and cultural aspects of Open Source. She's also advised organisations on Inner Source adoption.
+
+</div><div class="clearfix">
+<img alt="Thomas Sadler photo" src="/images/events/speakers/thomas_sadler.jpg" width="200" class="speaker-photo"/>
+
+**Thomas Sadler**
+
+Tom Sadler is a Software Engineering Team Lead for BBC iPlayer, specialising in media playback for connected TV browsers. He has advocated for supporting open source projects, including the BBC’s TV Application Layer and bigscreen-player, and lead on collaboration between teams.
+
+</div><div class="clearfix">
+<img alt="Dmitrii Sugrobov photo" src="/images/events/speakers/dmitrii_sugrobov.jpg" width="200" class="speaker-photo"/>
+
+**Dmitrii Sugrobov**
+
+Dmitrii is a software engineer, DevOps believer, evangelist at Leroy Merlin. Leroy Merlin is a DIY retail company that is part of the Adeo group with a presence in 15 countries. InnerSource is one of the key directions in software development across all business units of the company. 
+Dmitrii improves the processes associated with the life of the code during and after its being crafted. Believes that the time of lone programmers is long gone. Speaker of various conferences across Russia and France.
+
+</div><div class="clearfix">
+<img alt="Jerry Tan photo" src="/images/events/speakers/jerry_tan.jpg" width="200" class="speaker-photo"/>
+
+**Jerry Tan**
+
+OSPO of Baidu.Inc, over 20 years working experience with OSS, committer of Mozilla/Gnome/apache, speaker of OSCON/ApacheCON/Open Source Summit, advocate of InnerSource in China, has formed a group in China to discuss InnerSource practices.
+
+</div><div class="clearfix">
+<img alt="Johannes Tigges photo" src="/images/events/speakers/portrait-tigges.jpg" width="200" class="speaker-photo"/>
+
+**Johannes Tigges**
+
+Johannes is a co-creator of the InnerSource Commons Learning Path and has worked on introducing InnerSource to HERE Technologies, a leading digital map and location company. Currently he offers consulting on topics around open collaboration, automation, and everything open. Aside of that he works as lecturer and delivers technical trainings. 
+He presents his work and thoughts at industry conferences like the FOSDEM or the InnerSource Commons Summit and is active in Open Source communities since a long time. With a background in both computer science and sociology of organization he has a unique perspective on software engineering organizations.
+In past roles, he has worked on introducing Continuous Integration and Delivery to large research institutions, in DevOps roles for very large cloud based platforms and developed software within the Telco domain.
+
+</div><div class="clearfix">
+<img alt="Kristof van Tomme photo" src="/images/events/speakers/Kristof Van Tomme.png" width="200" class="speaker-photo"/>
+
+**Kristof van Tomme**
+
+Kristof Van Tomme is an open source strategist and architect. He is the CEO and co-founder of Pronovix. He’s got a degree in bioengineering and is a regular speaker at conferences in the API, DevRel, and technical writing communities. For a few years now he’s been building bridges between the documentation and Drupal community. He is co-organiser of the London Write the Docs meetup, and cheerleader for the Amsterdam Write the Docs meetup group. After his first two InnerSourcing Conferences, Kristof got really excited about pattern languages and how they can be applied to help teams develop better documentation despite the constraints that exist for internal software programs.
+</div>
 
 ### What is the InnerSource Commons?
 

@@ -9,7 +9,7 @@ date: 2020-09-15T00:00:00+00:00
 
 The 11th InnerSource Commons Summit stayed online thanks to the success of the <a href="https://www.youtube.com/playlist?list=PLCH-i0B0otNQeYBH5QvNRBDA3CMrS9lL9">ISC Online Spring Summit 2020</a>. You can now enjoy watching the talks on our Youtube Channel in the <a href="https://www.youtube.com/watch?v=0YzOz94cNec&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy">InnerSource Commons Online Fall Summit 2020</a> Playlist.  
 
-You can check out the original event site [here](https://www.eventbrite.ie/e/innersource-commons-fall-2020-virtual-summit-tickets-117435975163).
+You can check out the original event site [here](https://www.eventbrite.ie/e/innersource-commons-fall-2020-virtual-summit-tickets-117435975163#).
 
 ### The following information is for reference purposes only.
 
@@ -20,8 +20,6 @@ We continue to explore new ways to get together and keep advancing in the body o
 We are delighted to announce that **Tim O'Reilly** (Founder, CEO, and Chairman of O'Reilly Media) has been confirmed as a keynote speaker for this summit. 
 
 Tim will join **Danese Cooper** (VP of Special Initiatives at NearForm), **James McLeod** (Director of Community at FINOS, the Fintech Open Source Foundation), **Martin Woodward** (Director of Developer Relations at GitHub), and **Silona Bonewald** (Executive Director at IEEE SA Open) in the keynote sessions. 
-
-The Summit agenda is available [here](https://innersourcecommons.org/events/isc-fall-2020-agenda/).
 
 ### About the Event
 
@@ -43,7 +41,7 @@ Example of time differences in other timezones for the first day of conference:
 * China Standard Time: 12:00 am 16th September - 03:30 am 16th September
 
 
-### Agenda
+### Agenda and Speakers
 
 
 <table class="schedule table table-striped">
@@ -359,15 +357,12 @@ A seismic shift has occurred across open source ecosystems that has given rise t
 
 </table>
 
+
 ### Registration
 
 [Click here to register](https://www.eventbrite.ie/e/innersource-commons-fall-2020-virtual-summit-tickets-117435975163) for the InnerSource Commons Fall 2020 Virtual Summit. Ticket price is $35, inclusive of all taxes. Ticket price also includes a T-shirt to celebrate the event, which we will be send out afterwards.
 
 If, for any reason, you find the associated fee prohibits you from attending - please email us at <summit@innersourcecommons.org>, as we have a number of complementary tickets we can allocate. 
-
-### Agenda and Speakers
-
-The Summit agenda is available [here](https://innersourcecommons.org/events/isc-fall-2020-agenda/).
 
 ### Call For Presentations
 
@@ -429,6 +424,170 @@ Tim O’Reilly is the founder, CEO, and Chairman of O'Reilly Media, the company 
 **Martin Woodward**
 
 Martin Woodward is the Director of Developer Relations for GitHub. Before that Martin was Executive Director of the .NET Foundation helping drive Microsoft’s move towards open source and was a Principal Group Program Manager of the team building tooling and policy to help support InnerSource communities inside the company.
+
+</div>
+
+### Speaker Bios
+
+<div class="clearfix">
+<img alt="Andrew Aitken photo" src="/images/events/speakers/andrew-aitken.JPG" width="200" class="speaker-photo" id="andrew_aitken" />
+
+**Andrew Aitken**
+
+Andrew and his team are responsible for crafting and executing Wipro’s open source consulting, go-to-market and solutions strategy. Andrew has served as an open source expert to the White House and California Senate and as a guest lecturer at Stanford’s Entrepreneur program. He is an investor in Mautic and on the Board of Advisors of various open source companies. He is past Board Member of OSEHRA, an initiative spearheaded by the U.S. Department of Veterans Affairs to provide open source-based cost effective healthcare solutions for veterans. He has personally worked with organizations such as Capital One, Fidelity, Microsoft, the U.S. Navy, and many startups, assisting them with developing their open source strategies. Andrew has been a pioneer in the development of open source adoption, governance and commercialization models and is a frequent international speaker on a variety of open source-related topics.
+
+</div><div class="clearfix">
+<img alt="Harish B. photo" src="/images/events/speakers/Harish-B.jpg" width="200" class="speaker-photo" id="harish_b" />
+
+**Harish B.**
+
+Harish B. is the Director of Innovation and Strategic Customer Programs at SAP. His role focuses on the following key areas:  driving Product Innovation by increasing patents, thought leadership , developing key products and with strategic initiatives such as InnerSource, building and enabling our employees to build world class products, leveraging the best development processes and ensuring the problem the product was meant to solve is being solved. Next is Customer Transformation: customers look up to SAP to help them run their businesses efficiently and effectively and there is no use of innovation, if it has no customer! Hence, Harish and his team at SAP are always working with product experts and working with customer CXOs to help them leverage SAP’s innovation to transform their business.
+
+</div><div class="clearfix">
+<img alt="Agustin Benito photo" src="/images/events/speakers/agustin_benito.jpeg" width="200" class="speaker-photo" id="agustin_benito" />
+
+**Agustin Benito Bethencourt**
+
+Martin Woodward is the Director of Developer Relations for GitHub. Before that Martin was Executive Director of the .NET Foundation helping drive Microsoft’s move towards open source and was a Principal Group Program Manager of the team building tooling and policy to help support InnerSource communities inside the company.
+
+</div><div class="clearfix">
+<img alt="Joe Chavez photo" src="/images/events/speakers/Joe-Chavez.jpg" width="200" class="speaker-photo" id="joe_chavez" />
+
+**Joe Chavez**
+
+Joe Chavez is a technologist with a deep background in software architecture, design, development and operations. Currently Joe is focused on digital transformation of California's Medi-Cal information technology infrastructure and applications. Leveraging and creating open source software is an integral part of this work. In the past, Joe has helped launch and operate a space telescope for NASA, built enterprise class software, and launched several mobile and IoT startups. 
+
+</div><div class="clearfix">
+<img alt="Alex Chittock photo" src="/images/events/speakers/alex-chittock.jpeg" width="200" class="speaker-photo" id="alex_chittock" />
+
+**Alex Chittock**
+
+Alex works for Lloyds Banking Group. In Alex's words: "Code has always been part of life. My earliest memories are of being nose-deep in old programming magazines and hacking school computers. The decades that followed have been a blur of technologies, start-ups, consultancies and enterprises in fields covering real estate, health, entertainment, technology, and finance. These days my focus has shifted from developing applications to developing engineers, and changing how organisations think about software."
+
+</div><div class="clearfix">
+<img alt="Clare Dillon photo" src="/images/events/speakers/Clare-Dillon.jpg" width="200" class="speaker-photo" id="clare_dillon" />
+
+**Clare Dillon**
+
+Clare Dillon has spent over 20 years working with developers and developer communities. Clare has been involved with InnerSource Commons since early 2019, when she helped set up NearForm's InnerSource practice with Danese Cooper. Before that, Clare was a member of Microsoft Ireland Leadership Team, heading up their Developer Evangelism and Experience Group. Clare also works with Moss Labs to support the establishment of University and Government Open Source Program Offices and OSPOs++ globally, that can collaborate to implement public policy and trustworthy public services. Clare frequently speaks at international conferences and corporate events on topics relating to the future of work, innovation trends and digital ethics. 
+
+</div><div class="clearfix">
+<img alt="Isabel Drost-Fromm photo" src="/images/events/speakers/isabel_drost-fromm.jpeg" width="200" class="speaker-photo" id="isabel_drost_fromm" />
+
+**Isabel Drost-Fromm**
+
+Isabel Drost-Fromm is Open Source Strategist at Europace AG Germany. She's a member of the Apache Software Foundation, co-founder of Apache Mahout and mentored several incubating projects. Isabel is interested in all things FOSS, search and text mining with a decent machine learning background. True to the nature of people living in Berlin she loves having friends fly in for a brief visit - as a result she co-founded and is still one of the creative heads behind Berlin Buzzwords, a tech conference on all things search, scale and storage.
+
+</div><div class="clearfix">
+<img alt="Michael Graf photo" src="/images/events/speakers/michael_graf.png" width="200" class="speaker-photo" id="michael_graf" />
+
+**Michael Graf**
+
+Michael is software developer at SAP and Open Source enthusiast. He loves evangelizing technology, sharing knowledge, and collaborating with the community. 
+
+</div><div class="clearfix">
+<img alt="Russell Green photo" src="/images/events/speakers/russell-green.jpg" width="200" class="speaker-photo" id="russell_green" />
+
+**Russell Green**
+
+Russell currently leads Deutsche Bank’s (DB) Group Architecture function, where he is responsible for ensuring that the bank’s architecture practice is comprehensive, operational and efficient. 
+ 
+This includes co-ordinating the group-wide architecture roadmap, ensuring an effective governance process for programmes and technology and developing the architecture foundations that underpin the strategy. Group Architecture also plays a central role in articulating the current technology landscape and measuring progress towards DB’s target state.
+ 
+Russell chairs a number of key forums that define the future direction of DB’s IT practice. These include the Global CTO Council, which oversees the operational and future state of DBs architecture practice; the Technology Architecture Council (TAC), which controls the organisation’s technology portfolio and the Open Source Review Council, which oversees the bank’s engagement with the global open source community. 
+ 
+Russell joined DB in 2015 as CTO for the Control Functions, where he established the architecture control practice and led work to define the target state. 
+Prior to DB, he has spent over 15 years in various architecture roles across the banking sector including LCH, UBS, Barclays and most recently RBC. Before moving into financial services, Russell developed high performance billing applications for the telecoms industry. 
+ 
+Russell attained his PhD from Imperial College in 1994 and this expertise forms the basis of his analytical approach to architecture and knowledge management. He believes that the establishment of a world class architecture function is needed to enable global organisations such as DB to execute in a coordinated and efficient manner.  
+
+</div><div class="clearfix">
+<img alt="Georg Gruetter photo" src="/images/events/speakers/Georg Gruetter.jpg" width="200" class="speaker-photo" id="georg_grutter" />
+
+**Georg Gruetter**
+
+Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO. He cofounded and led the first InnerSource community at Bosch. Georg is a passionate software developer with over 30 years of experience. Previously, he held various positions and roles at Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg has created two open source projects, "XHSI":http://xhsi.sourceforge.net and "stashNotifier":https://wiki.jenkins-ci.org/display/JENKINS/StashNotifier+Plugin. He's an avid recumbent cyclist and mountain biker who also loves photography and chocolate.
+
+</div><div class="clearfix">
+<img alt="Brittany Istenes photo" src="/images/events/speakers/Brittany-Istenes.png" width="200" class="speaker-photo" id="brittany_istenes" />
+
+**Brittany Erica Istenes**
+
+Brittany started off her career as an elementary/special education school teacher in a lower income area of Philadelphia. 
+Seeing the need for a stronger technology presence in education, she transitioned from the classroom for a company that 
+specialized in getting students from lower income areas all across the country to read at or above grade level through 
+teaching teachers all across the country how to use online tools that track and assist getting students to meet their goals. 
+Now at Comcast, one of her main focuses is the delivery of OSS through the company and beyond as well as a a sharp focus on Community. 
+She guides the Open Source Advisory Council which is comprised of compliance lawyers, patent/strategic IP lawyers, engineers and security to 
+evaluate all Open Source contributions and new projects that come through the company. Some other projects she works on is the 
+Open Source Ambassador program which takes technologists from all over the company and guides them through the OSS process to become 
+evangels for what we do within and outside of the company. Another is the Open Source Fellowship program which focuses on getting developers 
+to dedicate 25% of their year on Open Source Software tooling.  Finally Brittany sits on the newly formed internal InnerSource Guild which guides 
+teams through best InnerSource practices.
+
+</div><div class="clearfix">
+<img alt="Jim Jagielski photo" src="/images/events/speakers/Jim Jagielski.png" width="200" class="speaker-photo" id="jim_jagielski" />
+
+**Jim Jagielski**
+
+Jim Jagielski is co-founder of the ASF and OSPO Lead at Uber.
+
+</div><div class="clearfix">
+<img alt="Dov Katz photo" src="/images/events/speakers/dov-katz.JPG" width="200" class="speaker-photo" id="dov_katz" />
+
+**Dov Katz**
+
+Dov Katz is the chair of FINOS and a Managing Director and Distinguished Engineer at Morgan Stanley. He has been at the Firm for 18 years, involved in a wide array of technologies ranging from instant messaging, to client facing electronic trading, to web platforms and toolkits, and has most recently been driving the Firm's DevOps efforts. He currently leads the Morgan Stanley Developer Environment (MSDE) organization which is responsible for driving developer productivity and delivering key elements of the DevOps pipeline and tool-chain.
+
+Within the Firm's Institutional Securities Tech division, Dov led the delivery and architecture of the Firm's award-winning Matrix electronic trading, pricing and analytics platform, serving the Institutional sales and trading desks and the Firm's clients. He has been directly involved in the creation and execution of the Firm's broader strategy around client-facing technology, and infrastructure needed to support it. Prior to leading Matrix, Dov created a web platform Application Infrastructure team, and was responsible for internal collaboration products.
+
+Dov holds a BSc in Computer Science from Columbia University and an MBA from New York University.
+
+</div><div class="clearfix">
+<img alt="Arno Mihm photo" src="/images/events/speakers/Arno-Mihm.png" width="200" class="speaker-photo" id="arno_mihm" />
+
+**Arno Mihm**
+
+Stemming from German roots, Arno settled in the nineties in Seattle working with Microsoft on operating system improvements while in parallel helping to drive a industry wide systems management framework through the DMTF. Living German and American cultures and the exposure to diverse company cultures in industry standardization organizations formed his strong believe that collaboration is a key factor for success in business and in life.  As Microsoft formalized the approach to collaboration through the foundation of the Microsoft Open Source Programs Office, Arno joined the team focusing on open source process improvements before turning his attention inwards to drive InnerSource at Microsoft.
+
+</div><div class="clearfix">
+<img alt="Vitor Monteiro photo" src="/images/events/speakers/vitor-monteiro.JPG" width="200" class="speaker-photo" id="vitor_monteiro" />
+
+**Vitor Monteiro**
+
+Strategic Architect at GitHub for the past 5 years, Vitor has a computer science and finance background having worked multiple years in banking in the city. InnerSource in particular is a topic Vitor speaks particularly often about, being one of his passions within the industry. 
+
+</div><div class="clearfix">
+<img alt="Diane Mueller photo" src="/images/events/speakers/Diane-Mueller.jpg" width="200" class="speaker-photo" id="diane_mueller" />
+
+**Diane Mueller**
+
+Diane Mueller leads Community Development at Red Hat for the Cloud Platform Group focusing on OpenShift and Cloud Native ecosystem. She is the driving force behind both customer, partner and developer community initiatives helping to ensure the success of OpenShift, the world's leading Open Source Platform as a Service along with Operators, ServiceMesh, Quay, OKD, OpenStack and other Cloud Native technology initiatives at Red Hat for the past 8 years.
+
+She has been designing and implementing products and applications embedded into mission critical financial and manufacturing systems at F500 corporations for over 30 years. She has had a long career in software development spanning multiple industries and open source initiatives from Financial Services, Manufacturing, Education and Government. 
+
+</div><div class="clearfix">
+<img alt="Russ Rutledge photo" src="/images/events/speakers/russ-rutledge.jpeg" width="200" class="speaker-photo" id="russ_rutledge" />
+
+**Russ Rutledge**
+
+Russ Rutledge is the Director of Community and InnerSource at Nike. This startup within the company guides the process and tools to encourage and foster cross-team and community interaction and development. Russ's drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process.
+
+Previously, he ran another successful startup delivering JavaScript continuous delivery solutions to hundreds of projects throughout Nike. Prior to Nike, Russ began his career with feature and infrastructure development on the Outlook and OneDrive consumer websites at Microsoft.
+
+</div><div class="clearfix">
+<img alt="Thomas Sadler photo" src="/images/events/speakers/thomas_sadler.jpg" width="200" class="speaker-photo" id="thomas_sadler" />
+
+**Thomas Sadler**
+
+Tom Sadler is a Software Engineering Team Lead for BBC iPlayer, specialising in media playback for connected TV browsers. He has advocated for supporting open source projects, including the BBC’s TV Application Layer and bigscreen-player, and lead on collaboration between teams.
+
+</div><div class="clearfix">
+<img alt="Sebastian Spier photo" src="/images/events/speakers/Sebastian-Spier.jpg" width="200" class="speaker-photo" id="sebastian_spier" />
+
+**Sebastian Spier**
+
+Implement. Learn. Repeat. #people #teams #business #technology  https://spier.hu
 
 </div>
 
