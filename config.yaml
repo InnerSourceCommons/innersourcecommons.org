@@ -121,6 +121,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+minify:
+  disableHTML: true
 params:
   plugins:
     css:
@@ -137,6 +139,7 @@ params:
       - link: plugins/bootstrap-select/js/bootstrap-select.min.js
   logo: images/logo.png
   logo_width: 200px
+  themeVariant: quizdown
   description: The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource.
   author: InnerSource Commons
   footer_content: >-

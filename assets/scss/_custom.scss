@@ -120,3 +120,99 @@ ol.breadcrumb {
     float: left;
     margin-right: 50px;
 }
+
+.quizdown-progress, .quizdown-credits, .svelte-1l9r9uu, .quizdown-button-row span {
+    display: none;
+}
+
+.quizdown-content {
+    font-family: inherit;
+}
+
+.quizdown-headline.svelte-gxmql3 {
+    background: none;
+    transform: none;
+    width: 100%;
+    height: inherit;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+[type='checkbox'].svelte-pv412u:checked+span.svelte-pv412u.svelte-pv412u, 
+    [type='radio'].svelte-pv412u:checked+span.svelte-pv412u.svelte-pv412u {
+    color: white;
+}
+
+[type='checkbox'].svelte-pv412u+span.svelte-pv412u.svelte-pv412u, 
+    [type='radio'].svelte-pv412u+span.svelte-pv412u.svelte-pv412u {
+    font-size: 16px;
+    font-family: pt sans,sans-serif;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+    color: #212529;
+    background-color: #f8f9fa;
+    box-shadow: none;
+}
+
+[type='checkbox'].svelte-pv412u:hover:not(:active)+span.svelte-pv412u.svelte-pv412u,
+[type='radio'].svelte-pv412u:hover:not(:active)+span.svelte-pv412u.svelte-pv412u {
+    filter: none;
+    color:#212529;
+    background-color:#e2e6ea;
+    border-color:#dae0e5
+}
+
+.svelte-pv412u {
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+button.svelte-la9dd4 {
+    font-size: 16px;
+    font-family: pt sans,sans-serif;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+    background-color: #0aa8a7;
+    color: #fff;
+    box-shadow: none;
+    height: inherit;
+}
+
+button.svelte-la9dd4::before{
+    position:absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:-1;
+    border-radius:inherit;
+    transition:inherit;
+    background-color:inherit;
+    border:1px solid transparent
+}
+
+button.svelte-la9dd4:hover, button.svelte-la9dd4:active, button.svelte-la9dd4:focus {
+    outline: 0
+}
+
+button.svelte-la9dd4:hover::before,button.svelte-la9dd4:active::before,button.svelte-la9dd4:focus::before {
+    height:110%;
+    width:110%
+}
+
+button.svelte-la9dd4:disabled {
+    display: none;
+}

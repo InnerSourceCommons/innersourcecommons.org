@@ -55,7 +55,18 @@
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
+{{ if .Params.Quiz }}
 
+<script src="/plugins/quizdown/quizdown.js"></script>
+<script>
+  quizdown.init({
+    shuffle_answers: false,
+    shuffle_questions: false,
+    primary_color: '#0AA8A7',      
+    secondary_color: '#EDF6F5'
+  });
+</script>
+{{ end }}
 <script>
 	$('#youmax').youmax({
 	apiKey:'AIzaSyCTmhVwOZhhT1WceQm9MobWFuJIA6lI-Dw',

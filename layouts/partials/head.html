@@ -12,6 +12,9 @@
   {{ range site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .link | absURL }}">
   {{ end }}
+  {{ if .Params.Quiz }}
+  <link rel="stylesheet" href="/plugins/quizdown/quizdown.css" />
+  {{ end }}
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
