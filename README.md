@@ -1,6 +1,6 @@
-# InnerSource Commons New Website
+# InnerSource Commons Website
 
-Work in progress
+This repo is powering the InnerSource Commons Website at [innersourcecommons.org](https://innersourcecommons.org).
 
 The site is built with Hugo framework. All content is located at the `content` folder.
 
@@ -12,7 +12,7 @@ Create a Pull Request and after the review changes will be automatically uploade
 
 ### Adding Widgets
 
-If you are adding any widgets to the site, please check if they add cookies by clicking the lock in front of the URL in your browser and checking the cookies before and after you add the widget. 
+If you are adding any widgets to the site, please check if they add cookies by clicking the lock in front of the URL in your browser and checking the cookies before and after you add the widget.
 
 In case the widget adds cookies to the website plese update the Privacy Policy (content/about/privacy.md) with the new cookies.
 
@@ -23,6 +23,6 @@ you need to have `git` and [hugo](https://gohugo.io/getting-started/installing/)
 
 ```
 $ git clone [url]
-$ cd innersourcecommons.net
+$ cd innersourcecommons.org
 $ hugo server
 ```
