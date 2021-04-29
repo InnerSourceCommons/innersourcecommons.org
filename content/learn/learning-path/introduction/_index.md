@@ -3,20 +3,22 @@ title: Introduction
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
+  - name: RJPlog
+    url: https://github.com/RJPlog
   - name: Sebastian Spier
     url: https://github.com/spier
   - name: Daniel Izquierdo Cortazar
     url: https://github.com/dicortazar
-  - name: Dmitrii Sugrobov
+  - name: Dmitry Sugrobov
     url: https://github.com/voborgus
   - name: Willem Jiang
     url: https://github.com/WillemJiang
   - name: Piergiorgio Lucidi
     url: https://github.com/OpenPj
-  - name: Yoshitake Kobayashi
-    url: https://github.com/ystk
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
   - name: rrrutledge
     url: https://github.com/rrrutledge
   - name: adadai
@@ -25,8 +27,12 @@ contributors:
     url: https://github.com/arnom-ms
   - name: Johannes Tigges
     url: https://github.com/lenucksi
+  - name: Isabel Drost-Fromm
+    url: https://github.com/MaineC
   - name: Arno Mihm
     url: null
+  - name: Maximilian Capraro
+    url: https://github.com/maxcapraro
   - name: Ludmila
     url: https://github.com/Ludmila-N
   - name: Lenucksi

@@ -2,22 +2,26 @@
 title: Learning Path - Trusted Committer
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
 contributors:
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
-  - name: Willem Jiang
-    url: https://github.com/WillemJiang
+  - name: Jun Ohtani
+    url: https://github.com/johtani
   - name: RJPlog
     url: https://github.com/RJPlog
+  - name: Willem Jiang
+    url: https://github.com/WillemJiang
+  - name: Johannes Tigges
+    url: https://github.com/lenucksi
   - name: rrrutledge
     url: https://github.com/rrrutledge
   - name: yvonneT1
     url: https://github.com/yvonneT1
+  - name: Isabel Drost-Fromm
+    url: https://github.com/MaineC
   - name: Ludmila
     url: https://github.com/Ludmila-N
-  - name: Johannes Tigges
-    url: https://github.com/lenucksi
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
   - name: Arno Mihm
     url: null
 weight: 1

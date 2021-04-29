@@ -7,6 +7,8 @@ contributors:
     url: https://github.com/GoFightNguyen
   - name: Johannes Tigges
     url: https://github.com/lenucksi
+  - name: Isabel Drost-Fromm
+    url: https://github.com/MaineC
 image: images/learn/LP_thumbnail_contributor.jpg
 weight: 7
 ---

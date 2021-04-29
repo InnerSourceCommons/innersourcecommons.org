@@ -2,10 +2,14 @@
 title: Learning Path - Product Owner
 image: images/learn/LP_thumbnail_productowner.jpg
 contributors:
-  - name: Willem Jiang
-    url: https://github.com/WillemJiang
   - name: Tom Sadler
     url: https://github.com/tsadler1988
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
+  - name: RJPlog
+    url: https://github.com/RJPlog
+  - name: Willem Jiang
+    url: https://github.com/WillemJiang
   - name: Johannes Tigges
     url: https://github.com/lenucksi
   - name: Ludmila

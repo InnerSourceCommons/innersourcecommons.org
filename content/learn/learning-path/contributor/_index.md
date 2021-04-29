@@ -2,26 +2,32 @@
 title: Learning Path - Contributor
 image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
-  - name: Sebastian Spier
-    url: https://github.com/spier
   - name: RJPlog
     url: https://github.com/RJPlog
-  - name: Piergiorgio Lucidi
-    url: https://github.com/OpenPj
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
+  - name: Jun Ohtani
+    url: https://github.com/johtani
+  - name: Johannes Tigges
+    url: https://github.com/lenucksi
+  - name: Sebastian Spier
+    url: https://github.com/spier
+  - name: Arno M
+    url: https://github.com/arnom-ms
+  - name: Piergiorgio Lucidi
+    url: https://github.com/OpenPj
+  - name: Alessio Biancalana
+    url: https://github.com/dottorblaster
   - name: Willem Jiang
     url: https://github.com/WillemJiang
   - name: rrrutledge
     url: https://github.com/rrrutledge
   - name: niminghong
     url: https://github.com/niminghong
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
   - name: Ludmila
     url: https://github.com/Ludmila-N
-  - name: Johannes Tigges
-    url: https://github.com/lenucksi
   - name: Isabel Drost-Fromm
     url: https://github.com/MaineC
 weight: 2
