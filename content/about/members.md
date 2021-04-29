@@ -17,17 +17,17 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 * Cedric Williams
 * Clare Dillon
 * Danese Cooper
-* Daniel Izquierdo
+* Daniel Izquierdo Cortazar
 * Dmitrii Sugrobov
 * Fei Wan
-* Georg Grütter
+* Georg Grutter
 * Isabel Drost-Fromm
 * Jacob Green
 * Jerry Tan
-* Johannes Tigers
+* Johannes Tigges
 * Klaas-Jan Stol
-* Max Capraro
-* Russ Rutledge
+* Maximilian Capraro
+* Russel Rutledge
 * Sebastian Spier
 * Silona Bonewald
 * Tim Yao
