@@ -26,7 +26,7 @@ Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO.
 All of Cedric’s work, personal and professional, has been guided by my desire to improve people's lives - mostly through technology. The possibilities that can be unlocked with software and hardware systems are literally limitless. Each of his engagements has been given me the opportunity to work on that in new ways, some more technology-focused, and some more focused directly on customers. All of them have given him a deep appreciation for the responsibility of technologists to always make sure that what we build makes things better for anyone involved.
 {{< /board-member >}}
 
-{{< board-member name="Russel Rutledge" title="Secretary" image="/images/about/Russel_Rutledge.jpg" >}}
+{{< board-member name="Russell Rutledge" title="Secretary" image="/images/about/Russell_Rutledge.jpg" >}}
 Russ Rutledge is the Director of Community and InnerSource at Nike. This startup within the company guides the process and tools to encourage and foster cross-team and community interaction and development. Russ`s drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process. Previously, he ran another successful startup delivering JavaScript continuous delivery solutions to hundreds of projects throughout Nike. Prior to Nike, Russ began his career with feature and infrastructure development on the Outlook and OneDrive consumer websites at Microsoft.
 {{< /board-member >}}
 
