@@ -14,6 +14,7 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 
 ## Members of the InnerSource Commons Foundation
 
+* Ada Dai
 * Cedric Williams
 * Clare Dillon
 * Danese Cooper
