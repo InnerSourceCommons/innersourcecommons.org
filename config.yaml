@@ -39,14 +39,18 @@ menu:
       URL: about/board
       parent: about
       weight: 1
+    - name: Members
+      URL: about/members
+      parent: about
+      weight: 2
     - name: Code of Conduct
       URL: about/codeofconduct
       parent: about
-      weight: 2
+      weight: 3
     - name: Contact Us
       URL: about/contact
       parent: about
-      weight: 3
+      weight: 4
   footer_left:
     - name: Learn
       URL: learn
@@ -82,15 +86,18 @@ menu:
     - name: Board & Governance
       URL: about/board
       weight: 2
+    - name: Members
+      URL: about/members
+      weight: 3
     - name: Code of Conduct
       URL: about/codeofconduct
-      weight: 3
+      weight: 4
     - name: Contact Us
       URL: about/contact
-      weight: 4
+      weight: 5
     - name: Privacy Policy
       URL: about/privacy
-      weight: 5
+      weight: 6
 languages:
   en:
     languageName: English
