@@ -5,6 +5,8 @@ image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
   - name: Daniel Izquierdo Cortazar
     url: https://github.com/dicortazar
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
 weight: 0
 ---
 This text will be translated soon to Spanish.
