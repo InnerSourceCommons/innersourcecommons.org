@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US"><head>
   <meta charset="utf-8">
-  <title> Как работает InnerSource</title>
+  <title>¿Cómo funciona InnerSource?</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -36,7 +36,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-  <meta name="layout" content="page -  - learn - learn - Page(/learn/learning-path/introduction/_index.ru.md)">
+  <meta name="layout" content="page -  - learn - learn - Page(/learn/learning-path/introduction/_index.es.md)">
   
   
 	
@@ -48,16 +48,16 @@
 	
 	<link rel="alternate" hreflang="de" href="https://innersourcecommons.org/de/learn/learning-path/introduction/03/" title="Deutsch">
 	
-	<link rel="alternate" hreflang="es" href="https://innersourcecommons.org/es/learn/learning-path/introduction/03/" title="Español">
+	<link rel="alternate" hreflang="ru" href="https://innersourcecommons.org/ru/learn/learning-path/introduction/03/" title="Русский">
 	
 	<link rel="alternate" hreflang="ja" href="https://innersourcecommons.org/ja/learn/learning-path/introduction/03/" title="日本語">
 	
   
   
-  <meta property="og:title" content=" Как работает InnerSource" />
-<meta property="og:description" content="Представим, что «Команда А» использует программу, написанную «Командой Б». «Команда А» отправляет запрос на новый функционал «Команде Б», однако «Команда Б» не способна вовремя сделать необходимое для первой команды." />
+  <meta property="og:title" content="¿Cómo funciona InnerSource?" />
+<meta property="og:description" content="Pongamos como ejemplo la situación donde un equipo A usa el software que produce un equipo B." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://innersourcecommons.org/ru/learn/learning-path/introduction/03/" />
+<meta property="og:url" content="https://innersourcecommons.org/es/learn/learning-path/introduction/03/" />
 
 
   
@@ -132,10 +132,10 @@
           
           
         </ul>
-        <a href="https://innersourcecommons.org/slack" class="btn btn-sm btn-primary ml-1" target="_blank"><i class="ti-comments pr-2"></i>Присоединяйтесь в Slack</a>
+        <a href="https://innersourcecommons.org/slack" class="btn btn-sm btn-primary ml-1" target="_blank"><i class="ti-comments pr-2"></i>Join Slack</a>
         
         <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
-          <option>Русский</option>
+          <option>Español</option>
           
           <option value="https://innersourcecommons.org/learn/learning-path/introduction/03/">English</option>
           
@@ -145,7 +145,7 @@
           
           <option value="https://innersourcecommons.org/de/learn/learning-path/introduction/03/">Deutsch</option>
           
-          <option value="https://innersourcecommons.org/es/learn/learning-path/introduction/03/">Español</option>
+          <option value="https://innersourcecommons.org/ru/learn/learning-path/introduction/03/">Русский</option>
           
           <option value="https://innersourcecommons.org/ja/learn/learning-path/introduction/03/">日本語</option>
           
@@ -186,21 +186,21 @@
 
 <li class="breadcrumb-item">
   
-  <a href="https://innersourcecommons.org/ru/learn/learning-path/">Learning Path</a>
+  <a href="https://innersourcecommons.org/es/learn/learning-path/">Learning Path</a>
   
 </li>
 
 
 <li class="breadcrumb-item">
   
-  <a href="https://innersourcecommons.org/ru/learn/learning-path/introduction/">Введение в InnerSource</a>
+  <a href="https://innersourcecommons.org/es/learn/learning-path/introduction/">Introduction</a>
   
 </li>
 
 
 <li class="breadcrumb-item">
    
-   Как работает InnerSource
+  ¿Cómo funciona InnerSource?
   
 </li>
 
@@ -211,82 +211,69 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <h1 class="mb-4"> Как работает InnerSource</h1>
+        <h1 class="mb-4">¿Cómo funciona InnerSource?</h1>
         
         <div class="embed-responsive embed-responsive-16by9 mb-4">
           <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/jPPwnaEBd8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
         <div class="content"><div class="paragraph">
-<p>Представим, что «Команда А» использует программу, написанную «Командой Б».
-«Команда А» отправляет запрос на новый функционал «Команде Б», однако «Команда Б» не способна вовремя сделать необходимое для первой команды.
-При работе в InnerSource, если «Команда А» не может получить функционал просто отправив запрос, то она может сама написать код за вторую команду и отправить решение на код-ревью.
-Другими словами, «Команда А» сама реализует необходимый функционал в репозитории «Команды Б» и отправляет Pull Request с изменениями в коде.
-«Команда Б» просматривает изменения и в случае, если с ними всё хорошо, принимает отправленный код.</p>
+<p>Pongamos como ejemplo la situación donde un equipo A usa el software que produce un equipo B.
+El equipo A tiene una petición para una nueva funcionalidad y se la envía al equipo B, pero el equipo B no llega a tiempo de implementar dicha mejora para el equipo A.
+En un entorno de InnerSource, si al equipo A no le facilitan dicha funcionalidad entonces habría enviado un pull request en su lugar.
+Esto significa que el equipo A implementa la funcionalidad directamente en el software del equipo B y envía un pull request para que sea revisado con los cambios pertinentes.
+El equipo B es entonces el encargado de revisar dicho código y aceptarlo cuando esté listo.</p>
 </div>
 <div class="paragraph">
-<p>В этом примере, назовём «Команду А» — <em>гостевой</em> командой, а «Команду Б» — <em>хостом</em> или хозяином продукта.
-Термины <em>гость</em> и <em>хост</em> предпологают ситуацию, аналогичную приёму гостей в доме.
-Как правило, большинство людей старается быть хорошим хозяином и следят за тем, чтобы дома была чистота и порядок, особенно когда готовятся к приёму гостей.
-При входе посетителей приветствуют и проводят внутрь.
-Гости могут использовать все предметы и устройства, доступные публично.
-Кроме этого, в доме могут существовать правила, соблюдать которые просят всех гостей.
-Большинство гостей стремятся выражать уважение к хозяевам и их жилищу.
-Они аккуратно относятся к домовому имуществу и следуют правилам на протяжении всего присутствия.
-Они ожидают, что если они будут хорошо себя вести, то их позовут снова.
-Эта аналогия с посещением дома метафорически показывает, как команды должны взаимодействовать между собой, когда одна команда отправляет гостевой код хозяевам репозитория.</p>
+<p>En este ejemplo, el equipo A es el <em>Invitado</em> y el equipo B es el equipo <em>Anfitrión</em>.
+Los términos de <em>Invitado</em> y <em>Anfitrión</em> se usan para referirse a una situación análoga a la de tener una visita en casa.
+En esta situación, la mayor parte de las personas quieren ser un buen anfitrión y para ello hay que asegurar que la casa está ordenada y las cosas guardadas en su sitio como anticipo a la visita de nuestros invitados. Los visitantes serán entonces bienvenidos en la puerta e invitados a pasar y podrán usar las diferentes herramientas e instalaciones que sean públicas.
+Hay, por supuesto, una serie de reglas en la casa que se pide a los invitados que sigan.
+De igual manera, los invitados quieren ser educados y mostrar respeto por la casa y por los anfitriones. Tienen cuidado con las cosas de la casa y siguen las reglas durante su estancia. Además esperan que quizá vuelvan a ser invitados de nuevo siempre y cuando hayan sido educados y corteses.
+Estos conceptos acerca de una visita en una casa son una metáfora de la actitud  y comportamientos que los equipos deben tener cuando actúan como anfitriones o como invitados a la hora de contribuir al código fuente de nuestro producto.</p>
 </div>
 <div class="paragraph">
-<p>Теперь рассмотрим механику InnerSource.
-Для начала представим ключевых лиц процесса.</p>
+<p>Echemos un vistazo más en detalle del proceso de InnerSource.
+Para ilustrar esta explicación usaremos unos pocos roles que son clave en los equipos que actúan como invitados y anfitriones.
+En primer lugar, el <a href="https://innersourcecommons.org/resources/learningpath/product-owner/index"><em>Product Owner</em></a> determina qué funcionalidad puede ser aceptada por el equipo anfitrion como una contribución.
+El <a href="https://innersourcecommons.org/resources/learningpath/contributor/index"><em>Contribuidor</em></a> es la persona en el equipo invitado que envía la contribución de código para ser revisada por el equipo anfitrión.
+El <a href="https://innersourcecommons.org/resources/learningpath/trusted-committer/index"><em>Trusted Committer</em></a> representa al equipo anfitrión al ofrecer en cualquier momento soporte y consejo acerca de las necesidades que tiene que cubrir el contribuidor cuando envíe su parche de código o pull request.
+En equipos pequeños, a veces ocurre que la misma persona desempeña <em>ambos</em> puestos, el product owner y el trusted committer.</p>
+</div>
+<div class="paragraph">
+<p>Una vez entendidas estas definiciones, a continuación vemos el resumen de una contribución de InnerSource.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://innersourcecommons.org/learn/learning-path/product-owner/01"><em>Product Owner</em></a> или Владелец Продукта. Определяет функционал, который команда хозяев готова принять от гостевых команд.</p>
+<p>El equipo invitado o la persona que contribuye pide una funcionalidad al equipo anfitrión.</p>
 </li>
 <li>
-<p><a href="https://innersourcecommons.org/learn/learning-path/contributor/01"><em>Contributor</em></a> или Контрибьютор. Член гостевой команды, который отправляет код на ревью команде хозяев.</p>
+<p>El product owner se asegura de que las historias de usuario que definen dicha funcionalidad se crean, ya sea por el equipo invitado o por el equipo anfitrión.
+Estas historias deben describir la nueva funcionalidad acorde a las necesidades del equipo invitado.
+Además deben tener en cuenta cualquier detalle del equipo anfitrión respecto a la funcionalidad y cómo ha de llevarse a cabo para que el trabajo sea aceptado.
+Algunos ejemplos de estos detalles incluyen limitaciones de arquitectura, guías de estilo u otras convenciones de código, dependencias, comportamientos esperados, etc.</p>
 </li>
 <li>
-<p><a href="https://innersourcecommons.org/learn/learning-path/trusted-committer/01"><em>Trusted Committer</em></a> или Доверенный Коммиттер. Представитель команды хозяев, наставляет и обучает Контрибьюторов, помогая создать и отправить Pull Request. В небольших продуктах роли Product Owner и Trusted Committer могут выполняться одним человеком.</p>
+<p>Con este soporte por parte del trusted committer, el contribuidor envía el pull request que implementa la nueva funcionalidad.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Теперь рассмотрим план входящей контрибьюции по InnerSource.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Гостевая команда или Контрибьютор запрашивает функционал у команды хозяев.</p>
-</li>
-<li>
-<p>Владелец продукта убеждается в том, что задачи по созданию функционала созданы в трекере гостевой командой или хозяевами.
-Описание требуемого функционала соответствует тому, что запросила гостевая команда, а также содержит информацию от команды хозяев по тому, как выглядит решение, которое будет принято в общую кодовую базу.
-Например, описаны возможные архитектурные ограничения, кодовые конвенции, использованые зависимости и контракты и тому подобное.</p>
-</li>
-<li>
-<p>С поддержкой Trusted Committer, Контрибьютор оформляет код в виде Pull Request-а, где реализует необходимый функционал.</p>
-</li>
-</ul>
+<p>Estos pasos no asumen ningún tipo de organización de los diferentes equipos o sus prioridades. InnerSource asume que los diferentes equipos tienen ya una manera concretra de organizarse y ofrece un paraguas para poder trabajar juntos donde hay un equipo invitado que quiere contribuir código a otro equipo que actuará de anfitrión.</p>
 </div>
 <div class="paragraph">
-<p>Обратите внимание, что шаги не описывают конкретную организацию рабочего процесса или способ приоритизации запросов.
-InnerSource предполагает, что в команде существуют устоявшиеся принципы работы и представляет решение, как совместить эти принципы с поступающими гостевыми контрибьюциями.</p>
-</div>
-<div class="paragraph">
-<p>Этот вариант подходит для гостевой команды, так как они получают функционал, не беря на себя долгосрочные обязательства по поддержке решения.
-Это подходит для команды хозяев, так как они лучше масштабируются и обслуживают своих потребителей.
-Это подходит для компании в целом, так как общая проблема решена централизованно, в правильном домене, и каждый способен воспользоваться этим решением.
-Больше времени на разработку уходит на написание кода, который решает проблемы компании, вместо затрат на согласование и эскалацию.</p>
+<p>Esta opción funciona para el equipo invitado porque consiguen la funcionalidad requerida cuando la necesitaban sin tener que hacerse cargo del proceso de mantenimiento de la misma en el medio o largo plazo.
+Funciona para el equipo anfitrión porque son capaces de acomodar y gestionar más trabajo a la vez que siguen sirviendo a sus consumidores.
+Además funciona para la compañía en su totalidad porque las soluciones a problemas compartidos terminan en lugares por todos conocidos, compartido y mantenido de forma centralizada que cualquiera puede usar.
+Finalmente, se invierte más tiempo de ingeniería en producir código que resuelve problemas de la compañía en lugar de estar enfocado en problemas políticos, jerárquicos y de negociaciones entre equipos.</p>
 </div>
 <div class="sect2">
-<h3 id="_дополнительные_ресурсы">Дополнительные ресурсы</h3>
+<h3 id="_recursos_adicionales">Recursos adicionales</h3>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://patterns.innersourcecommons.org/p/trusted-committer">Trusted Committer</a> паттерн.</p>
+<p>El patrón del <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/trusted-committer.md">Trusted Committer</a>.</p>
 </li>
 </ul>
 </div>
@@ -294,10 +281,10 @@ InnerSource предполагает, что в команде существу�
 <!--- This file autogenerated from https://github.com/InnerSourceCommons/InnerSourceLearningPath/blob/master/scripts --></div>
         <div class="clearfix">
           
-            <a class="btn btn-light float-left" href="https://innersourcecommons.org/ru/learn/learning-path/introduction/02/">← Какие проблемы решает InnerSource</a>
+            <a class="btn btn-light float-left" href="https://innersourcecommons.org/es/learn/learning-path/introduction/02/">← ¿Qué problemas soluciona InnerSource?</a>
           
           
-            <a class="btn btn-primary float-right" href="https://innersourcecommons.org/ru/learn/learning-path/introduction/04/"> Приемущества InnerSource →</a>
+            <a class="btn btn-primary float-right" href="https://innersourcecommons.org/es/learn/learning-path/introduction/04/"> Cuáles son los beneficios de InnerSource? →</a>
           
         </div>
         
@@ -311,7 +298,7 @@ InnerSource предполагает, что в команде существу�
             
             
             <li class="nav-item">
-              <a class="nav-link" href="https://github.com/tsadler1988" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/tsadler1988" alt="Tom Sadler" title="Tom Sadler" /></a>
+              <a class="nav-link" href="https://github.com/dicortazar" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/dicortazar" alt="Daniel Izquierdo Cortazar" title="Daniel Izquierdo Cortazar" /></a>
             </li>
             
             
@@ -320,16 +307,7 @@ InnerSource предполагает, что в команде существу�
             
             
             <li class="nav-item">
-              <a class="nav-link" href="https://github.com/spier" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/spier" alt="Sebastian Spier" title="Sebastian Spier" /></a>
-            </li>
-            
-            
-            
-            
-            
-            
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/voborgus" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/voborgus" alt="Dmitry Sugrobov" title="Dmitry Sugrobov" /></a>
+              <a class="nav-link" href="https://github.com/rrrutledge" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/rrrutledge" alt="rrrutledge" title="rrrutledge" /></a>
             </li>
             
           </ul>
