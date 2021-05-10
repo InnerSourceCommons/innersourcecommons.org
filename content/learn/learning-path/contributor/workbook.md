@@ -1,6 +1,8 @@
 ---
 title: Workbook
 contributors:
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
   - name: Sebastian Spier
     url: https://github.com/spier
   - name: Jason Nguyen
@@ -132,7 +134,7 @@ More than one answer may be correct in some questions.</p>
 <div class="paragraph">
 <p>Why 4 is incorrect: Getting your contribution accepted is an achievement to be celebrated.
 However, your involvement does not end there.
-You should plan to be available at a minimum to fulfil a <a href="https://patterns.innersourcecommons.org/p/30-day-warranty">30-day warranty</a> on your changes (and their impact), or even better: stay close to the community and help out with additional contributions.</p>
+You should plan to be available at a minimum to fulfill a <a href="https://patterns.innersourcecommons.org/p/30-day-warranty">30-day warranty</a> on your changes (and their impact), or even better: stay close to the community and help out with additional contributions.</p>
 </div>
 </div>
 </div>
