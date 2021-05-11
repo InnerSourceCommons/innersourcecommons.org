@@ -2,6 +2,8 @@
 title: Learning Path - Contributor
 image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
+  - name: Willem Jiang
+    url: https://github.com/WillemJiang
   - name: RJPlog
     url: https://github.com/RJPlog
   - name: Tom Sadler
@@ -20,8 +22,6 @@ contributors:
     url: https://github.com/OpenPj
   - name: Alessio Biancalana
     url: https://github.com/dottorblaster
-  - name: Willem Jiang
-    url: https://github.com/WillemJiang
   - name: rrrutledge
     url: https://github.com/rrrutledge
   - name: niminghong

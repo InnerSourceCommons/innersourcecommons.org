@@ -3,6 +3,8 @@ title: Introduction
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
+  - name: Willem Jiang
+    url: https://github.com/WillemJiang
   - name: Daniel Izquierdo Cortazar
     url: https://github.com/dicortazar
   - name: rrrutledge
@@ -17,8 +19,6 @@ contributors:
     url: https://github.com/spier
   - name: Dmitry Sugrobov
     url: https://github.com/voborgus
-  - name: Willem Jiang
-    url: https://github.com/WillemJiang
   - name: Piergiorgio Lucidi
     url: https://github.com/OpenPj
   - name: adadai
