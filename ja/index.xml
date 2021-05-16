@@ -30,7 +30,11 @@ InnerSourceはホストチームにスケーラブルな戦略を提供し 、�
 これらの原則は次の通りです：
 オープン性
 透明性
-優先的なメンターシップ</description></item><item><title>おわりに</title><link>https://innersourcecommons.org/ja/learn/learning-path/contributor/06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/contributor/06/</guid><description>InnerSourceラーニングパス、コントリビュータセグメントをご覧いただきありがとうございます。 このセクションでは、InnerSourceプロジェクトの生命線となる、コントリビュータの役割について学びました。 コントリビュータは、コンポーネント所有者の外側にあり、プロジェクトに追加の貴重な情報をもたらします。
+優先的なメンターシップ</description></item><item><title>参入障壁を下げる</title><link>https://innersourcecommons.org/ja/learn/learning-path/trusted-committer/05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/trusted-committer/05/</guid><description>InnerSourceコミュニティでコントリビューションを求めることは、いくつかの理由からオープンソースコミュニティよりも困難です。
+InnerSourceコミュニティでは、潜在的な コントリビューター の数が少ない。
+コントリビュータは、勤務時間内にコントリビューションしたいと考えるため、時間の制約が大きくなる。
+InnerSourceでの作業は、コントリビュータの正式な目標管理の一部に必ずなるとは限らないため、InnerSourceの作業に費やす時間が目標達成を損なうように見える場合がある。
+そのため、Trusted Committersにとって、 コントリビューター のオンボーディングやコントリビューション作成のプロセスを、できるだけスムーズにすることが重要となります。 役立つことがいくつかあります。</description></item><item><title>おわりに</title><link>https://innersourcecommons.org/ja/learn/learning-path/contributor/06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/contributor/06/</guid><description>InnerSourceラーニングパス、コントリビュータセグメントをご覧いただきありがとうございます。 このセクションでは、InnerSourceプロジェクトの生命線となる、コントリビュータの役割について学びました。 コントリビュータは、コンポーネント所有者の外側にあり、プロジェクトに追加の貴重な情報をもたらします。
 このセクションでは、コントリビューションする機会を見つけてコントリビュータになる方法について学びました。 そのような機会を見つけたり作ったりするのに必要な考え方や習慣について見直しました。 また、その役割の心構えと、コントリビューションを成功に導く可能性のあるアプローチについても説明しました。
 正しい考え方や、習慣、心構えをしていても、コントリビューションの成功を妨げるものがいくつかあります。そのため、それらの要点について、詳細を説明しました。
 最後に、あなたのチームメイトや組織のさまざまなレベルを説得することが難しい場合があるため、このプロセスを簡単にするために、さまざまな観点からコントリビューションのメリットを詳細に説明しました。
