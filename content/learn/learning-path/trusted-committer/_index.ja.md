@@ -4,10 +4,10 @@ image: images/learn/LP_thumbnail_trustedcommitter.jpg
 contributors:
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
   - name: Jun Ohtani
     url: https://github.com/johtani
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
 weight: 1
 ---
 
