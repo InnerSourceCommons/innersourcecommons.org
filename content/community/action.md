@@ -36,10 +36,13 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="3M" image="/images/logos/3m.png" >}}{{< /company >}}
       {{< company name="Accenture" image="/images/logos/accenture.png" >}}{{< /company >}}
       {{< company name="Adeo" image="/images/logos/adeo.png" >}}{{< /company >}}
+      {{< company name="Adobe" image="/images/adobe-logo.png" >}}{{< /company >}}
+      {{< company name="Age of Peers" image="/images/logos/ageofpeerstwo.png" >}}{{< /company >}}
       {{< company name="Ahold Delhaise" image="/images/logos/ahold.png" >}}{{< /company >}}
       {{< company name="American Airlines" image="/images/logos/americanairlines.png" >}}{{< /company >}}
       {{< company name="Anyshore" image="/images/logos/Anyshore.png" >}}{{< /company >}}
       {{< company name="Autodesk" image="/images/logos/autodesc.png" >}}{{< /company >}}
+      {{< company name="Avalia Systems" image="/images/logos/avalia.png" >}}{{< /company >}}
       {{< company name="AXA" image="/images/logos/axa.png" >}}{{< /company >}}
       {{< company name="Baidu" image="/images/logos/baidu.png" >}}{{< /company >}}
       {{< company name="BBC" image="/images/logos/bbc.png" >}}{{< /company >}}
@@ -47,6 +50,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Bloomberg" image="/images/logos/bloomberg.png" >}}{{< /company >}}
       {{< company name="Bosch" image="/images/logos/bosch.png" >}}{{< /company >}}
       {{< company name="BuzzFeed" image="/images/logos/buzzfeed.png" >}}{{< /company >}}
+      {{< company name="CA Technologies" image="/images/logos/CA_Technologies_brand.svg.png" >}}{{< /company >}}
       {{< company name="Caprillary" image="/images/logos/capillary.png" >}}{{< /company >}}
       {{< company name="CHR" image="/images/logos/chr.png" >}}{{< /company >}}
       {{< company name="Continental" image="/images/logos/continental.png" >}}{{< /company >}}
@@ -60,22 +64,29 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="DXC Technology" image="/images/logos/dxc.png" >}}{{< /company >}}
       {{< company name="Elbit Systems" image="/images/logos/elbit.png" >}}{{< /company >}}
       {{< company name="Engie Digital" image="/images/logos/engie.png" >}}{{< /company >}}
+      {{< company name="Entelgy" image="/images/logos/entelgy.png" >}}{{< /company >}}
       {{< company name="Ericsson" image="/images/logos/ericsson.png" >}}{{< /company >}}
       {{< company name="Etsy" image="/images/logos/etsy.png" >}}{{< /company >}}
       {{< company name="Europace" image="/images/logos/europace.png" >}}{{< /company >}}
+      {{< company name="EXFO Inc." image="/images/logos/EXFO_logo.png" >}}{{< /company >}}
+      {{< company name="Fidelity Investments" image="/images/logos/fidelity-logo-transparent.png" >}}{{< /company >}}
       {{< company name="Ford" image="/images/logos/ford.png" >}}{{< /company >}}
       {{< company name="GitHub" image="/images/logos/github.png" >}}{{< /company >}}
       {{< company name="GitLab" image="/images/logos/gitlab.png" >}}{{< /company >}}
       {{< company name="Gravity Infosolutions" image="/images/logos/gravity.png" >}}{{< /company >}}
       {{< company name="HBR" image="/images/logos/hbr.png" >}}{{< /company >}}
+      {{< company name="HERE Global B.V" image="/images/logos/here_logo.svg.png" >}}{{< /company >}}
       {{< company name="IAG" image="/images/logos/iag.png" >}}{{< /company >}}
       {{< company name="IBM" image="/images/logos/ibm.png" >}}{{< /company >}}
+      {{< company name="Intuit" image="/images/logos/intuit.png" >}}{{< /company >}}
       {{< company name="Knock" image="/images/logos/knock.png" >}}{{< /company >}}
       {{< company name="Leroy Merlin" image="/images/logos/leroymerlin.png" >}}{{< /company >}}
       {{< company name="Llyods" image="/images/logos/lloyds.png" >}}{{< /company >}}
       {{< company name="Morgan Stanley" image="/images/logos/morganstanley.png" >}}{{< /company >}}
+       {{< company name="NASA" image="/images/logos/NASA_logo.svg.png" >}}{{< /company >}}
       {{< company name="Nab" image="/images/logos/nab.jpg" >}}{{< /company >}}
       {{< company name="Nationwide" image="/images/logos/nationwide.png" >}}{{< /company >}}
+      {{< company name="Navex Global" image="/images/logos/navex-global-logo.png" >}}{{< /company >}}
       {{< company name="Nokia" image="/images/logos/nokia.png" >}}{{< /company >}}
       {{< company name="Nubank" image="/images/logos/nubank.png" >}}{{< /company >}}
       {{< company name="Otto Group" image="/images/logos/ottogroup.png" >}}{{< /company >}}
@@ -85,6 +96,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Redmonk" image="/images/logos/redmonk.png" >}}{{< /company >}}
       {{< company name="SberBank" image="/images/logos/sberbank.png" >}}{{< /company >}}
       {{< company name="Seagate" image="/images/logos/seagate.png" >}}{{< /company >}}
+      {{< company name="Shutterstock" image="/images/logos/shutterstock-logo.png" >}}{{< /company >}}
       {{< company name="Skyscanner" image="/images/logos/skyscanner.png" >}}{{< /company >}}
       {{< company name="Societe Generale" image="/images/logos/societegenerale.png" >}}{{< /company >}}
       {{< company name="Spotify" image="/images/logos/spotify.png" >}}{{< /company >}}
@@ -92,11 +104,14 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Standard Charted" image="/images/logos/standard.png" >}}{{< /company >}}
       {{< company name="Stripe" image="/images/logos/stripe.png" >}}{{< /company >}}
       {{< company name="Taxfix" image="/images/logos/taxfix.png" >}}{{< /company >}}
+      {{< company name="Thales" image="/images/logos/thales-Logo.png" >}}{{< /company >}}
       {{< company name="Tesco" image="/images/logos/tesco.png" >}}{{< /company >}}
       {{< company name="The Hartford" image="/images/logos/thehartford.png" >}}{{< /company >}}
+      {{< company name="Toshiba" image="/images/logos/toshiba_Logo.png" >}}{{< /company >}}
       {{< company name="Tray.io" image="/images/logos/tray.png" >}}{{< /company >}}
       {{< company name="Trustpilot" image="/images/logos/trustpilot.png" >}}{{< /company >}}
-      {{< company name="Twillio" image="/images/logos/twilio.png" >}}{{< /company >}}
+      {{< company name="Twilio" image="/images/logos/twilio.png" >}}{{< /company >}}
+      {{< company name="US Department of Veteran Affairs" image="/images/logos/Seal_of_the_U.S._Department_of_Veterans_Affairs.svg.png" >}}{{< /company >}}
       {{< company name="Walmart" image="/images/logos/walmart.png" >}}{{< /company >}}
       {{< company name="Wayfair" image="/images/logos/wayfair.png" >}}{{< /company >}}
       {{< company name="Wiley" image="/images/logos/wiley.png" >}}{{< /company >}}
