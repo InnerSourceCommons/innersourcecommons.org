@@ -16,7 +16,7 @@ jobs:
       - name: Checkout Learning Path
         uses: actions/checkout@v2
         with:
-          repository: tsadler1988/InnerSourceLearningPath
+          repository: InnerSourceCommons/InnerSourceLearningPath
           path: ./InnerSourceLearningPath
       - uses: actions/setup-node@v1
         with:
