@@ -26,7 +26,7 @@ jobs:
         run: |
             npm ci
             TOKEN=${{ secrets.GITHUB_TOKEN }} node generate_learning_path_markdown.js
-            cp -r newsite/ ../../innersourcecommons.org/content/learn/learning-path/
+            cp -r newsite/. ../../innersourcecommons.org/content/learn/learning-path/
       - uses: oleksiyrudenko/gha-git-credentials@v2-latest
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
