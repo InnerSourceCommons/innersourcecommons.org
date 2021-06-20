@@ -30,6 +30,7 @@ jobs:
       - uses: oleksiyrudenko/gha-git-credentials@v2-latest
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
+          global: true
       - name : Commit
         working-directory: innersourcecommons.org
         run: |
