@@ -1,0 +1,25 @@
+name: Learning Path
+
+on:
+  schedule:
+    - cron:  '0/10 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout innersourcecommons.org
+        uses: actions/checkout@v2
+      - name: Checkout Learning Path
+        uses: actions/checkout@v2
+        with:
+          repository: tsadler1988/InnerSourceLearningPath
+          path: ./InnerSourceLearningPath
+      - name: build
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+        working-directory: InnerSourceLearningPath/scripts
+        run: |
+            npm ci
+            TOKEN=${{ secrets.GITHUB_TOKEN }} node generate_learning_path_markdown.js
