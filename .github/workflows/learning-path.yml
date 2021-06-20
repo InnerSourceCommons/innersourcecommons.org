@@ -16,8 +16,7 @@ jobs:
         with:
           repository: tsadler1988/InnerSourceLearningPath
           path: ./InnerSourceLearningPath
-      - name: Setup NodeJS
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v1
         with:
           node-version: 12
       - name: Build
@@ -25,3 +24,9 @@ jobs:
         run: |
             npm ci
             TOKEN=${{ secrets.GITHUB_TOKEN }} node generate_learning_path_markdown.js
+            cp -r newsite/ <path-to-innersourcecommons.org-repo>/content/learn/learning-path/
+      - uses: fregante/setup-git-user@v1
+      - name : Commit
+        run: |
+          git commit -am "Update Learning Path articles"
+          git push
