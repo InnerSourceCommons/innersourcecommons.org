@@ -34,5 +34,6 @@ jobs:
       - name : Commit
         working-directory: innersourcecommons.org
         run: |
-          git commit -am "Update Learning Path articles"
+          git add .
+          git commit -m "Update Learning Path articles"
           git push
