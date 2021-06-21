@@ -2,14 +2,12 @@
 title: Learning Path - Product Owner
 image: images/learn/LP_thumbnail_productowner.jpg
 contributors:
-  - name: Yoshitake Kobayashi
-    url: https://github.com/ystk
-  - name: Jun Ohtani
-    url: https://github.com/johtani
   - name: Willem Jiang
     url: https://github.com/WillemJiang
   - name: Tom Sadler
     url: https://github.com/tsadler1988
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
   - name: RJPlog
     url: https://github.com/RJPlog
   - name: Johannes Tigges

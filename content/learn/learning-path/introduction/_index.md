@@ -3,14 +3,6 @@ title: Introduction
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
-  - name: Johannes Tigges
-    url: https://github.com/lenucksi
-  - name: Vincent Legault
-    url: https://github.com/SJVle
-  - name: Piergiorgio Lucidi
-    url: https://github.com/OpenPj
-  - name: Alessio Biancalana
-    url: https://github.com/dottorblaster
   - name: Willem Jiang
     url: https://github.com/WillemJiang
   - name: Daniel Izquierdo Cortazar
@@ -27,10 +19,14 @@ contributors:
     url: https://github.com/spier
   - name: Dmitry Sugrobov
     url: https://github.com/voborgus
+  - name: Piergiorgio Lucidi
+    url: https://github.com/OpenPj
   - name: adadai
     url: https://github.com/adadai88
   - name: Arno M
     url: https://github.com/arnom-ms
+  - name: Johannes Tigges
+    url: https://github.com/lenucksi
   - name: Isabel Drost-Fromm
     url: https://github.com/MaineC
   - name: Arno Mihm
@@ -41,6 +37,8 @@ contributors:
     url: https://github.com/Ludmila-N
   - name: Lenucksi
     url: null
+  - name: Demian Brecht
+    url: https://github.com/demianbrecht
 weight: 0
 ---
 

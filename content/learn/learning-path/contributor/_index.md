@@ -2,10 +2,6 @@
 title: Learning Path - Contributor
 image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
-  - name: Piergiorgio Lucidi
-    url: https://github.com/OpenPj
-  - name: Alessio Biancalana
-    url: https://github.com/dottorblaster
   - name: Willem Jiang
     url: https://github.com/WillemJiang
   - name: RJPlog
@@ -22,6 +18,10 @@ contributors:
     url: https://github.com/spier
   - name: Arno M
     url: https://github.com/arnom-ms
+  - name: Piergiorgio Lucidi
+    url: https://github.com/OpenPj
+  - name: Alessio Biancalana
+    url: https://github.com/dottorblaster
   - name: rrrutledge
     url: https://github.com/rrrutledge
   - name: niminghong
