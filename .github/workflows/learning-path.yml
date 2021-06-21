@@ -2,7 +2,7 @@ name: Learning Path
 
 on:
   schedule:
-    - cron:  '*/5 * * * *'
+    - cron:  '20 * * * *'
 
 jobs:
   build:
