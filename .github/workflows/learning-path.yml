@@ -1,9 +1,8 @@
 name: Learning Path
 
 on:
-  push:
-    branches:
-      - learning-path-automation
+  schedule:
+    - cron:  '*/5 * * * *'
 
 jobs:
   build:
