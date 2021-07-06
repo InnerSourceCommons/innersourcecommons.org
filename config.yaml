@@ -120,6 +120,9 @@ languages:
   ru:
     languageName: Русский
     weight: 2
+  fr:
+    languageName: Français
+    weight: 2
 paginate: '3'
 summaryLength: '15'
 disqusShortname: ''
