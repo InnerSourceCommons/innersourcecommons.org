@@ -1,38 +1,17 @@
 name: Learning Path
 
 on:
-  schedule:
-    - cron:  '20 * * * *'
+  push:
+    branches:
+      - publish-latest-learning-path
 
 jobs:
-  build:
+  pull-request:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout innersourcecommons.org
-        uses: actions/checkout@v2
-        with:
-          path: ./innersourcecommons.org
-      - name: Checkout Learning Path
-        uses: actions/checkout@v2
-        with:
-          repository: InnerSourceCommons/InnerSourceLearningPath
-          path: ./InnerSourceLearningPath
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - name: Build
-        working-directory: InnerSourceLearningPath/scripts
-        run: |
-            npm ci
-            TOKEN=${{ secrets.GITHUB_TOKEN }} node generate_learning_path_markdown.js
-            cp -r newsite/. ../../innersourcecommons.org/content/learn/learning-path/
-      - uses: oleksiyrudenko/gha-git-credentials@v2-latest
-        with:
-          token: '${{ secrets.GITHUB_TOKEN }}'
-          global: true
-      - name : Commit
-        working-directory: innersourcecommons.org
-        run: |
-          git add .
-          git commit -m "Update Learning Path articles"
-          git push
+    - uses: actions/checkout@v2
+    - name: pull-request
+      uses: repo-sync/pull-request@v2
+      with:
+        destination_branch: "temp-main"
+        github_token: ${{ secrets.GITHUB_TOKEN }}
