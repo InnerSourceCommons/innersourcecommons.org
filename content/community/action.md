@@ -175,6 +175,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Nationwide" image="/images/logos/nationwide.png" >}}{{< /company >}}
       {{< company name="Navex Global" image="/images/logos/navex-global.png" >}}{{< /company >}}
       {{< company name="Nokia" image="/images/logos/nokia.png" >}}{{< /company >}}
+      {{< company name="Nike" image="/images/logos/nike.png" >}}{{< /company >}}
       {{< company name="Nubanks" image="/images/logos/nubank.png" >}}{{< /company >}}
       {{< company name="Otto Group" image="/images/logos/ottogroup.png" >}}{{< /company >}}
       {{< company name="PayPal" image="/images/logos/paypal.png" >}}{{< /company >}}
@@ -182,6 +183,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Plaid" image="/images/logos/plaid.png" >}}{{< /company >}}
       {{< company name="RedHat" image="/images/logos/redhat.png" >}}{{< /company >}}
       {{< company name="Redmonk" image="/images/logos/redmonk.png" >}}{{< /company >}}
+      {{< company name="SAP" image="/images/logos/sap.png" >}}{{< /company >}}
       {{< company name="SberBank" image="/images/logos/sberbank.png" >}}{{< /company >}}
       {{< company name="Seagate" image="/images/logos/seagate.png" >}}{{< /company >}}
       {{< company name="Shutterstock" image="/images/logos/shutterstock.png" >}}{{< /company >}}
@@ -201,6 +203,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Trustpilot" image="/images/logos/trustpilot.png" >}}{{< /company >}}
       {{< company name="Twilio" image="/images/logos/twilio.png" >}}{{< /company >}}
       {{< company name="US Department of Veteran Affairs" image="/images/logos/Seal_of_the_U.S._Department_of_Veterans_Affairs.svg.png" >}}{{< /company >}}
+      {{< company name="VMware" image="/images/logos/vmware.png" >}}{{< /company >}}
       {{< company name="Walmart" image="/images/logos/walmart.png" >}}{{< /company >}}
       {{< company name="Wayfair" image="/images/logos/wayfair.png" >}}{{< /company >}}
       {{< company name="Wipro" image="/images/logos/wipro.png" >}}{{< /company >}}
