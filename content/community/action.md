@@ -9,7 +9,7 @@ image: "/images/learn/innersourceinaction.png"
     {{< company name="3M" image="/images/logos/3m.png" link="https://github.com/customer-stories/3m" author_name="Kevin Truckenmiller" author_title="Lead DevOps Engineer in CRSL" >}}
       We’re moving towards more openness, which ultimately creates a communication culture and a generative culture, rather than one that’s bureaucratic and process-based.
       {{< /company >}}
-      {{< company name="ADEO" image="/images/logos/adeo.png" link="https://github.com/customer-stories/adeo" author_name="Guilherme Guitee" author_title="InnerSource and Agility Leader" >}}
+      {{< company name="ADEO" image="/images/logos/adeo.png" link="https://github.com/customer-stories/adeo" author_name="Guilherme Guitte" author_title="InnerSource and Agility Leader" >}}
       InnerSource paves the way for ADEO to introduce new open source projects and give developers more freedom.
       {{< /company >}}
       {{< company name="Ahold Delhaize" image="/images/logos/ahold.png" link="https://github.com/customer-stories/ahold-delhaize" author_name="Joost Hofman" author_title="Head of Tech Enabling" >}}
@@ -54,7 +54,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Huawei" image="/images/logos/huawei.png" link="https://www.youtube.com/watch?v=MhNnK_VPLVI" author_name="Willem Jiang and Long Li" author_title="Huawei" >}}
       We need to build a community around the InnerSource projects of people who share the same ideals.
       {{< /company >}}
-      {{< company name="IMB" image="/images/logos/ibm.png" link="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Jeff Jagoda" author_title="Senior Site Engineer" >}}
+      {{< company name="IBM" image="/images/logos/ibm.png" link="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Jeff Jagoda" author_title="Senior Site Engineer" >}}
       We see InnerSource as a way to improve efficiency through code reuse. But even beyond that, it's an amazing conduit for learning and exchanging ideas and facilitating innovation within IBM.
       {{< /company >}}
       {{< company name="John Wiley and Sons" image="/images/logos/wiley.png" link="https://github.com/customer-stories/wiley" author_name="Fedor Terlov" author_title="Director of Site Reliability" >}}
@@ -102,7 +102,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Vmware" image="/images/logos/vmware.png" link="https://www.youtube.com/watch?v=Y6biezNfJOM" author_name="Minchene Tang" author_title="Vmware" >}}
       A project isn’t just about the code, there’s a team behind it, including writers, designers and project managers. [InnerSource] gives you the opportunity to collaborate across multiple time zones and business units.
       {{< /company >}}
-      {{< company name="Walmart" image="/images/logos/walmart.png" link="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Jeremy King" author_title="Executive Vice President & Chief Technology Officer for Global eCommerce" >}}
+      {{< company name="Walmart" image="/images/logos/walmart.png" link="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Jeremy King" author_title="Executive Vice President & CTO for Global eCommerce" >}}
       Once you embrace it [InnerSource] and see new teams come on, you show examples of places where not only can people contribute, you unlock bottlenecks
       {{< /company >}}
       {{< company name="WayFair" image="/images/logos/wayfair.png" link="https://github.com/customer-stories/wayfair" author_name="DT Norris" author_title="Senior Software Engineering Manager" >}}
@@ -134,7 +134,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="BuzzFeed" image="/images/logos/buzzfeed.png" >}}{{< /company >}}
       {{< company name="Capital One" image="/images/logos/capitalone.png" >}}{{< /company >}}
       {{< company name="CA Technologies" image="/images/logos/CA_Technologies.png" >}}{{< /company >}}
-      {{< company name="Caprillary" image="/images/logos/capillary.png" >}}{{< /company >}}
+      {{< company name="Capillary" image="/images/logos/capillary.png" >}}{{< /company >}}
       {{< company name="Comcast" image="/images/logos/comcast.png" >}}{{< /company >}}
       {{< company name="CHR" image="/images/logos/chr.png" >}}{{< /company >}}
       {{< company name="Continental" image="/images/logos/continental.png" >}}{{< /company >}}
