@@ -3,7 +3,7 @@ title: "InnerSource Commons"
 ---
 
 {{< notice >}}
-<i class="ti-announcement mr-2"></i>July 6th at 4pm GMT / 5pm CET • Online • InnerSource & Discoverability <a href="https://www.eventbrite.com/e/innersource-commons-community-call-innersource-discoverability-tickets-157588642873?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=escb" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
+<i class="ti-announcement mr-2"></i>August 3rd at 4pm GMT / 5pm CET • Online • InnerSource in Action <a href="https://www.eventbrite.com/e/innersource-commons-community-call-innersource-in-action-tickets-161634092923?aff=ebdsoporgprofile" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
 {{</ notice >}}
 
 
