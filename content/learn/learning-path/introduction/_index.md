@@ -3,6 +3,14 @@ title: Introduction
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
+  - name: Daniel Izquierdo Cortazar
+    url: https://github.com/dicortazar
+  - name: Fernando Flores
+    url: https://github.com/JFernando122
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
   - name: Vincent Legault
     url: https://github.com/SJVle
   - name: Johannes Tigges
@@ -13,14 +21,8 @@ contributors:
     url: https://github.com/dottorblaster
   - name: Willem Jiang
     url: https://github.com/WillemJiang
-  - name: Daniel Izquierdo Cortazar
-    url: https://github.com/dicortazar
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
   - name: Tom Sadler
     url: https://github.com/tsadler1988
-  - name: Yoshitake Kobayashi
-    url: https://github.com/ystk
   - name: RJPlog
     url: https://github.com/RJPlog
   - name: Sebastian Spier

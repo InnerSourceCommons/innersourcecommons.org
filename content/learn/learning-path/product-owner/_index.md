@@ -4,6 +4,8 @@ image: images/learn/LP_thumbnail_productowner.jpg
 contributors:
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
   - name: Jun Ohtani
     url: https://github.com/johtani
   - name: Willem Jiang
@@ -16,8 +18,6 @@ contributors:
     url: https://github.com/lenucksi
   - name: Ludmila
     url: https://github.com/Ludmila-N
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
   - name: Lenucksi
     url: null
 weight: 3
