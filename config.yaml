@@ -39,18 +39,22 @@ menu:
       URL: about/board
       parent: about
       weight: 1
+    - name: Sponsors
+      URL: about/sponsors
+      parent: about
+      weight: 2
     - name: Members
       URL: about/members
       parent: about
-      weight: 2
+      weight: 3
     - name: Code of Conduct
       URL: about/codeofconduct
       parent: about
-      weight: 3
+      weight: 4
     - name: Contact Us
       URL: about/contact
       parent: about
-      weight: 4
+      weight: 5
   footer_left:
     - name: Learn
       URL: learn
