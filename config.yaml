@@ -90,18 +90,21 @@ menu:
     - name: Board & Governance
       URL: about/board
       weight: 2
+    - name: Sponsors
+      URL: about/sponsors
+      weight: 3
     - name: Members
       URL: about/members
-      weight: 3
+      weight: 4
     - name: Code of Conduct
       URL: about/codeofconduct
-      weight: 4
+      weight: 5
     - name: Contact Us
       URL: about/contact
-      weight: 5
+      weight: 6
     - name: Privacy Policy
       URL: about/privacy
-      weight: 6
+      weight: 7
 languages:
   en:
     languageName: English
