@@ -2,6 +2,10 @@
 title: 学习途径 - 产品负责人
 image: images/learn/LP_thumbnail_productowner.jpg
 contributors:
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
   - name: Willem Jiang
     url: https://github.com/WillemJiang
 weight: 3

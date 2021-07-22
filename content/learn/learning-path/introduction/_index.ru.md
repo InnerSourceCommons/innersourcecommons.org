@@ -3,6 +3,10 @@ title: Введение в InnerSource
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
   - name: Tom Sadler
     url: https://github.com/tsadler1988
   - name: Sebastian Spier

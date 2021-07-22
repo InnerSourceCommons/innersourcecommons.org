@@ -2,12 +2,14 @@
 title: 学习途径 - Trusted Committer
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
 contributors:
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
   - name: Willem Jiang
     url: https://github.com/WillemJiang
   - name: Tom Sadler
     url: https://github.com/tsadler1988
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
 weight: 1
 ---
 
