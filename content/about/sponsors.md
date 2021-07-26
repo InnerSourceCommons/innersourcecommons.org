@@ -1,7 +1,9 @@
 ---
 layout: page
 title: "Our Sponsors"
-subtitle: "The InnerSource Commons Foundation is supported by our generous Partners and Supporters. We are thankful to our sponsors for their support which contributes to growing our community and spreading the word about InnerSource. If you are interested in sponsoring InnerSource Commons and want to know more about our sponsorship programme please contact us at info@innersourcecommons.org."
+subtitle: "The InnerSource Commons Foundation is supported by our generous sponsors. There are two types of sponsors: our Supporters are organizations who want to support the ISC community, accelerate their internal InnerSource journey, and amplify recruitment efforts and our Partners are organizations who want to take a step further in helping to lead the InnerSource movement in the world, supporting ISC activities and mission.
+</p>
+We are thankful to our sponsors for their support which contributes to growing our community and spreading the word about InnerSource. If you are interested in sponsoring InnerSource Commons and want to know more about our sponsorship programme please contact us at sponsor@innersourcecommons.org."
 image: "/images/learn/innersourceinaction.png"
 ---
   <div class="container text-center" >
