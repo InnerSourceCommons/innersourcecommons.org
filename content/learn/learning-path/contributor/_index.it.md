@@ -2,6 +2,8 @@
 title: Learning Path - Contributore
 image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
   - name: Piergiorgio Lucidi
     url: https://github.com/OpenPj
   - name: Alessio Biancalana

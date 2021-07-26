@@ -3,6 +3,8 @@ title: Einführung
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
   - name: Tom Sadler
     url: https://github.com/tsadler1988
   - name: RJPlog
@@ -11,8 +13,6 @@ contributors:
     url: https://github.com/spier
   - name: Willem Jiang
     url: https://github.com/WillemJiang
-  - name: Yoshitake Kobayashi
-    url: https://github.com/ystk
   - name: rrrutledge
     url: https://github.com/rrrutledge
   - name: Johannes Tigges

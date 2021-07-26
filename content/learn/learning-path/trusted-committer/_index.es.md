@@ -2,6 +2,8 @@
 title: Camino de aprendizaje - Trusted Committer
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
 contributors:
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
   - name: Fernando Flores
     url: https://github.com/JFernando122
 weight: 1

@@ -2,6 +2,8 @@
 title: Learning Path - Contributor
 image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
   - name: RJPlog
     url: https://github.com/RJPlog
   - name: Tom Sadler

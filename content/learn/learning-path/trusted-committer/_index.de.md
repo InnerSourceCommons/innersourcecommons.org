@@ -2,6 +2,8 @@
 title: Learning Path - Trusted Committer
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
 contributors:
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
   - name: Tom Sadler
     url: https://github.com/tsadler1988
   - name: RJPlog
@@ -12,8 +14,6 @@ contributors:
     url: https://github.com/rrrutledge
   - name: Isabel Drost-Fromm
     url: https://github.com/MaineC
-  - name: Yoshitake Kobayashi
-    url: https://github.com/ystk
 weight: 1
 ---
 

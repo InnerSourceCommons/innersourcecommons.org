@@ -3,10 +3,10 @@ title: イントロダクション
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
   - name: Sebastian Spier
     url: https://github.com/spier
   - name: Willem Jiang

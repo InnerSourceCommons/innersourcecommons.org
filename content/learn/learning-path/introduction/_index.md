@@ -3,12 +3,12 @@ title: Introduction
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
   - name: Daniel Izquierdo Cortazar
     url: https://github.com/dicortazar
   - name: Fernando Flores
     url: https://github.com/JFernando122
-  - name: Yoshitake Kobayashi
-    url: https://github.com/ystk
   - name: rrrutledge
     url: https://github.com/rrrutledge
   - name: Vincent Legault
@@ -41,8 +41,6 @@ contributors:
     url: https://github.com/maxcapraro
   - name: Ludmila
     url: https://github.com/Ludmila-N
-  - name: Lenucksi
-    url: null
 weight: 0
 ---
 

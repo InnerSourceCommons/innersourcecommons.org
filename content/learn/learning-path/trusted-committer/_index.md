@@ -2,10 +2,10 @@
 title: Learning Path - Trusted Committer
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
 contributors:
-  - name: Fernando Flores
-    url: https://github.com/JFernando122
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
+  - name: Fernando Flores
+    url: https://github.com/JFernando122
   - name: rrrutledge
     url: https://github.com/rrrutledge
   - name: Jun Ohtani
@@ -24,8 +24,6 @@ contributors:
     url: https://github.com/MaineC
   - name: Ludmila
     url: https://github.com/Ludmila-N
-  - name: Arno Mihm
-    url: null
 weight: 1
 ---
 
