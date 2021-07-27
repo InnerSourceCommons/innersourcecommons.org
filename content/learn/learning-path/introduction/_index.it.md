@@ -3,6 +3,8 @@ title: Introduzione
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
   - name: Piergiorgio Lucidi
     url: https://github.com/OpenPj
   - name: Alessio Biancalana
