@@ -117,7 +117,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="3M" image="/images/logos/3m.png" >}}{{< /company >}}
       {{< company name="Accenture" image="/images/logos/accenture.png" >}}{{< /company >}}
       {{< company name="Adeo" image="/images/logos/adeo.png" >}}{{< /company >}}
-      {{< company name="Adobe" image="/images/adobe.png" >}}{{< /company >}}
+      {{< company name="Adobe" image="/images/logos/adobe.png" >}}{{< /company >}}
       {{< company name="Age of Peers" image="/images/logos/ageofpeerstwo.png" >}}{{< /company >}}
       {{< company name="Ahold Delhaise" image="/images/logos/ahold.png" >}}{{< /company >}}
       {{< company name="American Airlines" image="/images/logos/americanairlines.png" >}}{{< /company >}}
