@@ -11,6 +11,12 @@ contributors:
     url: https://github.com/JFernando122
   - name: rrrutledge
     url: https://github.com/rrrutledge
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
+  - name: Igor Zubiaurre
+    url: https://github.com/fioddor
+  - name: Johannes Tigges
+    url: https://github.com/lenucksi
 weight: 0
 ---
 

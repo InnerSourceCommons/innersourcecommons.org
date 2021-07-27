@@ -4,6 +4,10 @@ image: images/learn/LP_thumbnail_productowner.jpg
 contributors:
   - name: RJPlog
     url: https://github.com/RJPlog
+  - name: Johannes Tigges
+    url: https://github.com/lenucksi
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
 weight: 3
 ---
 

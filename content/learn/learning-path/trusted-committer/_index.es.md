@@ -6,6 +6,12 @@ contributors:
     url: https://github.com/ystk
   - name: Fernando Flores
     url: https://github.com/JFernando122
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
+  - name: Igor Zubiaurre
+    url: https://github.com/fioddor
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
 weight: 1
 ---
 

@@ -10,6 +10,10 @@ contributors:
     url: https://github.com/WillemJiang
   - name: Tom Sadler
     url: https://github.com/tsadler1988
+  - name: Johannes Tigges
+    url: https://github.com/lenucksi
+  - name: tanzhongyi
+    url: https://github.com/tanzhongyi003
 weight: 1
 ---
 

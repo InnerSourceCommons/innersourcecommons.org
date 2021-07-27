@@ -14,6 +14,12 @@ contributors:
     url: https://github.com/spier
   - name: niminghong
     url: https://github.com/niminghong
+  - name: Johannes Tigges
+    url: https://github.com/lenucksi
+  - name: tanzhongyi
+    url: https://github.com/tanzhongyi003
+  - name: adadai
+    url: https://github.com/adadai88
 weight: 2
 ---
 

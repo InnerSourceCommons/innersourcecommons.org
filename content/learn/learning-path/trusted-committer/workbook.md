@@ -7,6 +7,10 @@ contributors:
     url: https://github.com/MaineC
   - name: Johannes Tigges
     url: https://github.com/lenucksi
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
+  - name: Nick Adams
+    url: https://github.com/nadamsoreilly
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
 weight: 9
 ---

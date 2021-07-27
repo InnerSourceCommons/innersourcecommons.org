@@ -30,6 +30,14 @@ contributors:
     url: https://github.com/Ludmila-N
   - name: Isabel Drost-Fromm
     url: https://github.com/MaineC
+  - name: tanzhongyi
+    url: https://github.com/tanzhongyi003
+  - name: adadai
+    url: https://github.com/adadai88
+  - name: Shinobu Saito
+    url: https://github.com/ShinobuSaito
+  - name: Nick Adams
+    url: https://github.com/nadamsoreilly
 weight: 2
 ---
 

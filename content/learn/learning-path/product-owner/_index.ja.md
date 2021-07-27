@@ -6,6 +6,12 @@ contributors:
     url: https://github.com/ystk
   - name: Jun Ohtani
     url: https://github.com/johtani
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
+  - name: Johannes Tigges
+    url: https://github.com/lenucksi
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
 weight: 3
 ---
 
