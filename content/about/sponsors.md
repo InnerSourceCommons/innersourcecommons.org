@@ -12,6 +12,7 @@ image: "/images/learn/innersourceinaction.png"
 
   <div class="container">
     <div class="row justify-content-center">
+      {{< company name="Bitergia" image="/images/logos/bitergia.png" >}}{{< /company >}}
       {{< company name="GitHub" image="/images/logos/github.png" >}}{{< /company >}}
       {{< company name="Microsoft" image="/images/logos/microsoft.png" >}}{{< /company >}}
     </div>
