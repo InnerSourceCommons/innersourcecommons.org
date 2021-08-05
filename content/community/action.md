@@ -181,7 +181,6 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="PayPal" image="/images/logos/paypal.png" >}}{{< /company >}}
       {{< company name="Philips" image="/images/logos/philips.png" >}}{{< /company >}}
       {{< company name="Plaid" image="/images/logos/plaid.png" >}}{{< /company >}}
-      {{< company name="RedHat" image="/images/logos/redhat.png" >}}{{< /company >}}
       {{< company name="Redmonk" image="/images/logos/redmonk.png" >}}{{< /company >}}
       {{< company name="SAP" image="/images/logos/sap.png" >}}{{< /company >}}
       {{< company name="SberBank" image="/images/logos/sberbank.png" >}}{{< /company >}}
