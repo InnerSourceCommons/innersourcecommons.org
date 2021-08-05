@@ -20,6 +20,10 @@ menu:
       parent: learn
       URL: learn/books/innersource-patterns
       weight: 4
+    - name: Research
+      parent: learn
+      URL: learn/research
+      weight: 5
     - name: Events
       URL: events
       weight: 2
@@ -65,6 +69,9 @@ menu:
     - name: Patterns
       URL: learn/books/innersource-patterns
       weight: 4
+    - name: Research
+      URL: learn/research
+      weight: 5
   footer_middle:
     - name: Events
       URL: events
