@@ -2,7 +2,7 @@
 layout: page
 title: 'Research'
 description: The research community has been a strong ally of the InnerSource Commons ever since. Learn more about the State of InnerSource Surveys that have greatly improved our understanding of the mechanics of InnerSource and how it is applied in the industry today.
-image: "images/learn/surveys.jpg"
+image: "images/learn/research.jpg"
 featured: false
 ---
 
