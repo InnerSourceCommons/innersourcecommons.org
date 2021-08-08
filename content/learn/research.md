@@ -28,8 +28,6 @@ For the full results see the  [State of InnerSource 2020 Report](/documents/surv
 
 This survey was conducted by Tapajit Dey of Lero—the Irish Software Research Centre. Cristina Coffey and Tadhg O’Neill of InnerSource Commons contributed to the document outline and design.
 
-Any questions regarding this survey can be sent to: tapajit.dey@lero.ie
-
 ## [State of InnerSource 2016](/documents/surveys/InnerSourceCommonsSurvey2016.pdf)
 
 The goal of this First Annual State of InnerSource Commons survey was to establish a first baseline of how organizations adopt InnerSource. The survey addresses many aspects, including development methods, practices, quality assurance, tools, and motivation and organizational support.
@@ -41,5 +39,3 @@ For the full results see the [State of InnerSource 2016 Report](/documents/surve
 ### Authors
 
 This survey was conducted by Dr. Klaas-Jan Stol of Lero—the Irish Software Research Centre, and Dr. Tim Yao of Nokia. Dr. Bora Caglayan of Lero contributed to the survey design.
-
-Any questions regarding this survey can be sent to: klaas-jan.stol@lero.ie
