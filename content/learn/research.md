@@ -22,7 +22,7 @@ Since a number of studies already documented the Key Factors for InnerSource suc
 
 ### Results
 
-For the full results [State of InnerSource 2020](/documents/surveys/State.of.InnerSource.Report.2020.pdf)
+For the full results see the  [State of InnerSource 2020 Report](/documents/surveys/State.of.InnerSource.Report.2020.pdf).
 
 ### Authors
 
@@ -36,7 +36,7 @@ The goal of this First Annual State of InnerSource Commons survey was to establi
 
 ### Results
 
-For the full results [State of InnerSource 2016](/documents/surveys/InnerSourceCommonsSurvey2016.pdf)
+For the full results see the [State of InnerSource 2016 Report](/documents/surveys/InnerSourceCommonsSurvey2016.pdf).
 
 ### Authors
 
