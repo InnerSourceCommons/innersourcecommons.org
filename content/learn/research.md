@@ -22,11 +22,11 @@ Since a number of studies already documented the Key Factors for InnerSource suc
 
 ### Results
 
-For the full results see the  [State of InnerSource 2020 Report](/documents/surveys/State.of.InnerSource.Report.2020.pdf).
+For the full results see the [State of InnerSource 2020 Report](/documents/surveys/State.of.InnerSource.Report.2020.pdf).
 
 ### Authors
 
-This survey was conducted by Tapajit Dey of Lero—the Irish Software Research Centre. Cristina Coffey and Tadhg O’Neill of InnerSource Commons contributed to the document outline and design.
+This survey was conducted by Tapajit Dey of Lero—the Irish Software Research Centre. Cristina Coffey and Tadhg O’Neill of InnerSource Commons contributed to the report outline and design.
 
 ## [State of InnerSource 2016](/documents/surveys/InnerSourceCommonsSurvey2016.pdf)
 
