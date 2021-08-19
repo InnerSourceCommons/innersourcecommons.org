@@ -41,6 +41,20 @@ contributors:
     url: https://github.com/maxcapraro
   - name: Ludmila
     url: https://github.com/Ludmila-N
+  - name: Igor Zubiaurre
+    url: https://github.com/fioddor
+  - name: tanzhongyi
+    url: https://github.com/tanzhongyi003
+  - name: Jun Ohtani
+    url: https://github.com/johtani
+  - name: Valery Laptev
+    url: https://github.com/ValeryLaptev
+  - name: Stanislau
+    url: https://github.com/venikman
+  - name: Nick Adams
+    url: https://github.com/nadamsoreilly
+  - name: Clint Cain (Small)
+    url: https://github.com/breakbottle
 weight: 0
 ---
 

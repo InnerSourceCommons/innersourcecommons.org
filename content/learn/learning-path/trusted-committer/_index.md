@@ -24,6 +24,16 @@ contributors:
     url: https://github.com/MaineC
   - name: Ludmila
     url: https://github.com/Ludmila-N
+  - name: Igor Zubiaurre
+    url: https://github.com/fioddor
+  - name: tanzhongyi
+    url: https://github.com/tanzhongyi003
+  - name: Arno M
+    url: https://github.com/arnom-ms
+  - name: adadai
+    url: https://github.com/adadai88
+  - name: Nick Adams
+    url: https://github.com/nadamsoreilly
 weight: 1
 ---
 

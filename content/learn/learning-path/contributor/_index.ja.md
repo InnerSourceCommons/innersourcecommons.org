@@ -10,6 +10,12 @@ contributors:
     url: https://github.com/johtani
   - name: Sebastian Spier
     url: https://github.com/spier
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
+  - name: Johannes Tigges
+    url: https://github.com/lenucksi
+  - name: Shinobu Saito
+    url: https://github.com/ShinobuSaito
 weight: 2
 ---
 

@@ -13,6 +13,14 @@ contributors:
     url: https://github.com/spier
   - name: Dmitry Sugrobov
     url: https://github.com/voborgus
+  - name: Johannes Tigges
+    url: https://github.com/lenucksi
+  - name: Valery Laptev
+    url: https://github.com/ValeryLaptev
+  - name: Ludmila
+    url: https://github.com/Ludmila-N
+  - name: Stanislau
+    url: https://github.com/venikman
 weight: 0
 ---
 

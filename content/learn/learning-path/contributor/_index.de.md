@@ -12,6 +12,8 @@ contributors:
     url: https://github.com/lenucksi
   - name: Arno M
     url: https://github.com/arnom-ms
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
 weight: 2
 ---
 

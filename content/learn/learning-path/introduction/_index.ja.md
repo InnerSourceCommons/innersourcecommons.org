@@ -11,6 +11,12 @@ contributors:
     url: https://github.com/spier
   - name: Willem Jiang
     url: https://github.com/WillemJiang
+  - name: Jun Ohtani
+    url: https://github.com/johtani
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
+  - name: Johannes Tigges
+    url: https://github.com/lenucksi
 weight: 0
 ---
 
