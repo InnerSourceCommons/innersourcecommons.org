@@ -216,3 +216,8 @@ button.svelte-la9dd4:hover::before,button.svelte-la9dd4:active::before,button.sv
 button.svelte-la9dd4:disabled {
     display: none;
 }
+
+.event-card-text {
+    height: 150px;
+    overflow: hidden;
+}
