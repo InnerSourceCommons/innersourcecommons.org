@@ -2,16 +2,16 @@
 title: Camino de aprendizaje - Trusted Committer
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
 contributors:
+  - name: Igor Zubiaurre
+    url: https://github.com/fioddor
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
   - name: Fernando Flores
     url: https://github.com/JFernando122
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
-  - name: Igor Zubiaurre
-    url: https://github.com/fioddor
   - name: rrrutledge
     url: https://github.com/rrrutledge
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
 weight: 1
 ---
 

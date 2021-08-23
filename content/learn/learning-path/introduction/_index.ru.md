@@ -13,6 +13,8 @@ contributors:
     url: https://github.com/spier
   - name: Dmitry Sugrobov
     url: https://github.com/voborgus
+  - name: Fernando Flores
+    url: https://github.com/JFernando122
   - name: Johannes Tigges
     url: https://github.com/lenucksi
   - name: Valery Laptev

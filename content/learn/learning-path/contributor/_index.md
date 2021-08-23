@@ -30,7 +30,7 @@ contributors:
     url: https://github.com/Ludmila-N
   - name: Isabel Drost-Fromm
     url: https://github.com/MaineC
-  - name: tanzhongyi
+  - name: Tanzhongyi(Jerry Tan)
     url: https://github.com/tanzhongyi003
   - name: adadai
     url: https://github.com/adadai88

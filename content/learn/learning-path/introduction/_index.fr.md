@@ -9,6 +9,8 @@ contributors:
     url: https://github.com/SJVle
   - name: Johannes Tigges
     url: https://github.com/lenucksi
+  - name: Fernando Flores
+    url: https://github.com/JFernando122
   - name: Tom Sadler
     url: https://github.com/tsadler1988
 weight: 0

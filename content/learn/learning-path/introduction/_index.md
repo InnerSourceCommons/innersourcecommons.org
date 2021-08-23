@@ -5,14 +5,14 @@ image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
+  - name: Vincent Legault
+    url: https://github.com/SJVle
   - name: Daniel Izquierdo Cortazar
     url: https://github.com/dicortazar
   - name: Fernando Flores
     url: https://github.com/JFernando122
   - name: rrrutledge
     url: https://github.com/rrrutledge
-  - name: Vincent Legault
-    url: https://github.com/SJVle
   - name: Johannes Tigges
     url: https://github.com/lenucksi
   - name: Piergiorgio Lucidi
@@ -41,12 +41,12 @@ contributors:
     url: https://github.com/maxcapraro
   - name: Ludmila
     url: https://github.com/Ludmila-N
-  - name: Igor Zubiaurre
-    url: https://github.com/fioddor
-  - name: tanzhongyi
-    url: https://github.com/tanzhongyi003
   - name: Jun Ohtani
     url: https://github.com/johtani
+  - name: Igor Zubiaurre
+    url: https://github.com/fioddor
+  - name: Tanzhongyi(Jerry Tan)
+    url: https://github.com/tanzhongyi003
   - name: Valery Laptev
     url: https://github.com/ValeryLaptev
   - name: Stanislau
