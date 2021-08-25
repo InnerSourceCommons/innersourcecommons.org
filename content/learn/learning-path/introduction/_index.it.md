@@ -15,6 +15,8 @@ contributors:
     url: https://github.com/spier
   - name: Willem Jiang
     url: https://github.com/WillemJiang
+  - name: Fernando Flores
+    url: https://github.com/JFernando122
   - name: Johannes Tigges
     url: https://github.com/lenucksi
   - name: rrrutledge

@@ -14,6 +14,8 @@ contributors:
     url: https://github.com/rrrutledge
   - name: Isabel Drost-Fromm
     url: https://github.com/MaineC
+  - name: Fernando Flores
+    url: https://github.com/JFernando122
   - name: Arno M
     url: https://github.com/arnom-ms
 weight: 1

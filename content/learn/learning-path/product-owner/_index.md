@@ -20,7 +20,7 @@ contributors:
     url: https://github.com/Ludmila-N
   - name: Lenucksi
     url: null
-  - name: tanzhongyi
+  - name: Tanzhongyi(Jerry Tan)
     url: https://github.com/tanzhongyi003
   - name: Nick Adams
     url: https://github.com/nadamsoreilly

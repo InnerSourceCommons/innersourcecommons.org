@@ -2,6 +2,8 @@
 title: Learning Path - Trusted Committer
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
 contributors:
+  - name: Igor Zubiaurre
+    url: https://github.com/fioddor
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
   - name: Fernando Flores
@@ -24,9 +26,7 @@ contributors:
     url: https://github.com/MaineC
   - name: Ludmila
     url: https://github.com/Ludmila-N
-  - name: Igor Zubiaurre
-    url: https://github.com/fioddor
-  - name: tanzhongyi
+  - name: Tanzhongyi(Jerry Tan)
     url: https://github.com/tanzhongyi003
   - name: Arno M
     url: https://github.com/arnom-ms

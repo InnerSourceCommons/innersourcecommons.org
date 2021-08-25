@@ -17,7 +17,7 @@ contributors:
     url: https://github.com/adadai88
   - name: Johannes Tigges
     url: https://github.com/lenucksi
-  - name: tanzhongyi
+  - name: Tanzhongyi(Jerry Tan)
     url: https://github.com/tanzhongyi003
 weight: 0
 ---
