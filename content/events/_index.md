@@ -1,7 +1,7 @@
 ---
 title: "Events"
-subtitle: "InnerSource Commons future and past events."
+subtitle: "InnerSource Commons events."
 # meta description
-description: "InnerSource Commons future and past events."
+description: "InnerSource Commons events."
 draft: false
 ---
