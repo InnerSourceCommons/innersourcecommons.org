@@ -6,7 +6,7 @@ image: "/images/learn/innersourceinaction.png"
 ---
 
 
-Whereas the InnerSource Commons would not exist without our fabulous community participants. However, as a non-profit, our generous sponsors provide the means by which we can scale our activities and impact. Without their help, we would not be able to do the work we do.
+The InnerSource Commons would not exist without our fabulous community participants. However, as a non-profit, our generous sponsors provide the means by which we can scale our activities and impact. Without their help, we would not be able to do the work we do.
 
 There are two ways to sponsor the InnerSource Commons community:
 
