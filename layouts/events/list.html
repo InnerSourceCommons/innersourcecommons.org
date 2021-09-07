@@ -4,11 +4,12 @@
 {{ partial "page-header.html" . }}
 
 {{ $pages := .Data.Pages }}
+{{ $yesterday := (now.AddDate 0 0 -1).Unix }}
 {{ $pages = where $pages "Section" "in" "events" }}
 <section class="section">
   <div class="container">
     <div class="row">
-      {{ range where $pages ".Date.Unix" ">=" now.Unix }}
+      {{ range (where $pages ".Date.Unix" ">=" $yesterday).Reverse }}
       <div class="col-12 mb-5 pb-5">
         <div class="row align-items-center">
           <div class="col-md-6 mb-4 mb-md-0">
@@ -19,7 +20,7 @@
           <div class="col-md-6">
             <h2><a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="post-title">{{ .Title }}</a></h2>
             <p class="card-text">{{ .Summary }}</p>
-            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary">Register Now</a>
+            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary">Open Event</a>
           </div>
         </div>
       </div>
@@ -31,7 +32,7 @@
       <div class="container text-center pb-4 mb-4">
         <h3 class="display-4">Past Events</h2>
       </div>
-      {{ range where $pages ".Date.Unix" "<" now.Unix }}
+      {{ range where $pages ".Date.Unix" "<" $yesterday }}
       <div class="col-lg-4 col-sm-6 mb-5 event-card">
         <div class="card border-0">
           <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }}>
