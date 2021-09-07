@@ -10,8 +10,7 @@ Whereas the InnerSource Commons would not exist without our fabulous community p
 
 There are two ways to sponsor the InnerSource Commons community:
 
-**Become a Partner**
-For organizations leading the InnerSource movement in the world.
+**Become a Partner**: For organizations leading the InnerSource movement in the world.
 
 Benefits include:
 - Representation on the ISC Industry Advisory Board 
@@ -19,8 +18,7 @@ Benefits include:
 - Proactive support from your ISC Partner Manager 
 - Plus all the benefits of an ISC Supporter!
 
-**Become a Supporter**
-Suitable for InnerSource practitioners who want to support the ISC community, accelerate their internal InnerSource journeys and signal to the world that they have the very best development practices.
+**Become a Supporter**: Suitable for InnerSource practitioners who want to support the ISC community, accelerate their internal InnerSource journeys and signal to the world that they have the very best development practices.
 
 Benefits include:
 - Brand value in demonstrating active commitment to InnerSource
