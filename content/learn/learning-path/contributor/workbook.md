@@ -68,13 +68,13 @@ In practice contributors often move closer to the host team and provide their ex
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>I need to make sure to communicate my intent when adding or changing the project.</p>
+<p>Needs that are shared across the business are good candidates for InnerSource.</p>
 </li>
 <li>
-<p>I need to make sure my code serves the hosting teams goals.</p>
+<p>My project will move the fastest if I have as few dependencies as possible.</p>
 </li>
 <li>
-<p>If the hosting team is in a bind to meet their deadlines, I have to spend time to code for them.</p>
+<p>The hosting team will implement the features that I need.</p>
 </li>
 <li>
 <p>I should work only on features needed by my team.</p>
@@ -84,13 +84,14 @@ In practice contributors often move closer to the host team and provide their ex
 <div class="sect5">
 <h6 id="_correct_answer_1">Correct answer: 1</h6>
 <div class="paragraph">
-<p>Why 1 is correct: If your contribution isn’t understood by the host team or the community at large, then they may reverse your hard work or make other changes that weaken the value of your contribution. Open and early communication with the community and the hosting team will help you to drive successful contributions.</p>
+<p>Why 1 is correct: When many teams across the business have the same need, an InnerSource project is a great way to meet those needs at scale without duplicated work.</p>
 </div>
 <div class="paragraph">
-<p>Why 2 is incorrect: You should make sure that your goals do not conflict with those of the hosting team, but beyond that you can still promote your own team’s goals.</p>
+<p>Why 2 is incorrect: If you skip the chance to leverage code that is already written, you will waste time coding solutions to problems that are already solved rather than adding unique value in your team.</p>
 </div>
 <div class="paragraph">
-<p>Why 3 is incorrect: Your work on another team’s project reflects your own team’s needs, but you are not working for the other team. If the hosting team (or any community participant) is in a bind, you and your management might offer help as a gesture to benefit the whole company., However, it is not your task to make up for the time or staffing shortcomings at the hosting team.</p>
+<p>Why 3 is incorrect: You can ask, but there may be times where the next need that you have in the project is not the next priority for the host team to work on.
+In these cases you can still get what you need by making an InnerSource contribution to the project.</p>
 </div>
 <div class="paragraph">
 <p>Why 4 is incorrect: Working on other features of a project, or doing background work such as reorganizing code or documentation, may indirectly contribute to your team’s success, so it is legitimate for you to invest time on those things.</p>
