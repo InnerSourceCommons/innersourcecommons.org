@@ -1,11 +1,35 @@
 ---
 layout: page
 title: "Our Sponsors"
-subtitle: "The InnerSource Commons Foundation is supported by our generous sponsors. There are two types of sponsors: our Supporters are organizations who want to support the ISC community, accelerate their internal InnerSource journey, and amplify recruitment efforts and our Partners are organizations who want to take a step further in helping to lead the InnerSource movement in the world, supporting ISC activities and mission.
-</p>
-We are thankful to our sponsors for their support which contributes to growing our community and spreading the word about InnerSource. If you are interested in sponsoring InnerSource Commons and want to know more about our sponsorship programme please contact us at sponsor@innersourcecommons.org."
+subtitle: "InnerSource Commons Sponsorship Programme, Partners & Supporters"
 image: "/images/learn/innersourceinaction.png"
 ---
+
+
+Whereas the InnerSource Commons would not exist without our fabulous community participants. However, as a non-profit, our generous sponsors provide the means by which we can scale our activities and impact. Without their help, we would not be able to do the work we do.
+
+There are two ways to sponsor the InnerSource Commons community:
+
+### Become a Partner
+For organizations leading the InnerSource movement in the world.
+
+Benefits include:
+- Representation on the ISC Industry Advisory Board 
+- Premier positioning in ISC announcements and materials
+- Proactive support from your ISC Partner Manager 
+- Plus all the benefits of an ISC Supporter!
+
+### Become a Supporter
+Suitable for InnerSource practitioners who want to support the ISC community, accelerate their internal InnerSource journeys and signal to the world that they have the very best development practices.
+
+Benefits include:
+- Brand value in demonstrating active commitment to InnerSource
+- Thanked at ISC events and activities
+- InnerSource Commons speakers sourced for your internal events
+- ISC support to co-create content
+
+
+
   <div class="container text-center" >
     <h2 class="display-3"> Our Partners </h2>
   </div>
