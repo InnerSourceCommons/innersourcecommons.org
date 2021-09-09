@@ -3,7 +3,7 @@ title: "InnerSource Commons"
 ---
 
 {{< notice >}}
-<i class="ti-announcement mr-2"></i>September 7th at 4pm GMT / 5pm CET • Online • InnerSource in Action <a href="https://www.eventbrite.com/e/innersource-commons-community-call-innersource-in-action-tickets-161634092923?aff=ebdsoporgprofile" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
+<i class="ti-announcement mr-2"></i>September 21st at 8am UTC / 10am CEST / 4pm CST / 6pm AEST  • Online • InnerSource in the Enterprise <a href="https://www.eventbrite.com/e/innersource-community-call-innersource-in-the-enterprise-tickets-168955178487?aff=erelpanelorg" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
 {{</ notice >}}
 
 
