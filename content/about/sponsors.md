@@ -54,5 +54,5 @@ Benefits include:
       
 We are thankful to our sponsors for their partnership and support which contributes to growing our community, facilitating the work we do and spreading the word about InnerSource.
 
-Sponsorship costs vary depending on the type of sponsorship, type and size of organization and length of commitment. If you are interested in sponsoring InnerSource Commons and would like to know more about our Partner and Supporter Programmes, please contact us at sponsor@innersourcommons.org. 
+Sponsorship costs vary depending on the type of sponsorship, type and size of organization and length of commitment. If you are interested in sponsoring InnerSource Commons and would like to know more about our Partner and Supporter Programmes, please contact us at sponsor@innersourecommons.org. 
 
