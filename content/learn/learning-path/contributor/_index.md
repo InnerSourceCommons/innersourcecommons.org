@@ -2,10 +2,12 @@
 title: Learning Path - Contributor
 image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
-  - name: Yoshitake Kobayashi
-    url: https://github.com/ystk
+  - name: Sergi
+    url: https://github.com/Sergih28
   - name: rrrutledge
     url: https://github.com/rrrutledge
+  - name: Yoshitake Kobayashi
+    url: https://github.com/ystk
   - name: Piergiorgio Lucidi
     url: https://github.com/OpenPj
   - name: Alessio Biancalana
@@ -30,6 +32,10 @@ contributors:
     url: https://github.com/Ludmila-N
   - name: Isabel Drost-Fromm
     url: https://github.com/MaineC
+  - name: Fernando Flores
+    url: https://github.com/JFernando122
+  - name: Igor Zubiaurre
+    url: https://github.com/fioddor
   - name: Tanzhongyi(Jerry Tan)
     url: https://github.com/tanzhongyi003
   - name: adadai
