@@ -31,28 +31,49 @@ image: "/images/learn/innersourceinaction.png"
     </div>
   </div>
       
-## Become a Sponsor
-There are two ways to sponsor the InnerSource Commons community:
-
-### Become a Partner
-For organizations leading the InnerSource movement in the world.
-
-Benefits include:
-- Representation on the ISC Industry Advisory Board 
-- Premier positioning in ISC announcements and materials
-- Proactive support from your ISC Partner Manager 
-- Plus all the benefits of an ISC Supporter!
-
-### Become a Supporter
-Suitable for InnerSource practitioners who want to support the ISC community, accelerate their internal InnerSource journeys and signal to the world that they have the very best development practices.
-
-Benefits include:
-- Brand value in demonstrating active commitment to InnerSource
-- Thanked at ISC events and activities
-- InnerSource Commons speakers sourced for your internal events
-- ISC support to co-create content
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-4">
+        <p class="mt-3 h1">Become a Sponsor</p>
+        <p>There are two ways to sponsor the InnerSource Commons community:</p>
+      </div>
+      <div class="col-md-6 col-sm-6 mb-4">
+        <div class="feature-card text-left">
+          <img src="/images/ISC_Partner_Logo_Wide.png" alt="Partner Badge">
+          <h3 class="mb-2">Become a Partner</h3>
+          <p>For organizations leading the InnerSource movement in the world.</p>
+          <h4>Benefits include:</h4>
+          <ul>
+              <li>Representation on the ISC Industry Advisory Board </li>
+              <li>Premier positioning in ISC announcements and materials</li>
+              <li>Proactive support from your ISC Partner Manager </li>
+              <li>Plus all the benefits of an ISC Supporter!</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 mb-4">
+        <div class="feature-card text-left">
+          <img src="/images/ISC_Supporter_Logo_Wide.png" alt="Supporter Badge">
+          <h3 class="mb-2">Become a Supporter</h3>
+          <p>For InnerSource practitioners who want to support the ISC community, accelerate their internal InnerSource journeys and signal to the world that they have the very best development practices.</p>
+          <h4>Benefits include:</h4>
+          <ul>
+              <li>Brand value in demonstrating active commitment to InnerSource</li>
+              <li>Thanked at ISC events and activities</li>
+              <li>InnerSource Commons speakers sourced for your internal events </li>
+              <li>ISC support to co-create content</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <a href="mailto:sponsor@innersourcecommons.org" class="btn btn-primary btn-sm" style="color: white;">Get in Touch to Find Out More</a>
+    </div>
+  </div>
+</section>
       
 We are thankful to our sponsors for their partnership and support which contributes to growing our community, facilitating the work we do and spreading the word about InnerSource.
 
-Sponsorship costs vary depending on the type of sponsorship, type and size of organization and length of commitment. If you are interested in sponsoring InnerSource Commons and would like to know more about our Partner and Supporter Programmes, please contact us at sponsor@innersourecommons.org. 
+Sponsorship costs vary depending on the type of sponsorship, type and size of organization and length of commitment. If you are interested in sponsoring InnerSource Commons and would like to know more about our Partner and Supporter Programmes, please contact us at sponsor@innersourcecommons.org. 
 
