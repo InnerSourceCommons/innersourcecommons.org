@@ -2,7 +2,6 @@
 layout: page
 title: "Our Sponsors"
 subtitle: "Our Partners are organizations helping to lead the InnerSource movement in the world. Our Supporters have not just adopted InnerSource internally, they care about enabling the worldwide community of practitioners. Whereas the InnerSource Commons would not exist without our fabulous community participants, our generous sponsors provide the means by which we can scale our activities and impact. Without their help, we would not be able to do the work we do. </p>Thank you!"
-image: "/images/learn/innersourceinaction.png"
 ---
 
 
