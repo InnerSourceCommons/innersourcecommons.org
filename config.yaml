@@ -39,26 +39,30 @@ menu:
       identifier: about
       URL: about
       weight: 4
+    - name: Announcements
+      URL: about/announcements
+      parent: about
+      weight: 1
     - name: Board & Governance
       URL: about/board
       parent: about
-      weight: 1
+      weight: 2
     - name: Members
       URL: about/members
       parent: about
-      weight: 2
+      weight: 3
     - name: Sponsors
       URL: about/sponsors
       parent: about
-      weight: 3
+      weight: 4
     - name: Code of Conduct
       URL: about/codeofconduct
       parent: about
-      weight: 4
+      weight: 5
     - name: Contact Us
       URL: about/contact
       parent: about
-      weight: 5
+      weight: 6
   footer_left:
     - name: Learn
       URL: learn
@@ -89,6 +93,9 @@ menu:
     - name: InnerSource in Action
       URL: community/action
       weight: 3
+    - name: Announcements
+      URL: about/announcements
+      weight: 4
   footer_right:
     - name: About
       URL: about
