@@ -14,16 +14,8 @@ The mission of the ISC is to establish a body of knowledge and to educate indivi
 
 The entirety of the ISC is handled transparently and openly. To protect the identity of contributing individuals and organizations, discussions are held under the Chatham House Rule: Participants can share all learnings and insights, but must not attribute them unless the originator wishes so. Documentation, teaching materials, best practices patterns, and others are made available under open licenses that support this goal.
 
-The initial board of directors is comprised of:
-Danese Cooper (as President)
-Georg Grütter (as Vice-President)
-Russell Rutledge (as Secretary)
-Cedric Williams (as Treasurer)
-Silona Irene Bonewald
-Maximilian Capraro
-Daniel Izquierdo Cortázar
-Isabel Drost-Fromm
-Timothy H-J. Yao
+The initial board of directors is comprised of: Danese Cooper (as President), Georg Grütter (as Vice-President), Russell Rutledge (as Secretary), Cedric Williams (as Treasurer)
+Silona Irene Bonewald, Maximilian Capraro, Daniel Izquierdo Cortázar, Isabel Drost-Fromm and Timothy H-J. Yao.
 
 Future boards will be elected by the membership on a yearly basis. ISC initially is incorporated in the US. As the community grows, we anticipate to found sister organizations in the European Union, Latin America, and other parts of the world.
 
