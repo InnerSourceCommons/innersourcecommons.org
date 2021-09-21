@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ partial "breadcrumbs.html" . }}
+{{ partial "page-header.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ range first 1 (where .Data.Pages.ByDate.Reverse ".Params.featured" "==" true) }}
+      <div class="col-12 mb-5 pb-5">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <a href="{{.Permalink}}">
+              <img src="{{ .Params.image | absURL }}" alt="{{.Title}}" class="img-fluid rounded-lg w-100">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <h2><a href="{{ default .Permalink .Params.redirect }}" class="post-title"{{ with .Params.target }} target="{{ . }}"{{ end }}>
+              {{ .Title }}</a></h2>
+            <p class="card-text">{{ default .Summary .Params.description }}</p>
+            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary">
+              Read</a>
+            <span class="fw-500 pl-4"><i class="ti-calendar text-dark me-1"></i> {{ .Params.Date.Format "January 2, 2006" }}</span>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      {{ range where .Data.Pages.ByDate.Reverse ".Params.featured" "!=" true }}
+      <div class="col-lg-4 col-sm-6 mb-5 event-card">
+        <div class="card border-0">
+          <a href="{{.Permalink}}">
+            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img rounded-lg mb-4">
+          </a>
+          <div class="card-body p-0">
+            <h3><a href="{{ default .Permalink .Params.redirect }}" class="post-title"{{ with .Params.target }} target="{{ . }}"{{ end }}>
+              {{ .Title }}</a></h3>
+            <p class="card-text">{{ default .Summary .Params.description }}</p>
+            <a href="{{ default .Permalink .Params.redirect }}" class="btn btn-primary btn-sm"{{ with .Params.target }} target="{{ . }}"{{ end }}>
+              Read</a>
+            <span class="fw-500 pl-3"><i class="ti-calendar text-dark me-1"></i> {{ .Params.Date.Format "January 2, 2006" }}</span>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}
