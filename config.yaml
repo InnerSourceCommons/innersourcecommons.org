@@ -47,12 +47,12 @@ menu:
       URL: about/board
       parent: about
       weight: 2
-    - name: Sponsors
-      URL: about/sponsors
-      parent: about
-      weight: 3
     - name: Members
       URL: about/members
+      parent: about
+      weight: 3
+    - name: Sponsors
+      URL: about/sponsors
       parent: about
       weight: 4
     - name: Code of Conduct
@@ -104,11 +104,11 @@ menu:
     - name: Board & Governance
       URL: about/board
       weight: 2
-    - name: Sponsors
-      URL: about/sponsors
-      weight: 3
     - name: Members
       URL: about/members
+      weight: 3
+    - name: Sponsors
+      URL: about/sponsors
       weight: 4
     - name: Code of Conduct
       URL: about/codeofconduct
