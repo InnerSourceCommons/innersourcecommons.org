@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+{{ partial "breadcrumbs.html" . }}
+<section class="section section-first">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h2 class="mb-4">{{ .Title }}</h2>
+        <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4 mt-1">
+        <div class="content">{{.Content}}</div>
+        <div class="fw-500 mb-4 fl-r"><i class="ti-calendar text-dark me-1"></i> {{ .Params.Date.Format "January 2, 2006" }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

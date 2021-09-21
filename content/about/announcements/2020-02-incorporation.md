@@ -3,6 +3,7 @@ layout: page
 title: 'Incorporation of InnerSource Commons Foundation'
 image: "images/about/announcements/2020-02-incorporation.png"
 date: 2020-02-19
+type: "announcements"
 ---
 
 ### Press Release: Incorporation of InnerSource Commons Foundation

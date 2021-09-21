@@ -3,6 +3,8 @@ layout: page
 title: 'InnerSource Commons announces the appointment of a new Board of Directors'
 image: "images/about/announcements/2021-03-new-board.png"
 date: 2021-03-18
+featured: true
+type: "announcements"
 ---
 
 The InnerSource Commons Foundation is delighted to announce the election of a new Board of Directors comprising of Danese Cooper (Chairperson), Isabel Drost-Fromm (President), Georg Grutter (Vice President), Cedric Williams (Treasurer), Russell Rutledge (Secretary), Johannes Tigges (Assistant Secretary), Maximilian Capraro, Daniel Izquierdo Cortazar and Jacob Green.
