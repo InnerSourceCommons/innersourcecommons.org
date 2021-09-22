@@ -21,7 +21,7 @@ More information about the InnerSource Commons Partner and Support programs can 
 
 “Bitergia is excited to partner with the InnerSource Commons for its next phase of growth. We have been involved with the InnerSource Commons since it was founded in 2015, as Bitergia values the community's contribution to spreading knowledge about the use of open source best practices, which is positioned to become the default way to develop software." said Daniel Izquierdo Cortázar, CEO of Bitergia.
 
-“At GitHub we help companies across the world continuously improve how their engineering teams work together on code. Getting started in nurturing an innersource culture of sharing can be challenging, which is why we have been strong supporters of InnerSource Commons from day one.’ said Martin Woodward, Senior Director of Developer Relations at GitHub.
+“At GitHub we help companies across the world continuously improve how their engineering teams work together on code. Getting started in nurturing an InnerSource culture of sharing can be challenging, which is why we have been strong supporters of InnerSource Commons from day one.’ said Martin Woodward, Senior Director of Developer Relations at GitHub.
 
  ‘The InnerSource Commons is a unique group of people who come together from all across the industry to share their experiences on adopting techniques from open source and applying them inside their enterprise. You get to collaborate with people who are responsible for building internal communities of best practice and sharing amongst some of the top performing software development groups in the business.” he said. 
  
