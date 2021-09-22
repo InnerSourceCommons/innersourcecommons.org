@@ -3,7 +3,6 @@ layout: page
 title: 'InnerSource Commons announces the appointment of a new Board of Directors'
 image: "images/about/announcements/2021-03-new-board.png"
 date: 2021-03-18
-featured: true
 type: "announcements"
 ---
 
