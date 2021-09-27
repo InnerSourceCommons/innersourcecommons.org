@@ -38,8 +38,14 @@
   {{ end }}
   
   {{ template "_internal/opengraph.html" . }}
-  {{ with .Params.Image }}
-  <meta property="og:image" content="{{ . | absURL }}" />
+  {{ if .Params.Image }}
+    {{ with .Params.Image }}
+    <meta property="og:image" content="{{ . | absURL }}" />
+    {{ end }}
+  {{else}}
+    {{ with site.Params.defaultImage }}
+    <meta property="og:image" content="{{ . | absURL }}" />
+    {{ end }}
   {{ end }}
-  
+
 </head>
