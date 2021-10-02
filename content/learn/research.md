@@ -44,7 +44,9 @@ This survey was conducted by Dr. Klaas-Jan Stol of Lero—the Irish Software Res
 
 This is a list of academic, peer-reviewed conference papers and journal articles that have studied a variety of aspects of InnerSource. 
 
-- Lorraine Morgan, Rob Gleasure, Abayomi Baiyere, and Hong Phuc Dang (2021) "Share and Share Alike: How Inner Source can Help create new Digital platform," California Management Review, [doi](https://dx.doi.org/10.1177/00081256211044830)
+- Lorraine Morgan, Rob Gleasure, Abayomi Baiyere, and Hong Phuc Dang (2021) "Share and Share Alike: How Inner Source can Help create new Digital platform," California Management Review. [doi](https://dx.doi.org/10.1177/00081256211044830) [pdf](https://journals.sagepub.com/doi/pdf/10.1177/00081256211044830?casa_token=xSwB9GaWFj0AAAAA:7oMRSLgYkCx0O17TLmLRuC-oHwf49S61NOsRhEWSCU9KXu48cXBHtsAB_ilaT3FVhDnYOBvn57Hw)
+
+- Klaas-Jan Stol, Paris Avgeriou, M. Ali Babar, Yan Lucas, Brian Fitzgerald (2014) "Key Factors for Adopting Inner Source," ACM Transactions on Software Engineering and Methodology [doi](https://doi.org/10.1145/2533685) [pdf](https://dl.acm.org/doi/pdf/10.1145/2533685?casa_token=QWNGtW8YGBEAAAAA:gJEVNNYpaCRrV2vU2l25Nt2LlR6-GhcHwoeCfGS8kQDZXHB0LXL73dOiwFIGKrxVN_MekQEg958q) 
 
 
 
