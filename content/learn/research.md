@@ -52,7 +52,7 @@ This is a list of academic, peer-reviewed conference papers and journal articles
 
 - Kirsch, C., Drost-Fromm, I., Tigges, J., Dorner, M., & Capraro, M. (2019) **Inner Source: Open-Source-Prinzipien im Unternehmen anwenden** (in German) In iX - Magazin für professionelle Informationstechnik. Heise Verlag.	[Link]
 
-- Capraro, M., Dorner, M., & Riehle, D. (2018) **The Patch-Flow Method for Measuring Inner Source Collaboration**, In 2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR) (pp. 515-525). IEEE.	[PDF]
+- Capraro, M., Dorner, M., & Riehle, D. (2018) **The Patch-Flow Method for Measuring Inner Source Collaboration**, In 2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR) (pp. 515-525). IEEE.	
 
 - Capraro, M., & Riehle, D. (2017) **Inner Source Definition, Benefits, and Challenges**, ACM Computing Surveys (CSUR) volume 49, issue 4	[pdf](https://capraro.net/assets/publications/CR17%20Inner%20Source%20Definition%20Benefits%20Challenges.pdf)
 
@@ -73,5 +73,6 @@ techniques and methods for industrial use**, J. Assoc. Inf. Syst. volume 12, iss
 on reuse: Participatory reuse in action**, J. Manag. Inf. Syst. volume 27, issue 2, pp. 277–304. [doi](https://www.tandfonline.com/doi/abs/10.2753/MIS0742-1222270209)
 
 - Frank van der Linden (2009) Applying open source software principles in product lines. Cepis Upgrade—Eur.
-J. Inf. Profess. 10, pp. 32–41
+J. Inf. Profess. volume 10, pp. 32–41
 
+- Phillip Smith and Chris Garber-Brown (2007) **Traveling the open road: Using open source practices to transform our organization**, In Agile Conference (AGILE), pp. 156–161. [doi](http://dx.doi.org/ 10.1109/AGILE.2007.65)
