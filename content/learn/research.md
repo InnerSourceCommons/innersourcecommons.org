@@ -39,3 +39,12 @@ For the full results see the [State of InnerSource 2016 Report](/documents/surve
 ### Authors
 
 This survey was conducted by Dr. Klaas-Jan Stol of Lero—the Irish Software Research Centre, and Dr. Tim Yao of Nokia. Dr. Bora Caglayan of Lero contributed to the survey design.
+
+## InnerSource Bibliography
+
+This is a list of academic, peer-reviewed conference papers and journal articles that have studied a variety of aspects of InnerSource. 
+
+- Lorraine Morgan, Rob Gleasure, Abayomi Baiyere, and Hong Phuc Dang (2021) "Share and Share Alike: How Inner Source can Help create new Digital platform," California Management Review, [doi](https://dx.doi.org/10.1177/00081256211044830)
+
+
+
