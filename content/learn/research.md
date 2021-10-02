@@ -46,7 +46,7 @@ This is a list of academic, peer-reviewed conference papers and journal articles
 
 - Lorraine Morgan, Rob Gleasure, Abayomi Baiyere, and Hong Phuc Dang (2021) **Share and Share Alike: How Inner Source can Help create new Digital platform**, California Management Review. [doi](https://dx.doi.org/10.1177/00081256211044830) [pdf](https://journals.sagepub.com/doi/pdf/10.1177/00081256211044830?casa_token=xSwB9GaWFj0AAAAA:7oMRSLgYkCx0O17TLmLRuC-oHwf49S61NOsRhEWSCU9KXu48cXBHtsAB_ilaT3FVhDnYOBvn57Hw)
 
-- Henry Edison, Noel Carroll, Lorraine Morgan, and Kieran Conboy (2020) **Inner source software development: Current thinking and an agenda for future research**, Journal of Systems and Software [pdf](https://www.sciencedirect.com/science/article/pii/S0164121220300030)
+- Henry Edison, Noel Carroll, Lorraine Morgan, and Kieran Conboy (2020) **Inner source software development: Current thinking and an agenda for future research**, Journal of Systems and Software volume 163 [pdf](https://www.sciencedirect.com/science/article/pii/S0164121220300030)
 
 - Maximilian Capraro (2020) **Measuring Inner Source Collaboration**, Dissertation at the Friedrich-Alexander-University Erlangen-Nürnberg, Germany.	[pdf][pdf](https://capraro.net/assets/publications/C20%20Measuring%20Inner%20Source%20Collaboration.pdf)
 
@@ -63,5 +63,15 @@ This is a list of academic, peer-reviewed conference papers and journal articles
 
 - Klaas-Jan Stol, Paris Avgeriou, M. Ali Babar, Yan Lucas, Brian Fitzgerald (2014) **Key Factors for Adopting Inner Source**, ACM Transactions on Software Engineering and Methodology [doi](https://doi.org/10.1145/2533685) [pdf](https://dl.acm.org/doi/pdf/10.1145/2533685?casa_token=QWNGtW8YGBEAAAAA:gJEVNNYpaCRrV2vU2l25Nt2LlR6-GhcHwoeCfGS8kQDZXHB0LXL73dOiwFIGKrxVN_MekQEg958q) 
 
+- Klaas-Jan Stol, Muhammad Ali Babar, Paris Avgeriou, and Brian Fitzgerald (2011) **A comparative study
+of challenges in integrating open source software and inner source software**, Inf. Softw. Technol. volume 53, issue 12, pp. 1319–1336. [doi](https://www.sciencedirect.com/science/article/abs/pii/S095058491100142X) [pdf](https://pdf.sciencedirectassets.com/271539/1-s2.0-S0950584911X00113/1-s2.0-S095058491100142X/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJ3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCNPtXGI6d7h18sgXASSkDNGibMSOEqs9yg9O7nLFqh7wIhALIMI36YXx6LeuEw87azzojaSoIdUKMGqkZM1K0w%2FdOBKvoDCBUQBBoMMDU5MDAzNTQ2ODY1Igyka9wteXvWQvVtHnMq1wOCVE783DCcYCsErv7G65VjXrniHNUkiGZaw%2F2B5kXQDY48cGT4gZIrPOqLlRl3htOpyZGh6yvgSb0IdPKEdFG7bCUd%2BK6M6s0gkkMwzATSq5GP00dSTP9fH8csz2cBrDWHKSEind4WcJAHi0A7v3ktHRWXUdknIh4NgYg0%2Fn%2FxsdPVj0S8n3QdhGk67S8p4nyF9AR6TrBt81qTsnsdY3TwyvkWRqAFmKTQCJwo7PeuGaDJZKYwwV7rHI6VFYfZeAJ7GSpWqfu3sPsuYr3Bvwrypc76vzd9eyQidooWTKdyDTkzT66%2BHKi7C4W5LSIkOtRmR5Mbn38PTroc0ewFMqV1vkmALFlSaAMZOqzM8RNOckPbX6UjHe7IIKzlWz3kWb7QYYa8SJvsbqxNNLgA%2Bw6TfRUqY4FFiTYsYnLMtsDPgZO9CWinDC7d%2FnXHFbijWy549AS4tQgr9N07WfjfnC4FZzxcNLfVJ65c537TSPPeo%2F80TUyoqjZYOn4LmFNciOQ915GSHZUkMnR1DnOV%2BH3A7mZyA6HRcO%2BSjdIrqYY0u1s%2BBnEVnfLOKfL9B2yjJQJ%2FfEnl7UzD1ujhAzT2utOAXZhiYP373a9jts4T1iCfmkip7Cu5rKEwpJrhigY6pAHyeLfQmG6xgJBgy4%2F9I74RW7o8iINd%2Fcu1k36lcqMfySgYe4cZ9zmBzD40HZ42MPABwr2T5aF4N%2BGUeDoIF2A4SznX5oJzKYOkodKKAr191B81%2Fj5nj9TA%2Bj67N6fUr%2BZeFg8Jq0R1Bw9PxYzmiIGxj9Y5HnzVwLB315tvwfxif5rky%2FmCnKZIspozFindgbsvrfgh%2FZIs%2BkiJVCINuV7Vs4Vynw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20211002T125318Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYWNYQOPH4%2F20211002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=aafc65a501d4ea0656c114c8bcb9d703f3cededaa42b83d9eb1bb966d19dc560&hash=603c5e8ac768656db9d40fc0e72ed59fe100c45341695c3923a31d92d4edfaa1&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S095058491100142X&tid=spdf-fb5d9627-e8df-49e5-a09c-4b8a677471d0&sid=31d1fcc11fd07246882ac65990019378d224gxrqb&type=client)
 
+- Richard Torkar, Pau Minoves, and Janina Garrigos (2011) **Adopting free/libre/open source software practices, ´
+techniques and methods for industrial use**, J. Assoc. Inf. Syst. volume 12, issue 1, pp. 88–122. [pdf](http://www.diva-portal.se/smash/get/diva2:835167/FULLTEXT01.pdf)
+
+- Padmal Vitharana, Julie King, and Helena Shih Chapman (2010) **Impact of internal open source development
+on reuse: Participatory reuse in action**, J. Manag. Inf. Syst. volume 27, issue 2, pp. 277–304. [doi](https://www.tandfonline.com/doi/abs/10.2753/MIS0742-1222270209)
+
+- Frank van der Linden (2009) Applying open source software principles in product lines. Cepis Upgrade—Eur.
+J. Inf. Profess. 10, pp. 32–41
 
