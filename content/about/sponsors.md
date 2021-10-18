@@ -25,6 +25,7 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
     <div class="row justify-content-center">
       {{< company name="Comcast" image="/images/logos/comcast.png" >}}{{< /company >}}
       {{< company name="Europace" image="/images/logos/europace.png" >}}{{< /company >}}
+      {{< company name="GitLab" image="/images/logos/gitlab.png" >}}{{< /company >}}
       {{< company name="Indeed" image="/images/logos/indeed.png" >}}{{< /company >}}
       {{< company name="Santander" image="/images/logos/santander.png" >}}{{< /company >}}
     </div>
