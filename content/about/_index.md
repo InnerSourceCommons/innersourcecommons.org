@@ -9,7 +9,7 @@ draft: false
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-4 mb-4 mb-md-0">
-        <img src="/images/logo-big.png" class="img-fluid logo-home pr-4">
+        {{< announcements >}}
       </div>
       <div class="col-md-7">
         <p>The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource. Founded in 2015, the InnerSource Commons is now supporting and connecting over 1000 individuals from over 400 companies, academic institutions, and government agencies. The InnerSource Commons Foundation was incorporated on February 19th, 2020 and is now a 501(c)(3) public charity.
