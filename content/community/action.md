@@ -120,6 +120,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Adobe" image="/images/logos/adobe.png" >}}{{< /company >}}
       {{< company name="Age of Peers" image="/images/logos/ageofpeerstwo.png" >}}{{< /company >}}
       {{< company name="Ahold Delhaise" image="/images/logos/ahold.png" >}}{{< /company >}}
+      {{< company name="Alliander" image="/images/logos/alliander.png" >}}{{< /company >}}
       {{< company name="American Airlines" image="/images/logos/americanairlines.png" >}}{{< /company >}}
        {{< company name="ASOS" image="/images/logos/asos.png" >}}{{< /company >}}
       {{< company name="Anyshore" image="/images/logos/Anyshore.png" >}}{{< /company >}}
