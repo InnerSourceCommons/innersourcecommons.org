@@ -4,8 +4,9 @@ title: 'North American Fall Virtual Summit 2020'
 image: "images/events/america2020.jpg"
 # post type (regular/featured)
 date: 2020-09-15T00:00:00+00:00
+youtubeLink: https://www.youtube.com/watch?v=0YzOz94cNec&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy
 ---
-### 15th and 16th September 2020, online! 
+### 15th and 16th September 2020, online!
 
 The 11th InnerSource Commons Summit stayed online thanks to the success of the <a href="https://www.youtube.com/playlist?list=PLCH-i0B0otNQeYBH5QvNRBDA3CMrS9lL9">ISC Online Spring Summit 2020</a>. You can now enjoy watching the talks on our Youtube Channel in the <a href="https://www.youtube.com/watch?v=0YzOz94cNec&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy">InnerSource Commons Online Fall Summit 2020</a> Playlist.  
 
@@ -17,22 +18,22 @@ We continue to explore new ways to get together and keep advancing in the body o
 
 ### Summit News
 
-We are delighted to announce that **Tim O'Reilly** (Founder, CEO, and Chairman of O'Reilly Media) has been confirmed as a keynote speaker for this summit. 
+We are delighted to announce that **Tim O'Reilly** (Founder, CEO, and Chairman of O'Reilly Media) has been confirmed as a keynote speaker for this summit.
 
-Tim will join **Danese Cooper** (VP of Special Initiatives at NearForm), **James McLeod** (Director of Community at FINOS, the Fintech Open Source Foundation), **Martin Woodward** (Director of Developer Relations at GitHub), and **Silona Bonewald** (Executive Director at IEEE SA Open) in the keynote sessions. 
+Tim will join **Danese Cooper** (VP of Special Initiatives at NearForm), **James McLeod** (Director of Community at FINOS, the Fintech Open Source Foundation), **Martin Woodward** (Director of Developer Relations at GitHub), and **Silona Bonewald** (Executive Director at IEEE SA Open) in the keynote sessions.
 
 ### About the Event
 
-The summit consists of two days, each a 3.5 hour slot: running from noon East Coast US / 9 am West Coast US / 6pm Europe / 5pm UK & Ireland / 9:30pm Mumbai / midnight Singapore & Bejing (4pm UTC). 
+The summit consists of two days, each a 3.5 hour slot: running from noon East Coast US / 9 am West Coast US / 6pm Europe / 5pm UK & Ireland / 9:30pm Mumbai / midnight Singapore & Bejing (4pm UTC).
 
-We are a global community, but because our Fall Summit usually takes place in North America, it will take place slightly later than our Spring Summit (traditionally EU). 
+We are a global community, but because our Fall Summit usually takes place in North America, it will take place slightly later than our Spring Summit (traditionally EU).
 
 We are hoping to host an online summit later in the year to fit with the timezones of the growing number of Asian community participants.   
 
 
 ### Notes
 
-The following agenda is based in **Pacific Time** and this will take place between 9:00 am and 12:30 pm (3.5 hours in total). Both days, 15th and 16th of September will use the timeslot. 
+The following agenda is based in **Pacific Time** and this will take place between 9:00 am and 12:30 pm (3.5 hours in total). Both days, 15th and 16th of September will use the timeslot.
 
 Example of time differences in other timezones for the first day of conference:
 * Eastern Time: 12:00 pm - 3:30 pm 15th September
@@ -79,7 +80,7 @@ Example of time differences in other timezones for the first day of conference:
 
   <tr>
         <td class="time"> 09:50 - 10:05</td>
-	<td class="author"> <b><a href="#russ_rutledge">Russ Rutledge</a></b> (Nike) 
+	<td class="author"> <b><a href="#russ_rutledge">Russ Rutledge</a></b> (Nike)
 	</td>
         <td class="title"> InnerSource Culture Change at Scale
             <span onClick="toggleAbstract('rutledge')" class="abstract-toggle">(<a id="rutledge-link">Show Abstract</a>)</span>
@@ -93,7 +94,7 @@ InnerSource is more than telling someone the mechanics of code and community man
 
   <tr>
         <td class="time"> 10:05 - 10:20</td>
-	<td class="author"> <b><a href="#brittany_istenes">Brittany Erica Istenes</a></b> (Comcast) 
+	<td class="author"> <b><a href="#brittany_istenes">Brittany Erica Istenes</a></b> (Comcast)
         </td>
         <td class="title"> InnerSource is established, now what?
             <span onClick="toggleAbstract('istenes')" class="abstract-toggle">(<a id="istenes-link">Show Abstract</a>)</span>
@@ -136,7 +137,7 @@ The goal of my talk is to walk through how at the last summit we talked about cu
 
   <tr>
         <td class="time"> 11:25 - 11:35</td>
-	<td class="author"> <b><a href="#sebastian_spier">Sebastian Spier</a></b> (Meltwater) 
+	<td class="author"> <b><a href="#sebastian_spier">Sebastian Spier</a></b> (Meltwater)
         </td>
         <td class="title"> 1 year in the InnerSource Commons community: Getting your money's worth.
             <span onClick="toggleAbstract('spier')" class="abstract-toggle">(<a id="spier-link">Show Abstract</a>)</span>
@@ -183,7 +184,7 @@ What good is source code sitting a repo? No much, might as well be ideas on the 
 
   <tr>
         <td class="time">12:05 - 12:25</td>
-	<td class="author"> <b><a href="#martin_woodward">Martin Woodward</a></b> (GitHub) 
+	<td class="author"> <b><a href="#martin_woodward">Martin Woodward</a></b> (GitHub)
         </td>
         <td class="title"> The Top 5 Myths of InnerSource
             <span class="keynoteTag"> Keynote </span>
@@ -362,7 +363,7 @@ A seismic shift has occurred across open source ecosystems that has given rise t
 
 [Click here to register](https://www.eventbrite.ie/e/innersource-commons-fall-2020-virtual-summit-tickets-117435975163) for the InnerSource Commons Fall 2020 Virtual Summit. Ticket price is $35, inclusive of all taxes. Ticket price also includes a T-shirt to celebrate the event, which we will be send out afterwards.
 
-If, for any reason, you find the associated fee prohibits you from attending - please email us at <summit@innersourcecommons.org>, as we have a number of complementary tickets we can allocate. 
+If, for any reason, you find the associated fee prohibits you from attending - please email us at <summit@innersourcecommons.org>, as we have a number of complementary tickets we can allocate.
 
 ### Call For Presentations
 
@@ -375,11 +376,11 @@ We invite interested organisations and companies to sponsor this renowned event.
 ### What is the InnerSource Commons?
 
 The InnerSource Commons ([InnerSourceCommons.org](http://innersourcecommons.org)) aka ISC is a consortium of representatives from almost a hundred companies and institutions. It utilizes open source methods to provide organizations pursuing inner sourcing a forum for discussing and improving the practice of InnerSource through the sharing of experiences (under the [Chatham House Rule](https://www.chathamhouse.org/about/chatham-house-rule)), creation and review of InnerSource patterns, and the open exchange of ideas.
-  
+
 ### Who should attend?
 
 The InnerSource Common Summits welcomes software professionals at all levels, from executive level manager to software developer.  The program targets software development managers and executive managers in particular because adopting InnerSource requires significant efforts to make changes in the organization—whether these are implemented top-down or bottom-up. If you or your organization is adopting, or considering adopting, InnerSource, then attending the InnerSource Summit is the best thing you can do.
-   
+
 ### What will I get from this event?
 
 The three key reasons to attend the InnerSource Common Summits are:
@@ -455,7 +456,7 @@ Martin Woodward is the Director of Developer Relations for GitHub. Before that M
 
 **Joe Chavez**
 
-Joe Chavez is a technologist with a deep background in software architecture, design, development and operations. Currently Joe is focused on digital transformation of California's Medi-Cal information technology infrastructure and applications. Leveraging and creating open source software is an integral part of this work. In the past, Joe has helped launch and operate a space telescope for NASA, built enterprise class software, and launched several mobile and IoT startups. 
+Joe Chavez is a technologist with a deep background in software architecture, design, development and operations. Currently Joe is focused on digital transformation of California's Medi-Cal information technology infrastructure and applications. Leveraging and creating open source software is an integral part of this work. In the past, Joe has helped launch and operate a space telescope for NASA, built enterprise class software, and launched several mobile and IoT startups.
 
 </div><div class="clearfix">
 <img alt="Alex Chittock photo" src="/images/events/speakers/alex-chittock.jpeg" width="200" class="speaker-photo" id="alex_chittock" />
@@ -469,7 +470,7 @@ Alex works for Lloyds Banking Group. In Alex's words: "Code has always been part
 
 **Clare Dillon**
 
-Clare Dillon has spent over 20 years working with developers and developer communities. Clare has been involved with InnerSource Commons since early 2019, when she helped set up NearForm's InnerSource practice with Danese Cooper. Before that, Clare was a member of Microsoft Ireland Leadership Team, heading up their Developer Evangelism and Experience Group. Clare also works with Moss Labs to support the establishment of University and Government Open Source Program Offices and OSPOs++ globally, that can collaborate to implement public policy and trustworthy public services. Clare frequently speaks at international conferences and corporate events on topics relating to the future of work, innovation trends and digital ethics. 
+Clare Dillon has spent over 20 years working with developers and developer communities. Clare has been involved with InnerSource Commons since early 2019, when she helped set up NearForm's InnerSource practice with Danese Cooper. Before that, Clare was a member of Microsoft Ireland Leadership Team, heading up their Developer Evangelism and Experience Group. Clare also works with Moss Labs to support the establishment of University and Government Open Source Program Offices and OSPOs++ globally, that can collaborate to implement public policy and trustworthy public services. Clare frequently speaks at international conferences and corporate events on topics relating to the future of work, innovation trends and digital ethics.
 
 </div><div class="clearfix">
 <img alt="Isabel Drost-Fromm photo" src="/images/events/speakers/isabel_drost-fromm.jpeg" width="200" class="speaker-photo" id="isabel_drost_fromm" />
@@ -483,23 +484,23 @@ Isabel Drost-Fromm is Open Source Strategist at Europace AG Germany. She's a mem
 
 **Michael Graf**
 
-Michael is software developer at SAP and Open Source enthusiast. He loves evangelizing technology, sharing knowledge, and collaborating with the community. 
+Michael is software developer at SAP and Open Source enthusiast. He loves evangelizing technology, sharing knowledge, and collaborating with the community.
 
 </div><div class="clearfix">
 <img alt="Russell Green photo" src="/images/events/speakers/russell-green.jpg" width="200" class="speaker-photo" id="russell_green" />
 
 **Russell Green**
 
-Russell currently leads Deutsche Bank’s (DB) Group Architecture function, where he is responsible for ensuring that the bank’s architecture practice is comprehensive, operational and efficient. 
+Russell currently leads Deutsche Bank’s (DB) Group Architecture function, where he is responsible for ensuring that the bank’s architecture practice is comprehensive, operational and efficient.
  
 This includes co-ordinating the group-wide architecture roadmap, ensuring an effective governance process for programmes and technology and developing the architecture foundations that underpin the strategy. Group Architecture also plays a central role in articulating the current technology landscape and measuring progress towards DB’s target state.
  
-Russell chairs a number of key forums that define the future direction of DB’s IT practice. These include the Global CTO Council, which oversees the operational and future state of DBs architecture practice; the Technology Architecture Council (TAC), which controls the organisation’s technology portfolio and the Open Source Review Council, which oversees the bank’s engagement with the global open source community. 
+Russell chairs a number of key forums that define the future direction of DB’s IT practice. These include the Global CTO Council, which oversees the operational and future state of DBs architecture practice; the Technology Architecture Council (TAC), which controls the organisation’s technology portfolio and the Open Source Review Council, which oversees the bank’s engagement with the global open source community.
  
-Russell joined DB in 2015 as CTO for the Control Functions, where he established the architecture control practice and led work to define the target state. 
-Prior to DB, he has spent over 15 years in various architecture roles across the banking sector including LCH, UBS, Barclays and most recently RBC. Before moving into financial services, Russell developed high performance billing applications for the telecoms industry. 
+Russell joined DB in 2015 as CTO for the Control Functions, where he established the architecture control practice and led work to define the target state.
+Prior to DB, he has spent over 15 years in various architecture roles across the banking sector including LCH, UBS, Barclays and most recently RBC. Before moving into financial services, Russell developed high performance billing applications for the telecoms industry.
  
-Russell attained his PhD from Imperial College in 1994 and this expertise forms the basis of his analytical approach to architecture and knowledge management. He believes that the establishment of a world class architecture function is needed to enable global organisations such as DB to execute in a coordinated and efficient manner.  
+Russell attained his PhD from Imperial College in 1994 and this expertise forms the basis of his analytical approach to architecture and knowledge management. He believes that the establishment of a world class architecture function is needed to enable global organisations such as DB to execute in a coordinated and efficient manner. 
 
 </div><div class="clearfix">
 <img alt="Georg Gruetter photo" src="/images/events/speakers/Georg Gruetter.jpg" width="200" class="speaker-photo" id="georg_grutter" />
@@ -513,16 +514,16 @@ Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO.
 
 **Brittany Erica Istenes**
 
-Brittany started off her career as an elementary/special education school teacher in a lower income area of Philadelphia. 
-Seeing the need for a stronger technology presence in education, she transitioned from the classroom for a company that 
-specialized in getting students from lower income areas all across the country to read at or above grade level through 
-teaching teachers all across the country how to use online tools that track and assist getting students to meet their goals. 
-Now at Comcast, one of her main focuses is the delivery of OSS through the company and beyond as well as a a sharp focus on Community. 
-She guides the Open Source Advisory Council which is comprised of compliance lawyers, patent/strategic IP lawyers, engineers and security to 
-evaluate all Open Source contributions and new projects that come through the company. Some other projects she works on is the 
-Open Source Ambassador program which takes technologists from all over the company and guides them through the OSS process to become 
-evangels for what we do within and outside of the company. Another is the Open Source Fellowship program which focuses on getting developers 
-to dedicate 25% of their year on Open Source Software tooling.  Finally Brittany sits on the newly formed internal InnerSource Guild which guides 
+Brittany started off her career as an elementary/special education school teacher in a lower income area of Philadelphia.
+Seeing the need for a stronger technology presence in education, she transitioned from the classroom for a company that
+specialized in getting students from lower income areas all across the country to read at or above grade level through
+teaching teachers all across the country how to use online tools that track and assist getting students to meet their goals.
+Now at Comcast, one of her main focuses is the delivery of OSS through the company and beyond as well as a a sharp focus on Community.
+She guides the Open Source Advisory Council which is comprised of compliance lawyers, patent/strategic IP lawyers, engineers and security to
+evaluate all Open Source contributions and new projects that come through the company. Some other projects she works on is the
+Open Source Ambassador program which takes technologists from all over the company and guides them through the OSS process to become
+evangels for what we do within and outside of the company. Another is the Open Source Fellowship program which focuses on getting developers
+to dedicate 25% of their year on Open Source Software tooling.  Finally Brittany sits on the newly formed internal InnerSource Guild which guides
 teams through best InnerSource practices.
 
 </div><div class="clearfix">
@@ -564,7 +565,7 @@ Strategic Architect at GitHub for the past 5 years, Vitor has a computer science
 
 Diane Mueller leads Community Development at Red Hat for the Cloud Platform Group focusing on OpenShift and Cloud Native ecosystem. She is the driving force behind both customer, partner and developer community initiatives helping to ensure the success of OpenShift, the world's leading Open Source Platform as a Service along with Operators, ServiceMesh, Quay, OKD, OpenStack and other Cloud Native technology initiatives at Red Hat for the past 8 years.
 
-She has been designing and implementing products and applications embedded into mission critical financial and manufacturing systems at F500 corporations for over 30 years. She has had a long career in software development spanning multiple industries and open source initiatives from Financial Services, Manufacturing, Education and Government. 
+She has been designing and implementing products and applications embedded into mission critical financial and manufacturing systems at F500 corporations for over 30 years. She has had a long career in software development spanning multiple industries and open source initiatives from Financial Services, Manufacturing, Education and Government.
 
 </div><div class="clearfix">
 <img alt="Russ Rutledge photo" src="/images/events/speakers/russ-rutledge.jpeg" width="200" class="speaker-photo" id="russ_rutledge" />
@@ -598,7 +599,7 @@ The summit is hosted online. Instructions will be provided to all speakers and a
 
 ### [Code of Conduct](/events/conduct/)
 
-All participants, vendors, and guests at InnerSource Commons events are required to abide by the [code of conduct](/events/conduct/). 
+All participants, vendors, and guests at InnerSource Commons events are required to abide by the [code of conduct](/events/conduct/).
 
 All related conversations in the InnerSource Slack Channel will still be considered to fall under [Chatham House Rules](https://en.wikipedia.org/wiki/Chatham_House_Rule): information discussed can be shared but not attributed.
 

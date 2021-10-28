@@ -30,7 +30,7 @@
       </div>
       {{ end }}
       <div class="container text-center pb-4 mb-4">
-        <h3 class="display-4">Past Events</h2>
+        <h3 class="display-4">Past Events</h3>
       </div>
       {{ range where $pages ".Date.Unix" "<" $yesterday }}
       <div class="col-lg-4 col-sm-6 mb-5 event-card">
@@ -42,6 +42,9 @@
             <h3><a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="post-title">{{ .Title }}</a></h3>
             <p class="card-text event-card-text">{{ .Summary }}</p>
             <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary btn-sm">Open Event</a>
+            {{ if .Params.youtubeLink }}
+              <a href="{{ .Params.youtubeLink }}" target="_blank" class="btn btn-secondary btn-sm">Watch Recording</a>
+            {{ end }}
           </div>
         </div>
       </div>

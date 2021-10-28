@@ -4,13 +4,14 @@ title: 'Spring Summit 2018'
 image: "images/events/cities/stuttgart.jpeg"
 # post type (regular/featured)
 date: 2018-05-16T00:00:00+00:00
+youtubeLink: https://www.youtube.com/watch?v=4fgFpl-e6Vs&list=PLCH-i0B0otNT6m6EUu2ZDFyEuXXI5JkUK
 ---
 ### May 16-18 Wed-Fri near Stuttgart, Germany
 
 ### Pictures and Videos
 
 The ISC.S6 is a wrap! Thanks to all attendees for making this summit such an
-engaging and interesting one! 
+engaging and interesting one!
 
 <img alt="ISC.S6 Crowd" width="600" src="/images/events/spring2018.jpg"/>
 
@@ -18,7 +19,7 @@ We have published the first videos on the InnerSource Commons YouTube channel:
 
 [ISC.S6 Videos](https://www.youtube.com/playlist?list=PLCH-i0B0otNT6m6EUu2ZDFyEuXXI5JkUK)
 
-The authors of these videos have released them for sharing under the 
+The authors of these videos have released them for sharing under the
 Creative Commons license (CC BY).
 
 ### Agenda and speakers
@@ -43,7 +44,7 @@ Creative Commons license (CC BY).
                 <span onClick="toggleAbstract('keynote-ferber')" class="abstract-toggle">(<a id="keynote-ferber-link">Show Abstract</a>)</span>
             </span>
             <div style="display:none" class="abstract" id="keynote-ferber">
-Today, we know that InnerSource is a great way to efficiently develop software by leveraging communities that transcend organizational and geographical boundaries aka silos. We also know now, that InnerSource is an excellent segway into true Open Source development for companies lacking a software DNA. Back when Bosch started with InnerSource, there was not enough technical, legal, collaboration, social, and commercial experience within Bosch to start open source right away. Getting an InnerSource initiative off the ground in such a setting is challenging. Stefan will go back to the origins of InnerSource at Bosch and share the surprising story of how he managed convince upper management to engage in InnerSource using rather unconventional means. This included three key elements: 
+Today, we know that InnerSource is a great way to efficiently develop software by leveraging communities that transcend organizational and geographical boundaries aka silos. We also know now, that InnerSource is an excellent segway into true Open Source development for companies lacking a software DNA. Back when Bosch started with InnerSource, there was not enough technical, legal, collaboration, social, and commercial experience within Bosch to start open source right away. Getting an InnerSource initiative off the ground in such a setting is challenging. Stefan will go back to the origins of InnerSource at Bosch and share the surprising story of how he managed convince upper management to engage in InnerSource using rather unconventional means. This included three key elements:
 <ol>
 <li>start with InnerSource first and not with open source right away,</li>
 <li>start with tooling (here Eclipse IDE for automotive) and not with the Bosch products and</li>
@@ -125,9 +126,9 @@ Wayfair has a sizable (over 1200 people) engineering organization. It's comprise
         <td class="title">Prototyping in Bosch Internal Open Source
             <span onClick="toggleAbstract('dais-1')" class="abstract-toggle">(<a id="dais-1-link">Show Abstract</a>)</span>
             <div style="display:none" class="abstract" id="dais-1">
-Innersource has a very positive influence on prototyping and predevelopment. A company with many products in different domains can trigger cross domain solutions by internally publishing of APIs and libraries. Sharing these within the company has been enabling reuse in different Business Units leading to surprising synergies across different applications. 
+Innersource has a very positive influence on prototyping and predevelopment. A company with many products in different domains can trigger cross domain solutions by internally publishing of APIs and libraries. Sharing these within the company has been enabling reuse in different Business Units leading to surprising synergies across different applications.
             </div>
-        </td> 
+        </td>
     </tr>
     <tr >
         <td class="author"><a href="/events/isc-spring-2018-speakers#kristof_van_tomme">Kristof Van Tomme <span class="affiliation">(Pronovix)</span></td>
@@ -437,7 +438,7 @@ Everybody can install a software forge, prescribe that "we are doing inner sourc
         <td class="title">An Oriole for InnerSource
             <span onClick="toggleAbstract('rutledge-2')" class="abstract-toggle">(<a id="rutledge-2-link">Show Abstract</a>)</span>
             <div style="display:none" class="abstract" id="rutledge-2">
-Inner source is the application of open source methodologies to internally-developed software.  While simple to define, inner source can be difficult to explain and implement successfully.  This presentation introduces the key terms, concepts, and principles for effective inner sourcing along with explanations and real examples.  It is content that is accessible to newcomers while at the same time refreshing to those with experience. The same information in this presentation is also delivered as an O’Reilly Oriole, available freely at https://www.safaribooksonline.com/oriole/.  We’ll review the Oriole, how to use it, and other Orioles related to inner source that are on the way. 
+Inner source is the application of open source methodologies to internally-developed software.  While simple to define, inner source can be difficult to explain and implement successfully.  This presentation introduces the key terms, concepts, and principles for effective inner sourcing along with explanations and real examples.  It is content that is accessible to newcomers while at the same time refreshing to those with experience. The same information in this presentation is also delivered as an O’Reilly Oriole, available freely at https://www.safaribooksonline.com/oriole/.  We’ll review the Oriole, how to use it, and other Orioles related to inner source that are on the way.
             </div>
         </td>
     </tr>
@@ -465,7 +466,7 @@ Dr. Ferber holds an undergraduate degree and a Ph.D. in computer science from th
 <p>
 Today, we know that InnerSource is a great way to efficiently develop software by leveraging communities that transcend organizational and geographical boundaries aka silos. We also know now, that InnerSource is an excellent segway into true Open Source development for companies lacking a software DNA. Back when Bosch started with InnerSource, there was not enough technical, legal, collaboration, social, and commercial experience within Bosch to start open source right away.  
 
-Getting an InnerSource initiative off the ground in such a setting is challenging. Stefan will go back to the origins of InnerSource at Bosch and share the surprising story of how he managed convince upper management to engage in InnerSource using rather unconventional means.  This included three key elements: 
+Getting an InnerSource initiative off the ground in such a setting is challenging. Stefan will go back to the origins of InnerSource at Bosch and share the surprising story of how he managed convince upper management to engage in InnerSource using rather unconventional means.  This included three key elements:
 
 <ol>
 <li>start with InnerSource first and not with open source right away, </li>
@@ -557,7 +558,7 @@ Having in total 16 years’ of experience in the telecommunications industry spe
 
 **Erin Bank**
 
-Erin Bank has 20 years of experience in engineering program management and technical communications in North America and abroad. Erin is an Advisor of Engineering Program Management for the CA Technologies Office of the CTO, where she built and currently drives the Inner Source program for CA Product Development. Erin also drives strategic transformation for the CA Accelerator program, where internal innovators receive support and funding to get new products into market. She is a contributing member of InnerSource Commons, committed to establishing inner source best practices with the community. Erin is also an elected member of the CA Council for Technical Excellence, and has Lean Six Sigma and Pragmatic certification. 
+Erin Bank has 20 years of experience in engineering program management and technical communications in North America and abroad. Erin is an Advisor of Engineering Program Management for the CA Technologies Office of the CTO, where she built and currently drives the Inner Source program for CA Product Development. Erin also drives strategic transformation for the CA Accelerator program, where internal innovators receive support and funding to get new products into market. She is a contributing member of InnerSource Commons, committed to establishing inner source best practices with the community. Erin is also an elected member of the CA Council for Technical Excellence, and has Lean Six Sigma and Pragmatic certification.
 
 </div>
 
@@ -721,9 +722,9 @@ I am a development manager of a technology foundations group at Amdocs, developi
 
 **Russ Rutledge**
 
-Russ Rutledge is the lead of Nike's Community Core team.  This startup within Nike culls the process and tools to encourage and foster cross-team and community interaction and development.  His drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process. 
+Russ Rutledge is the lead of Nike's Community Core team.  This startup within Nike culls the process and tools to encourage and foster cross-team and community interaction and development.  His drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process.
 
-Prior to this role Russ ran another successful startup delivering JavaScript continuous delivery solutions to hundreds of projects throughout Nike via inner source principles.  Previous experience includes feature and infrastructure development at Microsoft on the Outlook and OneDrive consumer web sites. 
+Prior to this role Russ ran another successful startup delivering JavaScript continuous delivery solutions to hundreds of projects throughout Nike via inner source principles.  Previous experience includes feature and infrastructure development at Microsoft on the Outlook and OneDrive consumer web sites.
 
 </div>
 
@@ -732,7 +733,7 @@ Prior to this role Russ ran another successful startup delivering JavaScript con
 
 **Klaas-Jan Stol**
 
-Dr. Klaas-Jan Stol is a Lecturer with the School of Computer Science and Technology at University College Cork. Previously he worked as a Research Fellow with Lero—the Irish Software Research Centre. He holds a PhD in software engineering from the University of Limerick on Open and InnerSource. He conducts research on contemporary software development methods and strategies, including InnerSource, Open Source, crowdsourcing, and agile and lean methods. His work on InnerSource has been published in several top journals and magazines including ACM Transactions on Software Engineering and Methodology and IEEE Transactions on Software Engineering. In a previous life, he was a contributor to the Perl 6 open source project. 
+Dr. Klaas-Jan Stol is a Lecturer with the School of Computer Science and Technology at University College Cork. Previously he worked as a Research Fellow with Lero—the Irish Software Research Centre. He holds a PhD in software engineering from the University of Limerick on Open and InnerSource. He conducts research on contemporary software development methods and strategies, including InnerSource, Open Source, crowdsourcing, and agile and lean methods. His work on InnerSource has been published in several top journals and magazines including ACM Transactions on Software Engineering and Methodology and IEEE Transactions on Software Engineering. In a previous life, he was a contributor to the Perl 6 open source project.
 
 </div>
 
@@ -759,15 +760,15 @@ Tim is a Distinguished Member of Technical Staff and a Portfolio Manager in  Nok
 ### What is InnerSource?
 
 InnerSource takes the lessons learned from developing open source software and applies them to the way companies develop software internally. As developers have become accustomed to working on world class open source software, there is a strong desire to bring those practices back inside the firewall and apply them to software that companies may be reluctant to release. For companies building mostly closed source software, InnerSource can be a great tool to help break down silos, encourage internal collaboration, accelerate new engineer on-boarding, and identify opportunities to contribute software back to the open source world.
- 
+
 ### What is the InnerSource Commons?
 
 The InnerSource Commons ([InnerSourceCommons.org](http://innersourcecommons.org)) aka ISC is a consortium of representatives from over sixty companies and institutions. It utilizes open source methods to provide organizations pursuing inner sourcing a forum for discussing and improving the practice of InnerSource through the sharing of experiences (under the [Chatham House Rule](https://www.chathamhouse.org/about/chatham-house-rule)), creation and review of InnerSource patterns, and the open exchange of ideas.
-  
+
 ### Who should attend?
 
 The InnerSource Common Summits welcomes software professionals at all levels, from executive level manager to software developer.  The program targets software development managers and executive managers in particular because adopting InnerSource requires significant efforts to make changes in the organization—whether these are implemented top-down or bottom-up. If you or your organization is adopting, or considering adopting, InnerSource, then attending the InnerSource Summit is the best thing you can do.
-   
+
 ### What will I get from this event?
 
 The three key reasons to attend the InnerSource Common Summits are:
@@ -789,7 +790,7 @@ Germany<br/>
 
 ### Food
 
-Morning snack, lunch and afternoon snack will be provided to Summit attendees each day, courtesy of Robert Bosch. 
+Morning snack, lunch and afternoon snack will be provided to Summit attendees each day, courtesy of Robert Bosch.
 
 ### Evening Events
 
@@ -798,7 +799,7 @@ Morning snack, lunch and afternoon snack will be provided to Summit attendees ea
 
 ### [Code of Conduct](/events/conduct/)
 
-All participants, vendors, and guests at InnerSource Commons events are required to abide by the [code of conduct](/events/conduct/). 
+All participants, vendors, and guests at InnerSource Commons events are required to abide by the [code of conduct](/events/conduct/).
 
 InnerSource Commons meetings run under the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_House_Rule): information discussed at a meeting can be shared but not attributed.
 

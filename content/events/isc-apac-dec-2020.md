@@ -2,6 +2,7 @@
 title: 'APAC Virtual Summit 2020'
 image: "images/events/apac2020.jpg"
 date: 2020-12-03
+youtubeLink: https://www.youtube.com/watch?v=TA82AFyIaUA&list=PLCH-i0B0otNSA4KltJHgcQB6450VI-8pG
 ---
 
 ### 2nd and 3rd December 2020, online - [event site](https://eventyay.com/e/3dbaaa50)!
