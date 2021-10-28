@@ -43,7 +43,7 @@
             <p class="card-text event-card-text">{{ .Summary }}</p>
             <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary btn-sm">Open Event</a>
             {{ if .Params.youtubeLink }}
-              <a href="{{ .Params.youtubeLink }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-secondary btn-sm">Watch Recording</a>
+              <a href="{{ .Params.youtubeLink }}" target="_blank" class="btn btn-secondary btn-sm">Watch Recording</a>
             {{ end }}
           </div>
         </div>
