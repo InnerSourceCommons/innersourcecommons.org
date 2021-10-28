@@ -4,6 +4,7 @@ title: 'Spring Summit 2020'
 image: "images/events/cities/madrid.jpeg"
 # post type (regular/featured)
 date: 2020-04-14
+youtubeLink: https://www.youtube.com/watch?v=glYcE3CEELI&list=PLCH-i0B0otNQeYBH5QvNRBDA3CMrS9lL9
 ---
 ### 14th to 15th April 2020, online
 
@@ -17,7 +18,7 @@ These two days will be a three hours slot taking place from 4 pm CET till 7 pm C
 
 The day will be split as a sandwich, where talks will be the bread and discussions the _yummi yummi_ part. We are expecting to have two keynotes per day (up to 25 minutes each), and four lightning talks (up to 15 minutes each). These will be initially pre-recorded and discussions will take place in the InnerSource Commons Slack. Right in the middle we will have a break and two breakout sessions with live interactions.
 
-We're planning to have a contest as well as icebreaker during the first moments of this, do not miss this! 
+We're planning to have a contest as well as icebreaker during the first moments of this, do not miss this!
 
 ### COVID-19 and InnerSource Commons current Status
 
@@ -70,7 +71,7 @@ Example of time differences in other timezones for the first day of conference:
             <span class="keynoteTag">Keynote: </span>
             <span onClick="toggleAbstract('keynote-danese')" class="abstract-toggle">(<a id="keynote-danese-link">Show Abstract</a>)</span>
         <div style="display:none" class="abstract" id="keynote-danese">
-Details appearing shortly 
+Details appearing shortly
         </div>
         </td>
   </tr>
@@ -84,13 +85,13 @@ Details appearing shortly
 	<td class="title"><a href="https://youtu.be/2nhKMcv5STc">Growing an InnerSource culture at SAP</a>
             <span onClick="toggleAbstract('graf-1')" class="abstract-toggle">(<a id="graf-1-link">Show Abstract</a>)</span>
             <div style="display:none" class="abstract" id="graf-1">
-In a multinational software corporation like SAP, that has recently grown to almost a hundred thousand employees, reuse and efficient collaboration across organizational borders is quite a challenge. Our development organization spreads across the globe and our products are implemented on a large variety of technology stacks. How can we establish an efficient development process and a collaboration culture at the same time? 
+In a multinational software corporation like SAP, that has recently grown to almost a hundred thousand employees, reuse and efficient collaboration across organizational borders is quite a challenge. Our development organization spreads across the globe and our products are implemented on a large variety of technology stacks. How can we establish an efficient development process and a collaboration culture at the same time?
 
 As we transform into a cloud company, we leverage open standards and open source components in our products. We also create technology frameworks and tools that we share with the community. Also, we are a strong and diverse community of developers inside the company. Collaboration happens quite naturally because we identify synergies or have a similar challenge to solve – sometimes without knowing that we are doing InnerSource.
 
-On larger scale, InnerSource establishes well-aligned architectures, maximizes reuse, and avoids organizational silos. It allows to share not only code, but also architectural patterns, data models, learning material, knowledge and experiences, as well as documentation across organizational borders. And it can also be an incubator for open source. Therefore, it is important to promote and facilitate the adoption of InnerSource across the company. 
+On larger scale, InnerSource establishes well-aligned architectures, maximizes reuse, and avoids organizational silos. It allows to share not only code, but also architectural patterns, data models, learning material, knowledge and experiences, as well as documentation across organizational borders. And it can also be an incubator for open source. Therefore, it is important to promote and facilitate the adoption of InnerSource across the company.
 
-Along practical examples, we share our journey towards InnerSource and how we are growing a collaboration culture based on open source methodology in our development organization. 
+Along practical examples, we share our journey towards InnerSource and how we are growing a collaboration culture based on open source methodology in our development organization.
             </div>
         </td>
     </tr>
@@ -145,11 +146,11 @@ The modern IT consists of constant transformations, product and feature teams, a
            <a href="/events/isc-spring-2020-speakers#katrina_novakovic">Katrina Novakovic</a> <span class="affiliation"> (Red Hat)</span></td>
         <td class="title"><a href="https://youtu.be/1T5llwc2XQQ">
 		Does your organisation need to change its culture to improve Inner Source adoption? </a>
-            <span onClick="toggleAbstract('novakovic-1')" class="abstract-toggle">(<a id="novakovic-1-link">Show Abstract</a>)</span> 
+            <span onClick="toggleAbstract('novakovic-1')" class="abstract-toggle">(<a id="novakovic-1-link">Show Abstract</a>)</span>
             <div style="display:none" class="abstract" id="novakovic-1">
 In this talk, we'll explore topics crucial to Inner Source culture, including:
-    (a) whether your organisation's current cultural values and established beliefs are a good fit for the ways of working required for Inner Source; 
-    (b) how to get more employees to collaborate on Inner Source projects that are not part of their specific responsibility; 
+    (a) whether your organisation's current cultural values and established beliefs are a good fit for the ways of working required for Inner Source;
+    (b) how to get more employees to collaborate on Inner Source projects that are not part of their specific responsibility;
     (c) using perceived negative cultural traits such as competitiveness and control to your advantage.
 
 This session offers an opportunity to participate in the conversation by asking your own questions about Inner Source culture, sharing insights and experiences, hearing what's worked well for other organisations, and getting to know others in Inner Source. Dive in and join the conversation, or just sit back, observe, and listen.
@@ -179,7 +180,7 @@ During the breakout groups following this talk, we are certain you can apply you
             <span class="keynoteTag">Keynote:</span>
             <span onClick="toggleAbstract('keynote-ruff')" class="abstract-toggle">(<a id="keynote-ruff-link">Show Abstract</a>)</span>
         <div style="display:none" class="abstract" id="keynote-ruff">
-Details appearing shortly 
+Details appearing shortly
         </div>
         </td>
   </tr>
@@ -219,7 +220,7 @@ Details appearing shortly
             <span class="keynoteTag">Keynote:</span>
             <span onClick="toggleAbstract('keynote-drost-1')" class="abstract-toggle">(<a id="keynote-drost-1-link">Show Abstract</a>)</span>
             <div style="display:none" class="abstract" id="keynote-drost-1">
-Details appearing shortly 
+Details appearing shortly
             </div>
         </td>
     </tr>
@@ -370,7 +371,7 @@ Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO.
 
 **Nithya Ruff**
 
-Nithya A. Ruff is the Head of Comcast’s Open Source Program Office.  She is responsible for growing Open Source culture inside of Comcast and engagement with external communities. Prior to this, she started and grew Western Digital’s Open Source Strategy Office. She first glimpsed the power of open source while at SGI in the 90s and has been building bridges between companies and the open source community ever since. She’s also held leadership positions at Wind, Synopsys, Avaya, Tripwire and Eastman Kodak. At Wind, she led a team of product managers in managing a world class embedded Linux distribution and was a key member of the Yocto Project advocacy team on the board. Nithya has been director-at-large on the Linux Foundation Board for the last 3 years and was recently elected to be Chair of the Linux Foundation Board. 
+Nithya A. Ruff is the Head of Comcast’s Open Source Program Office.  She is responsible for growing Open Source culture inside of Comcast and engagement with external communities. Prior to this, she started and grew Western Digital’s Open Source Strategy Office. She first glimpsed the power of open source while at SGI in the 90s and has been building bridges between companies and the open source community ever since. She’s also held leadership positions at Wind, Synopsys, Avaya, Tripwire and Eastman Kodak. At Wind, she led a team of product managers in managing a world class embedded Linux distribution and was a key member of the Yocto Project advocacy team on the board. Nithya has been director-at-large on the Linux Foundation Board for the last 3 years and was recently elected to be Chair of the Linux Foundation Board.
 
 Nithya has been a passionate advocate and a speaker for opening doors to new people in Open Source for many years. She has also been a promoter of valuing diverse ways of contributing to open source such as in marketing, legal and community.   You can often find her on social media promoting dialogue on diversity and open source.
 
@@ -433,7 +434,7 @@ Tom Sadler is a Software Engineering Team Lead for BBC iPlayer, specialising in 
 
 **Dmitrii Sugrobov**
 
-Dmitrii is a software engineer, DevOps believer, evangelist at Leroy Merlin. Leroy Merlin is a DIY retail company that is part of the Adeo group with a presence in 15 countries. InnerSource is one of the key directions in software development across all business units of the company. 
+Dmitrii is a software engineer, DevOps believer, evangelist at Leroy Merlin. Leroy Merlin is a DIY retail company that is part of the Adeo group with a presence in 15 countries. InnerSource is one of the key directions in software development across all business units of the company.
 Dmitrii improves the processes associated with the life of the code during and after its being crafted. Believes that the time of lone programmers is long gone. Speaker of various conferences across Russia and France.
 
 </div><div class="clearfix">
@@ -448,7 +449,7 @@ OSPO of Baidu.Inc, over 20 years working experience with OSS, committer of Mozil
 
 **Johannes Tigges**
 
-Johannes is a co-creator of the InnerSource Commons Learning Path and has worked on introducing InnerSource to HERE Technologies, a leading digital map and location company. Currently he offers consulting on topics around open collaboration, automation, and everything open. Aside of that he works as lecturer and delivers technical trainings. 
+Johannes is a co-creator of the InnerSource Commons Learning Path and has worked on introducing InnerSource to HERE Technologies, a leading digital map and location company. Currently he offers consulting on topics around open collaboration, automation, and everything open. Aside of that he works as lecturer and delivers technical trainings.
 He presents his work and thoughts at industry conferences like the FOSDEM or the InnerSource Commons Summit and is active in Open Source communities since a long time. With a background in both computer science and sociology of organization he has a unique perspective on software engineering organizations.
 In past roles, he has worked on introducing Continuous Integration and Delivery to large research institutions, in DevOps roles for very large cloud based platforms and developed software within the Telco domain.
 
@@ -463,11 +464,11 @@ Kristof Van Tomme is an open source strategist and architect. He is the CEO and 
 ### What is the InnerSource Commons?
 
 The InnerSource Commons ([InnerSourceCommons.org](http://innersourcecommons.org)) aka ISC is a consortium of representatives from almost a hundred companies and institutions. It utilizes open source methods to provide organizations pursuing inner sourcing a forum for discussing and improving the practice of InnerSource through the sharing of experiences (under the [Chatham House Rule](https://www.chathamhouse.org/about/chatham-house-rule)), creation and review of InnerSource patterns, and the open exchange of ideas.
-  
+
 ### Who should attend?
 
 The InnerSource Common Summits welcomes software professionals at all levels, from executive level manager to software developer.  The program targets software development managers and executive managers in particular because adopting InnerSource requires significant efforts to make changes in the organization—whether these are implemented top-down or bottom-up. If you or your organization is adopting, or considering adopting, InnerSource, then attending the InnerSource Summit is the best thing you can do.
-   
+
 ### What will I get from this event?
 
 The three key reasons to attend the InnerSource Common Summits are:
@@ -496,7 +497,7 @@ Call for presentations is already closed, thanks for your interest.
 
 ### [Code of Conduct](/events/conduct/)
 
-All participants, vendors, and guests at InnerSource Commons events are required to abide by the [code of conduct](/events/conduct/). 
+All participants, vendors, and guests at InnerSource Commons events are required to abide by the [code of conduct](/events/conduct/).
 
 InnerSource Commons meetings and events run under the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_House_Rule): information discussed at a meeting can be shared but not attributed.
 
