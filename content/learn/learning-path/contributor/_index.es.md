@@ -2,14 +2,14 @@
 title: Learning Path - Contribuidor
 image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
+  - name: Igor Zubiaurre
+    url: https://github.com/fioddor
   - name: Sergi
     url: https://github.com/Sergih28
   - name: rrrutledge
     url: https://github.com/rrrutledge
   - name: Fernando Flores
     url: https://github.com/JFernando122
-  - name: Igor Zubiaurre
-    url: https://github.com/fioddor
 weight: 2
 ---
 
