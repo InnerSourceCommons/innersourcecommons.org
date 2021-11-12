@@ -12,7 +12,7 @@ draft: false
         <img src="/images/logo-big.png" class="img-fluid logo-home pr-4">
       </div>
       <div class="col-md-7">
-        <p>The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource. Founded in 2015, the InnerSource Commons is now supporting and connecting over 1000 individuals from over 400 companies, academic institutions, and government agencies. The InnerSource Commons Foundation was incorporated on February 19th, 2020 and is now a 501(c)(3) public charity.
+        <p>The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource. Founded in 2015, the InnerSource Commons is now supporting and connecting over 1300 individuals from over 500 companies, academic institutions, and government agencies. The InnerSource Commons Foundation was incorporated on February 19th, 2020 and is now a 501(c)(3) public charity.
         </p>
         <a href="/about/announcements" class="btn-link">Announcements <i class="ti-arrow-right"></i></a>
       </div>
