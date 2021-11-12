@@ -1,11 +1,11 @@
 ---
 title: "InnerSource Commons"
 ---
-
+<!--
 {{< notice >}}
 <i class="ti-announcement mr-2"></i>October 20th 8am UTC / 10am CEST / 4pm CST / 6pm AEST • Online • Strategies for Kick-starting InnerSource <a href="https://www.eventbrite.com/e/innersource-commons-strategies-for-kick-starting-innersource-tickets-184945435777" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
 {{</ notice >}}
-
+-->
 
 <section class="banner banner-head">
   <div class="container">
