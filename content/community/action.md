@@ -24,6 +24,9 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Bloomberg" image="/images/logos/bloomberg.png" link="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Panna Pavangadkar" author_title="Global Head of Engineering Developer Experience" >}}
       InnerSource is not new to Bloomberg … our competitive advantage is really in being able to innovate, come up with new ideas and get them out to our specialized consumers on a regular basis at the speed that they require it to be competitive in the market.
       {{< /company >}}
+      {{< company name="Bosch" image="/images/logos/bosch.png" link="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Georg Grütter" author_title="Chief Expert Social Coding" >}}
+      InnerSource has proven invaluable for us. It has become the gold standard for internal collaboration on software at Bosch.
+      {{< /company >}}
       {{< company name="Capillary" image="/images/logos/capillary.png" link="https://github.com/customer-stories/capillarytech" author_name="Piyush Goel" author_title="VP of Engineering" >}}
       InnerSource has absolutely made our developers stronger.
       {{< /company >}}
