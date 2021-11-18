@@ -13,6 +13,7 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
     <div class="row justify-content-center">
       {{< company name="Bitergia" image="/images/logos/bitergia.png" >}}{{< /company >}}
       {{< company name="GitHub" image="/images/logos/github.png" >}}{{< /company >}}
+      {{< company name="IBM" image="/images/logos/ibm.png" >}}{{< /company >}}
       {{< company name="Microsoft" image="/images/logos/microsoft.png" >}}{{< /company >}}
     </div>
   </div>
@@ -28,6 +29,7 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
       {{< company name="GitLab" image="/images/logos/gitlab.png" >}}{{< /company >}}
       {{< company name="Indeed" image="/images/logos/indeed.png" >}}{{< /company >}}
       {{< company name="Santander" image="/images/logos/santander.png" >}}{{< /company >}}
+      {{< company name="SAP" image="/images/logos/sap.png" >}}{{< /company >}}
     </div>
   </div>
       
