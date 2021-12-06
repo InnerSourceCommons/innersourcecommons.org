@@ -11,10 +11,10 @@ book_url: https://www.surveymonkey.com/r/SOIS2021
 
 We need your help with the [State of InnerSource Survey 2021](https://www.surveymonkey.com/r/SOIS2021).
 
-We want to know how this InnerSource year went for you: the ups, the downs, the wins and the frustrations. What worked and what didn't work. 
+Whether or not your organization has adopted a formal InnerSource program, we are interested in hearing from you! The survey is focused on your interests and experiences with InnerSource. Of course, if your organization has started with InnerSource, we’d like to hear how this is done, and why.
 
 Your insights will help us understand how to better support organisations on their InnerSource journey as well as give us and the community an idea of the State of InnerSource year over year. 
 
-This research will reveal current trends and will give us an understanding of the way to achieve successful InnerSource outcomes for developers, teams, organisations and communities. 
+This research will reveal current trends and will give everyone an understanding of the way to achieve successful InnerSource outcomes for developers, teams, organisations and communities. 
 
 Take 15min to complete the [State of InnerSource Survey 2021](https://www.surveymonkey.com/r/SOIS2021)!
