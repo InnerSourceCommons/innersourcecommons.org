@@ -2,6 +2,8 @@
 title: Learning Path - Trusted Committer
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
 contributors:
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
   - name: Igor Zubiaurre
     url: https://github.com/fioddor
   - name: Yoshitake Kobayashi
@@ -14,8 +16,6 @@ contributors:
     url: https://github.com/johtani
   - name: Willem Jiang
     url: https://github.com/WillemJiang
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
   - name: RJPlog
     url: https://github.com/RJPlog
   - name: Johannes Tigges

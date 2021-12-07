@@ -3,6 +3,8 @@ title: Introduction
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
   - name: Vincent Legault
@@ -21,8 +23,6 @@ contributors:
     url: https://github.com/dottorblaster
   - name: Willem Jiang
     url: https://github.com/WillemJiang
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
   - name: RJPlog
     url: https://github.com/RJPlog
   - name: Sebastian Spier

@@ -2,6 +2,8 @@
 title: Learning Path - Contributor
 image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
   - name: Igor Zubiaurre
     url: https://github.com/fioddor
   - name: Sergi
@@ -18,8 +20,6 @@ contributors:
     url: https://github.com/WillemJiang
   - name: RJPlog
     url: https://github.com/RJPlog
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
   - name: Jun Ohtani
     url: https://github.com/johtani
   - name: Johannes Tigges
