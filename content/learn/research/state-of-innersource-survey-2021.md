@@ -4,7 +4,7 @@ title: 'State of InnerSource Survey 2021'
 image: "/images/learn/research/sois2021.png"
 weight: 4
 summary: We need your help. Share your insights with us in the State of InnerSource Survey 2021.
-book_url: https://www.surveymonkey.com/r/SOIS2021
+research_url: https://www.surveymonkey.com/r/SOIS2021
 survey_active: true
 ---
 

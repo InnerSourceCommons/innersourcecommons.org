@@ -4,7 +4,7 @@ title: 'State of InnerSource Survey 2020'
 image: "/images/learn/research/sois2020.jpg"
 weight: 4
 summary: Report of the 2020 State of InnerSource Survey
-book_url: /documents/surveys/State.of.InnerSource.Report.2020.pdf
+research_url: /documents/surveys/State.of.InnerSource.Report.2020.pdf
 ---
 
 The goal of the survey was to address three main questions:

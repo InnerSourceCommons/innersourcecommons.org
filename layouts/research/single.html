@@ -7,12 +7,12 @@
       <div class="col-md-10 mx-auto">
         <div class="row">
           <div class="col-md-6 col-lg-3 mb-4 mb-md-0 align-items-center">
-            <a href="{{.Params.book_url}}">
+            <a href="{{.Params.research_url}}">
               <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid rounded mb-4"></a>
           </div>
           <div class="col-md-6">
             <h1 class="mb-4">{{ .Title }}</h1>
-            <a href="{{.Params.book_url}}" target="_blank" class="btn btn-primary">{{ cond (eq .Params.survey_active true) "Take Survey" "Read Research Report" }}</a>
+            <a href="{{.Params.research_url}}" target="_blank" class="btn btn-primary">{{ cond (eq .Params.survey_active true) "Take Survey" "Read Research Report" }}</a>
           </div>
         </div>
 
