@@ -3,15 +3,16 @@ type: research
 title: 'State of InnerSource Survey 2020'
 image: "/images/learn/research/sois2020.jpg"
 weight: 4
-summary: Report of the 2020 State of InnerSource Survey 
-book_url: /documents/surveys/State.of.InnerSource.Report.2020.pdf
+summary: Report of the 2020 State of InnerSource Survey
+research_url: /documents/surveys/State.of.InnerSource.Report.2020.pdf
 ---
 
 The goal of the survey was to address three main questions:
 
-What is the state of InnerSource adoption across different organizations?
-What factors influence the success of InnerSource adoption?
-What are the main obstacles for adopting InnerSource?
+1. What is the state of InnerSource adoption across different organizations?
+1. What factors influence the success of InnerSource adoption?
+1. What are the main obstacles for adopting InnerSource?
+
 Since a number of studies already documented the Key Factors for InnerSource success in detail, we focused more on exploring the key motivations for contributors and the obstacles.
 
 ## Results
