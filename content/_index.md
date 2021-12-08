@@ -19,11 +19,14 @@ title: "InnerSource Commons"
 <section class="section section-first">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-md-4 mb-4 mb-md-0">
-        <img src="/images/logo-big.png" class="img-fluid logo-home pl-4">
+      <div class="col-md-9">
+        <img src="/images/logo-big.png" class="img-fluid logo-home pl-5 pr-5" style="float: left;">
+        <p style="text-align: justify;">The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource: the use of open source best practices for software development within the confines of an organization. Founded in 2015, the InnerSource Commons is now supporting and connecting over 1300 individuals from over 500 companies, academic institutions, and government agencies.
+        </p>
       </div>
-      <div class="col-md-7">
-        <p>The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource: the use of open source best practices for software development within the confines of an organization. Founded in 2015, the InnerSource Commons is now supporting and connecting over 1300 individuals from over 500 companies, academic institutions, and government agencies.
+      <div class="col-md-3">
+        <img src="/images/learn/research/sois2021.png" class="img-fluid logo-home pl-3" style="float: left; max-height: 100%;">
+        <p>Please participate in the <a href="https://www.surveymonkey.com/r/SOIS2021">State of InnerSource 2021 Survey!</a>  
         </p>
       </div>
     </div>
