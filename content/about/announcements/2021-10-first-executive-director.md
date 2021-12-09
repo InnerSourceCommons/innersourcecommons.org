@@ -3,7 +3,6 @@ layout: page
 title: 'Clare Dillon Joins InnerSource Commons as First Executive Director'
 image: "/images/about/announcements/2021-10-first-executive-director.png"
 date: 2021-10-19
-featured: true
 type: "announcements"
 ---
  
