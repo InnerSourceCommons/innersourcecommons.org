@@ -2,7 +2,7 @@
 title: "InnerSource Commons"
 ---
 {{< notice >}}
-<i class="ti-announcement mr-2"></i>December 14th 5pm UTC / 7pm CEST • Online • 2021 Year End Call <a href="https://www.eventbrite.com/e/innersource-commons-community-call-year-end-call-tickets-219165268217" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
+<i class="ti-announcement mr-2"></i>January 18th 5pm UTC / 7pm CEST • Online • InnerSource Programs & People Strategies <a href="https://bit.ly/3pYvgRX" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
 {{</ notice >}}
 
 
