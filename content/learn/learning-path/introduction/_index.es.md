@@ -3,6 +3,8 @@ title: Introducción
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
   - name: Daniel Izquierdo Cortazar
@@ -11,8 +13,6 @@ contributors:
     url: https://github.com/JFernando122
   - name: rrrutledge
     url: https://github.com/rrrutledge
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
   - name: Igor Zubiaurre
     url: https://github.com/fioddor
   - name: Johannes Tigges
