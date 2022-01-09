@@ -221,3 +221,19 @@ button.svelte-la9dd4:disabled {
     height: 150px;
     overflow: hidden;
 }
+
+.cite-icons {
+    height: 30px;
+}
+
+.cite-icons i {
+    color: #adadad;
+}
+
+.cite-icons i:hover {
+    color: #0aa8a7;
+}
+
+.cite-text {
+    display: none;
+}

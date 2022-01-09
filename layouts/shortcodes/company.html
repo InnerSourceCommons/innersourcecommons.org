@@ -1,9 +1,16 @@
 <div class="col-md-4 col-sm-6 mb-4">
-  <div class="feature-card bg-light text-center">
+  <div class="feature-card bg-light text-center mb-0">
     <div class="h-150 d-flex align-items-center justify-content-center mb-0">
       <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}" class="mh-150 company-logo">
     </div>
+    <div class="cite-icons mt-1 align-items-center justify-content-center mb-0">
+      {{ if .Inner }}<a href="#" class="cite-link" data-link="{{ urlize (.Get "name")}}-cite"><i class="ti-align-right mb-0 mr-1"></i></a>{{ end }}
+      {{ if .Get "video" }}<a href="{{ .Get "video" }}" target="_blank"><i class="ti-video-camera mb-0 mr-1 ml-1"></i></a>{{ end }}
+      {{ if .Get "article" }}<a href="{{ .Get "article" }}" target="_blank"><i class="ti-book mb-0 ml-1"></i></a>{{ end }}
+    </div>
+    <div id="{{ urlize (.Get "name")}}-cite" class="cite-text">
     {{ with .Inner }}<p><cite>“{{ . }}”</cite></p> {{ end }}
     {{ if .Get "author_name" }}<a href="{{ .Get "link" }}"><b>{{ .Get "author_name" }}</b>, {{ .Get "author_title" }}</a>{{ end }}
+    </div>
   </div>
 </div>
