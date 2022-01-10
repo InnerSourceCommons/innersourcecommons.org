@@ -23,7 +23,12 @@
 		arrows: false
   });
   
-  
+  $('.cite-link').click(function() {
+    var cite = '#' + $(this).attr('data-link');
+    $(cite).slideToggle();
+
+    return false;
+  })
 
 })(jQuery);
 
