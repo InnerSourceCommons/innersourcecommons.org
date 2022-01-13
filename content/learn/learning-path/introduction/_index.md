@@ -3,6 +3,8 @@ title: Introduction
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
+  - name: Igor Zubiaurre
+    url: https://github.com/fioddor
   - name: Tom Sadler
     url: https://github.com/tsadler1988
   - name: Yoshitake Kobayashi
@@ -43,8 +45,6 @@ contributors:
     url: https://github.com/Ludmila-N
   - name: Jun Ohtani
     url: https://github.com/johtani
-  - name: Igor Zubiaurre
-    url: https://github.com/fioddor
   - name: Tanzhongyi(Jerry Tan)
     url: https://github.com/tanzhongyi003
   - name: Valery Laptev
