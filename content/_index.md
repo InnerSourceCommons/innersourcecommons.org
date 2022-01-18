@@ -25,9 +25,8 @@ title: "InnerSource Commons"
         </p>
       </div>
       <div class="col-md-3">
-        <img src="/images/learn/research/sois2021.png" class="img-fluid logo-home pl-3" style="float: left; max-height: 100%;">
-        <p>Please participate in the <a href="https://www.surveymonkey.com/r/SOIS2021">State of InnerSource 2021 Survey!</a>  
-        </p>
+       <p class="h3 section-title" style="text-align: center;">Join our mailing list</p>
+        {{< contact-form >}}
       </div>
     </div>
   </div>
