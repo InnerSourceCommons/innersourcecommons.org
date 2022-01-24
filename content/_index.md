@@ -19,14 +19,13 @@ title: "InnerSource Commons"
 <section class="section section-first">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-md-9">
-        <img src="/images/logo-big.png" class="img-fluid logo-home pl-5 pr-5" style="float: left;">
-        <p style="text-align: justify;">The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource: the use of open source best practices for software development within the confines of an organization. Founded in 2015, the InnerSource Commons is now supporting and connecting over 1300 individuals from over 500 companies, academic institutions, and government agencies.
+      <div class="col-md-9 mb-5">
+        <img src="/images/logo-big.png" class="img-fluid logo-home pr-5" style="float: left;">
+        <p>The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource: the use of open source best practices for software development within the confines of an organization. Founded in 2015, the InnerSource Commons is now supporting and connecting over 1300 individuals from over 500 companies, academic institutions, and government agencies.
         </p>
       </div>
       <div class="col-md-3">
-       <p class="h3 section-title" style="text-align: center;">Join our mailing list</p>
-        {{< contact-form >}}
+        {{< contact-form mode="vertical-light" >}}
       </div>
     </div>
   </div>
