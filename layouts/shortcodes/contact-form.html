@@ -1,9 +1,11 @@
-<div class="mailing-box">
+<div class="mailing-box {{if eq (.Get "mode") "vertical-light" }}mailing-box-light{{ end }}">      
+  {{if eq (.Get "mode") "vertical-light" }}<div class="h3 text-center">Join Mailing List</div>{{ end }}
     <form class="form-inline" action="https://innersourcecommons.us1.list-manage.com/subscribe/post?u=0363fb06e6a59d48c6e260f1b&amp;id=97224b5ff2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-      <div class="form-group pr-3">
+
+      <div class="form-group">
         <input type="email" name="EMAIL" class="form-control email" id="mce-EMAIL" aria-describedby="emailHelp" placeholder="Enter email" required>
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0363fb06e6a59d48c6e260f1b_97224b5ff2" tabindex="-1" value=""></div>
       </div>
-      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary ml-3 {{if eq (.Get "mode") "vertical-light" }}mailing-box-button-light btn-sm ml-5{{ end }}">
     </form>
 </div>
