@@ -18,8 +18,8 @@ title: "InnerSource Commons"
 
 <section class="section section-first">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-9 mb-5">
+    <div class="row align-items-center mb-3">
+      <div class="col-md-9">
         <img src="/images/logo-big.png" class="img-fluid logo-home pr-5" style="float: left;">
         <p>The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource: the use of open source best practices for software development within the confines of an organization. Founded in 2015, the InnerSource Commons is now supporting and connecting over 1300 individuals from over 500 companies, academic institutions, and government agencies.
         </p>
