@@ -176,5 +176,7 @@ image: "/images/learn/innersourceinaction.png"
       Our engineering culture is open and centred around teams owning services and being responsible for running them in production.
       {{< /company >}}
       {{< company name="Zibasec" image="/images/logos/zibasec.png" >}}{{< /company >}}
+      {{< company name="Zymple" image="/images/logos/zendesk.png" video="https://youtu.be/QWbxXp5-nOQ" >}}
+      {{< /company >}}
     </div>
   </div>
