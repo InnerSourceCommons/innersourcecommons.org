@@ -27,7 +27,11 @@ All of Cedric’s work, personal and professional, has been guided by my desire 
 {{< /board-member >}}
 
 {{< board-member name="Russell Rutledge" title="Secretary" image="/images/about/Russell_Rutledge.jpg" >}}
-Russ Rutledge is the Director of Community and InnerSource at Nike. This startup within the company guides the process and tools to encourage and foster cross-team and community interaction and development. Russ`s drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process. Previously, he ran another successful startup delivering JavaScript continuous delivery solutions to hundreds of projects throughout Nike. Prior to Nike, Russ began his career with feature and infrastructure development on the Outlook and OneDrive consumer websites at Microsoft.
+Russ Rutledge is the Senior Director of InnerSource and Collaboration at WellSky.
+WellSky is a leading technology company offering a range of software solutions that help organizations across the healthcare continuum.
+In this role, Russ is leading a transformational change in the company towards broad and pervasive InnerSource as the normal way that work gets done.
+Previously, Russ founded and led the Developer Collaboration effort at Nike.
+Russ's drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process.
 {{< /board-member >}}
 
 {{< board-member name="Johannes Tigges" title="Assistant Secretary" image="/images/about/Johannes_Tigges.png" style="bg-light">}}
