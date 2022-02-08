@@ -2,7 +2,7 @@
 title: "InnerSource Commons"
 ---
 {{< notice >}}
-<i class="ti-announcement mr-2"></i>Feburary 2nd 9am UTC / 10am CET / 12pm MSK • Online • InnerSource ROI & Convincing Leaders <a href="https://bit.ly/isc_cc_2" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
+<i class="ti-announcement mr-2"></i>Feburary 22nd 5pm UTC / 6pm CEST / 12pm CST / 9am PST • Online • InnerSource Security <a href="https://www.eventbrite.com/e/innersource-commons-innersource-security-tickets-265132246687" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
 {{</ notice >}}
 
 
