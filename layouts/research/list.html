@@ -14,7 +14,7 @@
           <div class="card-body p-0">
             <!-- <h3><a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a></h3> -->
             <p class="card-text">{{ .Summary }}</p>
-            {{ if (now.Before .Params.finish_date) (now.After .Params.closing_date) }}
+            {{ if and (now.Before .Params.finish_date) (now.After .Params.closing_date) }}
               <a href="{{.Permalink}}" class="btn btn-primary btn-sm">Coming Soon</a>
             {{ else if (now.After .Params.finish_date) }}
               <a href="{{.Permalink}}" class="btn btn-primary btn-sm">Read Research Report</a>
