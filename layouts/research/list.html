@@ -14,7 +14,13 @@
           <div class="card-body p-0">
             <!-- <h3><a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a></h3> -->
             <p class="card-text">{{ .Summary }}</p>
-            <a href="{{.Permalink}}" class="btn btn-primary btn-sm">{{ cond (eq .Params.survey_active true) "Take Survey" "Read Research Report" }}</a>
+            {{ if (now.Before .Params.finish_date) (now.After .Params.closing_date) }}
+              <a href="{{.Permalink}}" class="btn btn-primary btn-sm">Coming Soon</a>
+            {{ else if (now.After .Params.finish_date) }}
+              <a href="{{.Permalink}}" class="btn btn-primary btn-sm">Read Research Report</a>
+            {{ else }}
+              <a href="{{.Permalink}}" class="btn btn-primary btn-sm">Take Survey</a>
+            {{ end }}
           </div>
         </div>
       </div>
