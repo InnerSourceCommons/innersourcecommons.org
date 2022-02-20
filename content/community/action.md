@@ -206,7 +206,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Toshiba" image="/images/logos/toshiba.png" article="https://eventyay.com/e/3dbaaa50" >}}
       {{< /company >}}
-      {{< company name="Tray.io" image="/images/logos/tray.png" article="https://github.com/customer-stories/trayio" author_name="Alberto Giorgi" author_title="Director of Engineering" >}}
+      {{< company name="Trayio" image="/images/logos/tray.png" article="https://github.com/customer-stories/trayio" author_name="Alberto Giorgi" author_title="Director of Engineering" >}}
       Anyone can learn something from another team and quickly see what’s in the code..Having a fairly open structure allows people to get involved quite easily and quickly.
       {{< /company >}}
       {{< company name="Trustpilot" image="/images/logos/trustpilot.png" article="https://github.com/customer-stories/trustpilot" author_name="Jo Ann Tan" author_title="Vice President and Head of Infrastructure" >}}
