@@ -15,12 +15,12 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Adobe" image="/images/logos/adobe.png" article="https://medium.com/adobetech/open-development-inner-source-and-open-source-46c2ba174be6" >}}
       {{< /company >}}
      {{< company name="Ahold Delhaize" image="/images/logos/ahold.png" article="https://github.com/customer-stories/ahold-delhaize" author_name="Joost Hofman" author_title="Head of Tech Enabling" >}}
-      If we give people the right tools and the right platform, it’s a start. We can share more within our company and with each other, growing as an InnerSource organization. 
+      If we give people the right tools and the right platform, it’s a start. We can share more within our company and with each other, growing as an InnerSource organization.
       {{< /company >}}
       {{< company name="American Airlines" image="/images/logos/americanairlines.png" article="https://soundcloud.com/nearform/the-journey-to-innersource-with-danese-cooper-spencer-kaiser" >}}
       {{< /company >}}
       {{< company name="ASOS" image="/images/logos/asos.png" article="https://medium.com/asos-techblog/adopting-innersource-at-asos-5618435c8d7" author_name="Rob Bell" author_title="Principal Software Engineer" >}}
-      InnerSource has allowed us to deliver dozens of cross-cutting features more efficiently, spanning multiple teams and services. 
+      InnerSource has allowed us to deliver dozens of cross-cutting features more efficiently, spanning multiple teams and services.
       {{< /company >}}
       {{< company name="Anyshore" image="/images/logos/Anyshore.png" article="https://www.linkedin.com/pulse/anyshore-innersource-journey-lisalee-tunde-farrell/?trackingId=2whtvdgFQga8y6CG8N9TOg%3D%3D" >}}
       {{< /company >}}
@@ -37,7 +37,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="BCG Gamma" image="/images/bcg.png" article="https://github.com/customer-stories/bcg-gamma" >}}
       {{< /company >}}
-      {{< company name="Bitergia" image="/images/logos/bitergia.png" >}} article="https://www.linkedin.com/feed/update/urn:li:activity:6711604569262067712/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6711604569262067712%29"
+      {{< company name="Bitergia" image="/images/logos/bitergia.png" article="https://www.linkedin.com/feed/update/urn:li:activity:6711604569262067712/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6711604569262067712%29" >}}
       {{< /company >}}
       {{< company name="Bloomberg" image="/images/logos/bloomberg.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Panna Pavangadkar" author_title="Global Head of Engineering Developer Experience" >}}
       InnerSource is not new to Bloomberg … our competitive advantage is really in being able to innovate, come up with new ideas and get them out to our specialized consumers on a regular basis at the speed that they require it to be competitive in the market.
