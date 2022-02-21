@@ -4,13 +4,15 @@
       <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}" class="mh-150 company-logo">
     </div>
     <div class="cite-icons mt-1 align-items-center justify-content-center mb-0">
-      {{ if .Inner }}<a href="#" class="cite-link" data-link="{{ urlize (.Get "name")}}-cite"><i class="ti-align-right mb-0 mr-1"></i></a>{{ end }}
+      {{ if (not (eq (trim .Inner "\n ") "")) }}<a href="#" class="cite-link" data-link="{{ urlize (.Get "name")}}-cite" bla="{{ trim .Inner "\n " }}"><i class="ti-align-right mb-0 mr-1"></i></a>{{ end }}
       {{ if .Get "video" }}<a href="{{ .Get "video" }}" target="_blank"><i class="ti-video-camera mb-0 mr-1 ml-1"></i></a>{{ end }}
       {{ if .Get "article" }}<a href="{{ .Get "article" }}" target="_blank"><i class="ti-book mb-0 ml-1"></i></a>{{ end }}
     </div>
-    <div id="{{ urlize (.Get "name")}}-cite" class="cite-text">
-    {{ with .Inner }}<p><cite>“{{ . }}”</cite></p> {{ end }}
-    {{ if .Get "author_name" }}<a href="{{ .Get "link" }}"><b>{{ .Get "author_name" }}</b>, {{ .Get "author_title" }}</a>{{ end }}
-    </div>
+    {{ if (not (eq (trim .Inner "\n ") "")) }}
+      <div id="{{ urlize (.Get "name")}}-cite" class="cite-text">
+      <p><cite>“{{ .Inner }}”</cite></p>
+      {{ if .Get "author_name" }}<a href="{{ .Get "link" }}"><b>{{ .Get "author_name" }}</b>, {{ .Get "author_title" }}</a>{{ end }}
+      </div>
+    {{ end }}
   </div>
 </div>
