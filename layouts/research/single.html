@@ -12,9 +12,9 @@
           </div>
           <div class="col-md-6">
             <h1 class="mb-4">{{ .Title }}</h1>
-            {{ if and (now.Before .Params.finish_date) (now.After .Params.closing_date) }}
+            {{ if and (now.Before (time .Params.finish_date)) (now.After (time .Params.closing_date)) }}
               <a href="{{.Params.research_url}}" target="_blank" class="btn btn-primary">Coming Soon</a>
-            {{ else if (now.After .Params.finish_date) }}
+            {{ else if (now.After (time .Params.finish_date)) }}
               <a href="{{.Params.research_url}}" target="_blank" class="btn btn-primary">Read Research Report</a>
             {{ else }}
               <a href="{{.Params.research_url}}" target="_blank" class="btn btn-primary">Take Survey</a>
