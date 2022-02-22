@@ -4,8 +4,8 @@ title: 'State of InnerSource Survey 2021'
 image: "/images/learn/research/sois2021.png"
 weight: 4
 summary: We are working hard on the State of InnerSource Survey 2021. Check back in soon.
-closing_date: 2022-01-12
-finish_date: 2022-12-30
+survey_closing_date: 2022-01-12
+report_publish_date: 2022-12-30
 ---
 
 ## Check Back in Soon
