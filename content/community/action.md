@@ -42,7 +42,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Bloomberg" image="/images/logos/bloomberg.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Panna Pavangadkar" author_title="Global Head of Engineering Developer Experience" >}}
       InnerSource is not new to Bloomberg … our competitive advantage is really in being able to innovate, come up with new ideas and get them out to our specialized consumers on a regular basis at the speed that they require it to be competitive in the market.
       {{< /company >}}
-      {{< company name="Bosch" image="/images/logos/bosch.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Georg Grütter" author_title="Chief Expert Social Coding" >}}
+      {{< company name="Bosch" image="/images/logos/bosch.png" article="https://www.bosch.com/research/know-how/open-and-inner-source/" author_name="Georg Grütter" author_title="Chief Expert Social Coding" >}}
       InnerSource has proven invaluable for us. It has become the gold standard for internal collaboration on software at Bosch.
       {{< /company >}}
       {{< company name="BuzzFeed" image="/images/logos/buzzfeed.png" article="https://github.com/customer-stories/buzzfeed" >}}
@@ -82,18 +82,18 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="DXC Technology" image="/images/logos/dxc.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Joan Watson" author_title="Research and Developement IT" >}}
       What we're seeing now is the technology has caught up with all these ideas of innovation and collaboration, and that's really critical for us.
       {{< /company >}}
-      {{< company name="Elbit Systems" image="/images/logos/elbit.png" article="https://innersourcecommons.org/events/isc-spring-2019-agenda/" >}}
+      {{< company name="Elbit Systems" image="/images/logos/elbit.png" article="/events/isc-spring-2019" >}}
       {{< /company >}}
-      {{< company name="ENGIE Digital" image="/images/logos/engie.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" >}}
+      {{< company name="ENGIE Digital" image="/images/logos/engie.png" article="https://github.com/customer-stories/engie" >}}
       {{< /company >}}
       {{< company name="Entelgy" image="/images/logos/entelgy.png" article="https://innersourcecommons.org/events/isc-fall-2018/" >}}
       {{< /company >}}
-      {{< company name="Ericsson" image="/images/logos/ericsson.png" article="https://innersourcecommons.org/assets/files/AdoptingInnerSource.pdf" >}}
+      {{< company name="Ericsson" image="/images/logos/ericsson.png" article="/learn/books/adopting-innersource-principles-and-case-studies" >}}
       {{< /company >}}
       {{< company name="Etsy" image="/images/logos/etsy.png" article="https://github.com/customer-stories/etsy" author_name="Keyur Govande" author_title="Cheif Architect" >}}
       Everyone should be able to read the code that powers etsy.com and contribute to the broader success of the company.
       {{< /company >}}
-      {{< company name="Europace" image="/images/logos/europace.png" article="https://innersourcecommons.org/assets/files/AdoptingInnerSource.pdf" >}}
+      {{< company name="Europace" image="/images/logos/europace.png" article="/learn/books/adopting-innersource-principles-and-case-studies" >}}
       {{< /company >}}
       {{< company name="EXFO Inc." image="/images/logos/exfo.png" article="https://innersourcecommons.org/events/isc-fall-2018/" >}}
       {{< /company >}}
@@ -107,7 +107,9 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="GitLab" image="/images/logos/gitlab.png" article="https://about.gitlab.com/solutions/innersource/" >}}
       {{< /company >}}
-      {{< company name="HBR" image="/images/logos/hbr.png" article="https://innersourcecommons.org/events/isc-spring-2019-agenda/" >}}
+      {{< company name="Globant" image="/images/logos/globant.png" article="https://github.com/customer-stories/globant/" >}}
+      {{< /company >}}
+      {{< company name="HBR" image="/images/logos/hbr.png" article="/events/isc-spring-2019" >}}
       {{< /company >}}
       {{< company name="HERE Global B.V" image="/images/logos/here.png" article="https://innersourcecommons.org/events/isc-spring-2019/" >}}
       {{< /company >}}
@@ -120,9 +122,6 @@ image: "/images/learn/innersourceinaction.png"
       We see InnerSource as a way to improve efficiency through code reuse. But even beyond that, it's an amazing conduit for learning and exchanging ideas and facilitating innovation within IBM.
       {{< /company >}}
       {{< company name="Intuit" image="/images/logos/intuit.png" article="https://builtin.com/software-engineering-perspectives/intuit-duplication-innersource" >}}
-      {{< /company >}}
-      {{< company name="John Wiley and Sons" image="/images/logos/wiley.png" article="https://github.com/customer-stories/wiley" author_name="Fedor Terlov" author_title="Director of Site Reliability" >}}
-      Suddenly developers are buttoning up the structure of their code—open source and InnerSource act as a forcing function to get the details right and ready for more eyes.
       {{< /company >}}
       {{< company name="Knock" image="/images/logos/knock.png" article="https://github.com/customer-stories/knock" >}}
       {{< /company >}}
@@ -137,7 +136,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Morgan Stanley" image="/images/logos/morganstanley.png" video="https://www.youtube.com/watch?v=Z2l3rB9ewC8" >}}
       {{< /company >}}
-      {{< company name="NASA" image="/images/logos/NASA.png" article="https://redmonk.com/jgovernor/2019/10/25/tools-lead-culture-change-happy-birthday-devopsdays/" >}}
+      {{< company name="NASA" image="/images/logos/NASA.png" article="/events/isc-fall-2018" >}}
       {{< /company >}}
       {{< company name="Nab" image="/images/logos/nab.jpg" video="https://www.youtube.com/watch?v=1jiAGQ7y_vQ&t=130s" >}}
       {{< /company >}}
@@ -146,7 +145,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Navex Global" image="/images/logos/navex-global.png" article="https://www.pnsqc.org/innersource-test-automation-utilizing-open-source-principle/" >}}
       {{< /company >}}
-      {{< company name="Nokia" image="/images/logos/nokia.png" article="https://innersourcecommons.org/events/isc-fall-2017-agenda/" >}}
+      {{< company name="Nokia" image="/images/logos/nokia.png" article="/events/isc-fall-2017" >}}
       {{< /company >}}
       {{< company name="Nike" image="/images/logos/nike.png" video="https://www.youtube.com/watch?v=srPG-Tq0HIs&list=PLq-odUc2x7i-A0sOgr-5JJUs5wkgdiXuR&index=45" author_name="Russ Rutledge" author_title="Director of Community and InnerSource" >}}
       We found it very useful to work within the InnerSource Commons.. Where you can bounce ideas off of other InnerSource practitioners
@@ -174,7 +173,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Shell" image="/images/shell.png" video="https://youtu.be/7AJuMROHRHY" >}}
       {{< /company >}}
-      {{< company name="Shutterstock" image="/images/logos/shutterstock.png" article="https://innersourcecommons.org/events/isc-spring-2019/" >}}
+      {{< company name="Shutterstock" image="/images/logos/shutterstock.png" article="https://panelpicker.sxsw.com/vote/89929" >}}
       {{< /company >}}
       {{< company name="Siemens" image="/images/simens.png" article="https://jfrog.com/blog/creating-an-inner-source-hub-at-siemens/" >}}
       {{< /company >}}
@@ -201,7 +200,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Tesco" image="/images/logos/tesco.png" article="https://www.linkedin.com/pulse/perspectives-from-tesco-hosted-first-github-meetup-bengaluru-manly/?trackingId=KsNFK4fqT%2Fa%2BS%2BZ8zchGvQ%3D%3D" >}}
       {{< /company >}}
-      {{< company name="The Hartford" image="/images/logos/thehartford.png" video="https://www.youtube.com/watch?v=JCHbtKu71SQ" author_name="Jo Ann Tan" author_title="Vice President and Head of Infrastructure" >}}
+      {{< company name="The Hartford" image="/images/logos/thehartford.png" article="https://github.com/customer-stories/the-hartford" author_name="Jo Ann Tan" author_title="Vice President and Head of Infrastructure" >}}
       Our development teams have benefited from the collaborative features of GitHub. It allows them to take co-development to a whole new level by working as a community and maturing our InnerSourcing practices.
       {{< /company >}}
       {{< company name="Toshiba" image="/images/logos/toshiba.png" article="https://eventyay.com/e/3dbaaa50" >}}
@@ -212,7 +211,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Trustpilot" image="/images/logos/trustpilot.png" article="https://github.com/customer-stories/trustpilot" author_name="Jo Ann Tan" author_title="Vice President and Head of Infrastructure" >}}
       We have an InnerSource policy, Everybody has access to create pull requests on all repositories. You can see all our code. We don’t lock down anything.
       {{< /company >}}
-      {{< company name="Twilio" image="/images/logos/twilio.png" video="https://www.youtube.com/watch?v=JCHbtKu71SQ" author_name="Jo Ann Tan" author_title="Vice President and Head of Infrastructure" >}}
+      {{< company name="Twilio" image="/images/logos/twilio.png" article="https://github.com/customer-stories/twilio" author_name="Jo Ann Tan" author_title="Vice President and Head of Infrastructure" >}}
       Our development teams have benefited from the collaborative features of GitHub. It allows them to take co-development to a whole new level by working as a community and maturing our InnerSourcing practices.
       {{< /company >}}
       {{< company name="US Bank" image="/images/usbank.png" video="https://youtu.be/4qT9wCz3hKw" >}}
@@ -230,12 +229,15 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Wellsky" image="/images/wellsky.png" video="https://youtu.be/kgxexjYdhIc" >}}
       {{< /company >}}
+      {{< company name="John Wiley and Sons" image="/images/logos/wiley.png" article="https://github.com/customer-stories/wiley" author_name="Fedor Terlov" author_title="Director of Site Reliability" >}}
+      Suddenly developers are buttoning up the structure of their code—open source and InnerSource act as a forcing function to get the details right and ready for more eyes.
+      {{< /company >}}
       {{< company name="Wipro" image="/images/logos/wipro.png" video="https://www.youtube.com/watch?v=vApVU26TZGo" author_name="Andrew Aitken" author_title="Wipro" >}}
       We have thousands of developers working on these projects today and at any given time we’re doing dozens of different projects... 75% of our clients with large global enterprises are trying InnerSource in some way, shape or form.
       {{< /company >}}
-      {{< company name="Zalando" image="/images/logos/zalando.png" article="https://innersourcecommons.org/events/isc-spring-2019-agenda/" >}}
+      {{< company name="Zalando" image="/images/logos/zalando.png" article="https://opensource.zalando.com/docs/resources/innersource-howto/" >}}
       {{< /company >}}
-      {{< company name="Zendesk" image="/images/logos/zendesk.png" video="https://www.youtube.com/watch?v=vApVU26TZGo" author_name="Jason Smale" author_title="VP of Engineering" >}}
+      {{< company name="Zendesk" image="/images/logos/zendesk.png" article="https://github.com/customer-stories/zendesk" author_name="Jason Smale" author_title="VP of Engineering" >}}
       Our engineering culture is open and centred around teams owning services and being responsible for running them in production.
       {{< /company >}}
       {{< company name="Zymple" image="/images/zymple.png" video="https://youtu.be/QWbxXp5-nOQ" >}}
