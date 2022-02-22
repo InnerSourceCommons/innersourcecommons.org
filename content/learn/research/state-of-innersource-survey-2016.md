@@ -5,6 +5,8 @@ image: "/images/learn/research/sois2016.jpg"
 weight: 4
 summary: Report of the 2016 State of InnerSource Survey
 research_url: /documents/surveys/InnerSourceCommonsSurvey2016.pdf
+survey_closing_date: 2016-12-12
+report_publish_date: 2016-12-30
 ---
 
 The goal of this First Annual State of InnerSource Commons survey was to establish a first baseline of how organizations adopt InnerSource. The survey addresses many aspects, including development methods, practices, quality assurance, tools, and motivation and organizational support.

@@ -5,6 +5,8 @@ image: "/images/learn/research/sois2020.jpg"
 weight: 4
 summary: Report of the 2020 State of InnerSource Survey
 research_url: /documents/surveys/State.of.InnerSource.Report.2020.pdf
+survey_closing_date: 2020-12-12
+report_publish_date: 2021-12-30
 ---
 
 The goal of the survey was to address three main questions:

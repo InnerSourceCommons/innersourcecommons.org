@@ -3,19 +3,22 @@ type: research
 title: 'State of InnerSource Survey 2021'
 image: "/images/learn/research/sois2021.png"
 weight: 4
-summary: We need your help. Share your insights with us in the State of InnerSource Survey 2021.
-research_url: https://www.surveymonkey.com/r/SOIS2021
-survey_active: true
+summary: We are working hard on the State of InnerSource Survey 2021. Check back in soon.
+survey_closing_date: 2022-01-12
+report_publish_date: 2022-12-30
 ---
 
-## Give Us Your Insights
+## Check Back in Soon
 
-We need your help with the [State of InnerSource Survey 2021](https://www.surveymonkey.com/r/SOIS2021).
+We've had a great response from our community and collected over 120 answers to our State of InnerSource survey. 
 
-Whether or not your organization has adopted a formal InnerSource program, we are interested in hearing from you! The survey is focused on your interests and experiences with InnerSource. Of course, if your organization has started with InnerSource, we’d like to hear how this is done, and why.
-
-Your insights will help us understand how to better support organisations on their InnerSource journey as well as give us and the community an idea of the State of InnerSource year over year.
+We are working hard on processing the data and writing the report and we are looking forward to sharing with you insights into InnerSource journeys. 
 
 This research will reveal current trends and will give everyone an understanding of the way to achieve successful InnerSource outcomes for developers, teams, organisations and communities.
 
-Take 15min to complete the [State of InnerSource Survey 2021](https://www.surveymonkey.com/r/SOIS2021)!
+If you would like to be notified when the report is published, subscribe to our mailing list below.
+
+{{< contact-form >}}
+
+
+
