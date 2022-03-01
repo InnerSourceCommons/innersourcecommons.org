@@ -86,7 +86,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="ENGIE Digital" image="/images/logos/engie.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" >}}
       {{< /company >}}
-      {{< company name="Entelgy" image="/images/logos/entelgy.png" article="https://innersourcecommons.org/events/isc-fall-2018/" >}}
+      {{< company name="Entelgy" image="/images/logos/entelgy.png" article="https://www.entelgy.com/actualidad/resumen-de-eventos/resumen/innersource-open-source" >}}
       {{< /company >}}
       {{< company name="Ericsson" image="/images/logos/ericsson.png" article="https://innersourcecommons.org/assets/files/AdoptingInnerSource.pdf" >}}
       {{< /company >}}
@@ -103,7 +103,7 @@ image: "/images/learn/innersourceinaction.png"
       Our environment allows developers to find solutions that have already been developed. They can collaborate on those, and then reuse them.
       {{< /company >}}
       {{< company name="GitHub" image="/images/logos/github.png" article="https://infocus.github.com/sessions/modernizing-and-unifying-development-at-comcast/" author_name="Martin Woodworth" author_title="Director, Developer Relations" >}}
-      The reason why InnerSource works is because like open source you're working with people who are collaborating with different priorities kind of thing because they're working on different things
+      The reason why InnerSource works is because like open source you're working with people who are collaborating with different priorities because they're working on different things
       {{< /company >}}
       {{< company name="GitLab" image="/images/logos/gitlab.png" article="https://about.gitlab.com/solutions/innersource/" >}}
       {{< /company >}}
@@ -114,7 +114,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Huawei" image="/images/logos/huawei.png" video="https://www.youtube.com/watch?v=MhNnK_VPLVI" author_name="Willem Jiang and Long Li" author_title="Huawei" >}}
       We need to build a community around the InnerSource projects of people who share the same ideals.
       {{< /company >}}
-      {{< company name="IAG" image="/images/logos/iag.png" article="https://github.com/customer-stories/globant/" >}}
+      {{< company name="IAG" image="/images/logos/iag.png" article="https://thenewstack.io/open-source-best-insurance-future-eddie-satterly-talks-iag/" >}}
       {{< /company >}}
       {{< company name="IBM" image="/images/logos/ibm.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Jeff Jagoda" author_title="Senior Site Engineer" >}}
       We see InnerSource as a way to improve efficiency through code reuse. But even beyond that, it's an amazing conduit for learning and exchanging ideas and facilitating innovation within IBM.
@@ -225,8 +225,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Walmart" image="/images/logos/walmart.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Jeremy King" author_title="Executive Vice President & CTO for Global eCommerce" >}}
       Once you embrace it [InnerSource] and see new teams come on, you show examples of places where not only can people contribute, you unlock bottlenecks
       {{< /company >}}
-      {{< company name="WayFair" image="/images/logos/wayfair.png" article="https://github.com/customer-stories/wayfair" author_name="DT Norris" author_title="Senior Software Engineering Manager" >}}
-      Once you embrace it [InnerSource] and see new teams come on, you show examples of places where not only can people contribute, you unlock bottlenecks
+      {{< company name="WayFair" image="/images/logos/wayfair.png" article="https://github.com/customer-stories/wayfair">}} 
       {{< /company >}}
       {{< company name="Wellsky" image="/images/wellsky.png" video="https://youtu.be/kgxexjYdhIc" >}}
       {{< /company >}}
