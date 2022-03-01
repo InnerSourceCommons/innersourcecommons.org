@@ -225,7 +225,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Walmart" image="/images/logos/walmart.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Jeremy King" author_title="Executive Vice President & CTO for Global eCommerce" >}}
       Once you embrace it [InnerSource] and see new teams come on, you show examples of places where not only can people contribute, you unlock bottlenecks
       {{< /company >}}
-      {{< company name="WayFair" image="/images/logos/wayfair.png" article="https://github.com/customer-stories/wayfair"{<company >}}
+      {{< company name="WayFair" image="/images/logos/wayfair.png" article="https://github.com/customer-stories/wayfair">}} 
+      {{< /company >}}
       {{< company name="Wellsky" image="/images/wellsky.png" video="https://youtu.be/kgxexjYdhIc" >}}
       {{< /company >}}
       {{< company name="Wipro" image="/images/logos/wipro.png" video="https://www.youtube.com/watch?v=vApVU26TZGo" author_name="Andrew Aitken" author_title="Wipro" >}}
