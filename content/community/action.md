@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "InnerSource in Action"
-subtitle: "The InnerSource Commons community has over 1300 subscribers from 500 organizations. Listed below is a sample of the organizations who have publicly declared they are using InnerSource."
+subtitle: "The InnerSource Commons community has over 1500 subscribers from 500 organizations. Listed below is a sample of the organizations who have publicly spoken about using InnerSource."
 image: "/images/learn/innersourceinaction.png"
 ---
   <div class="container">
@@ -161,8 +161,6 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Philips" image="/images/logos/philips.png" article="https://www.infoq.com/articles/inner-source-open-source-development-practices/" >}}
       {{< /company >}}
       {{< company name="Plaid" image="/images/logos/plaid.png" article="https://github.com/customer-stories/plaid" >}}
-      {{< /company >}}
-      {{< company name="Redmonk" image="/images/logos/redmonk.png" article="https://redmonk.com/jgovernor/2019/10/25/tools-lead-culture-change-happy-birthday-devopsdays/" >}}
       {{< /company >}}
       {{< company name="SAP" image="/images/logos/sap.png" video="https://www.youtube.com/watch?v=2nhKMcv5STc&t=269s" author_name="Micheal Graf and Guilherme Dellagustin" author_title="SAP" >}}
       We work together as a team to provide InnerSource methodology to encourage new people to initiate new projects... 70% of SAP employees would like to contribute if suitable projects are available.
