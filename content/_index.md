@@ -2,7 +2,7 @@
 title: "InnerSource Commons"
 ---
 {{< notice >}}
-<i class="ti-announcement mr-2"></i>March 16th  9am UTC / 10am CET / 2.30pm IST / 8pm AEDT • Online • Transfer Pricing for InnerSource Projects <a href="https://www.eventbrite.com/e/288581594317" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
+<i class="ti-announcement mr-2"></i>March 29th  5pm UTC / 6pm CEST / 12pm CST / 9am PST • Online • Community Building in the context of InnerSource <a href="https://bit.ly/ISCmar29" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
 {{</ notice >}}
 
 
