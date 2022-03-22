@@ -4,14 +4,16 @@ image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
   - name: Igor Zubiaurre
     url: https://github.com/fioddor
+  - name: Fernando Flores
+    url: https://github.com/JFernando122
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
   - name: Sergi
     url: https://github.com/Sergih28
   - name: Tom Sadler
     url: https://github.com/tsadler1988
   - name: DevGDL
     url: https://github.com/devGuadalajara
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
   - name: Piergiorgio Lucidi
@@ -34,16 +36,12 @@ contributors:
     url: https://github.com/niminghong
   - name: Ludmila
     url: https://github.com/Ludmila-N
-  - name: Fernando Flores
-    url: https://github.com/JFernando122
   - name: Tanzhongyi(Jerry Tan)
     url: https://github.com/tanzhongyi003
   - name: adadai
     url: https://github.com/adadai88
   - name: Shinobu Saito
     url: https://github.com/ShinobuSaito
-  - name: Nick Adams
-    url: https://github.com/nadamsoreilly
 weight: 2
 ---
 
