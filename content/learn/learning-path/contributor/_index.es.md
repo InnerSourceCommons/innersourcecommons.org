@@ -4,16 +4,16 @@ image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
   - name: Igor Zubiaurre
     url: https://github.com/fioddor
+  - name: Fernando Flores
+    url: https://github.com/JFernando122
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
   - name: Sergi
     url: https://github.com/Sergih28
   - name: Tom Sadler
     url: https://github.com/tsadler1988
   - name: DevGDL
     url: https://github.com/devGuadalajara
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
-  - name: Fernando Flores
-    url: https://github.com/JFernando122
 weight: 2
 ---
 
