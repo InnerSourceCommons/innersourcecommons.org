@@ -31,10 +31,10 @@ More information about the InnerSource Commons Partner and Support programs can 
 "We have adopted InnerSource in Grupo Santander as a new way to scale collaboration across the organization, with the goal of being more effective in code reuse in our software production chain. Becoming a Supporter of InnerSource Commons allows us to work even more closely with global leaders in this space." said Jesus Alonso Gutiérrez, Head of European InnerSource Office, Grupo Santander.
 
 ### About InnerSource Commons
- 
-InnerSource Commons is the world's largest community of InnerSource practitioners. It is dedicated to creating and sharing knowledge about InnerSource, the use of open source best practices for software development within the confines of an organization.
- 
-Founded in 2015, the InnerSource Commons is now supporting and connecting over 1500 individuals from over 500 companies, academic institutions, and government agencies. The InnerSource Commons Foundation was incorporated on February 19th, 2020 and is now a 501(c)(3) public charity.
+
+<p>
+{{< about-text >}}
+</p>
  
 ### Contact Information
  

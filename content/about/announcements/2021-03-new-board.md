@@ -15,4 +15,7 @@ We would like to congratulate the new board and thank the previous members of th
 “The next 5 years are extremely important for InnerSource Commons as we see the adoption of InnerSource rapidly gaining momentum. I am confident Isabel, together with the new board will guide the Foundation through accelerated growth and success in the coming years.” said Danese Cooper, the Chairperson of The InnerSource Commons Foundation. 
 
 #### About InnerSource Commons
-InnerSource Commons is a growing community of InnerSource practitioners with the goal of creating and sharing knowledge about InnerSource.  The community provides free-to-use learning paths and curates known best practices in the form of patterns. They also organise the leading conferences dedicated to InnerSource, the InnerSource Commons Summits. Visit www.innersourcecommons.org to find out more.
+
+<p>
+{{< about-text >}}
+</p>

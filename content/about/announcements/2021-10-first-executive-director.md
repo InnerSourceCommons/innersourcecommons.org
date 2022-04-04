@@ -17,10 +17,10 @@ Clare is stepping into the role of Executive Director after a long career in the
 "InnerSource Commons provides a safe space for individuals to come together to share InnerSource knowledge and experiences, find best practices and research to accelerate the understanding, adoption, and practice of InnerSource. Having participated in this community for some time, I can say that it not only does amazing work, it is also a group that is a pleasure to work with." said Clare Dillon "I am looking forward to working more closely with the board and community to help grow the Commons and spread the word about how InnerSource can improve collaboration and pave the way to more sustainable development practices."
 
 ### About InnerSource Commons
- 
-InnerSource Commons is the world's largest community of InnerSource practitioners. It is dedicated to creating and sharing knowledge about InnerSource, the use of open source best practices for software development within the confines of an organization.
- 
-Founded in 2015, the InnerSource Commons is now supporting and connecting over 1500 individuals from over 500 companies, academic institutions, and government agencies. The InnerSource Commons Foundation was incorporated on February 19th, 2020 and is now a 501(c)(3) public charity.
+
+<p>
+{{< about-text >}}
+</p>
  
 ### Contact Information
  
