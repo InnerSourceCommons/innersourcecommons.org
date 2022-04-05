@@ -17,6 +17,7 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 * Ada Dai
 * Cedric Williams
 * Clare Dillon
+* Cristina Coffey
 * Danese Cooper
 * Daniel Izquierdo Cortazar
 * Dmitrii Sugrobov
@@ -33,3 +34,4 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 * Silona Bonewald
 * Tim Yao
 * Tom Sadler
+* Zack Koppert
