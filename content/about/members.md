@@ -29,6 +29,7 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 * Johannes Tigges
 * Klaas-Jan Stol
 * Maximilian Capraro
+* Mishari Muqbil
 * Russell Rutledge
 * Sebastian Spier
 * Silona Bonewald
