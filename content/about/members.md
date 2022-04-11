@@ -28,6 +28,7 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 * Jerry Tan
 * Johannes Tigges
 * Klaas-Jan Stol
+* Matt Cobby
 * Maximilian Capraro
 * Mishari Muqbil
 * Russell Rutledge
