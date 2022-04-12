@@ -23,10 +23,10 @@ This year’s award is going to:
 We would like to extend a massive thank you to the 3 exceptional contributors to our community and officially recognise them as the InnerSource Commons 2021 Outstanding Contributors. Hats off to you all!
 
 ### About InnerSource Commons
- 
-InnerSource Commons is the world's largest community of InnerSource practitioners. It is dedicated to creating and sharing knowledge about InnerSource, the use of open source best practices for software development within the confines of an organization.
- 
-Founded in 2015, the InnerSource Commons is now supporting and connecting over 1500 individuals from over 500 companies, academic institutions, and government agencies. The InnerSource Commons Foundation was incorporated on February 19th, 2020 and is now a 501(c)(3) public charity.
+
+<p>
+{{< about-text >}}
+</p>
  
 ### Contact Information
  
