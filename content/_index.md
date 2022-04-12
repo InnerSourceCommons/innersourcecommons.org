@@ -76,7 +76,23 @@ title: "InnerSource Commons"
   </div>
 </section>
 
+
 <section class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="offset-md-2 col-md-4 mb-4 mb-md-0">
+        {{< announcements >}}
+      </div>
+      <div class="col-md-5">
+        <p class="section-title h2">InnerSource Commons Foundation</p>
+        <p>InnerSource Commons is a 501(c)(3) non-profit organization governed by a set of corporate bylaws.</p>
+        <p><a href="/about/" class="btn-link">About Foundation <i class="ti-arrow-right"></i></a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-last section">
   <div class="container section-small shadow rounded-lg px-4 bg-light">
     <div class="row align-items-center justify-content-center text-center text-md-left">
       <div class="col-lg-5 col-md-4 mb-4 mb-md-0">

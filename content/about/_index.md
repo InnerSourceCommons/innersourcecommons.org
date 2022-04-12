@@ -9,7 +9,7 @@ draft: false
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-4 mb-4 mb-md-0">
-        <img src="/images/logo-big.png" class="img-fluid logo-home pr-4">
+        {{< announcements >}}
       </div>
       <div class="col-md-7">
         <p>{{< about-text >}}
