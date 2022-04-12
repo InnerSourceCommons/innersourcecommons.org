@@ -2,7 +2,7 @@
 type: research
 title: 'State of InnerSource Survey 2020'
 image: "/images/learn/research/sois2020.jpg"
-weight: 4
+weight: 3
 summary: Report of the 2020 State of InnerSource Survey
 research_url: /documents/surveys/State.of.InnerSource.Report.2020.pdf
 survey_closing_date: 2020-12-12
