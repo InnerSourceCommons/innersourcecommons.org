@@ -102,7 +102,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Ford" image="/images/logos/ford.png" article="https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/" author_name="KFlorian Frischmuth" author_title="Cheif Architect" >}}
       Our environment allows developers to find solutions that have already been developed. They can collaborate on those, and then reuse them.
       {{< /company >}}
-      {{< company name="GitHub" image="/images/logos/github.png" article="https://infocus.github.com/sessions/modernizing-and-unifying-development-at-comcast/" author_name="Martin Woodworth" author_title="Director, Developer Relations" >}}
+      {{< company name="GitHub" image="/images/logos/github.png" article="https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/" author_name="Martin Woodworth" author_title="Director, Developer Relations" >}}
       The reason why InnerSource works is because like open source you're working with people who are collaborating with different priorities because they're working on different things
       {{< /company >}}
       {{< company name="GitLab" image="/images/logos/gitlab.png" article="https://about.gitlab.com/solutions/innersource/" >}}
