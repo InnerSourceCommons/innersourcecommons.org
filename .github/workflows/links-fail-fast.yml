@@ -1,4 +1,4 @@
-ame: Links Check
+name: Links Check
 
 on:
   push:
