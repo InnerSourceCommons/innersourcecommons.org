@@ -1,0 +1,21 @@
+name: Links Check
+
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
+  schedule:
+    - cron: '00 18 * * *'
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.4.1
+        with:
+          fail: true
+          args: --verbose --no-progress --exclude=linkedin.com content/community/action.md
