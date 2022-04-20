@@ -23,6 +23,7 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 * Dmitrii Sugrobov
 * Fei Wan
 * Georg Grutter
+* Igor Zubaiurre 
 * Isabel Drost-Fromm
 * Jacob Green
 * Jerry Tan
