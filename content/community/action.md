@@ -213,8 +213,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Trustpilot" image="/images/logos/trustpilot.png" article="https://github.com/customer-stories/trustpilot" author_name="Martin Andersen" author_title="VP of Engineering" >}}
       We have an InnerSource policy: Everybody has access to create pull requests on all repositories. You can see all our code. We don’t lock down anything.
       {{< /company >}}
-      {{< company name="Twilio" image="/images/logos/twilio.png" article="https://github.com/customer-stories/twilio" author_name="Jo Ann Tan" author_title="Vice President and Head of Infrastructure" >}}
-      Our development teams have benefited from the collaborative features of GitHub. It allows them to take co-development to a whole new level by working as a community and maturing our InnerSourcing practices.
+      {{< company name="Twilio" image="/images/logos/twilio.png" article="https://github.com/customer-stories/twilio" author_name="Roman Scheiter" author_title="Head of Productivity Engineering" >}}
+      Twilio engineers are encouraged to submit pull requests to projects that are not immediately owned by their team. They can then work with the owning team on integrating their change into the code base.
       {{< /company >}}
       {{< company name="US Bank" image="/images/logos/usbank.png" video="https://youtu.be/4qT9wCz3hKw" >}}
       {{< /company >}}
