@@ -190,7 +190,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Standard Charted" image="/images/logos/standard.png" article="https://www.linkedin.com/pulse/driving-innersourcing-through-collaboration-now-reality-george/?trackingId=BCPhjmSUTlmwMWi%2FymACww%3D%3D" >}}
       {{< /company >}}
-      {{< company name="Stripe" image="/images/logos/stripe.png" article="https://github.com/customer-stories/stripe" author_name="Micheal Advocate" author_title="Developer Advocate" >}}
+      {{< company name="Stripe" image="/images/logos/stripe.png" article="https://github.com/customer-stories/stripe" author_name="Michael Glukhovsky" author_title="Developer Advocate" >}}
       This internal community removes friction as we build software while making all of our projects more open and social.
       {{< /company >}}
       {{< company name="Taxfix" image="/images/logos/taxfix.png" article="https://www.linkedin.com/feed/update/urn:li:activity:6765182430468030464/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6765182430468030464%29" >}}
