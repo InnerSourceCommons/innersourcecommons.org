@@ -1,0 +1,5 @@
+# individuals that will receive automatic notifications about new PRs
+# for syntax details see:
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+* @voborgus @clcoffey
