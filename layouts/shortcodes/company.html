@@ -1,7 +1,8 @@
 <div class="col-md-4 col-sm-6 mb-4">
   <div class="feature-card bg-light text-center mb-0">
-    <div class="h-150 d-flex align-items-center justify-content-center mb-0">
-      <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}" title="{{ .Get "name" }}" class="mh-150 company-logo">
+    <div class="h-150 d-flex align-items-center justify-content-center mb-0 company-logo-box">
+      <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}" title="{{ .Get "name" }}" class="mh-150">
+      <div>{{ .Get "name" }}</div>
     </div>
     <div class="cite-icons mt-1 align-items-center justify-content-center mb-0">
       {{ if (not (eq (trim .Inner "\n ") "")) }}<a href="#" class="cite-link" data-link="{{ urlize (.Get "name")}}-cite"><i class="ti-align-right mb-0 mr-1"></i></a>{{ end }}
