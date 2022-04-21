@@ -210,8 +210,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Trayio" image="/images/logos/tray.png" article="https://github.com/customer-stories/trayio" author_name="Alberto Giorgi" author_title="Director of Engineering" >}}
       Anyone can learn something from another team and quickly see what’s in the code..Having a fairly open structure allows people to get involved quite easily and quickly.
       {{< /company >}}
-      {{< company name="Trustpilot" image="/images/logos/trustpilot.png" article="https://github.com/customer-stories/trustpilot" author_name="Jo Ann Tan" author_title="Vice President and Head of Infrastructure" >}}
-      We have an InnerSource policy, Everybody has access to create pull requests on all repositories. You can see all our code. We don’t lock down anything.
+      {{< company name="Trustpilot" image="/images/logos/trustpilot.png" article="https://github.com/customer-stories/trustpilot" author_name="Martin Andersen" author_title="VP of Engineering" >}}
+      We have an InnerSource policy: Everybody has access to create pull requests on all repositories. You can see all our code. We don’t lock down anything.
       {{< /company >}}
       {{< company name="Twilio" image="/images/logos/twilio.png" article="https://github.com/customer-stories/twilio" author_name="Jo Ann Tan" author_title="Vice President and Head of Infrastructure" >}}
       Our development teams have benefited from the collaborative features of GitHub. It allows them to take co-development to a whole new level by working as a community and maturing our InnerSourcing practices.
