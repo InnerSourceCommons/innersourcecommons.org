@@ -10,7 +10,7 @@
     </div>
     {{ if (not (eq (trim .Inner "\n ") "")) }}
       <div id="{{ urlize (.Get "name")}}-cite" class="cite-text">
-      <p><cite>“{{ .Inner }}”</cite></p>
+      <p><cite>“{{ trim .Inner "\n " }}”</cite></p>
       {{ if .Get "author_name" }}<a href="{{ .Get "link" }}"><b>{{ .Get "author_name" }}</b>, {{ .Get "author_title" }}</a>{{ end }}
       </div>
     {{ end }}
