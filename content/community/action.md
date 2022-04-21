@@ -90,7 +90,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Ericsson" image="/images/logos/ericsson.png" article="/learn/books/adopting-innersource-principles-and-case-studies" >}}
       {{< /company >}}
-      {{< company name="Etsy" image="/images/logos/etsy.png" article="https://github.com/customer-stories/etsy" author_name="Keyur Govande" author_title="Cheif Architect" >}}
+      {{< company name="Etsy" image="/images/logos/etsy.png" article="https://github.com/customer-stories/etsy" author_name="Keyur Govande" author_title="Chief Architect" >}}
       Everyone should be able to read the code that powers etsy.com and contribute to the broader success of the company.
       {{< /company >}}
       {{< company name="Europace" image="/images/logos/europace.png" article="/learn/books/adopting-innersource-principles-and-case-studies" >}}
@@ -99,7 +99,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Fidelity Investments" image="/images/logos/fidelity.png" article="https://innersourcecommons.org/events/isc-fall-2018/" >}}
       {{< /company >}}
-      {{< company name="Ford" image="/images/logos/ford.png" article="https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/" author_name="KFlorian Frischmuth" author_title="Cheif Architect" >}}
+      {{< company name="Ford" image="/images/logos/ford.png" article="https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/" author_name="Florian Frischmuth" author_title="Chief Engineer" >}}
       Our environment allows developers to find solutions that have already been developed. They can collaborate on those, and then reuse them.
       {{< /company >}}
       {{< company name="GitHub" image="/images/logos/github.png" article="https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/" author_name="Martin Woodworth" author_title="Director, Developer Relations" >}}
