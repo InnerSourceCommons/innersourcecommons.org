@@ -35,7 +35,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="BBC" image="/images/logos/bbc.png" video="https://www.youtube.com/watch?v=pEGMxe6xz-0" author_name="Steph Egan" author_title="Software Engineering Team Lead" >}}
       Our tools have been built been built from the ground up with an expectation of InnerSource … The way that we encourage that in a very disparate organization is mostly word of mouth and clear documentation.
       {{< /company >}}
-      {{< company name="BCG Gamma" image="/images/bcg.png" article="https://github.com/customer-stories/bcg-gamma" >}}
+      {{< company name="BCG Gamma" image="/images/logos/bcg.png" article="https://github.com/customer-stories/bcg-gamma" >}}
       {{< /company >}}
       {{< company name="Bitergia" image="/images/logos/bitergia.png" article="https://www.linkedin.com/feed/update/urn:li:activity:6711604569262067712/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6711604569262067712%29" >}}
       {{< /company >}}
@@ -58,7 +58,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Comcast" image="/images/logos/comcast.png" video="https://www.youtube.com/watch?v=msD-8-yrGfs&t=6s" author_name="Nithya Ruff" author_title="Head of Comcast’s Open Source Program Office" >}}
       InnerSource helped us create a community inside the company... InnerSource is truly a cultural transformation.
       {{< /company >}}
-       {{< company name="Commonwealth Bank Austrailia" image="/images/cba.png" article="https://www.itnews.com.au/news/cba-to-treat-its-software-like-food-in-the-fridge-570930" >}}
+       {{< company name="Commonwealth Bank Austrailia" image="/images/logos/cba.png" article="https://www.itnews.com.au/news/cba-to-treat-its-software-like-food-in-the-fridge-570930" >}}
       {{< /company >}}
       {{< company name="CHR" image="/images/logos/chr.png" article="https://github.com/customer-stories/ch-robinson/" >}}
       {{< /company >}}
@@ -129,7 +129,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Llyods" image="/images/logos/lloyds.png" article="https://www.nearform.com/blog/journey-to-innersource-danese-cooper-james-mcleod/"  >}}
       {{< /company >}}
-      {{< company name="Mercari" image="/images/mercari.png" article="https://github.com/customer-stories/mercari" >}}
+      {{< company name="Mercari" image="/images/logos/mercari.png" article="https://github.com/customer-stories/mercari" >}}
       {{< /company >}}
       {{< company name="Microsoft" image="/images/logos/microsoft.png" video="https://www.youtube.com/watch?v=eZdx5MQCLA4" author_name="Arno Mihm" author_title="Program Manager InnerSource" >}}
       We have seen greater engineering satisfaction among teams that practice InnerSource... we have [also] seen better product quality and responses because of InnerSource.
@@ -173,11 +173,11 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Seagate" image="/images/logos/seagate.png" article="https://github.com/customer-stories/seagate" >}}
       {{< /company >}}
-      {{< company name="Shell" image="/images/shell.png" video="https://youtu.be/7AJuMROHRHY" >}}
+      {{< company name="Shell" image="/images/logos/shell.png" video="https://youtu.be/7AJuMROHRHY" >}}
       {{< /company >}}
       {{< company name="Shutterstock" image="/images/logos/shutterstock.png" article="https://panelpicker.sxsw.com/vote/89929" >}}
       {{< /company >}}
-      {{< company name="Siemens" image="/images/simens.png" article="https://jfrog.com/blog/creating-an-inner-source-hub-at-siemens/" >}}
+      {{< company name="Siemens" image="/images/logos/siemens.png" article="https://jfrog.com/blog/creating-an-inner-source-hub-at-siemens/" >}}
       {{< /company >}}
       {{< company name="Skyscanner" image="/images/logos/skyscanner.png" article="https://github.com/customer-stories/skyscanner" >}}
       {{< /company >}}
@@ -216,9 +216,9 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Twilio" image="/images/logos/twilio.png" article="https://github.com/customer-stories/twilio" author_name="Jo Ann Tan" author_title="Vice President and Head of Infrastructure" >}}
       Our development teams have benefited from the collaborative features of GitHub. It allows them to take co-development to a whole new level by working as a community and maturing our InnerSourcing practices.
       {{< /company >}}
-      {{< company name="US Bank" image="/images/usbank.png" video="https://youtu.be/4qT9wCz3hKw" >}}
+      {{< company name="US Bank" image="/images/logos/usbank.png" video="https://youtu.be/4qT9wCz3hKw" >}}
       {{< /company >}}
-      {{< company name="ViacomCBS" image="/images/viacomcbs.png" article="https://github.com/customer-stories/viacomcbs-streaming" >}}
+      {{< company name="ViacomCBS" image="/images/logos/viacomcbs.png" article="https://github.com/customer-stories/viacomcbs-streaming" >}}
       {{< /company >}}
       {{< company name="Vmware" image="/images/logos/vmware.png" video="https://www.youtube.com/watch?v=Y6biezNfJOM" author_name="Minchene Tang" author_title="Vmware" >}}
       A project isn’t just about the code, there’s a team behind it, including writers, designers and project managers. [InnerSource] gives you the opportunity to collaborate across multiple time zones and business units.
@@ -226,9 +226,9 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Walmart" image="/images/logos/walmart.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Jeremy King" author_title="Executive Vice President & CTO for Global eCommerce" >}}
       Once you embrace it [InnerSource] and see new teams come on, you show examples of places where not only can people contribute, you unlock bottlenecks
       {{< /company >}}
-      {{< company name="WayFair" image="/images/logos/wayfair.png" article="https://github.com/customer-stories/wayfair">}} 
+      {{< company name="WayFair" image="/images/logos/wayfair.png" article="https://github.com/customer-stories/wayfair">}}
       {{< /company >}}
-      {{< company name="Wellsky" image="/images/wellsky.png" video="https://youtu.be/kgxexjYdhIc" >}}
+      {{< company name="Wellsky" image="/images/logos/wellsky.png" video="https://youtu.be/kgxexjYdhIc" >}}
       {{< /company >}}
       {{< company name="John Wiley and Sons" image="/images/logos/wiley.png" article="https://github.com/customer-stories/wiley" author_name="Fedor Terlov" author_title="Director of Site Reliability" >}}
       Suddenly developers are buttoning up the structure of their code—open source and InnerSource act as a forcing function to get the details right and ready for more eyes.
@@ -241,7 +241,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Zendesk" image="/images/logos/zendesk.png" article="https://github.com/customer-stories/zendesk" author_name="Jason Smale" author_title="VP of Engineering" >}}
       Our engineering culture is open and centred around teams owning services and being responsible for running them in production.
       {{< /company >}}
-      {{< company name="Zymple" image="/images/zymple.png" video="https://youtu.be/QWbxXp5-nOQ" >}}
+      {{< company name="Zymple" image="/images/logos/zymple.png" video="https://youtu.be/QWbxXp5-nOQ" >}}
       {{< /company >}}
     </div>
   </div>
