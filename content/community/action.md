@@ -90,7 +90,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Ericsson" image="/images/logos/ericsson.png" article="/learn/books/adopting-innersource-principles-and-case-studies" >}}
       {{< /company >}}
-      {{< company name="Etsy" image="/images/logos/etsy.png" article="https://github.com/customer-stories/etsy" author_name="Keyur Govande" author_title="Cheif Architect" >}}
+      {{< company name="Etsy" image="/images/logos/etsy.png" article="https://github.com/customer-stories/etsy" author_name="Keyur Govande" author_title="Chief Architect" >}}
       Everyone should be able to read the code that powers etsy.com and contribute to the broader success of the company.
       {{< /company >}}
       {{< company name="Europace" image="/images/logos/europace.png" article="/learn/books/adopting-innersource-principles-and-case-studies" >}}
@@ -99,7 +99,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Fidelity Investments" image="/images/logos/fidelity.png" article="https://innersourcecommons.org/events/isc-fall-2018/" >}}
       {{< /company >}}
-      {{< company name="Ford" image="/images/logos/ford.png" article="https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/" author_name="KFlorian Frischmuth" author_title="Cheif Architect" >}}
+      {{< company name="Ford" image="/images/logos/ford.png" article="https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/" author_name="Florian Frischmuth" author_title="Chief Engineer" >}}
       Our environment allows developers to find solutions that have already been developed. They can collaborate on those, and then reuse them.
       {{< /company >}}
       {{< company name="GitHub" image="/images/logos/github.png" article="https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/" author_name="Martin Woodworth" author_title="Director, Developer Relations" >}}
@@ -190,7 +190,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Standard Charted" image="/images/logos/standard.png" article="https://www.linkedin.com/pulse/driving-innersourcing-through-collaboration-now-reality-george/?trackingId=BCPhjmSUTlmwMWi%2FymACww%3D%3D" >}}
       {{< /company >}}
-      {{< company name="Stripe" image="/images/logos/stripe.png" article="https://github.com/customer-stories/stripe" author_name="Micheal Advocate" author_title="Developer Advocate" >}}
+      {{< company name="Stripe" image="/images/logos/stripe.png" article="https://github.com/customer-stories/stripe" author_name="Michael Glukhovsky" author_title="Developer Advocate" >}}
       This internal community removes friction as we build software while making all of our projects more open and social.
       {{< /company >}}
       {{< company name="Taxfix" image="/images/logos/taxfix.png" article="https://www.linkedin.com/feed/update/urn:li:activity:6765182430468030464/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6765182430468030464%29" >}}
@@ -210,11 +210,11 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Trayio" image="/images/logos/tray.png" article="https://github.com/customer-stories/trayio" author_name="Alberto Giorgi" author_title="Director of Engineering" >}}
       Anyone can learn something from another team and quickly see what’s in the code..Having a fairly open structure allows people to get involved quite easily and quickly.
       {{< /company >}}
-      {{< company name="Trustpilot" image="/images/logos/trustpilot.png" article="https://github.com/customer-stories/trustpilot" author_name="Jo Ann Tan" author_title="Vice President and Head of Infrastructure" >}}
-      We have an InnerSource policy, Everybody has access to create pull requests on all repositories. You can see all our code. We don’t lock down anything.
+      {{< company name="Trustpilot" image="/images/logos/trustpilot.png" article="https://github.com/customer-stories/trustpilot" author_name="Martin Andersen" author_title="VP of Engineering" >}}
+      We have an InnerSource policy: Everybody has access to create pull requests on all repositories. You can see all our code. We don’t lock down anything.
       {{< /company >}}
-      {{< company name="Twilio" image="/images/logos/twilio.png" article="https://github.com/customer-stories/twilio" author_name="Jo Ann Tan" author_title="Vice President and Head of Infrastructure" >}}
-      Our development teams have benefited from the collaborative features of GitHub. It allows them to take co-development to a whole new level by working as a community and maturing our InnerSourcing practices.
+      {{< company name="Twilio" image="/images/logos/twilio.png" article="https://github.com/customer-stories/twilio" author_name="Roman Scheiter" author_title="Head of Productivity Engineering" >}}
+      Twilio engineers are encouraged to submit pull requests to projects that are not immediately owned by their team. They can then work with the owning team on integrating their change into the code base.
       {{< /company >}}
       {{< company name="US Bank" image="/images/logos/usbank.png" video="https://youtu.be/4qT9wCz3hKw" >}}
       {{< /company >}}

@@ -120,10 +120,6 @@ ol.breadcrumb {
     vertical-align: -10%;
 }
 
-.company-logo {
-  margin-bottom: 0;
-}
-
 .not-found {
     position: relative;
     top: -100px;
@@ -152,12 +148,12 @@ ol.breadcrumb {
     margin-bottom: 1em;
 }
 
-[type='checkbox'].svelte-pv412u:checked+span.svelte-pv412u.svelte-pv412u, 
+[type='checkbox'].svelte-pv412u:checked+span.svelte-pv412u.svelte-pv412u,
     [type='radio'].svelte-pv412u:checked+span.svelte-pv412u.svelte-pv412u {
     color: white;
 }
 
-[type='checkbox'].svelte-pv412u+span.svelte-pv412u.svelte-pv412u, 
+[type='checkbox'].svelte-pv412u+span.svelte-pv412u.svelte-pv412u,
     [type='radio'].svelte-pv412u+span.svelte-pv412u.svelte-pv412u {
     font-size: 16px;
     font-family: pt sans,sans-serif;
@@ -249,4 +245,20 @@ button.svelte-la9dd4:disabled {
 
 .cite-text {
     display: none;
+}
+
+.company-logo-box {
+    position: relative;
+
+    img {
+      margin-bottom: 0;
+    }
+
+    div {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0;
+    }
 }
