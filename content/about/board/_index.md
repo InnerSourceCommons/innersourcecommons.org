@@ -33,3 +33,15 @@ Daniel Izquierdo Cortazar is a researcher and one of the founders of Bitergia, a
 {{< board-member name="Jacob Green" image="/images/about/Jacob_Green.png" >}}
 Jacob Green, the founder of Mosslabs.io, is an open source artist, strategist & systems builder working to expand the impact and application of Open Source in society globally. Hailing from Baltimore, passionate about open source in cities & universities, and working to connect institutions via open source. Prior to Mosslabs.io, Jacob was Director of Strategic Initiatives at LTNGlobal, building a unique global video transport network from the ground up and from first principles.
 {{< /board-member >}}
+
+{{< board-member name="Klaas-Jan Stol" image="/images/about/KlaasJan_Stol.png" >}}
+Klaas-Jan Stol is a lecturer with University College Cork, Ireland, a Funded Investigator with Lero, the Science Foundation Ireland Research Centre for Software, and a Scientific Advisor with SINTEF, Norway. As an academic, he conducts research on contemporary software development approaches, as well as human and organizational aspects. He has long had an interest in InnerSource, and has published several papers on the topic. Klaas holds a PhD from the University of Limerick.
+{{< /board-member >}}
+
+{{< board-member name="Sebastian Spier" image="/images/about/Sebastian_Spier.png" >}}
+Bio of Sebastian here.
+{{< /board-member >}}
+
+{{< board-member name="Tom Sadler" image="/images/about/Tom_Sadler.png" >}}
+Bio of Tom here.
+{{< /board-member >}}
