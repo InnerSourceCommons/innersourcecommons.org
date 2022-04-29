@@ -42,6 +42,6 @@ Klaas-Jan Stol is a lecturer with University College Cork, Ireland, a Funded Inv
 Bio of Sebastian here.
 {{< /board-member >}}
 
-{{< board-member name="Tom Sadler" image="/images/about/Tom_Sadler.png" >}}
-Bio of Tom here.
+{{< board-member name="Tom Sadler" image="/images/about/Tom_Sadler.jpg" >}}
+Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working in the connected TV space and focussing on cross-team collaboration, including InnerSource. Tom has been involved with the InnerSource Commons since 2019, speaking at multiple community events, is a Trusted Committer on the InnerSource Learning Path project, and lead on publishing the Learning Path to innersourcecommons.org.
 {{< /board-member >}}
