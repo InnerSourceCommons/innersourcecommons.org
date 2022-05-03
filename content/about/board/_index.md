@@ -30,7 +30,7 @@ Johannes is a co-creator of the InnerSource Commons Learning Path and has worked
 Daniel Izquierdo Cortazar is a researcher and one of the founders of Bitergia, a company that provides software analytics for open source ecosystems. Currently the chief data officer at Bitergia, he is focused on the quality of the data, research of new metrics, analysis, and studies of interest for Bitergia customers via data mining and processing. Daniel holds a PhD in free software engineering from the Universidad Rey Juan Carlos in Madrid, where he focused on the analysis of buggy developers activity patterns in the Mozilla Community. Daniel serves on the board and is a Member of the InnerSource Commons.
 {{< /board-member >}}
 
-{{< board-member name="Jacob Green" image="/images/about/Jacob_Green.png" style="bg-light" >}}
+{{< board-member name="Jacob Green" image="/images/about/Jacob_Green.jpg" style="bg-light" >}}
 Jacob Green, the founder of Mosslabs.io, is an open source artist, strategist & systems builder working to expand the impact and application of Open Source in society globally. Hailing from Baltimore, passionate about open source in cities & universities, and working to connect institutions via open source. Prior to Mosslabs.io, Jacob was Director of Strategic Initiatives at LTNGlobal, building a unique global video transport network from the ground up and from first principles.
 {{< /board-member >}}
 
@@ -68,6 +68,6 @@ Previously, Russ founded and led the Developer Collaboration effort at Nike.
 Russ's drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process.
 {{< /board-member >}}
 
-{{< board-member name="Maximilian Capraro" image="/images/about/Maximilian_Capraro.png" >}}
+{{< board-member name="Maximilian Capraro" image="/images/about/Maximilian_Capraro.jpg" >}}
 Maximilian Capraro is a researcher and doctoral candidate at the Open Source Research Group at Friedrich-Alexander-University Erlangen-Nürnberg. He worked on inner source in research projects with a variety of companies including Black Duck Software, Continental, and multiple Siemens business units. He developed the patch-flow measurement method (for measuring software development collaboration) and the first classification framework for inner source projects and programs. His research interests the quantification of software development collaboration, inner source governance including legal and taxation aspects, and many other things around inner source, open source, and software engineering.
 {{< /board-member >}}
