@@ -2,7 +2,7 @@
 title: "InnerSource Commons"
 ---
 {{< notice >}}
-<i class="ti-announcement mr-2"></i>April 13th  9am UTC / 10am CEST / 1:30pm IST / 7pm AEDT. • Online • State of InnerSource 2021 Report findings <a href="https://bit.ly/cc13apr" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
+<i class="ti-announcement mr-2"></i>May 11th  9am UTC / 10am CEST / 1:30pm IST / 7pm AEDT. • Online • The Role of Middle Management <a href="https://bit.ly/RoleMM" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
 {{</ notice >}}
 
 
