@@ -47,3 +47,27 @@ As a Member of the InnerSource Commons Foundation, he is maintaining the collect
 {{< board-member name="Tom Sadler" image="/images/about/Tom_Sadler.jpg" >}}
 Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working in the connected TV space and focussing on cross-team collaboration, including InnerSource. Tom has been involved with the InnerSource Commons since 2019, speaking at multiple community events, is a Trusted Committer on the InnerSource Learning Path project, and lead on publishing the Learning Path to innersourcecommons.org.
 {{< /board-member >}}
+
+<div class="section-first container">
+    <h3>History:</h3>
+</div>
+
+<div class="section-first container">
+  The following people have served on our Board in previous years and we are listing them here to show our gratitude for their work.
+</div>
+
+{{< board-member name="Cedric Williams" title="Treasurer" image="/images/about/Cedric_Williams.jpg" >}}
+All of Cedric’s work, personal and professional, has been guided by my desire to improve people's lives - mostly through technology. The possibilities that can be unlocked with software and hardware systems are literally limitless. Each of his engagements has been given me the opportunity to work on that in new ways, some more technology-focused, and some more focused directly on customers. All of them have given him a deep appreciation for the responsibility of technologists to always make sure that what we build makes things better for anyone involved.
+{{< /board-member >}}
+
+{{< board-member name="Russell Rutledge" title="Secretary" image="/images/about/Russell_Rutledge.jpg" >}}
+Russ Rutledge is the Senior Director of InnerSource and Collaboration at WellSky.
+WellSky is a leading technology company offering a range of software solutions that help organizations across the healthcare continuum.
+In this role, Russ is leading a transformational change in the company towards broad and pervasive InnerSource as the normal way that work gets done.
+Previously, Russ founded and led the Developer Collaboration effort at Nike.
+Russ's drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process.
+{{< /board-member >}}
+
+{{< board-member name="Maximilian Capraro" image="/images/about/Maximilian_Capraro.png" >}}
+Maximilian Capraro is a researcher and doctoral candidate at the Open Source Research Group at Friedrich-Alexander-University Erlangen-Nürnberg. He worked on inner source in research projects with a variety of companies including Black Duck Software, Continental, and multiple Siemens business units. He developed the patch-flow measurement method (for measuring software development collaboration) and the first classification framework for inner source projects and programs. His research interests the quantification of software development collaboration, inner source governance including legal and taxation aspects, and many other things around inner source, open source, and software engineering.
+{{< /board-member >}}
