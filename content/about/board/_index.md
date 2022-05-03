@@ -26,11 +26,11 @@ Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO.
 Johannes is a co-creator of the InnerSource Commons Learning Path and has worked on introducing InnerSource to HERE Technologies, a leading digital map and location company. Currently he offers coaching and consulting on Engineering Productivity, Open Source and InnerSource Strategy and OSPO topics as well as cloud solution architecture. He also works as a lecturer and delivers technical training on the topics mentioned above. He presents his work and thoughts at industry conferences like the FOSDEM or the InnerSource Commons Summit and has been active in Open Source communities for a long time. With a background in both computer science and sociology of organizations he has a unique perspective on software engineering organizations. In past roles, he has also worked on introducing Continuous Integration and Delivery to large research institutions, in DevOps roles for very large cloud based platforms and developed software within the Telco domain.
 {{< /board-member >}}
 
-{{< board-member name="Daniel Izquierdo Cortazar"  image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
+{{< board-member name="Daniel Izquierdo Cortazar" image="/images/about/Daniel_Izquierdo.jpeg" >}}
 Daniel Izquierdo Cortazar is a researcher and one of the founders of Bitergia, a company that provides software analytics for open source ecosystems. Currently the chief data officer at Bitergia, he is focused on the quality of the data, research of new metrics, analysis, and studies of interest for Bitergia customers via data mining and processing. Daniel holds a PhD in free software engineering from the Universidad Rey Juan Carlos in Madrid, where he focused on the analysis of buggy developers activity patterns in the Mozilla Community. Daniel serves on the board and is a Member of the InnerSource Commons.
 {{< /board-member >}}
 
-{{< board-member name="Jacob Green" image="/images/about/Jacob_Green.png" >}}
+{{< board-member name="Jacob Green" image="/images/about/Jacob_Green.png" style="bg-light" >}}
 Jacob Green, the founder of Mosslabs.io, is an open source artist, strategist & systems builder working to expand the impact and application of Open Source in society globally. Hailing from Baltimore, passionate about open source in cities & universities, and working to connect institutions via open source. Prior to Mosslabs.io, Jacob was Director of Strategic Initiatives at LTNGlobal, building a unique global video transport network from the ground up and from first principles.
 {{< /board-member >}}
 
@@ -38,7 +38,7 @@ Jacob Green, the founder of Mosslabs.io, is an open source artist, strategist & 
 Klaas-Jan Stol is a lecturer with University College Cork, Ireland, a Funded Investigator with Lero, the Science Foundation Ireland Research Centre for Software, and a Scientific Advisor with SINTEF, Norway. As an academic, he conducts research on contemporary software development approaches, as well as human and organizational aspects. He has long had an interest in InnerSource, and has published several papers on the topic. Klaas holds a PhD from the University of Limerick.
 {{< /board-member >}}
 
-{{< board-member name="Sebastian Spier" image="/images/about/Sebastian_Spier.jpg" >}}
+{{< board-member name="Sebastian Spier" image="/images/about/Sebastian_Spier.jpg" style="bg-light" >}}
 Sebastian Spier is Director of Engineering Programs at Meltwater, where he works on tools and methods to improve the daily work of 500+ engineers, removing frictions wherever possible.
 As an engineering manger for various software development teams, he has experienced InnerSource as a central building block to support successful collaboration in distributed teams.
 As a Member of the InnerSource Commons Foundation, he is maintaining the collection of InnerSource Patterns, always looking to help others to use and improve these patterns.
