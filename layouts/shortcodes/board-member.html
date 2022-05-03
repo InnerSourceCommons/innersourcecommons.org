@@ -1,8 +1,8 @@
 <section class="section {{ with .Get "style" }}{{ . }}{{ end }}">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-4 mb-4 mb-md-0 text-right">
-           <img src="{{ .Get "image" }}" class="mh-300">
+        <div class="col-md-4 mb-4 mb-md-0 text-center">
+           <img src="{{ .Get "image" }}" title="{{ .Get "name" }}" alt="{{ .Get "name" }}" class="mh-300">
         </div>
         <div class="col-md-6 offset-md-1">
           <h3>{{ .Get "name" }}</h3>
