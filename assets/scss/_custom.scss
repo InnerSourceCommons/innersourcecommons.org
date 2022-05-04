@@ -262,3 +262,28 @@ button.svelte-la9dd4:disabled {
       opacity: 0;
     }
 }
+
+.board-profile {
+    filter: grayscale(100%) brightness(105%);
+    // filter: grayscale(85%) contrast(115%) brightness(105%);
+    display: inline-block;
+    position: relative;
+}
+
+.board-profile img {
+    border-radius: 45px;
+}
+
+// Experiment:
+// Adding a color filter to the images, to create a more cohesive look.
+// Source: https://www.webascender.com/blog/use-css-image-filters-create-cohesive-look-feel-website/
+// .board-profile::before {
+//     // #077877
+//     background: rgba(7, 120, 109, 0.23);
+//     content: "";
+//     height: 100%;
+//     left: 0;
+//     position: absolute;
+//     top: 0;
+//     width: 100%;
+// }

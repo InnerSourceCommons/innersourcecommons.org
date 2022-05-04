@@ -7,7 +7,7 @@ aliases:
 ---
 
 <div class="section-first container">
-    <h3>Our current Board is made up of:</h3>
+    <h2>Our current Board is made up of:</h2>
 </div>
 
 {{< board-member name="Danese Cooper" title="Chairperson" image="/images/about/Danese_Cooper.jpg" style="section-first" >}}
@@ -34,7 +34,7 @@ Daniel Izquierdo Cortazar is a researcher and one of the founders of Bitergia, a
 Jacob Green, the founder of Mosslabs.io, is an open source artist, strategist & systems builder working to expand the impact and application of Open Source in society globally. Hailing from Baltimore, passionate about open source in cities & universities, and working to connect institutions via open source. Prior to Mosslabs.io, Jacob was Director of Strategic Initiatives at LTNGlobal, building a unique global video transport network from the ground up and from first principles.
 {{< /board-member >}}
 
-{{< board-member name="Klaas-Jan Stol" image="/images/about/KlaasJan_Stol.png" >}}
+{{< board-member name="Klaas-Jan Stol" image="/images/about/Klaas-Jan_Stol.jpg" >}}
 Klaas-Jan Stol is a lecturer with University College Cork, Ireland, a Funded Investigator with Lero, the Science Foundation Ireland Research Centre for Software, and a Scientific Advisor with SINTEF, Norway. As an academic, he conducts research on contemporary software development approaches, as well as human and organizational aspects. He has long had an interest in InnerSource, and has published several papers on the topic. Klaas holds a PhD from the University of Limerick.
 {{< /board-member >}}
 
@@ -49,18 +49,18 @@ Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working
 {{< /board-member >}}
 
 <div class="section-first container">
-    <h3>History:</h3>
+    <h2>History:</h2>
 </div>
 
 <div class="section-first container">
   The following people have served on our Board in previous years and we are listing them here to show our gratitude for their work.
 </div>
 
-{{< board-member name="Cedric Williams" title="Treasurer" image="/images/about/Cedric_Williams.jpg" >}}
+{{< board-member name="Cedric Williams" image="/images/about/Cedric_Williams.jpg" >}}
 All of Cedric’s work, personal and professional, has been guided by my desire to improve people's lives - mostly through technology. The possibilities that can be unlocked with software and hardware systems are literally limitless. Each of his engagements has been given me the opportunity to work on that in new ways, some more technology-focused, and some more focused directly on customers. All of them have given him a deep appreciation for the responsibility of technologists to always make sure that what we build makes things better for anyone involved.
 {{< /board-member >}}
 
-{{< board-member name="Russell Rutledge" title="Secretary" image="/images/about/Russell_Rutledge.jpg" >}}
+{{< board-member name="Russell Rutledge" image="/images/about/Russell_Rutledge.jpg" >}}
 Russ Rutledge is the Senior Director of InnerSource and Collaboration at WellSky.
 WellSky is a leading technology company offering a range of software solutions that help organizations across the healthcare continuum.
 In this role, Russ is leading a transformational change in the company towards broad and pervasive InnerSource as the normal way that work gets done.
