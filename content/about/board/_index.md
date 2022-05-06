@@ -6,6 +6,14 @@ aliases:
     - /board
 ---
 
+<!--
+  ## Instructions for the profile pictures:
+
+  The pictures should be exactly 300x300 px, with the face centered in the picture. Stored the picture files in folder `/static/images/about` in JPG or PNG format, and keep the file size reasonably small (~50KB).
+
+  Note: A grayscale effect will be applied to the pictures automatically (via CSS), to make the Board overview look more cohesive.
+-->
+
 <div class="section-first container">
     <h2>Our current Board is made up of:</h2>
 </div>
