@@ -1,7 +1,7 @@
 ---
 title: "Board & Governance"
 type: "board"
-subtitle: InnerSource Commons is a 501(c)(3) non-profit organization governed by a set of corporate bylaws. The Board of Directors sets the policy and appoints officers that set and execute policy. The Board is elected by the Membership on a yearly basis. InnerSource Commons initially is incorporated in the US. As the community grows, we anticipate to found sister organizations in the European Union, Latin America, and other parts of the world.
+subtitle: InnerSource Commons is a 501(c)(3) non-profit organization governed by a set of corporate bylaws. The Board of Directors sets the policy and appoints officers that set and execute policy. The Board is elected by the Membership on a yearly basis. InnerSource Commons is incorporated in the US. As the community grows, we anticipate to found sister organizations in the European Union, Latin America, and other parts of the world.
 aliases:
     - /board
 ---
@@ -15,7 +15,7 @@ aliases:
 -->
 
 <div class="section-first container">
-    <h2>Our current Board is made up of:</h2>
+    <h2>The current Board:</h2>
 </div>
 
 {{< board-member name="Danese Cooper" title="Chairperson" image="/images/about/Danese_Cooper.jpg" style="section-first" >}}
@@ -60,8 +60,10 @@ Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working
     <h2>History:</h2>
 </div>
 
-<div class="section-first container">
-  The following people have served on our Board in previous years and we are listing them here to show our gratitude for their work.
+<div class="container">
+  <p>
+    These fine people have served on our Board in previous years and we are listing them here to show our gratitude for their work. Thank you for your dedication to InnerSource and your active support of the InnerSource Commons Foundation!
+  </p>
 </div>
 
 {{< board-member name="Cedric Williams" image="/images/about/Cedric_Williams.jpg" >}}
