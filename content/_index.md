@@ -2,7 +2,7 @@
 title: "InnerSource Commons"
 ---
 {{< notice >}}
-<i class="ti-announcement mr-2"></i>May 11th  9am UTC / 10am CEST / 1:30pm IST / 7pm AEDT. • Online • The Role of Middle Management <a href="https://bit.ly/RoleMM" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
+<i class="ti-announcement mr-2"></i>May 24th  5pm BST / 6pm CEST / 11am CST / 9am PST • Online • Incentivizing Culture Change <a href="https://bit.ly/ISCIncent" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
 {{</ notice >}}
 
 
