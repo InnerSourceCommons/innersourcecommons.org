@@ -143,7 +143,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Nationwide" image="/images/logos/nationwide.png" article="https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/" author_name="Cindy Payne" author_title="Associate Vice President of IT Application Services" >}}
       We knew (with InnerSource)  were going to save money, but that savings immediately turned into more capacity for teams to do the most valuable work for our business.
       {{< /company >}}
-      {{< company name="Navex Global" image="/images/logos/navex-global.png" article=http://mxmossman.blogspot.com/2017/" >}}
+      {{< company name="Navex Global" image="/images/logos/navex-global.png" article="http://mxmossman.blogspot.com/2017/01/pnsqc-2016-day-1.html" >}}
       {{< /company >}}
       {{< company name="Nokia" image="/images/logos/nokia.png" article="/events/isc-fall-2017" >}}
       {{< /company >}}
