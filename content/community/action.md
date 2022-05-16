@@ -164,6 +164,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Royal Bank of Canada" image="/images/logos/rbc.png" article="https://www.finos.org/blog/innersource-as-the-first-step-toward-open-source-anthony-vacca-rbc" video="https://www.youtube.com/watch?v=QbJ4VFk8DwA">}}
       {{< /company >}}
+      {{< company name="Reserve Bank of India" image="/images/logos/rbi.png" video="https://videos.itrevolution.com/watch/707352100/">}}
+      {{< /company >}}
       {{< company name="Grupo Santander" image="/images/logos/santander.png" video="https://www.youtube.com/watch?v=277mzDL12Q4&ab_channel=InnerSourceCommons" >}}
       {{< /company >}}
       {{< company name="SAP" image="/images/logos/sap.png" video="https://www.youtube.com/watch?v=2nhKMcv5STc&t=269s" author_name="Micheal Graf and Guilherme Dellagustin" author_title="SAP" >}}
