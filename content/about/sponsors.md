@@ -30,6 +30,7 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
       {{< company name="Indeed" image="/images/logos/indeed.png" >}}{{< /company >}}
       {{< company name="Santander" image="/images/logos/santander.png" >}}{{< /company >}}
       {{< company name="SAP" image="/images/logos/sap.png" >}}{{< /company >}}
+      {{< company name="Sourcegraph" image="/images/logos/sourcegraph.svg" >}}{{< /company >}}
     </div>
   </div>
       
