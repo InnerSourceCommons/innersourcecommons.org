@@ -70,7 +70,7 @@ Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working
 All of Cedric’s work, personal and professional, has been guided by my desire to improve people's lives - mostly through technology. The possibilities that can be unlocked with software and hardware systems are literally limitless. Each of his engagements has been given me the opportunity to work on that in new ways, some more technology-focused, and some more focused directly on customers. All of them have given him a deep appreciation for the responsibility of technologists to always make sure that what we build makes things better for anyone involved.
 {{< /board-member >}}
 
-{{< board-member name="Russell Rutledge" image="/images/about/Russell_Rutledge.jpg" >}}
+{{< board-member name="Russell Rutledge" title="Assistant Secretary" image="/images/about/Russell_Rutledge.jpg" >}}
 Russ Rutledge is the Senior Director of InnerSource and Collaboration at WellSky.
 WellSky is a leading technology company offering a range of software solutions that help organizations across the healthcare continuum.
 In this role, Russ is leading a transformational change in the company towards broad and pervasive InnerSource as the normal way that work gets done.
@@ -78,7 +78,7 @@ Previously, Russ founded and led the Developer Collaboration effort at Nike.
 Russ's drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process.
 {{< /board-member >}}
 
-{{< board-member name="Maximilian Capraro" image="/images/about/Maximilian_Capraro.jpg" >}}
+{{< board-member name="Maximilian Capraro" title="Assistant Treasurer" image="/images/about/Maximilian_Capraro.jpg" >}}
 Maximilian Capraro is a researcher and doctoral candidate at the Open Source Research Group at Friedrich-Alexander-University Erlangen-Nürnberg. He worked on inner source in research projects with a variety of companies including Black Duck Software, Continental, and multiple Siemens business units. He developed the patch-flow measurement method (for measuring software development collaboration) and the first classification framework for inner source projects and programs. His research interests the quantification of software development collaboration, inner source governance including legal and taxation aspects, and many other things around inner source, open source, and software engineering.
 {{< /board-member >}}
 
