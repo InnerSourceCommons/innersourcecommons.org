@@ -83,7 +83,7 @@ Maximilian Capraro is a researcher and doctoral candidate at the Open Source Res
 {{< /board-member >}}
 
 {{< board-member name="Tim Yao" image="/images/about/Tim_Yao.jpeg" >}}
-Tim is a Distinguished Member of Technical Staff and Domain Leader for Open Source Innovation in the Nokia Mobile Network CTO Core and Cloud Innovation team, working on software reuse, InnerSource, open source and cloud robotics topics. Over his nineteen-year career in telecommunications, Tim has held roles in software testing, system engineering, architecture, and procurement. He served six years on the Alcatel-Lucent FOSS Executive Committee. Tim has experience creating grass roots communities within the company and outside of it; he is a volunteer co-Municipal Liaison for National Novel Writing Month.
+Tim is a Distinguished Member of Technical Staff and the Product Manager for Nokia Continuous Delivery in Nokia Cloud and Network Services. Over his twenty-plus year career in telecommunications, Tim has held roles in innovation, software testing, system engineering, architecture, and procurement. He served six years on the Alcatel-Lucent FOSS Executive Committee. Tim has experience creating grass roots communities within the company and outside of it; he is a volunteer co-Municipal Liaison for National Novel Writing Month.
 {{< /board-member >}}
 
 {{< board-member name="Silona Bonewald" image="/images/about/Silona_Bonewald.jpeg" >}}
