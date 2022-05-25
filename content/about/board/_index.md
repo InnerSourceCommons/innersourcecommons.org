@@ -26,15 +26,15 @@ Danese Cooper is the founder and chair of InnerSource Commons. She is a long ter
 Isabel Drost-Fromm is Open Source Strategist at Europace AG Germany. She`s a member of the Apache Software Foundation, co-founder of Apache Mahout and mentored several incubating projects. Isabel is interested in all things FOSS, search and text mining with a decent machine learning background. True to the nature of people living in Berlin she loves having friends fly in for a brief visit - as a result she co-founded and is still one of the creative heads behind Berlin Buzzwords, a tech conference on all things search, scale and storage.
 {{< /board-member >}}
 
-{{< board-member name="Georg Grutter" title="Vice President" image="/images/about/Georg_Grutter.jpeg" >}}
+{{< board-member name="Georg Grutter" image="/images/about/Georg_Grutter.jpeg" >}}
 Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO. He co-founded and led the first InnerSource community at Bosch. Georg is a passionate software developer with over 30 years of experience. Previously, he held various positions and roles at Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg has created two open source projects, who also loves photography and chocolate.
 {{< /board-member >}}
 
-{{< board-member name="Johannes Tigges" title="Assistant Secretary" image="/images/about/Johannes_Tigges.png" style="bg-light">}}
+{{< board-member name="Johannes Tigges" image="/images/about/Johannes_Tigges.png" style="bg-light">}}
 Johannes is a co-creator of the InnerSource Commons Learning Path and has worked on introducing InnerSource to HERE Technologies, a leading digital map and location company. Currently he offers coaching and consulting on Engineering Productivity, Open Source and InnerSource Strategy and OSPO topics as well as cloud solution architecture. He also works as a lecturer and delivers technical training on the topics mentioned above. He presents his work and thoughts at industry conferences like the FOSDEM or the InnerSource Commons Summit and has been active in Open Source communities for a long time. With a background in both computer science and sociology of organizations he has a unique perspective on software engineering organizations. In past roles, he has also worked on introducing Continuous Integration and Delivery to large research institutions, in DevOps roles for very large cloud based platforms and developed software within the Telco domain.
 {{< /board-member >}}
 
-{{< board-member name="Daniel Izquierdo Cortazar" image="/images/about/Daniel_Izquierdo.jpeg" >}}
+{{< board-member name="Daniel Izquierdo Cortazar" title="Vice President" image="/images/about/Daniel_Izquierdo.jpeg" >}}
 Daniel Izquierdo Cortazar is a researcher and one of the founders of Bitergia, a company that provides software analytics for open source ecosystems. Currently the chief data officer at Bitergia, he is focused on the quality of the data, research of new metrics, analysis, and studies of interest for Bitergia customers via data mining and processing. Daniel holds a PhD in free software engineering from the Universidad Rey Juan Carlos in Madrid, where he focused on the analysis of buggy developers activity patterns in the Mozilla Community. Daniel serves on the board and is a Member of the InnerSource Commons.
 {{< /board-member >}}
 
@@ -52,7 +52,7 @@ As an engineering manger for various software development teams, he has experien
 As a Member of the InnerSource Commons Foundation, he is maintaining the collection of InnerSource Patterns, always looking to help others to use and improve these patterns.
 {{< /board-member >}}
 
-{{< board-member name="Tom Sadler" image="/images/about/Tom_Sadler.jpg" >}}
+{{< board-member name="Tom Sadler" title="Secretary" image="/images/about/Tom_Sadler.jpg" >}}
 Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working in the connected TV space and focussing on cross-team collaboration, including InnerSource. Tom has been involved with the InnerSource Commons since 2019, speaking at multiple community events, is a Trusted Committer on the InnerSource Learning Path project, and lead on publishing the Learning Path to innersourcecommons.org.
 {{< /board-member >}}
 
@@ -86,6 +86,6 @@ Maximilian Capraro is a researcher and doctoral candidate at the Open Source Res
 Tim is a Distinguished Member of Technical Staff and the Product Manager for Nokia Continuous Delivery in Nokia Cloud and Network Services. Over his twenty-plus year career in telecommunications, Tim has held roles in innovation, software testing, system engineering, architecture, and procurement. He served six years on the Alcatel-Lucent FOSS Executive Committee. Tim has experience creating grass roots communities within the company and outside of it; he is a volunteer co-Municipal Liaison for National Novel Writing Month.
 {{< /board-member >}}
 
-{{< board-member name="Silona Bonewald" image="/images/about/Silona_Bonewald.jpeg" >}}
+{{< board-member name="Silona Bonewald" title="Treasurer" image="/images/about/Silona_Bonewald.jpeg" >}}
 Silona Bonewald is the Executive Director for IEEE SA OPEN, a comprehensive platform offering the open source community cost-effective options for developing and validating their projects. Previously she was vice president of community architecture at Hyperledger, a global open source collaborative effort hosted by The Linux Foundation, where she integrated leaders in finance, banking, Internet of Things (IoT), supply chains, and manufacturing. Other notable career accomplishments include, while with PayPal, pioneering the InnerSource process; for Siemens AG, creating a cutting-edge and Six Sigma-compliant e-commerce website; and for Ubisoft, creating an international content management system (CMS) architecture.
 {{< /board-member >}}
