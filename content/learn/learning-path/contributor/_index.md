@@ -2,6 +2,8 @@
 title: Learning Path - Contributor
 image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
+  - name: Travis Johnson
+    url: https://github.com/tjohnson31415
   - name: Igor Zubiaurre
     url: https://github.com/fioddor
   - name: Fernando Flores
