@@ -35,6 +35,10 @@ menu:
       URL: community/action
       parent: community
       weight: 1
+    - name: Services Directory
+      URL: community/services
+      parent: community
+      weight: 2
     - name: About
       identifier: about
       URL: about
@@ -93,9 +97,12 @@ menu:
     - name: InnerSource in Action
       URL: community/action
       weight: 3
+    - name: Services Directory
+      URL: community/services
+      weight: 3
     - name: Announcements
       URL: about/announcements
-      weight: 4
+      weight: 5
   footer_right:
     - name: About
       URL: about
