@@ -1,5 +1,10 @@
-# individuals that will receive automatic notifications about new PRs
-# for syntax details see:
+# Individuals that will receive automatic notifications about new PRs.
+#
+# For syntax details see:
 # https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
+# the maintainers of the website
 * @voborgus @clcoffey
+
+# Changes to https://innersourcecommons.org/about/board/ incl. the terse notes for Board meetings should be reviewed by the Board
+/content/about/board/* @InnerSourceCommons/isc-board
