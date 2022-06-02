@@ -1,8 +1,6 @@
 ---
 layout: page
 title: "InnerSource Services Directory"
-image: "images/events/cities/newyork.jpeg"
-# post type (regular/featured)
 date: 2022-05-16T00:00:00+00:00
 ---
 Welcome to the InnerSource Services Directory. We have compiled a list of companies that provide InnerSource services that fit in 3 categories: Tools, Consulting Services and Training Services.
