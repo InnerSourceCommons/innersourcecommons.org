@@ -1,5 +1,0 @@
-# CODEOWNERS defaults to webiste-maintainers team
-* @InnerSourceCommons/website-maintainers
-
-# Learning Path
-content/learn/learning-path @InnerSourceCommons/learning-path
