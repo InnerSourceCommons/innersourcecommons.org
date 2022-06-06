@@ -2,4 +2,8 @@
 # for syntax details see:
 # https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
-* @voborgus @clcoffey
+# CODEOWNERS defaults to webiste-maintainers team
+* @InnerSourceCommons/website-maintainers
+
+# Learning Path
+content/learn/learning-path @InnerSourceCommons/learning-path
