@@ -1,5 +1,6 @@
-# individuals that will receive automatic notifications about new PRs
-# for syntax details see:
+# Individuals that will receive automatic notifications about new PRs.
+#
+# For syntax details see:
 # https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
 # CODEOWNERS defaults to webiste-maintainers team
@@ -7,3 +8,6 @@
 
 # Learning Path
 content/learn/learning-path @InnerSourceCommons/learning-path
+
+# Changes to https://innersourcecommons.org/about/board/ incl. the terse notes for Board meetings should be reviewed by the Board
+/content/about/board/* @InnerSourceCommons/isc-board

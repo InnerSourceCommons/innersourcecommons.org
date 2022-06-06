@@ -17,6 +17,8 @@ image: "/images/learn/innersourceinaction.png"
      {{< company name="Ahold Delhaize" image="/images/logos/ahold.png" article="https://github.com/customer-stories/ahold-delhaize" author_name="Joost Hofman" author_title="Head of Tech Enabling" >}}
       If we give people the right tools and the right platform, it’s a start. We can share more within our company and with each other, growing as an InnerSource organization.
       {{< /company >}}
+      {{< company name="Alliander" image="/images/logos/alliander.png" video="https://youtu.be/Q6yCZI4f2bo?t=1131" >}}
+      {{< /company >}}
       {{< company name="American Airlines" image="/images/logos/americanairlines.png" article="https://soundcloud.com/nearform/the-journey-to-innersource-with-danese-cooper-spencer-kaiser" >}}
       {{< /company >}}
       {{< company name="ASOS" image="/images/logos/asos.png" article="https://medium.com/asos-techblog/adopting-innersource-at-asos-5618435c8d7" author_name="Rob Bell" author_title="Principal Software Engineer" >}}
@@ -143,7 +145,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Nationwide" image="/images/logos/nationwide.png" article="https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/" author_name="Cindy Payne" author_title="Associate Vice President of IT Application Services" >}}
       We knew (with InnerSource)  were going to save money, but that savings immediately turned into more capacity for teams to do the most valuable work for our business.
       {{< /company >}}
-      {{< company name="Navex Global" image="/images/logos/navex-global.png" article="https://www.pnsqc.org/innersource-test-automation-utilizing-open-source-principle/" >}}
+      {{< company name="Navex Global" image="/images/logos/navex-global.png" article="http://mxmossman.blogspot.com/2017/01/pnsqc-2016-day-1.html" >}}
       {{< /company >}}
       {{< company name="Nokia" image="/images/logos/nokia.png" article="/events/isc-fall-2017" >}}
       {{< /company >}}
@@ -164,6 +166,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Royal Bank of Canada" image="/images/logos/rbc.png" article="https://www.finos.org/blog/innersource-as-the-first-step-toward-open-source-anthony-vacca-rbc" video="https://www.youtube.com/watch?v=QbJ4VFk8DwA">}}
       {{< /company >}}
+      {{< company name="Reserve Bank of India" image="/images/logos/rbi.png" video="https://videos.itrevolution.com/watch/707352100/">}}
+      {{< /company >}}
       {{< company name="Grupo Santander" image="/images/logos/santander.png" video="https://www.youtube.com/watch?v=277mzDL12Q4&ab_channel=InnerSourceCommons" >}}
       {{< /company >}}
       {{< company name="SAP" image="/images/logos/sap.png" video="https://www.youtube.com/watch?v=2nhKMcv5STc&t=269s" author_name="Micheal Graf and Guilherme Dellagustin" author_title="SAP" >}}
@@ -182,6 +186,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Skyscanner" image="/images/logos/skyscanner.png" article="https://github.com/customer-stories/skyscanner" >}}
       {{< /company >}}
       {{< company name="Societe Generale" image="/images/logos/societegenerale.png" article="https://github.com/customer-stories/societe-generale" >}}
+      {{< /company >}}
+      {{< company name="Sourcegraph" image="/images/logos/sourcegraph.svg" article="https://about.sourcegraph.com/podcast/jonathan-carter/" >}}
       {{< /company >}}
       {{< company name="Spotify" image="/images/logos/spotify.png" article="https://github.com/customer-stories/spotify" author_name="Laurent Ploix" author_title="Product Manager" >}}
       Pull requests are welcome. Someone out there might find a better solution than I can.
