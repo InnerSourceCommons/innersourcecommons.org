@@ -73,8 +73,6 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Deliveroo" image="/images/logos/deliveroo.png" article="https://github.com/customer-stories/deliveroo" >}}
       {{< /company >}}
-      {{< company name="Deloitte" image="/images/logos/Deloitte.png" article="https://www.youtube.com/watch?v=e9GQ1I-0wEs" >}}
-      {{< /company >}}
       {{< company name="Deutche Bank" image="/images/logos/deutschebank.png" article="https://www.finos.org/blog/how-deutsche-bank-uses-innersource-in-engineering-daniela-zheleva" >}}
       {{< /company >}}
       {{< company name="Didi" image="/images/logos/didi.png" video="https://www.youtube.com/watch?v=h7PheT0qZsM" >}}
@@ -100,6 +98,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Europace" image="/images/logos/europace.png" article="/learn/books/adopting-innersource-principles-and-case-studies" >}}
       {{< /company >}}
       {{< company name="EXFO Inc." image="/images/logos/exfo.png" article="https://innersourcecommons.org/events/isc-fall-2018/" >}}
+      {{< /company >}}
+      {{< company name="Fannie Mae" image="/images/logos/fannie_mae.png" article="https://www.youtube.com/watch?v=S-Yiamq9bUw" >}}
       {{< /company >}}
       {{< company name="Fidelity Investments" image="/images/logos/fidelity.png" article="https://innersourcecommons.org/events/isc-fall-2018/" >}}
       {{< /company >}}
