@@ -123,6 +123,10 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="IBM" image="/images/logos/ibm.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Jeff Jagoda" author_title="Senior Site Engineer" >}}
       We see InnerSource as a way to improve efficiency through code reuse. But even beyond that, it's an amazing conduit for learning and exchanging ideas and facilitating innovation within IBM.
       {{< /company >}}
+      {{< company name="Indeed" image="/images/logos/Indeed.png" video="https://www.youtube.com/watch?v=hVcGABbmI4Y" >}}
+      {{< /company >}}
+      {{< company name="ING" image="/images/logos/ING_bank.png" video="https://www.youtube.com/watch?v=277mzDL12Q4" >}}
+      {{< /company >}}
       {{< company name="Intuit" image="/images/logos/intuit.png" article="https://builtin.com/software-engineering-perspectives/intuit-duplication-innersource" >}}
       {{< /company >}}
       {{< company name="Knock" image="/images/logos/knock.png" article="https://github.com/customer-stories/knock" >}}
@@ -132,6 +136,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Llyods" image="/images/logos/lloyds.png" article="https://www.nearform.com/blog/journey-to-innersource-danese-cooper-james-mcleod/"  >}}
       {{< /company >}}
       {{< company name="Mercari" image="/images/logos/mercari.png" article="https://github.com/customer-stories/mercari" >}}
+      {{< /company >}}
+      {{< company name="Mercedes Benz Tech Innovation" image="/images/logos/Mercedes Benz Tech.png" video="https://www.youtube.com/watch?v=hVcGABbmI4Y" >}}
       {{< /company >}}
       {{< company name="Microsoft" image="/images/logos/microsoft.png" video="https://www.youtube.com/watch?v=eZdx5MQCLA4" author_name="Arno Mihm" author_title="Program Manager InnerSource" >}}
       We have seen greater engineering satisfaction among teams that practice InnerSource... we have [also] seen better product quality and responses because of InnerSource.
@@ -215,6 +221,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Trayio" image="/images/logos/tray.png" article="https://github.com/customer-stories/trayio" author_name="Alberto Giorgi" author_title="Director of Engineering" >}}
       Anyone can learn something from another team and quickly see what’s in the code..Having a fairly open structure allows people to get involved quite easily and quickly.
+       {{< /company >}}
+      {{< company name="Trend Micro" image="/images/logos/trend_micro.png" video="https://www.youtube.com/watch?v=e9GQ1I-0wEs" >}}
       {{< /company >}}
       {{< company name="Trustpilot" image="/images/logos/trustpilot.png" article="https://github.com/customer-stories/trustpilot" author_name="Martin Andersen" author_title="VP of Engineering" >}}
       We have an InnerSource policy: Everybody has access to create pull requests on all repositories. You can see all our code. We don’t lock down anything.
