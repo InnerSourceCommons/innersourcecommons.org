@@ -215,6 +215,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Trayio" image="/images/logos/tray.png" article="https://github.com/customer-stories/trayio" author_name="Alberto Giorgi" author_title="Director of Engineering" >}}
       Anyone can learn something from another team and quickly see what’s in the code..Having a fairly open structure allows people to get involved quite easily and quickly.
+       {{< /company >}}
+      {{< company name="Trend Micro" image="/images/logos/trend_micro.png" video="https://www.youtube.com/watch?v=e9GQ1I-0wEs" >}}
       {{< /company >}}
       {{< company name="Trustpilot" image="/images/logos/trustpilot.png" article="https://github.com/customer-stories/trustpilot" author_name="Martin Andersen" author_title="VP of Engineering" >}}
       We have an InnerSource policy: Everybody has access to create pull requests on all repositories. You can see all our code. We don’t lock down anything.
