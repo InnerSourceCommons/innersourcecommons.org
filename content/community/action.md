@@ -72,6 +72,9 @@ image: "/images/learn/innersourceinaction.png"
       {{< company name="Decathlon" image="/images/logos/decathlon.png" article="https://github.com/customer-stories/decathlon" >}}
       {{< /company >}}
       {{< company name="Deliveroo" image="/images/logos/deliveroo.png" article="https://github.com/customer-stories/deliveroo" >}}
+      static/images/logos/deloitte.png
+      {{< /company >}}
+      {{< company name="Daimler" image="/images/logos/deloitte.png" video="https://www.youtube.com/watch?v=e9GQ1I-0wEs" >}}
       {{< /company >}}
       {{< company name="Deutche Bank" image="/images/logos/deutschebank.png" article="https://www.finos.org/blog/how-deutsche-bank-uses-innersource-in-engineering-daniela-zheleva" >}}
       {{< /company >}}
