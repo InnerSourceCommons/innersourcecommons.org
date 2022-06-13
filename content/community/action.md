@@ -136,6 +136,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Mercari" image="/images/logos/mercari.png" article="https://github.com/customer-stories/mercari" >}}
       {{< /company >}}
+      {{< company name="Mercedes Benz" image="/images/logos/Mercedes_Benz.png" video="https://www.youtube.com/watch?v=hVcGABbmI4Y" >}}
+      {{< /company >}}
       {{< company name="Microsoft" image="/images/logos/microsoft.png" video="https://www.youtube.com/watch?v=eZdx5MQCLA4" author_name="Arno Mihm" author_title="Program Manager InnerSource" >}}
       We have seen greater engineering satisfaction among teams that practice InnerSource... we have [also] seen better product quality and responses because of InnerSource.
       {{< /company >}}
