@@ -102,6 +102,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="EXFO Inc." image="/images/logos/exfo.png" article="https://innersourcecommons.org/events/isc-fall-2018/" >}}
       {{< /company >}}
+      {{< company name="Fannie Mae" image="/images/logos/Fannie_Mae.png" video="https://www.youtube.com/watch?v=S-Yiamq9bUw" >}}
+      {{< /company >}}
       {{< company name="Fidelity Investments" image="/images/logos/fidelity.png" article="https://innersourcecommons.org/events/isc-fall-2018/" >}}
       {{< /company >}}
       {{< company name="Ford" image="/images/logos/ford.png" article="https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/" author_name="Florian Frischmuth" author_title="Chief Engineer" >}}
@@ -156,6 +158,8 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Nike" image="/images/logos/nike.png" video="https://www.youtube.com/watch?v=srPG-Tq0HIs&list=PLq-odUc2x7i-A0sOgr-5JJUs5wkgdiXuR&index=45" author_name="Russ Rutledge" author_title="Director of Community and InnerSource" >}}
       We found it very useful to work within the InnerSource Commons.. Where you can bounce ideas off of other InnerSource practitioners
+      {{< /company >}}
+      {{< company name="Nuance" image="/images/logos/nuance.png" video="https://www.youtube.com/watch?v=2CwwFhr34jI" >}}
       {{< /company >}}
       {{< company name="Nubank" image="/images/logos/nubank.png" article="https://github.com/customer-stories/nubank" author_name="Haberkorn Gomes" author_title="Infosec Tech Manager" >}}
       We try to standardize our code style, our languages so that everybody can contribute to repositories. It’s really good for me making a change on a project, a service skeleton, or a common library to know that everybody’s going to use that to deploy their service.
