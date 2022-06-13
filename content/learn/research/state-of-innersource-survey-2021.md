@@ -4,7 +4,7 @@ title: 'State of InnerSource Survey 2021'
 image: "/images/learn/research/sois2021.png"
 weight: 4
 summary: Report of the 2021 State of InnerSource Survey
-research_url: /documents/surveys/State.of.InnerSource.Report.2021.pdf
+research_url: "/documents/surveys/State_Of_InnerSource_Report_2021.pdf"
 survey_closing_date: 2022-01-12
 report_publish_date: 2022-03-22
 ---
