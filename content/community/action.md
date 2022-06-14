@@ -19,7 +19,7 @@ image: "/images/learn/innersourceinaction.png"
       {{< /company >}}
       {{< company name="Alliander" image="/images/logos/alliander.png" video="https://youtu.be/Q6yCZI4f2bo?t=1131" >}}
       {{< /company >}}
-      {{< company name="American Airlines" image="/images/logos/americanairlines.png" article="https://soundcloud.com/nearform/the-journey-to-innersource-with-danese-cooper-spencer-kaiser" >}}
+      {{< company name="American Airlines" image="/images/logos/americanairlines.png" article="https://tech.aa.com/2020-10-30-innersource/" >}}
       {{< /company >}}
       {{< company name="ASOS" image="/images/logos/asos.png" article="https://medium.com/asos-techblog/adopting-innersource-at-asos-5618435c8d7" author_name="Rob Bell" author_title="Principal Software Engineer" >}}
       InnerSource has allowed us to deliver dozens of cross-cutting features more efficiently, spanning multiple teams and services.
