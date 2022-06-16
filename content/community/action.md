@@ -2,7 +2,7 @@
 layout: page
 title: "InnerSource in Action"
 subtitle: "The InnerSource Commons community has over 1500 subscribers from 500 organizations. Listed below is a sample of the organizations who have publicly spoken about using InnerSource."
-image: "/images/learn/innersourceinaction.png"
+image: "/images/learn/InnerSourceInAction.jpg"
 ---
   <div class="container">
     <div class="row justify-content-center">
