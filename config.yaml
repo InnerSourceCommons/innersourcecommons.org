@@ -18,7 +18,7 @@ menu:
       weight: 3
     - name: Patterns
       parent: learn
-      URL: learn/books/innersource-patterns
+      URL: learn/patterns
       weight: 4
     - name: Research
       parent: learn
@@ -79,7 +79,7 @@ menu:
       URL: learn/learning-path
       weight: 3
     - name: Patterns
-      URL: learn/books/innersource-patterns
+      URL: learn/patterns
       weight: 4
     - name: Research
       URL: learn/research
