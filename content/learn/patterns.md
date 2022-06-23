@@ -14,7 +14,7 @@ weight: 1
         <p class="mt-4"><b>An InnerSource Pattern</b> - That’s what we call InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and apply them in your context.  </p>
       </div>
       <div class="col-md-5 order-1 order-md-1 mb-4 mb-md-0">
-        <img src="/images/learn/patterns.png" class="img-fluid">
+        <img src="/images/learn/patterns/patterns-symbol-cropped.png" class="img-fluid">
       </div>
   </div>
 </section>
@@ -62,3 +62,4 @@ weight: 1
 ## How to Get Involved
 
 If you are using InnerSource in your company already and want to contribute to the efforts outlined above by sharing your experiences or introducing new patterns, we would love to <a href="https://patterns.innersourcecommons.org/contribute"> welcome your contributions to the book</a> and to our Slack conversations in the <a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A">#innersource-patterns channel</a>.
+t 
