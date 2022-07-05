@@ -2,7 +2,7 @@
 title: "InnerSource Commons"
 ---
 {{< notice >}}
-<i class="ti-announcement mr-2"></i>July 13st • 9am GMT+1 / 10am CEST / 12pm IST / 5pm AEST • Online • Lean Coffee InnerSource discussion <a href="https://bit.ly/IScatchup" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
+<i class="ti-announcement mr-2"></i>July 13th • 9am GMT+1 / 10am CEST / 12pm IST / 5pm AEST • Online • Lean Coffee InnerSource discussion <a href="https://bit.ly/IScatchup" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
 {{</ notice >}}
 
 <section class="banner banner-head">
