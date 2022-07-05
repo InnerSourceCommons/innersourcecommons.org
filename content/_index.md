@@ -2,9 +2,8 @@
 title: "InnerSource Commons"
 ---
 {{< notice >}}
-<i class="ti-announcement mr-2"></i>June 21st  5pm BST / 6pm CEST / 9:30pm IST /  12am PST • Online • InnerSource in Financial Services <a href="https://www.finos.org/hosted-events/2022-06-21-finos-innersource-sig-panel-event?mc_cid=e8ec8cff0f&mc_eid=73110f0184" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
+<i class="ti-announcement mr-2"></i>July 13st • 9am GMT+1 / 10am CEST / 12pm IST / 5pm AEST • Online • Lean Coffee InnerSource discussion <a href="https://bit.ly/IScatchup" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
 {{</ notice >}}
-
 
 <section class="banner banner-head">
   <div class="container">
