@@ -2,6 +2,8 @@
 title: Learning Path - Product Owner
 image: images/learn/LP_thumbnail_productowner.jpg
 contributors:
+  - name: Yasunobu Kawaguchi
+    url: https://github.com/kawaguti
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
   - name: rrrutledge
