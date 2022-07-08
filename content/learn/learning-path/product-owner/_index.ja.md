@@ -2,16 +2,18 @@
 title: ラーニングパス - プロダクトオーナー
 image: images/learn/LP_thumbnail_productowner.jpg
 contributors:
+  - name: Yasunobu Kawaguchi
+    url: https://github.com/kawaguti
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
   - name: Jun Ohtani
     url: https://github.com/johtani
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
   - name: Tom Sadler
     url: https://github.com/tsadler1988
   - name: Johannes Tigges
     url: https://github.com/lenucksi
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
 weight: 3
 ---
 
