@@ -93,12 +93,13 @@ menu:
       weight: 2
       post: bold
       pre: _blank
-    - name: InnerSource in Action
-      URL: community/action
+    - name: Stories
+      URL: stories
       weight: 3
+      post: bold
     - name: Services Directory
       URL: community/services
-      weight: 3
+      weight: 4
     - name: Announcements
       URL: about/announcements
       weight: 5
