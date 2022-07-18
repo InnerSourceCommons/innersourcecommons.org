@@ -1,0 +1,8 @@
+ <div class="col-md-5 mb-4 mb-md-0">
+        <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}" title="{{ .Get "name" }}">
+    </div>
+    <div class="col-md-6">
+        <p class="section-title h3">{{ .Get "title" }}</p>
+        <p>{{ trim .Inner "\n " }}</p>
+        <a href="{{ .Get "url" }}" class="btn-link">Read More<i class="ti-arrow-right"></i></a>
+    </div>
