@@ -12,7 +12,7 @@ contributors:
   - name: Nick Adams
     url: https://github.com/nadamsoreilly
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
-weight: 9
+weight: 10
 ---
 <div class="sect2">
 <h3 id="_video_the_trusted_committer_role_in_innersource">Video:  The Trusted Committer Role in InnerSource</h3>
