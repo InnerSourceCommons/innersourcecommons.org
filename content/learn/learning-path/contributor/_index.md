@@ -2,14 +2,20 @@
 title: Learning Path - Contributor
 image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
-  - name: Travis Johnson
-    url: https://github.com/tjohnson31415
   - name: Igor Zubiaurre
     url: https://github.com/fioddor
-  - name: Fernando Flores
-    url: https://github.com/JFernando122
+  - name: Johannes Tigges
+    url: https://github.com/lenucksi
   - name: rrrutledge
     url: https://github.com/rrrutledge
+  - name: Georg Grütter
+    url: https://github.com/gruetter
+  - name: Travis Johnson
+    url: https://github.com/tjohnson31415
+  - name: Senthil Nathan
+    url: https://github.com/nysenthil
+  - name: Fernando Flores
+    url: https://github.com/JFernando122
   - name: Sergi
     url: https://github.com/Sergih28
   - name: Tom Sadler
@@ -28,8 +34,6 @@ contributors:
     url: https://github.com/RJPlog
   - name: Jun Ohtani
     url: https://github.com/johtani
-  - name: Johannes Tigges
-    url: https://github.com/lenucksi
   - name: Sebastian Spier
     url: https://github.com/spier
   - name: Arno M
