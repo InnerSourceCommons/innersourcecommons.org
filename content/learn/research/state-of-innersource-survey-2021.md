@@ -22,7 +22,7 @@ provides some inspiration and context to those of you on your own InnerSource jo
 A huge thank you goes to all those who responded to the survey. We encourage all who read this
 report and learn gain insights into what other organizations are doing on their journey to
 InnerSource adoption. If you want to discuss the findings further, do come join us in the
-[InnerSource Commons Slack](http://localhost:1313/slack); it’s the perfect place to share and learn
+[InnerSource Commons Slack](/slack); it’s the perfect place to share and learn
 from others who are leading InnerSource practices worldwide.
 
 
