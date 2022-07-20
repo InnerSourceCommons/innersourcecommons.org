@@ -38,6 +38,12 @@ We do our best to ensure that the information on this page is accurate and helpf
         </td>
     </tr>
      <tr>
+        <td><img src="/images/logos/promyze.png" alt="Promyze"></td>
+        <td>Tools</td>
+        <td class="title">Promyze is a knowledge sharing platform for software developers, to create and share best coding practices. The tool is fully integrated in the developer ecosystem. <a href="https://promyze.com/innersource-understand-in-5-minutes/">Click here to learn more</a> or <a href="https://promyze.com/contact">contact Promyze</a> directly.
+        </td>
+    </tr>
+     <tr>
         <td><img src="/images/logos/sourcegraph.svg" alt="Sourcegraph"><img style="width: 30%;
   height: auto; display: block; margin-left: auto; margin-right: auto;" src="/images/Supporter Badge.png" alt="Supporter"></td>
         <td>Tools & Training Services</td>
