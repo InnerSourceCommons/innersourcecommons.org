@@ -2,12 +2,12 @@
 title: Learning Path - Trusted Committer
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
 contributors:
+  - name: Senthil Nathan
+    url: https://github.com/nysenthil
   - name: Igor Zubiaurre
     url: https://github.com/fioddor
   - name: Travis Johnson
     url: https://github.com/tjohnson31415
-  - name: Senthil Nathan
-    url: https://github.com/nysenthil
   - name: Tom Sadler
     url: https://github.com/tsadler1988
   - name: Yoshitake Kobayashi
