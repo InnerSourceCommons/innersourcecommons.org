@@ -2,6 +2,8 @@
 title: Learning Path - Trusted Committer
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
 contributors:
+  - name: Tom Sadler
+    url: https://github.com/tsadler1988
   - name: Senthil Nathan
     url: https://github.com/nysenthil
   - name: rrrutledge
