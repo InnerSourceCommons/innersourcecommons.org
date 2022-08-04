@@ -3,10 +3,12 @@ title: Introduction
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
-  - name: Igor Zubiaurre
-    url: https://github.com/fioddor
   - name: Tom Sadler
     url: https://github.com/tsadler1988
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
+  - name: Igor Zubiaurre
+    url: https://github.com/fioddor
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
   - name: Vincent Legault
@@ -15,8 +17,6 @@ contributors:
     url: https://github.com/dicortazar
   - name: Fernando Flores
     url: https://github.com/JFernando122
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
   - name: Johannes Tigges
     url: https://github.com/lenucksi
   - name: Piergiorgio Lucidi
