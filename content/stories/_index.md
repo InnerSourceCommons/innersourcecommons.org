@@ -141,9 +141,9 @@ aliases:
       {{< /company >}}
       {{< company name="Intuit" image="/images/logos/intuit.png" article="https://builtin.com/software-engineering-perspectives/intuit-duplication-innersource" >}}
       {{< /company >}}
-      {{< company name="Knock" image="/images/logos/knock.png" article="https://github.com/customer-stories/knock" >
+      {{< company name="Knock" image="/images/logos/knock.png" article="https://github.com/customer-stories/knock" >}}
       {{< /company >}}
-      {{< company name="KPMG" image="static/images/logos/KPMG.png" article="https://github.com/customer-stories/kpmg" >
+      {{< company name="KPMG" image="static/images/logos/KPMG.png" article="https://github.com/customer-stories/kpmg" >}}
       {{< /company >}}
       {{< company name="Leroy Merlin" image="/images/logos/leroymerlin.png" video="https://www.youtube.com/watch?v=Wzg8h30OhK8" >}}
       {{< /company >}}
