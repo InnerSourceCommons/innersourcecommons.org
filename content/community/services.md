@@ -47,7 +47,7 @@ We do our best to ensure that the information on this page is accurate and helpf
         <td><img src="/images/logos/sourcegraph.svg" alt="Sourcegraph"><img style="width: 30%;
   height: auto; display: block; margin-left: auto; margin-right: auto;" src="/images/Supporter Badge.png" alt="Supporter"></td>
         <td>Tools & Training Services</td>
-        <td class="title">With Sourcegraph, you can find existing code libraries for reuse and avoid spending time on problems you know a teammate already solved. This means a more secure and coherent codebase and more time for you to spend on more interesting work. <a href="https://srcgr.ph/innersource-commons">Click here to learn more</a> or <a href="mailto:innersource@sourcegraph.com">contact Sourcegraph</a> directly.
+        <td class="title">Sourcegraph makes it easy to help drive adoption of InnerSource. Our customers can find existing code libraries for reuse and avoid spending time on problems you know a teammate already solved. This means a more secure and coherent codebase and more time for you to spend on more interesting work. <a href="https://srcgr.ph/innersource-commons">Click here to learn more</a> or <a href="mailto:innersource@sourcegraph.com">contact Sourcegraph</a> directly.
         </td>
     </tr>
     <tr>
