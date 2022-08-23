@@ -2,7 +2,7 @@
 title: "InnerSource Commons"
 ---
 {{< notice >}}
-<i class="ti-announcement mr-2"></i>August 16th • 5pm GMT+1 / 6pm CEST / 11am CST / 9am PST • Online • Lean Coffee InnerSource discussion <a href="https://bit.ly/3ca0kLa" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
+
 {{</ notice >}}
 
 <section class="banner banner-head">
