@@ -2,10 +2,12 @@
 title: Learning Path - Trusted Committer
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
 contributors:
-  - name: Lionel Villard
-    url: https://github.com/lionelvillard
+  - name: Mandana Vaziri
+    url: https://github.com/vazirim
   - name: Senthil Nathan
     url: https://github.com/nysenthil
+  - name: Lionel Villard
+    url: https://github.com/lionelvillard
   - name: ablocus
     url: https://github.com/ablocus
   - name: Tom Sadler
