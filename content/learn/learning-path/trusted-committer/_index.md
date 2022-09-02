@@ -4,14 +4,14 @@ image: images/learn/LP_thumbnail_trustedcommitter.jpg
 contributors:
   - name: Senthil Nathan
     url: https://github.com/nysenthil
+  - name: ablocus
+    url: https://github.com/ablocus
   - name: Mandana Vaziri
     url: https://github.com/vazirim
   - name: Olivier Tardieu
     url: https://github.com/tardieu
   - name: Lionel Villard
     url: https://github.com/lionelvillard
-  - name: ablocus
-    url: https://github.com/ablocus
   - name: Tom Sadler
     url: https://github.com/tsadler1988
   - name: Igor Zubiaurre
@@ -44,8 +44,6 @@ contributors:
     url: https://github.com/arnom-ms
   - name: adadai
     url: https://github.com/adadai88
-  - name: Nick Adams
-    url: https://github.com/nadamsoreilly
 weight: 1
 ---
 
