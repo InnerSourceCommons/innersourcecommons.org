@@ -1,9 +1,8 @@
 ---
 title: "InnerSource Commons"
 ---
-{{< notice >}}
-<i class="ti-announcement mr-2"></i>September 5th • 5pm BST / 6pm CEST / 11am CST / 9am PST • Online • InnerSource & OSPOs <a href="https://bit.ly/ISCOSPO" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
-{{</ notice >}}
+
+
 
 <section class="banner banner-head">
   <div class="container">
