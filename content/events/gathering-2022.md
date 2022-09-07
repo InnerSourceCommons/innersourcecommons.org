@@ -1,6 +1,11 @@
 ---
-title: "InnerSource Commons"
+title: InnerSource Commons Gathering
+type: redirects
+redirect: "https://www.eventbrite.com/e/innersource-commons-gathering-sep-2022-dublin-tickets-370546573777"
+image: "/images/events/gathering-2022-09.png"
+date: 2022-09-07
+publishDate: 2022-07-04
+
 ---
-{{< notice >}}
-<i class="ti-announcement mr-2"></i>September 21st • 9am GMT+1 / 10am CEST / 12pm IST /  5pm AEST • Online • InnerSource to Open Source <a href="https://bit.ly/ISCC2OS" class="btn-link ml-3" target="_blank">Join Event <i class="ti-arrow-right"></i></a>
-{{</ notice >}}
+
+Join us for the first post-COVID in-person gathering of the InnerSource Commons community!
