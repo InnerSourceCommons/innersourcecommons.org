@@ -28,10 +28,10 @@ aliases:
       {{< /company >}}
       {{< company name="American Airlines" image="/images/logos/americanairlines.png" article="https://tech.aa.com/2020-10-30-innersource/" >}}
       {{< /company >}}
+      {{< company name="Anyshore" image="/images/logos/Anyshore.png" article="https://www.linkedin.com/pulse/anyshore-innersource-journey-lisalee-tunde-farrell/?trackingId=2whtvdgFQga8y6CG8N9TOg%3D%3D" >}}
+      {{< /company >}}
       {{< company name="ASOS" image="/images/logos/asos.png" article="https://medium.com/asos-techblog/adopting-innersource-at-asos-5618435c8d7" author_name="Rob Bell" author_title="Principal Software Engineer" >}}
       InnerSource has allowed us to deliver dozens of cross-cutting features more efficiently, spanning multiple teams and services.
-      {{< /company >}}
-      {{< company name="Anyshore" image="/images/logos/Anyshore.png" article="https://www.linkedin.com/pulse/anyshore-innersource-journey-lisalee-tunde-farrell/?trackingId=2whtvdgFQga8y6CG8N9TOg%3D%3D" >}}
       {{< /company >}}
       {{< company name="Autodesk" image="/images/logos/autodesc.png" article="https://github.com/customer-stories/autodesk" >}}
       {{< /company >}}
