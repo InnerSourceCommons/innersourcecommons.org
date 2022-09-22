@@ -122,6 +122,8 @@ aliases:
       {{< company name="GitLab" image="/images/logos/gitlab.png" article="https://about.gitlab.com/solutions/innersource/" >}}
       {{< /company >}}
       {{< company name="Globant" image="/images/logos/globant.png" article="https://github.com/customer-stories/globant/" >}}
+       {{< /company >}}
+      {{< company name="Gravity" image="/images/logos/gravity.png" article="" >}}
       {{< /company >}}
       {{< company name="HBR" image="/images/logos/hbr.png" article="/events/isc-spring-2019" >}}
       {{< /company >}}
