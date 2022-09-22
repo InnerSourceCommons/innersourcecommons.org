@@ -186,6 +186,10 @@ aliases:
       {{< /company >}}
       {{< company name="Plaid" image="/images/logos/plaid.png" article="https://github.com/customer-stories/plaid" >}}
       {{< /company >}}
+      {{< company name="Promyze" image="/images/logos/promyze.png" article="" >}}
+      {{< /company >}}
+      {{< company name="RedMonk" image="/images/logos/redmonk.png" article="" >}}
+      {{< /company >}}
       {{< company name="Royal Bank of Canada" image="/images/logos/rbc.png" article="https://www.finos.org/blog/innersource-as-the-first-step-toward-open-source-anthony-vacca-rbc" video="https://www.youtube.com/watch?v=QbJ4VFk8DwA">}}
       {{< /company >}}
       {{< company name="Reserve Bank of India" image="/images/logos/rbi.png" video="https://videos.itrevolution.com/watch/707352100/">}}
