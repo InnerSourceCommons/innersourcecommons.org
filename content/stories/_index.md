@@ -16,6 +16,8 @@ aliases:
       {{< company name="3M" image="/images/logos/3m.png" article="https://github.com/customer-stories/3m" author_name="Kevin Truckenmiller" author_title="Lead DevOps Engineer in CRSL" >}}
       We’re moving towards more openness, which ultimately creates a communication culture and a generative culture, rather than one that’s bureaucratic and process-based.
       {{< /company >}}
+      {{< company name="Acenture" image="/images/logos/accenture.png" article=""  >}}
+      {{< /company >}}
       {{< company name="ADEO" image="/images/logos/adeo.png" article="https://github.com/customer-stories/adeo" author_name="Guilherme Guitte" author_title="Lead Developer Advocate" >}}
       InnerSource paves the way for ADEO to introduce new open source projects and give developers more freedom.
       {{< /company >}}
