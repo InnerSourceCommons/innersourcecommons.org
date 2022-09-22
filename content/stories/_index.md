@@ -199,6 +199,8 @@ aliases:
       {{< /company >}}
       {{< company name="Seagate" image="/images/logos/seagate.png" article="https://github.com/customer-stories/seagate" >}}
       {{< /company >}}
+      {{< company name="Seal of US Dept of Veterans" image="/images/logos/Seal_of_the_U.S._Department_of_Veterans_Affairs.svg.png" video="" >}}
+      {{< /company >}}
       {{< company name="Shell" image="/images/logos/shell.png" video="https://youtu.be/7AJuMROHRHY" >}}
       {{< /company >}}
       {{< company name="Shutterstock" image="/images/logos/shutterstock.png" article="https://panelpicker.sxsw.com/vote/89929" >}}
