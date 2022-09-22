@@ -186,6 +186,8 @@ aliases:
       {{< /company >}}
       {{< company name="Plaid" image="/images/logos/plaid.png" article="https://github.com/customer-stories/plaid" >}}
       {{< /company >}}
+      {{< company name="Publicis Sapient" image="/images/logos/publicis sapient.png" article="https://www.publicissapient.com/insights/decoding-organizational-agility-with-innersource?utm_medium=organic-social&utm_source=twitter&userID=aa0e6055-f6dd-4611-9c21-ea56d77cb680&utm_category=Brand&utm_campaign=everyonesocial&es_id=d19e3b636b">}}
+      {{< /company >}}
       {{< company name="Royal Bank of Canada" image="/images/logos/rbc.png" article="https://www.finos.org/blog/innersource-as-the-first-step-toward-open-source-anthony-vacca-rbc" video="https://www.youtube.com/watch?v=QbJ4VFk8DwA">}}
       {{< /company >}}
       {{< company name="Reserve Bank of India" image="/images/logos/rbi.png" video="https://videos.itrevolution.com/watch/707352100/">}}
