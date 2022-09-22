@@ -271,6 +271,8 @@ aliases:
       {{< company name="Zendesk" image="/images/logos/zendesk.png" article="https://github.com/customer-stories/zendesk" author_name="Jason Smale" author_title="VP of Engineering" >}}
       Our engineering culture is open and centred around teams owning services and being responsible for running them in production.
       {{< /company >}}
+      {{< company name="Zibasec" image="/images/logos/zibasec.png" video="" >}}
+      {{< /company >}}
       {{< company name="Zymple" image="/images/logos/zymple.png" video="https://youtu.be/QWbxXp5-nOQ" >}}
       {{< /company >}}
     </div>
