@@ -26,3 +26,10 @@ $ git clone [url]
 $ cd innersourcecommons.org
 $ hugo server
 ```
+
+# Making changes to specific pages
+## Adding a logo to the Stories page
+
+Guidelines to adding a logo:
+- The logo should always contain the full name of the company.
+- The logo must always be accompanied by evidence (article or video or both).
