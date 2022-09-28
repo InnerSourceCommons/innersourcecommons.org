@@ -33,3 +33,4 @@ $ hugo server
 Guidelines to adding a logo:
 - The logo should always contain the full name of the company.
 - The logo must always be accompanied by evidence (article or video or both).
+- The logo must be added in the correct position based on alphabetical order on the page.
