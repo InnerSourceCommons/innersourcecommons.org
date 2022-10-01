@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'InnerSource Commons Outstanding Contributors 2021'
-image: "images/about/announcements/2021-11-outstanding-contributors.png.png"
+image: "/images/about/announcements/2021-11-outstanding-contributors.png"
 date: 2021-11-19
 featured: true
 type: "announcements"
