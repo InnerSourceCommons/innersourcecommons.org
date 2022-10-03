@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Statement of Support of the EC Adoption of InnerSource'
-image: "images/about/announcements/2020-10-ec-innersource-adoption.jpg"
+image: "/images/about/announcements/2020-10-ec-innersource-adoption.jpg"
 date: 2020-10-27
 type: "announcements"
 ---
