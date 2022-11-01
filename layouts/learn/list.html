@@ -9,11 +9,13 @@
 
       <div class="col-12 mb-5 pb-5">
         <div class="row align-items-center">
+          {{ if .Params.image }}
           <div class="col-md-6 mb-4 mb-md-0">
             <a href="{{.Permalink}}">
               <img src="{{ .Params.image | absURL }}" alt="{{.Title}}" class="img-fluid rounded-lg w-100">
             </a>
           </div>
+          {{ end }}
           <div class="col-md-6">
             <h2><a href="{{ default .Permalink .Params.redirect }}" class="post-title"{{ with .Params.target }} target="{{ . }}"{{ end }}>
               {{ .Title }}</a></h2>
@@ -27,9 +29,11 @@
       {{ range where .Data.Pages.ByWeight ".Params.featured" "!=" true }}
       <div class="col-lg-4 col-sm-4 mb-5">
         <div class="card border-0">
+          {{ if .Params.image }}
           <a href="{{.Permalink}}">
             <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img rounded-lg mb-4">
           </a>
+          {{ end }}
           <div class="card-body p-0">
             <h3><a href="{{ default .Permalink .Params.redirect }}" class="post-title"{{ with .Params.target }} target="{{ . }}"{{ end }}>
               {{ .Title }}</a></h3>
