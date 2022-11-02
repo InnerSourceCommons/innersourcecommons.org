@@ -3,12 +3,16 @@ title: Introduction
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
+  - name: Senthil Nathan
+    url: null
   - name: Yoshitake Kobayashi
     url: https://github.com/ystk
   - name: Vincent Legault
     url: https://github.com/SJVle
   - name: Johannes Tigges
     url: https://github.com/lenucksi
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
   - name: Fernando Flores
     url: https://github.com/JFernando122
   - name: Tom Sadler

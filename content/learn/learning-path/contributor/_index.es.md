@@ -2,6 +2,8 @@
 title: Learning Path - Contribuidor
 image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
+  - name: Senthil Nathan
+    url: null
   - name: Travis Johnson
     url: https://github.com/tjohnson31415
   - name: Igor Zubiaurre

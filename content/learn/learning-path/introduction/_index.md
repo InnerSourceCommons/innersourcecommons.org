@@ -3,6 +3,8 @@ title: Introduction
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
+  - name: Senthil Nathan
+    url: null
   - name: rrrutledge
     url: https://github.com/rrrutledge
   - name: Tom Sadler
