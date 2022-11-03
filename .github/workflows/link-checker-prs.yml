@@ -1,7 +1,7 @@
 # This link check is run on all PRs but just for the files that were changed/added in the PR itself.
 # Otherwise we had it too often that PR authors would see a failing link check that had nothing to do with their PR.
 
-name: Link Check PR
+name: Links Check PR
 
 on:
   push:
