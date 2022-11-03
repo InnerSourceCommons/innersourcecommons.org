@@ -1,3 +1,11 @@
 # These links are ignored by our link checker https://github.com/lycheeverse/lychee
 # The file allows you to list multiple regular expressions for exclusion (one pattern per line).
-summit@innersourcecommons.org
+github\.com/.*
+linkedin\.com/.*
+youtu\.be/.*
+
+https://medium.com/adobetech/open-development-inner-source-and-open-source-46c2ba174be6
+silona.org
+
+# lychee claims that it finds this link in 'content/about/privacy.md' but I don't see it there.
+xn--ivg
