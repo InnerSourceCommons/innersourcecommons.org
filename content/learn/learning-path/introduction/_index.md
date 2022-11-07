@@ -3,6 +3,8 @@ title: Introduction
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 contributors:
+  - name: Laura Little
+    url: https://github.com/marshmallowrobot
   - name: Senthil Nathan
     url: null
   - name: rrrutledge
