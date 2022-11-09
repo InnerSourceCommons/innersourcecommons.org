@@ -2,6 +2,8 @@
 title: Learning Path - Contributor
 image: images/learn/LP_thumbnail_contributor.jpg
 contributors:
+  - name: Laura Little
+    url: https://github.com/marshmallowrobot
   - name: Senthil Nathan
     url: https://github.com/nysenthil
   - name: Igor Zubiaurre
@@ -40,8 +42,6 @@ contributors:
     url: https://github.com/arnom-ms
   - name: niminghong
     url: https://github.com/niminghong
-  - name: Ludmila
-    url: https://github.com/Ludmila-N
   - name: Tanzhongyi(Jerry Tan)
     url: https://github.com/tanzhongyi003
   - name: adadai
