@@ -62,4 +62,3 @@ weight: 1
 ## How to Get Involved
 
 If you are using InnerSource in your company already and want to contribute to the efforts outlined above by sharing your experiences or introducing new patterns, we would love to <a href="https://patterns.innersourcecommons.org/contribute"> welcome your contributions to the book</a> and to our Slack conversations in the <a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A">#innersource-patterns channel</a>.
-t 
