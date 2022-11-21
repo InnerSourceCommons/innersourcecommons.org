@@ -2,27 +2,6 @@
 title: Introduzione
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
-contributors:
-  - name: Laura Little
-    url: https://github.com/marshmallowrobot
-  - name: Yoshitake Kobayashi
-    url: https://github.com/ystk
-  - name: Piergiorgio Lucidi
-    url: https://github.com/OpenPj
-  - name: Alessio Biancalana
-    url: https://github.com/dottorblaster
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
-  - name: Sebastian Spier
-    url: https://github.com/spier
-  - name: Willem Jiang
-    url: https://github.com/WillemJiang
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
-  - name: Fernando Flores
-    url: https://github.com/JFernando122
-  - name: Johannes Tigges
-    url: https://github.com/lenucksi
 weight: 0
 ---
 

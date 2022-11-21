@@ -1,21 +1,6 @@
 ---
 title: ラーニングパス - コントリビューター
 image: images/learn/LP_thumbnail_contributor.jpg
-contributors:
-  - name: Yoshitake Kobayashi
-    url: https://github.com/ystk
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
-  - name: Jun Ohtani
-    url: https://github.com/johtani
-  - name: Sebastian Spier
-    url: https://github.com/spier
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
-  - name: Johannes Tigges
-    url: https://github.com/lenucksi
-  - name: Shinobu Saito
-    url: https://github.com/ShinobuSaito
 weight: 2
 ---
 

@@ -1,27 +1,6 @@
 ---
 title: Learning Path - Contributor
 image: images/learn/LP_thumbnail_contributor.jpg
-contributors:
-  - name: Senthil Nathan
-    url: https://github.com/nysenthil
-  - name: Igor Zubiaurre
-    url: https://github.com/fioddor
-  - name: Johannes Tigges
-    url: https://github.com/lenucksi
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
-  - name: Georg Grütter
-    url: https://github.com/gruetter
-  - name: Travis Johnson
-    url: https://github.com/tjohnson31415
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
-  - name: Yoshitake Kobayashi
-    url: https://github.com/ystk
-  - name: RJPlog
-    url: https://github.com/RJPlog
-  - name: Arno M
-    url: https://github.com/arnom-ms
 weight: 2
 ---
 

@@ -2,29 +2,6 @@
 title: Einführung
 featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
-contributors:
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
-  - name: Yoshitake Kobayashi
-    url: https://github.com/ystk
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
-  - name: RJPlog
-    url: https://github.com/RJPlog
-  - name: Sebastian Spier
-    url: https://github.com/spier
-  - name: Willem Jiang
-    url: https://github.com/WillemJiang
-  - name: Johannes Tigges
-    url: https://github.com/lenucksi
-  - name: Isabel Drost-Fromm
-    url: https://github.com/MaineC
-  - name: Arno Mihm
-    url: null
-  - name: Arno M
-    url: https://github.com/arnom-ms
-  - name: Maximilian Capraro
-    url: https://github.com/maxcapraro
 weight: 0
 ---
 

@@ -1,31 +1,6 @@
 ---
 title: Learning Path - Product Owner
 image: images/learn/LP_thumbnail_productowner.jpg
-contributors:
-  - name: Yasunobu Kawaguchi
-    url: https://github.com/kawaguti
-  - name: Yoshitake Kobayashi
-    url: https://github.com/ystk
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
-  - name: Jun Ohtani
-    url: https://github.com/johtani
-  - name: Willem Jiang
-    url: https://github.com/WillemJiang
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
-  - name: RJPlog
-    url: https://github.com/RJPlog
-  - name: Johannes Tigges
-    url: https://github.com/lenucksi
-  - name: Ludmila
-    url: https://github.com/Ludmila-N
-  - name: Lenucksi
-    url: null
-  - name: Tanzhongyi(Jerry Tan)
-    url: https://github.com/tanzhongyi003
-  - name: Nick Adams
-    url: https://github.com/nadamsoreilly
 weight: 3
 ---
 

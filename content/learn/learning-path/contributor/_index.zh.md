@@ -1,25 +1,6 @@
 ---
 title: 学习途径 - 贡献者
 image: images/learn/LP_thumbnail_contributor.jpg
-contributors:
-  - name: Yoshitake Kobayashi
-    url: https://github.com/ystk
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
-  - name: Willem Jiang
-    url: https://github.com/WillemJiang
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
-  - name: Sebastian Spier
-    url: https://github.com/spier
-  - name: niminghong
-    url: https://github.com/niminghong
-  - name: Johannes Tigges
-    url: https://github.com/lenucksi
-  - name: Tanzhongyi(Jerry Tan)
-    url: https://github.com/tanzhongyi003
-  - name: adadai
-    url: https://github.com/adadai88
 weight: 2
 ---
 

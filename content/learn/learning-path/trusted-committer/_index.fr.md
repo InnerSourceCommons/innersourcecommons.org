@@ -1,21 +1,6 @@
 ---
 title: Learning Path - Trusted Committer
 image: images/learn/LP_thumbnail_trustedcommitter.jpg
-contributors:
-  - name: Senthil Nathan
-    url: https://github.com/nysenthil
-  - name: ablocus
-    url: https://github.com/ablocus
-  - name: Mandana Vaziri
-    url: https://github.com/vazirim
-  - name: Olivier Tardieu
-    url: https://github.com/tardieu
-  - name: Lionel Villard
-    url: https://github.com/lionelvillard
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
 weight: 1
 ---
 This text will be translated soon.

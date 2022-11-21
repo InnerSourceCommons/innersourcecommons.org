@@ -1,23 +1,6 @@
 ---
 title: Learning Path - Contribuidor
 image: images/learn/LP_thumbnail_contributor.jpg
-contributors:
-  - name: Senthil Nathan
-    url: null
-  - name: Travis Johnson
-    url: https://github.com/tjohnson31415
-  - name: Igor Zubiaurre
-    url: https://github.com/fioddor
-  - name: Fernando Flores
-    url: https://github.com/JFernando122
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
-  - name: Sergi
-    url: https://github.com/Sergih28
-  - name: Tom Sadler
-    url: https://github.com/tsadler1988
-  - name: DevGDL
-    url: https://github.com/devGuadalajara
 weight: 2
 ---
 
