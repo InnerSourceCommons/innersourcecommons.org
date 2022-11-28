@@ -9,3 +9,6 @@ builds
 package-lock.json
 public
 resources
+
+### Prevent automatically generated untranslated files for local debugging from being pushed to the remote
+content/.gitignore

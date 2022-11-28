@@ -1,0 +1,24 @@
+en:
+  languageName: English
+  weight: 1
+ja:
+  languageName: 日本語
+  weight: 2
+de:
+  languageName: Deutsch
+  weight: 3
+zh:
+  languageName: 中文
+  weight: 3
+it:
+  languageName: Italiano
+  weight: 3
+es:
+  languageName: Español
+  weight: 3
+ru:
+  languageName: Русский
+  weight: 3
+fr:
+  languageName: Français
+  weight: 3

@@ -1,0 +1,123 @@
+main:
+  - name: Learn
+    URL: it/learn
+    weight: 1
+    identifier: learn
+  - name: Books
+    parent: learn
+    URL: it/learn/books
+    weight: 2
+  - name: Learning Path
+    parent: learn
+    URL: it/learn/learning-path
+    weight: 3
+  - name: Patterns
+    parent: learn
+    URL: it/learn/patterns
+    weight: 4
+  - name: Research
+    parent: learn
+    URL: it/learn/research
+    weight: 5
+  - name: Events
+    URL: it/events
+    weight: 2
+  - name: Community
+    identifier: community
+    URL: it/community
+    weight: 3
+  - name: Stories
+    URL: it/stories
+    weight: 4
+  - name: Services Directory
+    URL: it/community/services
+    parent: community
+    weight: 2
+  - name: About
+    identifier: about
+    URL: it/about
+    weight: 5
+  - name: Announcements
+    URL: it/about/announcements
+    parent: about
+    weight: 1
+  - name: Board & Governance
+    URL: it/about/board
+    parent: about
+    weight: 2
+  - name: Members
+    URL: it/about/members
+    parent: about
+    weight: 3
+  - name: Sponsors
+    URL: it/about/sponsors
+    parent: about
+    weight: 4
+  - name: Code of Conduct
+    URL: it/about/codeofconduct
+    parent: about
+    weight: 5
+  - name: Contact Us
+    URL: it/about/contact
+    parent: about
+    weight: 6
+footer_left:
+  - name: Learn
+    URL: it/learn
+    weight: 1
+    post: bold
+  - name: Books
+    URL: it/learn/books
+    weight: 2
+  - name: Learning Path
+    URL: it/learn/learning-path
+    weight: 3
+  - name: Patterns
+    URL: it/learn/patterns
+    weight: 4
+  - name: Research
+    URL: it/learn/research
+    weight: 5
+footer_middle:
+  - name: Events
+    URL: it/events
+    weight: 1
+    post: bold
+  - name: Community
+    URL: it/community
+    weight: 2
+    post: bold
+    pre: _blank
+  - name: Stories
+    URL: it/stories
+    weight: 3
+    post: bold
+  - name: Services Directory
+    URL: it/community/services
+    weight: 4
+  - name: Announcements
+    URL: it/about/announcements
+    weight: 5
+footer_right:
+  - name: About
+    URL: it/about
+    weight: 1
+    post: bold
+  - name: Board & Governance
+    URL: it/about/board
+    weight: 2
+  - name: Members
+    URL: it/about/members
+    weight: 3
+  - name: Sponsors
+    URL: it/about/sponsors
+    weight: 4
+  - name: Code of Conduct
+    URL: it/about/codeofconduct
+    weight: 5
+  - name: Contact Us
+    URL: it/about/contact
+    weight: 6
+  - name: Privacy Policy
+    URL: it/about/privacy
+    weight: 7

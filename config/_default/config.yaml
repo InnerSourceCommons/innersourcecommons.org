@@ -1,0 +1,15 @@
+baseURL: 'https://www.innersourcecommons.jp/'
+title: InnerSource Commons
+
+pluralizeListTitles: false
+paginate: '3'
+summaryLength: '15'
+disqusShortname: ''
+googleAnalytics: ''
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+minify:
+  disableHTML: true
+defaultContentLanguage: 'en'
