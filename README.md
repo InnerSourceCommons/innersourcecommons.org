@@ -39,4 +39,4 @@ Guidelines to adding a logo:
 
 ## i18n Support
 
-innersourcecommons.org supports i18n. Currently, we are in the process of adding languages, but local instructions can be found [here](./i18n.md).
+innersourcecommons.org supports i18n. Currently, we are in the process of adding languages, but local instructions can be found [here](i18n.md).
