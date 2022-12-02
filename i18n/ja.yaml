@@ -1,0 +1,25 @@
+join_slack: "Slack に参加する"
+more_videos: "動画をもっと見る"
+
+# Mailing List
+join_mailing_list: "メールの定期購読"
+enter_email: "Emailを入力"
+subscribe: "登録"
+
+# About
+about_innersource_commons: |-
+  InnerSource Commons は、インナーソースの実践者の世界最大のコミュニティです。組織という枠の中でソフトウェア開発にオープンソースのベストプラクティスを活用するインナーソースに関するナレッジの創出と共有に特化しています。
+about_innersource_commons_history: |-
+  2015年に設立された InnerSource Commons は、現在、500以上の企業、学術機関、政府機関から1500人以上の個人をサポートし、つないでいます。インナーソースコモンズ財団は2020年2月19日に法人化され、501(c)(3)の公益法人となりました。
+
+# Learn
+learn: "学ぶ"
+
+## Book
+author: 著者
+publication_date: 公開日
+publisher: 出版元
+read_the_book: 本を読む
+
+## Research
+read_research_report: レポートを読む

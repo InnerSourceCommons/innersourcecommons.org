@@ -1,0 +1,32 @@
+en:
+  languageName: English
+  contentDir: content/en
+  weight: 1
+ja:
+  languageName: 日本語
+  contentDir: content/en
+  weight: 2
+de:
+  languageName: Deutsch
+  contentDir: content/en
+  weight: 3
+zh:
+  languageName: 中文
+  contentDir: content/en
+  weight: 3
+it:
+  languageName: Italiano
+  contentDir: content/en
+  weight: 3
+es:
+  languageName: Español
+  contentDir: content/en
+  weight: 3
+ru:
+  languageName: Русский
+  contentDir: content/en
+  weight: 3
+fr:
+  languageName: Français
+  contentDir: content/en
+  weight: 3

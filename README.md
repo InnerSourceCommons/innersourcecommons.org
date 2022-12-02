@@ -21,16 +21,22 @@ In case the widget adds cookies to the website plese update the Privacy Policy (
 If you want to test the page before commit you can run the site locally.
 you need to have `git` and [hugo](https://gohugo.io/getting-started/installing/) installed. Please follow the official installation instructions.
 
-```
-$ git clone [url]
-$ cd innersourcecommons.org
-$ hugo server
+```sh
+git clone [url]
+cd innersourcecommons.org
+hugo server
 ```
 
-# Making changes to specific pages
-## Adding a logo to the Stories page
+## Making changes to specific pages
+
+### Adding a logo to the Stories page
 
 Guidelines to adding a logo:
+
 - The logo should always contain the full name of the company.
 - The logo must always be accompanied by evidence (article or video or both).
 - The logo must be added in the correct position based on alphabetical order on the page.
+
+## i18n Support
+
+innersourcecommons.org supports i18n. Currently, we are in the process of adding languages, but local instructions can be found [here](i18n.md).
