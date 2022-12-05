@@ -18,6 +18,13 @@ jobs:
         with:
           hugo-version: '0.80.0'
           extended: true
+      - name: Copy the missing files from /content/en for publishing each language site
+        run: |
+          for i in de es fr it ja ru zh; do
+            rsync -rv --ignore-existing content/en/ content/$i/ --log-file=content/.gitignore;
+            sed -i "s/^.\{37\} /$i\//g" content/.gitignore;
+            sed -i '/total size\|file list/d' content/.gitignore;
+          done
       - name: Build
         run: hugo --minify
       - name: Deploy

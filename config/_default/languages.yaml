@@ -4,7 +4,7 @@ en:
   weight: 1
 ja:
   languageName: 日本語
-  contentDir: content/en
+  contentDir: content/ja
   weight: 2
 de:
   languageName: Deutsch
