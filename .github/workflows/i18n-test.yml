@@ -16,4 +16,4 @@ jobs:
           destination_repo: "isc-i18n/innersourcecommons.org-staging"
           destination_branch: "main"
           source_ssh_private_key: ${{ secrets.ACTIONS_DEPLOY_KEY }} 
-          destination_ssh_private_key: ${{ secrets.DESTINATION_SSH_PRIVATE_KEY }} 
+          destination_ssh_private_key: ${{ secrets.I18N_STAGING_SSH_PRIVATE_KEY }} 
