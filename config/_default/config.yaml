@@ -1,4 +1,4 @@
-baseURL: '/'
+baseURL: 'https://innersourcecommons.org/'
 title: InnerSource Commons
 
 pluralizeListTitles: false
