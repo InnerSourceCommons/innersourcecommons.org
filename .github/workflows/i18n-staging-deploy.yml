@@ -1,4 +1,4 @@
-name: Mirroring
+name: i18n Staging Deploy Action
 on:
   push:
     branches:
