@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta charset="utf-8">
+  <title>InnerSource 中内建的主要收益</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content="The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource.">
+  <meta name="author" content="InnerSource Commons">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/youmax/youmax.css">
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/bootstrap-select/css/bootstrap-select.min.css">
+  
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link href="https://innersourcecommons.org/scss/style.min.css" rel="stylesheet" media="screen"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="layout" content="page -  - learn - learn - Page(/learn/learning-path/product-owner/_index.zh.md)">
+  
+  
+	
+	<link rel="alternate" hreflang="en" href="https://innersourcecommons.org/learn/learning-path/product-owner/03/" title="English">
+	
+	<link rel="alternate" hreflang="ja" href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/03/" title="日本語">
+	
+  
+  
+  <meta property="og:title" content="InnerSource 中内建的主要收益" />
+<meta property="og:description" content="在 InnerSource Commons中，我们将基于我们在开源中学习到的经验讨论_open_的概念，以及如何在企业环境中应用我们的所知或所学。 让我从经理的角度逐步讲解其中的一些内容。我将谈论他们如何使我作为总监和我的产品经理受益，这就是我们在PayPal所称的产品所有者。
+ 首先是_open code_。开放代码是什么意思？基本上，该代码对所有公司都是可见的，并且其他开发人员可以通过一个过程在其他代码库上提交拉取请求（pull request）并使它们被接受。要了解更多信息，请参阅有关 Trusted Committers的文章，以及有关更多有关贡献相关的细节。
+ 对于经理来说开放代码也意味着您无需再等待或上升问题就可以修复错误或在其他团队的代码库上实现功能。 您可以开始更高效地实施和计划。 通常，您团队的问题（或功能）可能不是该其他团队的最高优先级的问题。 您不再需要依靠把问题上升到高层管理人员和政治手段来来与支持团队进行沟通。 相反，您拥有更大的权力在你的团队的确定问题优先级并减少对他人的依赖。 有时由于学习曲线而可能需要更长的时间。但是，作为一个团队，这是一直需要突破瓶颈。这样您可以从容地完成那些积压了多年的用户故事。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://innersourcecommons.org/zh/learn/learning-path/product-owner/03/" />
+
+
+  
+    
+    <meta property="og:image" content="https://img.youtube.com/vi/UGX7khGbtx0/mqdefault.jpg" />
+    
+  
+
+</head><body><!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand" href="https://innersourcecommons.org/">
+        <img width="200px" class="img-fluid" src="https://innersourcecommons.org/images/logo.png" alt="InnerSource Commons">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/zh/learn">Learn</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/learn/books">Books</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/learn/learning-path">Learning Path</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/learn/patterns">Patterns</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/learn/research">Research</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://innersourcecommons.org/zh/events">Events</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/zh/community">Community</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/community/services">Services Directory</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://innersourcecommons.org/zh/stories">Stories</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/zh/about">About</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/about/announcements">Announcements</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/about/board">Board &amp; Governance</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/about/members">Members</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/about/sponsors">Sponsors</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/about/codeofconduct">Code of Conduct</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/about/contact">Contact Us</a>
+              
+            </div>
+          </li>
+          
+          
+        </ul>
+        <a href="https://innersourcecommons.org/slack" class="btn btn-sm btn-primary ml-1" target="_blank"><i class="ti-comments pr-2"></i>Join Slack</a>
+        
+        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+          <option>中文</option>
+          
+          <option value="https://innersourcecommons.org/learn/learning-path/product-owner/03/">English</option>
+          
+          <option value="https://innersourcecommons.org/ja/learn/learning-path/product-owner/03/">日本語</option>
+          
+        </select>        
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+<section class="notice bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">
+        <i class="ti-calendar mr-2"></i>Join us for our next Community Call on December 6th 5pm GMT / 6pm CET / 11am CST / 9am PST -  <a href="https://bit.ly/ISPOWG" class="btn-link ml-1" target="_blank"> An ISPO Working Group for the ISC <i class="ti-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section> 
+
+
+<div class="container">
+
+<ol class="breadcrumb">
+  
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  
+  <a href="https://innersourcecommons.org/">InnerSource Commons</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="https://innersourcecommons.org/learn/">Learn</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="https://innersourcecommons.org/zh/learn/learning-path/">Learning Path</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="https://innersourcecommons.org/zh/learn/learning-path/product-owner/">学习途径 - 产品负责人</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+   
+  InnerSource 中内建的主要收益
+  
+</li>
+
+</ol>
+
+</div>
+
+<section class="section section-first">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h1 class="mb-4">InnerSource 中内建的主要收益</h1>
+        
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+          <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/UGX7khGbtx0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="content"><div class="paragraph">
+<p>在 <a href="http://innersourcecommons.org/">InnerSource Commons</a>中，我们将基于我们在开源中学习到的经验讨论_open_的概念，以及如何在企业环境中应用我们的所知或所学。
+让我从经理的角度逐步讲解其中的一些内容。我将谈论他们如何使我作为总监和我的产品经理受益，这就是我们在PayPal所称的产品所有者。</p>
+</div>
+<div class="paragraph">
+<p>首先是_open code_。开放代码是什么意思？基本上，该代码对所有公司都是可见的，并且其他开发人员可以通过一个过程在其他代码库上提交拉取请求（pull request）并使它们被接受。要了解更多信息，请参阅有关 <a href="https://innersourcecommons.org/zh/learn/learning-path/trusted-committer"><em>Trusted Committers</em></a>的文章，以及有关更多有关贡献相关的细节。</p>
+</div>
+<div class="paragraph">
+<p>对于经理来说开放代码也意味着您无需再等待或上升问题就可以修复错误或在其他团队的代码库上实现功能。
+您可以开始更高效地实施和计划。
+通常，您团队的问题（或功能）可能不是该其他团队的最高优先级的问题。
+您不再需要依靠把问题上升到高层管理人员和政治手段来来与支持团队进行沟通。
+相反，您拥有更大的权力在你的团队的确定问题优先级并减少对他人的依赖。
+有时由于学习曲线而可能需要更长的时间。但是，作为一个团队，这是一直需要突破瓶颈。这样您可以从容地完成那些积压了多年的用户故事。</p>
+</div>
+<div class="paragraph">
+<p><em>开放计划（Open planning）</em> 每个人都可以在这里以开放和标准化的方式发布其计划过程。
+在PayPal，我们拥有UPE标准。它代表统一产品体验。
+它包括一个技术中心，所有团队均可在其中发布路线图和进行冲刺计划的电子表格。每个人都知道这些文档在各个产品中的位置。</p>
+</div>
+<div class="paragraph">
+<p>其中的一些好处是，它可以帮助您和您的团队因完成的工作而获得声誉。当您知道其他团队正在做什么以及他们当前正在优先考虑什么时，您还可以更有效地进行跨团队协作。开放式计划可使团队之间进行更有效的谈判。</p>
+</div>
+<div class="paragraph">
+<p><em>开放文档（Open documentation）</em> 是我们在InnerSource中经常处理的事情之一。这包括规划过程，标准，这类事情。
+其中的一个关键因素是可检索性，以及一定程度的集中化，这样每个人都知道在哪里可以找到文档以弄清楚如何与您更好地合作。</p>
+</div>
+<div class="paragraph">
+<p>它对您的成功有很多好处。
+其中一些是开放计划和开放标准，以便您可以更好地协作。
+但是，在信誉方面，高层管理人员可能看到的是您正在经历的不同路径，也就是说只看到您现在的进展，而不是相比项目以往的情况，您推动了这些（僵持）住的项目。</p>
+</div>
+<div class="paragraph">
+<p>乍一看似乎比较耗时，但是当您拥有开放的流程，开放的标准和开放的文档时，协作将变得更加有效。
+这些文件需要在标准化的地方公开发布。
+这使它们可以被发现。
+也可以通过标准或良好的搜索引擎来检索它们。</p>
+</div>
+<div class="paragraph">
+<p>好处是-您和您的团队对完成的工作有更多的信誉。
+您也有明显的历史记录。优先级改变的原因是显而易见的。
+这对于我们之前讨论的有关中层管理者压力的信誉问题大有帮助。</p>
+</div>
+<div class="paragraph">
+<p>它还可以提高协作速度。您可以轻松地研究您想协作的团队，并可以了解他们的工作方式。
+这些都是最大的负担&#8212;&#8203;它减少了部落的知识并有助于打破信息孤岛。
+如果团队难以协作，那么这种变化就更容易显现。有时文档也可能过于复杂，限制性或不准确，会使得协作效率慢得多。有时它们有充分的理由，例如脆弱的旧代码库，但是现在高层管理者可以更清楚地了解为什么在资源方面可能需要对重构进行优先级排序。</p>
+</div>
+<div class="paragraph">
+<p>合作和谈判：中层管理人员通常没有能力使用其领导技能。
+中层管理人员以前曾提出过的前五项投诉中提到了这一点。
+在InnerSource流程中，这些技能（例如协作和谈判）变得至关重要。当您清楚地说明了这些内容后，在团队中设定期望就变得容易得多。
+您甚至可以帮助其他团队来帮助您创建文档和标准。
+我发现，大多数时候，人们希望提供意见，尤其是在标准制定过程方面。这也是让这些团队首次合作时起步的一种好方法，有时也是安全的方法。</p>
+</div>
+<div class="sect2">
+<h3 id="_示例">示例</h3>
+<div class="paragraph">
+<p>我有三个很棒的例子</p>
+</div>
+<div class="sect3">
+<h4 id="_第一个示例_付款">第一个示例-付款</h4>
+<div class="paragraph">
+<p>第一个是付款。付款需要重构和模块化。
+我与支付团队和其他五个团队一起设计了八个月的新InnerSource流程。</p>
+</div>
+<div class="paragraph">
+<p>我们能够选择一支80％受到中断驱动的团队进行最终重构。
+其他团队则能够摆脱积压多年的功能需求。
+最后，主管告诉我，如果没有这五个团队在InnerSource流程和简化过程中提供的投入，我们将无法正确理解新支付模块的重构和模块化。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_第二个示例_alm">第二个示例-ALM</h4>
+<div class="paragraph">
+<p>第二个是ALM或应用程序生命周期管理过程。
+该团队负责协调从代码创建到生产的所有工具。
+我们不仅可以在不到一年的时间内实现15个主要功能，包括容器化和数据库即服务，而且还能够开始重构ALM以过渡到平台即服务。
+在与各个团队合作之后，该团队创建了一些令人惊奇的开放标准文档， 让我们看到开放文档带来的效率提升。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_第三个例子_fdi">第三个例子-FDI</h4>
+<div class="paragraph">
+<p>第三个示例是FDI，代表开发人员交互失败。
+我们成立了开发人员标准委员会来帮助开发开放标准。
+毕竟，与按小时直接受到影响的开发人员相比，谁能更好地确定什么是FDI或失败的开发人员交互作用？</p>
+</div>
+<div class="paragraph">
+<p>这也有助于解决一些政治问题，因为以前每个团队都有不同的方式来衡量失败。不用说，在某些情况下，开发人员不同意。
+但是，通过公开讨论，我想相信我们能够创建比以前更准确的标准。</p>
+</div>
+<div class="paragraph">
+<p>这些示例表明，如果开放流程做得好，它将改变中层管理人员的面貌。
+中层管理者角色发生变化。
+产品负责人必须在团队之间进行更多协商。
+产品所有者必须将更多精力放在协作上。
+但是，如果做得好，所有团队都可以更多地参与企业愿景。</p>
+</div>
+<div class="paragraph">
+<p>最好是将这种开放式计划一路推向顶峰。
+通常，这意味着产品所有者可能需要在谈判中进行其他培训和指导。
+但这确实解决了中层管理者关于没有能力的主要抱怨。</p>
+</div>
+</div>
+</div>
+<!--- This file autogenerated from https://github.com/InnerSourceCommons/InnerSourceLearningPath/blob/main/scripts --></div>
+        <div class="clearfix">
+          
+            <a class="btn btn-light float-left" href="https://innersourcecommons.org/zh/learn/learning-path/product-owner/02/">← 成为中层管理人员有多困难</a>
+          
+          
+            <a class="btn btn-primary float-right" href="https://innersourcecommons.org/zh/learn/learning-path/product-owner/04/"> 新角色和新职责 →</a>
+          
+        </div>
+        
+        <div class="mt-4">
+          <h3>Contributors</h3>
+          <ul class="nav">
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/ystk" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/ystk" alt="Yoshitake Kobayashi" title="Yoshitake Kobayashi" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/rrrutledge" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/rrrutledge" alt="rrrutledge" title="rrrutledge" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/WillemJiang" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/WillemJiang" alt="Willem Jiang" title="Willem Jiang" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/tsadler1988" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/tsadler1988" alt="Tom Sadler" title="Tom Sadler" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/lenucksi" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/lenucksi" alt="Johannes Tigges" title="Johannes Tigges" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/tanzhongyi003" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/tanzhongyi003" alt="Tanzhongyi(Jerry Tan)" title="Tanzhongyi(Jerry Tan)" /></a>
+            </li>
+            
+          </ul>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/zh/learn">Learn</a></b></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/learn/books">Books</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/learn/learning-path">Learning Path</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/learn/patterns">Patterns</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/learn/research">Research</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/zh/events">Events</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/zh/community">Community</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/zh/stories">Stories</a></b></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/community/services">Services Directory</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/announcements">Announcements</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/zh/about">About</a></b></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/board">Board &amp; Governance</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/members">Members</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/sponsors">Sponsors</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/codeofconduct">Code of Conduct</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/contact">Contact Us</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/privacy">Privacy Policy</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href="https://innersourcecommons.org/"><img width="200px"  class="img-fluid" src="https://innersourcecommons.org/images/logo.png" alt="InnerSource Commons"></a>
+        <p class="mb-4">The site is licensed under a CC-BY-SA license unless otherwise marked.</p>
+        
+        
+        
+        <ul class="list-inline social-icons">
+          
+          <li class="list-inline-item"><a href="http://github.com/InnerSourceCommons"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube"></i></a></li>
+          
+          <li class="list-inline-item"><a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">Design by <a href="https://themefisher.com/">Themefisher</a> and <a href="https://gethugothemes.com/">Gethugothemes</a>, icons by <a href="https://storyset.com/people">Freepik Storyset</a></small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="https://innersourcecommons.org/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://innersourcecommons.org/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://innersourcecommons.org/plugins/slick/slick.min.js"></script>
+
+<script src="https://innersourcecommons.org/plugins/youmax/youmax.js"></script>
+
+<script src="https://innersourcecommons.org/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://innersourcecommons.org/js/script.min.js"></script>
+
+<script>
+	$('#youmax').youmax({
+	apiKey:'AIzaSyCTmhVwOZhhT1WceQm9MobWFuJIA6lI-Dw',
+	youTubeChannelURL: "https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA",
+	youmaxDefaultTab: "UPLOADS",
+	youmaxColumns: 3,
+	showVideoInLightbox: false,
+	maxResults: 6,
+});
+$(function(){
+  $('#langpicker').selectpicker();
+  $('#langpicker').change(function() {
+    window.location.href = this.value;
+  });
+});
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-186978221-1', {
+  'storage': 'none'
+  });
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+</script>
+  </body>
+
+</html>

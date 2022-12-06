@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta charset="utf-8">
+  <title>InnerSource的收益?</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content="The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource.">
+  <meta name="author" content="InnerSource Commons">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/youmax/youmax.css">
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/bootstrap-select/css/bootstrap-select.min.css">
+  
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link href="https://innersourcecommons.org/scss/style.min.css" rel="stylesheet" media="screen"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="layout" content="page -  - learn - learn - Page(/learn/learning-path/introduction/_index.zh.md)">
+  
+  
+	
+	<link rel="alternate" hreflang="en" href="https://innersourcecommons.org/learn/learning-path/introduction/04/" title="English">
+	
+	<link rel="alternate" hreflang="ja" href="https://innersourcecommons.org/ja/learn/learning-path/introduction/04/" title="日本語">
+	
+	<link rel="alternate" hreflang="it" href="https://innersourcecommons.org/it/learn/learning-path/introduction/04/" title="Italiano">
+	
+	<link rel="alternate" hreflang="fr" href="https://innersourcecommons.org/fr/learn/learning-path/introduction/04/" title="Français">
+	
+	<link rel="alternate" hreflang="de" href="https://innersourcecommons.org/de/learn/learning-path/introduction/04/" title="Deutsch">
+	
+	<link rel="alternate" hreflang="es" href="https://innersourcecommons.org/es/learn/learning-path/introduction/04/" title="Español">
+	
+	<link rel="alternate" hreflang="ru" href="https://innersourcecommons.org/ru/learn/learning-path/introduction/04/" title="Русский">
+	
+  
+  
+  <meta property="og:title" content="InnerSource的收益?" />
+<meta property="og:description" content="=
+ 通过InnerSource进行协作有很多好处。 InnerSource为公司提供了一个可扩展的策略，以便 调用团队(guest team)在需要的时候获得特性请求 ，而无需承担长期的维护负担。 当调用团队的时间被放入其他人可以使用的代码中时，整个公司就赢了。
+ 虽然这个结果是来自InnerSource的一个闪亮好处，但是对于那些定期接受内部资源贡献的维护团队(host team)来说有很多好处。 回想一下，作为InnerSource过程的一部分，维护团队的产品所有者从一开始就认为贡献的特性是好的和可取的。 InnerSource允许维护团队获得帮助，并为它的用户 打造更好的产品 !" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://innersourcecommons.org/zh/learn/learning-path/introduction/04/" />
+
+
+  
+    
+    <meta property="og:image" content="https://img.youtube.com/vi/PFLmOWCEpi4/mqdefault.jpg" />
+    
+  
+
+</head><body><!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand" href="https://innersourcecommons.org/">
+        <img width="200px" class="img-fluid" src="https://innersourcecommons.org/images/logo.png" alt="InnerSource Commons">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/zh/learn">Learn</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/learn/books">Books</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/learn/learning-path">Learning Path</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/learn/patterns">Patterns</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/learn/research">Research</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://innersourcecommons.org/zh/events">Events</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/zh/community">Community</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/community/services">Services Directory</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://innersourcecommons.org/zh/stories">Stories</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/zh/about">About</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/about/announcements">Announcements</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/about/board">Board &amp; Governance</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/about/members">Members</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/about/sponsors">Sponsors</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/about/codeofconduct">Code of Conduct</a>
+              
+              <a class="dropdown-item" href="https://innersourcecommons.org/zh/about/contact">Contact Us</a>
+              
+            </div>
+          </li>
+          
+          
+        </ul>
+        <a href="https://innersourcecommons.org/slack" class="btn btn-sm btn-primary ml-1" target="_blank"><i class="ti-comments pr-2"></i>Join Slack</a>
+        
+        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+          <option>中文</option>
+          
+          <option value="https://innersourcecommons.org/learn/learning-path/introduction/04/">English</option>
+          
+          <option value="https://innersourcecommons.org/ja/learn/learning-path/introduction/04/">日本語</option>
+          
+          <option value="https://innersourcecommons.org/it/learn/learning-path/introduction/04/">Italiano</option>
+          
+          <option value="https://innersourcecommons.org/fr/learn/learning-path/introduction/04/">Français</option>
+          
+          <option value="https://innersourcecommons.org/de/learn/learning-path/introduction/04/">Deutsch</option>
+          
+          <option value="https://innersourcecommons.org/es/learn/learning-path/introduction/04/">Español</option>
+          
+          <option value="https://innersourcecommons.org/ru/learn/learning-path/introduction/04/">Русский</option>
+          
+        </select>        
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+<section class="notice bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">
+        <i class="ti-calendar mr-2"></i>Join us for our next Community Call on December 6th 5pm GMT / 6pm CET / 11am CST / 9am PST -  <a href="https://bit.ly/ISPOWG" class="btn-link ml-1" target="_blank"> An ISPO Working Group for the ISC <i class="ti-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section> 
+
+
+<div class="container">
+
+<ol class="breadcrumb">
+  
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  
+  <a href="https://innersourcecommons.org/">InnerSource Commons</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="https://innersourcecommons.org/learn/">Learn</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="https://innersourcecommons.org/zh/learn/learning-path/">Learning Path</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="https://innersourcecommons.org/zh/learn/learning-path/introduction/">概述</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+   
+  InnerSource的收益?
+  
+</li>
+
+</ol>
+
+</div>
+
+<section class="section section-first">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h1 class="mb-4">InnerSource的收益?</h1>
+        
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+          <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/PFLmOWCEpi4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="content"><div class="paragraph">
+<p>=</p>
+</div>
+<div class="paragraph">
+<p>通过InnerSource进行协作有很多好处。
+InnerSource为公司提供了一个可扩展的策略，以便 <strong>调用团队(guest team)在需要的时候获得特性请求</strong> ，而无需承担长期的维护负担。
+当调用团队的时间被放入其他人可以使用的代码中时，整个公司就赢了。</p>
+</div>
+<div class="paragraph">
+<p>虽然这个结果是来自InnerSource的一个闪亮好处，但是对于那些定期接受内部资源贡献的维护团队(host team)来说有很多好处。
+回想一下，作为InnerSource过程的一部分，维护团队的产品所有者从一开始就认为贡献的特性是好的和可取的。
+InnerSource允许维护团队获得帮助，并为它的用户 <strong>打造更好的产品</strong> !</p>
+</div>
+<div class="paragraph">
+<p>InnerSource <strong>为维护团队提供了一种可伸缩的策略</strong> ，用于满足来自其众多客户的不同数量的功能需求。
+考虑到维护团队全职成员的固定容量，很可能在某些时候，其消费者的组合业务路线图将需要(甚至不合理地)在维护团队的产品中完成大量的工作。
+如果没有内部资源，这种情况很容易导致因为问题升级至维护团队领导，而让一个压力大、工作过度的团队处理更多特性请求。</p>
+</div>
+<div class="paragraph">
+<p>但是，如果维护团队通过InnerSource进行操作，那么构建这些特性所需的工程资源将以调用贡献者的形式按其重要性的比例出现。
+InnerSource成为一个 <strong>力量倍增器</strong> ，允许维护团队在高需求时临时采取比实际规模更大的行动。
+当需求结束时，团队吞吐量将恢复到正常水平，所有这些都不需要对团队人员总数或工作项进行任何微管理。
+InnerSource允许工程时间在给定的时间内有机地流到组织需要它的地方。</p>
+</div>
+<div class="paragraph">
+<p>除了维护团队能够在其系统中完成的原始工作之外，定期的内部资源贡献还为维护团队提供了更好的需求，
+并使其优先级与所有使用者保持一致。维护团队可以对其生成的工作进行最佳的需求收集，
+但是当使用者本身提交工作时，结果更改与使用者的需求保持一致的几率要高得多。虽然可能只有一个调用团队提交更改，但该团队可能代表许多其他客户。</p>
+</div>
+<div class="paragraph">
+<p>除了这种联合之外，还有对 <a href="https://innersourcecommons.org/zh/learn/learning-path/contributor"><em>贡献者（Contributor）</em></a> 的一般培训和教育，因为他们与 <a href="https://innersourcecommons.org/zh/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> 一起工作并向他们学习。
+这种互动有助于贡献者在他们的职业生涯中学习和成长，从而获得 <strong>更高的工作满意度</strong> 。
+项目文档的改进使这些贡献能够规模化。贡献者认为自己与维护团队项目是有利害关系的。
+这是他们向同事或新加入的团队推荐的东西。他们能够更好地理解项目，并能够向其他人回答关于项目的问题，从而减轻维护团队的一些负担。
+更多的人为一个项目做出贡献，自然会有来自公司各个部门的不同想法相互交流。随着时间的推移，这种学习和跨团队协作有助于 <strong>打破传统公司壁垒</strong> 。</p>
+</div>
+<!--- This file autogenerated from https://github.com/InnerSourceCommons/InnerSourceLearningPath/blob/main/scripts --></div>
+        <div class="clearfix">
+          
+            <a class="btn btn-light float-left" href="https://innersourcecommons.org/zh/learn/learning-path/introduction/03/">← InnerSource如何运作?</a>
+          
+          
+            <a class="btn btn-primary float-right" href="https://innersourcecommons.org/zh/learn/learning-path/introduction/05/"> InnerSource的原则 →</a>
+          
+        </div>
+        
+        <div class="mt-4">
+          <h3>Contributors</h3>
+          <ul class="nav">
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/ystk" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/ystk" alt="Yoshitake Kobayashi" title="Yoshitake Kobayashi" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/rrrutledge" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/rrrutledge" alt="rrrutledge" title="rrrutledge" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/WillemJiang" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/WillemJiang" alt="Willem Jiang" title="Willem Jiang" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/tsadler1988" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/tsadler1988" alt="Tom Sadler" title="Tom Sadler" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/lenucksi" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/lenucksi" alt="Johannes Tigges" title="Johannes Tigges" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/tanzhongyi003" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/tanzhongyi003" alt="Tanzhongyi(Jerry Tan)" title="Tanzhongyi(Jerry Tan)" /></a>
+            </li>
+            
+          </ul>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/zh/learn">Learn</a></b></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/learn/books">Books</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/learn/learning-path">Learning Path</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/learn/patterns">Patterns</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/learn/research">Research</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/zh/events">Events</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/zh/community">Community</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/zh/stories">Stories</a></b></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/community/services">Services Directory</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/announcements">Announcements</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/zh/about">About</a></b></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/board">Board &amp; Governance</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/members">Members</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/sponsors">Sponsors</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/codeofconduct">Code of Conduct</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/contact">Contact Us</a></li>
+          
+          <li><a href="https://innersourcecommons.org/zh/about/privacy">Privacy Policy</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href="https://innersourcecommons.org/"><img width="200px"  class="img-fluid" src="https://innersourcecommons.org/images/logo.png" alt="InnerSource Commons"></a>
+        <p class="mb-4">The site is licensed under a CC-BY-SA license unless otherwise marked.</p>
+        
+        
+        
+        <ul class="list-inline social-icons">
+          
+          <li class="list-inline-item"><a href="http://github.com/InnerSourceCommons"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube"></i></a></li>
+          
+          <li class="list-inline-item"><a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">Design by <a href="https://themefisher.com/">Themefisher</a> and <a href="https://gethugothemes.com/">Gethugothemes</a>, icons by <a href="https://storyset.com/people">Freepik Storyset</a></small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="https://innersourcecommons.org/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://innersourcecommons.org/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://innersourcecommons.org/plugins/slick/slick.min.js"></script>
+
+<script src="https://innersourcecommons.org/plugins/youmax/youmax.js"></script>
+
+<script src="https://innersourcecommons.org/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://innersourcecommons.org/js/script.min.js"></script>
+
+<script>
+	$('#youmax').youmax({
+	apiKey:'AIzaSyCTmhVwOZhhT1WceQm9MobWFuJIA6lI-Dw',
+	youTubeChannelURL: "https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA",
+	youmaxDefaultTab: "UPLOADS",
+	youmaxColumns: 3,
+	showVideoInLightbox: false,
+	maxResults: 6,
+});
+$(function(){
+  $('#langpicker').selectpicker();
+  $('#langpicker').change(function() {
+    window.location.href = this.value;
+  });
+});
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-186978221-1', {
+  'storage': 'none'
+  });
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+</script>
+  </body>
+
+</html>
