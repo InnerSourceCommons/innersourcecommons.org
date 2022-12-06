@@ -25,6 +25,9 @@ jobs:
             sed -i "s/^.\{37\} /$i\//g" content/.gitignore;
             sed -i '/total size\|file list/d' content/.gitignore;
           done
+      - name: set up robots.txt not to be crawled
+        rnn: | 
+          echo Disallow: / > layouts/robots.txt
       - name: Build
         run: hugo --minify
       - name: Deploy
