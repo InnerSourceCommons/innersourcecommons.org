@@ -105,8 +105,7 @@ Hotel Info: ~ $119 USD per night, about 1.3 miles (4 mins by car) to Nokia offic
 
 #### 2. Hilton Lisle/Naperville
 Address: 3003 CORPORATE WEST DRIVE, LISLE, ILLINOIS, 60532, USA,  Phone: +1 (630) 505-0900    
-Hotel Info: ~$159 USD per night, About .9 miles, 3 mins to Nokia office 
-[Directions](http://www3.hilton.com/en/hotels/illinois/hilton-lisle-naperville-NAPHIHF/index.html)  
+Hotel Info: ~$159 USD per night, About .9 miles, 3 mins to Nokia office   
 
 #### 3. [Marriot](http://www.marriott.com/hotels/travel/chimn-chicago-marriott-naperville/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2)  
 Address: 1801 North Naper Boulevard  Naperville  Illinois  60563  USA, Phone: +1 (630) 505-4900    
