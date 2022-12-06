@@ -78,7 +78,7 @@ There are many wonderful things to visit in the area. If you are traveling with 
  
 [Fenway Park](http://boston.redsox.mlb.com/bos/ballpark/tour.jsp): “America’s Ballpark” is located in Boston’s Back Bay area and was recently made a national monument. Take a tour or watch a game!
  
-[Harpoon](http://www.harpoonbrewery.com/breweries/boston/brewery-tours) and [Sam Adams](https://www.samueladams.com/boston-brewery/brewery-tours) Breweries:
+Harpoon and [Sam Adams](https://www.samueladams.com/boston-brewery/brewery-tours) Breweries:
 Both Boston based breweries have daily tours and tastings of their staple and seasonal fares. Harpoon provides a taproom for patrons who wish to sample more extensively.
   
 [Faneuil Hall and Quincy Marketplace](http://www.faneuilhallmarketplace.com/): A hub of shops and dining on a cobblestone promenade in the heart of the city.
@@ -96,4 +96,4 @@ All participants, vendors, and guests at InnerSource Commons events are required
 
 InnerSource Commons meetings run under the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_House_Rule): information discussed at a meeting can be shared but not attributed.
 
-Interested in helping out? Email <summit@innersourcecommons.org> or speak up on [#innersourcecommons](https://innersourcecommons-inviter.herokuapp.com/)!
+Interested in helping out? Email <summit@innersourcecommons.org> or speak up on [#innersourcecommons](https://join.slack.com/t/innersourcecommons/shared_invite/zt-1l4a602b6-DKD0B0Y8~WE4aDf~o1xCRw)!

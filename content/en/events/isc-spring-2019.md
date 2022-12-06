@@ -277,7 +277,7 @@ Inner source is the application of open source methodologies to internally-devel
 
    <tr>
         <td class="time">19:00</td>
-        <td colspan="2">Social Event held at the <a href="https://www.harbour.ie">Harbour Hotel</a> with entertainment by <a href="https://carmeldempsey.com/">Carmel Dempsey </a></td>   
+        <td colspan="2">Social Event held at the <a href="https://www.harbour.ie">Harbour Hotel</a> with entertainment by Carmel Dempsey</td>   
     </tr>
 </table>
 
@@ -619,7 +619,6 @@ Galway Features a Number of Hotels that are proximate to the University. Attende
 Other Hotels & Hostels in Galway City:
 * [The Galmont Hotel](https://www.thegalmont.com/)
 * [Park House Hotel](https://www.booking.com/hotel/ie/park-house.html)
-* [Meyrick Hotel](https://www.hotelmeyrick.ie/)
 * [Imperial Hotel](https://www.imperialhotelgalway.ie/)
 * [Connacht Hotel](https://www.theconnacht.ie/)
 * [Snoozles Hostel Galway](https://www.snoozleshostelgalway.ie/) 
@@ -643,7 +642,7 @@ All participants, vendors, and guests at InnerSource Commons events are required
 
 InnerSource Commons meetings and events run under the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_House_Rule): information discussed at a meeting can be shared but not attributed.
 
-Interested in getting involved? Email <summit@innersourcecommons.org> or join the conversation on the [#innersourcecommons](https://innersourcecommons-inviter.herokuapp.com/) slack channel!
+Interested in getting involved? Email <summit@innersourcecommons.org> or join the conversation on the [#innersourcecommons](https://join.slack.com/t/innersourcecommons/shared_invite/zt-1l4a602b6-DKD0B0Y8~WE4aDf~o1xCRw) slack channel!
 
  <h3>Sponsors</h3> <p>
     <div style="width:100%">
