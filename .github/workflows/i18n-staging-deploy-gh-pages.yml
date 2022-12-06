@@ -3,7 +3,7 @@ name: i18n Staging Deploy to GitHub Pages
 on:
   push:
     branches:
-      - japanese-pages
+      - japanese-pages-staging
 
 env:
   HUGO_ENV: "production"
