@@ -383,7 +383,7 @@ An advocate of diversity, he is a member of the University of Vermont’s STEM l
 <b>Dr. Mary Lynn Manns, Professor at UNC Asheville and Author</b>
 
 <p>
-Dr. Mary Lynn Manns is a professor in the Department of Management at UNC Asheville and the co-author of two books, <i>Fearless Change: Patterns for Introducing New Ideas</i>, 2005 (also published in Japanese and Chinese) and <i>More Fearless Change: Strategies for Making Your Ideas Happen</i>, 2015. Mary Lynn has given numerous presentations on change leadership throughout the world in many organizations that include Microsoft, Proctor & Gamble, Avon, and amazon.com.  On campus, she coordinates the "Ideas to Action" initiative at UNC Asheville, which guides students as they work in interdisciplinary teams to design, develop, and defend their ideas for changing the world. For more information: https://mgmtacct.unca.edu/faces/mary-lynn-manns-phd. 
+Dr. Mary Lynn Manns is a professor in the Department of Management at UNC Asheville and the co-author of two books, <i>Fearless Change: Patterns for Introducing New Ideas</i>, 2005 (also published in Japanese and Chinese) and <i>More Fearless Change: Strategies for Making Your Ideas Happen</i>, 2015. Mary Lynn has given numerous presentations on change leadership throughout the world in many organizations that include Microsoft, Proctor & Gamble, Avon, and amazon.com.  On campus, she coordinates the "Ideas to Action" initiative at UNC Asheville, which guides students as they work in interdisciplinary teams to design, develop, and defend their ideas for changing the world. 
 </p>
 </td>
 
