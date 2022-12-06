@@ -27,7 +27,7 @@ jobs:
           done
       - name: set up robots.txt not to be crawled
         run: |
-          echo 'User-agent: *\nDisallow: /' > layouts/robots.txt
+          echo 'Disallow: /' > layouts/robots.txt
       - name: Build
         run: hugo --minify
       - name: Deploy
