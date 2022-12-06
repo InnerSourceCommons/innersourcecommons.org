@@ -26,7 +26,7 @@ jobs:
             sed -i '/total size\|file list/d' content/.gitignore;
           done
       - name: set up robots.txt not to be crawled
-        rnn: |
+        run: |
           echo 'User-agent: *\nDisallow: /' > layouts/robots.txt
       - name: Build
         run: hugo --minify
