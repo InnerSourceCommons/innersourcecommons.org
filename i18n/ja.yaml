@@ -23,3 +23,7 @@ read_the_book: 本を読む
 
 ## Research
 read_research_report: レポートを読む
+
+## Footer
+footer_content: >-
+  特定ライセンスが明記されている場合を除き、このサイトにおける内容は CC-BY-SA ライセンスのもと提供されています

@@ -23,3 +23,7 @@ read_the_book: Read the book
 
 ## Research
 read_research_report: Read Research Report
+
+# License
+footer_content: >-
+  The site is licensed under a CC-BY-SA license unless otherwise marked.
