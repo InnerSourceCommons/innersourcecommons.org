@@ -1,12 +1,12 @@
 ---
-title: "Community"
+title: "コミュニティ"
 ---
 
 <section class="section">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
-        <p>Welcome to the Community page - we are so happy you are here! All our learning resources and events are open to everyone and are free to use. However, the magic happens when the community comes together to share learnings. We hope you will join us!
+        <p>コミュニティのページへようこそ - 私たちは、あなたがここにいることをとても嬉しく思います。私たちの学習リソースやイベントはすべて、どなたでも無料でご利用いただけます。しかし、魔法がかかるのは、コミュニティが集まって学びを共有するときです。ぜひご参加ください！
         </p>
       </div>
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
@@ -20,34 +20,33 @@ title: "Community"
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center mb-4">
-        <p class="mt-3 h1">Get Started Today</p>
-        <p>There are various ways to get involved in the InnerSource Commons community.</p>
+        <p class="mt-3 h1">今すぐ参加</p>
+        <p>InnerSource Commonsコミュニティに参加するには、いくつかの方法があります。</p>
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center">
           <i class="ti-hand-open mb-3"></i>
-          <h4 class="mb-2">Meet the Community</h4>
-          <p>Say hello in the #general channel in Slack. Share your own experiences or ask questions about InnerSource. We all benefit from those discussions.</p>
+          <h4 class="mb-2">コミュニティに挨拶する</h4>
+          <p>Slackの#generalチャンネルで挨拶しましょう。InnerSourceについて自分の経験や質問を共有するか、みんなが参加して議論することで、皆さんが得られるものが増えます。</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center">
           <i class="ti-comment-alt mb-3"></i>
-          <h4 class="mb-2">Have a Chat</h4>
-          <p>Join #virtual-coffee-buddies for an in-person chat with somebody from our community. Discuss your specific  challenges and brainstorm ideas.</p>
+          <h4 class="mb-2">会話する</h4>
+          <p>#virtual-coffee-buddiesに参加して、コミュニティの誰かと面談しましょう。特定の課題について話し合い、アイデアを出し合いましょう。</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center">
           <i class="ti-key mb-3"></i>
-          <h4 class="mb-2">Join a Working Group</h4>
-          <p>Join a working group to collaborate with other InnerSource practitioners. Each working group is producing learning resources about InnerSource.</p>
+          <h4 class="mb-2">ワーキンググループに参加する</h4>
+          <p>他のInnerSourceプラクティショナーと協力するためにワーキンググループに参加しましょう。各ワーキンググループは、InnerSourceに関する学習リソースを作成しています。</p>
         </div>
       </div>
     </div>
     <div class="row d-flex justify-content-center">
-        <a href="/slack" class="btn btn-primary btn-sm"><img src="/images/slack.png" class="pr-2"/>Join Slack</a>
-    </div>
+        <a href="/slack" class="btn btn-primary btn-sm"><img src="/images/slack.png" class="pr-2"/>Slackに参加する</a>
   </div>
 </section>
 
@@ -60,8 +59,8 @@ title: "Community"
         </div>
       </div>
       <div class="col-md-6 ">
-        <p class="section-title h2">Learning Path Working Group</p>
-        <p>The Learning Path Working Group curates the <a href="/learn/learning-path/">InnerSource Learning Path</a>, a series of short videos and articles explaining and teaching various aspects of InnerSource. The working group meets weekly. To get started, join the #learning-path slack channel and introduce yourself.
+        <p class="section-title h2">ラーニングパス ワーキンググループ</p>
+        <p>ラーニングパス ワーキンググループは、<a href="/learn/learning-path/">インナーソース ラーニングパス</a>をカタログ化しています。これは、インナーソースの様々な側面を説明し、教える短いビデオと記事のシリーズです。ワーキンググループは毎週ミーティングします。開始するには、#learning-path slackチャンネルに参加して自己紹介をしましょう。
         </p>
         <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> learning-path</a>
       </div>
@@ -74,7 +73,7 @@ title: "Community"
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
         <p class="section-title h2">Patterns Working Group</p>
-        <p>The Patterns Working Group is creating a book with InnerSource Patterns — best practices codified in a specific format easy to understand and reuse. The Patterns group hold regular office-hours, but most of the work is done asynchronously on <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/" target="_blank">GitHub</a>.
+        <p>The Patterns Working Group is creating a book with インナーソース Patterns — best practices codified in a specific format easy to understand and reuse. The Patterns group hold regular office-hours, but most of the work is done asynchronously on <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/" target="_blank">GitHub</a>.
         </p>
         <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> innersource-patterns</a>
       </div>
