@@ -43,4 +43,4 @@ To add a new logo/org to the Stories page, please fill in [this issue][issue-tem
 [innersourcecommons.org]: https://innersourcecommons.org
 [hugo]: https://gohugo.io/getting-started/installing/
 [stories]: https://innersourcecommons.org/stories/
-[issue-template]: https://github.com/InnerSourceCommons/InnerSourceMarketing/issues/new?template=add-a-new-org-logo-to-the-website.md
+[issue-template]: https://github.com/InnerSourceCommons/InnerSourceMarketing/issues/new?assignees=&labels=website&template=add-a-new-org-logo-to-the-website.md&title=Add+%5Borganisation+name%5D+logo+to+the+Stories+Page
