@@ -31,14 +31,12 @@
           {{ end }}
         </ul>
         <a href="{{ "slack" | absURL }}" class="btn btn-sm btn-primary ml-1" target="_blank"><i class="ti-comments pr-2"></i>{{ T "join_slack" }}</a>
-        {{ if .IsDescendant (index (where .Site.Pages "CurrentSection.Title" "Learning Path") 0) }}
         <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
           <option>{{ .Site.Language.LanguageName }}</option>
           {{ range .Translations }}
           <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
           {{ end }}
         </select>        
-        {{ end }}
       </div>
     </nav>
   </div>
