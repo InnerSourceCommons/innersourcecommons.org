@@ -1,94 +1,94 @@
 ---
-title: "Privacy Policy"
+title: "プライバシー ポリシー"
 draft: false
 ---
-InnerSource Commons is an independent non-for-profit organisation that creates and shares knowledge about InnerSource for its members. 
+InnerSource Commonsは、メンバーに対してInnerSourceの知識を創造し、共有する独立した非営利組織です。
 
-This privacy policy will explain how our organisation uses the personal data we collect from you when you use our website and contribute to our projects.
+このプライバシーポリシーは、参加者が私たちのウェブサイトを使用し、私たちのプロジェクトに貢献するときに私たちの組織は、参加者から収集した個人データを使用する方法を説明します。
 
 ## What Data Do We Collect And Why?
 
-You directly provide InnerSource Commons with most of the data we collect. We collect and process data when you:
+InnerSource Commons が収集し、処理するほとんどのデータは以下のようにユーザーから直接提供されたものです。
 
-- Register to our emailing list: InnerSource Commons collects personal identification information (Name and Email Address) to email you with news, events and articles we think you might like.
+- メーリングリストに登録する: InnerSource Commonsは、ニュース、イベント、おすすめの記事をお送りするために個人識別情報（名前とメールアドレス）を収集します。
 
-- Register to our events: InnerSource Commons collects information that you provide us when you register for one of our events, such as conferences and when you choose to participate in an event as an attendee, speaker, or sponsor. This information includes personal data such as your name, company, and contact information.
+- イベントに登録する: InnerSource Commonsは、会議やイベントの参加者、スピーカー、スポンサーとして参加する際に提供される情報など、イベントの登録時に提供される情報を収集します。この情報には、名前、会社、および連絡先などの個人データが含まれます。
 
-- Join our Slack community: When you join the conversation on Slack we store the information you contribute and your conversations.
+- Slackコミュニティに参加する: Slackで会話をした際に、提供された情報と会話が保存されます。
 
-- Voluntarily contribute to our GitHub Repositories by providing feedback, content or committing code: When you contribute source code, documentation, or other materials to one of our projects (whether on your own behalf or on behalf of your employer), we store the information and content that you contribute. This can include the contributed materials, information required to confirm the provenance of the contribution, and any associated intellectual property. We ask you not to upload personal data to our projects.
+- 自発的にフィードバック、コンテンツ、またはコードを提供してGitHubリポジトリに貢献する: 参加者が自分自身または雇用主の代わりに我々のプロジェクトにソースコード、ドキュメント、またはその他の素材を貢献した場合、貢献した情報とコンテンツが保存されます。 これには、貢献した素材、貢献の歴史を確認するために必要な情報、および関連する知的財産が含まれます。プロジェクトに個人データをアップロードすることはお控えください。
 
-- Voluntarily answer questionnaires and surveys: From time to time we may send you questionnaires or surveys for collecting demographic information or assessing your interests and needs, to help us to improve our services. Any such questionnaires or surveys will be entirely voluntary. The purpose and intended use of the information being collected will be explained in the survey itself.
+- アンケートや調査への自発的な回答。当社は、当社のサービスを向上させるため、人口統計学的情報の収集、参加者の関心やニーズの調査のために、参加者にアンケートや調査をお送りすることがあります。このようなアンケートや調査は、完全に任意です。収集される情報の目的および使用目的は、アンケート自体で説明されます。
 
-### Information Automatically Collected From You
+### 自動的に収集される情報
 
-We also collect certain information automatically. Like many websites, the InnerSource Commons  website uses “cookies” and we obtain certain types of information when your web browser accesses our site. On the InnerSource Commons website Cookies are used for the following purposes and using the following services:
- 
-Displaying content from external platforms
+我々はまた、自動的に特定の情報を収集します。多くのウェブサイトと同様に、インナーソースコモンズのウェブサイトは、 "クッキー "を使用しており、参加者のウェブブラウザが私たちのサイトにアクセスしたときに我々は、特定の種類の情報を取得します。インナーソース・コモンズのウェブサイトでは、以下の目的で、以下のサービスを利用してクッキーを使用しています。
 
-- Twitter - Personal Data: Usage Data and various types of Data as specified in the [privacy policy](https://twitter.com/en/privacy) of the service
-- Youtube - Personal Data: Usage Data and various types of Data as specified in the [privacy policy](https://policies.google.com/privacy) of the service
+外部プラットフォームからのコンテンツ表示
 
-Forms
+- Twitter - 個人情報: サービスの[プライバシーポリシー](https://twitter.com/en/privacy)で指定されている使用データおよび各種データ。
+- Youtube - 個人データ: 利用データおよび本サービスの[プライバシーポリシー](https://policies.google.com/privacy)に規定された各種データ
 
-- MailChimp (emailing list) - Personal Data: Cookies and various types of Data as specified in the [privacy policy](https://mailchimp.com/legal/privacy/) of the service
+フォーム
 
-You can set or amend your web browser controls to accept or refuse cookies. As the means by which you can refuse cookies through your web browser controls vary from browser-to-browser, you should visit your browser's help menu for more information.
+- MailChimp (メール配信リスト) - 個人情報。個人情報：Cookieおよびサービスの[プライバシーポリシー](https://mailchimp.com/legal/privacy/)に規定されている各種データ
 
-## How and When Do We Share Your Information?
+参加者は、ウェブブラウザの設定で、クッキーの受け入れまたは拒否を設定または変更することができます。ウェブブラウザでクッキーを拒否する方法は、ブラウザによって異なりますので、詳しくはブラウザのヘルプメニューをご覧ください。
 
-InnerSource Commons is not in the business of selling your information. As set out below, we only share information on a limited basis in order to enable us to offer our services. We do not otherwise make your data available to third parties.  
+## どのように、いつ参加者の情報を共有するか
 
-### Service Providers
+インナーソースコモンズは、参加者の情報を販売するビジネスではありません。以下に示すように、我々は唯一の私たちのサービスを提供できるようにするために限られたベースで情報を共有する。私たちは、それ以外の場合は、第三者に参加者のデータを利用できるようにすることはありません。 
 
-We employ other organizations and service providers to perform certain functions on our behalf. These third parties have only limited access to your information, may use your information only to perform these tasks on our behalf, and are obligated to InnerSource Commons not to disclose or use your information for other purposes. 
+### サービスプロバイダー
 
-Our use of third-party service providers includes:
-- GitHub - to host and contribute to projects
-- Mailchimp - to store an email list for marketing purposes
-- Slack - for community communication
-- Eventbrite and Eventyay - to organise events
-- Aplos - for financial management
-- Google Forms - for surveys and to gather feedback from events
+当社は、当社に代わって特定の機能を果たすために、他の組織やサービス・プロバイダーを雇用しています。これらの第三者は、参加者の情報へのアクセスは限られており、私たちに代わってこれらのタスクを実行するためにのみ参加者の情報を使用することができ、他の目的のために参加者の情報を開示または使用しないようにインナーソースコモンズに義務付けられています。
 
-If you have any questions about the specific service providers we currently use, please contact us at questions@innersourcecommons.org or by using the contact information set out at the bottom.
+私たちは、サードパーティのサービスプロバイダを使用することが含まれます。
+- GitHub - ホストとプロジェクトに貢献するために
+- Mailchimp - マーケティングの目的のために電子メールリストを格納するために
+- Slack - コミュニティのコミュニケーションのため
+- EventbriteとEventyay - イベントを開催するため。
+- Aplos - 財務管理
+- Google Forms - アンケートやイベントからのフィードバックの収集
 
-## Legal Compliance / Protection of the Public and Our Business / Legitimate Interests 
+当社が現在利用している特定のサービス・プロバイダーについてご質問がある場合は、questions@innersourcecommons.org または下部に記載されている連絡先までご連絡ください。
 
-We will release personal and account information in response to lawful requests by public authorities, including to meet legitimate national security or law enforcement requirements; to protect, establish, or exercise our legal rights or defend against legal claims, including to collect a debt; to comply with a subpoena, court order, legal process, or other legal requirement; or when we believe in good faith that such disclosure is necessary to comply with the law, prevent imminent physical harm or financial loss, or investigate, prevent, or take action regarding illegal activities, suspected fraud and threats to our property.
+## 法令遵守／公衆および当社事業の保護／正当な利益 
 
-In limited circumstances, we may also exchange certain information with other companies and organizations for the specific purpose of fraud protection. However, this does not include selling, renting, sharing, or otherwise disclosing personally identifiable information from you for commercial purposes in violation of the commitments set forth here.
+当社は、国家安全保障または法執行の合法的な要件を満たすため、当社の法的権利を保護、確立、行使するため、または法的請求（債権回収を含む）から防御するため、召喚状、裁判所命令、法的手続またはその他の法的要件に従うため、あるいは法令遵守、差し迫った身体的危害または金銭的損失の防止、違法行為、詐欺の疑いおよび当社の財産に対する脅威に関する調査、防止または措置が必要だと当社が誠実に考える場合に、個人情報および口座情報を公的機関から適法な要請に従って開示することができます。
 
-We may also share your information during an organizational transaction like a merger or sale of our assets. If such a transaction occurs, we will provide notification of any changes to control of your information, as well as choices you may have.
+また、限られた状況において、当社は、不正行為の防止という特定の目的のために、他の企業や組織と特定の情報を交換することがあります。ただし、この場合、ここに定めた約束に反して、商業目的でお客様から得た個人を特定できる情報を販売、貸与、共有、またはその他の方法で開示することはありません。
 
-## Children’s Privacy
+また、当社は、合併や当社資産の売却などの組織的な取引において、お客様の情報を共有する場合があります。このような取引が発生した場合、当社は、お客様の情報の管理方法が変更されたこと、およびお客様が有する選択肢について通知します。
 
-Our services are not designed for, and are not marketed to, people under the age of 18 (“minors”). We do not knowingly collect or ask for information from minors and we do not knowingly allow minors to use our services. By using our services or accessing our website, you represent that you are at least the age of majority in your country, state and/or province of residence.
+## 子供のプライバシー
 
-## Data Transfers
+当社のサービスは、18歳未満の方（以下、「未成年者」）向けに設計されておらず、また、未成年者向けに販売されているわけではありません。当社は、意図的に未成年者から情報を収集したり、情報を求めたりせず、また、意図的に未成年者に当社のサービスを使用させません。当社のサービスを利用し、または当社のウェブサイトにアクセスすることにより、お客様は、居住する国、州および/または地域における成人年齢に達していることを表明するものとします。
 
-InnerSource Commons is based in the United States, processes and stores data in the United States, and makes its services available around the world. The United States, Member States of the European Economic Area (“EEA”), and other countries are governed by different laws. When your data is moved from its home country to another country, the laws and rules that protect your personal information in the country to which your information is transferred may be different from those in the country where you reside. For example, the legal requirements for law enforcement to gain access to personal information may vary between countries. If your personal data is in the United States, it may be accessed by government authorities in accordance with United States law.
+## データ転送
 
-Because we offer our services to people in different countries and use technical infrastructure based in the United States, we may need to transfer your personal information across borders in order to deliver our services.
+インナーソースコモンズは、米国に拠点を置き、米国内でデータを処理、保存し、世界中でそのサービスを利用できるようにしています。米国、欧州経済領域（「EEA」）の加盟国、およびその他の国々では、異なる法律が適用されます。お客様のデータが自国から他国に移転される場合、お客様の情報が移転される国の個人情報保護に関する法律や規則は、お客様が居住する国のものとは異なる可能性があります。例えば、法執行機関が個人情報にアクセスするための法的要件は、国によって異なる場合があります。お客様の個人情報が米国にある場合、米国の法律に従って政府当局がアクセスする可能性があります。
 
-## How Secure Is Your Information?
+当社は、さまざまな国の人々にサービスを提供し、米国に拠点を置く技術インフラを使用しているため、当社のサービスを提供するために、お客様の個人情報を国境を越えて転送する必要がある場合があります。
 
-We maintain administrative, technical and physical safeguards designed to protect the privacy and security of the information we maintain about you. When you provide us with personal information, the connection between your computer and our server is encrypted using Secure Sockets Layer (SSL) software that encrypts that information. We use a Digital Certificate and secure pages will be identified by a padlock sign and “https://” in the address bar. We store our data in protected databases on secured servers with restricted access. We also use hardware and software firewalls, screen for viruses and malware, and utilize live 24/7 monitoring services to mitigate threats. However, no method of transmission or storage is 100% secure. 
+## 参加者の情報はどのように保護されていますか？
 
-All accounts used to access InnerSource Commons related resources are maintained by the vendors providing those resources; InnerSource Commons does not store any passwords on your behalf. It is very important for you to protect against the theft or unauthorized access of your account credentials for these services. 
+当社は、お客様に関する情報のプライバシーとセキュリティを保護するために、管理上、技術上、物理上の安全策を講じています。お客様が個人情報を提供される場合、お客様のコンピュータと当社のサーバ間の接続は、その情報を暗号化するセキュア・ソケット・レイヤー（SSL）ソフトウェアにより暗号化されます。当社はデジタル証明書を使用しており、安全なページはアドレスバーに南京錠のサインと「https://」によって識別されます。当社は、アクセス制限のある安全なサーバー上の保護されたデータベースにデータを保存します。また、ハードウェアおよびソフトウェアのファイアウォールを使用し、ウイルスやマルウェアのスクリーニングを行い、24時間365日のライブ監視サービスを利用して、脅威を軽減しています。しかし、伝送またはストレージのない方法は、100％安全ではありません。
 
-## What Are Your Rights?
+インナーソースコモンズの関連リソースにアクセスするために使用される全てのアカウントは、それらのリソースを提供するベンダーによって管理されており、インナーソースコモンズは参加者の代わりにパスワードを保存することはありません。インナーソース・コモンズでは、参加者の代わりにパスワードを保管することはありません。これらのサービスに対する参加者のアカウント情報が盗まれたり、不正にアクセスされないようにすることは、参加者にとって非常に重要です。
 
-Upon request, InnerSource Commons will provide you with information about whether we hold any of your personal information. In certain cases, subject to relevant legal rights, you have the right to object to the processing of your personal information, to request changes, corrections, or the deletion of your personal information, and to obtain a copy of your personal information in an easily accessible format. In order to do this, you can contact us using the contact information set out at the bottom of this Privacy Policy. We will respond to every request within a reasonable timeframe and may need to take reasonable steps to confirm identity before proceeding.
+## 参加者の権利
 
-We offer you the opportunity to receive information about our company and projects that we think may be of interest to you. If you no longer wish to receive such information then we will stop sending it. Any emails that we send contain an obvious means of unsubscribing from further messages, with a link appearing at the bottom of the email. 
+インナーソースコモンズは、要求に応じて、私たちが参加者の個人情報のいずれかを保持しているかどうかについての情報を提供します。特定のケースでは、関連する法的権利に従うことを条件として、参加者は自身の個人情報の処理に反対し、参加者の個人情報の変更、訂正、削除を要求し、簡単にアクセスできる形式で参加者の個人情報のコピーを取得する権利を持っています。これを行うには、このプライバシーポリシーの末尾に記載されている連絡先を使って、当社にご連絡ください。当社は、合理的な期間内にすべてのリクエストに対応しますが、処理を進める前に本人確認のための合理的な手順を踏む必要がある場合があります。
 
-## Data Retention
+当社は、お客様に当社の情報やお客様が関心をお持ちであると思われるプロジェクトに関する情報をお届けする機会を提供しています。お客様がこのような情報の受信を希望されない場合、当社は情報の送信を停止します。当社が送信するすべてのEメールには、Eメールの下部に記載されたリンクにより、今後のメッセージの配信を停止するための明白な手段が含まれています。
 
-For personal data under its control, InnerSource Commons will retain such data only for as long as is necessary for the purposes set out in this policy.
+## データの保持
 
-If you no longer wish to use our services then you may request deletion of your data at any time. 
+インナーソースコモンズは、その管理下にある個人データについて、このポリシーに定める目的のために必要な限りにおいてのみ、当該データを保持します。
 
-## Contact Us
+参加者がもはや私たちのサービスを使用することを望む場合は、いつでも参加者のデータの削除を要求することができます。
 
-If you have any questions, comments or suggestions about how we handle personal information you can contact InnerSource Commons at questions@innersourcecommons.org.
+## お問い合わせ
+
+当社の個人情報の取り扱いについてご質問、ご意見、ご提案がございましたら、インナーソースコモンズ（questions@innersourcecommons.org）までご連絡ください。

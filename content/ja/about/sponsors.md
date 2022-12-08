@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Our Sponsors"
-subtitle: "Our Partners are organizations helping to lead the InnerSource movement in the world. Our Supporters have not just adopted InnerSource internally, they care about enabling the worldwide community of practitioners. Whereas the InnerSource Commons would not exist without our fabulous community participants, our generous sponsors provide the means by which we can scale our activities and impact. Without their help, we would not be able to do the work we do. </p>Thank you!"
+title: "スポンサー"
+subtitle: "<br>私たちのパートナーは、世界でインナーソースの動きをリードするのに役立っている組織です。私たちのサポーターは、単に内部でインナーソースを採用していません。彼らは実践者の世界的なコミュニティを有効にすることに気を配っています。InnerSource Commonsは、素晴らしいコミュニティの参加者がなければ存在しないのに対し、私たちの寛大なスポンサーは、私たちの活動とインパクトを拡大することができる支援を提供します。彼らの助けなしに、我々は作業を行うことができないでしょう。</br>感謝いたします。"
 ---
 
 
   <div class="container text-center" >
-    <h2 class="display-3"> Our Partners </h2>
+    <h2 class="display-3">パートナー</h2>
   </div>
 
   <div class="container">
@@ -19,7 +19,7 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
   </div>
 
   <div class="container text-center" >
-    <h2 class="display-3"> Our Supporters </h2>
+    <h2 class="display-3">サポーター</h2>
   </div>
   
   <div class="container">
@@ -38,8 +38,8 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center mb-4">
-        <p class="mt-3 h1">Become a Sponsor</p>
-        <p>There are two ways to sponsor the InnerSource Commons community:</p>
+        <p class="mt-3 h1">スポンサーになるには</p>
+        <p>InnerSource Commonsコミュニティのスポンサーになるには、2つの方法があります</p>
       </div>
       <div class="col-md-6 col-sm-6 mb-4">
         <div class="feature-card text-left">

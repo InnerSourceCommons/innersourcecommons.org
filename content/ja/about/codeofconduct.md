@@ -1,5 +1,5 @@
 ---
-title: "InnerSource Commons Code of Conduct"
+title: "InnerSource Commons 行動規範"
 subtitle: ""
 description: "The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource."
 draft: false
@@ -71,9 +71,9 @@ image: "/images/logo.png"
 
 **コミュニティへの影響**: 継続的な不適切な行動、個人に対する嫌がらせ、または個人クラスに対する攻撃や中傷など、コミュニティ基準に対する違反のパターンを示していること。
 
-**結果**。コミュニティ内でのあらゆる種類の公的な交流が永久に禁止されます。
+**結果**: コミュニティ内でのあらゆる種類の公的な交流が永久に禁止されます。
 
-## アトリビューション
+## 行動規範の帰属に関して
 
 [![コントリビューター協定](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
