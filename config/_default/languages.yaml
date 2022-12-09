@@ -8,25 +8,25 @@ ja:
   weight: 2
 de:
   languageName: Deutsch
-  contentDir: content/en
+  contentDir: content/de
   weight: 3
 zh:
   languageName: 中文
-  contentDir: content/en
+  contentDir: content/zh
   weight: 3
 it:
   languageName: Italiano
-  contentDir: content/en
+  contentDir: content/it
   weight: 3
 es:
   languageName: Español
-  contentDir: content/en
+  contentDir: content/es
   weight: 3
 ru:
   languageName: Русский
-  contentDir: content/en
+  contentDir: content/ru
   weight: 3
 fr:
   languageName: Français
-  contentDir: content/en
+  contentDir: content/fr
   weight: 3
