@@ -13,7 +13,7 @@ about_innersource_commons_history: |-
   Founded in 2015, the InnerSource Commons is now supporting and connecting over 1500 individuals from over 500 companies, academic institutions, and government agencies. The InnerSource Commons Foundation was incorporated on February 19th, 2020 and is now a 501(c)(3) public charity.
 
 # Learn
-learn: "Learn"
+learn: Learn
 
 ## Book
 author: Author
@@ -24,6 +24,10 @@ read_the_book: Read the book
 ## Research
 read_research_report: Read Research Report
 
+## Site Metadata
+meta_description: The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource. 
+meta_keywords: InnerSource,Open source,silo,collaboration
+
 # License
-footer_content: >-
+footer_content: |-
   The site is licensed under a CC-BY-SA license unless otherwise marked.
