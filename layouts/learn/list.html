@@ -21,7 +21,7 @@
               {{ .Title }}</a></h2>
             <p class="card-text">{{ default .Summary .Params.description }}</p>
             <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary">
-              Learn</a>
+              {{ T "learn_button" }}</a>
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@
               {{ .Title }}</a></h3>
             <p class="card-text">{{ default .Summary .Params.description }}</p>
             <a href="{{ default .Permalink .Params.redirect }}" class="btn btn-primary btn-sm"{{ with .Params.target }} target="{{ . }}"{{ end }}>
-              Learn</a>
+              {{ T "learn_button" }}</a>
           </div>
         </div>
       </div>

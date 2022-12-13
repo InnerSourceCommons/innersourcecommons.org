@@ -4,10 +4,10 @@ title: "InnerSource Services Directory"
 image: "/images/learn/services_directory.png"
 date: 2022-05-16T00:00:00+00:00
 ---
-Welcome to the InnerSource Services Directory. We have compiled a list of companies that provide InnerSource services that fit in 3 categories: Tools, Consulting Services and Training Services.
-If you would like to be added to the services list please send us an email at info@innersourcecommons.org.
+InnerSource サービスディレクトリへようこそ。我々は、3つのカテゴリに収まるインナーソースサービスを提供する企業のリストを収集しています。その範囲はツール、コンサルティングサービス、およびトレーニングサービスにわたります。
+あなたがサービスリストに追加したい場合は、info@innersourcecommons.org、私達に電子メールを送信してください。
 
-We do our best to ensure that the information on this page is accurate and helpful at all times. However, any link or content listed below does not represent any endorsement or recommendation by InnerSource Commons and does not mean that we have any association with the linked organizations.
+我々は、このページ上の情報が常に正確かつ有用であることを保証するために最善を尽くします。しかし、以下に記載されているリンクやコンテンツは、InnerSource Commons による推奨や推薦を表すものではなく、リンク先の組織と何らかの関連性を持っていることを意味するものではありません。
 </p>
 
 <table class="schedule table table-striped">

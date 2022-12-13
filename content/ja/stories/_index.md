@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "InnerSource Stories"
-subtitle: "The InnerSource Commons community has over 1500 subscribers from 500 organizations. Listed below is a sample of the organizations who have publicly spoken about using InnerSource."
+title: "InnerSource の事例"
+subtitle: "InnerSource Commons のコミュニティは、500の組織から1500以上の加入者を持っています。以下にリストされているのは、InnerSource の使用事例を公開している組織の例です。"
 image: "/images/learn/InnerSourceInAction.jpg"
 aliases:
 - /community/action/

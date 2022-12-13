@@ -72,8 +72,8 @@ title: "コミュニティ"
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
-        <p class="section-title h2">Patterns Working Group</p>
-        <p>The Patterns Working Group is creating a book with インナーソース Patterns — best practices codified in a specific format easy to understand and reuse. The Patterns group hold regular office-hours, but most of the work is done asynchronously on <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/" target="_blank">GitHub</a>.
+        <p class="section-title h2">パターン ワーキンググループ</p>
+        <p>パターン・ワーキンググループは、インナーソースパターン - 理解と再利用が容易な特定のフォーマットで成文化されたベストプラクティス - を作成しています。パターングループは定期的にオフィスアワーを設けていますが、ほとんどの作業は<a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/" target="_blank">GitHub</a>上で非同期的に行われています。
         </p>
         <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> innersource-patterns</a>
       </div>
@@ -93,8 +93,8 @@ title: "コミュニティ"
         </div>
       </div>
       <div class="col-md-6 ">
-        <p class="section-title h2">Marketing & Outreach Working Group</p>
-        <p>The Marketing & Outreach Working Group promotes InnerSource success stories, supports outreach activities, conducts research, and organizes InnerSource <a href="/events/">events and summits</a>. It meets bi-weekly.
+        <p class="section-title h2">マーケティング＆アウトリーチワーキンググループ</p>
+        <p>マーケティング＆アウトリーチワーキンググループは、インナーソースの成功例をプロモーションし、アウトリーチ活動をサポートし、研究を行い、インナーソース関連の<a href="/events/">イベントやサミット</a>を開催しています。隔週で開催されています。
         </p>
         <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> marketing</a>
       </div>
@@ -106,10 +106,10 @@ title: "コミュニティ"
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
-        <p class="section-title h2">Board & Governance</p>
-        <p>The InnerSource Commons Foundation is registered as a 501(c)3 non-profit organization in the US, and service on the Board is one way the community can deepen their commitment to InnerSource.
+        <p class="section-title h2">役員・ガバナンス</p>
+        <p>インナーソース・コモンズ財団は、米国で501(c)3非営利団体として登録されています。理事会での奉仕は、コミュニティがインナーソースへのコミットメントを深める方法の1つです。
         </p>
-        <a href="/about/board/" class="btn-link">Learn more about the ISC Board <i class="ti-arrow-right"></i></a>
+        <a href="/about/board/" class="btn-link">ISCボードについてもっと知る<i class="ti-arrow-right"></i></a>
       </div>
       <div class="col-md-3 offset-md-1 order-1 order-md-2 mb-4 mb-md-0">
         <img src="/images/logo-big.png" class="img-fluid">
@@ -122,45 +122,46 @@ title: "コミュニティ"
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <p class="section-title mb-5 mt-3 h1">How We Work</p>
-        <p>Affiliation with the InnerSource Commons is tied to individuals, not companies. We've included some guidance on how we work below. No fees are required to participate. Content is made available under the <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        <p class="section-title mb-5 mt-3 h1">活動について</p>
+        <p>InnerSource Commons の参加は個人によって行われ、企業によって行われるものではありません。我々が以下にどのように働いているかについてのガイダンスを含んでいます。参加には料金は必要ありません。コンテンツは<a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> の下で利用可能になります。</p>
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center bg-light">
           <i class="ti-bookmark-alt mb-3"></i>
-          <h4 class="mb-2">Tools & Resources</h4>
-          <p>Most of our discussions happen in Slack. We have public and private projects on <a href="http://github.com/InnerSourceCommons">GitHub</a> and store a lot of our working documents in gDrive.
+          <h4 class="mb-2">ツールとリソース</h4>
+          <p>私たちの多くの議論は Slack で行われます。 私たちは <a href="http://github.com/InnerSourceCommons">GitHub</a> 上に公開および非公開のプロジェクトを持っており、多くの作業文書を gDrive に保存しています。
           </p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center bg-light">
           <i class="ti-comments mb-3"></i>
-          <h4 class="mb-2">Chatham House Rule</h4>
-          <p>All discussions in our Slack channel are held under the <a href="https://www.chathamhouse.org/about-us/chatham-house-rule">Chatham House Rule</a> to create a safe space where people can ask real questions.</p>
+          <h4 class="mb-2">チャタムハウスルール</h4>
+          <p>私たちの Slack チャンネル内でのすべての議論は、安全な場所を作り、人々が本当の質問をすることができるようにするために、<a href="https://www.chathamhouse.org/about-us/chatham-house-rule">チャタムハウスルール</a>が適用されます。</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center bg-light">
           <i class="ti-face-smile mb-3"></i>
-          <h4 class="mb-2">Code of Conduct</h4>
-          <p>Be nice and kind. If you would like more details, please read our <a href="/about/codeofconduct/">Code Of Conduct</a>.</p>
+          <h4 class="mb-2">行動規範</h4>
+          <p>優しく親切に接してください。詳細は<a href="/about/codeofconduct/">行動規範</a>をお読みください。</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section">
+<section class="section-last section">
   <div class="container section-small shadow rounded-lg px-4 bg-light">
     <div class="row align-items-center justify-content-center text-center text-md-left">
       <div class="col-lg-5 col-md-4 mb-4 mb-md-0">
         <a class="twitter-timeline" data-height="500" data-dnt="true" href="https://twitter.com/InnerSourceOrg?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       <div class="col-md-5 offset-md-1">
-        <p class="h2 section-title">Stay Connected</p>
-        <p class="mb-4">Most of the action in the community happens on our <a href="https://innersourcecommons-inviter.herokuapp.com/">Slack Channel</a>. You can also keep informed about the InnerSource Commons news, events and activities by signing up to our mailing list below, follow us on <a href="https://twitter.com/InnerSourceOrg">Twitter</a> and <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, and subscribing to our <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube Channel</a>.</p>
-        <p class="h3 section-title">Sign up to our mailing list</p>
+        <p class="h2 section-title">最新情報はこちら</p>
+        <p class="mb-4">
+        コミュニティ活動のほとんどは、<a href="https://innersourcecommons-inviter.herokuapp.com/">Slack</a> で行われています。また、メールの定期購読や、 <a href="https://twitter.com/InnerSourceOrg">Twitter</a>、 <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a> のフォロー、<a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube</a>チャンネルの登録やによって、InnerSource Commons のニュース、イベントについての情報を取得することができます。</p>
+        <p class="h3 section-title">メールを定期購読する</p>
         {{< contact-form >}}
       </div>
     </div>
