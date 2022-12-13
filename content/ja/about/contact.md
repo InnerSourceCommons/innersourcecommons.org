@@ -13,7 +13,7 @@ type: wide
         <p>問い合わせの最速かつ最良の方法は、Slackに参加し、#general チャンネルで質問をすることです。
         </p>
         <a href="/slack" class="btn btn-primary btn-sm"><img src="/images/slack.png" class="pr-1"/>Slackに参加する</a>
-        <p class="mt-4">また、info@innersourcecommons.org 宛てにメールでお問い合わせください。 </p>
+        <p class="mt-4">また、 info@innersourcecommons.org 宛てにメールでお問い合わせください。 </p>
       </div>
       <div class="col-md-5 order-1 order-md-1 mb-4 mb-md-0">
         <img src="/images/community/connection.png" class="img-fluid">
