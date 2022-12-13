@@ -78,4 +78,4 @@ subtitle: "<br>私たちのパートナーは、世界でインナーソース�
 
 私たちは、InnerSource のコミュニティーを成長させ、我々の仕事を容易にするとともに、InnerSource についての知識を広めることに貢献してくださるスポンサーの皆様に感謝します。
 
-スポンサーシップの費用は、スポンサーシップの種類、組織の種類とサイズ、契約期間によって異なります。詳細情報は[こちら](https://drive.google.com/file/d/1kPP44d9NQEUqY65kjt61bSMfP1BvxHD6/view?usp=sharing)からご覧いただけます。InnerSource Commons のスポンサーに興味がある方、Partner と Supporter プログラムについての詳細をお知りになりたい方は、sponsor@innersourcecommons.org までお問い合わせください。
+スポンサーシップの費用は、スポンサーシップの種類、組織の種類とサイズ、契約期間によって異なります。詳細情報は[こちら](https://drive.google.com/file/d/1kPP44d9NQEUqY65kjt61bSMfP1BvxHD6/view?usp=sharing)からご覧いただけます。InnerSource Commons のスポンサーに興味がある方、Partner と Supporter プログラムについての詳細をお知りになりたい方は、 sponsor@innersourcecommons.org までお問い合わせください。
