@@ -28,7 +28,7 @@ type: wide
       </div>
       <div class="col-md-5 offset-md-1">
         <p class="h2 section-title">つながる</p>
-            <p class="mb-4">コミュニティでのアクションの大部分は、<a href="https://innersourcecommons-inviter.herokuapp.com/">Slack Channel</a>で行われます。また、InnerSource Commonsのニュース、イベント、活動については、以下のメーリングリストにサインアップし、<a href="https://twitter.com/InnerSourceOrg">Twitter</a>と<a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>でフォローし、<a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTubeチャンネル</a>を購読することで、最新の情報を入手することができます。</p>
+            <p class="mb-4">コミュニティでのアクションの大部分は、<a href="https://innersourcecommons.org/slack//">Slack Channel</a>で行われます。また、InnerSource Commonsのニュース、イベント、活動については、以下のメーリングリストにサインアップし、<a href="https://twitter.com/InnerSourceOrg">Twitter</a>と<a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>でフォローし、<a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTubeチャンネル</a>を購読することで、最新の情報を入手することができます。</p>
     <p class="h3 section-title">メーリングリストにサインアップする</p>
     {{< contact-form >}}
       </div>
