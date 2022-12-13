@@ -1,7 +1,7 @@
 ---
 type: book
 title: インナーソース入門
-image: "/images/learn/books/getting-started-with-innersource-cover-thumb.jpg"
+image: https://4243717428-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSgwKLLrUz3no3PM0pYVL%2Fuploads%2Fgit-blob-95fa9234e6f179593fb63dcb5e97167956b7aeaa%2Fgetting-started-with-innersource.webp?alt=media
 weight: 1
 summary: インナーソースは、閉じた組織におけるオープンソースソフトウェアを開発するための原動力であり、プロジェクトの "オープン性" を企業内のチームを超えて広げるものです。この本では、オライリーの編集者兼著者である Andy Oram氏が、オープンソース開発を成功させる原則を確認するとともに、PayPal でインナーソースがどのように機能したのかを説明することによって、皆様をインナーソースの世界に導きます。
 book_author: Andy Oram
