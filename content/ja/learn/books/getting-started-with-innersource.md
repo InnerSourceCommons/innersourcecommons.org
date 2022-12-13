@@ -8,9 +8,11 @@ book_author: Andy Oram
 book_publish_date: 2015年7月
 book_publisher: O’Reilly Media
 book_url: https://innersourcecommons.gitbook.io/books/
+translated_book_url: https://jp-contents.innersourcecommons.org/v/getting-started-with-innersource
 aliases:
     - /getting-started
 ---
+
 
 インナーソースの世界へようこそ。インナーソースは、閉じた組織におけるオープンソースソフトウェアを開発するための原動力であり、プロジェクトの "オープン性" を企業内のチームを超えて広げるものです。この本では、オライリーの編集者兼著者である Andy Oram が、オープンソース開発を成功させる原則を確認するとともに、大手 EC の PayPal でインナーソースがどのように機能したのかを説明することによって、皆様をインナーソースの世界に導きます。
 

@@ -7,7 +7,9 @@ summary: インナーソース パターンとは、特定の形式で成文化�
 book_author: InnerSource Commons コミュニティ
 book_publish_date: 2020年 (継続中)
 book_publisher: InnerSource Commons
+translated_book_url: https://patterns.innersourcecommons.org/v/ja/
 book_url: https://patterns.innersourcecommons.org
+
 ---
 
 インナーソース パターンとは、特定の形式で成文化された、文脈の理解、評価、および適用を容易にするインナーソースのベストプラクティスです。 
