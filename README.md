@@ -1,6 +1,6 @@
 # InnerSource Commons Website
 
-This repo is powering the InnerSource Commons Website at [innersourcecommons.org](https://innersourcecommons.org).
+This repo is powering the InnerSource Commons Website at [innersourcecommons.org][].
 
 The site is built with Hugo framework. All content is located at the `content` folder.
 
@@ -19,7 +19,7 @@ In case the widget adds cookies to the website plese update the Privacy Policy (
 ## Installation and local run
 
 If you want to test the page before commit you can run the site locally.
-you need to have `git` and [hugo](https://gohugo.io/getting-started/installing/) installed. Please follow the official installation instructions.
+you need to have `git` and [hugo][] installed. Please follow the official installation instructions.
 
 ```sh
 git clone [url]
@@ -31,12 +31,16 @@ hugo server
 
 ### Adding a logo to the Stories page
 
-Guidelines to adding a logo:
+You can add your own organization to the [Stories Page][stories], to showcase that you are practicing InnerSource.
+Note: You can even do that for other organizations, given that you can point to public evidence of that org talking about their InnerSource approach.
 
-- The logo should always contain the full name of the company.
-- The logo must always be accompanied by evidence (article or video or both).
-- The logo must be added in the correct position based on alphabetical order on the page.
+To add a new logo/org to the Stories page, please fill in [this issue][issue-template] and follow the instructions in there.
 
 ## i18n Support
 
-innersourcecommons.org supports i18n. Currently, we are in the process of adding languages, but local instructions can be found [here](i18n.md).
+[innersourcecommons.org][] supports i18n. Currently, we are in the process of adding languages, but local instructions can be found [here](i18n.md).
+
+[innersourcecommons.org]: https://innersourcecommons.org
+[hugo]: https://gohugo.io/getting-started/installing/
+[stories]: https://innersourcecommons.org/stories/
+[issue-template]: https://github.com/InnerSourceCommons/InnerSourceMarketing/issues/new?assignees=&labels=website&template=add-a-new-org-logo-to-the-website.md&title=Add+%5Borganisation+name%5D+logo+to+the+Stories+Page
