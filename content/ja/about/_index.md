@@ -36,7 +36,7 @@ title: "InnerSource Commons"
         <p class="section-title h2">インナーソースについて学ぶ</p>
         <p style="text-align:left">インナーソースについてこれから学ぶ方、インナーソースが実装しているのが誰なのか、なぜなのかを詳しく知りたい方は、サイトの "学ぶ" セクションにアクセスしてください。トレーニング資料やベストプラクティス、書籍や過去のイベントの記録、ケーススタディなど、インナーソースの採用に役立つリソースが豊富に用意されています。
         </p>
-        <a href="learn/" class="btn-link">インナーソースについて学ぶ<i class="ti-arrow-right"></i></a>
+        <a href="/learn" class="btn-link">インナーソースについて学ぶ<i class="ti-arrow-right"></i></a>
       </div>
       <div class="col-md-6 mt-4 mb-4 mb-md-0 float-right">
         <img src="/images/community/collaboration.png" class="img-fluid pl-4 pr-4">

@@ -75,7 +75,7 @@ image: "/images/logo.png"
 
 ## 行動規範の帰属に関して
 
-[![コントリビューター協定](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+[![コントリビューター協定](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)]()
 
 この行動規範は、[コントリビューター協定][homepage]から引用したものです。バージョン2.0は[こちら][v2.0]で入手可能です
 
