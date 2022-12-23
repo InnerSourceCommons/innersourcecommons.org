@@ -1,0 +1,19 @@
+name: i18n Staging Repo Sync
+on:
+  push:
+    branches:
+      - japanese-pages
+
+jobs:
+  git-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: git-sync
+        uses: wei/git-sync@v3
+        with:
+          source_repo: "InnerSourceCommons/innersourcecommons.org"
+          source_branch: "japanese-pages"
+          destination_repo: "isc-i18n/innersourcecommons.org-staging"
+          destination_branch: "japanese-pages-staging"
+          source_ssh_private_key: ${{ secrets.ACTIONS_DEPLOY_KEY }} 
+          destination_ssh_private_key: ${{ secrets.I18N_STAGING_SSH_PRIVATE_KEY }} 

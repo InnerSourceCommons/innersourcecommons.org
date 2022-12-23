@@ -1,12 +1,12 @@
-name: github pages
+name: i18n Staging Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - master
+      - japanese-pages-staging
 
 env:
- HUGO_ENV: "production"
+  HUGO_ENV: "production"
 
 jobs:
   deploy:
@@ -25,10 +25,16 @@ jobs:
             sed -i "s/^.\{37\} /$i\//g" content/.gitignore;
             sed -i '/total size\|file list/d' content/.gitignore;
           done
+      - name: set up robots.txt not to be crawled
+        run: |
+          echo 'Disallow: /' > layouts/robots.txt
       - name: Build
         run: hugo --minify
+      - name: update CNAME
+        run: echo innersourcecommons.jp > ./public/CNAME
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public/
+          publish_branch: gh-pages-staging

@@ -13,8 +13,9 @@
   {{ if eq .p1 .p2 }} 
   {{ .p1.Title | truncate 30 }}
   {{ else }}
-  <a href="{{ if eq .p1.CurrentSection.Title .p1.FirstSection.Title }}{{ replaceRE "/ru/|/de/|/fr/|/it/|/ja/|/zh/|/es/" "/" .p1.Permalink }}{{ else }}{{ .p1.Permalink }}{{ end }}">{{ .p1.Title }}</a>
+  <a href="{{ if eq .p1.CurrentSection.Title .p1.FirstSection.Title }}{{ .p1.Permalink }}{{ else }}{{ .p1.Permalink }}{{ end }}">{{ .p1.Title }}</a>
   {{ end }}
 </li>
 {{ end }}
+
 </div>

@@ -1,4 +1,4 @@
-baseURL: 'https://innersourcecommons.org/'
+baseURL: '/'
 title: InnerSource Commons
 
 pluralizeListTitles: false
@@ -6,6 +6,7 @@ paginate: '3'
 summaryLength: '15'
 disqusShortname: ''
 googleAnalytics: ''
+enableRobotsTXT: true
 markup:
   goldmark:
     renderer:

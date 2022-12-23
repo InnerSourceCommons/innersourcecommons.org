@@ -29,8 +29,9 @@
         {{ end }}
       </div>
       <div class="col-md-3 col-sm-6 mb-5">
-        <a class="d-block mb-3" href="{{ site.BaseURL }}"><img width="{{site.Params.logo_width}}"  class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
-        <p class="mb-4">{{ site.Params.footer_content | markdownify }}</p>
+        <a class="d-block mb-3" href='{{ site.BaseURL }}{{ if eq .Site.Language.Lang "en" }}{{ site.BaseURL }}{{ else }}{{ site.BaseURL }}{{ .Site.Language.Lang }}{{end}}'><img width="{{site.Params.logo_width}}"   class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
+        <p class="mb-4">{{ T "footer_content" }}</p>
+        
         
         {{ if site.Params.social }}
         <ul class="list-inline social-icons">

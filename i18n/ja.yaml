@@ -12,8 +12,8 @@ about_innersource_commons: |-
 about_innersource_commons_history: |-
   2015年に設立された InnerSource Commons は、現在、500以上の企業、学術機関、政府機関から1500人以上の個人をサポートし、つないでいます。インナーソースコモンズ財団は2020年2月19日に法人化され、501(c)(3)の公益法人となりました。
 
-# Learn
-learn: "学ぶ"
+# Buttons
+learn_button: More
 
 ## Book
 author: 著者
@@ -23,3 +23,11 @@ read_the_book: 本を読む
 
 ## Research
 read_research_report: レポートを読む
+
+## Site Metadata
+meta_description: InnerSource Commons は、インナーソースに関する知識を創造し、共有することを目的とした実践者のコミュニティです。
+meta_keywords: InnerSource,インナーソース,オープンソース,サイロ,コード共有,共創,コラボレーション
+
+## Footer
+footer_content: |-
+  特定ライセンスが明記されている場合を除き、このサイトにおける内容は CC-BY-SA ライセンスのもと提供されています
