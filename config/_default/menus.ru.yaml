@@ -1,5 +1,5 @@
 main:
-  - name: Учиться
+  - name: Обучение
     URL: ru/learn
     weight: 1
     identifier: learn
@@ -7,11 +7,11 @@ main:
     parent: learn
     URL: ru/learn/books
     weight: 2
-  - name: Путь обучения
+  - name: Программа обучения
     parent: learn
     URL: ru/learn/learning-path
     weight: 3
-  - name: Шаблоны
+  - name: Паттерны
     parent: learn
     URL: ru/learn/patterns
     weight: 4
@@ -29,7 +29,7 @@ main:
   - name: Истории
     URL: ru/stories
     weight: 4
-  - name: Справочник услуг
+  - name: Каталог услуг
     URL: ru/community/services
     parent: community
     weight: 2
@@ -45,7 +45,7 @@ main:
     URL: ru/about/board
     parent: about
     weight: 2
-  - name: Члены
+  - name: Участники
     URL: ru/about/members
     parent: about
     weight: 3
@@ -57,12 +57,12 @@ main:
     URL: ru/about/codeofconduct
     parent: about
     weight: 5
-  - name: Свяжитесь с нами
+  - name: Контакты
     URL: ru/about/contact
     parent: about
     weight: 6
 footer_left:
-  - name: Учиться
+  - name: Обучение
     URL: ru/learn
     weight: 1
     post: bold
@@ -83,7 +83,7 @@ footer_middle:
     URL: ru/stories
     weight: 3
     post: bold
-  - name: Справочник услуг
+  - name: Каталог услуг
     URL: ru/community/services
     weight: 4
   - name: Объявления
@@ -97,7 +97,7 @@ footer_right:
   - name: Совет и управление
     URL: ru/about/board
     weight: 2
-  - name: Члены
+  - name: Участники
     URL: ru/about/members
     weight: 3
   - name: Спонсоры
@@ -106,7 +106,7 @@ footer_right:
   - name: Кодекс поведения
     URL: ru/about/codeofconduct
     weight: 5
-  - name: Свяжитесь с нами
+  - name: Контакты
     URL: ru/about/contact
     weight: 6
   - name: Политика конфиденциальности
