@@ -1,18 +1,13 @@
 name: i18n check consistency and notify on GitHub Issues
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - content/en/**
-      - .github/workflows/i18n-consistency-check.yml
   pull_request:
     branches:
       - master
     paths:
-      - content/en/**
       - .github/workflows/i18n-consistency-check.yml
+  schedule:
+    - cron: '0 0 1 * *'
   workflow_dispatch:
 
 jobs:
