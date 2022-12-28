@@ -41,7 +41,9 @@ a:hover, .content a:hover {
 }
 
 .navbar-nav {
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
 }
 
 .btn {
@@ -81,20 +83,25 @@ ol.breadcrumb {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 17px;
-    display: inline;
+  padding: 30px 15px;
+  display: inline;
 }
-
 .navbar-expand-lg .navbar-nav .nav-with-toggle {
-    padding-right: 3px;
+  padding: 30px 0px;
+  display: inline;
 }
-
-.dropdown-toggle {
-    padding-right: 7px;
+.nav-item{
+  padding: 0px 0px;
+  height:44px;
+  line-height: 44px;
+  position:relative
+}
+.show {
+    z-index:100;
 }
 
 .banner-head {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .mailing-box {
