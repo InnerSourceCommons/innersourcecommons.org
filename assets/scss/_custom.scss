@@ -94,10 +94,13 @@ ol.breadcrumb {
   padding: 0px 0px;
   height:44px;
   line-height: 44px;
-  position:relative
 }
 .show {
     z-index:100;
+}
+.slack-invite-btn{
+    border-radius: 30px;
+    padding: 12px;
 }
 
 .banner-head {
