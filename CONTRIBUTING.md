@@ -1,4 +1,5 @@
 # Contributing
+
 Contributions to this repo are welcome. Please follow the following guidelines:
 
 ## Forking
@@ -9,3 +10,4 @@ Contributions to this repo are welcome. Please follow the following guidelines:
 * Commit to your fork.
 * Follow the GitHub Guidelines on creating a pull request.
 * Please be as descriptive as necessary in your PR.
+* For i18n contributors, we recommend reading [the instructions on how it works](i18n.md).

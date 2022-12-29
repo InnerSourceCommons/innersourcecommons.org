@@ -38,7 +38,9 @@ To add a new logo/org to the Stories page, please fill in [this issue][issue-tem
 
 ## i18n Support
 
-[innersourcecommons.org][] supports i18n. Currently, we are in the process of adding languages, but local instructions can be found [here](i18n.md).
+To increase familiarity with the InnerSource concept among non-English speakers, the ISC website provides pages in multiple languages. These translations are completed by volunteer contributors and are not immediately available for all pages. As a result, there may be a significant amount of content that is currently in the process of being translated. We welcome any contributions to the translation effort!
+
+Instructions can be found [here](i18n.md).
 
 [innersourcecommons.org]: https://innersourcecommons.org
 [hugo]: https://gohugo.io/getting-started/installing/
