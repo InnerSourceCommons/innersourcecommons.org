@@ -41,7 +41,7 @@
         {{ else }}
           <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
             <option>{{ .Site.Language.LanguageName }}</option>
-            {{ range where .Translations ".Language.LanguageName" "in" "English 日本語"}}
+            {{ range where .Translations ".Language.LanguageName" "in" "English 日本語 Français"}}
             <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
             {{ end }}
           </select>        
