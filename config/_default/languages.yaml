@@ -30,3 +30,7 @@ fr:
   languageName: Français
   contentDir: content/fr
   weight: 3
+th:
+  languageName: ไทย
+  contentDir: content/th
+  weight: 3
