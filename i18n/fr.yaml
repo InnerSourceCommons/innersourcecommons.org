@@ -1,33 +1,34 @@
-join_slack: "Join Slack"
-more_videos: "More Videos"
+join_slack: "Rejoindre Slack"
+more_videos: "Plus de Vidéos"
 
 # Mailing List
-join_mailing_list: "Join Mailing List"
-enter_email: "Enter Email"
-subscribe: "Subscribe"
+join_mailing_list: "Rejoindre la Liste de Diffusion"
+enter_email: "Entrez votre Email"
+subscribe: "Souscrire"
 
 # About
 about_innersource_commons: |-
-  InnerSource Commons is the world's largest community of InnerSource practitioners. It is dedicated to creating and sharing knowledge about InnerSource, the use of open source best practices for software development within the confines of an organization.
+  InnerSource Commons est la plus grande communauté au monde de praticiens de l'InnerSource. Elle est dédiée à la création et au partage de connaissances sur l'InnerSource, l'utilisation des bonnes pratiques de l'Open Source pour le développement de logiciel à l'intérieur d'une organisation.
 about_innersource_commons_history: |-
-  Founded in 2015, the InnerSource Commons is now supporting and connecting over 1500 individuals from over 500 companies, academic institutions, and government agencies. The InnerSource Commons Foundation was incorporated on February 19th, 2020 and is now a 501(c)(3) public charity.
+  Fondée en 2015, elle aide et met aujourd'hui en lien plus de 1500 personnes et plus de 500 entreprises, institutions académiques et agences gouvernementales. Elle a été constituée depuis le 19 février 2020 en tant qu'organisme à but non lucratif (501(c)(3)).
 
 # Learn
-learn_button: Learn
+learn_button: Apprendre
 
 ## Book
-author: Author
-publication_date: Publication Date
-publisher: Publisher
-read_the_book: Read the book
+author: Auteur
+publication_date: Date de Publication
+publisher: Editeur
+read_the_book: Lire le livre
 
 ## Research
-read_research_report: Read Research Report
+read_research_report: Lire le rapport de Recherche
 
 ## Site Metadata
-meta_description: The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource. 
+meta_description: L'InnerSource Commons est une Communauté de praticiens en pleine croissance dont le but est de créer et de partager des connaissances sur l'InnerSource. 
 meta_keywords: InnerSource,Open source,silo,collaboration
 
 # License
 footer_content: |-
-  The site is licensed under a CC-BY-SA license unless otherwise marked.
+  Le site est sous licence CC-BY-SA, sauf indication contraire.
+

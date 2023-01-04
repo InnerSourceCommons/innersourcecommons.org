@@ -1,13 +1,13 @@
 main:
-  - name: Learn
+  - name: Apprendre
     URL: fr/learn
     weight: 1
     identifier: learn
-  - name: Books
+  - name: Livres
     parent: learn
     URL: fr/learn/books
     weight: 2
-  - name: Learning Path
+  - name: Parcours d'apprentissage
     parent: learn
     URL: fr/learn/learning-path
     weight: 3
@@ -15,37 +15,37 @@ main:
     parent: learn
     URL: fr/learn/patterns
     weight: 4
-  - name: Research
+  - name: Recherche
     parent: learn
     URL: fr/learn/research
     weight: 5
-  - name: Events
+  - name: Evènements
     URL: fr/events
     weight: 2
-  - name: Community
+  - name: Communauté
     identifier: community
     URL: fr/community
     weight: 3
-  - name: Stories
+  - name: Histoires
     URL: fr/stories
     weight: 4
-  - name: Services Directory
+  - name: Annuaire de Services
     URL: fr/community/services
     parent: community
     weight: 2
-  - name: About
+  - name: A Propos
     identifier: about
     URL: fr/about
     weight: 5
-  - name: Announcements
+  - name: Annonces
     URL: fr/about/announcements
     parent: about
     weight: 1
-  - name: Board & Governance
+  - name: Organisation & Gouvernance
     URL: fr/about/board
     parent: about
     weight: 2
-  - name: Members
+  - name: Membres
     URL: fr/about/members
     parent: about
     weight: 3
@@ -53,71 +53,71 @@ main:
     URL: fr/about/sponsors
     parent: about
     weight: 4
-  - name: Code of Conduct
+  - name: Code de Conduite
     URL: fr/about/codeofconduct
     parent: about
     weight: 5
-  - name: Contact Us
+  - name: Nous Contacter
     URL: fr/about/contact
     parent: about
     weight: 6
 footer_left:
-  - name: Learn
+  - name: Apprendre
     URL: fr/learn
     weight: 1
     post: bold
-  - name: Books
+  - name: Livres
     URL: fr/learn/books
     weight: 2
-  - name: Learning Path
+  - name: Parcours d'apprentissage
     URL: fr/learn/learning-path
     weight: 3
   - name: Patterns
     URL: fr/learn/patterns
     weight: 4
-  - name: Research
+  - name: Recherche
     URL: fr/learn/research
     weight: 5
 footer_middle:
-  - name: Events
+  - name: Evènements
     URL: fr/events
     weight: 1
     post: bold
-  - name: Community
+  - name: Communauté
     URL: fr/community
     weight: 2
     post: bold
     pre: _blank
-  - name: Stories
+  - name: Histoires
     URL: fr/stories
     weight: 3
     post: bold
-  - name: Services Directory
+  - name: Annuaire de Services
     URL: fr/community/services
     weight: 4
-  - name: Announcements
+  - name: Annonces
     URL: fr/about/announcements
     weight: 5
 footer_right:
-  - name: About
+  - name: A Propos
     URL: fr/about
     weight: 1
     post: bold
-  - name: Board & Governance
+  - name: Organisation & Gouvernance
     URL: fr/about/board
     weight: 2
-  - name: Members
+  - name: Membres
     URL: fr/about/members
     weight: 3
   - name: Sponsors
     URL: fr/about/sponsors
     weight: 4
-  - name: Code of Conduct
+  - name: Code de Conduite
     URL: fr/about/codeofconduct
     weight: 5
-  - name: Contact Us
+  - name: Nous Contacter
     URL: fr/about/contact
     weight: 6
-  - name: Privacy Policy
+  - name: Politique de confidentialité
     URL: fr/about/privacy
     weight: 7
