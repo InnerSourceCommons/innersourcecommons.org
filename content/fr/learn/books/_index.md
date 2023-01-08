@@ -1,10 +1,10 @@
 ---
 type: "book"
-title: "Books"
-description: Our selection of InnerSource books are an ideal way to get acquainted with the concepts of InnerSource.
+title: "Livres"
+description: Notre sélection de livres sur l'InnerSource, c'est le moyen idéal de se familiariser avec les concepts de l'InnerSource.
 image: "images/learn/books.png"
 weight: 2
 aliases:
     - /resources/books
 ---
-A collection of books about InnerSource. Produced directly by or in association with the InnerSource Commons.
+Une collection de livres sur l'InnerSource. Produit directement par ou en association avec InnerSource Commons.

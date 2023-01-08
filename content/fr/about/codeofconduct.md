@@ -1,5 +1,5 @@
 ---
-title: "InnerSource Commons Code de conduite"
+title: "Code de Conduite InnerSource Commons"
 subtitle: ""
 description: "L'InnerSource Commons est une communauté croissante de praticiens dont le but est de créer et de partager des connaissances sur l'InnerSource."
 draft: false

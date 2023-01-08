@@ -1,6 +1,6 @@
 ---
-title: "InnerSource Patterns"
-description: "The Patterns Working Group is creating a book with InnerSource Patterns - best practices codified in a specific format easy to understand and reuse. It is one of our most popular learning resources and is where you will find the ideas about how to kick-start or scale your InnerSource practice."
+title: "Patterns InnerSource "
+description: "Le Groupe de Travail sur les Patterns est en train de créer un livre avec les Patterns InnerSource - autrement dit les meilleures pratiques codifiées dans un format spécifique facile à comprendre et à réutiliser. Il s'agit de l'une de nos ressources d'apprentissage les plus populaires et c'est là que vous trouverez les idées sur la façon de lancer ou de développer votre pratique de l'InnerSource."
 url: "/patterns"
 redirect: "https://patterns.innersourcecommons.org"
 type: "redirects"

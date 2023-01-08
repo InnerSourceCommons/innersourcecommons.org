@@ -84,7 +84,7 @@ title: "InnerSource Commons"
       <div class="col-md-5">
         <p class="section-title h2">La Fondation InnerSource Commons</p>
         <p>InnerSource Commons est un organisme à but non lucratif (501(c)(3)) régi par un ensemble de règlements et de statuts.</p>
-        <p><a href="/about/" class="btn-link">About Foundation <i class="ti-arrow-right"></i></a></p>
+        <p><a href="/about/" class="btn-link">A propos de la Fondation <i class="ti-arrow-right"></i></a></p>
       </div>
     </div>
   </div>

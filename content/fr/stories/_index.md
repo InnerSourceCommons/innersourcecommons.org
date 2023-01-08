@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "InnerSource Stories"
-subtitle: "The InnerSource Commons community has over 1500 subscribers from 500 organizations. Listed below is a sample of the organizations who have publicly spoken about using InnerSource."
+title: "Histoires InnerSource"
+subtitle: "La communauté InnerSource Commons compte plus de 1500 abonnés provenant de 500 organisations. La liste ci-dessous est un échantillon des organisations qui ont parlé publiquement de l'utilisation de l'InnerSource."
 image: "/images/learn/InnerSourceInAction.jpg"
 aliases:
 - /community/action/

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Nos Sponsors"
-subtitle: "Nos partenaires sont des organisations qui aident à diriger le mouvement InnerSource dans le monde. Nos Supporters n'ont pas seulement adopté l'InnerSource en interne, ils ont à coeur de développer la communauté mondiale des praticiens. Alors que Inner Source Commons n'existerait pas sans les  participants géniaux de notre communauté, nos généreux Sponsors sont les commanditaires qui nous fournissent les moyens d'étendre nos activités et de développer notre impact. Sans leur aide, nous ne serions pas en mesure de faire le travail que nous faisons. </p>Merci !"
+subtitle: "Nos partenaires sont des organisations qui aident à diriger le mouvement InnerSource dans le monde. Nos Supporters n'ont pas seulement adopté l'InnerSource en interne, ils ont à coeur de développer la communauté mondiale des praticiens. Alors que InnerSource Commons n'existerait pas sans les  participants géniaux de notre communauté, nos généreux Sponsors sont les commanditaires qui nous fournissent les moyens d'étendre nos activités et de développer notre impact. Sans leur aide, nous ne serions pas en mesure de faire le travail que nous faisons. </p>Merci !"
 ---
 
 
@@ -64,7 +64,7 @@ subtitle: "Nos partenaires sont des organisations qui aident à diriger le mouve
           <ul>
               <li>Valeur de la marque en démontrant un engagement actif envers l'InnerSource</li>
               <li>Remercié lors des événements et activités de l'ISC</li>
-              <li>Mise à disposition de conférenciers d'Inner Source Commons pour vos événements internes </li>
+              <li>Mise à disposition de conférenciers d'InnerSource Commons pour vos événements internes </li>
               <li>Soutien de l'ISC pour la co-création de contenut</li>
           </ul>
         </div>

@@ -3,7 +3,7 @@ type: book
 title: 'Managing InnerSource Projects'
 image: "/images/learn/books/managing-innersource-projects-cover-thumb.jpg"
 weight: 3
-summary: "How to manage InnerSource projects? In this book Daniel Izquierdo & José Manrique López explain basic infrastructure as well as metrics that are helpful when introducing InnerSource methodologies into an enterprise."
+summary: "Comment gérer les projets InnerSource ? Dans ce livre, Daniel Izquierdo et José Manrique López expliquent l'infrastructure de base ainsi que les métriques qui sont utiles lors de l'introduction des méthodologies InnerSource dans une entreprise."
 book_author: Daniel Izquierdo & José Manrique López
 book_publish_date: 2018
 book_publisher: InnerSource Commons
