@@ -1,16 +1,16 @@
 ---
-title: "Members"
+title: "Membres"
 subtitle: ""
-description: "Some community participants go above and beyond, and may be invited to become an ISC Member."
+description: "Certains participants de la communauté se surpassent et peuvent être invités à devenir Membre de l'ISC."
 image: "/images/logo.png"
 ---
 
-The InnerSource Commons (ISC) community is open to all. Some community participants go above and beyond, and may be invited to become an ISC Member.
-The InnerSource Commons is a membership corporation, so ISC Members serve a similar role as shareholders in publicly traded corporations.
+La communauté InnerSource Commons (ISC) est ouverte à tous. Certains participants à la communauté se surpassent et peuvent être invités à devenir membre de l'ISC.
+L'InnerSource Commons est une organisation avec un principe d'adhésion, les membres de l'ISC jouent donc un rôle similaire à celui des actionnaires des sociétés cotées en bourse.
 
-Members have particular rights in the ISC; for example, they may vote in board elections.
-To be eligible for Membership, a person must be nominated by a current Member.
-Membership is purely merit-based, free of any cost, and restricted to individuals.
+Les Membres ont des droits particuliers au sein de l'ISC ; par exemple, ils peuvent voter aux élections du conseil d'administration.
+Pour pouvoir devenir Membre, une personne doit être proposée par un Membre actuel.
+L'élégibilité au statut de Membre est purement fondée sur le mérite, gratuite et réservée aux personnes physiques.
 
 ## Members of the InnerSource Commons Foundation
 

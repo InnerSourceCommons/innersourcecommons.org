@@ -41,7 +41,7 @@ main:
     URL: fr/about/announcements
     parent: about
     weight: 1
-  - name: Organisation & Gouvernance
+  - name: Conseil & Gouvernance
     URL: fr/about/board
     parent: about
     weight: 2
@@ -103,7 +103,7 @@ footer_right:
     URL: fr/about
     weight: 1
     post: bold
-  - name: Organisation & Gouvernance
+  - name: Conseil & Gouvernance
     URL: fr/about/board
     weight: 2
   - name: Membres
