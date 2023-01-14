@@ -76,7 +76,7 @@ title: "A propos de InnerSource Commons"
       </div>
       <div class="col-md-6">
           <p class="section-title h2">Conseil d'Administration & Gouvernance</p>
-          <p>InnerSource Commons est un organisme à but non lucratif (501(c)(3)) régi par un ensemble de règlements et de statuts. Le Conseil d'Admnistration définit les procédures et nomme les responsables qui établissent et exécutent les procédures. Le Conseil est élu par les Membres sur une base annuelle.</p>
+          <p>InnerSource Commons est un organisme à but non lucratif (501(c)(3)) régi par un ensemble de règlements et de statuts. Le Conseil d'Admnistration définit les procédures et nomme les responsables qui établissent et exécutent les procédures. Le Conseil est élu par les Membres, annuellement.</p>
           <a href="/about/board/" class="btn-link">En savoir plus à propos du Conseil d'Administration de l'ISC <i class="ti-arrow-right"></i></a>
         </div>
     </div>

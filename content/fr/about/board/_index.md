@@ -1,7 +1,7 @@
 ---
 title: "Conseil & Gouvernance"
 type: "board"
-subtitle: InnerSource Commons est un organisme à but non lucratif (501(c)(3)) régi par un ensemble de règlements et de statuts. Le Conseil d'Admnistration définit les procédures et nomme les responsables qui établissent et exécutent les procédures. Le Conseil est élu par les Membres sur une base annuelle. InnerSource Commons est basé aux Etats-Unis. Au fur et à mesure que la communauté se développe, nous prévoyons de fonder des organisations sœurs dans l'Union européenne, en Amérique latine et dans d'autres parties du monde.
+subtitle: InnerSource Commons est un organisme à but non lucratif (501(c)(3)) régi par un ensemble de règlements et de statuts. Le Conseil d'Admnistration définit les procédures et nomme les responsables qui établissent et exécutent les procédures. Le Conseil est élu par les Membres, annuellement. InnerSource Commons est basé aux Etats-Unis. Au fur et à mesure que la communauté se développe, nous prévoyons de fonder des organisations soeurs dans l'Union européenne, en Amérique Latine et dans d'autres parties du monde.
 aliases:
     - /board
 ---

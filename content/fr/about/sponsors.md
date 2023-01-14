@@ -65,7 +65,7 @@ subtitle: "Nos partenaires sont des organisations qui aident à diriger le mouve
               <li>Valeur de la marque en démontrant un engagement actif envers l'InnerSource</li>
               <li>Remercié lors des événements et activités de l'ISC</li>
               <li>Mise à disposition de conférenciers d'InnerSource Commons pour vos événements internes </li>
-              <li>Soutien de l'ISC pour la co-création de contenut</li>
+              <li>Soutien de l'ISC pour la co-création de contenu</li>
           </ul>
         </div>
       </div>

@@ -9,15 +9,14 @@ image: "/images/logo.png"
 ## Notre engagement
 
 En tant que membres, contributeurs et dirigeants, nous nous engageons à faire de la participation à notre communauté une expérience sans harcèlement pour tous, quel que soit l'âge ou le sexe.
-Notre communauté doit être une expérience exempte de harcèlement pour tous, indépendamment de l'âge, de la taille, du handicap visible ou invisible, de l'origine ethnique, des caractéristiques sexuelles, de l'identité et de l'expression de genre, du niveau d'expérience ou d'éducation, du statut socio-économique, de la nationalité, de l'apparence personnelle, de la race, la religion ou l'identité ou de l'orientation sexuelle.
+Notre communauté doit être une expérience exempte de harcèlement pour tous, indépendamment de l'âge, de la taille, du handicap visible ou invisible, de l'origine ethnique, des caractéristiques sexuelles, de l'identité et de l'expression de genre, du niveau d'expérience ou d'éducation, du statut socio-économique, de la nationalité, de l'apparence personnelle, de la race, de la religion, de l'identité ou de l'orientation sexuelle.
 
 Nous nous engageons à agir et à interagir de manière à contribuer à une communauté ouverte, accueillante,
 diversifiée, inclusive et saine.
 
-##  Nos normes
+##  Nos règles
 
-Les exemples de comportements qui contribuent à un environnement harmonieux pour notre
-communauté :
+Les exemples de comportements qui contribuent à un environnement harmonieux pour notre communauté :
 
 * Faire preuve d'empathie et de gentillesse les uns envers les autres.
 * Respecter les opinions, les points de vue et les expériences différentes.
@@ -33,17 +32,17 @@ Voici quelques exemples de comportements inacceptables :
 * La provocation, les commentaires insultants ou désobligeants et les attaques personnelles ou politiques.
 * Le harcèlement public ou privé.
 * La publication d'informations privées d'autrui, telles qu'une adresse physique ou électronique d'autres personnes, sans leur autorisation explicite.
-* Tout autre comportement qui pourrait raisonnablement être considéré comme inapproprié dans un cadre professionnel.
+* Tout autre comportement qui pourrait généralement être considéré comme inapproprié dans un cadre professionnel.
 
 ## Responsabilités en matière de mise en œuvre
 
-Les responsables de la communauté sont chargés de clarifier et de faire respecter nos normes de comportement acceptable et prendront des mesures correctives appropriées et réagiront en réponse à tout comportement qu'ils jugent inapproprié, menaçant, offensant ou nuisible.
+Les responsables de la communauté sont chargés de clarifier et de faire respecter nos règles de comportement et prendront des mesures correctives appropriées et réagiront en réponse à tout comportement qu'ils jugeraient inapproprié, menaçant, offensant ou nuisible.
 
-Les responsables de la communauté ont le droit et la responsabilité de supprimer, modifier ou rejeter des commentaires, des contributions, du code, des modifications wiki, et toutes les contributions qui ne sont pas conformes à ce code de conduite, et ils communiqueront les raisons de leurs décisions de modération lorsque cela sera approprié.
+Les responsables de la communauté ont le droit et la responsabilité de supprimer, modifier ou rejeter des commentaires, des contributions, du code, des modifications wiki, et toute contribution qui ne serait pas conforme à ce code de conduite. Ils communiqueront les raisons de leurs décisions de modération lorsque cela sera applicable.
 
 ## Champ d'application
 
-Ce code de conduite s'applique dans tous les espaces communautaires, ainsi que lorsqu'une personne représente officiellement la communauté dans les espaces publics. Parmi les exemples de représentation de notre communauté, citons l'utilisation d'une adresse électronique officielle, la publication d'un message sur un compte officiel de médias sociaux ou le fait d'agir en tant que représentant désigné lors d'un événement en ligne ou hors ligne.
+Ce code de conduite s'applique dans tous les espaces communautaires, ainsi que lorsqu'une personne représente officiellement la communauté dans les espaces publics. Parmi les exemples de représentation de notre communauté, citons l'utilisation d'une adresse électronique officielle, la publication d'un message sur un compte officiel dans les médias sociaux ou le fait d'agir en tant que représentant officiel lors d'un événement en ligne ou hors ligne.
 
 ## Application de la loi
 
@@ -55,7 +54,7 @@ Tous les responsables communautaires sont tenus de respecter la vie privée et l
 
 ## Instructions pour l'application de la loi
 
-Les responsables de la communauté suivront ces lignes directrices sur l'impact sur la communauté pour déterminer les conséquences de toute action qu'ils estiment être en violation du présent code de conduite :
+Les responsables de la communauté suivront ces lignes directrices concernant l'impact sur la communauté pour déterminer les conséquences de toute action qu'ils estiment être en violation du présent code de conduite :
 
 ### 1. Rappel à l'ordre
 
@@ -68,8 +67,8 @@ non professionnel ou malvenu dans la communauté.
 
 **Impact dans la communauté**:  Une violation par un seul incident ou une série d'actions.
 
-**Conséquence**: Un avertissement adu fait de la répétition du comportement. Non interaction avec les personnes concernées, 
-y compris une interaction non sollicitée, pendant une période déterminée.
+**Conséquence**: Un avertissement du fait de la répétition du comportement. Obligation de ne pas avoir d'interaction avec les personnes concernées, 
+incluant toute interaction non sollicitée, pendant une période déterminée.
 Cela implique d'éviter les interactions dans les espaces communautaires ainsi que dans les canaux externes tels que les médias sociaux. La violation de ces conditions peut entraîner un bannissement temporaire ou permanent.
 
 ### 3. Bannissement temporaire
@@ -81,8 +80,8 @@ avec la communauté pendant une période déterminée. Aucune interaction publiq
 
 ### 4. Bannissement permanent
 
-**Impact dans la communauté**: Démontrer une tendance régulière à la violation du code de conduite de la communauté
-de la communauté, y compris un comportement inapproprié, le harcèlement d'un individu, l'agression ou le dénigrement de catégories d'individus.
+**Impact dans la communauté**: Démontrer une tendance régulière à la violation du code de conduite de la communauté,
+ y compris un comportement inapproprié, le harcèlement d'un individu, l'agression ou le dénigrement de catégories d'individus.
 
 **Conséquence**: Un bannissement permanent de toute forme d'interaction publique dans la communauté.
 
