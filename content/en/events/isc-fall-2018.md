@@ -604,5 +604,5 @@ All participants, vendors, and guests at InnerSource Commons events are required
 
 InnerSource Commons meetings and events run under the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_House_Rule): information discussed at a meeting can be shared but not attributed.
 
-Interested in getting involved? Email <summit@innersourcecommons.org> or join the conversation on the [#innersourcecommons](https://join.slack.com/t/innersourcecommons/shared_invite/zt-1msf8vcqu-fYEHcyI1l4eSPq6rGprMXA) slack channel!
+Interested in getting involved? Email <summit@innersourcecommons.org> or join the conversation on the [#innersourcecommons](https://innersourcecommons.org/slack) slack channel!
 
