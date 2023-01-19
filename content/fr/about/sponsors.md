@@ -63,7 +63,7 @@ subtitle: "Nos partenaires sont des organisations qui aident à diriger le mouve
           <h4>Cela inclut les bénéfices suivants :</h4>
           <ul>
               <li>Valeur de la marque en démontrant un engagement actif envers l'InnerSource</li>
-              <li>Remercié lors des événements et activités de l'ISC</li>
+              <li>Remerciements lors des événements et activités de l'ISC</li>
               <li>Mise à disposition de conférenciers d'InnerSource Commons pour vos événements internes </li>
               <li>Soutien de l'ISC pour la co-création de contenu</li>
           </ul>
@@ -78,5 +78,5 @@ subtitle: "Nos partenaires sont des organisations qui aident à diriger le mouve
       
 Nous sommes reconnaissants à nos Sponsors pour leur partenariat et leur soutien qui contribuent à la croissance de notre communauté, à la facilitation de notre travail et à la diffusion de l'information sur l'InnerSource.
 
-Les coûts de parrainage varient en fonction du type de parrainage, du type et de la taille de l'organisation et de la durée de l'engagement. Vous pouvez obtenir de plus amples informations sur [here](https://drive.google.com/file/d/1kPP44d9NQEUqY65kjt61bSMfP1BvxHD6/view?usp=sharing). Si vous êtes intéressé par le parrainage d'InnerSource Commons et souhaitez en savoir plus sur nos programmes de partenariat et de soutien, veuillez nous contacter en anglais à l'adresse  sponsor@innersourcecommons.org. 
+Les coûts de parrainage varient en fonction du type de parrainage, du type et de la taille de l'organisation et de la durée de l'engagement. Vous pouvez obtenir de plus amples informations sur [here](https://drive.google.com/file/d/1kPP44d9NQEUqY65kjt61bSMfP1BvxHD6/view?usp=sharing). Si vous êtes intéressés par le parrainage d'InnerSource Commons et souhaitez en savoir plus sur nos programmes de partenariat et de soutien, veuillez nous contacter en anglais à l'adresse  sponsor@innersourcecommons.org. 
 

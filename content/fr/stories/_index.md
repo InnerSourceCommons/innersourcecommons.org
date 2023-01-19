@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Histoires InnerSource"
+title: "Histoires de l'InnerSource"
 subtitle: "La communauté InnerSource Commons compte plus de 1500 abonnés provenant de 500 organisations. La liste ci-dessous est un échantillon des organisations qui ont parlé publiquement de l'utilisation de l'InnerSource."
 image: "/images/learn/InnerSourceInAction.jpg"
 aliases:

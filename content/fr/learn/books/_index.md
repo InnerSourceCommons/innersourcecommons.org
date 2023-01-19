@@ -7,4 +7,4 @@ weight: 2
 aliases:
     - /resources/books
 ---
-Une collection de livres sur l'InnerSource. Produit directement par ou en association avec InnerSource Commons.
+Une collection de livres sur l'InnerSource. Produits directement par ou en association avec InnerSource Commons.

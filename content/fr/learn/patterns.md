@@ -27,7 +27,7 @@ weight: 1
       <div class="col-md-6 col-sm-6 mb-4">
         <div class="feature-card text-left">
           <a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A"><img src="/images/events/meetup-2021-10-05.jpg" alt="InnerSource Patterns Community Calls"></a>
-          <h3 class="mb-2">Faciliter l'identification de schémas dans divers contextes tels que nos <a href="/events/">Appels de la communauté</a> et par des discussions sur <a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A">Slack</a>.</h3>
+          <h3 class="mb-2">Faciliter l'identification de patterns dans divers contextes tels que nos <a href="/events/">Appels de la communauté</a> et par des discussions sur <a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A">Slack</a>.</h3>
         </div>
       </div>
       <div class="col-md-6 col-sm-6 mb-4">
@@ -39,7 +39,7 @@ weight: 1
       <div class="col-md-6 col-sm-6 mb-4">
         <div class="feature-card text-left">
           <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns"><img src="/images/learn/patterns/github_conversation.png" alt="GitHub Conversation"></a>
-          <h3 class="mb-2">Fournir un espace aux entreprises pour collaborer sur des patterns via le <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns">GitHub</a>.</h3>
+          <h3 class="mb-2">Fournir un espace aux entreprises pour collaborer sur des patterns via le <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns">dépôt GitHub</a>.</h3>
         </div>
       </div>
       <div class="col-md-6 col-sm-6 mb-4">

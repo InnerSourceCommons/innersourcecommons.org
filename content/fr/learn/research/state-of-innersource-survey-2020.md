@@ -3,7 +3,7 @@ type: research
 title: 'State of InnerSource Survey 2020'
 image: "/images/learn/research/sois2020.jpg"
 weight: 4
-summary: Rapport de 2020 du State of InnerSource Survey
+summary: Rapport du State of InnerSource Survey de 2020 
 research_url: /documents/surveys/State.of.InnerSource.Report.2020.pdf
 survey_closing_date: 2020-12-12
 report_publish_date: 2021-12-30
@@ -23,4 +23,4 @@ Pour les résultats complets, voir "State of InnerSource 2020 Report".
 
 ## Auteurs
 
-Cette enquête a été menée par Tapajit Dey de Lero, le centre irlandais de recherche sur les logiciels. Cristina Coffey et Tadhg O'Neill d'InnerSource Commons ont contribué à la conception et à la rédaction du rapport.
+Cette enquête a été menée par Tapajit Dey du Lero, le centre Irlandais de recherche sur les logiciels. Cristina Coffey et Tadhg O'Neill d'InnerSource Commons ont contribué à la conception et à la rédaction du rapport.

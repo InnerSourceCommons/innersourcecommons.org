@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Répertoire des services InnerSource"
+title: "Annuaire des services InnerSource"
 image: "/images/learn/services_directory.png"
 date: 2022-05-16T00:00:00+00:00
 ---
-Bienvenue dans le répertoire des services InnerSource. Nous avons compilé une liste d'entreprises qui fournissent des services InnerSource dans trois catégories : Outils, Services de conseil et Services de formation.
-Si vous souhaitez être ajouté à la liste des services, veuillez nous envoyer un courriel à info@innersourcecommons.org.
+Bienvenue dans l'annuaire des services InnerSource. Nous avons compilé une liste d'entreprises qui fournissent des services InnerSource dans trois catégories : Outils, Services de conseil et Services de formation.
+Si vous souhaitez être ajouté à cet annuaire, veuillez nous envoyer un courriel à info@innersourcecommons.org.
 
 Nous faisons de notre mieux pour assurer que les informations sur cette page sont exactes et utiles à tout moment. Cependant, tout lien ou contenu cité ci-dessous ne représente pas une approbation ou une recommandation de la part d'InnerSource Commons et ne signifie pas que nous avons un lien avec les organisations en question.
 </p>

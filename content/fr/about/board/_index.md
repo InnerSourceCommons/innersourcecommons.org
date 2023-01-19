@@ -1,7 +1,7 @@
 ---
-title: "Conseil & Gouvernance"
+title: "Conseil d'Administration et de Gouvernance"
 type: "board"
-subtitle: InnerSource Commons est un organisme à but non lucratif (501(c)(3)) régi par un ensemble de règlements et de statuts. Le Conseil d'Admnistration définit les procédures et nomme les responsables qui établissent et exécutent les procédures. Le Conseil est élu par les Membres, annuellement. InnerSource Commons est basé aux Etats-Unis. Au fur et à mesure que la communauté se développe, nous prévoyons de fonder des organisations soeurs dans l'Union européenne, en Amérique Latine et dans d'autres parties du monde.
+subtitle: InnerSource Commons est un organisme à but non lucratif (501(c)(3) selon le code des impôts US) régi par un ensemble de règlements et de statuts. Le Conseil d'Administration définit les procédures et nomme les responsables qui établissent et exécutent les procédures. Le Conseil est élu par les Membres, annuellement. InnerSource Commons est basé aux Etats-Unis. Au fur et à mesure que la communauté se développe, nous prévoyons de fonder des organisations soeurs dans l'Union européenne, en Amérique Latine et dans d'autres parties du monde.
 aliases:
     - /board
 ---
@@ -57,12 +57,12 @@ Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working
 {{< /board-member >}}
 
 <div class="section-first container">
-    <h2>Histoire:</h2>
+    <h2>Histoire&nbsp;:</h2>
 </div>
 
 <div class="container">
   <p>
-    Ces personnes remarquables ont siégé à notre Conseil d'Administration au cours des années précédentes et nous les énumérons ici pour leur témoigner notre gratitude pour leur travail. Merci pour votre dévouement à l'InnerSource et votre soutien actif à l'ISC !
+    Ces personnes remarquables ont siégé à notre Conseil d'Administration au cours des années précédentes et nous les énumérons ici pour leur témoigner notre gratitude pour leur travail. Merci pour votre dévouement à l'InnerSource et votre soutien actif à l'ISC&nbsp;!
   </p>
 </div>
 

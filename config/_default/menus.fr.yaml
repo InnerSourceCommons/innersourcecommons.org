@@ -19,7 +19,7 @@ main:
     parent: learn
     URL: fr/learn/research
     weight: 5
-  - name: Evènements
+  - name: Évènements
     URL: fr/events
     weight: 2
   - name: Communauté
@@ -33,7 +33,7 @@ main:
     URL: fr/community/services
     parent: community
     weight: 2
-  - name: A Propos
+  - name: À Propos
     identifier: about
     URL: fr/about
     weight: 5
@@ -41,7 +41,7 @@ main:
     URL: fr/about/announcements
     parent: about
     weight: 1
-  - name: Conseil & Gouvernance
+  - name: Conseil d'Administration et de Gouvernance
     URL: fr/about/board
     parent: about
     weight: 2
@@ -57,7 +57,7 @@ main:
     URL: fr/about/codeofconduct
     parent: about
     weight: 5
-  - name: Nous Contacter
+  - name: Nous contacter
     URL: fr/about/contact
     parent: about
     weight: 6
@@ -79,7 +79,7 @@ footer_left:
     URL: fr/learn/research
     weight: 5
 footer_middle:
-  - name: Evènements
+  - name: Évènements
     URL: fr/events
     weight: 1
     post: bold
@@ -99,11 +99,11 @@ footer_middle:
     URL: fr/about/announcements
     weight: 5
 footer_right:
-  - name: A Propos
+  - name: À Propos
     URL: fr/about
     weight: 1
     post: bold
-  - name: Conseil & Gouvernance
+  - name: Conseil d'Administration et de Gouvernance
     URL: fr/about/board
     weight: 2
   - name: Membres
@@ -115,7 +115,7 @@ footer_right:
   - name: Code de Conduite
     URL: fr/about/codeofconduct
     weight: 5
-  - name: Nous Contacter
+  - name: Nous contacter
     URL: fr/about/contact
     weight: 6
   - name: Politique de confidentialité

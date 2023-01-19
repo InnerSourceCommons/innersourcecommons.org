@@ -1,7 +1,7 @@
 ---
-title: "Nous Contacter"
-subtitle: "Restez en contact - voici toutes les façons de contacter l'ISC"
-description: "Restez en contact avec InnerSource Commons."
+title: "Nous contacter"
+subtitle: "Rester en contact - voici toutes les façons de contacter l'ISC"
+description: "Rester en contact avec InnerSource Commons."
 image: "/images/logo.png"
 type: wide
 ---
@@ -29,7 +29,7 @@ type: wide
       </div>
       <div class="col-md-5 offset-md-1">
         <p class="h2 section-title">Rester en contact</p>
-        <p class="mb-4">La plupart des actions de la communauté se déroulent sur notre <a href="https://join.slack.com/t/innersourcecommons/shared_invite/zt-1l4a602b6-DKD0B0Y8~WE4aDf~o1xCRw">Canal Slack</a>. Vous pouvez également vous tenir au courant des nouvelles, des événements et des activités d'InnerSource Commons en vous inscrivant à notre liste de diffusion ci-dessous, et en nous suivant sur <a href="https://twitter.com/InnerSourceOrg">Twitter</a> et <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, et souscrire à notre <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">Chaine YouTube</a>.</p>
+        <p class="mb-4">La plupart des actions de la communauté se déroulent sur notre <a href="https://join.slack.com/t/innersourcecommons/shared_invite/zt-1l4a602b6-DKD0B0Y8~WE4aDf~o1xCRw">Canal Slack</a>. Vous pouvez également vous tenir au courant des nouvelles, des événements et des activités d'InnerSource Commons en vous inscrivant à notre liste de diffusion ci-dessous, et en nous suivant sur <a href="https://twitter.com/InnerSourceOrg">Twitter</a> et <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, et s'abonner à notre <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">Chaine YouTube</a>.</p>
         <p class="h3 section-title">S'inscrire sur notre liste de diffusion</p>
         {{< contact-form >}}
       </div>

@@ -4,13 +4,13 @@ more_videos: "Plus de Vidéos"
 # Mailing List
 join_mailing_list: "Rejoindre la Liste de Diffusion"
 enter_email: "Entrez votre Email"
-subscribe: "Souscrire"
+subscribe: "S'inscrire"
 
 # About
 about_innersource_commons: |-
-  InnerSource Commons est la plus grande communauté au monde de praticiens de l'InnerSource. Elle est dédiée à la création et au partage de connaissances sur l'InnerSource, l'utilisation des bonnes pratiques de l'Open Source pour le développement de logiciel à l'intérieur d'une organisation.
+  InnerSource Commons est la plus grande communauté au monde de praticiens de l'InnerSource. Elle est dédiée à la création et au partage de connaissances sur l'InnerSource, l'utilisation des bonnes pratiques de l'Open Source pour le développement de logiciels à l'intérieur d'une organisation.
 about_innersource_commons_history: |-
-  Fondée en 2015, elle rassemble aujourd'hui plus de 1500 personnes et 500 entreprises, institutions académiques et agences gouvernementales. Elle s'est constituée depuis le 19 février 2020 en tant qu'organisme à but non lucratif (501(c)(3)).
+  Fondée en 2015, elle rassemble aujourd'hui plus de 1500 personnes et 500 entreprises, institutions académiques et agences gouvernementales. Elle s'est constituée depuis le 19 février 2020 en tant qu'organisme à but non lucratif (article 501(c)(3) du code des impôts US).
 
 # Learn
 learn_button: Apprendre
@@ -18,11 +18,11 @@ learn_button: Apprendre
 ## Book
 author: Auteur
 publication_date: Date de Publication
-publisher: Editeur
+publisher: Éditeur
 read_the_book: Lire le livre
 
 ## Research
-read_research_report: Lire le rapport de Recherche
+read_research_report: Lire le rapport de recherche
 
 ## Site Metadata
 meta_description: L'InnerSource Commons est une Communauté de praticiens en pleine croissance dont le but est de créer et de partager des connaissances sur l'InnerSource. 
