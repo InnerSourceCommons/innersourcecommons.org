@@ -11,7 +11,7 @@ contributors:
     url: https://github.com/rrrutledge
   - name: Nick Adams
     url: https://github.com/nadamsoreilly
-image: images/learn/LP_thumbnail_introduction.jpg
+image: images/learn/workbooks/Learning Path-Introduction Workbook-image.png
 weight: 9
 ---
 <div class="sect2">

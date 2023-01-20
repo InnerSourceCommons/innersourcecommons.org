@@ -9,7 +9,7 @@ contributors:
     url: https://github.com/rrrutledge
   - name: Nick Adams
     url: https://github.com/nadamsoreilly
-image: images/learn/LP_thumbnail_productowner.jpg
+image: images/learn/workbooks/Learning Path-Product Owner Workbook-image.png
 weight: 7
 ---
 <div class="sect2">
