@@ -39,7 +39,7 @@ if [ "$answer" = "Yes" ]; then
   if [ "$operation" = "copy" ]; then
     # Copy Operation
     if which gsed > /dev/null; then
-      for i in de es fr it ja ru zh; do
+      for i in de es fr it ja ru zh pt; do
         rsync -rv --ignore-existing content/en/ content/$i/ --log-file=content/.gitignore
         gsed -i '/total size\|file list/d' content/.gitignore
         gsed -i -E "s/^.+\s+(.+)$/$i\/\1/" content/.gitignore
@@ -51,7 +51,7 @@ if [ "$answer" = "Yes" ]; then
         echo "Please install gsed using 'brew install gnu-sed'"
         exit 1
       else
-        for i in de es fr it ja ru zh; do
+        for i in de es fr it ja ru zh pt; do
           rsync -rv --ignore-existing content/en/ content/$i/ --log-file=content/.gitignore
           sed -i '/total size\|file list/d' content/.gitignore
           sed -i -E "s/^.+\s+(.+)$/$i\/\1/" content/.gitignore
