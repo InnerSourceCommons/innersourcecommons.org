@@ -1,20 +1,20 @@
 ---
 layout: page
-title: "InnerSource Services Directory"
+title: "Annuaire des services InnerSource"
 image: "/images/learn/services_directory.png"
 date: 2022-05-16T00:00:00+00:00
 ---
-Welcome to the InnerSource Services Directory. We have compiled a list of companies that provide InnerSource services that fit in 3 categories: Tools, Consulting Services and Training Services.
-If you would like to be added to the services list please send us an email at info@innersourcecommons.org.
+Bienvenue dans l'annuaire des services InnerSource. Nous avons compilé une liste d'entreprises qui fournissent des services InnerSource dans trois catégories : Outils, Services de conseil et Services de formation.
+Si vous souhaitez être ajouté à cet annuaire, veuillez nous envoyer un courriel à info@innersourcecommons.org.
 
-We do our best to ensure that the information on this page is accurate and helpful at all times. However, any link or content listed below does not represent any endorsement or recommendation by InnerSource Commons and does not mean that we have any association with the linked organizations.
+Nous faisons de notre mieux pour assurer que les informations sur cette page sont exactes et utiles à tout moment. Cependant, tout lien ou contenu cité ci-dessous ne représente pas une approbation ou une recommandation de la part d'InnerSource Commons et ne signifie pas que nous avons un lien avec les organisations en question.
 </p>
 
 <table class="schedule table table-striped">
     <tr>
-        <td style="width:20%"><h3>Company</h3></td>
-        <td style="width:20%"><h3>Service Type</h3></td>
-        <td><h3>Service Description</h3></td>
+        <td style="width:20%"><h3>Entreprise</h3></td>
+        <td style="width:20%"><h3>Type de Service</h3></td>
+        <td><h3>Description du Service</h3></td>
     </tr>
     <tr>
         <td><img src="/images/logos/bitergia.png" alt="Bitergia"><img style="width: 30%;

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Our Sponsors"
-subtitle: "Our Partners are organizations helping to lead the InnerSource movement in the world. Our Supporters have not just adopted InnerSource internally, they care about enabling the worldwide community of practitioners. Whereas the InnerSource Commons would not exist without our fabulous community participants, our generous sponsors provide the means by which we can scale our activities and impact. Without their help, we would not be able to do the work we do. </p>Thank you!"
+title: "Nos Sponsors"
+subtitle: "Nos partenaires sont des organisations qui aident à diriger le mouvement InnerSource dans le monde. Nos Supporters n'ont pas seulement adopté l'InnerSource en interne, ils ont à coeur de développer la communauté mondiale des praticiens. Alors que InnerSource Commons n'existerait pas sans les  participants géniaux de notre communauté, nos généreux Sponsors sont les commanditaires qui nous fournissent les moyens d'étendre nos activités et de développer notre impact. Sans leur aide, nous ne serions pas en mesure de faire le travail que nous faisons. </p>Merci !"
 ---
 
 
   <div class="container text-center" >
-    <h2 class="display-3"> Our Partners </h2>
+    <h2 class="display-3"> Nos Partenaires </h2>
   </div>
 
   <div class="container">
@@ -19,7 +19,7 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
   </div>
 
   <div class="container text-center" >
-    <h2 class="display-3"> Our Supporters </h2>
+    <h2 class="display-3"> Nos Supporters </h2>
   </div>
   
   <div class="container">
@@ -38,45 +38,45 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center mb-4">
-        <p class="mt-3 h1">Become a Sponsor</p>
-        <p>There are two ways to sponsor the InnerSource Commons community:</p>
+        <p class="mt-3 h1">Devenir un Sponsor</p>
+        <p>Il y a deux façons de devenir un Sponsor de la communauté InnerSource Commons :</p>
       </div>
       <div class="col-md-6 col-sm-6 mb-4">
         <div class="feature-card text-left">
           <img src="/images/ISC_Partner_Logo_Wide.png" alt="Partner Badge">
-          <h3 class="mb-2">Become a Partner</h3>
-          <p>For organizations leading the InnerSource movement in the world. Our partners are committed to improving global software development practices.</p>
-          <h4>Benefits include:</h4>
+          <h3 class="mb-2">Devenir un Partenaire</h3>
+          <p>Pour les organisations qui mènent le mouvement InnerSource dans le monde. Nos partenaires s'engagent à améliorer les pratiques mondiales de développement de logiciels.</p>
+          <h4>Cela inclut les bénéfices suivants :</h4>
           <ul>
-              <li>Representation on the ISC Industry Advisory Board </li>
-              <li>Premier positioning in ISC announcements and materials</li>
-              <li>Proactive support from your ISC Partner Manager </li>
-              <li>Plus all the benefits of an ISC Supporter!</li>
+              <li>Un représentant au Conseil Consultatif Industriel de l'ISC </li>
+              <li>Positionnement privilégié dans les annonces et la production de l'ISC</li>
+              <li>Soutien proactif de votre responsable des Partenaires ISC </li>
+              <li>Plus tous les avantages d'un Supporter ISC !</li>
           </ul>
         </div>
       </div>
       <div class="col-md-6 col-sm-6 mb-4">
         <div class="feature-card text-left">
           <img src="/images/ISC_Supporter_Logo_Wide.png" alt="Supporter Badge">
-          <h3 class="mb-2">Become a Supporter</h3>
-          <p>For InnerSource practitioners who want to support the ISC community, accelerate their internal InnerSource journeys and signal to the world that they have the very best development practices.</p>
-          <h4>Benefits include:</h4>
+          <h3 class="mb-2">Devenir un Supporter</h3>
+          <p>Pour les praticiens d'InnerSource qui veulent soutenir la communauté ISC, accélérer leurs parcours internes sur l'InnerSource et signaler au monde qu'ils ont les meilleures pratiques de développement.</p>
+          <h4>Cela inclut les bénéfices suivants :</h4>
           <ul>
-              <li>Brand value in demonstrating active commitment to InnerSource</li>
-              <li>Thanked at ISC events and activities</li>
-              <li>InnerSource Commons speakers sourced for your internal events </li>
-              <li>ISC support to co-create content</li>
+              <li>Valeur de la marque en démontrant un engagement actif envers l'InnerSource</li>
+              <li>Remerciements lors des événements et activités de l'ISC</li>
+              <li>Mise à disposition de conférenciers d'InnerSource Commons pour vos événements internes </li>
+              <li>Soutien de l'ISC pour la co-création de contenu</li>
           </ul>
         </div>
       </div>
     </div>
     <div class="row d-flex justify-content-center">
-        <a href="mailto:sponsor@innersourcecommons.org" class="btn btn-primary btn-sm" style="color: white;">Get in Touch to Find Out More</a>
+        <a href="mailto:sponsor@innersourcecommons.org" class="btn btn-primary btn-sm" style="color: white;">Contactez-nous pour en savoir plus</a>
     </div>
   </div>
 </section>
       
-We are thankful to our sponsors for their partnership and support which contributes to growing our community, facilitating the work we do and spreading the word about InnerSource.
+Nous sommes reconnaissants à nos Sponsors pour leur partenariat et leur soutien qui contribuent à la croissance de notre communauté, à la facilitation de notre travail et à la diffusion de l'information sur l'InnerSource.
 
-Sponsorship costs vary depending on the type of sponsorship, type and size of organization and length of commitment. You can find out more information [here](https://drive.google.com/file/d/1kPP44d9NQEUqY65kjt61bSMfP1BvxHD6/view?usp=sharing). If you are interested in sponsoring InnerSource Commons and would like to know more about our Partner and Supporter Programs, please contact us at sponsor@innersourcecommons.org. 
+Les coûts de parrainage varient en fonction du type de parrainage, du type et de la taille de l'organisation et de la durée de l'engagement. Vous pouvez obtenir de plus amples informations sur [here](https://drive.google.com/file/d/1kPP44d9NQEUqY65kjt61bSMfP1BvxHD6/view?usp=sharing). Si vous êtes intéressés par le parrainage d'InnerSource Commons et souhaitez en savoir plus sur nos programmes de partenariat et de soutien, veuillez nous contacter en anglais à l'adresse  sponsor@innersourcecommons.org. 
 

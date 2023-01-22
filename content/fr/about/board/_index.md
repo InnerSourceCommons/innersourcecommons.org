@@ -1,7 +1,7 @@
 ---
-title: "Board & Governance"
+title: "Conseil d'Administration et de Gouvernance"
 type: "board"
-subtitle: InnerSource Commons is a 501(c)(3) non-profit organization governed by a set of corporate bylaws. The Board of Directors sets the policy and appoints officers that set and execute policy. The Board is elected by the Membership on a yearly basis. InnerSource Commons is incorporated in the US. As the community grows, we anticipate to found sister organizations in the European Union, Latin America, and other parts of the world.
+subtitle: InnerSource Commons est un organisme à but non lucratif (501(c)(3) selon le code des impôts US) régi par un ensemble de règlements et de statuts. Le Conseil d'Administration définit les procédures et nomme les responsables qui établissent et exécutent les procédures. Le Conseil est élu par les Membres, annuellement. InnerSource Commons est basé aux Etats-Unis. Au fur et à mesure que la communauté se développe, nous prévoyons de fonder des organisations soeurs dans l'Union européenne, en Amérique Latine et dans d'autres parties du monde.
 aliases:
     - /board
 ---
@@ -15,7 +15,7 @@ aliases:
 -->
 
 <div class="section-first container">
-    <h2>The current Board:</h2>
+    <h2>Le Conseil d'Administration actuel :</h2>
 </div>
 
 {{< board-member name="Danese Cooper" title="Chairperson" image="/images/about/Danese_Cooper.jpg" style="section-first" >}}
@@ -57,12 +57,12 @@ Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working
 {{< /board-member >}}
 
 <div class="section-first container">
-    <h2>History:</h2>
+    <h2>Histoire&nbsp;:</h2>
 </div>
 
 <div class="container">
   <p>
-    These fine people have served on our Board in previous years and we are listing them here to show our gratitude for their work. Thank you for your dedication to InnerSource and your active support of the InnerSource Commons Foundation!
+    Ces personnes remarquables ont siégé à notre Conseil d'Administration au cours des années précédentes et nous les énumérons ici pour leur témoigner notre gratitude pour leur travail. Merci pour votre dévouement à l'InnerSource et votre soutien actif à l'ISC&nbsp;!
   </p>
 </div>
 

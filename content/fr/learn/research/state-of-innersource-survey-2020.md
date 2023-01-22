@@ -3,24 +3,24 @@ type: research
 title: 'State of InnerSource Survey 2020'
 image: "/images/learn/research/sois2020.jpg"
 weight: 4
-summary: Report of the 2020 State of InnerSource Survey
+summary: Rapport du State of InnerSource Survey de 2020 
 research_url: /documents/surveys/State.of.InnerSource.Report.2020.pdf
 survey_closing_date: 2020-12-12
 report_publish_date: 2021-12-30
 ---
 
-The goal of the survey was to address three main questions:
+L'objectif de l'enquête était de répondre à trois questions principales :
 
-1. What is the state of InnerSource adoption across different organizations?
-1. What factors influence the success of InnerSource adoption?
-1. What are the main obstacles for adopting InnerSource?
+1. Quel est l'état de l'adoption de l'InnerSource dans les différentes organisations ?
+2. Quels sont les facteurs qui influencent le succès de l'adoption de l'InnerSource ?
+3. Quels sont les principaux obstacles à l'adoption de l'InnerSource ?
 
-Since a number of studies already documented the Key Factors for InnerSource success in detail, we focused more on exploring the key motivations for contributors and the obstacles.
+Puisqu'un certain nombre d'études ont déjà documenté en détail les facteurs clés du succès de l'InnerSource, nous nous sommes davantage concentrés sur l'exploration des motivations clés des contributeurs et des obstacles.
 
-## Results
+## Résultats
 
-For the full results see the State of InnerSource 2020 Report.
+Pour les résultats complets, voir "State of InnerSource 2020 Report".
 
-## Authors
+## Auteurs
 
-This survey was conducted by Tapajit Dey of Lero—the Irish Software Research Centre. Cristina Coffey and Tadhg O’Neill of InnerSource Commons contributed to the report outline and design.
+Cette enquête a été menée par Tapajit Dey du Lero, le centre Irlandais de recherche sur les logiciels. Cristina Coffey et Tadhg O'Neill d'InnerSource Commons ont contribué à la conception et à la rédaction du rapport.

@@ -3,7 +3,7 @@ type: book
 title: 'InnerSource Patterns'
 image: "/images/learn/books/innersource-patterns-book-cover-thumb.jpg"
 weight: 5
-summary: A Pattern - That's what we call InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and apply them in your context. This book contains the most mature patterns, collected by the InnerSource Commons Community.
+summary: Un Pattern - C'est le nom donné aux meilleures pratiques de l'InnerSource codifiées dans un format spécifique pour faciliter leur compréhension, leur évaluation et leur application dans votre contexte. Ce livre contient les patterns les plus matures, collectés par la Communauté InnerSource Commons.
 book_author: InnerSource Commons Community
 book_publish_date: 2020 (and continuously)
 book_publisher: InnerSource Commons

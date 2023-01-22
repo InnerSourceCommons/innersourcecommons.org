@@ -3,7 +3,7 @@ type: book
 title: 'Understanding the InnerSource Checklist'
 image: "/images/learn/books/innersource-checklist-cover-thumb.jpg"
 weight: 2
-summary: Author Silona Bonewald explains how the InnerSource initiative can help your company develop software internally by applying lessons from the open source movement. A checklist guides you through various steps needed to produce software using the InnerSource approach, whether it’s company wide or just for one team.
+summary: L'auteur Silona Bonewald explique comment l'initiative InnerSource peut aider votre entreprise à développer des logiciels en interne en appliquant les leçons du mouvement Open Source. Une checklist vous guide à travers les différentes étapes nécessaires pour produire des logiciels en utilisant l'approche InnerSource, que ce soit à l'échelle de l'entreprise ou pour une seule équipe.
 book_author: Silona Bonewald
 book_publish_date: May 2017
 book_publisher: O’Reilly Media

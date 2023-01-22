@@ -1,7 +1,7 @@
 ---
-title: "Announcements"
+title: "Annonces"
 type: "announcements"
-subtitle: "InnerSource Commons Announcements."
+subtitle: "Annonces InnerSource Commons."
 # meta description
-description: "InnerSource Commons Announcements."
+description: "Annonces InnerSource Commons."
 ---

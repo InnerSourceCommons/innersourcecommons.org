@@ -1,6 +1,6 @@
 ---
 title: "InnerSource Patterns"
-subtitle: "InnerSource best practices codified in a specific format easy to understand and reuse."
+subtitle: "Les meilleures pratiques de l'InnerSource codifiées dans un format spécifique facile à comprendre et à réutiliser."
 type: "community"
 image: "images/learn/patterns.png"
 weight: 1
@@ -9,9 +9,9 @@ weight: 1
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-2">
-        <p>The InnerSource Commons provides a forum for the community to share their experience and learn from each other in the form of InnerSource Patterns.
+        <p>L'InnerSource Commons offre un forum à la communauté pour qu'elle partage son expérience et apprenne les uns des autres sous la forme de patterns InnerSource.
         </p>
-        <p class="mt-4"><b>An InnerSource Pattern</b> - That’s what we call InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and apply them in your context.  </p>
+        <p class="mt-4"><b>Une Pattern InnerSource</b> - C'est ainsi que nous appelons les meilleures pratiques de l'InnerSource, codifiées dans un format spécifique pour faciliter leur compréhension, leur évaluation et leur application dans votre contexte. </p>
       </div>
       <div class="col-md-5 order-1 order-md-1 mb-4 mb-md-0">
         <img src="/images/learn/patterns/patterns-symbol-cropped.png" class="img-fluid">
@@ -19,7 +19,7 @@ weight: 1
   </div>
 </section>
 
-<h2 style="text-align: center;">The InnerSource Patterns Working Group is providing the following services to our community</h2>
+<h2 style="text-align: center;">Le Groupe de Travail sur les InnerSource Patterns fournit les services suivants à notre communauté</h2>
 
 <section class="section bg-light">
   <div class="container">
@@ -27,31 +27,31 @@ weight: 1
       <div class="col-md-6 col-sm-6 mb-4">
         <div class="feature-card text-left">
           <a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A"><img src="/images/events/meetup-2021-10-05.jpg" alt="InnerSource Patterns Community Calls"></a>
-          <h3 class="mb-2">Facilitating the identification of patterns in various contexts such as our <a href="/events/">Community Calls</a> and through discussions on <a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A">Slack</a>.</h3>
+          <h3 class="mb-2">Faciliter l'identification de patterns dans divers contextes tels que nos <a href="/events/">Appels de la communauté</a> et par des discussions sur <a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A">Slack</a>.</h3>
         </div>
       </div>
       <div class="col-md-6 col-sm-6 mb-4">
         <div class="feature-card text-left">
           <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/issues"><img src="/images/learn/patterns/maturing_patterns.png" alt="Mature InnerSource Patterns"></a>
-          <h3 class="mb-2">Helping the Community to <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/issues">mature patterns</a> by reviewing them and providing examples of instances where the pattern has been used.</h3>
+          <h3 class="mb-2">Aider la communauté à <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/issues">maturer les patterns</a> en les passant en revue et en donnant des exemples de cas où le modèle a été utilisé.</h3>
         </div>
       </div>
       <div class="col-md-6 col-sm-6 mb-4">
         <div class="feature-card text-left">
           <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns"><img src="/images/learn/patterns/github_conversation.png" alt="GitHub Conversation"></a>
-          <h3 class="mb-2">Providing a space for companies to collaborate on patterns in <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns">GitHub</a>.</h3>
+          <h3 class="mb-2">Fournir un espace aux entreprises pour collaborer sur des patterns via le <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns">dépôt GitHub</a>.</h3>
         </div>
       </div>
       <div class="col-md-6 col-sm-6 mb-4">
         <div class="feature-card text-left">
           <a href="https://patterns.innersourcecommons.org"><img src="/images/learn/patterns/patterns_book.jpg" alt="InnerSource Patterns Book"></a>
-          <h3 class="mb-2">Publishing the most mature patterns in the <a href="https://patterns.innersourcecommons.org">InnerSource Patterns book</a>.</h3>
+          <h3 class="mb-2">Publier les patterns les plus matures sur le <a href="https://patterns.innersourcecommons.org">livre des InnerSource Patterns </a>.</h3>
         </div>
       </div>
       <div class="col-md-6 col-sm-6 mb-4">
         <div class="feature-card text-left">
           <a href="https://patterns.innersourcecommons.org/explore-patterns"><img src="/images/learn/patterns/patterns_mind_map.png" alt="InnerSource Patterns Mind Map"></a>
-          <h3 class="mb-2">Providing discoverability tools such as the <a href="https://patterns.innersourcecommons.org/explore-patterns">InnerSource Patterns Mind Map</a>.</h3>
+          <h3 class="mb-2">Fournir des outils de recherche tels que le <a href="https://patterns.innersourcecommons.org/explore-patterns">InnerSource Patterns Mind Map</a>.</h3>
         </div>
       </div>
     </div>
@@ -61,4 +61,4 @@ weight: 1
 
 ## How to Get Involved
 
-If you are using InnerSource in your company already and want to contribute to the efforts outlined above by sharing your experiences or introducing new patterns, we would love to <a href="https://patterns.innersourcecommons.org/contribute"> welcome your contributions to the book</a> and to our Slack conversations in the <a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A">#innersource-patterns channel</a>.
+Si vous utilisez déjà InnerSource dans votre entreprise et souhaitez contribuer aux efforts décrits ci-dessus en partageant vos expériences ou en introduisant de nouveaux modèles, nous serions ravis d'<a href="https://patterns.innersourcecommons.org/contribute"> accueillir vos contributions dans le livre</a> et d'avoirs des conversations Slack via le <a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A">Canal #innersource-patterns</a>.
