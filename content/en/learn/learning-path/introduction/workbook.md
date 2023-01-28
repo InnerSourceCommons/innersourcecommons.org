@@ -12,7 +12,7 @@ contributors:
   - name: Nick Adams
     url: https://github.com/nadamsoreilly
 image: images/learn/workbooks/Learning Path-Introduction Workbook-image.png
-weight: 9
+weight: 13
 ---
 <div class="sect2">
 <h3 id="_video_introduction_to_innersource">Video: Introduction to InnerSource</h3>
