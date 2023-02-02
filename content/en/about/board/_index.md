@@ -26,7 +26,7 @@ Danese Cooper is the founder and chair of InnerSource Commons. She is a long ter
 Isabel Drost-Fromm is Open Source Strategist at Europace AG Germany. She`s a member of the Apache Software Foundation, co-founder of Apache Mahout and mentored several incubating projects. Isabel is interested in all things FOSS, search and text mining with a decent machine learning background. True to the nature of people living in Berlin she loves having friends fly in for a brief visit - as a result she co-founded and is still one of the creative heads behind Berlin Buzzwords, a tech conference on all things search, scale and storage.
 {{< /board-member >}}
 
-{{< board-member name="Georg Grutter" image="/images/about/Georg_Grutter.jpeg" >}}
+{{< board-member name="Georg Grütter" image="/images/about/Georg_Grutter.jpeg" >}}
 Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO. He co-founded and led the first InnerSource community at Bosch. Georg is a passionate software developer with over 30 years of experience. Previously, he held various positions and roles at Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg has created two open source projects, who also loves photography and chocolate.
 {{< /board-member >}}
 
