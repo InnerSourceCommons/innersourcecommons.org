@@ -22,7 +22,7 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 * Daniel Izquierdo Cortazar
 * Dmitrii Sugrobov
 * Fei Wan
-* Georg Grutter
+* Georg Gr&#x00FC;tter
 * Igor Zubaiurre 
 * Isabel Drost-Fromm
 * Jacob Green
