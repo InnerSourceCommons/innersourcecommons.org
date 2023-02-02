@@ -44,7 +44,7 @@ aliases:
       {{< company name="BBC" image="/images/logos/bbc.png" video="https://www.youtube.com/watch?v=pEGMxe6xz-0" author_name="Steph Egan" author_title="Software Engineering Team Lead" >}}
       Our tools have been built been built from the ground up with an expectation of InnerSource … The way that we encourage that in a very disparate organization is mostly word of mouth and clear documentation.
       {{< /company >}}
-      {{< company name="BBVA AI Factory" image="/images/logos/BBVA_AI_factory.png" article="https://www.bbvaaifactory.com/es/mercury-acelerando-la-reutilizacion-en-ciencia-de-datos-dentro-de-bbva/" author_name="Rafael Hernandez Murcia" author_title="Senior Manager Data Scientist" >}}
+      {{< company name="BBVA AI Factory" image="/images/logos/BBVA_AI_factory.png" article="https://www.bbvaaifactory.com/mercury-acelerando-la-reutilizacion-en-ciencia-de-datos-dentro-de-bbva/" author_name="Rafael Hernandez Murcia" author_title="Senior Manager Data Scientist" >}}
       Mercury is a collaborative Data Science library in Python that applies the principles of Inner source at BBVA.
       {{< /company >}}
       {{< company name="BCG Gamma" image="/images/logos/bcg.png" article="https://github.com/customer-stories/bcg-gamma" >}}
