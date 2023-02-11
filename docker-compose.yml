@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  hugo:
+    # The version here must be kept in sync with the one used at .github/workflows/main.yml
+    image: klakegg/hugo:0.80.0-ext-ubuntu
+    command: server
+    ports:
+    - "1313:1313"
+    volumes:
+    - .:/src
