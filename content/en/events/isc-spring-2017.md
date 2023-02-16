@@ -29,4 +29,4 @@ All participants, vendors, and guests at InnerSource Commons events are required
 
 
 InnerSource Commons meetings run under the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_House_Rule): information discussed at a meeting can be shared but not attributed.
-https://join.slack.com/t/innersourcecommons/shared_invite/zt-1l4a602b6-DKD0B0Y8~WE4aDf~o1xCRw)!
+https://innersourcecommons.org/slack)!

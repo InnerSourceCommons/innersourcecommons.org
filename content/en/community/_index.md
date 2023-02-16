@@ -107,13 +107,29 @@ title: "Community"
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
+        <p class="section-title h2">ISPO Working Group</p>
+        <p>The ISPO Working Group supports InnerSource Program Offices (ISPOs) with materials needed to establish themselves, teach and scale InnerSource in their respective company. The group holds regular meetings, but most work is done asynchronously on <a href="https://github.com/InnerSourceCommons/ispo-working-group" target="_blank">GitHub</a>.
+        </p>
+        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> ispo-working-group</a>
+      </div>
+      <div class="col-md-5 order-1 order-md-2 mb-4 mb-md-0">
+        <img src="/images/community/cuate.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-3 offset-md-1 mb-5 mb-md-0">
+         <img src="/images/logo-big.png" class="img-fluid">
+      </div>
+      <div class="col-md-6 ">
         <p class="section-title h2">Board & Governance</p>
         <p>The InnerSource Commons Foundation is registered as a 501(c)3 non-profit organization in the US, and service on the Board is one way the community can deepen their commitment to InnerSource.
         </p>
         <a href="/about/board/" class="btn-link">Learn more about the ISC Board <i class="ti-arrow-right"></i></a>
-      </div>
-      <div class="col-md-3 offset-md-1 order-1 order-md-2 mb-4 mb-md-0">
-        <img src="/images/logo-big.png" class="img-fluid">
       </div>
     </div>
   </div>
@@ -160,7 +176,7 @@ title: "Community"
       </div>
       <div class="col-md-5 offset-md-1">
         <p class="h2 section-title">Stay Connected</p>
-        <p class="mb-4">Most of the action in the community happens on our <a href="https://join.slack.com/t/innersourcecommons/shared_invite/zt-1l4a602b6-DKD0B0Y8~WE4aDf~o1xCRw">Slack Channel</a>. You can also keep informed about the InnerSource Commons news, events and activities by signing up to our mailing list below, follow us on <a href="https://twitter.com/InnerSourceOrg">Twitter</a> and <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, and subscribing to our <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube Channel</a>.</p>
+        <p class="mb-4">Most of the action in the community happens on our <a href="https://join.slack.com/t/innersourcecommons/shared_invite/zt-1msf8vcqu-fYEHcyI1l4eSPq6rGprMXA">Slack Channel</a>. You can also keep informed about the InnerSource Commons news, events and activities by signing up to our mailing list below, follow us on <a href="https://twitter.com/InnerSourceOrg">Twitter</a> and <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, and subscribing to our <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube Channel</a>.</p>
         <p class="h3 section-title">Sign up to our mailing list</p>
         {{< contact-form >}}
       </div>

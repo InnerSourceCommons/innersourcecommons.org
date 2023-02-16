@@ -7,7 +7,7 @@
 * @InnerSourceCommons/website-maintainers
 
 # Learning Path
-/content/learn/learning-path @InnerSourceCommons/learning-path
+/content/en/learn/learning-path @InnerSourceCommons/learning-path
 
 # Changes to https://innersourcecommons.org/about/board/ incl. the terse notes for Board meetings should be reviewed by the Board
-/content/about/board/* @InnerSourceCommons/isc-board
+/content/en/about/board/* @InnerSourceCommons/isc-board
