@@ -37,7 +37,7 @@ title: "InnerSource Commons"
         <p class="section-title h2">En savoir plus sur l'InnerSource</p>
         <p>Que vous soyez novice en matière d'InnerSource ou que vous souhaitiez en savoir plus sur les personnes qui le mettent en œuvre, sur les raisons de le faire ou comment bien démarrer, visitez la section apprentissage du site. Vous y trouverez de nombreuses ressources pour vous aider à accélérer votre montée en compétence sur l'InnerSource, notamment des formations, des bonnes pratiques, des livres, des enregistrements d'évènements passés et des études de cas.
         </p>
-        <a href="/learn/" class="btn-link">En savoir plus sur l'InnerSource<i class="ti-arrow-right"></i></a>
+        <a href="learn/" class="btn-link">En savoir plus sur l'InnerSource<i class="ti-arrow-right"></i></a>
       </div>
       <div class="col-md-6 mt-4 mb-4 mb-md-0 float-right">
         <img src="/images/community/collaboration.png" class="img-fluid pl-4 pr-4">
@@ -56,7 +56,7 @@ title: "InnerSource Commons"
       <div class="col-md-6">
           <p class="section-title h2">Rejoindre la Communauté</p>
           <p>Nous soutenons ceux qui pratiquent et qui veulent en savoir plus sur l'InnerSource au travers d'un large éventail d'activités. Pour commencer, rejoignez la communauté grandissante d'ISC sur Slack et présentez-vous. Vous y trouverez d'excellents contacts pour vous accompagner sur l'InnerSource.</p>
-          <a href="/community/" class="btn-link">Rejoindre la Communauté<i class="ti-arrow-right"></i></a>
+          <a href="community/" class="btn-link">Rejoindre la Communauté<i class="ti-arrow-right"></i></a>
         </div>
     </div>
   </div>
