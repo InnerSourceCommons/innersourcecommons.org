@@ -110,7 +110,7 @@ title: "Communauté"
         <p class="section-title h2">Conseil d'administration & Gouvernance</p>
         <p>InnerSource Commons est un organisme à but non lucratif (501(c)(3) selon le code des impôts US, et le service au Conseil d'administration est un moyen pour la communauté de renforcer son engagement envers l'InnerSource.
         </p>
-        <a href="/about/board/" class="btn-link">En savoir plus sur le Conseil d'Admninistration de l'ISC <i class="ti-arrow-right"></i></a>
+        <a href="../about/board/" class="btn-link">En savoir plus sur le Conseil d'Admninistration de l'ISC <i class="ti-arrow-right"></i></a>
       </div>
       <div class="col-md-3 offset-md-1 order-1 order-md-2 mb-4 mb-md-0">
         <img src="/images/logo-big.png" class="img-fluid">
