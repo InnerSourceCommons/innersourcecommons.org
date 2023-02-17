@@ -58,7 +58,7 @@ title: "À propos d'InnerSource Commons"
         <p>La communauté InnerSource Commons est ouverte à tous. Certains participants à la communauté vont plus loin et peuvent devenir membres de l'ISC. ISC est une organisation avec des membres adhérents&nbsp;: les membres de l'ISC jouent donc un rôle similaire à celui des actionnaires des sociétés cotées en bourse. </p>
         <p>Les membres ont des droits particuliers au sein de l'ISC&nbsp;; par exemple, ils peuvent voter aux élections du conseil d'administration et de gouvernance. Pour être éligible en tant que membre, une personne doit être nommée par un membre actuel. L'adhésion est purement fondée sur le mérite, gratuite et réservée aux personnes physiques.
         </p>
-        <a href="members/" class="btn-link">Liste des Membres d'InnerSource Commons<i class="ti-arrow-right"></i></a>
+        <a href="/fr/about/members" class="btn-link">Liste des Membres d'InnerSource Commons<i class="ti-arrow-right"></i></a>
       </div>
       <div class="col-md-6 mt-4 mb-4 mb-md-0 float-right">
         <img src="/images/about/illustrations/notebook.png" class="img-fluid pl-4 pr-4">
