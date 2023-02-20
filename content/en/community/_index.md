@@ -46,7 +46,7 @@ title: "Community"
       </div>
     </div>
     <div class="row d-flex justify-content-center">
-        <a href="/slack" class="btn btn-primary btn-sm"><img src="/images/slack.png" class="pr-2"/>Join Slack</a>
+        <a href="/slack" class="btn btn-primary btn-sm"><img src="/images/slack.png" class="slack-tiny mr-2"/>Join Slack</a>
     </div>
   </div>
 </section>
@@ -63,7 +63,7 @@ title: "Community"
         <p class="section-title h2">Learning Path Working Group</p>
         <p>The Learning Path Working Group curates the <a href="/learn/learning-path/">InnerSource Learning Path</a>, a series of short videos and articles explaining and teaching various aspects of InnerSource. The working group meets weekly. To get started, join the #learning-path slack channel and introduce yourself.
         </p>
-        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> learning-path</a>
+        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="slack-tiny mr-1"/> learning-path</a>
       </div>
     </div>
   </div>
@@ -76,7 +76,7 @@ title: "Community"
         <p class="section-title h2">Patterns Working Group</p>
         <p>The Patterns Working Group is creating a book with InnerSource Patterns — best practices codified in a specific format easy to understand and reuse. The Patterns group hold regular office-hours, but most of the work is done asynchronously on <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/" target="_blank">GitHub</a>.
         </p>
-        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> innersource-patterns</a>
+        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="slack-tiny mr-1"/> innersource-patterns</a>
       </div>
       <div class="col-md-5 order-1 order-md-2 mb-4 mb-md-0">
         <img src="/images/community/mechanism.png" class="img-fluid">
@@ -97,7 +97,7 @@ title: "Community"
         <p class="section-title h2">Marketing & Outreach Working Group</p>
         <p>The Marketing & Outreach Working Group promotes InnerSource success stories, supports outreach activities, conducts research, and organizes InnerSource <a href="/events/">events and summits</a>. It meets bi-weekly.
         </p>
-        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> marketing</a>
+        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="slack-tiny mr-1"/> marketing</a>
       </div>
     </div>
   </div>
