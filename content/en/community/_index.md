@@ -110,7 +110,7 @@ title: "Community"
         <p class="section-title h2">ISPO Working Group</p>
         <p>The ISPO Working Group supports InnerSource Program Offices (ISPOs) with materials needed to establish themselves, teach and scale InnerSource in their respective company. The group holds regular meetings, but most work is done asynchronously on <a href="https://github.com/InnerSourceCommons/ispo-working-group" target="_blank">GitHub</a>.
         </p>
-        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> ispo-working-group</a>
+        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="slack-tiny mr-1"/> ispo-working-group</a>
       </div>
       <div class="col-md-5 order-1 order-md-2 mb-4 mb-md-0">
         <img src="/images/community/cuate.png" class="img-fluid">
