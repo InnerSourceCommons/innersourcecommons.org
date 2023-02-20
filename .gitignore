@@ -3,6 +3,7 @@ Thumbs.db
 .dist
 .tmp
 .sass-cache
+.vs
 npm-debug.log
 node_modules
 builds
