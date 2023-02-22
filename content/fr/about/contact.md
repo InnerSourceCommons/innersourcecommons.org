@@ -12,7 +12,7 @@ type: wide
       <div class="col-md-6 order-2 order-md-2">
         <p>Le moyen le plus rapide et le plus efficace de nous joindre est de rejoindre Slack et de poser votre question dans le canal #general. 
         </p>
-        <a href="/slack" class="btn btn-primary btn-sm"><img src="/images/slack.png" class="pr-1"/>Rejoindre Slack</a>
+        <a href="/slack" class="btn btn-primary btn-sm"><img src="/images/slack.png" class="slack-tiny mr-2"/>Rejoindre Slack</a>
         <p class="mt-4">Vous pouvez également nous envoyer un email à <a href="mailto:info@innersourcecommons.org">info@innersourcecommons.org</a>. </p>
       </div>
       <div class="col-md-5 order-1 order-md-1 mb-4 mb-md-0">

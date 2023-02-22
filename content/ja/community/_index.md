@@ -46,7 +46,7 @@ title: "コミュニティ"
       </div>
     </div>
     <div class="row d-flex justify-content-center">
-        <a href="/slack" class="btn btn-primary btn-sm"><img src="/images/slack.png" class="pr-2"/>Slackに参加する</a>
+        <a href="/slack" class="btn btn-primary btn-sm"><img src="/images/slack.png" class="slack-tiny mr-2"/>Slackに参加する</a>
   </div>
 </section>
 
@@ -62,7 +62,7 @@ title: "コミュニティ"
         <p class="section-title h2">ラーニングパス ワーキンググループ</p>
         <p>ラーニングパス ワーキンググループは、<a href="/learn/learning-path/">インナーソース ラーニングパス</a>をカタログ化しています。これは、インナーソースの様々な側面を説明し、教える短いビデオと記事のシリーズです。ワーキンググループは毎週ミーティングします。開始するには、#learning-path slackチャンネルに参加して自己紹介をしましょう。
         </p>
-        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> learning-path</a>
+        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="slack-tiny mr-1"/> learning-path</a>
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@ title: "コミュニティ"
         <p class="section-title h2">パターン ワーキンググループ</p>
         <p>パターン・ワーキンググループは、インナーソースパターン - 理解と再利用が容易な特定のフォーマットで成文化されたベストプラクティス - を作成しています。パターングループは定期的にオフィスアワーを設けていますが、ほとんどの作業は<a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/" target="_blank">GitHub</a>上で非同期的に行われています。
         </p>
-        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> innersource-patterns</a>
+        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="slack-tiny mr-1"/> innersource-patterns</a>
       </div>
       <div class="col-md-5 order-1 order-md-2 mb-4 mb-md-0">
         <img src="/images/community/mechanism.png" class="img-fluid">
@@ -96,7 +96,7 @@ title: "コミュニティ"
         <p class="section-title h2">マーケティング＆アウトリーチワーキンググループ</p>
         <p>マーケティング＆アウトリーチワーキンググループは、インナーソースの成功例をプロモーションし、アウトリーチ活動をサポートし、研究を行い、インナーソース関連の<a href="/events/">イベントやサミット</a>を開催しています。隔週で開催されています。
         </p>
-        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="pr-1"/> marketing</a>
+        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="slack-tiny mr-1"/> marketing</a>
       </div>
     </div>
   </div>
