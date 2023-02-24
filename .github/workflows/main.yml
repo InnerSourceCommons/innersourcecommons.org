@@ -16,6 +16,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
+          # When this version is updated, it must be also updated at docker-compose.yml
           hugo-version: '0.80.0'
           extended: true
       - name: Copy the missing files from /content/en for publishing each language site

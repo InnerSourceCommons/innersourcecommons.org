@@ -27,6 +27,14 @@ cd innersourcecommons.org
 hugo server
 ```
 
+Alternatively, if you have [Docker][] installed in your machine, you can do the same with docker compose, as shown below.
+
+```sh
+git clone [url]
+cd innersourcecommons.org
+docker compose up -d
+``` 
+
 ## Making changes to specific pages
 
 ### Adding a logo to the Stories page
@@ -46,3 +54,4 @@ Instructions can be found [here](i18n.md).
 [hugo]: https://gohugo.io/getting-started/installing/
 [stories]: https://innersourcecommons.org/stories/
 [issue-template]: https://github.com/InnerSourceCommons/InnerSourceMarketing/issues/new?assignees=&labels=website&template=add-a-new-org-logo-to-the-website.md&title=Add+%5Borganisation+name%5D+logo+to+the+Stories+Page
+[Docker]: https://www.docker.com/
