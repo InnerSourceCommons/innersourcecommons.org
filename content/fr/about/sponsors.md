@@ -26,7 +26,6 @@ subtitle: "Nos partenaires sont des organisations qui aident à diriger le mouve
     <div class="row justify-content-center">
       {{< company name="Comcast" image="/images/logos/comcast.png" >}}{{< /company >}}
       {{< company name="Fannie Mae" image="/images/logos/Fannie_Mae.png" >}}{{< /company >}}
-      {{< company name="GitLab" image="/images/logos/gitlab.png" >}}{{< /company >}}
       {{< company name="Indeed" image="/images/logos/indeed.png" >}}{{< /company >}}
       {{< company name="Santander" image="/images/logos/santander.png" >}}{{< /company >}}
       {{< company name="SAP" image="/images/logos/sap.png" >}}{{< /company >}}
