@@ -44,6 +44,9 @@ aliases:
       {{< company name="BBC" image="/images/logos/bbc.png" video="https://www.youtube.com/watch?v=pEGMxe6xz-0" author_name="Steph Egan" author_title="Software Engineering Team Lead" >}}
       Our tools have been built been built from the ground up with an expectation of InnerSource … The way that we encourage that in a very disparate organization is mostly word of mouth and clear documentation.
       {{< /company >}}
+      {{< company name="BBVA AI Factory" image="/images/logos/BBVA_AI_factory.png" article="https://www.bbvaaifactory.com/mercury-acelerando-la-reutilizacion-en-ciencia-de-datos-dentro-de-bbva/" author_name="Rafael Hernandez Murcia" author_title="Senior Manager Data Scientist" >}}
+      Thanks to an InnerSource strategy we are scaling the reusability of Data Science code in a wide range of countries and business areas at BBVA. To achieve this, we developed a Python library, named Mercury.
+      {{< /company >}}
       {{< company name="BCG Gamma" image="/images/logos/bcg.png" article="https://github.com/customer-stories/bcg-gamma" >}}
       {{< /company >}}
       {{< company name="Bitergia" image="/images/logos/bitergia.png" article="https://www.linkedin.com/feed/update/urn:li:activity:6711604569262067712/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6711604569262067712%29" >}}

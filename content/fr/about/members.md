@@ -22,7 +22,7 @@ L'élégibilité au statut de Membre est purement fondée sur le mérite, elle e
 * Daniel Izquierdo Cortazar
 * Dmitrii Sugrobov
 * Fei Wan
-* Georg Grutter
+* Georg Gr&#x00FC;tter
 * Igor Zubaiurre 
 * Isabel Drost-Fromm
 * Jacob Green

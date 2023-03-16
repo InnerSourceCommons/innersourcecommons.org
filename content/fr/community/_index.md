@@ -107,6 +107,22 @@ title: "Communauté"
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
+        <p class="section-title h2">Groupe de travail sur les ISPOs</p>
+        <p>Le groupe de travail sur les InnerSource Program Offices (ISPOs) produit des travaux pour initialiser, enseigner et faire passer l'InnerSource à l'échelle dans les entreprises. Le groupe organise des réunions régulièrement, mais la plupart du travail est fait en asynchrone sur <a href="https://github.com/InnerSourceCommons/ispo-working-group" target="_blank">GitHub</a>.
+        </p>
+        <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="slack-tiny mr-1"/> ispo-working-group</a>
+      </div>
+      <div class="col-md-5 order-1 order-md-2 mb-4 mb-md-0">
+        <img src="/images/community/cuate.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-1">
         <p class="section-title h2">Conseil d'administration & Gouvernance</p>
         <p>InnerSource Commons est un organisme à but non lucratif (501(c)(3) selon le code des impôts US, et le service au Conseil d'administration est un moyen pour la communauté de renforcer son engagement envers l'InnerSource.
         </p>
