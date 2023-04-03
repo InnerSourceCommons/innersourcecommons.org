@@ -143,7 +143,9 @@ aliases:
       {{< /company >}}
       {{< company name="Knock" image="/images/logos/knock.png" article="https://github.com/customer-stories/knock" >}}
       {{< /company >}}
-      {{< company name="KPMG" image="static/images/logos/KPMG.png" article="https://github.com/customer-stories/kpmg" >}}
+      {{< company name="Komyu" image="/images/logos/komyu.png" article="https://incose.onlinelibrary.wiley.com/doi/abs/10.1002/inst.12325" >}}
+      {{< /company >}}
+      {{< company name="KPMG" image="/images/logos/KPMG.png" article="https://github.com/customer-stories/kpmg" >}}
       {{< /company >}}
       {{< company name="Leroy Merlin" image="/images/logos/leroymerlin.png" video="https://www.youtube.com/watch?v=Wzg8h30OhK8" >}}
       {{< /company >}}
