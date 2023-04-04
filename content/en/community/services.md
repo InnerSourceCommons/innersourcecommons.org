@@ -17,10 +17,24 @@ We do our best to ensure that the information on this page is accurate and helpf
         <td><h3>Service Description</h3></td>
     </tr>
     <tr>
+        <td><img src="/images/logos/bayave.png" alt="Bayave"><img style="width: 30%;
+  height: auto; display: block; margin-left: auto; margin-right: auto;"></td>
+        <td>Training and Consulting Services</td>
+        <td class="title">Bayave provides training and consulting services on open source, InnerSource, and product strategy. You can subscribe to our <a href="https://bayave.com/consulting/newsletter/">newsletter</a> here or <a href="mailto:info@bayave.com">contact Bayave</a> directly.
+        </td>
+    </tr>
+    <tr>
         <td><img src="/images/logos/bitergia.png" alt="Bitergia"><img style="width: 30%;
   height: auto; display: block; margin-left: auto; margin-right: auto;" src="/images/Partner Badge.png" alt="Partner"></td>
         <td>Tools & Consulting Services</td>
         <td class="title">Bitergia offers InnerSource-as-a-Service to help at any stage of your InnerSource journey. Advancing from where you are today, Bitergia offers a mix of different tools such as a maturity model, an AS-IS assessment, a capabilities model, and InnerSource metrics dashboards. Bitergia builds your turnkey InnerSource Program Office (ISPO), bringing the people, skills, and tools. Bitergia’s unique strength is in analytics, which is evident in the evidence-based consultancy work. We make it easier for you to bring the best open practices to suit your organization, strengthen communication and knowledge sharing across distributed teams and have full transparency, insights, and understanding using best-in-class metrics. <a href="https://bitergia.com/innersource/">Click here to learn more</a> or <a href="https://bitergia.com/contact/">contact Bitergia</a> directly.
+        </td>
+    </tr>
+    <tr>
+        <td><img src="/images/logos/fau.png" alt="Fau"><img style="width: 30%;
+  height: auto; display: block; margin-left: auto; margin-right: auto;"></td>
+        <td>Transfer pricing solution</td>
+        <td class="title">FAU (University of Erlangen) provides customized transfer pricing solutions (software) to calculate transfer prices for high-frequency software development collaboration across tax boundaries. Listen to our  <a href="https://www.youtube.com/watch?v=CB-x43iso7o">'Ten Years of InnerSource Case Studies'</a> talk. <a href="https://oss.cs.fau.de/"> Click here to learn more</a> or <a href="mailto:dirk.riehle@fau.de">contact FAU</a> directly.
         </td>
     </tr>
     <tr>
