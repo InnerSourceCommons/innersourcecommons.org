@@ -36,11 +36,20 @@ Nous faisons de notre mieux pour assurer que les informations sur cette page son
        <td>Tools & Training Services</td>
         <td class="title">InnerSource is core to the GitLab values of "Everyone can Contribute". As such, we are very experienced in the best ways to source ideas and contributions across enterprises. We offer both free and paid trainings for organizations looking to securely InnerSource and bring out innovation from all corners of the company. Our free workshop is led by a Technical Account Manager for accounts that qualify. You can also do a professional services led training. Learn more about their <a href="https://about.gitlab.com/solutions/innersource/">professional services led training</a> and their <a href="https://about.gitlab.com/handbook/customer-success/workshops/innersource-workshop.html">TAM led workshops</a> or <a href="https://about.gitlab.com/sales/">contact GitLab</a> directly.
         </td>
+        </tr>
+     <tr>
+        <td><img src="/images/logos/komyu.png" alt="Komyu"></td>
+        <td>Tools</td>
+        <td class="title">Komyu is a consulting and training company based in France that specializes in setting up Massive Cooperation worldwide.
+        We believe that the world's challenges require the ability to work together in large groups, utilizing Inner Source, Open Source, well-engineered communities, and effective leadership.
+        Our approach involves working on multiple levels, including corporate strategy, program tactics, operations, and individual leadership, to deploy Inner Source in both its operational dimensions (e.g. legal, tools, governance) and its human factors (e.g. sponsors, contributors, users).
+        With global intervention capabilities, we aim to facilitate the adoption of Inner Source and foster collaboration on a massive scale.   <a href="https://www.komyu.io/#whyus">Click here to learn more</a> or <a href="https://www.komyu.io/#contact">contact Komyu</a> directly.
+        </td>
     </tr>
      <tr>
         <td><img src="/images/logos/promyze.png" alt="Promyze"></td>
         <td>Tools</td>
-        <td class="title">Promyze supports InnerSource adoption by providing a knowledge-sharing platform for software developers, to create and share best coding practices. The tool is fully integrated in the developer ecosystem. Each team can define their best practices and choose to make them publicly available to other teams within the company. Teams can retrieve knowledge relevant to their context or can suggest improvements and ask questions. This boosts knowledge sharing and increases source code uniformity within a company.   <a href="https://promyze.com/innersource-understand-in-5-minutes/">Click here to learn more</a> or <a href="https://promyze.com/contact">contact Promyze</a> directly.
+        <td class="title">Promyze supports InnerSource adoption by providing a knowledge-sharing platform for software developers, to create and share best coding practices. The tool is fully integrated in the developer ecosystem. Each team can define their best practices and choose to make them publicly available to other teams within the company. Teams can retrieve knowledge relevant to their context or can suggest improvements and ask questions. This boosts knowledge sharing and increases source code uniformity within a company.   <a href="https://promyze.com/innersource-understand-in-5-minutes/">Click here to learn more</a> or <a href="https://.com/contact">contact Promyze</a> directly.
         </td>
     </tr>
      <tr>
