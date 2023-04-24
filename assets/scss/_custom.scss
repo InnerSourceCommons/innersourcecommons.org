@@ -292,6 +292,12 @@ button.svelte-la9dd4:disabled {
     border-radius: 45px;
 }
 
+@media (min-width: 768px){
+    .h-md-45 {
+        height: 45%;
+    }
+}
+
 // Experiment:
 // Adding a color filter to the images, to create a more cohesive look.
 // Source: https://www.webascender.com/blog/use-css-image-filters-create-cohesive-look-feel-website/
