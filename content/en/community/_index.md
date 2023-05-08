@@ -34,7 +34,7 @@ title: "Community"
         <div class="feature-card text-center">
           <i class="ti-comment-alt mb-3"></i>
           <h4 class="mb-2">Have a Chat</h4>
-          <p>Join #virtual-coffee-buddies for an in-person chat with somebody from our community. Discuss your specific  challenges and brainstorm ideas.</p>
+          <p>Join <a href="https://innersourcecommons.slack.com/archives/CV96JHYJD">#virtual-coffee-buddies</a> for an in-person chat with somebody from our community. Discuss your specific  challenges and brainstorm ideas.</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 mb-4">
