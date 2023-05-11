@@ -45,7 +45,7 @@ As a Member of the InnerSource Commons Foundation, he is maintaining the collect
 {{< /board-member >}}
 
 {{< board-member name="Georg Grütter" image="/images/about/Georg_Grutter.jpeg" style="bg-light" >}}
-Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO. He co-founded and led the first InnerSource community at Bosch. Georg is a passionate software developer with over 30 years of experience. Previously, he held various positions and roles at Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg has created two open source projects, who also loves photography and chocolate.
+Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO. He co-founded and led the first InnerSource community at Bosch. Georg is a passionate software developer with over 30 years of experience. Previously, he held various positions and roles at Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg has created two open source projects, and also loves photography and chocolate.
 {{< /board-member >}}
 
 {{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" >}}
