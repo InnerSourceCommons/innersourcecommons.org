@@ -58,6 +58,9 @@ Dmitry is an experienced engineering manager in the retail industry, known for h
 {{< /board-member >}}
 
 {{< board-member name="Matt Cobby" image="/images/about/Matt_Cobby.jpg" >}}
+Matt Cobby is Director of Engineering at Deloitte where he specializes in helping teams with their engineering practices, developer experience, and platform & product engineering.
+As a member of the InnerSource Foundation he has run a large scale InnerSource program and now seeks to inspire teams to seek the many benefits of an Open Source style of collaboration inside their own organization.
+With over 18 years transformation experience in the UK, Europe & Australia, he has a passion for mentoring engineers and is an active supporter of technical & local communities that inspire people.
 {{< /board-member >}}
 
 <div class="section-first container">
