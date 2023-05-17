@@ -31,6 +31,6 @@ fr:
   contentDir: content/fr
   weight: 3
 pt-br:
-  languageName: Brazilian Portuguese
+  languageName: Português Brasileiro
   contentDir: content/pt-br
   weight: 3
