@@ -1,6 +1,6 @@
 ---
-título: Introdução
-destaque: true
+title: Introdução
+featured: true
 image: images/learn/LP_thumbnail_introduction.jpg
 weight: 0
 ---
