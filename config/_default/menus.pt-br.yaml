@@ -1,0 +1,123 @@
+main:
+  - name: Aprender
+    URL: learn
+    weight: 1
+    identifier: learn
+  - name: Livros
+    parent: learn
+    URL: learn/books
+    weight: 2
+  - name: Caminho de Aprendizado
+    parent: learn
+    URL: learn/learning-path
+    weight: 3
+  - name: Padrões
+    parent: learn
+    URL: learn/patterns
+    weight: 4
+  - name: Pesquisa
+    parent: learn
+    URL: learn/research
+    weight: 5
+  - name: Eventos
+    URL: events
+    weight: 2
+  - name: Comunidade
+    identifier: community
+    URL: community
+    weight: 3
+  - name: Histórias
+    URL: stories
+    weight: 4
+  - name: Diretório de Serviços
+    URL: community/services
+    parent: community
+    weight: 2
+  - name: Sobre
+    identifier: about
+    URL: about
+    weight: 5
+  - name: Anúncios
+    URL: about/announcements
+    parent: about
+    weight: 1
+  - name: Diretoria e Governança
+    URL: about/board
+    parent: about
+    weight: 2
+  - name: Membros
+    URL: about/members
+    parent: about
+    weight: 3
+  - name: Patrocinadores
+    URL: about/sponsors
+    parent: about
+    weight: 4
+  - name: Código de Conduta
+    URL: about/codeofconduct
+    parent: about
+    weight: 5
+  - name: Fale Conosco
+    URL: about/contact
+    parent: about
+    weight: 6
+footer_left:
+  - name: Aprender
+    URL: learn
+    weight: 1
+    post: bold
+  - name: Livros
+    URL: learn/books
+    weight: 2
+  - name: Caminho de Aprendizado
+    URL: learn/learning-path
+    weight: 3
+  - name: Padrões
+    URL: learn/patterns
+    weight: 4
+  - name: Pesquisa
+    URL: learn/research
+    weight: 5
+footer_middle:
+  - name: Eventos
+    URL: events
+    weight: 1
+    post: bold
+  - name: Comunidade
+    URL: community
+    weight: 2
+    post: bold
+    pre: _blank
+  - name: Histórias
+    URL: stories
+    weight: 3
+    post: bold
+  - name: Diretório de Serviços
+    URL: community/services
+    weight: 4
+  - name: Anúncios
+    URL: about/announcements
+    weight: 5
+footer_right:
+  - name: Sobre
+    URL: about
+    weight: 1
+    post: bold
+  - name: Diretoria e Governança
+    URL: about/board
+    weight: 2
+  - name: Membros
+    URL: about/members
+    weight: 3
+  - name: Patrocinadores
+    URL: about/sponsors
+    weight: 4
+  - name: Código de Conduta
+    URL: about/codeofconduct
+    weight: 5
+  - name: Fale Conosco
+    URL: about/contact
+    weight: 6
+  - name: Política de Privacidade
+    URL: about/privacy
+    weight: 7
