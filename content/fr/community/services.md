@@ -12,15 +12,29 @@ Nous faisons de notre mieux pour assurer que les informations sur cette page son
 
 <table class="schedule table table-striped">
     <tr>
-        <td style="width:20%"><h3>Entreprise</h3></td>
-        <td style="width:20%"><h3>Type de Service</h3></td>
-        <td><h3>Description du Service</h3></td>
+        <td style="width:20%"><h3>Company</h3></td>
+        <td style="width:20%"><h3>Service Type</h3></td>
+        <td><h3>Service Description</h3></td>
+    </tr>
+    <tr>
+        <td><img src="/images/logos/bayave.png" alt="Bayave"><img style="width: 30%;
+  height: auto; display: block; margin-left: auto; margin-right: auto;"></td>
+        <td>Training and Consulting Services</td>
+        <td class="title">Bayave provides training and consulting services on open source, InnerSource, and product strategy. You can subscribe to our <a href="https://bayave.com/consulting/newsletter/">newsletter</a> here or <a href="mailto:info@bayave.com">contact Bayave</a> directly.
+        </td>
     </tr>
     <tr>
         <td><img src="/images/logos/bitergia.png" alt="Bitergia"><img style="width: 30%;
   height: auto; display: block; margin-left: auto; margin-right: auto;" src="/images/Partner Badge.png" alt="Partner"></td>
         <td>Tools & Consulting Services</td>
         <td class="title">Bitergia offers InnerSource-as-a-Service to help at any stage of your InnerSource journey. Advancing from where you are today, Bitergia offers a mix of different tools such as a maturity model, an AS-IS assessment, a capabilities model, and InnerSource metrics dashboards. Bitergia builds your turnkey InnerSource Program Office (ISPO), bringing the people, skills, and tools. Bitergia’s unique strength is in analytics, which is evident in the evidence-based consultancy work. We make it easier for you to bring the best open practices to suit your organization, strengthen communication and knowledge sharing across distributed teams and have full transparency, insights, and understanding using best-in-class metrics. <a href="https://bitergia.com/innersource/">Click here to learn more</a> or <a href="https://bitergia.com/contact/">contact Bitergia</a> directly.
+        </td>
+    </tr>
+    <tr>
+        <td><img src="/images/logos/fau.png" alt="Fau"><img style="width: 30%;
+  height: auto; display: block; margin-left: auto; margin-right: auto;"></td>
+        <td>Transfer pricing solution</td>
+        <td class="title">FAU (University of Erlangen) provides customized transfer pricing solutions (software) to calculate transfer prices for high-frequency software development collaboration across tax boundaries. Listen to our  <a href="https://www.youtube.com/watch?v=CB-x43iso7o">'Ten Years of InnerSource Case Studies'</a> talk. <a href="https://oss.cs.fau.de/"> Click here to learn more</a> or <a href="mailto:dirk.riehle@fau.de">contact FAU</a> directly.
         </td>
     </tr>
     <tr>
@@ -35,6 +49,12 @@ Nous faisons de notre mieux pour assurer que les informations sur cette page son
   height: auto; display: block; margin-left: auto; margin-right: auto;" src="/images/Supporter Badge.png" alt="Supporter"></td>
        <td>Tools & Training Services</td>
         <td class="title">InnerSource is core to the GitLab values of "Everyone can Contribute". As such, we are very experienced in the best ways to source ideas and contributions across enterprises. We offer both free and paid trainings for organizations looking to securely InnerSource and bring out innovation from all corners of the company. Our free workshop is led by a Technical Account Manager for accounts that qualify. You can also do a professional services led training. Learn more about their <a href="https://about.gitlab.com/solutions/innersource/">professional services led training</a> and their <a href="https://about.gitlab.com/handbook/customer-success/workshops/innersource-workshop.html">TAM led workshops</a> or <a href="https://about.gitlab.com/sales/">contact GitLab</a> directly.
+        </td>
+         </tr>
+     <tr>
+        <td><img src="/images/logos/komyu.png" alt="Komyu"></td>
+        <td>Consulting & Training Services</td>
+        <td class="title">Komyu is a consulting and training company based in France that specializes in setting up Massive Cooperation worldwide. We believe that the world's challenges require the ability to work together in large groups, utilizing InnerSource, Open Source, well-engineered communities, and effective leadership. Our approach involves working on multiple levels, including corporate strategy, program tactics, operations, and individual leadership, to deploy InnerSource in both its operational dimensions (e.g. legal, tools, governance) and its human factors (e.g. sponsors, contributors, users). With global intervention capabilities, we aim to facilitate the adoption of InnerSource and foster collaboration on a massive scale.   <a href="https://www.komyu.io/">Click here to learn more</a> or <a href="mailto:contact@komyu.fr">contact Komyu</a> directly.
         </td>
     </tr>
      <tr>
@@ -63,4 +83,3 @@ Nous faisons de notre mieux pour assurer que les informations sur cette page son
         </td>
     </tr>
 </table>
-
