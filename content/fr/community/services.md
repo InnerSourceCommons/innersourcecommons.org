@@ -12,9 +12,9 @@ Nous faisons de notre mieux pour assurer que les informations sur cette page son
 
 <table class="schedule table table-striped">
     <tr>
-        <td style="width:20%"><h3>Company</h3></td>
-        <td style="width:20%"><h3>Service Type</h3></td>
-        <td><h3>Service Description</h3></td>
+        <td style="width:20%"><h3>Entreprise</h3></td>
+        <td style="width:20%"><h3>Type de Service</h3></td>
+        <td><h3>Description du Service</h3></td>
     </tr>
     <tr>
         <td><img src="/images/logos/bayave.png" alt="Bayave"><img style="width: 30%;
