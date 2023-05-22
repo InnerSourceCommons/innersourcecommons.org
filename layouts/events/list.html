@@ -34,17 +34,21 @@
       </div>
       {{ range where $pages ".Date.Unix" "<" $yesterday }}
       <div class="col-lg-4 col-sm-6 mb-5 event-card">
-        <div class="card border-0">
-          <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }}>
-            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img rounded-lg mb-4">
-          </a>
-          <div class="card-body p-0">
+        <div class="card border-0 h-100">
+          <div class="h-md-45">
+            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }}>
+              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img rounded-lg">
+            </a>
+          </div>
+          <div class="card-body p-0 d-flex flex-column">
             <h3><a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="post-title">{{ .Title }}</a></h3>
             <p class="card-text event-card-text">{{ .Summary }}</p>
-            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary btn-sm">Open Event</a>
-            {{ if .Params.youtubeLink }}
-              <a href="{{ .Params.youtubeLink }}" target="_blank" class="btn btn-secondary btn-sm">Watch Recording</a>
-            {{ end }}
+            <div class="d-flex mt-auto flex-md-row flex-sm-column">
+              <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary btn-sm mr-md-1">Open Event</a>
+              {{ if .Params.youtubeLink }}
+                <a href="{{ .Params.youtubeLink }}" target="_blank" class="btn btn-secondary btn-sm mt-sm-1 mt-md-0">Watch Recording</a>
+              {{ end }}
+            </div>
           </div>
         </div>
       </div>
