@@ -30,3 +30,7 @@ fr:
   languageName: Français
   contentDir: content/fr
   weight: 3
+pt-br:
+  languageName: Português Brasileiro
+  contentDir: content/pt-br
+  weight: 3

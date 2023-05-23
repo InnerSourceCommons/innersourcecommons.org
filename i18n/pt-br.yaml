@@ -1,0 +1,33 @@
+join_slack: "Participe do Slack"
+more_videos: "Mais Vídeos"
+
+# Lista de emails
+join_mailing_list: "Participe da Lista de Emails"
+enter_email: "Digite o Email"
+subscribe: "Inscrever-se"
+
+# Sobre
+about_innersource_commons: |-
+  A InnerSource Commons é a maior comunidade mundial de praticantes de InnerSource. É dedicada à criação e compartilhamento de conhecimento sobre InnerSource, o uso das melhores práticas de código aberto para o desenvolvimento de software dentro dos limites de uma organização.
+about_innersource_commons_history: |-
+  Fundada em 2015, a InnerSource Commons agora apoia e conecta mais de 2000 indivíduos de mais de 750 empresas, instituições acadêmicas e agências governamentais. A InnerSource Commons Foundation foi incorporada em 19 de fevereiro de 2020 e agora é uma instituição de caridade pública 501(c)(3).
+
+# Aprender
+learn_button: Aprender
+
+## Livro
+author: Autor
+publication_date: Data de Publicação
+publisher: Editora
+read_the_book: Leia o livro
+
+## Pesquisa
+read_research_report: Ler Relatório de Pesquisa
+
+## Metadados do Site
+meta_description: A InnerSource Commons é uma comunidade crescente de profissionais com o objetivo de criar e compartilhar conhecimento sobre InnerSource.
+meta_keywords: InnerSource,Código aberto,silo,colaboração
+
+# Licença
+footer_content: |-
+  O site está licenciado sob uma licença CC-BY-SA, a menos que indicado de outra forma.
