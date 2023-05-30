@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta charset="utf-8">
+  <title>InnerSource for Project Leaders</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content='InnerSource Commons は、インナーソースに関する知識を創造し、共有することを目的とした実践者のコミュニティです。'>
+  <meta name="keywords" content='InnerSource,インナーソース,オープンソース,サイロ,コード共有,共創,コラボレーション'>
+  <meta name="author" content="InnerSource Commons">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/plugins/youmax/youmax.css">
+  
+  <link rel="stylesheet" href="/plugins/bootstrap-select/css/bootstrap-select.min.css">
+  
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link href="/scss/style.min.css" rel="stylesheet" media="screen"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="layout" content="page -  - learn - learn - Page(/learn/learning-path/project-leader/_index.md)">
+  
+  
+	
+	<link rel="alternate" hreflang="en" href="/learn/learning-path/project-leader/01/" title="English">
+	
+	<link rel="alternate" hreflang="de" href="/de/learn/learning-path/project-leader/01/" title="Deutsch">
+	
+	<link rel="alternate" hreflang="es" href="/es/learn/learning-path/project-leader/01/" title="Español">
+	
+	<link rel="alternate" hreflang="fr" href="/fr/learn/learning-path/project-leader/01/" title="Français">
+	
+	<link rel="alternate" hreflang="it" href="/it/learn/learning-path/project-leader/01/" title="Italiano">
+	
+	<link rel="alternate" hreflang="ru" href="/ru/learn/learning-path/project-leader/01/" title="Русский">
+	
+	<link rel="alternate" hreflang="zh" href="/zh/learn/learning-path/project-leader/01/" title="中文">
+	
+  
+  
+  <meta property="og:title" content="InnerSource for Project Leaders" />
+<meta property="og:description" content="After completing this segment, you will have a better understanding of how InnerSource speeds up product development." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/ja/learn/learning-path/project-leader/01/" />
+
+
+  
+    
+    <meta property="og:image" content="/images/learn/LP-article-default.png" />
+    
+  
+
+  <!-- Mastodon verification code -->
+  <link href="https://fosstodon.org/@innersource" rel="me">
+
+</head><body><!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand" href='/ja'>
+        <img width="200px" class="img-fluid" src="/images/logo.png" alt="InnerSource Commons">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item dropdown">
+              <a class="nav-link nav-with-toggle" href="/ja/learn">学ぶ</a>
+              <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle" data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/ja/learn/books">関連書籍</a>
+              
+              <a class="dropdown-item" href="/ja/learn/learning-path">ラーニングパス</a>
+              
+              <a class="dropdown-item" href="/ja/learn/patterns">インナーソースパターン</a>
+              
+              <a class="dropdown-item" href="/ja/learn/research">リサーチ</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/ja/events">イベント</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+              <a class="nav-link nav-with-toggle" href="/ja/community">コミュニティ</a>
+              <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle" data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/ja/community/services">提供企業</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/ja/stories">事例</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+              <a class="nav-link nav-with-toggle" href="/ja/about">About</a>
+              <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle" data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/ja/about/announcements">アナウンス</a>
+              
+              <a class="dropdown-item" href="/ja/about/board">役員とガバナンス</a>
+              
+              <a class="dropdown-item" href="/ja/about/members">メンバーについて</a>
+              
+              <a class="dropdown-item" href="/ja/about/sponsors">スポンサー</a>
+              
+              <a class="dropdown-item" href="/ja/about/codeofconduct">行動規範</a>
+              
+              <a class="dropdown-item" href="/ja/about/contact">お問合せ</a>
+              
+            </div>
+          </li>
+          
+          
+        </ul>
+        <a href="/slack" class="btn btn-sm slack-invite-btn btn-primary ml-2" target="_blank"><i class="ti-comments pr-2"></i>Slackに参加</a>
+        
+        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+          <option>日本語</option>
+          
+          <option value="/learn/learning-path/project-leader/01/">English</option>
+          
+          <option value="/de/learn/learning-path/project-leader/01/">Deutsch</option>
+          
+          <option value="/es/learn/learning-path/project-leader/01/">Español</option>
+          
+          <option value="/fr/learn/learning-path/project-leader/01/">Français</option>
+          
+          <option value="/it/learn/learning-path/project-leader/01/">Italiano</option>
+          
+          <option value="/ru/learn/learning-path/project-leader/01/">Русский</option>
+          
+          <option value="/zh/learn/learning-path/project-leader/01/">中文</option>
+          
+        </select>        
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+<section class="notice bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">
+        <i class="ti-calendar mr-2"></i>Join us on Wednesday, May 31st - 9am BST / 10am CEST / 1:30pm IST / 6pm AEST, when Thomas Froment from Komyu will discuss Beyond Operational Planning 
+          <a href="https://bit.ly/3AKCO0F" class="btn-link ml-1" target="_blank"> Advocating the Strategic Value of an ISPO.
+          <i class="ti-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section> 
+
+
+<div class="container">
+
+<ol class="breadcrumb">
+  
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/ja/">InnerSource Commons</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/ja/learn/">学ぶ</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/ja/learn/learning-path/">Learning Path</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/ja/learn/learning-path/project-leader/">Learning Path - Project Leader</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+   
+  InnerSource for Project …
+  
+</li>
+
+</ol>
+
+
+</div>
+<section class="section section-first">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h1 class="mb-4">InnerSource for Project Leaders</h1>
+        
+        <img src="/images/learn/LP-article-default.png" alt="InnerSource for Project Leaders" class="img-fluid w-100 rounded mb-4">
+        
+        <div class="content"><div class="paragraph">
+<p>After completing this segment, you will have a better understanding of
+how InnerSource speeds up product development. We will also cover how it
+relates to Agile development best practices.</p>
+</div>
+<div class="paragraph">
+<p>To achieve agility, organizations strive for autonomous teams. However,
+in a complex, interconnected world, some dependencies cannot be avoided.
+InnerSource
+<a href="https://innersourcecommons.org/learn/learning-path/introduction/02/">provides
+an alternative</a> to "wait it out", "build workarounds" and
+"escalate": Teams that need modifications in their dependencies can
+offer a helping hand. InnerSource facilitates cross team collaboration.
+Through its focus on written communication, it is well suited even for
+remote-first mode.</p>
+</div>
+<div class="paragraph">
+<p>In this section, you will learn where Agile development and InnerSource
+use similar terminology and even technology - but differ substantially
+in the details. Instead of running into common misunderstandings, you
+will benefit from knowing the differences in culture but also in purpose
+of tools used.</p>
+</div>
+<div class="paragraph">
+<p>You will understand the impact of InnerSource on capacity planning. Also
+with InnerSource there is no free lunch - host teams need time for
+mentoring contributors. We will also look at the additional negotiation
+possibilities that InnerSource brings - keeping the balance of Give and
+Take.</p>
+</div>
+<div class="paragraph">
+<p>But let us start with a brief example. Imagine you are building a lovely
+new music app. In order to understand how your users are interacting
+with the app you start collecting some interaction logs. Over time, you
+dig deeper when analysing those, feeding your learnings back into
+development. Now, imagine another team bringing content into your
+application also has a few needs - they may want to reward content
+creators based on how many users they reached. So them, too they start
+using your collected logs. But they need some additional analysis steps
+that you hadn&#8217;t thought of at first. They are now faced with a
+challenge: Build a workaround, or go through your backlog to get their
+request prioritized. With InnerSource they will have a third option:
+Make the changes themselves - with your help. Sure, that may be slower
+than if you had made the changes. But it will still be faster than
+waiting for you to get around to making the modifications.</p>
+</div>
+<div class="paragraph">
+<p>In an ideal InnerSource organisation you can scale that up even further:
+Remember the last time you had to make cross cutting concern
+modifications across your entire platform? When going the "put it into
+the backlog of each team" this often feels like it&#8217;s dragging on
+forever. On the other hand, it speeds things up substantialy to provide
+those teams with a patch that implements the modification. The
+complexity of modifications in that approach depends on the maturity of
+the organisation and the maintainability/modularity of the code
+produced.</p>
+</div>
+<!--- This file autogenerated from https://github.com/InnerSourceCommons/InnerSourceLearningPath/blob/main/scripts --></div>
+        <div class="clearfix">
+          
+          
+            <a class="btn btn-primary float-right" href="/ja/learn/learning-path/project-leader/02/"> InnerSource and Agile →</a>
+          
+        </div>
+        
+        <div class="mt-4">
+          <h3>Contributors</h3>
+          <ul class="nav">
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/rrrutledge" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/rrrutledge" alt="rrrutledge" title="rrrutledge" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/MaineC" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/MaineC" alt="Isabel Drost-Fromm" title="Isabel Drost-Fromm" /></a>
+            </li>
+            
+          </ul>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/ja/learn">学ぶ</a></b></li>
+          
+          <li><a href="/ja/learn/books">関連書籍</a></li>
+          
+          <li><a href="/ja/learn/learning-path">ラーニングパス</a></li>
+          
+          <li><a href="/ja/learn/patterns">インナーソースパターン</a></li>
+          
+          <li><a href="/ja/learn/research">リサーチ</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/ja/events">イベント</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/ja/community">コミュニティ</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/ja/stories">事例</a></b></li>
+          
+          <li><a href="/ja/community/services">提供企業</a></li>
+          
+          <li><a href="/ja/about/announcements">アナウンス</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/ja/about">About</a></b></li>
+          
+          <li><a href="/ja/about/board">役員とガバナンス</a></li>
+          
+          <li><a href="/ja/about/members">メンバーについて</a></li>
+          
+          <li><a href="/ja/about/sponsors">スポンサー</a></li>
+          
+          <li><a href="/ja/about/codeofconduct">行動規範</a></li>
+          
+          <li><a href="/ja/about/contact">お問合せ</a></li>
+          
+          <li><a href="/ja/about/privacy">プライバシーポリシー</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href='//ja'><img width="200px"   class="img-fluid" src="/images/logo.png" alt="InnerSource Commons"></a>
+        <p class="mb-4">特定ライセンスが明記されている場合を除き、このサイトにおける内容は CC-BY-SA ライセンスのもと提供されています</p>
+        
+        
+        
+        <ul class="list-inline social-icons">
+          
+          <li class="list-inline-item"><a href="http://github.com/InnerSourceCommons"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube"></i></a></li>
+          
+          <li class="list-inline-item"><a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">Design by <a href="https://themefisher.com/">Themefisher</a> and <a href="https://gethugothemes.com/">Gethugothemes</a>, icons by <a href="https://storyset.com/people">Freepik Storyset</a></small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+<script src="/plugins/youmax/youmax.js"></script>
+
+<script src="/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<script>
+	$('#youmax').youmax({
+	apiKey:'AIzaSyCTmhVwOZhhT1WceQm9MobWFuJIA6lI-Dw',
+	youTubeChannelURL: "https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA",
+	youmaxDefaultTab: "UPLOADS",
+	youmaxColumns: 3,
+	showVideoInLightbox: false,
+	maxResults: 6,
+});
+$(function(){
+  $('#langpicker').selectpicker();
+  $('#langpicker').change(function() {
+    window.location.href = this.value;
+  });
+});
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-186978221-1', {
+  'storage': 'none'
+  });
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+</script>
+  </body>
+
+</html>
