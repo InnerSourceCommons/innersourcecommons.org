@@ -3,7 +3,6 @@ layout: page
 title: 'InnerSource Commons Welcomes our new Board and Officers'
 image: "/images/about/announcements/2022-05-new-board-and-officers.png"
 date: 2022-05-05
-featured: true
 type: "announcements"
 ---
  
