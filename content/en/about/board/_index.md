@@ -44,23 +44,23 @@ As an engineering manger for various software development teams, he has experien
 As a Member of the InnerSource Commons Foundation, he is maintaining the collection of InnerSource Patterns, always looking to help others to use and improve these patterns.
 {{< /board-member >}}
 
-{{< board-member name="Georg Grütter" image="/images/about/Georg_Grutter.jpeg" style="bg-light" >}}
+{{< board-member name="Matt Cobby" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
+Matt Cobby is Director of Engineering at Deloitte where he specializes in helping teams with their engineering practices, developer experience, and platform & product engineering.
+As a member of the InnerSource Foundation he has run a large scale InnerSource program and now seeks to inspire teams to seek the many benefits of an Open Source style of collaboration inside their own organization.
+With over 18 years transformation experience in the UK, Europe & Australia, he has a passion for mentoring engineers and is an active supporter of technical & local communities that inspire people.
+{{< /board-member >}}
+
+{{< board-member name="Georg Grütter" image="/images/about/Georg_Grutter.jpeg" >}}
 Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO. He co-founded and led the first InnerSource community at Bosch. Georg is a passionate software developer with over 30 years of experience. Previously, he held various positions and roles at Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg has created two open source projects, and also loves photography and chocolate.
 {{< /board-member >}}
 
-{{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" >}}
+{{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" style="bg-light" >}}
 Yuki is a distinguished technology expert currently serving as an Architect at GitHub, possessing an extensive background in Cloud technology and DevOps methodologies. Throughout his career, he has offered valuable guidance and proficiency to a myriad of enterprise clients, assisting them in refining their systems and processes.
 Yuki’s area of specialization is InnerSource transformation, and he has notably established a thriving community in Japan that has engaged with prominent industry figures and thought leaders. As a passionate advocate of InnerSource, Yuki has translated a vast array of materials and has organized numerous workshops and video presentations to disseminate awareness and understanding of the subject. He takes immense pride in serving as an exemplar for other regions and remains wholeheartedly committed to employing his expertise and knowledge to benefit others within the community.
 {{< /board-member >}}
 
-{{< board-member name="Dmitrii Sugrobov" image="/images/about/Dmitrii_Sugrobov.jpg" style="bg-light" >}}
+{{< board-member name="Dmitrii Sugrobov" image="/images/about/Dmitrii_Sugrobov.jpg" >}}
 Dmitry is an experienced engineering manager in the retail industry, known for his proficiency in leveraging technology to drive innovation and efficiency. Dmitry strongly advocates for InnerSource as the industrial standard of software development, and has led the number of teams in using this approach to continuously improve their practices.
-{{< /board-member >}}
-
-{{< board-member name="Matt Cobby" image="/images/about/Matt_Cobby.jpg" >}}
-Matt Cobby is Director of Engineering at Deloitte where he specializes in helping teams with their engineering practices, developer experience, and platform & product engineering.
-As a member of the InnerSource Foundation he has run a large scale InnerSource program and now seeks to inspire teams to seek the many benefits of an Open Source style of collaboration inside their own organization.
-With over 18 years transformation experience in the UK, Europe & Australia, he has a passion for mentoring engineers and is an active supporter of technical & local communities that inspire people.
 {{< /board-member >}}
 
 <div class="section-first container">
