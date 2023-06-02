@@ -3,7 +3,6 @@ layout: page
 title: 'New Members Appointed to the InnerSource Commons Foundation'
 image: "/images/about/announcements/2022-05-new-members.png"
 date: 2022-05-03
-featured: false
 type: "announcements"
 ---
  
