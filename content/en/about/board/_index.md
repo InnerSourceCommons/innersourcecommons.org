@@ -120,16 +120,3 @@ All of Cedric’s work, personal and professional, has been guided by my desire 
 {{< board-member name="Tim Yao" image="/images/about/Tim_Yao.jpeg" >}}
 Tim is a Distinguished Member of Technical Staff and the Product Manager for Nokia Continuous Delivery in Nokia Cloud and Network Services. Over his twenty-plus year career in telecommunications, Tim has held roles in innovation, software testing, system engineering, architecture, and procurement. He served six years on the Alcatel-Lucent FOSS Executive Committee. Tim has experience creating grass roots communities within the company and outside of it; he is a volunteer co-Municipal Liaison for National Novel Writing Month.
 {{< /board-member >}}
-
-
-
-
-
-
-
-
-
-
-
-
-
