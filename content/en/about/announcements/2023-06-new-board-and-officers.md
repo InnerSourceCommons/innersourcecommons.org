@@ -2,7 +2,7 @@
 layout: page
 title: 'New Members Appointed to the InnerSource Commons Foundation'
 image: "/images/about/announcements/2023-06-new-members-announcement.png"
-date: 2023-06-07
+date: 2023-06-12
 featured: true
 type: "announcements"
 ---
