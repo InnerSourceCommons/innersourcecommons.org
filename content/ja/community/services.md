@@ -48,17 +48,13 @@ InnerSource サービスディレクトリへようこそ。我々は、3つの�
         <td><img src="/images/logos/gitlab.png" alt="GitLab"><img style="width: 30%;
   height: auto; display: block; margin-left: auto; margin-right: auto;" src="/images/Supporter Badge.png" alt="Supporter"></td>
        <td>ツールおよびトレーニングサービス</td>
-        <td class="title">インナーソースはGitLabの「Everyone can Contribute」という価値観の核です。そのた
-
-め、企業全体でアイデアと貢献を集めるための最良の方法について非常に経験豊富です。当社では、セキュアにインナーソースを実施し、企業内のあらゆる角からイノベーションを引き出すための無料および有料のトレーニングを提供しています。無料ワークショップは、適格なアカウントのためにテクニカルアカウントマネージャーが主導します。また、プロフェッショナルサービスによるトレーニングも受けることができます。彼らの <a href="https://about.gitlab.com/solutions/innersource/">プロフェッショナルサービスによるトレーニング</a> と <a href="https://about.gitlab.com/handbook/customer-success/workshops/innersource-workshop.html">TAM主導のワークショップ</a> について詳しくは、 <a href="https://about.gitlab.com/sales/">GitLab</a> にお問い合わせください。
+        <td class="title">インナーソースはGitLabの「Everyone can Contribute」という価値観の核です。そのため、企業全体でアイデアと貢献を集めるための最良の方法について非常に経験豊富です。当社では、セキュアにインナーソースを実施し、企業内のあらゆる角からイノベーションを引き出すための無料および有料のトレーニングを提供しています。無料ワークショップは、適格なアカウントのためにテクニカルアカウントマネージャーが主導します。また、プロフェッショナルサービスによるトレーニングも受けることができます。彼らの <a href="https://about.gitlab.com/solutions/innersource/">プロフェッショナルサービスによるトレーニング</a> と <a href="https://about.gitlab.com/handbook/customer-success/workshops/innersource-workshop.html">TAM主導のワークショップ</a> について詳しくは、 <a href="https://about.gitlab.com/sales/">GitLab</a> にお問い合わせください。
         </td>
          </tr>
      <tr>
         <td><img src="/images/logos/komyu.png" alt="Komyu"></td>
         <td>コンサルティングおよびトレーニングサービス</td>
-        <td class="title">Komyuは、フランスに拠点を置くコンサルティングおよびトレーニング会社で、世界中での大規模な協力の構築を専門としています。私たちは、世界の課題に対処するために、インナーソース、オープンソース、よく設計されたコミュニティ、効果的なリーダーシップを活用した大規模なグループでの作業能力が必要であると考えています。私たちのアプローチは、企業戦略、プログラム戦術、運用、個々のリーダーシップなど、複数のレベルでの作業を含み、インナーソースを展開するための高度な計画を立てます（法的、ツール、ガバナンスなどの運用的側面と、スポンサー、貢献者、ユーザーなどの人的側面）。グローバルな介入能力を持つことで、インナーソースの採用を容易にし、大規模なスケールでの協力を促進することを目指しています。  <a href="https://www.komyu.io/">詳細はこ
-
-ちらをクリック</a> するか、直接 <a href="mailto:contact@komyu.fr">Komyu</a> にお問い合わせください。
+        <td class="title">Komyuは、フランスに拠点を置くコンサルティングおよびトレーニング会社で、世界中での大規模な協力の構築を専門としています。私たちは、世界の課題に対処するために、インナーソース、オープンソース、よく設計されたコミュニティ、効果的なリーダーシップを活用した大規模なグループでの作業能力が必要であると考えています。私たちのアプローチは、企業戦略、プログラム戦術、運用、個々のリーダーシップなど、複数のレベルでの作業を含み、インナーソースを展開するための高度な計画を立てます（法的、ツール、ガバナンスなどの運用的側面と、スポンサー、貢献者、ユーザーなどの人的側面）。グローバルな介入能力を持つことで、インナーソースの採用を容易にし、大規模なスケールでの協力を促進することを目指しています。  <a href="https://www.komyu.io/">詳細はこちらをクリック</a> するか、直接 <a href="mailto:contact@komyu.fr">Komyu</a> にお問い合わせください。
         </td>
     </tr>
      <tr>
@@ -77,9 +73,7 @@ InnerSource サービスディレクトリへようこそ。我々は、3つの�
     <tr>
         <td><img src="/images/logos/wipro.png" alt="Wipro"></td>
         <td>コンサルティングサービス</td>
-        <td class="title">Wiproのインナーソース戦略と実施サービスには、組織、文化、インナーソースのミッション
-
-、目標、目的についての完全な評価が含まれています。関連するKPIを明らかにし、資金モデル、コラボレーションプロセス、技術的なコラボレーションスタックを開発するお手伝いをします。これらをすべて組み合わせて、プルーフオブコンセプトやパイロットプログラムのための高レベルな計画を作成し、プログラムの結果に基づいて繰り返し行うことができます。 <a href="http://wipro.com/open-source/">詳細はこちらをクリック</a> するか、直接 <a href="mailto:vm.brasseur@wipro.com">Wipro</a> にお問い合わせください。
+        <td class="title">Wiproのインナーソース戦略と実施サービスには、組織、文化、インナーソースのミッション、目標、目的についての完全な評価が含まれています。関連するKPIを明らかにし、資金モデル、コラボレーションプロセス、技術的なコラボレーションスタックを開発するお手伝いをします。これらをすべて組み合わせて、プルーフオブコンセプトやパイロットプログラムのための高レベルな計画を作成し、プログラムの結果に基づいて繰り返し行うことができます。 <a href="http://wipro.com/open-source/">詳細はこちらをクリック</a> するか、直接 <a href="mailto:vm.brasseur@wipro.com">Wipro</a> にお問い合わせください。
         </td>
     </tr>
     <tr>

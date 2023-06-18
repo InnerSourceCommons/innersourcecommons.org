@@ -41,9 +41,7 @@ Tom Sadlerは、BBC iPlayer＆Soundsのソフトウェアエンジニアリン�
 {{< /board-member >}}
 
 {{< board-member name="Sebastian Spier" title="Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
-Sebastian Spierは、Meltwaterのエンジニアリングプログラムディレクターであり、500人以上のエンジニアの日々の業務を改善するためのツールや方法に取り組んでおり、できる限り摩擦を減らしています。さまざまなソフトウェア開発チームのエンジニアリングマネージャーとして、彼は分散チームでの成功したコラボレーションをサポートするための中核的な要素としてのインナーソースを経験しました。InnerSource Commons Foundationのメンバーとして、彼はInnerSourceパターンのコレクションを維持し、他の人々がこれらのパターンを
-
-使用し改善できるようにするのを助けることを常に目指しています。
+Sebastian Spierは、Meltwaterのエンジニアリングプログラムディレクターであり、500人以上のエンジニアの日々の業務を改善するためのツールや方法に取り組んでおり、できる限り摩擦を減らしています。さまざまなソフトウェア開発チームのエンジニアリングマネージャーとして、彼は分散チームでの成功したコラボレーションをサポートするための中核的な要素としてのインナーソースを経験しました。InnerSource Commons Foundationのメンバーとして、彼はInnerSourceパターンのコレクションを維持し、他の人々がこれらのパターンを使用し改善できるようにするのを助けることを常に目指しています。
 {{< /board-member >}}
 
 {{< board-member name="Matt Cobby" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
@@ -73,9 +71,7 @@ Dmitrii Sugrobovは、小売業界の経験豊富なエンジニアリングマ�
 </div>
 
 {{< board-member name="Silona Bonewald" title="財務担当" image="/images/about/Silona_Bonewald.jpeg" >}}
-Silona Bonewaldは、IEEE SA OPENのエグゼクティブディレクターであり、オープンソースコミュニティに対してプロジェクトの開発と検証のための費用対効果の高いオプションを提供しています。以前はHyperledgerのコミュニティアーキテクチャの副社長を務め、金融、銀行、インターネットオブシングス（IoT）、サプライチェーン、製造などの分野でリーダーを統合しました。彼女の他の注目すべきキャリアの成果には、PayPalでのインナーソースプロセスの先駆的な取り組み、Siemens AGでの先
-
-進的かつSix Sigma準拠のeコマースウェブサイトの作成、Ubisoftでの国際的なコンテンツ管理システム（CMS）アーキテクチャの作成などがあります。
+Silona Bonewaldは、IEEE SA OPENのエグゼクティブディレクターであり、オープンソースコミュニティに対してプロジェクトの開発と検証のための費用対効果の高いオプションを提供しています。以前はHyperledgerのコミュニティアーキテクチャの副社長を務め、金融、銀行、インターネットオブシングス（IoT）、サプライチェーン、製造などの分野でリーダーを統合しました。彼女の他の注目すべきキャリアの成果には、PayPalでのインナーソースプロセスの先駆的な取り組み、Siemens AGでの先進的かつSix Sigma準拠のeコマースウェブサイトの作成、Ubisoftでの国際的なコンテンツ管理システム（CMS）アーキテクチャの作成などがあります。
 {{< /board-member >}}
 
 {{< board-member name="Maximilian Capraro" title="副財務担当" image="/images/about/Maximilian_Capraro.jpg" >}}
@@ -117,7 +113,5 @@ Cedric Williamsのすべての仕事、個人的および職業的なものは�
 {{< /board-member >}}
 
 {{< board-member name="Tim Yao" image="/images/about/Tim_Yao.jpeg" >}}
-Tim Yaoは、Nokia Cloud and Network ServicesのNokia Continuous Deliveryのプロダクトマネージャーであり、テレコム業界で20年以上のキャリアを持つ技術スタッフの著名メンバーです。彼はイノベーション、
-
-ソフトウェアテスト、システムエンジニアリング、アーキテクチャ、調達などの役割を果たしてきました。彼はAlcatel-Lucent FOSS Executive Committeeで6年間サービスを提供しました。Timは会社内外で草の根のコミュニティの作成に経験があり、National Novel Writing Monthのボランティア共同自治体連絡担当も務めています。
+Tim Yaoは、Nokia Cloud and Network ServicesのNokia Continuous Deliveryのプロダクトマネージャーであり、テレコム業界で20年以上のキャリアを持つ技術スタッフの著名メンバーです。彼はイノベーション、 ソフトウェアテスト、システムエンジニアリング、アーキテクチャ、調達などの役割を果たしてきました。彼はAlcatel-Lucent FOSS Executive Committeeで6年間サービスを提供しました。Timは会社内外で草の根のコミュニティの作成に経験があり、National Novel Writing Monthのボランティア共同自治体連絡担当も務めています。
 {{< /board-member >}}
