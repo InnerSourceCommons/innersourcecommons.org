@@ -47,7 +47,7 @@ Georg Grütter é um evangelista de código social e defensor de desenvolvedores
 {{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" >}}
 é um distinto especialista em tecnologia que atualmente atua como arquiteto no GitHub, com vasta experiência em tecnologia em nuvem e metodologias DevOps. Ao longo de sua carreira, ele ofereceu orientação valiosa e proficiência para uma infinidade de clientes corporativos, ajudando-os a aprimorar seus sistemas e processos. A área de especialização de Yuki é a transformação InnerSource e ele estabeleceu uma comunidade próspera no Japão que se envolveu com figuras proeminentes e líderes de pensamento da indústria. 
 
-ria. Como defensor apaixonado do InnerSource, Yuki traduziu uma vasta gama de materiais e organizou inúmeros workshops e apresentações em vídeo para disseminar a conscientização e a compreensão do assunto. Ele se orgulha imensamente de servir como exemplo para outras regiões e continua comprometido em empregar sua experiência e conhecimento para beneficiar outros membros da comunidade.
+Como defensor apaixonado do InnerSource, Yuki traduziu uma vasta gama de materiais e organizou inúmeros workshops e apresentações em vídeo para disseminar a conscientização e a compreensão do assunto. Ele se orgulha imensamente de servir como exemplo para outras regiões e continua comprometido em empregar sua experiência e conhecimento para beneficiar outros membros da comunidade.
 {{< /board-member >}}
 
 {{< board-member name="Dmitrii Sugrobov" image="/images/about/Dmitrii_Sugrobov.jpg" style="bg-light" >}}
