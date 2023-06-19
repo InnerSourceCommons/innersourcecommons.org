@@ -53,7 +53,7 @@ title: "InnerSource Commons"
       </div>
       <div class="col-md-6">
           <p class="section-title h2">Junte-se à comunidade</p>
-          <p>Apoiamos praticantes e aqueles que desejam aprender sobre o InnerSource por meio de uma ampla variedade de atividades. Para começar, junte-se à crescente comunidade ISC através do Slack e se apresente. Você encontrará ótimos companheiros para acompanhá-lo em sua jornada pelo InnerSource.</p>
+          <p>Apoiamos praticantes e aqueles que desejam aprender sobre InnerSource por meio de uma ampla variedade de atividades. Para começar, junte-se à crescente comunidade ISC através do Slack e se apresente. Você encontrará pessoas incríveis para lhe acompanhar em sua jornada InnerSource.</p>
           <a href="/community/" class="btn-link">Junte-se à comunidade<i class="ti-arrow-right"></i></a>
         </div>
     </div>
