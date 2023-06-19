@@ -26,10 +26,14 @@ jobs:
             sed -i "s/^.\{37\} /$i\//g" content/.gitignore;
             sed -i '/total size\|file list/d' content/.gitignore;
           done
-      - name: Delete unnecessary files to prevent hugo from creating shared 404.html files for the wrong default language
-        run: find content -name '404.md' -not -path 'content/en/404.md' -exec rm {} +
       - name: Build
-        run: hugo --minify
+        run: |
+          # Delete unnecessary files to prevent hugo from creating shared 404.html files for the wrong default language - Temporary fix
+          find content -name '404.md' -not -path 'content/en/404.md' -exec rm {} +
+          # Build
+          hugo --minify
+          # Append language options to public/404.html - Temporary fix
+          sed -i 's|<option>English</option>|&<option value="/fr">Français</option><option value="/ja">日本語</option>|g' public/404.html
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
