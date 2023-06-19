@@ -26,6 +26,8 @@ jobs:
             sed -i "s/^.\{37\} /$i\//g" content/.gitignore;
             sed -i '/total size\|file list/d' content/.gitignore;
           done
+      - name: Delete unnecessary files to prevent hugo from creating shared 404.html files for the wrong default language
+        run: find content -name '404.md' -not -path 'content/en/404.md' -exec rm {} +
       - name: Build
         run: hugo --minify
       - name: Deploy
