@@ -65,7 +65,7 @@ porte pró-ativo do seu Gerente de Parceiro ISC</li>
           <ul>
               <li>Valor da marca ao demonstrar compromisso ativo com a InnerSource</li>
               <li>Agradecimento em eventos e atividades da ISC</li>
-              <li>Palestrantes do InnerSource Commons fornecidos para seus eventos internos</li>
+              <li>Palestrantes da InnerSource Commons fornecidos para seus eventos internos</li>
               <li>Apoio da ISC para co-criação de conteúdo</li>
           </ul>
         </div>
