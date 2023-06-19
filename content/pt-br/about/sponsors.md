@@ -63,7 +63,7 @@ porte pró-ativo do seu Gerente de Parceiro ISC</li>
           <p>Para praticantes de InnerSource que desejam apoiar a comunidade ISC, acelerar suas jornadas internas de InnerSource e sinalizar para o mundo que eles possuem as melhores práticas de desenvolvimento.</p>
           <h4>Os benefícios incluem:</h4>
           <ul>
-              <li>Valor da marca ao demonstrar compromisso ativo com o InnerSource</li>
+              <li>Valor da marca ao demonstrar compromisso ativo com a InnerSource</li>
               <li>Agradecimento em eventos e atividades do ISC</li>
               <li>Palestrantes do InnerSource Commons fornecidos para seus eventos internos</li>
               <li>Apoio do ISC para co-criação de conteúdo</li>
