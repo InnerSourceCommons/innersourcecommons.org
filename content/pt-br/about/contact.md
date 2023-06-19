@@ -1,6 +1,6 @@
 ---
 title: "Fale Conosco"
-subtitle: "Mantenha-se em contato - aqui estão todas as formas de entrar em contato com o InnerSource Commons"
+subtitle: "Mantenha-se em contato - aqui estão todas as formas de entrar em contato com a InnerSource Commons"
 description: "Mantenha-se em contato com o InnerSource Commons."
 image: "/images/logo.png"
 type: wide
