@@ -47,7 +47,7 @@ draft: false
       <div class="col-md-6">
           <p class="section-title h2">Como Trabalhamos</p>
           <p>A InnerSource Commons utiliza métodos de Open Source para fornecer às organizações que praticam o InnerSource um fórum para discutir e melhorar a prática do InnerSource por meio do compartilhamento de experiências (sob a Regra de Chatham House), criação e revisão dos padrões de InnerSource e a troca aberta de ideias.</p>
-        <p>Indivíduos e empresas interessados são bem-vindos a participar e contribuir com conteúdo para o ISC. Em geral, o conteúdo contribuído será disponibilizado sob a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Licença Internacional Creative Commons Attribution-ShareAlike 4.0</a> atribuída a InnerSourceCommons.org. Não são necessárias taxas para participar.</p>        
+    <p>Indivíduos e empresas interessados ​​são bem-vindos a participar e contribuir com conteúdo para o ISC. Em geral, o conteúdo da contribuição será disponibilizado sob a licença <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a> atribuída a InnerSourceCommons.org. Nenhuma taxa é necessária para participar.</p> ```
         <a href="/community/" class="btn-link">Confira como trabalhamos
 
  <i class="ti-arrow-right"></i></a>
