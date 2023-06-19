@@ -23,7 +23,7 @@ Isabel Drost-Fromm é Estrategista de Código Aberto na Europace AG, na Alemanha
 {{< /board-member >}}
 
 {{< board-member name="Daniel Izquierdo Cortazar" title="Presidente" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
-Daniel Izquierdo Cortazar é pesquisador e um dos fundadores da Bitergia, uma empresa que oferece análises de software para ecossistemas de código aberto. Atualmente, é diretor de dados da Bitergia e concentra-se na qualidade dos dados, pesquisa de novas métricas, análises e estudos de interesse para os clientes da Bitergia por meio de mineração e processamento de dados. Daniel possui um doutorado em engenharia de software de código aberto pela Universidad Rey Juan Carlos, em Madrid, onde se concentrou na análise de padrões de atividade de desenvolvedores com erros na comunidade Mozilla. Daniel faz parte do conselho e é membro da InnerSource Commons.
+Daniel Izquierdo Cortazar é pesquisador e um dos fundadores da Bitergia, uma empresa que oferece análises de software para ecossistemas Open Source. Atualmente, é diretor de dados da Bitergia e concentra-se na qualidade dos dados, pesquisa de novas métricas, análises e estudos de interesse para os clientes da Bitergia por meio de mineração e processamento de dados. Daniel possui um doutorado em engenharia de open source software pela Universidad Rey Juan Carlos, em Madrid, onde se concentrou na análise de padrões de atividade de desenvolvedores com erros na comunidade Mozilla. Daniel faz parte do conselho e é membro da InnerSource Commons.
 {{< /board-member >}}
 
 {{< board-member name="Russell Rutledge" title="Vice-Presidente" image="/images/about/Russell_Rutledge.jpg" >}}
