@@ -63,7 +63,7 @@ draft: false
       <div class="col-md-6">
         <p class="section-title h2">Membros da InnerSource Commons</p>
     <p>A comunidade InnerSource Commons é aberta a todas as pessoas. Alguns participantes da comunidade vão além, superando as expectativas, e podem ser convidados a se tornar membros do ISC. A InnerSource Commons é uma associação de membros, então os membros da ISC desempenham um papel semelhante aos acionistas de empresas de capital aberto.</p>```
-        <p>Os membros têm direitos específicos no ISC; por exemplo, eles podem votar em eleições do conselho. Para ser elegível para a associação, a pessoa deve ser indicada por um membro atual. A associação é baseada exclusivamente no mérito, sem custo algum e restrita a indivíduos.
+        <p>Os membros têm direitos específicos na ISC; por exemplo, eles podem votar em eleições do conselho. Para ser elegível como um membro, a pessoa deve ser indicada por um membro atual. A associação é baseada exclusivamente no mérito, sem custo algum e restrita a indivíduos.
         </p>
         <a href="/about/members" class="btn-link">Todos os membros da InnerSource Commons <i class="ti-arrow-right"></i></a>
       </div>
