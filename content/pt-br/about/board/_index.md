@@ -1,7 +1,7 @@
 ---
 title: "Board & Governance"
 type: "board"
-subtitle: A InnerSource Commons é uma organização sem fins lucrativos 501(c)(3) governada por um conjunto de estatutos sociais. O Conselho de Administração estabelece as políticas e nomeia os executivos que definem e executam as políticas. O Conselho é eleito pelos membros anualmente. A InnerSource Commons está incorporada nos Estados Unidos. À medida que a comunidade cresce, esperamos fundar organizações irmãs na União Europeia, América Latina e outras partes do mundo.
+subtitle: A InnerSource Commons é uma organização sem fins lucrativos 501(c)(3) regida por um conjunto de estatutos corporativos. O Conselho de Administração define a política e nomeia diretores que definem e executam a política. O Conselho é eleito pelos membros anualmente. A InnerSource Commons está incorporada nos Estados Unidos. À medida que a comunidade cresce, esperamos fundar organizações irmãs na União Europeia, América Latina e outras partes do mundo.```
 aliases:
     - /board
 ---
