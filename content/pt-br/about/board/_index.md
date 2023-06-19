@@ -19,7 +19,7 @@ aliases:
 </div>
 
 {{< board-member name="Isabel Drost-Fromm" title="Presidente" image="/images/about/Isabel_Drost-Fromm.jpeg" style="section-first" >}}
-Isabel Drost-Fromm é Estrategista de Código Aberto na Europace AG, na Alemanha. Ela é membro da Apache Software Foundation, co-fundadora do Apache Mahout e orientou vários projetos em fase de incubação. Isabel se interessa por tudo relacionado a FOSS (Software de Código Aberto), busca e mineração de texto, com um bom conhecimento em aprendizado de máquina. Seguindo a natureza das pessoas que vivem em Berlim, ela adora receber amigos para uma breve visita. Como resultado, ela co-fundou e ainda é uma das mentes criativas por trás do Berlin Buzzwords, uma conferência de tecnologia sobre busca, escalabilidade e armazenamento.
+Isabel Drost-Fromm é Estrategista de Open Source na Europace AG, na Alemanha. Ela é membro da Apache Software Foundation, co-fundadora do Apache Mahout e orientou vários projetos em fase de incubação. Isabel se interessa por tudo relacionado a FOSS, busca e mineração de texto, com um bom conhecimento em aprendizado de máquina. Seguindo a natureza das pessoas que vivem em Berlim, ela adora receber amigos para uma breve visita. Como resultado, ela co-fundou e ainda é uma das mentes criativas por trás do Berlin Buzzwords, uma conferência de tecnologia sobre busca, escalabilidade e armazenamento.```
 {{< /board-member >}}
 
 {{< board-member name="Daniel Izquierdo Cortazar" title="Presidente" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
