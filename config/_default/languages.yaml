@@ -1,36 +1,36 @@
 en:
   languageName: English
   contentDir: content/en
-  weight: 1
-ja:
-  languageName: 日本語
-  contentDir: content/ja
-  weight: 2
-de:
-  languageName: Deutsch
-  contentDir: content/de
-  weight: 3
-zh:
-  languageName: 中文
-  contentDir: content/zh
-  weight: 3
-it:
-  languageName: Italiano
-  contentDir: content/it
-  weight: 3
-es:
-  languageName: Español
-  contentDir: content/es
-  weight: 3
-ru:
-  languageName: Русский
-  contentDir: content/ru
-  weight: 3
+  weight: 10
 fr:
   languageName: Français
   contentDir: content/fr
-  weight: 3
+  weight: 20
+ja:
+  languageName: 日本語
+  contentDir: content/ja
+  weight: 20
+de:
+  languageName: Deutsch
+  contentDir: content/de
+  weight: 30
+es:
+  languageName: Español
+  contentDir: content/es
+  weight: 30
+it:
+  languageName: Italiano
+  contentDir: content/it
+  weight: 30
 pt-br:
   languageName: Português Brasileiro
   contentDir: content/pt-br
-  weight: 3
+  weight: 30
+ru:
+  languageName: Русский
+  contentDir: content/ru
+  weight: 30
+zh:
+  languageName: 中文
+  contentDir: content/zh
+  weight: 30
