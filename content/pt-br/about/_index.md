@@ -27,7 +27,7 @@ draft: false
       <div class="col-md-6">
         <p class="section-title h2">Missão da InnerSource Commons</p>
     <p>Nossa missão é estabelecer uma base de conhecimento e educar indivíduos, organizações com e sem fins lucrativos, centros de pesquisa e outras instituições sobre a adoção bem-sucedida das melhores práticas de InnerSource.</p>
-        <p>Nós fornecemos um ambiente seguro para acumular e compartilhar conhecimento e experiências, encontrar melhores práticas, estabelecer padrões e ferramentas, produzir materiais educacionais e promover pesquisas para avançar a compreensão, adoção e prática do InnerSource.
+    <p>Oferecemos um ambiente seguro para acumular e compartilhar conhecimentos e experiências, encontrar as melhores práticas, criar padrões e ferramentas, produzir materiais educacionais e promover pesquisas para avançar na compreensão, adoção e prática de InnerSource.```
         </p>
       </div>
       <div class="col-md-6 mt-4 mb-4 mb-md-0 float-right">
