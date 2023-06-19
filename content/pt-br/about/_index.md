@@ -83,7 +83,7 @@ draft: false
       </div>
       <div class="col-md-6">
           <p class="section-title h2">Conselho e Governança</p>
-          <p>A InnerSource Commons é uma organização sem fins lucrativos 501(c)(3) governada por um conjunto de estatutos corporativos. O Conselho de Diretores estabelece as políticas e nomeia os oficiais que estabelecem e executam as políticas. O Conselho é eleito pelos membros anualmente.</p>
+      <p>A InnerSource Commons é uma organização sem fins lucrativos 501(c)(3) governada por um conjunto de estatutos corporativos. O Conselho de Administração define as políticas e nomeia os diretores responsáveis por estabelecer e executar essas políticas. O Conselho é eleito pelos membros da associação anualmente.</p>```
           <a href="/about/board/" class="btn-link">Saiba mais sobre o Conselho do ISC <i class="ti-arrow-right"></i></a>
         </div>
     </div>
