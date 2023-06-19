@@ -41,7 +41,7 @@ Sebastian Spier é Diretor de Programas de Engenharia na Meltwater, onde trabalh
 {{< /board-member >}}
 
 {{< board-member name="Georg Grütter" image="/images/about/Georg_Grutter.jpeg" style="bg-light" >}}
-Georg Grütter é um evangelista de código social e defensor de desenvolvedores na Bosch.IO. Ele co-fundou e liderou a primeira comunidade InnerSource na Bosch. Georg é um desenvolvedor de software apaixonado com mais de 30 anos de experiência. Anteriormente, ocupou diversos cargos e funções na Bosch, Line Information, Zurich System House e DaimlerChrysler. Georg criou dois projetos de código aberto e também adora fotografia e chocolate.
+Georg Grütter é um evangelista de código social e defensor de desenvolvedores na Bosch.IO. Ele co-fundou e liderou a primeira comunidade InnerSource na Bosch. Georg é um desenvolvedor de software apaixonado com mais de 30 anos de experiência. Anteriormente, ocupou diversos cargos e funções na Bosch, Line Information, Zurich System House e DaimlerChrysler. Georg criou dois projetos open source e também adora fotografia e chocolate.
 {{< /board-member >}}
 
 {{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" >}}
