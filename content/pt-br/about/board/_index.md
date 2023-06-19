@@ -86,7 +86,7 @@ Johannes é co-criador do InnerSource Commons Learning Path e trabalhou na intro
 {{< /board-member >}}
 
 {{< board-member name="Jacob Green" image="/images/about/Jacob_Green.jpg" >}}
-Jacob Green, fundador da Mosslabs.io, é um artista de código aberto, estrategista e construtor de sistemas que
+Jacob Green, fundador da Mosslabs.io, é um artista de open source, estrategista e construtor de sistemas que
 
  trabalha para expandir o impacto e a aplicação de open source na sociedade globalmente. Vindo de Baltimore, é apaixonado por open source em cidades e universidades, e trabalha para conectar instituições por meio de open source. Antes da Mosslabs.io, Jacob foi diretor de iniciativas estratégicas na LTNGlobal, construindo uma rede global de transporte de vídeo única do zero e a partir de princípios fundamentais.
 {{< /board-member >}}
