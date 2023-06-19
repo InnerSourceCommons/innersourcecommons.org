@@ -26,7 +26,7 @@ draft: false
     <div class="row text-right align-items-center">
       <div class="col-md-6">
         <p class="section-title h2">Missão da InnerSource Commons</p>
-        <p>Nossa missão é estabelecer um corpo de conhecimento e educar indivíduos, organizações comerciais e sem fins lucrativos, centros de pesquisa e outras instituições sobre a adoção bem-sucedida das melhores práticas do InnerSource.</p>
+    <p>Nossa missão é estabelecer uma base de conhecimento e educar indivíduos, organizações com e sem fins lucrativos, centros de pesquisa e outras instituições sobre a adoção bem-sucedida das melhores práticas de InnerSource.</p>
         <p>Nós fornecemos um ambiente seguro para acumular e compartilhar conhecimento e experiências, encontrar melhores práticas, estabelecer padrões e ferramentas, produzir materiais educacionais e promover pesquisas para avançar a compreensão, adoção e prática do InnerSource.
         </p>
       </div>
