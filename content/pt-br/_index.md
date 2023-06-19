@@ -33,7 +33,7 @@ title: "InnerSource Commons"
     <div class="row text-right">
       <div class="col-md-6">
         <p class="section-title h2">Saiba mais sobre InnerSource</p>
-        <p>Se você é novo no InnerSource ou quer saber mais sobre quem está implementando o InnerSource e por que e como começar, visite a seção de Aprendizado do site. Você encontrará uma variedade de recursos para ajudar a acelerar sua jornada rumo ao InnerSource, incluindo materiais de treinamento, melhores práticas, livros, gravações de eventos passados e estudos de caso.
+        <p>Se você é novo no InnerSource ou deseja saber mais sobre quem está implementando InnerSource e o porquê e como começar, visite a seção de aprendizado do site. Você encontrará diversos recursos para ajudar a acelerar sua jornada ao InnerSource, incluindo materiais de treinamento, práticas recomendadas, livros, gravações de eventos anteriores e estudos de caso.
         </p>
         <a href="/learn/" class="btn-link">Saiba mais sobre InnerSource<i class="ti-arrow-right"></i></a>
       </div>
