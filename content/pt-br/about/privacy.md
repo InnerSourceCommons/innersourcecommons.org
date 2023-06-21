@@ -1,4 +1,3 @@
-- Não traduza "type", "image" e "path"
 ---
 title: "Política de Privacidade"
 draft: false
