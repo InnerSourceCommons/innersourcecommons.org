@@ -5,9 +5,10 @@ image: "/images/learn/research/sois2021.png"
 weight: 4
 summary: Relatório da Pesquisa Estado do InnerSource 2021
 research_url: /documents/surveys/State.of.InnerSource.Report.2021.pdf
-survey_closing_date: 12 de janeiro de 2022
-report_publish_date: 22 de março de 2022
+survey_closing_date: 2022-01-12
+report_publish_date: 2022-03-22
 ---
+
 
 Recebemos uma ótima resposta da nossa comunidade e coletamos mais de 120 respostas para a nossa pesquisa Estado do InnerSource 2021.
 
