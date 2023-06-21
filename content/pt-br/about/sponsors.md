@@ -1,4 +1,3 @@
-- não traduza type, image e path
 ---
 layout: page
 title: "Nossos Patrocinadores"
