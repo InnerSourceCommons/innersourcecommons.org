@@ -9,7 +9,7 @@ weight: 1
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-2">
-        <p>O InnerSource Commons fornece um fórum para a comunidade compartilhar suas experiências e aprender uns com os outros na forma de Padrões InnerSource.
+        <p>A InnerSource Commons fornece um fórum para a comunidade compartilhar suas experiências e aprender uns com os outros na forma de Padrões InnerSource.
         </p>
         <p class="mt-4"><b>Um Padrão InnerSource</b> - É assim que chamamos as melhores práticas do InnerSource codificadas em um formato específico para torná-las fáceis de entender, avaliar e aplicar em seu contexto.</p>
       </div>

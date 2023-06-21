@@ -7,7 +7,7 @@ date: 2022-05-16T00:00:00+00:00
 Bem-vindo ao Diretório de Serviços InnerSource. Compilamos uma lista de empresas que oferecem serviços InnerSource, divididos em 3 categorias: Ferramentas, Serviços de Consultoria e Serviços de Treinamento.
 Se você gostaria de ser adicionado à lista de serviços, por favor, envie-nos um e-mail para info@innersourcecommons.org.
 
-Nós fazemos o nosso melhor para garantir que as informações desta página sejam precisas e úteis o tempo todo. No entanto, qualquer link ou conteúdo listado abaixo não representa qualquer endosso ou recomendação do InnerSource Commons e não significa que tenhamos qualquer associação com as organizações vinculadas.
+Nós fazemos o nosso melhor para garantir que as informações desta página sejam precisas e úteis o tempo todo. No entanto, qualquer link ou conteúdo listado abaixo não representa qualquer endosso ou recomendação da InnerSource Commons e não significa que tenhamos qualquer associação com as organizações vinculadas.
 </p>
 
 <table class="schedule table table-striped">

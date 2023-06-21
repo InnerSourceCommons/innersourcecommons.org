@@ -62,8 +62,8 @@ ation.png" class="img-fluid">
         </div>
       </div>
       <div class="col-md-6 ">
-        <p class="section-title h2">Grupo de Trabalho de Roteiro de Aprendizado</p>
-        <p>O Grupo de Trabalho de Roteiro de Aprendizado seleciona o <a href="/learn/learning-path/">Roteiro de Aprendizado InnerSource</a>, uma série de vídeos curtos e artigos que explicam e ensinam vários aspectos do InnerSource. O grupo de trabalho se reúne semanalmente. Para começar, junte-se ao canal #learning-path no Slack e se apresente.
+        <p class="section-title h2">Grupo de Trabalho do Caminho de Aprendizado</p>
+        <p>O Grupo de Trabalho do Caminho de Aprendizado seleciona o <a href="/learn/learning-path/">Caminho de Aprendizado InnerSource</a>, uma série de vídeos curtos e artigos que explicam e ensinam vários aspectos do InnerSource. O grupo de trabalho se reúne semanalmente. Para começar, junte-se ao canal #learning-path no Slack e se apresente.
         </p>
         <a href="/slack" class="btn btn-primary btn-sm text-lowercase"><img src="/images/slack.png" class="slack-tiny mr-1"/> learning-path</a>
       </div>
@@ -131,7 +131,7 @@ ation.png" class="img-fluid">
       </div>
       <div class="col-md-6 ">
         <p class="section-title h2">Conselho e Governança</p>
-        <p>A InnerSource Commons Foundation é registrada como uma organização sem fins lucrativos 501(c)3 nos EUA, e fazer parte do Conselho é uma forma de a comunidade se comprometer mais profundamente com o InnerSource.
+        <p>A InnerSource Commons Foundation é registrada como uma organização sem fins lucrativos 501(c)3 nos EUA, e fazer parte do Conselho é uma forma da comunidade se comprometer mais profundamente com o InnerSource.
         </p>
         <a href="/about/board/" class="btn-link">Saiba mais sobre o Conselho da ISC <i class="ti-arrow-right"></i></a>
       </div>
