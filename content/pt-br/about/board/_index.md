@@ -1,7 +1,7 @@
 ---
 title: "Board & Governance"
 type: "board"
-subtitle: A InnerSource Commons é uma organização sem fins lucrativos 501(c)(3) regida por um conjunto de estatutos corporativos. O Conselho de Administração define a política e nomeia diretores que definem e executam a política. O Conselho é eleito pelos membros anualmente. A InnerSource Commons está incorporada nos Estados Unidos. À medida que a comunidade cresce, esperamos fundar organizações irmãs na União Europeia, América Latina e outras partes do mundo.```
+subtitle: A InnerSource Commons é uma organização sem fins lucrativos 501(c)(3) regida por um conjunto de estatutos corporativos. O Conselho de Administração define a política e nomeia diretores que definem e executam a política. O Conselho é eleito pelos membros anualmente. A InnerSource Commons está incorporada nos Estados Unidos. À medida que a comunidade cresce, esperamos fundar organizações irmãs na União Europeia, América Latina e outras partes do mundo.
 aliases:
     - /board
 ---
@@ -19,7 +19,7 @@ aliases:
 </div>
 
 {{< board-member name="Isabel Drost-Fromm" title="Presidente" image="/images/about/Isabel_Drost-Fromm.jpeg" style="section-first" >}}
-Isabel Drost-Fromm é Estrategista de Open Source na Europace AG, na Alemanha. Ela é membro da Apache Software Foundation, co-fundadora do Apache Mahout e orientou vários projetos em fase de incubação. Isabel se interessa por tudo relacionado a FOSS, busca e mineração de texto, com um bom conhecimento em aprendizado de máquina. Seguindo a natureza das pessoas que vivem em Berlim, ela adora receber amigos para uma breve visita. Como resultado, ela co-fundou e ainda é uma das mentes criativas por trás do Berlin Buzzwords, uma conferência de tecnologia sobre busca, escalabilidade e armazenamento.```
+Isabel Drost-Fromm é Estrategista de Open Source na Europace AG, na Alemanha. Ela é membro da Apache Software Foundation, co-fundadora do Apache Mahout e orientou vários projetos em fase de incubação. Isabel se interessa por tudo relacionado a FOSS, busca e mineração de texto, com um bom conhecimento em aprendizado de máquina. Seguindo a natureza das pessoas que vivem em Berlim, ela adora receber amigos para uma breve visita. Como resultado, ela co-fundou e ainda é uma das mentes criativas por trás do Berlin Buzzwords, uma conferência de tecnologia sobre busca, escalabilidade e armazenamento.
 {{< /board-member >}}
 
 {{< board-member name="Daniel Izquierdo Cortazar" title="Presidente" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
@@ -71,9 +71,7 @@ Matt Cobby é Diretor de Engenharia na Deloitte, onde se especializa em ajudar e
 Silona Bonewald é Diretora Executiva do IEEE SA OPEN, uma plataforma abrangente que oferece à comunidade Open Source opções econômicas para desenvolver e validar seus projetos. Anteriormente, ela foi vice-presidente de arquitetura de comunidade na Hyperledger, um esforço colaborativo global de código aberto sediado na Linux Foundation, onde integrou líderes financeiros, bancários, de IoT, cadeias de suprimentos e manufatura. Outras realizações profissionais notáveis incluem pioneirismo no processo InnerSource enquanto estava no PayPal, criação de um site de comércio eletrônico inovador e compatível com Six Sigma para a Siemens AG, e criação de uma arquitetura de sistema de gerenciamento de conteúdo (CMS) internacional para a Ubisoft.
 {{< /board-member >}}
 
-{{< board-member name="Maximilian Capraro" title="Tesoureiro Assistente" image="/
-
-images/about/Maximilian_Capraro.jpg" >}}
+{{< board-member name="Maximilian Capraro" title="Tesoureiro Assistente" image="/images/about/Maximilian_Capraro.jpg" >}}
 Maximilian Capraro é pesquisador e candidato a doutorado no Open Source Research Group na Friedrich-Alexander-University Erlangen-Nürnberg. Ele trabalhou em projetos de pesquisa de InnerSource com diversas empresas, incluindo Black Duck Software, Continental e várias unidades de negócios da Siemens. Ele desenvolveu o método de medição de fluxo de patch (para medir a colaboração no desenvolvimento de software) e o primeiro framework de classificação para projetos e programas InnerSource. Suas áreas de pesquisa incluem quantificação da colaboração no desenvolvimento de software, governança de InnerSource, incluindo aspectos legais e tributários, e muitos outros tópicos relacionados a InnerSource, Open Source e engenharia de software.
 {{< /board-member >}}
 
