@@ -27,8 +27,8 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
       {{< company name="Comcast" image="/images/logos/comcast.png" >}}{{< /company >}}
       {{< company name="Fannie Mae" image="/images/logos/Fannie_Mae.png" >}}{{< /company >}}
       {{< company name="Indeed" image="/images/logos/indeed.png" >}}{{< /company >}}
+       {{< company name="Mercedes Benz" image="/images/logos/Mercedes-Benz.png" >}}{{< /company >}}
       {{< company name="SAP" image="/images/logos/sap.png" >}}{{< /company >}}
-      {{< company name="Sourcegraph" image="/images/logos/sourcegraph.svg" >}}{{< /company >}}
     </div>
   </div>
       
