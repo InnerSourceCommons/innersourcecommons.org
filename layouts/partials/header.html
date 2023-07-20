@@ -6,7 +6,7 @@
       <a class="navbar-brand"
         href='{{ if eq .Site.Language.Lang "en" }}{{ site.BaseURL }}{{ else }}{{ site.BaseURL }}{{ .Site.Language.Lang }}{{end}}'>
         <img width="{{ site.Params.logo_width}}" class="img-fluid" src="{{ site.Params.logo | absURL }}"
-          alt="{{ site.Title }}">
+        alt="{{ site.Title }}">
       </a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
@@ -17,14 +17,11 @@
           {{ range site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
-            <a class="nav-link nav-with-toggle" href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>{{
-              .Name }}</a>
-            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
-              data-display="static"></a>
+            <a class="nav-link nav-with-toggle" href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>{{.Name }}</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle" data-display="static"></a>
             <div class="dropdown-menu">
               {{ range .Children }}
-              <a class="dropdown-item" href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>{{ .Name
-                }}</a>
+              <a class="dropdown-item" href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>{{ .Name }}</a>
               {{ end }}
             </div>
           </li>
