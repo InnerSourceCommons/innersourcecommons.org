@@ -3,8 +3,10 @@
   <div class="container">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-      <a class="navbar-brand" href='{{ if eq .Site.Language.Lang "en" }}{{ site.BaseURL }}{{ else }}{{ site.BaseURL }}{{ .Site.Language.Lang }}{{end}}'>
-        <img width="{{ site.Params.logo_width}}" class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
+      <a class="navbar-brand"
+        href='{{ if eq .Site.Language.Lang "en" }}{{ site.BaseURL }}{{ else }}{{ site.BaseURL }}{{ .Site.Language.Lang }}{{end}}'>
+        <img width="{{ site.Params.logo_width}}" class="img-fluid" src="{{ site.Params.logo | absURL }}"
+          alt="{{ site.Title }}">
       </a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
@@ -15,36 +17,40 @@
           {{ range site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
-              <a class="nav-link nav-with-toggle" href="{{ .URL | absURL }}"{{ with .Pre }} target="{{ . }}"{{ end }}>{{ .Name }}</a>
-              <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle" data-display="static"></a>
+            <a class="nav-link nav-with-toggle" href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>{{
+              .Name }}</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
             <div class="dropdown-menu">
               {{ range .Children }}
-              <a class="dropdown-item" href="{{ .URL | absURL }}"{{ with .Pre }} target="{{ . }}"{{ end }}>{{ .Name }}</a>
+              <a class="dropdown-item" href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>{{ .Name
+                }}</a>
               {{ end }}
             </div>
           </li>
           {{ else }}
           <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | absURL }}"{{ with .Pre }} target="{{ . }}"{{ end }}>{{ .Name }}</a>
+            <a class="nav-link" href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>{{ .Name }}</a>
           </li>
           {{ end }}
           {{ end }}
         </ul>
-        <a href="{{ "slack" | absURL }}" class="btn btn-sm slack-invite-btn btn-primary ml-2" target="_blank"><i class="ti-comments pr-2"></i>{{ T "join_slack" }}</a>
+        <a href="{{ " slack" | absURL }}" class="btn btn-sm slack-invite-btn btn-primary ml-2" target="_blank"><i
+            class="ti-comments pr-2"></i>{{ T "join_slack" }}</a>
         {{ if in .CurrentSection.Permalink "/learn/learning-path"}}
         <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
           <option>{{ .Site.Language.LanguageName }}</option>
           {{ range .Translations }}
           <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
           {{ end }}
-        </select>        
+        </select>
         {{ else }}
-          <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
-            <option>{{ .Site.Language.LanguageName }}</option>
-            {{ range where .Translations ".Language.LanguageName" "in" "English 日本語 Français"}}
-            <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
-            {{ end }}
-          </select>        
+        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+          <option>{{ .Site.Language.LanguageName }}</option>
+          {{ range where .Translations ".Language.LanguageName" "in" "English 日本語 Français"}}
+          <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
+          {{ end }}
+        </select>
         {{ end }}
       </div>
     </nav>
@@ -55,13 +61,15 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-12 text-center">
+        <!--
         <i class="ti-calendar mr-2"></i>Join us on Wednesday, July 5th at 10am BST / 11am CEST / 2:30pm IST / 7pm AEST, when Shane Coughlan from OpenChain Project at The Linux Foundation will discuss  
           <a href="https://bit.ly/3qLLnGB" class="btn-link ml-1" target="_blank"> how the Process Management Standards for Open Source Compliance and Security Impact InnerSource.
           <i class="ti-arrow-right"></i></a>
+          -->
       </div>
     </div>
   </div>
-</section> 
+</section>
 
 <!--
 <section class="notice bg-primary text-light">
