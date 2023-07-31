@@ -5,7 +5,7 @@ contributors:
     url: https://github.com/nktrk
   - name: Jason Nguyen
     url: https://github.com/GoFightNguyen
-  - name: Johannes Tigges
+  - name: lenucksi
     url: https://github.com/lenucksi
   - name: rrrutledge
     url: https://github.com/rrrutledge

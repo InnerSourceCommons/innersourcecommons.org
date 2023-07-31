@@ -5,7 +5,7 @@ contributors:
     url: https://github.com/GoFightNguyen
   - name: Isabel Drost-Fromm
     url: https://github.com/MaineC
-  - name: Johannes Tigges
+  - name: lenucksi
     url: https://github.com/lenucksi
   - name: rrrutledge
     url: https://github.com/rrrutledge

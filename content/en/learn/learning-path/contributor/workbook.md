@@ -7,7 +7,7 @@ contributors:
     url: https://github.com/spier
   - name: Jason Nguyen
     url: https://github.com/GoFightNguyen
-  - name: Johannes Tigges
+  - name: lenucksi
     url: https://github.com/lenucksi
   - name: Isabel Drost-Fromm
     url: https://github.com/MaineC
