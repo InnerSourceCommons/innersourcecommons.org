@@ -27,7 +27,7 @@ The full list of InnerSource Commons Members can be found on our [Members](https
 
 InnerSource Commons is the world's largest community of InnerSource practitioners. It is dedicated to creating and sharing knowledge about InnerSource, the use of open source best practices for software development within the confines of an organization.
 
-Founded in 2015, the InnerSource Commons is now supporting and connecting over 2000 individuals from over 750 companies, academic institutions, and government agencies. The InnerSource Commons Foundation was incorporated on February 19th, 2020 and is now a 501(c)(3) public charity.
+Founded in 2015, the InnerSource Commons is now supporting and connecting over 2500 individuals from over 750 companies, academic institutions, and government agencies. The InnerSource Commons Foundation was incorporated on February 19th, 2020 and is now a 501(c)(3) public charity.
 
 ### Contact Information
 
