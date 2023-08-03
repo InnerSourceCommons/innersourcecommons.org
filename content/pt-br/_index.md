@@ -77,8 +77,6 @@ title: "InnerSource Commons"
   <div class="container">
     <div class="row align-items-center">
       <div class="offset-md-2 col-md-4 mb-4 mb-md-0">
-
-
         {{< announcements >}}
       </div>
       <div class="col-md-5">
