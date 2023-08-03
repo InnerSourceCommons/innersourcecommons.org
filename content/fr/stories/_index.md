@@ -54,7 +54,7 @@ aliases:
       {{< company name="Bloomberg" image="/images/logos/bloomberg.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Panna Pavangadkar" author_title="Global Head of Engineering Developer Experience" >}}
       InnerSource is not new to Bloomberg … our competitive advantage is really in being able to innovate, come up with new ideas and get them out to our specialized consumers on a regular basis at the speed that they require it to be competitive in the market.
       {{< /company >}}
-      {{< company name="Bosch" image="/images/logos/bosch.png" article="https://www.bosch.com/research/know-how/open-and-inner-source/" author_name="Georg Grütter" author_title="Chief Expert Social Coding" >}}
+      {{< company name="Bosch" image="/images/logos/bosch.png" article="https://www.oreilly.com/library/view/adopting-innersource/9781492041863/ch04.html" author_name="Georg Grütter" author_title="Chief Expert Social Coding" >}}
       InnerSource has proven invaluable for us. It has become the gold standard for internal collaboration on software at Bosch.
       {{< /company >}}
       {{< company name="BuzzFeed" image="/images/logos/buzzfeed.png" article="https://github.com/customer-stories/buzzfeed" >}}
