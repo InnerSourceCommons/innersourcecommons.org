@@ -15,7 +15,13 @@ aliases:
 -->
 
 <div class="section-first container">
-    <h2>The current Board:</h2>
+    <h2>Board of Directors:</h2>
+</div>
+
+<div class="container">
+  <p>
+    Here is our current Board of Directors, including the official roles they have been elected to fulfill.
+  </p>
 </div>
 
 {{< board-member name="Isabel Drost-Fromm" title="Chair" image="/images/about/Isabel_Drost-Fromm.jpeg" style="section-first" >}}
@@ -44,32 +50,32 @@ As an engineering manger for various software development teams, he has experien
 As a Member of the InnerSource Commons Foundation, he is maintaining the collection of InnerSource Patterns, always looking to help others to use and improve these patterns.
 {{< /board-member >}}
 
-{{< board-member name="Georg Grütter" image="/images/about/Georg_Grutter.jpeg" style="bg-light" >}}
-Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO. He co-founded and led the first InnerSource community at Bosch. Georg is a passionate software developer with over 30 years of experience. Previously, he held various positions and roles at Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg has created two open source projects, and also loves photography and chocolate.
-{{< /board-member >}}
-
-{{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" >}}
-Yuki is a distinguished technology expert currently serving as an Architect at GitHub, possessing an extensive background in Cloud technology and DevOps methodologies. Throughout his career, he has offered valuable guidance and proficiency to a myriad of enterprise clients, assisting them in refining their systems and processes.
-Yuki’s area of specialization is InnerSource transformation, and he has notably established a thriving community in Japan that has engaged with prominent industry figures and thought leaders. As a passionate advocate of InnerSource, Yuki has translated a vast array of materials and has organized numerous workshops and video presentations to disseminate awareness and understanding of the subject. He takes immense pride in serving as an exemplar for other regions and remains wholeheartedly committed to employing his expertise and knowledge to benefit others within the community.
-{{< /board-member >}}
-
-{{< board-member name="Dmitrii Sugrobov" image="/images/about/Dmitrii_Sugrobov.jpg" style="bg-light" >}}
-Dmitry is an experienced engineering manager in the retail industry, known for his proficiency in leveraging technology to drive innovation and efficiency. Dmitry strongly advocates for InnerSource as the industrial standard of software development, and has led the number of teams in using this approach to continuously improve their practices.
-{{< /board-member >}}
-
-{{< board-member name="Matt Cobby" image="/images/about/Matt_Cobby.jpg" >}}
+{{< board-member name="Matt Cobby" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
 Matt Cobby is Director of Engineering at Deloitte where he specializes in helping teams with their engineering practices, developer experience, and platform & product engineering.
 As a member of the InnerSource Foundation he has run a large scale InnerSource program and now seeks to inspire teams to seek the many benefits of an Open Source style of collaboration inside their own organization.
 With over 18 years transformation experience in the UK, Europe & Australia, he has a passion for mentoring engineers and is an active supporter of technical & local communities that inspire people.
 {{< /board-member >}}
 
+{{< board-member name="Georg Grütter" image="/images/about/Georg_Grutter.jpeg" >}}
+Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO. He co-founded and led the first InnerSource community at Bosch. Georg is a passionate software developer with over 30 years of experience. Previously, he held various positions and roles at Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg has created two open source projects, and also loves photography and chocolate.
+{{< /board-member >}}
+
+{{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" style="bg-light" >}}
+Yuki is a distinguished technology expert currently serving as an Architect at GitHub, possessing an extensive background in Cloud technology and DevOps methodologies. Throughout his career, he has offered valuable guidance and proficiency to a myriad of enterprise clients, assisting them in refining their systems and processes.
+Yuki’s area of specialization is InnerSource transformation, and he has notably established a thriving community in Japan that has engaged with prominent industry figures and thought leaders. As a passionate advocate of InnerSource, Yuki has translated a vast array of materials and has organized numerous workshops and video presentations to disseminate awareness and understanding of the subject. He takes immense pride in serving as an exemplar for other regions and remains wholeheartedly committed to employing his expertise and knowledge to benefit others within the community.
+{{< /board-member >}}
+
+{{< board-member name="Dmitrii Sugrobov" image="/images/about/Dmitrii_Sugrobov.jpg" >}}
+Dmitry is an experienced engineering manager in the retail industry, known for his proficiency in leveraging technology to drive innovation and efficiency. Dmitry strongly advocates for InnerSource as the industrial standard of software development, and has led the number of teams in using this approach to continuously improve their practices.
+{{< /board-member >}}
+
 <div class="section-first container">
-    <h2>History:</h2>
+    <h2>Elected Officers:</h2>
 </div>
 
 <div class="container">
   <p>
-    These fine people have served on our Board in previous years and we are listing them here to show our gratitude for their work. Thank you for your dedication to InnerSource and your active support of the InnerSource Commons Foundation!
+    The following elected Officers do not sit on the Board of Directors.
   </p>
 </div>
 
@@ -81,12 +87,18 @@ Silona Bonewald is the Executive Director for IEEE SA OPEN, a comprehensive plat
 Maximilian Capraro is a researcher and doctoral candidate at the Open Source Research Group at Friedrich-Alexander-University Erlangen-Nürnberg. He worked on inner source in research projects with a variety of companies including Black Duck Software, Continental, and multiple Siemens business units. He developed the patch-flow measurement method (for measuring software development collaboration) and the first classification framework for inner source projects and programs. His research interests the quantification of software development collaboration, inner source governance including legal and taxation aspects, and many other things around inner source, open source, and software engineering.
 {{< /board-member >}}
 
+<div class="section-first container">
+    <h2>Past Directors and Officers:</h2>
+</div>
+
+<div class="container">
+  <p>
+    These fine people have served on our Board in previous years and we are listing them here to show our gratitude for their work. Thank you for your dedication to InnerSource and your active support of the InnerSource Commons Foundation!
+  </p>
+</div>
+
 {{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" >}}
 Danese Cooper is the founder of InnerSource Commons. She is a long term open source advocate, having previously served as the of head of open source software at PayPal, CTO of the Wikimedia Foundation, chief open source evangelist for Sun, and senior director of open source strategies for Intel. Danese was also the inaugural chairperson of the Node.js Foundation. She concentrates on creating healthy open source communities and has served on the boards of Drupal Association, the Open Source Initiative, the Open Source Hardware Association, and she’s advised Mozilla and the Apache Software Foundation. Danese also runs a successful open source consultancy that counts the Bill & Melinda Gates Foundation, the SETI Institute, Harris, and Numenta as clients. She’s been known to knit through meetings.
-{{< /board-member >}}
-
-{{< board-member name="Johannes Tigges" image="/images/about/Johannes_Tigges.png" >}}
-Johannes is a co-creator of the InnerSource Commons Learning Path and has worked on introducing InnerSource to HERE Technologies, a leading digital map and location company. Currently he offers coaching and consulting on Engineering Productivity, Open Source and InnerSource Strategy and OSPO topics as well as cloud solution architecture. He also works as a lecturer and delivers technical training on the topics mentioned above. He presents his work and thoughts at industry conferences like the FOSDEM or the InnerSource Commons Summit and has been active in Open Source communities for a long time. With a background in both computer science and sociology of organizations he has a unique perspective on software engineering organizations. In past roles, he has also worked on introducing Continuous Integration and Delivery to large research institutions, in DevOps roles for very large cloud based platforms and developed software within the Telco domain.
 {{< /board-member >}}
 
 {{< board-member name="Jacob Green" image="/images/about/Jacob_Green.jpg" >}}
@@ -95,6 +107,10 @@ Jacob Green, the founder of Mosslabs.io, is an open source artist, strategist & 
 
 {{< board-member name="Klaas-Jan Stol" image="/images/about/Klaas-Jan_Stol.jpg" >}}
 Klaas-Jan Stol is a lecturer with University College Cork, Ireland, a Funded Investigator with Lero, the Science Foundation Ireland Research Centre for Software, and a Scientific Advisor with SINTEF, Norway. As an academic, he conducts research on contemporary software development approaches, as well as human and organizational aspects. He has long had an interest in InnerSource, and has published several papers on the topic. Klaas holds a PhD from the University of Limerick.
+{{< /board-member >}}
+
+{{< board-member name="Johannes Tigges" image="/images/about/Johannes_Tigges.png" >}}
+Johannes is a co-creator of the InnerSource Commons Learning Path and has worked on introducing InnerSource to HERE Technologies, a leading digital map and location company. Currently he offers coaching and consulting on Engineering Productivity, Open Source and InnerSource Strategy and OSPO topics as well as cloud solution architecture. He also works as a lecturer and delivers technical training on the topics mentioned above. He presents his work and thoughts at industry conferences like the FOSDEM or the InnerSource Commons Summit and has been active in Open Source communities for a long time. With a background in both computer science and sociology of organizations he has a unique perspective on software engineering organizations. In past roles, he has also worked on introducing Continuous Integration and Delivery to large research institutions, in DevOps roles for very large cloud based platforms and developed software within the Telco domain.
 {{< /board-member >}}
 
 {{< board-member name="Cedric Williams" image="/images/about/Cedric_Williams.jpg" >}}
