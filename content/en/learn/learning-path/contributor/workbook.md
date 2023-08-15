@@ -1,16 +1,18 @@
 ---
 title: Workbook
 contributors:
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
   - name: Sebastian Spier
     url: https://github.com/spier
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
   - name: Jason Nguyen
     url: https://github.com/GoFightNguyen
   - name: lenucksi
     url: https://github.com/lenucksi
   - name: Isabel Drost-Fromm
     url: https://github.com/MaineC
+  - name: Laura
+    url: https://github.com/marshmallowrobot
   - name: Nick Adams
     url: https://github.com/nadamsoreilly
 image: images/learn/workbooks/Learning Path-Contributor Workbook-image.png
@@ -149,7 +151,7 @@ You should plan to be available at a minimum to fulfill a <a href="https://patte
 <p>The solution owners and reviewers depend on contributions, so I help the project by posting a code change (such as a fix to a bug I have discovered or new feature I need) right away. The code review will then shake out any issues.</p>
 </li>
 <li>
-<p>I am confident that my contribution will not be rejected, as this would constitute hostile behaviour towards contributors.</p>
+<p>I am confident that my contribution will not be rejected, as this would constitute hostile behavior towards contributors.</p>
 </li>
 <li>
 <p>I stay engaged and available for the project to support my changes and help drive the project forward.</p>
@@ -203,7 +205,7 @@ More than one answer may be correct in some questions.</p>
 <div class="sect5">
 <h6 id="_correct_answer_2_and_4">Correct answer: 2 and 4</h6>
 <div class="paragraph">
-<p>Why 1 is incorrect: For many reasons, contributions to an open and shared solution will likely take more time than changes to a closed, single-team project. For example, coordination with the host may not be straightforward as it is with your immediate team. Your interests and the hosts’ interests may not easily align, and compromises may need to be found. Logistics may also add overhead, such as simply working in different timezones. To mitigate against these delays, plan with additional time. This will alleviate stress and tension and increase your chances of a successful engagement.</p>
+<p>Why 1 is incorrect: For many reasons, contributions to an open and shared solution will likely take more time than changes to a closed, single-team project. For example, coordination with the host may not be straightforward as it is with your immediate team. Your interests and the hosts’ interests may not easily align, and compromises may need to be found. Logistics may also add overhead, such as simply working in different time zones. To mitigate against these delays, plan with additional time. This will alleviate stress and tension and increase your chances of a successful engagement.</p>
 </div>
 <div class="paragraph">
 <p>Why 2 is correct: Through communication, you allow everyone to understand your intent and give advice where needed. Communication ensures that you understand the plans and goals of others and can work together optimally for the greatest impact.</p>
