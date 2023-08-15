@@ -22,8 +22,7 @@
               data-display="static"></a>
             <div class="dropdown-menu">
               {{ range .Children }}
-              <a class="dropdown-item" href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>{{ .Name
-                }}</a>
+              <a class="dropdown-item" href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>{{ .Name }}</a>
               {{ end }}
             </div>
           </li>
