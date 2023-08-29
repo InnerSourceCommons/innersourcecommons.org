@@ -265,7 +265,7 @@ An informal, but hopefully informative, presentation on the challenges of implem
         <td class="title"> The Inner Source Learning Path
             <span onClick="toggleAbstract('campraro-1')" class="abstract-toggle">(<a id="campraro-1-link">Show Abstract</a>)</span>
             <div style="display:none" class="abstract" id="campraro-1">
-Inner source is the application of open source methodologies to internally-developed software. While simple to define, inner source can be difficult to explain and implement successfully. Many engineers lack background in open source and the ideas and mechanics of open code development. Even those with that background face a new set of constraints and motivations when trying to work openly within the enterprise. The Inner Source Learning path gives a simple, easy to understand introduction to inner source. It introduces key terms, concepts, and principles for effective inner sourcing along with explanations and real examples. It is intended to bring newcomers up to speed as well as provide those with experience a common vocabulary to use when discussing more advanced concepts. The Inner Source Learning path will be freely hosted by O'Reilly Media at https://www.safaribooksonline.com/learning-paths for your use and sharing. In this session we'll review the content of the learning path and how you can use and share it.
+Inner source is the application of open source methodologies to internally-developed software. While simple to define, inner source can be difficult to explain and implement successfully. Many engineers lack background in open source and the ideas and mechanics of open code development. Even those with that background face a new set of constraints and motivations when trying to work openly within the enterprise. The Inner Source Learning path gives a simple, easy to understand introduction to inner source. It introduces key terms, concepts, and principles for effective inner sourcing along with explanations and real examples. It is intended to bring newcomers up to speed as well as provide those with experience a common vocabulary to use when discussing more advanced concepts. The Inner Source Learning path will be freely hosted by O'Reilly Media at https://innersourcecommons.org/learn/learning-path/ for your use and sharing. In this session we'll review the content of the learning path and how you can use and share it.
             </div>
         </td>
     </tr>
@@ -369,7 +369,7 @@ Culture is hard to describe, and even harder to emulate. So how do you even star
 ### Call For Presentations
 Use this form to submit your proposal [here](https://tinyurl.com/ycuxbjbe) for the InnerSource Commons Spring Summit 2019
 
-All proposals are due by midnight, February 17th, 2019. All presentations at the Spring Summit, unless otherwise designated by the presenter, will be covered by the Chatham House Rule. See the [Chatham House Rule](https://www.chathamhouse.org/about/chatham-house-rule). 
+All proposals are due by midnight, February 17th, 2019. All presentations at the Spring Summit, unless otherwise designated by the presenter, will be covered by the Chatham House Rule. See the [Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule). 
 
 ### Registration
 Please visit our [Registration Page](https://innersourcesummit2019.brownpapertickets.com/) to register for InnerSource Commons Spring Summit 2019.
@@ -574,7 +574,7 @@ Kristof Van Tomme is an open source strategist and architect. He is the CEO and 
 
 ### What is the InnerSource Commons?
 
-The InnerSource Commons ([InnerSourceCommons.org](http://innersourcecommons.org)) aka ISC is a consortium of representatives from almost a hundred companies and institutions. It utilizes open source methods to provide organizations pursuing inner sourcing a forum for discussing and improving the practice of InnerSource through the sharing of experiences (under the [Chatham House Rule](https://www.chathamhouse.org/about/chatham-house-rule)), creation and review of InnerSource patterns, and the open exchange of ideas.
+The InnerSource Commons ([InnerSourceCommons.org](http://innersourcecommons.org)) aka ISC is a consortium of representatives from almost a hundred companies and institutions. It utilizes open source methods to provide organizations pursuing inner sourcing a forum for discussing and improving the practice of InnerSource through the sharing of experiences (under the [Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule)), creation and review of InnerSource patterns, and the open exchange of ideas.
   
 ### Who should attend?
 

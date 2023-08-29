@@ -48,7 +48,7 @@ Many engineers lack the background in open source and the ideas and mechanics of
 
 The Inner Source Learning path gives a simple, easy to understand introduction to inner source. It introduces key terms, concepts, and principles for effective inner sourcing along with explanations and real examples. It is intended to bring newcomers up to speed as well as provide those with experience a common vocabulary to use when discussing more advanced concepts.
 
-The Inner Source Learning path will be freely hosted by O'Reilly Media at https://www.safaribooksonline.com/learning-paths for your use and sharing. More advanced segments of the learning path are forthcoming, and we'll outline how you can get involved.            
+The Inner Source Learning path will be freely hosted by O'Reilly Media at https://innersourcecommons.org/learn/learning-path/ for your use and sharing. More advanced segments of the learning path are forthcoming, and we'll outline how you can get involved.            
             </div>
         </td>
     </tr>
@@ -590,7 +590,7 @@ Nithya graduated with an MS in Computer Science from NDSU and an MBA from the Un
 </div>
 
 ### What is the InnerSource Commons?
-The InnerSource Commons ([InnerSourceCommons.org](http://innersourcecommons.org)) aka ISC is a consortium of representatives from over sixty companies and institutions. It utilizes open source methods to provide organizations pursuing inner sourcing a forum for discussing and improving the practice of InnerSource through the sharing of experiences (under the [Chatham House Rule](https://www.chathamhouse.org/about/chatham-house-rule)), creation and review of InnerSource patterns, and the open exchange of ideas.
+The InnerSource Commons ([InnerSourceCommons.org](http://innersourcecommons.org)) aka ISC is a consortium of representatives from over sixty companies and institutions. It utilizes open source methods to provide organizations pursuing inner sourcing a forum for discussing and improving the practice of InnerSource through the sharing of experiences (under the [Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule)), creation and review of InnerSource patterns, and the open exchange of ideas.
 
 ### Venue
 
