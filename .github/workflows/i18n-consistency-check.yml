@@ -67,7 +67,7 @@ jobs:
               issue+="<details><summary><b>$content_title</b> ($file)</summary>\\n\\n"
               issue+="- Original File(en): [$file](https://github.com/$GITHUB_REPOSITORY/blob/master/$file)\\n"
               issue+="- Translated File(${{ matrix.language}}): [$i18n_filename](https://github.com/$GITHUB_REPOSITORY/blob/master/$i18n_filename)\\n"
-              issue+="- [Diff on GitHub](https://github.com/yuhattor/innersourcecommons.org/compare/$i18n_last_update_hash...$original_last_update_hash)\\n"
+              issue+="- [Diff on GitHub](https://github.com/$GITHUB_REPOSITORY/compare/$i18n_last_update_hash...$original_last_update_hash)\\n"
               issue+="- Days since overdue updates: $days_since_overdue_updates days\\n"
               issue+="\`\`\`diff\\n"
               issue+="$result"
