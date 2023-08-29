@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US"><head>
   <meta charset="utf-8">
-  <title>Mechanics of contributing</title>
+  <title>Mecânica de contribuição</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -59,8 +59,8 @@
 	
   
   
-  <meta property="og:title" content="Mechanics of contributing" />
-<meta property="og:description" content="Are you ready to start contributing to other teams projects/repos? Do you look forward to reducing your blockers not by management escalation but by collaboration?" />
+  <meta property="og:title" content="Mecânica de contribuição" />
+<meta property="og:description" content="Você está pronto para começar a contribuir com projetos / repositórios de outras equipes? Quer reduzir seus bloqueios colaborando em vez de gerenciar?" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/pt-br/learn/learning-path/contributor/04/" />
 
@@ -246,7 +246,7 @@
 
 <li class="breadcrumb-item">
    
-  Mechanics of contributing
+  Mecânica de contribuição
   
 </li>
 
@@ -258,286 +258,144 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <h1 class="mb-4">Mechanics of contributing</h1>
+        <h1 class="mb-4">Mecânica de contribuição</h1>
         
         <div class="embed-responsive embed-responsive-16by9 mb-4">
           <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/wv3uylJC4K0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
         <div class="content"><div class="paragraph">
-<p>Are you ready to start contributing to other teams projects/repos?
-Do you look forward to reducing your blockers not by management escalation but by collaboration?
-This section gives practical advice and highlights gotchas to remember when making an InnerSource contribution. It enables you and the host team to have as pleasant an experience as possible, setting the foundation for more contributions and great collaboration.</p>
-</div>
-<div class="paragraph">
-<p>This article is separated into the three steps you will likely experience</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="#preparing-to-work">Soliciting your contribution opportunity and preparing to work on it</a></p>
-</li>
-<li>
-<p><a href="#creating-the-pull-request">Actually creating the contribution</a></p>
-</li>
-<li>
-<p><a href="#submitting-the-pull-request">Polishing and wrapping the gift nicely and presenting it to the host team</a>.</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>If your contribution is larger, you&#8217;ll possibly go through (some) of these steps repeatedly as you iterate towards your common goal.
-It is very likely that, as you do this, everything will feel more and more natural - maybe you&#8217;ll even wonder why you were doing anything else before.</p>
-</div>
-<div class="sect2">
-<h3 id="_preparing_to_work">Preparing to work</h3>
-<div class="sect3">
-<h4 id="_lead_times">Lead times</h4>
-<div class="paragraph">
-<p>One key difference is the turnaround time.
-With every first time contribution you are coming to a new (host) team.
-As a result, you&#8217;ll need to get to know their code base, technologies used, and also their preferred development environment (think test framework, build system).
-Even in cases where this type of tooling is standardized, each team will have developed some individual peculiarities.
-In addition to the technical side, you may be faced with differences in communication (think code reviews).
-Even if you are coming back after a while, the teams' ways and members might have changed.
-Take your time as you would to catch up with a friend you haven&#8217;t seen in a while and whom you are visiting now.</p>
-</div>
-<div class="paragraph">
-<p>Give yourself enough lead time.
-Start early enough, so that your work is available for you to leverage at the time you need it.
-It&#8217;s better to add more slack time initially - you&#8217;ll get a feeling about the turnaround times once you work with the host team.
-Often, you will notice a reduction in turnaround time per host team after making a few successful contributions to that host team.
-This effect can be observed with Open Source as well, you can read more about it <a href="#buildup-of-trust-through-collaboration">here</a>.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_expectation_management">Expectation management</h4>
-<div class="paragraph">
-<p>In your classic teams everyone had an idea of the expected lead times.
-Within an InnerSource context this might not be the case, either due to large time-zone differences (e.g. Seattle, USA with PDT vs Berlin, Germany with CEST) or you not being available full-time as with your original team, even if they are in the same physical location as you are.
-Thus, to prevent frustration on both sides, impatience and other non-trust-building effects, you&#8217;ll need to explicitly do expectations management with regards to your expected reaction times.
-One approach is to just quickly react with a "I&#8217;ll look into it, I won&#8217;t get to it in the next few days though" to a <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committer&#8217;s</em></a> feedback if you know that you&#8217;ll only be able to come back to them in a few days.
-Ideally, you can provide them with a rough estimate when you will likely have time to take a look at their input.
-Doing so builds trust by reliability even over non-physical contact, longer distance or otherwise asynchronous media.
-Established trust will allow you to overcome uncertainty bumps in the collaborative road ahead of you.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_building_trust">Building trust</h4>
-<div class="paragraph">
-<p>InnerSource puts huge weight on written communication - in particular when it comes to project decisions.
-Does that imply that in-person communication is forbidden?</p>
-</div>
-<div class="paragraph">
-<p>Clearly not: while written communication shines when it comes to archiving and searchability, in-person communication shines when it comes to communication bandwidth.
-Try to make time to meet with people behind the names. If possible, try to meet them over your favorite beverage or some food.
-When you&#8217;re able to hear people speak, when you know their idiosyncrasies, remote collaboration will become easier.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_avoiding_rejection">Avoiding rejection</h4>
-<div class="paragraph">
-<p>Do you have a large feature that you want to contribute?
-Excellent!
-Wouldn&#8217;t it be horrible if all your work would be wasted?
-That can happen when the host team is already building something very similar, is planning to deprecate the software, or does not see what you are proposing to be a fit for their project.
-This challenge is a frequent one, and many team relationships suffered from not agreeing in advance that a contribution is a good fit.</p>
-</div>
-<div class="paragraph">
-<p>Make yourself and the host team happy (and possibly save some work) by getting agreement from the host team on the user/technical design of the contribution <em>before</em> working on the changes and submitting a pull request.
-You&#8217;ll have to understand how the host team would like you to reach out for this.
-It&#8217;s best to ask a <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> about how to best discuss your proposal.</p>
-</div>
-<div class="paragraph">
-<p>It is time-and-again-proven wisdom from the Open Source arena that, if you get to select how to discuss your proposal, you should try to select a written way.
-Ideally, choose the way where artifacts are public, searchable and perma-linkable to enable referencing your proposal in later discussions on this future contribution or other contributions to come - by you or others.</p>
-</div>
-<div class="paragraph">
-<p>This type of high-level, early upfront agreement will save time in rework or rejection of your pull request down the road.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_creating_the_pull_request">Creating the pull request</h3>
-<div class="sect3">
-<h4 id="_communication_and_unblocking_yourself">Communication and unblocking yourself</h4>
-<div class="paragraph">
-<p>Great, you&#8217;ve made yourself familiar with the host team&#8217;s approach, and they are looking forward to receive your pull request.
-Which gotchas are there waiting for you now?</p>
-</div>
-<div class="paragraph">
-<p>First, you&#8217;ll be in less direct contact with them.  Second, you aren&#8217;t expected to be as knowledgeable and proficient as you might be on the full-time projects that your team owns.
-How can you now deal with this the best?</p>
-</div>
-<div class="paragraph">
-<p>Try to peruse their documentation, the conversation archives and code artifacts from the host team to unblock yourself.
-This is similar to the situation you and likely most people find yourself in when using one of the popular OSS projects.</p>
-</div>
-<div class="paragraph">
-<p>Much like in Open Source projects, ask the host team if things are going nowhere even after trying to unblock yourself.
-The questions you ask and the answers you receive will help others coming after you solve the same issues.
-Make sure that your communication ends up in a searchable archive that is closely linked to the project itself.
-Should you see easy improvement opportunities to reach said goal if it is not reached yet, you could try to - very politely - suggest an improvement to your host team.
-Sometimes the status quo arises from pure happenstance and stays that way because no one had a different idea or cared enough.
-Suggestions for improvement might be welcome in such cases.
-It doesn&#8217;t do either side any good for you to spin forever on a problem that could be resolved in a few-minute conversation with someone more knowledgeable about the project.
-It&#8217;s OK to ask for help.</p>
-</div>
-<div class="paragraph">
-<p>There&#8217;s one key difference though, bringing advantage to you and other people in the future:
-In almost all cases you should prefer the projects' official communication channels - this can be a mailing list, a chat room, an issue tracker or something similar, depending on the purpose of having a more synchronous or asynchronous way of interacting, or the varying needs for structure in the communication.
-All of those usually have in common that they are text-based, archived, searchable and come with stable links - this means your question and the answer will be written down, and the references you link in those answers will also be kept reachable.
-This way you can benefit from this passively documented knowledge in your search AND help future contributors have the same advantage.
-Such passive documentation could even serve to enrich 'official' documentation, should it happen to contain especially valuable gems - such as important definitions that got created ad-hoc.</p>
-</div>
-<div class="paragraph">
-<p>As you work, if you find missing (or out-of-date) documentation, do a favor to the next Contributor and update it with what you&#8217;ve discovered.
-Project teams are often happy to receive additions, updates or corrections for their existing documentation - you&#8217;ve just found another opportunity to contribute!
-(Or just politely provide them with a feedback on your experience, and what would have helped you.)</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_crafting_the_code">Crafting the code</h4>
-<div class="paragraph">
-<p>We all have our preferences and opinions on code style, indentation, etc.
-The host team&#8217;s project has them as well.
-Try to adapt and match those preferences even if it&#8217;s not what you would normally do, and even if it is not specified in the projects' <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer/05/"><em>`CONTRIBUTING.md`</em></a>.
-If you are unsure, you can always ask politely. Nevertheless, a guest contribution for a feature or a bug fix is not the time to introduce a new way of structuring or formatting project code.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_submitting_the_pull_request">Submitting the pull request</h3>
-<div class="paragraph">
-<p>You&#8217;ve completed all the essential work, figured out all the quirks of the problem and the project you are contributing to, the time you&#8217;ve planned for the new feature to be used comes nearer, and you want to make sure your contribution gets merged in as fast and smooth as possible.</p>
-</div>
-<div class="paragraph">
-<p>Here&#8217;s what you can do to make reviewing and merging as easy as possible for the the <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> and the host team.
-This might actually be pretty similar to what you may already be doing on your own project to get your changes accepted. If that&#8217;s the case - great, this is going to come natural to you!</p>
-</div>
-<div class="sect3">
-<h4 id="_testing_and_automation">Testing and automation</h4>
-<div class="paragraph">
-<p>The basic point here is to enable the <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> to validate the contribution without your presence and to ensure easy maintainability.
-Imagine you&#8217;ve built a feature or handling of an unsolvable quirk, or an important performance tweak, and your code is not entirely obvious (or might even look hacky / wrong at the first glance).
-If you have covered this with a test - and ideally have shed some words on the rationale behind it in a comment - a future editor will get reminded about the purpose of the code, and the test(s) will ensure that the value your code realizes will be kept, even in the new implementations.
-To achieve this, do the following:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Add tests for your code contribution, so that validating the function of your contribution by others works well, even after some time, when you work in other projects or might have stopped contributing to this project.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Often projects will have automated checks against pull requests using those tests and the level of code coverage. Try to meet the criteria these tests enforce.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Many projects will provide project build and validation scripts that enable you to locally test your changes.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Use those to ensure that your contribution works as well as possible before opening a pull request.</p>
-</li>
-<li>
-<p>Having to review defective pull requests with easy-to-fix errors often bugs trusted committers. They will not fix your code but ask you to do so. This might create more round-trips and slow the merge.</p>
-</li>
-<li>
-<p>No one is perfect though. Do your best, use prepared validation scripts if there are any, and give it your best shot with a pull request!</p>
-</li>
-<li>
-<p>If your pull request keeps breaking tests, and you can&#8217;t find out why after giving it your best shot: try to highlight those tests in the pull request comment, illustrate your current understanding of the problem and ask for help on it.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Don&#8217;t forget your own project that triggered your contribution in the first place. Create a modified build of the shared project with your changes and try it out in your own project that consumes it.</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_documentation_and_reviewability">Documentation and reviewability</h4>
-<div class="paragraph">
-<p>You want to ensure that your pull request includes any documentation updates that are relevant to your changes.
-Should the documentation live in a different place, make sure you add them there and link to them in your pull request.</p>
-</div>
-<div class="paragraph">
-<p>To make the actual code review as easy as possible for the trusted committer or other persons reviewing it, try to follow these hints:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Be sure that your pull request includes only the relevant changes for the issue you&#8217;re completing.</p>
-</li>
-<li>
-<p>Try to avoid super-large commits, commits with unclear commit messages, gazillions of files, incoherent changes (e.g. touching multiple topics).</p>
-</li>
-<li>
-<p>Provide a clear description of what this pull request changes, why it does so, and which issue and design documents (if there were any) it refers to.</p>
-</li>
-<li>
-<p>If there is anything uncommon or unexpected in the pull request, highlight it and provide the explanation. This will make it easier to reason about and solve potential blocking questions that a reviewer might have during the review.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>The same goes for the scenario where you were unsure of the implementation or your approach - highlight it and ask for an insight.</p>
-</li>
-<li>
-<p>Be civil and expect civility from the <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committer&#8217;s</em></a> review.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Making pull requests too broad and large makes them more difficult to review, so it will take much longer before they&#8217;re accepted.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>If you have a larger feature that you are contributing, it often helps to split it in multiple pull requests that are submitted, reviewed and accepted sequentially.
-You can still bind them together with an issue that you are referring to.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Some tools also have Draft / WIP pull request functionality that you can use to explicitly mark unfinished and non-polished work and still get early feedback from your host team&#8217;s <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer/02/"><em>Trusted Committers</em></a>.</p>
-</li>
-<li>
-<p>This allows you to ensure that you are going down a path that your host team is happy to merge once it&#8217;s done, adhering to the "release early, release often" idea in a way.</p>
-</li>
-<li>
-<p>The host team&#8217;s responsibility is to create an atmosphere where sharing and discussing not-totally-polished work is possible and welcome. If you can&#8217;t fail safe, you can&#8217;t innovate, and collaboration becomes very hard.</p>
-</li>
-<li>
-<p>Try to balance between asking for a review early and providing meaningful changes to review.</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_additional_articles">Additional articles</h3>
-<div class="paragraph">
-<p>Some of these resources might be hidden behind paywalls.
-Sometimes your employer has a subscription enabling access, otherwise public university libraries often allow access for guests, too.</p>
-</div>
-<div class="sect3">
-<h4 id="_buildup_of_trust_through_collaboration"><a href="https://doi.org/10.1109/MS.2013.95">Buildup of trust through collaboration</a></h4>
-</div>
+<p>Você está pronto para começar a contribuir com projetos / repositórios de outras equipes?
+Quer reduzir seus bloqueios colaborando em vez de gerenciar?
+Esta seção fornece conselhos práticos e destaca pontos a serem lembrados ao fazer uma contribuição InnerSource.
+Ele permite que você e a equipe anfitriã tenham a experiência mais agradável possível, estabelecendo a base para mais contribuições e grande colaboração.
+Este artigo é separado nas três etapas que você provavelmente experimentará
+* <a href="#preparação para o trabalho">Solicitando sua oportunidade de contribuição e preparando-se para trabalhar nela</a>
+* <a href="#criar-o-pull-request">Na verdade, criando a contribuição</a>
+* <a href="#enviar-o-pull-request">Polir e embrulhar bem o presente e apresentá-lo para a equipe anfitriã</a>.
+Se a sua contribuição for maior, você possivelmente percorrerá (alguns) desses passos repetidamente à medida que você iterar em direção ao objetivo comum.
+É muito provável que, à medida que você fizer isso, tudo se torne cada vez mais natural para você - você pode até se perguntar por que estava fazendo outra coisa antes.
+=== Preparando para trabalhar
+==== Tempos de entrega
+Uma diferença fundamental é o tempo de entrega.
+Com cada nova contribuição, você está chegando a uma nova equipe (anfitriã).
+Como resultado, você precisará conhecer sua base de código, as tecnologias usadas e também seu ambiente de desenvolvimento preferido (pense em uma estrutura de teste, sistema de build).
+Mesmo nos casos em que estes tipos de ferramentas estão padronizados, cada equipe terá desenvolvido algumas peculiaridades individuais.
+Além do lado técnico, você pode se deparar com diferenças na comunicação (pense nas renisões de código).
+Mesmo se você estiver voltando depois de um tempo, as práticas e os membros das equipes podem ter mudado.
+Não tenha pressa, como faria para conversar com um amigo que você não vê há algum tempo e que você está visitando agora.
+Dê tempo suficiente a si mesmo.
+Comece com antecedência suficiente, para que seu trabalho esteja disponível para você aproveitar no momento que precisar.
+É melhor adicionar mais tempo de folga inicialmente - você terá uma melhor ideia sobre os tempos de resposta depois de trabalhar com a equipe anfitriã.
+Muitas vezes, você notará uma redução no tempo de resposta por parte da equipe anfitriã depois de fazer algumas contribuições bem-sucedidas para essa equipe anfitriã.
+Esse efeito pode ser observado com Open Source também, você pode ler mais sobre ele <a href="#buildup-of-trust-through-collaboration">aqui</a>.
+==== Gestão de expectativas
+Em suas equipes tradicionais, todos tinham uma ideia dos tempos de resposta.
+Dentro de um contexto InnerSource, isso pode não ser o caso, seja devido a grandes diferenças de fuso horário (por exemplo, Seattle, EUA com PDT vs Berlim, Alemanha com CEST) ou você não estar disponível em tempo integral como com sua equipe original, mesmo se eles estiverem no mesmo local físico que você.
+Assim, para evitar a frustração de ambos os lados, impaciência e outros efeitos que geram desconfiança, você precisará explicitamente fazer o gerenciamento de expectativas com relação aos tempos de resposta esperados.
+Uma abordagem é apenas reagir rapidamente com um "Vou dar uma olhada, embora não o faça nos próximos dias" a um comentário de um <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committeter</em></a> se você souber que só poderá respondê-lo em alguns dias.
+O ideal é que você possa fornecer a eles uma estimativa aproximada de quando provavelmente terá tempo para dar uma olhada em suas opiniões.
+Fazer isso constrói confiança através da confiabilidade, mesmo por meio de contato não físico, maior distância ou mídia assíncrona.
+A confiança estabelecida permitirá que você supere os obstáculos da incerteza na jornada colaborativa à sua frente.
+==== Construindo confiança
+InnerSource valoriza muito a comunicação escrita - em particular quando se trata de decisões de projeto.
+Isso implica que a comunicação presencial é proibida?
+Calor que não: enquanto a comunicação escrita brilha quando se trata de arquivamento e capacidade de pesquisa, a comunicação presencial brilha quando se trata de largura de banda de comunicação.
+Tente reservar um tempo para se encontrar com as pessoas por trás dos nomes.
+Se possível, tente encontrá-los para uma bebida ou para comer algumas coisa.
+Quando você é capaz de ouvir as pessoas falando, quando você sabe suas idiossincrasias, a colaboração remota se tornará mais fácil.
+==== Evitando rejeição
+Você tem uma funcionalidade grande que deseja contribuir?
+Excelente!
+Não seria horrível se todo o seu trabalho fosse desperdiçado?
+Isso pode acontecer quando a equipe anfitriã já está construindo algo muito semelhante, está planejando descontinuar o software, ou não vê o que você está propondo para ser um ajuste para seu projeto.
+Esse desafio é frequente, e muitas relações de equipe sofreram por não concordarem antecipadamente que uma contribuição é um bom ajuste.
+Deixe você e a equipe anfitriã felizes (e possivelmente economize algum trabalho) obtendo o acordo da equipe anfitriã sobre o design técnico/do usuário da contribuição antes de trabalhar nas alterações e enviar um pull request.
+Você precisará entender como a equipe anfitriã gostaria que você abordasse isso.
+É melhor perguntar a um <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> sobre a melhor forma de discutir sua proposta.
+No âmbito do Open Source tem sido repetidamente demonstrado  que se você pode escolher como discutir sua proposta, você deve tentar escolher uma forma escrita.
+Idealmente, escolha a forma em que os artefatos sejam públicos, pesquisáveis ​​e permanentemente linkáveis ​​para permitir a referência à sua proposta em discussões posteriores sobre esta contribuição futura ou outras contribuições futuras - por você ou por outros.
+Esse tipo de acordo inicial de alto nível economizará tempo no retrabalho ou na rejeição de seu pull request no futuro.
+=== Criando o pull request
+==== Comunicação e desbloqueio
+Ótimo, você se familiarizou com a abordagem da equipe anfitriã e eles estão ansiosos para receber seu pull request.
+Quais dicas estão esperando por você agora?
+Primeiro, você terá menos contato direto com eles.
+Em segundo lugar, não é esperado que você tenha tanto conhecimento e proficiência quanto seria nos projetos de tempo integral de sua equipe.
+Como você pode lidar com isso agora da melhor forma possível?
+Tente examinar a documentação, os arquivos de conversa e os artefatos de código da equipe para se desbloquear.
+Isso é semelhante à situação em que você e a maioria das pessoas provavelmente se encontram ao usar um dos projetos OSS populares.
+Assim como em projetos Open Source, pergunte à equipe anfitriã se as coisas não avançam mesmo depois de tentar se desbloquear.
+As perguntas que você faz e as respostas que você recebe ajudarão a outros que vêm depois de você a resolver os mesmos problemas.
+Certifique-se de que sua comunicação termine em um arquivo pesquisável que esteja intimamente ligado ao próprio projeto.
+Caso você veja oportunidades fáceis de melhoria para atingir essa meta, caso ela ainda não tenha sido alcançada, você pode tentar - muito educadamente - sugerir uma melhoria à sua equipe anfitriã.
+Às vezes, o status quo surge por pura casualidade e permanece assim porque ninguém teve uma ideia diferente ou se importou o suficiente.
+Sugestões de melhoria podem ser bem-vindas nesses casos.
+Não faz bem algum a nenhum dos lados ficar girando para sempre em torno de um problema que poderia ser resolvido em uma conversa de alguns minutos com alguém com mais conhecimento do projeto.
+Tudo bem pedir ajuda.
+Porém, há uma diferença fundamental que trará vantagens para você e outras pessoas no futuro: em quase todos os casos você deve preferir os canais de comunicação oficiais dos projetos - isso pode ser uma lista de discussão, uma sala de bate-papo, um ferramenta de gestão de incidentes ou algo semelhante, dependendo do propósito de ter uma maneira mais síncrona ou assíncrona de interagir, ou as diferentes necessidades de estrutura na comunicação.
+Todos eles geralmente têm em comum o fato de serem baseados em texto, arquivados, pesquisáveis ​​e vêm com links estáveis - isso significa que sua pergunta e a resposta serão anotadas, e as referências que você vincular nessas respostas também serão mantidas acessíveis.
+Desta forma, você poderá se beneficiar da busca por conhecimento documentado passivamente. E ajudar futuros colaboradores a ter a mesma vantagem.
+Essa documentação passiva poderia até servir para enriquecer a documentação 'oficial', caso ela contenha jóias especialmente valiosas - como definições importantes que foram criadas ad hoc.
+Conforme você trabalha, se você identificar ausência de documentação (ou documentação desatualizada), faça um favor ao próximo Contribuidor e atualize com o que você descobriu.
+As equipes do projeto geralmente ficarão felizes em receber adições, atualizações ou correções para a documentação existente - você acabou de encontrar outra oportunidade para contribuir! (ou apenas educadamente fornecer-lhes um feedback sobre sua experiência e o que teria lhe ajudado.)
+==== Elaborando o código
+Todos nós temos nossas preferências e opiniões sobre estilo de código, indentação, etc.
+O projeto da equipe anfitriã também tem.
+Tente adaptar e combinar essas preferências mesmo que não seja o que você faria normalmente, e mesmo que não esteja especificado no <a href="https://innersourcecommons.org/pt-br/learn/learning-path/trusted-committer/05/"><em>`CONTRIBUTING.md`</em></a> do projeto.
+Se você não tem certeza, você sempre pode pedir educadamente.
+No entanto, uma contribuição para um recurso ou uma correção de bug não é o momento certo de introduzir uma nova maneira de estruturar ou formatar o código do projeto.
+=== Enviando o pull request
+Você concluiu todo o trabalho essencial, descobriu todas as peculiaridades do problema e do projeto para o qual está contribuindo, o tempo planejado para o novo recurso ser usado está mais próximo e você quer ter certeza de que sua contribuição será mesclada o mais rápido e tranquilamente possível.
+Aqui está o que você pode fazer para tornar a revisão e mesclagem o mais fácil possível para o <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> e a equipe anfittriã.
+Isso pode ser bastante semelhante ao que você já está fazendo em seu próprio projeto para que suas mudanças sejam aceitas.
+Se esse é o caso - ótimo, isso vai ser natural para você!
+==== Teste e automação
+O ponto básico aqui é permitir que o <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> valide a contribuição sem sua presença e assegure fácil manutenção.
+Imagine que você construiu um recurso ou tratou de uma peculiaridade insolúvel, ou um importante ajuste de desempenho, e seu código não é totalmente óbvio (ou pode até parecer hackeado/errado à primeira vista).
+Se você tiver coberto isso com um teste - e, idealmente, adicionou algumas palavras sobre a lógica por trás disso em um comentário - um futuro editor será lembrado sobre o propósito do código, e o(s) teste(s) garantirão que o valor do seu código os resultados serão mantidos, mesmo nas novas implementações.
+Para conseguir isso, faça o seguinte:
+* Adicione testes para sua contribuição de código, para que a validação da função de sua contribuição por outras pessoas funcione bem, mesmo depois de algum tempo, quando você estiver trabalhando em outros projetos ou tiver parado de contribuir para este projeto.
+<strong> Muitas vezes, os projetos terão verificações automatizadas contra pull requests usando esses testes e o nível de cobertura de código.
+Tente atender aos critérios que esses testes impõem.
+* Muitos projetos fornecerão scripts de construção e validação de projeto que permitem testar localmente suas mudanças.
+</strong> Use-os para garantir que sua contribuição funcione o melhor possível antes de abrir um pull request.
+<strong> Ter que revisar pull requests defeituosas com erros fáceis de corrigir muitas vezes incomoda os trusted committers.
+Eles não corrigirão seu código, mas solicitarão que você o faça.
+Isso pode criar mais idas e voltas e retardar a mesclagem.
+</strong> Ninguém é perfeito.
+Faça o seu melhor, use scripts de validação preparados se houver, e dê o seu melhor com um pull request!
+<strong> Se seu pull request continua quebrando os testes e você não consegue descobrir o porquê depois de dar o seu melhor: tente destacar esses testes no comentário do pull request, ilustre seu entendimento atual do problema e peça ajuda sobre.
+* Não se esqueça do seu próprio projeto que desencadeou a sua contribuição em primeiro lugar.
+Crie uma versão modificada do projeto compartilhado com suas alterações e teste em seu próprio projeto que a consome.
+==== Documentação e capacidade de revisão
+Você deseja assegurar que seu pull request inclua quaisquer atualizações de documentação relevantes para suas alterações.
+Se a documentação estiver em um local diferente, certifique-se de incluí-la e vinculá-la em seu pull request.
+Para tornar a revisão do código o mais fácil possível para o trusted committer ou outras pessoas que o revisam, tente seguir estas dicas:
+* Certifique-se de que seu pull request inclua apenas as mudanças relevantes para o problema que você está concluindo.
+* Tente evitar commits muito grandes, commits com mensagens de commit pouco claras, zilhões de arquivos, alterações incoerentes (por exemplo, tocar em vários tópicos).
+* Forneça uma descrição clara do que esse pull request muda, por que faz isso e quais documentos de emissão e design (se houver) a que ele se refere.
+* Se houver algo incomum ou inesperado no pull request, destaque e forneça a explicação.
+Isso tornará mais fácil raciocinar e resolver possíveis questões de bloqueio que um revisor possa ter durante a revisão.
+</strong> O mesmo vale para o cenário em que você não tinha certeza da implementação ou da sua abordagem - destaque-a e peça um insight.
+<strong> Seja civilizado e espere civilidade da revisão do <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committe</em></a>.
+* Fazer pull requests muito amplos e grandes os tornam mais difíceis de revisar, então levará muito mais tempo até que eles sejam aceitos.
+</strong> Se você tiver um recurso maior que você está contribuindo, geralmente ajuda se você dividi-lo em vários pull requests que são enviados, revisados e aceitos sequencialmente.
+Ainda é possível conectá-los a um problema ao qual você está se referindo.
+<strong>* Algumas ferramentas também têm a funcionalidade de pull request de Rascunho / WIP que você pode usar para marcar explicitamente o trabalho inacabado e não polido e ainda obter feedback antecipado dos <a href="https://innersourcecommons.org/pt-br/learn/learning-path/trusted-committer/02/"> <em>Trusted Committers</em></a>.
+</strong>* Isso permite que você assegure que você está seguindo um caminho que sua equipe anfitriã ficará feliz em mesclar assim que terminar, aderindo de certa forma à ideia de "lançar antecipadamente, liberar frequentemente".
+<strong>* A responsabilidade da equipe anfitriã é criar uma atmosfera onde compartilhar e discutir trabalho não totalmente polido é possível e bem-vindo.
+Se você não pode falhar, você não pode inovar, e a colaboração torna-se muito difícil.
+</strong>* Tente equilibrar entre pedir uma revisão antecipada e fornecer mudanças significativas para revisão.
+=== Artigos adicionais
+Alguns desses recursos podem estar escondidos atrás de acessos pagos.
+Às vezes, seu empregador tem uma assinatura que permite o acesso, caso contrário, as bibliotecas universitárias públicas também permitem o acesso aos convidados.
+==== <a href="https://doi.org/10.1109/MS.2013.95">Construção de confiança através da colaboração</a></p>
 </div>
 <!--- This file autogenerated from https://github.com/InnerSourceCommons/InnerSourceLearningPath/blob/main/scripts --></div>
         <div class="clearfix">
           
-            <a class="btn btn-light float-left" href="/pt-br/learn/learning-path/contributor/03/">← Contributor Ethos</a>
+            <a class="btn btn-light float-left" href="/pt-br/learn/learning-path/contributor/03/">← Ética do Contribuidor</a>
           
           
             <a class="btn btn-primary float-right" href="/pt-br/learn/learning-path/contributor/05/"> Benefits of becoming an InnerSource Contributor →</a>
@@ -554,7 +412,7 @@ Sometimes your employer has a subscription enabling access, otherwise public uni
             
             
             <li class="nav-item">
-              <a class="nav-link" href="https://github.com/ystk" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/ystk" alt="Yoshitake Kobayashi" title="Yoshitake Kobayashi" /></a>
+              <a class="nav-link" href="https://github.com/fer-correa" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/fer-correa" alt="Fernando Correa" title="Fernando Correa" /></a>
             </li>
             
             
@@ -563,16 +421,7 @@ Sometimes your employer has a subscription enabling access, otherwise public uni
             
             
             <li class="nav-item">
-              <a class="nav-link" href="https://github.com/tsadler1988" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/tsadler1988" alt="Tom Sadler" title="Tom Sadler" /></a>
-            </li>
-            
-            
-            
-            
-            
-            
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/Ludmila-N" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/Ludmila-N" alt="Ludmila" title="Ludmila" /></a>
+              <a class="nav-link" href="https://github.com/nysenthil" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/nysenthil" alt="Senthil Nathan" title="Senthil Nathan" /></a>
             </li>
             
             
@@ -582,24 +431,6 @@ Sometimes your employer has a subscription enabling access, otherwise public uni
             
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/rrrutledge" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/rrrutledge" alt="rrrutledge" title="rrrutledge" /></a>
-            </li>
-            
-            
-            
-            
-            
-            
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/lenucksi" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/lenucksi" alt="lenucksi" title="lenucksi" /></a>
-            </li>
-            
-            
-            
-            
-            
-            
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/nadamsoreilly" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/nadamsoreilly" alt="Nick Adams" title="Nick Adams" /></a>
             </li>
             
           </ul>
