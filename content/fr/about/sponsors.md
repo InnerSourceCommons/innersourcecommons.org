@@ -21,15 +21,16 @@ subtitle: "Nos partenaires sont des organisations qui aident à diriger le mouve
   <div class="container text-center" >
     <h2 class="display-3"> Nos Supporters </h2>
   </div>
-  
+
   <div class="container">
     <div class="row justify-content-center">
+      {{< company name="Adeo" image="/images/logos/adeo-supporters.png" >}}{{< /company >}}
+      {{< company name="Bosch" image="/images/logos/bosch.png" >}}{{< /company >}}
       {{< company name="Comcast" image="/images/logos/comcast.png" >}}{{< /company >}}
       {{< company name="Fannie Mae" image="/images/logos/Fannie_Mae.png" >}}{{< /company >}}
-      {{< company name="Indeed" image="/images/logos/indeed.png" >}}{{< /company >}}
-      {{< company name="Santander" image="/images/logos/santander.png" >}}{{< /company >}}
+      {{< company name="Mercedes Benz" image="/images/logos/Mercedes-Benz.png" >}}{{< /company >}}
+      {{< company name="Red Hat" image="/images/logos/Red Hat.png" >}}{{< /company >}}
       {{< company name="SAP" image="/images/logos/sap.png" >}}{{< /company >}}
-      {{< company name="Sourcegraph" image="/images/logos/sourcegraph.svg" >}}{{< /company >}}
     </div>
   </div>
       

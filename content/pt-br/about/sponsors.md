@@ -10,12 +10,12 @@ subtitle: "Nossos Parceiros são organizações que ajudam a liderar o movimento
 </div>
 
 <div class="container">
-  <div class="row justify-content-center">
-    {{< company name="Bitergia" image="/images/logos/bitergia.png" >}}{{< /company >}}
-    {{< company name="GitHub" image="/images/logos/github.png" >}}{{< /company >}}
-    {{< company name="IBM" image="/images/logos/ibm.png" >}}{{< /company >}}
-    {{< company name="Microsoft" image="/images/logos/microsoft.png" >}}{{< /company >}}
-  </div>
+<div class="row justify-content-center">
+  {{< company name="Bitergia" image="/images/logos/bitergia.png" >}}{{< /company >}}
+  {{< company name="GitHub" image="/images/logos/github.png" >}}{{< /company >}}
+  {{< company name="IBM" image="/images/logos/ibm.png" >}}{{< /company >}}
+  {{< company name="Microsoft" image="/images/logos/microsoft.png" >}}{{< /company >}}
+</div>
 </div>
 
 <div class="container text-center" >
@@ -23,13 +23,15 @@ subtitle: "Nossos Parceiros são organizações que ajudam a liderar o movimento
 </div>
 
 <div class="container">
-  <div class="row justify-content-center">
-    {{< company name="Comcast" image="/images/logos/comcast.png" >}}{{< /company >}}
-    {{< company name="Fannie Mae" image="/images/logos/Fannie_Mae.png" >}}{{< /company >}}
-    {{< company name="Indeed" image="/images/logos/indeed.png" >}}{{< /company >}}
-    {{< company name="SAP" image="/images/logos/sap.png" >}}{{< /company >}}
-    {{< company name="Sourcegraph" image="/images/logos/sourcegraph.svg" >}}{{< /company >}}
-  </div>
+<div class="row justify-content-center">
+  {{< company name="Adeo" image="/images/logos/adeo-supporters.png" >}}{{< /company >}}
+  {{< company name="Bosch" image="/images/logos/bosch.png" >}}{{< /company >}}
+  {{< company name="Comcast" image="/images/logos/comcast.png" >}}{{< /company >}}
+  {{< company name="Fannie Mae" image="/images/logos/Fannie_Mae.png" >}}{{< /company >}}
+  {{< company name="Mercedes Benz" image="/images/logos/Mercedes-Benz.png" >}}{{< /company >}}
+  {{< company name="Red Hat" image="/images/logos/Red Hat.png" >}}{{< /company >}}
+  {{< company name="SAP" image="/images/logos/sap.png" >}}{{< /company >}}
+</div>
 </div>
 
 <section class="section bg-light">
