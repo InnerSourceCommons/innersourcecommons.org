@@ -33,7 +33,7 @@ Daniel Izquierdo Cortazar is a researcher and one of the founders of Bitergia, a
 {{< /board-member >}}
 
 {{< board-member name="Katie Schueths" image="/images/about/Katie_Schueths.jpg" >}}
-Katie Schueths is ...
+Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community art events.
 {{< /board-member >}}
 
 {{< board-member name="Tom Sadler" title="Secretary" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
