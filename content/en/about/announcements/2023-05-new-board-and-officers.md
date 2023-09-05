@@ -23,6 +23,10 @@ We are also deeply grateful to Jacob Green, Klaas-Jan Stol and Johannes Tigges, 
 
 More details about our Board, governance and bylaws can be found at [Board & Governance](https://innersourcecommons.org/about/board/).
 
+**[UPDATE 09/2023]**:
+
+Katie Schueths joined the Board in September 2023, to fill the vacancy left by Russell Rutledge, who [took over as Executive Director]({{< ref "2023-08-new-executive-director.md" >}}) of the InnerSource Commons. Welcome to the board Katie!
+
 ### About InnerSource Commons
 
 InnerSource Commons is the world's largest community of InnerSource practitioners. It is dedicated to creating and sharing knowledge about InnerSource, the use of open source best practices for software development within the confines of an organization.
