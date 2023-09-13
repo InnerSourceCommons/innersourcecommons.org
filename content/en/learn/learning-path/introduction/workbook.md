@@ -1,14 +1,16 @@
 ---
 title: Workbook
 contributors:
+  - name: rrrutledge
+    url: https://github.com/rrrutledge
+  - name: Sebastian Spier
+    url: https://github.com/spier
   - name: nktrk
     url: https://github.com/nktrk
   - name: Jason Nguyen
     url: https://github.com/GoFightNguyen
   - name: lenucksi
     url: https://github.com/lenucksi
-  - name: rrrutledge
-    url: https://github.com/rrrutledge
   - name: Nick Adams
     url: https://github.com/nadamsoreilly
 image: images/learn/workbooks/Learning Path-Introduction Workbook-image.png
@@ -221,7 +223,7 @@ More than one answer may be correct in some questions.</p>
 <div class="sect5">
 <h6 id="_correct_answer_1_2">Correct answer: 1</h6>
 <div class="paragraph">
-<p>Why 1 is correct: The host teams open their code base to others and put effort into vetting contributions precisely because their code end up better and more featureful than if they did all the coding themselves.</p>
+<p>Why 1 is correct: The host teams open their code base to others and put effort into vetting contributions precisely because their code end up better and with more features than if they did all the coding themselves.</p>
 </div>
 <div class="paragraph">
 <p>Why 2 is incorrect: InnerSource has no impact on the definition of requirements and priorities. As with any professional software development, developers have to understand their users.</p>
