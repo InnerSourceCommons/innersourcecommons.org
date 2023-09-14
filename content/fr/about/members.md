@@ -15,6 +15,7 @@ L'élégibilité au statut de Membre est purement fondée sur le mérite, elle e
 ## Members of the InnerSource Commons Foundation
 
 * Ada Dai
+* Bill Higgins
 * Cedric Williams
 * Clare Dillon
 * Cristina Coffey
@@ -23,11 +24,13 @@ L'élégibilité au statut de Membre est purement fondée sur le mérite, elle e
 * Dmitrii Sugrobov
 * Fei Wan
 * Georg Gr&#x00FC;tter
+* Guilherme Dellagustin
 * Igor Zubaiurre 
 * Isabel Drost-Fromm
 * Jacob Green
 * Jerry Tan
 * Johannes Tigges
+* Katie Schueths
 * Klaas-Jan Stol
 * Matt Cobby
 * Maximilian Capraro
@@ -37,4 +40,5 @@ L'élégibilité au statut de Membre est purement fondée sur le mérite, elle e
 * Silona Bonewald
 * Tim Yao
 * Tom Sadler
+* Yuki Hattori
 * Zack Koppert
