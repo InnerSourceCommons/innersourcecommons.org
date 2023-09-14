@@ -60,12 +60,12 @@ Dmitry is an experienced engineering manager in the retail industry, known for h
 {{< /board-member >}}
 
 <div class="section-first container">
-    <h2>Elected Officers:</h2>
+    <h2>Officiers élus :</h2>
 </div>
 
 <div class="container">
   <p>
-    The following elected Officers do not sit on the Board of Directors.
+    Les officiers ci-dessous ont été élus, ils ne siegent pas au Conseil d’Administration.
   </p>
 </div>
 
@@ -86,12 +86,12 @@ Maximilian Capraro is a researcher and doctoral candidate at the Open Source Res
 {{< /board-member >}}
 
 <div class="section-first container">
-    <h2>Past Directors and Officers:</h2>
+    <h2>Anciens membres et officiers :</h2>
 </div>
 
 <div class="container">
   <p>
-    These fine people have served on our Board in previous years and we are listing them here to show our gratitude for their work. Thank you for your dedication to InnerSource and your active support of the InnerSource Commons Foundation!
+    Ces personnes remarquables ont siégé à notre Conseil d'Administration au cours des années précédentes et nous les citons ici pour leur témoigner notre gratitude et les remercier pour leur travail. Merci pour votre dévouement à l'InnerSource et votre soutien actif à l'ISC !
   </p>
 </div>
 
