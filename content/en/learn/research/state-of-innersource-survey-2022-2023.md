@@ -17,6 +17,6 @@ The 'State of InnerSource 2023' offers a global perspective of our community’s
 
 A huge thank you goes to each member of the InnerSource Commons community who gave their valuable time to answer our survey.
 
-We are truly grateful to Clare Dillon, the primary author of this report. We also extend our thanks and appreciation to everyone who actively promoted the survey and contributed to the survey design, analysis, writing support and review of the report – Addie Girouard, Ciara Flanagan, Cristina Coffey, Dmitrii Sugrobov, Guilherme Dellagustin, Katie Schueths, Klaas-Jan Stol, Lawrence Hecht, Niall Maher, Tom Sadler and Zack Koppert.
+We are truly grateful to Clare Dillon, the primary author of this report. We also extend our thanks and appreciation to everyone who actively promoted the survey and contributed to the survey design, analysis, writing support and review of the report – Addie Girouard, Ciara Flanagan, Cristina Coffey, Dmitrii Sugrobov, Guilherme Dellagustin, Katie Schueths, Klaas-Jan Stol, Lawrence Hecht, Niall Maher, Tom Sadler, Sebastian Spier and Zack Koppert.
 
 If you want to discuss the findings, join us in the [InnerSource Commons Slack](/slack) It’s the perfect place to share and learn from others who are leading InnerSource practices worldwide.
