@@ -32,7 +32,7 @@ Isabel Drost-Fromm is Open Source Strategist at Europace AG Germany. She`s a mem
 Daniel Izquierdo Cortazar is a researcher and one of the founders of Bitergia, a company that provides software analytics for open source ecosystems. Currently the chief data officer at Bitergia, he is focused on the quality of the data, research of new metrics, analysis, and studies of interest for Bitergia customers via data mining and processing. Daniel holds a PhD in free software engineering from the Universidad Rey Juan Carlos in Madrid, where he focused on the analysis of buggy developers activity patterns in the Mozilla Community. Daniel serves on the board and is a Member of the InnerSource Commons.
 {{< /board-member >}}
 
-{{< board-member name="Sebastian Spier" title="Vice President" image="/images/about/Sebastian_Spier.jpg" >}}
+{{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
 Sebastian Spier is Director of Engineering Programs at Meltwater, where he works on tools and methods to improve the daily work of 500+ engineers, removing frictions wherever possible.
 As an engineering manger for various software development teams, he has experienced InnerSource as a central building block to support successful collaboration in distributed teams.
 As a Member of the InnerSource Commons Foundation, he is maintaining the collection of InnerSource Patterns, always looking to help others to use and improve these patterns.
