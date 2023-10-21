@@ -51,7 +51,7 @@ title: "Community"
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="learning-path">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-5 mb-4 mb-md-0">
@@ -69,7 +69,7 @@ title: "Community"
   </div>
 </section>
 
-<section class="section bg-light">
+<section class="section bg-light" id="patterns">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
@@ -85,7 +85,7 @@ title: "Community"
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="marketing">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-5 mb-4 mb-md-0">
@@ -103,7 +103,7 @@ title: "Community"
   </div>
 </section>
 
-<section class="section bg-light">
+<section class="section bg-light" id="ispo">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
