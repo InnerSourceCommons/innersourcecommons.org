@@ -7,7 +7,7 @@ summary: "How to manage InnerSource projects? In this book Daniel Izquierdo & Jo
 book_author: Daniel Izquierdo & José Manrique López
 book_publish_date: 2018
 book_publisher: InnerSource Commons
-book_url: https://innersourcecommons.gitbook.io/managing-inner-source-projects/
+book_url: https://innersourcecommons.gitbook.io/managing-innersource-projects/
 ---
 
 This book is intended to bring, from a managerial perspective, the several aspects needed when introducing InnerSource methodologies into enterprises.
