@@ -33,9 +33,8 @@ Daniel Izquierdo Cortazar is a researcher and one of the founders of Bitergia, a
 {{< /board-member >}}
 
 {{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
-Sebastian Spier is Director of Engineering Programs at Meltwater, where he works on tools and methods to improve the daily work of 500+ engineers, removing frictions wherever possible.
-As an engineering manger for various software development teams, he has experienced InnerSource as a central building block to support successful collaboration in distributed teams.
-As a Member of the InnerSource Commons Foundation, he is maintaining the collection of InnerSource Patterns, always looking to help others to use and improve these patterns.
+Over his 15 years journey in software development, Sebastian has worked as individual contributor, agile coach, team lead, product owner, engineering manager, and director of engineering. No matter the role or team, effective cross-team collaboration has been key for getting things done at organizations of any size. For Sebastian, InnerSource is more than just a concept – it's a powerful enabler and a transformative teaching tool for fostering collaboration across teams. He firmly believes that it holds the key to enabling organizations to deliver exceptional value to their customers, cultivating a workforce that is not only more content but also highly engaged. In his vision, InnerSource is a pathway towards a more connected company.
+As a member of the InnerSource Commons Foundation, he is maintaining the collection of InnerSource Patterns. He is always looking for ways to help others to use these patterns at their org, as well as sharing their own experiences in the form of patterns.
 {{< /board-member >}}
 
 {{< board-member name="Tom Sadler" title="Secretary" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
