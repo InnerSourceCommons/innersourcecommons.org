@@ -172,6 +172,8 @@ aliases:
       {{< /company >}}
       {{< company name="Nokia" image="/images/logos/nokia.png" article="/events/isc-fall-2017" >}}
       {{< /company >}}
+      {{< company name="nifty" image="/images/logos/nifty.png" video="https://www.youtube.com/watch?v=xRPnh9tn6DQ" article="https://engineering.nifty.co.jp/blog/22132" author_name="Ryo Ashikawa, Hajime Komatsu" >}}
+      {{< /company >}}
       {{< company name="Nike" image="/images/logos/nike.png" video="https://www.youtube.com/watch?v=srPG-Tq0HIs&list=PLq-odUc2x7i-A0sOgr-5JJUs5wkgdiXuR&index=45" author_name="Russ Rutledge" author_title="Director of Community and InnerSource" >}}
       We found it very useful to work within the InnerSource Commons.. Where you can bounce ideas off of other InnerSource practitioners
       {{< /company >}}
