@@ -8,7 +8,7 @@ Contributions to this repo are welcome. Please follow the following guidelines:
 * Make your proposed changes inside your fork.
 * Test your build locally.
 * Commit to your fork.
-* Follow the GitHub Guidelines on creating a pull request.
+* Follow the [GitHub Pull Request Guidelines](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 * Please be as descriptive as necessary in your PR.
 * For i18n contributors, we recommend reading [the instructions on how it works](i18n.md).
 
