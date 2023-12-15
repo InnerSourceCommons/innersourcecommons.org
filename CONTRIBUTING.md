@@ -19,4 +19,4 @@ When adding a new organization on the [InnerSource Stories](https://innersourcec
 * Provide some evidence of the use of InnerSource practices at the given organization. Optimally an online reference that you can link to.
 * Get confirmation from the organization that they are happy to be listed on the Stories page.
 
-Here an [example PR](https://github.com/InnerSourceCommons/innersourcecommons.org/pull/683) demonstrating this. 
+Here's an [example PR](https://github.com/InnerSourceCommons/innersourcecommons.org/pull/683) demonstrating this. 
