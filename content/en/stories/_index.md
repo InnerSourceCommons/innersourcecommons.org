@@ -184,6 +184,8 @@ aliases:
       {{< /company >}}
       {{< company name="Otto Group" image="/images/logos/ottogroup.png" article="https://github.com/customer-stories/otto-group" >}}
       {{< /company >}}
+      {{< company name="Panasonic Connect" image="/images/logos/panasonic-connect.png" article="https://customers.microsoft.com/en-us/story/1671022200964097988-connect-panasonic-discrete-manufacturing-azure-en-japan" author_title="Panasonic Connect Adopts Azure and GitHub to Transform to a Cloud-Native Development Culture" >}}
+      {{< /company >}}
       {{< company name="PayPal" image="/images/logos/paypal.png" article="/learn/books/adopting-innersource-principles-and-case-studies" author_name="Sathish Vaidyanathan" author_title="Adopting InnerSource Book" >}}
       The Process of InnerSource is actually the mindset of Collaboration.
       {{< /company >}}
