@@ -32,7 +32,7 @@ Russ Rutledge é Diretor Sênior de InnerSource e Colaboração na WellSky. A We
 uções de software para organizações em todo o setor de saúde. Nessa função, Russ está liderando uma mudança transformacional na empresa em direção a um InnerSource amplo e abrangente como forma normal de realizar o trabalho. Anteriormente, Russ fundou e liderou o esforço de Colaboração de Desenvolvedores na Nike. A motivação e paixão de Russ é permitir que todos os engenheiros de software alcancem uma incrível produtividade técnica e empresarial por meio de ferramentas de qualidade e processos de trabalho simplificados.
 {{< /board-member >}}
 
-{{< board-member name="Tom Sadler" title="Secretário" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
+{{< board-member name="Tom Sadler" title="Tesoureira" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
 Tom Sadler é líder de equipe de engenharia de software para BBC iPlayer & Sounds, trabalhando no espaço de TV conectada e focando na colaboração entre equipes, incluindo o InnerSource. Tom está envolvido com a InnerSource Commons desde 2019, palestrando em diversos eventos da comunidade, é um Trusted Committer no projeto InnerSource Learning Path e liderou a publicação do Learning Path em innersourcecommons.org.
 {{< /board-member >}}
 
@@ -40,12 +40,12 @@ Tom Sadler é líder de equipe de engenharia de software para BBC iPlayer & Soun
 Sebastian Spier é Diretor de Programas de Engenharia na Meltwater, onde trabalha em ferramentas e métodos para melhorar o trabalho diário de mais de 500 engenheiros, removendo atritos sempre que possível. Como gerente de engenharia de diversas equipes de desenvolvimento de software, ele vivenciou o InnerSource como um bloco fundamental para apoiar a colaboração bem-sucedida em equipes distribuídas. Como membro da InnerSource Commons Foundation, ele mantém a coleção de Padrões InnerSource, sempre procurando ajudar os outros a utilizar e aprimorar esses padrões.
 {{< /board-member >}}
 
-{{< board-member name="Georg Grütter" image="/images/about/Georg_Grutter.jpeg" style="bg-light" >}}
+{{< board-member name="Georg Grütter" title="Tesoureiro Assistente" image="/images/about/Georg_Grutter.jpeg" style="bg-light" >}}
 Georg Grütter é um evangelista de código social e defensor de desenvolvedores na Bosch.IO. Ele co-fundou e liderou a primeira comunidade InnerSource na Bosch. Georg é um desenvolvedor de software apaixonado com mais de 30 anos de experiência. Anteriormente, ocupou diversos cargos e funções na Bosch, Line Information, Zurich System House e DaimlerChrysler. Georg criou dois projetos open source e também adora fotografia e chocolate.
 {{< /board-member >}}
 
 {{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" >}}
-é um distinto especialista em tecnologia que atualmente atua como arquiteto no GitHub, com vasta experiência em tecnologia em nuvem e metodologias DevOps. Ao longo de sua carreira, ele ofereceu orientação valiosa e proficiência para uma infinidade de clientes corporativos, ajudando-os a aprimorar seus sistemas e processos. A área de especialização de Yuki é a transformação InnerSource e ele estabeleceu uma comunidade próspera no Japão que se envolveu com figuras proeminentes e líderes de pensamento da indústria. 
+é um distinto especialista em tecnologia que atualmente atua como arquiteto no GitHub, com vasta experiência em tecnologia em nuvem e metodologias DevOps. Ao longo de sua carreira, ele ofereceu orientação valiosa e proficiência para uma infinidade de clientes corporativos, ajudando-os a aprimorar seus sistemas e processos. A área de especialização de Yuki é a transformação InnerSource e ele estabeleceu uma comunidade próspera no Japão que se envolveu com figuras proeminentes e líderes de pensamento da indústria.
 Como defensor apaixonado do InnerSource, Yuki traduziu uma vasta gama de materiais e organizou inúmeros workshops e apresentações em vídeo para disseminar a conscientização e a compreensão do assunto. Ele se orgulha imensamente de servir como exemplo para outras regiões e continua comprometido em empregar sua experiência e conhecimento para beneficiar outros membros da comunidade.
 {{< /board-member >}}
 
@@ -53,7 +53,7 @@ Como defensor apaixonado do InnerSource, Yuki traduziu uma vasta gama de materia
 Dmitrii é um gerente de engenharia experiente no setor varejista, conhecido por sua proficiência em aproveitar a tecnologia para impulsionar a inovação e a eficiência. Dmitrii é um grande defensor do InnerSource como padrão industrial de desenvolvimento de software e liderou equipes no uso dessa abordagem para melhorar continuamente suas práticas.
 {{< /board-member >}}
 
-{{< board-member name="Matt Cobby" image="/images/about/Matt_Cobby.jpg" >}}
+{{< board-member name="Matt Cobby" title="Secretário" image="/images/about/Matt_Cobby.jpg" >}}
 Matt Cobby é Diretor de Engenharia na Deloitte, onde se especializa em ajudar equipes com suas práticas de engenharia, experiência do desenvolvedor e engenharia de plataforma e produtos. Como membro da InnerSource Foundation, ele conduziu um programa InnerSource em grande escala e agora busca inspirar equipes a buscar os muitos benefícios de um estilo de colaboração de código aberto dentro de suas próprias organizações. Com mais de 18 anos de experiência em transformação no Reino Unido, Europa e Austrália, ele tem paixão por orientar engenheiros e é um apoiador ativo de comunidades técnicas e locais que inspiram as pessoas.
 {{< /board-member >}}
 
@@ -67,11 +67,11 @@ Matt Cobby é Diretor de Engenharia na Deloitte, onde se especializa em ajudar e
   </p>
 </div>
 
-{{< board-member name="Silona Bonewald" title="Tesoureira" image="/images/about/Silona_Bonewald.jpeg" >}}
+{{< board-member name="Silona Bonewald" image="/images/about/Silona_Bonewald.jpeg" >}}
 Silona Bonewald é Diretora Executiva do IEEE SA OPEN, uma plataforma abrangente que oferece à comunidade Open Source opções econômicas para desenvolver e validar seus projetos. Anteriormente, ela foi vice-presidente de arquitetura de comunidade na Hyperledger, um esforço colaborativo global de código aberto sediado na Linux Foundation, onde integrou líderes financeiros, bancários, de IoT, cadeias de suprimentos e manufatura. Outras realizações profissionais notáveis incluem pioneirismo no processo InnerSource enquanto estava no PayPal, criação de um site de comércio eletrônico inovador e compatível com Six Sigma para a Siemens AG, e criação de uma arquitetura de sistema de gerenciamento de conteúdo (CMS) internacional para a Ubisoft.
 {{< /board-member >}}
 
-{{< board-member name="Maximilian Capraro" title="Tesoureiro Assistente" image="/images/about/Maximilian_Capraro.jpg" >}}
+{{< board-member name="Maximilian Capraro" image="/images/about/Maximilian_Capraro.jpg" >}}
 Maximilian Capraro é pesquisador e candidato a doutorado no Open Source Research Group na Friedrich-Alexander-University Erlangen-Nürnberg. Ele trabalhou em projetos de pesquisa de InnerSource com diversas empresas, incluindo Black Duck Software, Continental e várias unidades de negócios da Siemens. Ele desenvolveu o método de medição de fluxo de patch (para medir a colaboração no desenvolvimento de software) e o primeiro framework de classificação para projetos e programas InnerSource. Suas áreas de pesquisa incluem quantificação da colaboração no desenvolvimento de software, governança de InnerSource, incluindo aspectos legais e tributários, e muitos outros tópicos relacionados a InnerSource, Open Source e engenharia de software.
 {{< /board-member >}}
 
