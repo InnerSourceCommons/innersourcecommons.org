@@ -97,7 +97,7 @@ title: "InnerSource Commons"
         <p class="h2 section-title">最新情報はこちら</p>
         <p class="mb-4">
         コミュニティ活動のほとんどは、<a href="https://innersourcecommons.org/slack/">Slack</a> で行われています。また、メールの定期購読や、 <a href="https://twitter.com/InnerSourceOrg">Twitter</a>、 <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a> のフォロー、<a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube</a>チャンネルの登録やによって、InnerSource Commons のニュース、イベントについての情報を取得することができます。</p>
-        <p class="h3 section-title">メールを定期購読する</p>
+        <p class="h3 section-title">ニュースレターに参加する</p>
         {{< contact-form >}}
       </div>
     </div>

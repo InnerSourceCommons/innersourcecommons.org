@@ -10,7 +10,7 @@ Esta política de privacidade explicará como nossa organização utiliza os dad
 
 A InnerSource Commons coleta a maioria dos dados diretamente fornecidos por você. Coletamos e processamos dados quando você:
 
-- Se inscreve em nossa lista de e-mails: A InnerSource Commons coleta informações de identificação pessoal (nome e endereço de e-mail) para enviar por e-mail notícias, eventos e artigos que achamos que você pode gostar.
+- Se inscreve em nossa newsletter: A InnerSource Commons coleta informações de identificação pessoal (nome e endereço de e-mail) para enviar por e-mail notícias, eventos e artigos que achamos que você pode gostar.
 
 - Se inscreve em nossos eventos: A InnerSource Commons coleta informações que você nos fornece quando se inscreve em um de nossos eventos, como conferências, e quando escolhe participar de um evento como participante, palestrante ou patrocinador. Essas informações incluem dados pessoais como seu nome, empresa e informações de contato.
 
@@ -31,7 +31,7 @@ Exibição de conteúdo de plataformas externas:
 
 Formulários:
 
-- MailChimp (lista de e-mails) - Dados Pessoais: Cookies e vários tipos de dados conforme especificados na [política de privacidade](https://mailchimp.com/legal/privacy/) do serviço.
+- MailChimp (newsletter) - Dados Pessoais: Cookies e vários tipos de dados conforme especificados na [política de privacidade](https://mailchimp.com/legal/privacy/) do serviço.
 
 Você pode configurar ou alterar os controles do navegador da web para aceitar ou recusar cookies. Como os meios pelos quais você pode recusar cookies por meio dos controles do navegador da web variam de um navegador para outro, você deve consultar o menu de ajuda do seu navegador para obter mais informações.
 
@@ -45,7 +45,7 @@ Contratamos outras organizações e prestadores de serviços para realizar deter
 
 Nosso uso de prestadores de serviços de terceiros inclui:
 - GitHub - para hospedar e contribuir para projetos
-- Mailchimp - para armazenar uma lista de e-mails para fins de marketing
+- Mailchimp - para armazenar uma newsletter para fins de marketing
 - Slack - para comunicação comunitária
 - Eventbrite e Eventyay - para organizar eventos
 - Aplos - para gestão financeira

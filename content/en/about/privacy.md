@@ -10,7 +10,7 @@ This privacy policy will explain how our organisation uses the personal data we 
 
 You directly provide InnerSource Commons with most of the data we collect. We collect and process data when you:
 
-- Register to our emailing list: InnerSource Commons collects personal identification information (Name and Email Address) to email you with news, events and articles we think you might like.
+- Register to our newsletter: InnerSource Commons collects personal identification information (Name and Email Address) to email you with news, events and articles we think you might like.
 
 - Register to our events: InnerSource Commons collects information that you provide us when you register for one of our events, such as conferences and when you choose to participate in an event as an attendee, speaker, or sponsor. This information includes personal data such as your name, company, and contact information.
 
@@ -31,7 +31,7 @@ Displaying content from external platforms
 
 Forms
 
-- MailChimp (emailing list) - Personal Data: Cookies and various types of Data as specified in the [privacy policy](https://mailchimp.com/legal/privacy/) of the service
+- MailChimp (newsletter) - Personal Data: Cookies and various types of Data as specified in the [privacy policy](https://mailchimp.com/legal/privacy/) of the service
 
 You can set or amend your web browser controls to accept or refuse cookies. As the means by which you can refuse cookies through your web browser controls vary from browser-to-browser, you should visit your browser's help menu for more information.
 

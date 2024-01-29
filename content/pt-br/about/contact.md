@@ -29,8 +29,8 @@ type: wide
       </div>
       <div class="col-md-5 offset-md-1">
         <p class="h2 section-title">Mantenha-se em Contato</p>
-        <p class="mb-4">A maioria das atividades da comunidade acontece em nosso <a href="https://join.slack.com/t/innersourcecommons/shared_invite/zt-1msf8vcqu-fYEHcyI1l4eSPq6rGprMXA">canal do Slack</a>. Você também pode se manter informado sobre as novidades, eventos e atividades da InnerSource Commons se inscrevendo em nossa lista de e-mails abaixo, nos seguindo no <a href="https://twitter.com/InnerSourceOrg">Twitter</a> e no <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, e se inscrevendo em nosso <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">canal do YouTube</a>.</p>
-        <p class="h3 section-title">Inscreva-se em nossa lista de e-mails</p>
+        <p class="mb-4">A maioria das atividades da comunidade acontece em nosso <a href="https://join.slack.com/t/innersourcecommons/shared_invite/zt-1msf8vcqu-fYEHcyI1l4eSPq6rGprMXA">canal do Slack</a>. Você também pode se manter informado sobre as novidades, eventos e atividades da InnerSource Commons assinando nossa newsletter abaixo, nos seguindo no <a href="https://twitter.com/InnerSourceOrg">Twitter</a> e no <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, e se inscrevendo em nosso <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">canal do YouTube</a>.</p>
+        <p class="h3 section-title">Junte-se ao nosso boletim informativo</p>
         {{< contact-form >}}
       </div>
     </div>
