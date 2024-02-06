@@ -32,10 +32,6 @@ Isabel Drost-Frommは、ドイツのEuropace AGでオープンソースストラ
 Daniel Izquierdo Cortazarは、オープンソースエコシステムのためのソフトウェア分析を提供するBitergiaの創設者の一人であり、現在は同社のチーフデータオフィサーとして、データの品質、新しいメトリクスの研究、データマイニングと処理を通じたBitergiaの顧客の関心事や研究に焦点を当てています。Danielは、マドリードのレイフアン・フアン・カルロス大学でのフリーソフトウェアエンジニアリングの博士号を持ち、Mozillaコミュニティのバグのある開発者の活動パターンの分析に焦点を当てました。Danielは、InnerSource Commonsの理事会のメンバーであり、メンバーでもあります。
 {{< /board-member >}}
 
-{{< board-member name="Russell Rutledge" title="Vice President" image="/images/about/Russell_Rutledge.jpg" >}}
-Russ Rutledgeは、WellSkyのInnerSourceおよびコラボレーションのシニアディレクターです。WellSkyは、ヘルスケア連続体全体の組織を支援するさまざまなソフトウェアソリューションを提供する主要なテクノロジー企業です。彼の役割では、RussはInnerSourceを一般的な作業方法とするために会社全体での変革をリードしています。以前は、RussはNikeで開発者コラボレーションの取り組みを立ち上げてリードしました。Russの情熱と熱意は、品質のツールと効率的な作業プロセスを通じて、すべてのソフトウェアエンジニアが驚くべき技術的な成果とビジネスの生産性を達成できるようにすることです。
-{{< /board-member >}}
-
 {{< board-member name="Tom Sadler" title="Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
 Tom Sadlerは、BBC iPlayer＆Soundsのソフトウェアエンジニアリングチームリーダーであり、インナーソースを含むクロスチームの協力に焦点を当てた、コネクテッドテレビの領域で活動しています。Tomは2019年からInnerSource Commonsに関与しており、複数のコミュニティイベントで講演しており、InnerSource Learning PathプロジェクトのTrusted Committerを務め、Learning Pathをinnersourcecommons.orgに公開するためのリードを担当しています。
 {{< /board-member >}}
@@ -71,11 +67,7 @@ Dmitrii Sugrobovは、小売業界の経験豊富なエンジニアリングマ�
 </div>
 
 {{< board-member name="Russell Rutledge" title="Executive Director" image="/images/about/Russell_Rutledge.jpg" >}}
-Russ Rutledge is the Senior Director of InnerSource and Collaboration at WellSky.
-WellSky is a leading technology company offering a range of software solutions that help organizations across the healthcare continuum.
-In this role, Russ is leading a transformational change in the company towards broad and pervasive InnerSource as the normal way that work gets done.
-Previously, Russ founded and led the Developer Collaboration effort at Nike.
-Russ's drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process.
+Russ Rutledgeは、WellSkyのInnerSourceおよびコラボレーションのシニアディレクターです。WellSkyは、ヘルスケア連続体全体の組織を支援するさまざまなソフトウェアソリューションを提供する主要なテクノロジー企業です。彼の役割では、RussはInnerSourceを一般的な作業方法とするために会社全体での変革をリードしています。以前は、RussはNikeで開発者コラボレーションの取り組みを立ち上げてリードしました。Russの情熱と熱意は、品質のツールと効率的な作業プロセスを通じて、すべてのソフトウェアエンジニアが驚くべき技術的な成果とビジネスの生産性を達成できるようにすることです。
 {{< /board-member >}}
 
 <div class="section-first container">
