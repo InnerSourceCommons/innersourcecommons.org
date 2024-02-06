@@ -88,6 +88,14 @@ Russ's drive and passion is to enable all software engineers to achieve incredib
   </p>
 </div>
 
+{{< board-member name="Silona Bonewald" title="財務担当" image="/images/about/Silona_Bonewald.jpeg" >}}
+Silona Bonewaldは、IEEE SA OPENのエグゼクティブディレクターであり、オープンソースコミュニティに対してプロジェクトの開発と検証のための費用対効果の高いオプションを提供しています。以前はHyperledgerのコミュニティアーキテクチャの副社長を務め、金融、銀行、インターネットオブシングス（IoT）、サプライチェーン、製造などの分野でリーダーを統合しました。彼女の他の注目すべきキャリアの成果には、PayPalでのインナーソースプロセスの先駆的な取り組み、Siemens AGでの先進的かつSix Sigma準拠のeコマースウェブサイトの作成、Ubisoftでの国際的なコンテンツ管理システム（CMS）アーキテクチャの作成などがあります。
+{{< /board-member >}}
+
+{{< board-member name="Maximilian Capraro" title="副財務担当" image="/images/about/Maximilian_Capraro.jpg" >}}
+Maximilian Capraroは、Friedrich-Alexander-University Erlangen-Nürnbergのオープンソース研究グループの研究員および博士候補生です。彼はBlack Duck Software、Continental、および複数のSiemensのビジネスユニットとの研究プロジェクトでインナーソースに取り組みました。彼はソフトウェア開発の協力を測定するためのパッチフロー測定法（ソフトウェア開発の協力の測定）、およびインナーソースプロジェクトとプログラムのための最初の分類フレームワークを開発しました。彼の研究の興味はソフトウェア開発の協力の数量化、法的および税務の側面を含むインナーソースガバナンス、およびインナーソース、オープンソース、ソフトウェアエンジニアリングの周りの多くのことです。
+{{< /board-member >}}
+
 {{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" >}}
 Danese Cooperは、InnerSource Commonsの創設者です。彼女は長期にわたりオープンソースの支持者として活動しており、以前はPayPalのオープンソースソフトウェア部門の責任者、ウィキメディア財団のCTO、Sunのチーフオープンソースエバンジェリスト、Intelのオープンソース戦略のシニアディレクターなどを務めました。DaneseはNode.js Foundationの初代議長でもあり
 
