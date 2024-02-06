@@ -36,6 +36,10 @@ Daniel Izquierdo Cortazarは、オープンソースエコシステムのため�
 Tom Sadlerは、BBC iPlayer＆Soundsのソフトウェアエンジニアリングチームリーダーであり、インナーソースを含むクロスチームの協力に焦点を当てた、コネクテッドテレビの領域で活動しています。Tomは2019年からInnerSource Commonsに関与しており、複数のコミュニティイベントで講演しており、InnerSource Learning PathプロジェクトのTrusted Committerを務め、Learning Pathをinnersourcecommons.orgに公開するためのリードを担当しています。
 {{< /board-member >}}
 
+{{< board-member name="Katie Schueths" image="/images/about/Katie_Schueths.jpg" >}}
+Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community art events.
+{{< /board-member >}}
+
 {{< board-member name="Sebastian Spier" title="Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
 Sebastian Spierは、Meltwaterのエンジニアリングプログラムディレクターであり、500人以上のエンジニアの日々の業務を改善するためのツールや方法に取り組んでおり、できる限り摩擦を減らしています。さまざまなソフトウェア開発チームのエンジニアリングマネージャーとして、彼は分散チームでの成功したコラボレーションをサポートするための中核的な要素としてのインナーソースを経験しました。InnerSource Commons Foundationのメンバーとして、彼はInnerSourceパターンのコレクションを維持し、他の人々がこれらのパターンを使用し改善できるようにするのを助けることを常に目指しています。
 {{< /board-member >}}
