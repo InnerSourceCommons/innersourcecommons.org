@@ -34,7 +34,7 @@ Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is
 Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working in the connected TV space and focussing on cross-team collaboration, including InnerSource. Tom has been involved with the InnerSource Commons since 2019, speaking at multiple community events, is a Trusted Committer on the InnerSource Learning Path project, and lead on publishing the Learning Path to innersourcecommons.org.
 {{< /board-member >}}
 
-{{< board-member name="Sebastian Spier" title="Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
+{{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
 Sebastian Spier is Director of Engineering Programs at Meltwater, where he works on tools and methods to improve the daily work of 500+ engineers, removing frictions wherever possible.
 As an engineering manger for various software development teams, he has experienced InnerSource as a central building block to support successful collaboration in distributed teams.
 As a Member of the InnerSource Commons Foundation, he is maintaining the collection of InnerSource Patterns, always looking to help others to use and improve these patterns.
