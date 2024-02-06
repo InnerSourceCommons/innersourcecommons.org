@@ -40,7 +40,7 @@ Tom Sadlerは、BBC iPlayer＆Soundsのソフトウェアエンジニアリン�
 Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community art events.
 {{< /board-member >}}
 
-{{< board-member name="Sebastian Spier" title="Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
+{{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
 Sebastian Spierは、Meltwaterのエンジニアリングプログラムディレクターであり、500人以上のエンジニアの日々の業務を改善するためのツールや方法に取り組んでおり、できる限り摩擦を減らしています。さまざまなソフトウェア開発チームのエンジニアリングマネージャーとして、彼は分散チームでの成功したコラボレーションをサポートするための中核的な要素としてのインナーソースを経験しました。InnerSource Commons Foundationのメンバーとして、彼はInnerSourceパターンのコレクションを維持し、他の人々がこれらのパターンを使用し改善できるようにするのを助けることを常に目指しています。
 {{< /board-member >}}
 
