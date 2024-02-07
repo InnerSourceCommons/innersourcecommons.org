@@ -138,7 +138,7 @@ aliases:
       {{< company name="IBM" image="/images/logos/ibm.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Jeff Jagoda" author_title="Senior Site Engineer" >}}
       We see InnerSource as a way to improve efficiency through code reuse. But even beyond that, it's an amazing conduit for learning and exchanging ideas and facilitating innovation within IBM.
       {{< /company >}}
-      {{< company name="Indeed" image="/images/logos/indeed.png" video="https://www.youtube.com/watch?v=hVcGABbmI4Y" >}}
+      {{< company name="Indeed" image="/images/logos/Indeed_Logo_RGB.png" video="https://www.youtube.com/watch?v=hVcGABbmI4Y" >}}
       {{< /company >}}
       {{< company name="ING Bank" image="/images/logos/ING_Bank.png" video="https://www.youtube.com/watch?v=277mzDL12Q4" >}}
       {{< /company >}}
