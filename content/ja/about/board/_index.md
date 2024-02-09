@@ -32,23 +32,23 @@ Isabel Drost-Frommは、ドイツのEuropace AGでオープンソースストラ
 Daniel Izquierdo Cortazarは、オープンソースエコシステムのためのソフトウェア分析を提供するBitergiaの創設者の一人であり、現在は同社のチーフデータオフィサーとして、データの品質、新しいメトリクスの研究、データマイニングと処理を通じたBitergiaの顧客の関心事や研究に焦点を当てています。Danielは、マドリードのレイフアン・フアン・カルロス大学でのフリーソフトウェアエンジニアリングの博士号を持ち、Mozillaコミュニティのバグのある開発者の活動パターンの分析に焦点を当てました。Danielは、InnerSource Commonsの理事会のメンバーであり、メンバーでもあります。
 {{< /board-member >}}
 
-{{< board-member name="Russell Rutledge" title="Vice President" image="/images/about/Russell_Rutledge.jpg" >}}
-Russ Rutledgeは、WellSkyのInnerSourceおよびコラボレーションのシニアディレクターです。WellSkyは、ヘルスケア連続体全体の組織を支援するさまざまなソフトウェアソリューションを提供する主要なテクノロジー企業です。彼の役割では、RussはInnerSourceを一般的な作業方法とするために会社全体での変革をリードしています。以前は、RussはNikeで開発者コラボレーションの取り組みを立ち上げてリードしました。Russの情熱と熱意は、品質のツールと効率的な作業プロセスを通じて、すべてのソフトウェアエンジニアが驚くべき技術的な成果とビジネスの生産性を達成できるようにすることです。
-{{< /board-member >}}
-
-{{< board-member name="Tom Sadler" title="Secretary" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
+{{< board-member name="Tom Sadler" title="Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
 Tom Sadlerは、BBC iPlayer＆Soundsのソフトウェアエンジニアリングチームリーダーであり、インナーソースを含むクロスチームの協力に焦点を当てた、コネクテッドテレビの領域で活動しています。Tomは2019年からInnerSource Commonsに関与しており、複数のコミュニティイベントで講演しており、InnerSource Learning PathプロジェクトのTrusted Committerを務め、Learning Pathをinnersourcecommons.orgに公開するためのリードを担当しています。
 {{< /board-member >}}
 
-{{< board-member name="Sebastian Spier" title="Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
+{{< board-member name="Katie Schueths" image="/images/about/Katie_Schueths.jpg" >}}
+Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community art events.
+{{< /board-member >}}
+
+{{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
 Sebastian Spierは、Meltwaterのエンジニアリングプログラムディレクターであり、500人以上のエンジニアの日々の業務を改善するためのツールや方法に取り組んでおり、できる限り摩擦を減らしています。さまざまなソフトウェア開発チームのエンジニアリングマネージャーとして、彼は分散チームでの成功したコラボレーションをサポートするための中核的な要素としてのインナーソースを経験しました。InnerSource Commons Foundationのメンバーとして、彼はInnerSourceパターンのコレクションを維持し、他の人々がこれらのパターンを使用し改善できるようにするのを助けることを常に目指しています。
 {{< /board-member >}}
 
-{{< board-member name="Matt Cobby" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
+{{< board-member name="Matt Cobby" title="Secretary" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
 Matt Cobbyは、Deloitteのエンジニアリングディレクターであり、チームのエンジニアリングプラクティス、開発者体験、およびプラットフォーム＆プロダクトエンジニアリングに関する支援に特化しています。InnerSource Foundationのメンバーとして、彼は大規模なInnerSourceプログラムを運営し、チームにオープンソーススタイルのコラボレーションの多くの利点を追求するように励まし、組織内での採用を促すことを目指しています。英国、ヨーロッパ、オーストラリアでの18年以上の変革経験を持ち、エンジニアの指導をすることに情熱を持ち、技術的およびローカルコミュニティを積極的にサポートしています。
 {{< /board-member >}}
 
-{{< board-member name="Georg Grütter" image="/images/about/Georg_Grutter.jpeg" >}}
+{{< board-member name="Georg Grütter" title="Assistant Treasurer" image="/images/about/Georg_Grutter.jpeg" >}}
 Georg Grütterは、Bosch.IOのソーシャルコーディングエバンジェリストであり、デベロッパーアドボケートです。彼はBoschで最初のインナーソースコミュニティを共同設立し、リードしました。Georgは、30年以上のソフトウェア開発の経験を持つ情熱的なソフトウェア開発者です。以前は、Bosch、Line Information、Zurich System House、DaimlerChryslerでさまざまなポジションと役割を務めました。Georgは2つのオープンソースプロジェクトを作成し、写真撮影とチョコレートも大好きです。
 {{< /board-member >}}
 
@@ -70,12 +70,8 @@ Dmitrii Sugrobovは、小売業界の経験豊富なエンジニアリングマ�
   </p>
 </div>
 
-{{< board-member name="Silona Bonewald" title="財務担当" image="/images/about/Silona_Bonewald.jpeg" >}}
-Silona Bonewaldは、IEEE SA OPENのエグゼクティブディレクターであり、オープンソースコミュニティに対してプロジェクトの開発と検証のための費用対効果の高いオプションを提供しています。以前はHyperledgerのコミュニティアーキテクチャの副社長を務め、金融、銀行、インターネットオブシングス（IoT）、サプライチェーン、製造などの分野でリーダーを統合しました。彼女の他の注目すべきキャリアの成果には、PayPalでのインナーソースプロセスの先駆的な取り組み、Siemens AGでの先進的かつSix Sigma準拠のeコマースウェブサイトの作成、Ubisoftでの国際的なコンテンツ管理システム（CMS）アーキテクチャの作成などがあります。
-{{< /board-member >}}
-
-{{< board-member name="Maximilian Capraro" title="副財務担当" image="/images/about/Maximilian_Capraro.jpg" >}}
-Maximilian Capraroは、Friedrich-Alexander-University Erlangen-Nürnbergのオープンソース研究グループの研究員および博士候補生です。彼はBlack Duck Software、Continental、および複数のSiemensのビジネスユニットとの研究プロジェクトでインナーソースに取り組みました。彼はソフトウェア開発の協力を測定するためのパッチフロー測定法（ソフトウェア開発の協力の測定）、およびインナーソースプロジェクトとプログラムのための最初の分類フレームワークを開発しました。彼の研究の興味はソフトウェア開発の協力の数量化、法的および税務の側面を含むインナーソースガバナンス、およびインナーソース、オープンソース、ソフトウェアエンジニアリングの周りの多くのことです。
+{{< board-member name="Russell Rutledge" title="Executive Director" image="/images/about/Russell_Rutledge.jpg" >}}
+Russ Rutledgeは、WellSkyのInnerSourceおよびコラボレーションのシニアディレクターです。WellSkyは、ヘルスケア連続体全体の組織を支援するさまざまなソフトウェアソリューションを提供する主要なテクノロジー企業です。彼の役割では、RussはInnerSourceを一般的な作業方法とするために会社全体での変革をリードしています。以前は、RussはNikeで開発者コラボレーションの取り組みを立ち上げてリードしました。Russの情熱と熱意は、品質のツールと効率的な作業プロセスを通じて、すべてのソフトウェアエンジニアが驚くべき技術的な成果とビジネスの生産性を達成できるようにすることです。
 {{< /board-member >}}
 
 <div class="section-first container">
@@ -87,6 +83,14 @@ Maximilian Capraroは、Friedrich-Alexander-University Erlangen-Nürnbergのオ�
     これらの優れた人々は、過去の数年間にわたり当社の取締役会で奉仕してくれました。InnerSourceとInnerSource Commons Foundationへのご尽力に感謝するために、ここにリストアップしています。ご尽力に感謝いたします。
   </p>
 </div>
+
+{{< board-member name="Silona Bonewald" title="財務担当" image="/images/about/Silona_Bonewald.jpeg" >}}
+Silona Bonewaldは、IEEE SA OPENのエグゼクティブディレクターであり、オープンソースコミュニティに対してプロジェクトの開発と検証のための費用対効果の高いオプションを提供しています。以前はHyperledgerのコミュニティアーキテクチャの副社長を務め、金融、銀行、インターネットオブシングス（IoT）、サプライチェーン、製造などの分野でリーダーを統合しました。彼女の他の注目すべきキャリアの成果には、PayPalでのインナーソースプロセスの先駆的な取り組み、Siemens AGでの先進的かつSix Sigma準拠のeコマースウェブサイトの作成、Ubisoftでの国際的なコンテンツ管理システム（CMS）アーキテクチャの作成などがあります。
+{{< /board-member >}}
+
+{{< board-member name="Maximilian Capraro" title="副財務担当" image="/images/about/Maximilian_Capraro.jpg" >}}
+Maximilian Capraroは、Friedrich-Alexander-University Erlangen-Nürnbergのオープンソース研究グループの研究員および博士候補生です。彼はBlack Duck Software、Continental、および複数のSiemensのビジネスユニットとの研究プロジェクトでインナーソースに取り組みました。彼はソフトウェア開発の協力を測定するためのパッチフロー測定法（ソフトウェア開発の協力の測定）、およびインナーソースプロジェクトとプログラムのための最初の分類フレームワークを開発しました。彼の研究の興味はソフトウェア開発の協力の数量化、法的および税務の側面を含むインナーソースガバナンス、およびインナーソース、オープンソース、ソフトウェアエンジニアリングの周りの多くのことです。
+{{< /board-member >}}
 
 {{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" >}}
 Danese Cooperは、InnerSource Commonsの創設者です。彼女は長期にわたりオープンソースの支持者として活動しており、以前はPayPalのオープンソースソフトウェア部門の責任者、ウィキメディア財団のCTO、Sunのチーフオープンソースエバンジェリスト、Intelのオープンソース戦略のシニアディレクターなどを務めました。DaneseはNode.js Foundationの初代議長でもあり

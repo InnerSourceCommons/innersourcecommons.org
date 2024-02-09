@@ -37,7 +37,7 @@ Over his 15 years journey in software development, Sebastian has worked as indiv
 As a member of the InnerSource Commons Foundation, he is maintaining the collection of InnerSource Patterns. He is always looking for ways to help others to use these patterns at their org, as well as sharing their own experiences in the form of patterns.
 {{< /board-member >}}
 
-{{< board-member name="Tom Sadler" title="Secretary" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
+{{< board-member name="Tom Sadler" title="Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
 Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working in the connected TV space and focussing on cross-team collaboration, including InnerSource. Tom has been involved with the InnerSource Commons since 2019, speaking at multiple community events, is a Trusted Committer on the InnerSource Learning Path project, and lead on publishing the Learning Path to innersourcecommons.org.
 {{< /board-member >}}
 
@@ -45,13 +45,13 @@ Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working
 Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community art events.
 {{< /board-member >}}
 
-{{< board-member name="Matt Cobby" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
+{{< board-member name="Matt Cobby" title="Secretary" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
 Matt Cobby is Director of Engineering at Deloitte where he specializes in helping teams with their engineering practices, developer experience, and platform & product engineering.
 As a member of the InnerSource Foundation he has run a large scale InnerSource program and now seeks to inspire teams to seek the many benefits of an Open Source style of collaboration inside their own organization.
 With over 18 years transformation experience in the UK, Europe & Australia, he has a passion for mentoring engineers and is an active supporter of technical & local communities that inspire people.
 {{< /board-member >}}
 
-{{< board-member name="Georg Grütter" image="/images/about/Georg_Grutter.jpeg" >}}
+{{< board-member name="Georg Grütter" title="Assistant Treasurer" image="/images/about/Georg_Grutter.jpeg" >}}
 Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO. He co-founded and led the first InnerSource community at Bosch. Georg is a passionate software developer with over 30 years of experience. Previously, he held various positions and roles at Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg has created two open source projects, and also loves photography and chocolate.
 {{< /board-member >}}
 
@@ -82,14 +82,6 @@ Previously, Russ founded and led the Developer Collaboration effort at Nike.
 Russ's drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process.
 {{< /board-member >}}
 
-{{< board-member name="Silona Bonewald" title="Treasurer" image="/images/about/Silona_Bonewald.jpeg" >}}
-Silona Bonewald is the Executive Director for IEEE SA OPEN, a comprehensive platform offering the open source community cost-effective options for developing and validating their projects. Previously she was vice president of community architecture at Hyperledger, a global open source collaborative effort hosted by The Linux Foundation, where she integrated leaders in finance, banking, Internet of Things (IoT), supply chains, and manufacturing. Other notable career accomplishments include, while with PayPal, pioneering the InnerSource process; for Siemens AG, creating a cutting-edge and Six Sigma-compliant e-commerce website; and for Ubisoft, creating an international content management system (CMS) architecture.
-{{< /board-member >}}
-
-{{< board-member name="Maximilian Capraro" title="Assistant Treasurer" image="/images/about/Maximilian_Capraro.jpg" >}}
-Maximilian Capraro is a researcher and doctoral candidate at the Open Source Research Group at Friedrich-Alexander-University Erlangen-Nürnberg. He worked on inner source in research projects with a variety of companies including Black Duck Software, Continental, and multiple Siemens business units. He developed the patch-flow measurement method (for measuring software development collaboration) and the first classification framework for inner source projects and programs. His research interests the quantification of software development collaboration, inner source governance including legal and taxation aspects, and many other things around inner source, open source, and software engineering.
-{{< /board-member >}}
-
 <div class="section-first container">
     <h2>Past Directors and Officers:</h2>
 </div>
@@ -99,6 +91,14 @@ Maximilian Capraro is a researcher and doctoral candidate at the Open Source Res
     These fine people have served on our Board in previous years and we are listing them here to show our gratitude for their work. Thank you for your dedication to InnerSource and your active support of the InnerSource Commons Foundation!
   </p>
 </div>
+
+{{< board-member name="Silona Bonewald" image="/images/about/Silona_Bonewald.jpeg" >}}
+Silona Bonewald is the Executive Director for IEEE SA OPEN, a comprehensive platform offering the open source community cost-effective options for developing and validating their projects. Previously she was vice president of community architecture at Hyperledger, a global open source collaborative effort hosted by The Linux Foundation, where she integrated leaders in finance, banking, Internet of Things (IoT), supply chains, and manufacturing. Other notable career accomplishments include, while with PayPal, pioneering the InnerSource process; for Siemens AG, creating a cutting-edge and Six Sigma-compliant e-commerce website; and for Ubisoft, creating an international content management system (CMS) architecture.
+{{< /board-member >}}
+
+{{< board-member name="Maximilian Capraro" image="/images/about/Maximilian_Capraro.jpg" >}}
+Maximilian Capraro is a researcher and doctoral candidate at the Open Source Research Group at Friedrich-Alexander-University Erlangen-Nürnberg. He worked on inner source in research projects with a variety of companies including Black Duck Software, Continental, and multiple Siemens business units. He developed the patch-flow measurement method (for measuring software development collaboration) and the first classification framework for inner source projects and programs. His research interests the quantification of software development collaboration, inner source governance including legal and taxation aspects, and many other things around inner source, open source, and software engineering.
+{{< /board-member >}}
 
 {{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" >}}
 Danese Cooper is the founder of InnerSource Commons. She is a long term open source advocate, having previously served as the of head of open source software at PayPal, CTO of the Wikimedia Foundation, chief open source evangelist for Sun, and senior director of open source strategies for Intel. Danese was also the inaugural chairperson of the Node.js Foundation. She concentrates on creating healthy open source communities and has served on the boards of Drupal Association, the Open Source Initiative, the Open Source Hardware Association, and she’s advised Mozilla and the Apache Software Foundation. Danese also runs a successful open source consultancy that counts the Bill & Melinda Gates Foundation, the SETI Institute, Harris, and Numenta as clients. She’s been known to knit through meetings.
