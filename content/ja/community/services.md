@@ -45,8 +45,7 @@ InnerSource サービスディレクトリへようこそ。我々は、3つの�
         </td>
     </tr>
     <tr>
-        <td><img src="/images/logos/gitlab.png" alt="GitLab"><img style="width: 30%;
-  height: auto; display: block; margin-left: auto; margin-right: auto;" src="/images/Supporter Badge.png" alt="Supporter"></td>
+        <td><img src="/images/logos/gitlab.png" alt="GitLab"></td>
        <td>ツールおよびトレーニングサービス</td>
         <td class="title">インナーソースはGitLabの「Everyone can Contribute」という価値観の核です。そのため、企業全体でアイデアと貢献を集めるための最良の方法について非常に経験豊富です。当社では、セキュアにインナーソースを実施し、企業内のあらゆる角からイノベーションを引き出すための無料および有料のトレーニングを提供しています。無料ワークショップは、適格なアカウントのためにテクニカルアカウントマネージャーが主導します。また、プロフェッショナルサービスによるトレーニングも受けることができます。彼らの <a href="https://about.gitlab.com/solutions/innersource/">プロフェッショナルサービスによるトレーニング</a> と <a href="https://about.gitlab.com/handbook/customer-success/workshops/innersource-workshop.html">TAM主導のワークショップ</a> について詳しくは、 <a href="https://about.gitlab.com/sales/">GitLab</a> にお問い合わせください。
         </td>
@@ -63,9 +62,16 @@ InnerSource サービスディレクトリへようこそ。我々は、3つの�
         <td class="title">Promyzeは、ソフトウェア開発者向けの知識共有プラットフォームを提供することで、インナーソースの採用をサポートしています。各チームは、自分たちのベストプラクティスを定義し、会社内の他のチームと共有することを選択できます。チームは、自分たちのコンテキストに関連する知識を取得したり、改善提案や質問を行ったりすることができます。これにより、知識共有が促進され、会社内のソースコードの統一性が向上します。   <a href="https://promyze.com/innersource-understand-in-5-minutes/">詳細はこちらをクリック</a> するか、直接 <a href="https://promyze.com/contact">Promyze</a> にお問い合わせください。
         </td>
     </tr>
+    <tr>
+        <td><img src="/images/logos/Red Hat.png" alt="Red Hat"></td>
+        <td>トレーニングとコンサルティングサービス</td>
+        <td class="title">数十年にわたり、Red Hat は業界参加者とオープンソース開発者間のコラボレーションを促進してきました。
+        Red Hat サービスは、技術トレーニング、コンサルティング、サポートだけでなく、お客様が InnerSource 原則の利点を実感できるように内部コミュニティを構築および育成し、外部コミュニティとつながるのを支援する一連のサービスも提供します。
+        当社のコミュニティ構築サービスについて詳しく見る <a href="https://www.redhat.com/en/services/consulting#contact">ここ</a>. 
+        </td>
+    </tr>
      <tr>
-        <td><img src="/images/logos/sourcegraph.svg" alt="Sourcegraph"><img style="width: 30%;
-  height: auto; display: block; margin-left: auto; margin-right: auto;" src="/images/Supporter Badge.png" alt="Supporter"></td>
+        <td><img src="/images/logos/sourcegraph-logo.svg" alt="Sourcegraph"></td>
         <td>ツールおよびトレーニングサービス</td>
         <td class="title">Sourcegraphは、インナーソースの採用を容易にします。お客様は既存のコードライブラリを見つけて再利用したり、チームメイトが既に解決した問題に時間を費やすことを避けることができます。これにより、より安全で一貫性のあるコードベースが得られ、より興味深い作業に時間を費やすことができます。 <a href="https://srcgr.ph/innersource-commons">詳細はこちらをクリック</a> するか、直接 <a href="mailto:innersource@sourcegraph.com">Sourcegraph</a> にお問い合わせください。
         </td>
