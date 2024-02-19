@@ -65,7 +65,7 @@ We do our best to ensure that the information on this page is accurate and helpf
     <tr>
         <td><img src="/images/logos/Red Hat.png" alt="Red Hat"></td>
         <td>Training & Consulting Services</td>
-        <td class="title">Over the course of decades, Red Hat has catalyzed collaboration among industry participants and open source developers.
+        <td class="title">Over the course of decades, Red Hat has catalyzed collaboration amongst industry participants and open source developers.
         Red Hat Services offers not only technical training, consulting, and support, but also a collection of services to help our customers build and cultivate internal communities and to connect with external communities so they can realize the benefits of InnerSource principles.
         Learn more about our community-building services <a href="https://www.redhat.com/en/services/consulting#contact">here</a>. 
         </td>
