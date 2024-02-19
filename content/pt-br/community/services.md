@@ -47,12 +47,9 @@ tricas de primeira linha. <a href="https://bitergia.com/innersource/">Clique aqu
         </td>
     </tr>
     <tr>
-        <td><img src="/images/logos/gitlab.png" alt="GitLab"><img style="width: 30%;
-  height: auto; display: block; margin-left: auto; margin-right: auto;" src="/images/Supporter Badge.png" alt="Apoiador"></td>
+        <td><img src="/images/logos/gitlab.png" alt="GitLab"></td>
         <td>Ferramentas e Serviços de Treinamento</td>
-        <td class="title">O InnerSource é fundamental para os valores do GitLab de "Todos podem Contribuir". Como tal, temos muita experiência nas melhores maneiras de obter ideias e contribuições em empresas. Oferecemos treinamentos gratuitos e pagos para organizações que desejam InnerSource com segurança e promover a inovação em todos os cantos da empresa. Nosso workshop gratuito é conduzido por um Gerente de Conta Técnica para contas qualificadas. Você também pode realizar um treinamento conduzido pelos serviços profissionais
-
-. Saiba mais sobre seu <a href="https://about.gitlab.com/solutions/innersource/">treinamento conduzido pelos serviços profissionais</a> e seus <a href="https://about.gitlab.com/handbook/customer-success/workshops/innersource-workshop.html">workshops conduzidos pelo TAM</a> ou <a href="https://about.gitlab.com/sales/">entre em contato com o GitLab</a> diretamente.
+        <td class="title">O InnerSource é fundamental para os valores do GitLab de "Todos podem Contribuir". Como tal, temos muita experiência nas melhores maneiras de obter ideias e contribuições em empresas. Oferecemos treinamentos gratuitos e pagos para organizações que desejam InnerSource com segurança e promover a inovação em todos os cantos da empresa. Nosso workshop gratuito é conduzido por um Gerente de Conta Técnica para contas qualificadas. Você também pode realizar um treinamento conduzido pelos serviços profissionais. Saiba mais sobre seu <a href="https://about.gitlab.com/solutions/innersource/">treinamento conduzido pelos serviços profissionais</a> e seus <a href="https://about.gitlab.com/handbook/customer-success/workshops/innersource-workshop.html">workshops conduzidos pelo TAM</a> ou <a href="https://about.gitlab.com/sales/">entre em contato com o GitLab</a> diretamente.
         </td>
     </tr>
     <tr>
@@ -68,12 +65,18 @@ tricas de primeira linha. <a href="https://bitergia.com/innersource/">Clique aqu
         </td>
     </tr>
     <tr>
-        <td><img src="/images/logos/sourcegraph.svg" alt="Sourcegraph"><img style="width: 30%;
-  height: auto; display: block; margin-left: auto; margin-right: auto;" src="/images/Supporter Badge.png" alt="Apoiador"></td>
+        <td><img src="/images/logos/Red Hat.png" alt="Red Hat"></td>
+        <td>Serviços de Treinamento e Consultoria</td>
+        <td class="title">Ao longo de décadas, a Red Hat catalisou a colaboração entre participantes do setor e desenvolvedores de código aberto.
+        A Red Hat Services oferece não apenas treinamento técnico, consultoria e suporte, mas também um conjunto de serviços para ajudar nossos clientes a construir e cultivar comunidades internas e a se conectar com comunidades externas para que possam aproveitar os benefícios dos princípios do InnerSource.
+        Saiba mais sobre nossos serviços de construção de comunidade <a href="https://www.redhat.com/en/services/consulting#contact">aqui</a>. 
+        </td>
+    </tr>
+    <tr>
+        <td><img src="/images/logos/sourcegraph-logo.svg" alt="Sourcegraph"></td>
         <td>Ferramentas e Serviços de Treinamento</td>
-        <td class="title">A Sourcegraph
-
- facilita a promoção da adoção do InnerSource. Nossos clientes podem encontrar bibliotecas de código existentes para reutilização e evitar gastar tempo em problemas que um colega de equipe já resolveu. Isso significa uma base de código mais segura e coerente e mais tempo para se dedicar a trabalhos mais interessantes. <a href="https://srcgr.ph/innersource-commons">Clique aqui para saber mais</a> ou <a href="mailto:innersource@sourcegraph.com">entre em contato com a Sourcegraph</a> diretamente.
+        <td class="title">
+        A Sourcegraph facilita a promoção da adoção do InnerSource. Nossos clientes podem encontrar bibliotecas de código existentes para reutilização e evitar gastar tempo em problemas que um colega de equipe já resolveu. Isso significa uma base de código mais segura e coerente e mais tempo para se dedicar a trabalhos mais interessantes. <a href="https://srcgr.ph/innersource-commons">Clique aqui para saber mais</a> ou <a href="mailto:innersource@sourcegraph.com">entre em contato com a Sourcegraph</a> diretamente.
         </td>
     </tr>
     <tr>

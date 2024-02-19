@@ -19,7 +19,7 @@ We do our best to ensure that the information on this page is accurate and helpf
     <tr>
         <td><img src="/images/logos/bayave.png" alt="Bayave"><img style="width: 30%;
   height: auto; display: block; margin-left: auto; margin-right: auto;"></td>
-        <td>Training and Consulting Services</td>
+        <td>Training & Consulting Services</td>
         <td class="title">Bayave provides training and consulting services on open source, InnerSource, and product strategy. You can learn more on our website <a href="https://bayave.com/"> https://bayave.com/ </a> or contact us by email at <a href="mailto:info@bayave.com"> info@bayave.com </a> directly.
         </td>
     </tr>
@@ -60,6 +60,14 @@ We do our best to ensure that the information on this page is accurate and helpf
         <td><img src="/images/logos/promyze.png" alt="Promyze"></td>
         <td>Tools</td>
         <td class="title">Promyze supports InnerSource adoption by providing a knowledge-sharing platform for software developers, to create and share best coding practices. The tool is fully integrated in the developer ecosystem. Each team can define their best practices and choose to make them publicly available to other teams within the company. Teams can retrieve knowledge relevant to their context or can suggest improvements and ask questions. This boosts knowledge sharing and increases source code uniformity within a company.   <a href="https://promyze.com/innersource-understand-in-5-minutes/">Click here to learn more</a> or <a href="https://promyze.com/contact">contact Promyze</a> directly.
+        </td>
+    </tr>
+    <tr>
+        <td><img src="/images/logos/Red Hat.png" alt="Red Hat"></td>
+        <td>Training & Consulting Services</td>
+        <td class="title">Over the course of decades, Red Hat has catalyzed collaboration amongst industry participants and open source developers.
+        Red Hat Services offers not only technical training, consulting, and support, but also a collection of services to help our customers build and cultivate internal communities and to connect with external communities so they can realize the benefits of InnerSource principles.
+        Learn more about our community-building services <a href="https://www.redhat.com/en/services/consulting#contact">here</a>. 
         </td>
     </tr>
      <tr>
