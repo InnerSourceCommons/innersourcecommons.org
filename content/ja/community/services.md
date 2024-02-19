@@ -67,7 +67,7 @@ InnerSource サービスディレクトリへようこそ。我々は、3つの�
         <td>トレーニングとコンサルティングサービス</td>
         <td class="title">数十年にわたり、Red Hat は業界とオープンソース開発者のコラボレーションを促進してきました。
         Red Hat サービスは、技術トレーニング、コンサルティング、サポートだけでなく、お客様が InnerSource 原則の利点を実感できるように内部コミュニティを構築および育成し、外部コミュニティとつながるのを支援する一連のサービスも提供します。
-        当社のコミュニティ構築サービスについて詳しく見る <a href="https://www.redhat.com/en/services/consulting#contact">ここ</a>. 
+        <a href="https://www.redhat.com/en/services/consulting#contact">こちら</a>より当社のコミュニティ構築サービスについて詳しく御覧ください。 
         </td>
     </tr>
      <tr>
