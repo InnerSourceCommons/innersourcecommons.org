@@ -11,6 +11,7 @@ subtitle: "Nossos Parceiros são organizações que ajudam a liderar o movimento
 
 <div class="container">
 <div class="row justify-content-center">
+  {{< company name="Analog Devices" image="/images/logos/analog-devices.png" >}}{{< /company >}}
   {{< company name="Bitergia" image="/images/logos/bitergia.png" >}}{{< /company >}}
   {{< company name="GitHub" image="/images/logos/github.png" >}}{{< /company >}}
   {{< company name="IBM" image="/images/logos/ibm.png" >}}{{< /company >}}
