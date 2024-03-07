@@ -176,8 +176,8 @@ title: "Communauté"
       </div>
       <div class="col-md-5 offset-md-1">
         <p class="h2 section-title">Gardons le contact</p>
-        <p class="mb-4">La plupart de la vie de la communauté se déroule sur notre <a href="https://join.slack.com/t/innersourcecommons/shared_invite/zt-1l4a602b6-DKD0B0Y8~WE4aDf~o1xCRw">Canal Slack</a>. Vous pouvez également vous tenir au courant des nouvelles, des événements et des activités d'InnerSource Commons en vous inscrivant à notre liste de diffusion ci-dessous, en nous suivant sur <a href="https://twitter.com/InnerSourceOrg">Twitter</a> et <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, at en suivant notre <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">Chaine YouTube </a>.</p>
-        <p class="h3 section-title">S'inscrire sur notre liste de diffusion</p>
+        <p class="mb-4">La plupart de la vie de la communauté se déroule sur notre <a href="https://join.slack.com/t/innersourcecommons/shared_invite/zt-1l4a602b6-DKD0B0Y8~WE4aDf~o1xCRw">Canal Slack</a>. Vous pouvez également vous tenir au courant des nouvelles, des événements et des activités d'InnerSource Commons en vous inscrivant à notre bulletin ci-dessous, en nous suivant sur <a href="https://twitter.com/InnerSourceOrg">Twitter</a> et <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, at en suivant notre <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">Chaine YouTube </a>.</p>
+        <p class="h3 section-title">Rejoignez notre newslette</p>
         {{< contact-form >}}
       </div>
     </div>
