@@ -10,7 +10,7 @@ Esta política de privacidade explicará como nossa organização utiliza os dad
 
 A InnerSource Commons coleta a maioria dos dados diretamente fornecidos por você. Coletamos e processamos dados quando você:
 
-- Se inscreve em nossa newsletter: A InnerSource Commons coleta informações de identificação pessoal (nome e endereço de e-mail) para enviar por e-mail notícias, eventos e artigos que achamos que você pode gostar.
+- Cadastre-se em nossa newsletter: A InnerSource Commons coleta informações de identificação pessoal (nome e endereço de e-mail) para enviar por e-mail notícias, eventos e artigos que achamos que você pode gostar.
 
 - Se inscreve em nossos eventos: A InnerSource Commons coleta informações que você nos fornece quando se inscreve em um de nossos eventos, como conferências, e quando escolhe participar de um evento como participante, palestrante ou patrocinador. Essas informações incluem dados pessoais como seu nome, empresa e informações de contato.
 
