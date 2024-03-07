@@ -15,8 +15,3 @@ draft: false
     </div>
   </div>
 </section>
-
-<script type="text/javascript">
-
-</script>
-
