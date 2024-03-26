@@ -47,6 +47,8 @@
               <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary btn-sm mr-md-1">Open Event</a>
               {{ if .Params.youtubeLink }}
                 <a href="{{ .Params.youtubeLink }}" target="_blank" class="btn btn-secondary btn-sm mt-sm-1 mt-md-0">Watch Recording</a>
+              {{ else if .Params.blogPostLink }}
+                <a href="{{ .Params.blogPostLink }}" target="_blank" class="btn btn-secondary btn-sm mt-sm-1 mt-md-0">Read the blog post</a>
               {{ end }}
             </div>
           </div>
