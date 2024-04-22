@@ -15,7 +15,9 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 ## Members of the InnerSource Commons Foundation
 
 * Ada Dai
+* Addie Girouard
 * Bill Higgins
+* Brittany Istenes
 * Cedric Williams
 * Clare Dillon
 * Cristina Coffey
@@ -28,8 +30,10 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 * Igor Zubaiurre 
 * Isabel Drost-Fromm
 * Jacob Green
+* Jeff Bailey
 * Jerry Tan
 * Johannes Tigges
+* Justin Gosses
 * Katie Schueths
 * Klaas-Jan Stol
 * Matt Cobby
@@ -38,7 +42,9 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 * Russell Rutledge
 * Sebastian Spier
 * Silona Bonewald
+* Thomas Froment
 * Tim Yao
 * Tom Sadler
+* Willem Jiang
 * Yuki Hattori
 * Zack Koppert

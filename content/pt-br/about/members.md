@@ -15,6 +15,9 @@ A associação é baseada exclusivamente no mérito, sem nenhum custo e restrita
 ## Membros da Fundação InnerSource Commons
 
 * Ada Dai
+* Addie Girouard
+* Bill Higgins
+* Brittany Istenes
 * Cedric Williams
 * Clare Dillon
 * Cristina Coffey
@@ -23,11 +26,15 @@ A associação é baseada exclusivamente no mérito, sem nenhum custo e restrita
 * Dmitrii Sugrobov
 * Fei Wan
 * Georg Gr&#x00FC;tter
-* Igor Zubaiurre
+* Guilherme Dellagustin
+* Igor Zubaiurre 
 * Isabel Drost-Fromm
 * Jacob Green
+* Jeff Bailey
 * Jerry Tan
 * Johannes Tigges
+* Justin Gosses
+* Katie Schueths
 * Klaas-Jan Stol
 * Matt Cobby
 * Maximilian Capraro
@@ -35,6 +42,9 @@ A associação é baseada exclusivamente no mérito, sem nenhum custo e restrita
 * Russell Rutledge
 * Sebastian Spier
 * Silona Bonewald
+* Thomas Froment
 * Tim Yao
 * Tom Sadler
+* Willem Jiang
+* Yuki Hattori
 * Zack Koppert
