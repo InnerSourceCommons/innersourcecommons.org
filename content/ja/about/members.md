@@ -15,7 +15,9 @@ InnerSource Commons (ISC)コミュニティは、すべての人に開かれて�
 ## インナーソースコモンズ財団のメンバー
 
 * Ada Dai
+* Addie Girouard
 * Bill Higgins
+* Brittany Istenes
 * Cedric Williams
 * Clare Dillon
 * Cristina Coffey
@@ -25,11 +27,13 @@ InnerSource Commons (ISC)コミュニティは、すべての人に開かれて�
 * Fei Wan
 * Georg Gr&#x00FC;tter
 * Guilherme Dellagustin
-* Igor Zubaiurre
+* Igor Zubaiurre 
 * Isabel Drost-Fromm
 * Jacob Green
+* Jeff Bailey
 * Jerry Tan
 * Johannes Tigges
+* Justin Gosses
 * Katie Schueths
 * Klaas-Jan Stol
 * Matt Cobby
@@ -38,7 +42,9 @@ InnerSource Commons (ISC)コミュニティは、すべての人に開かれて�
 * Russell Rutledge
 * Sebastian Spier
 * Silona Bonewald
+* Thomas Froment
 * Tim Yao
 * Tom Sadler
+* Willem Jiang
 * Yuki Hattori
 * Zack Koppert
