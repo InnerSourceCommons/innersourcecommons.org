@@ -12,6 +12,7 @@ draft: false
         {{< announcements >}}
       </div>
       <div class="col-md-7">
+        <p class="section-title h2">InnerSource Commons Vision</p>
         <p>{{< about-text >}}
         </p>
         <a href="/about/announcements" class="btn-link">Announcements <i class="ti-arrow-right"></i></a>
@@ -26,8 +27,9 @@ draft: false
     <div class="row text-right align-items-center">
       <div class="col-md-6">
         <p class="section-title h2">InnerSource Commons Mission</p>
-        <p>Our mission is to establish a body of knowledge and to educate individuals, commercial and non-profit organizations, research centers, and other institutions about the successful adoption of InnerSource best practices. </p>
-        <p>We provide a safe environment for accumulating and sharing knowledge and experiences, finding best practices, building standards and tooling, producing educational materials, and fostering research to advance the understanding, adoption, and practice of InnerSource.
+        <p>We empower developers and organisations to apply open collaboration principles in their daily work. </p>
+        <p>We are the neutral hub and central collaboration space for InnerSource knowledge. As such, we maintain our independence and operate on a lean budget.</p>
+        <p>We build a strong, inclusive community and industry partnerships. Together, we apply open collaboration principles to drive the conversation about InnerSource and steward the InnerSource body of knowledge.
         </p>
       </div>
       <div class="col-md-6 mt-4 mb-4 mb-md-0 float-right">
