@@ -19,6 +19,7 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 * Bill Higgins
 * Brittany Istenes
 * Cedric Williams
+* Chan Voong
 * Clare Dillon
 * Cristina Coffey
 * Danese Cooper
