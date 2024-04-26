@@ -9,7 +9,7 @@ aliases:
     - /about/announcements/2024-04-new-board-and-officers
 ---
  
-2024
+April 26 2024
 
 We are delighted to announce our new InnerSource Commons (ISC) Foundation Members: Addie Girouard, Brittany Istenes, Chan Voong, Jeff Bailey, Justin Gosses, Thomas Froment and Willem Jiang.
 
