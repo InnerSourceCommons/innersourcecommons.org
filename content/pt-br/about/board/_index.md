@@ -43,10 +43,6 @@ Georg Grütter é um evangelista de código social e defensor de desenvolvedores
 Como defensor apaixonado do InnerSource, Yuki traduziu uma vasta gama de materiais e organizou inúmeros workshops e apresentações em vídeo para disseminar a conscientização e a compreensão do assunto. Ele se orgulha imensamente de servir como exemplo para outras regiões e continua comprometido em empregar sua experiência e conhecimento para beneficiar outros membros da comunidade.
 {{< /board-member >}}
 
-{{< board-member name="Dmitrii Sugrobov" image="/images/about/Dmitrii_Sugrobov.jpg" style="bg-light" >}}
-Dmitrii é um gerente de engenharia experiente no setor varejista, conhecido por sua proficiência em aproveitar a tecnologia para impulsionar a inovação e a eficiência. Dmitrii é um grande defensor do InnerSource como padrão industrial de desenvolvimento de software e liderou equipes no uso dessa abordagem para melhorar continuamente suas práticas.
-{{< /board-member >}}
-
 {{< board-member name="Matt Cobby" title="Secretário" image="/images/about/Matt_Cobby.jpg" >}}
 Matt Cobby é Diretor de Engenharia na Deloitte, onde se especializa em ajudar equipes com suas práticas de engenharia, experiência do desenvolvedor e engenharia de plataforma e produtos. Como membro da InnerSource Foundation, ele conduziu um programa InnerSource em grande escala e agora busca inspirar equipes a buscar os muitos benefícios de um estilo de colaboração de código aberto dentro de suas próprias organizações. Com mais de 18 anos de experiência em transformação no Reino Unido, Europa e Austrália, ele tem paixão por orientar engenheiros e é um apoiador ativo de comunidades técnicas e locais que inspiram as pessoas.
 {{< /board-member >}}
@@ -95,6 +91,10 @@ Klaas-Jan Stol é professor na University College Cork, Irlanda, pesquisador fin
 Russ Rutledge é Diretor Sênior de InnerSource e Colaboração na WellSky. A WellSky é uma empresa líder em tecnologia que oferece uma variedade de sol
 
 uções de software para organizações em todo o setor de saúde. Nessa função, Russ está liderando uma mudança transformacional na empresa em direção a um InnerSource amplo e abrangente como forma normal de realizar o trabalho. Anteriormente, Russ fundou e liderou o esforço de Colaboração de Desenvolvedores na Nike. A motivação e paixão de Russ é permitir que todos os engenheiros de software alcancem uma incrível produtividade técnica e empresarial por meio de ferramentas de qualidade e processos de trabalho simplificados.
+{{< /board-member >}}
+
+{{< board-member name="Dmitrii Sugrobov" image="/images/about/Dmitrii_Sugrobov.jpg" style="bg-light" >}}
+Dmitrii é um gerente de engenharia experiente no setor varejista, conhecido por sua proficiência em aproveitar a tecnologia para impulsionar a inovação e a eficiência. Dmitrii é um grande defensor do InnerSource como padrão industrial de desenvolvimento de software e liderou equipes no uso dessa abordagem para melhorar continuamente suas práticas.
 {{< /board-member >}}
 
 {{< board-member name="Cedric Williams" image="/images/about/Cedric_Williams.jpg" >}}

@@ -51,10 +51,6 @@ Yuki is a distinguished technology expert currently serving as an Architect at G
 Yuki’s area of specialization is InnerSource transformation, and he has notably established a thriving community in Japan that has engaged with prominent industry figures and thought leaders. As a passionate advocate of InnerSource, Yuki has translated a vast array of materials and has organized numerous workshops and video presentations to disseminate awareness and understanding of the subject. He takes immense pride in serving as an exemplar for other regions and remains wholeheartedly committed to employing his expertise and knowledge to benefit others within the community.
 {{< /board-member >}}
 
-{{< board-member name="Dmitrii Sugrobov" image="/images/about/Dmitrii_Sugrobov.jpg" >}}
-Dmitry is an experienced engineering manager in the retail industry, known for his proficiency in leveraging technology to drive innovation and efficiency. Dmitry strongly advocates for InnerSource as the industrial standard of software development, and has led the number of teams in using this approach to continuously improve their practices.
-{{< /board-member >}}
-
 <div class="section-first container">
     <h2>Officiers élus :</h2>
 </div>
@@ -105,6 +101,10 @@ WellSky is a leading technology company offering a range of software solutions t
 In this role, Russ is leading a transformational change in the company towards broad and pervasive InnerSource as the normal way that work gets done.
 Previously, Russ founded and led the Developer Collaboration effort at Nike.
 Russ's drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process.
+{{< /board-member >}}
+
+{{< board-member name="Dmitrii Sugrobov" image="/images/about/Dmitrii_Sugrobov.jpg" >}}
+Dmitry is an experienced engineering manager in the retail industry, known for his proficiency in leveraging technology to drive innovation and efficiency. Dmitry strongly advocates for InnerSource as the industrial standard of software development, and has led the number of teams in using this approach to continuously improve their practices.
 {{< /board-member >}}
 
 {{< board-member name="Johannes Tigges" image="/images/about/Johannes_Tigges.png" >}}
