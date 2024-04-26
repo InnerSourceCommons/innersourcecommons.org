@@ -3,7 +3,7 @@ layout: page
 title: 'Russell Rutledge appointed as new Executive Director of InnerSource Commons'
 image: "/images/about/announcements/2023-08-new-executive-director-announcement.png"
 date: 2023-08-02
-featured: true
+featured: false
 type: "announcements"
 aliases:
     - /about/announcements/2023-08-new-executive-director
