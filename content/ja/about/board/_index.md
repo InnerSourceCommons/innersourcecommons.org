@@ -86,7 +86,7 @@ Danese Cooperは、InnerSource Commonsの創設者です。彼女は長期にわ
 ました。彼女は健全なオープンソースコミュニティの形成に注力し、Drupal Association、Open Source Initiative、Open Source Hardware Associationの役員を務め、MozillaやApache Software Foundationにアドバイスを提供しています。Daneseは成功したオープンソースのコンサルティング業務も運営しており、ビル＆メリンダゲイツ財団、SETI Institute、Harris、Numentaなどをクライアントとして数えることができます。彼女は会議中に編み物をすることでも知られています。
 {{< /board-member >}}
 
-{{< board-member name="Isabel Drost-Fromm" image="/images/about/Isabel_Drost-Fromm.jpeg" style="section-first" >}}
+{{< board-member name="Isabel Drost-Fromm" image="/images/about/Isabel_Drost-Fromm.jpeg" >}}
 Isabel Drost-Frommは、ドイツのEuropace AGでオープンソースストラテジストを務めています。彼女はApache Software Foundationのメンバーであり、Apache Mahoutの共同設立者であり、いくつかのインキュベーションプロジェクトのメンターを務めました。IsabelはFOSS、検索、テキストマイニングに関するあらゆることに興味を持ち、優れた機械学習のバックグラウンドを持っています。ベルリンに住む人々の性格に忠実に、彼女は友達が短い訪問のために飛んでくるのが好きです。その結果、彼女はベルリンのBuzzwordsというテックカンファレンスの創設メンバーであり、創造的なメンバーの一人です。Buzzwordsは、検索、スケール、ストレージに関するすべてのテクノロジーに関するカンファレンスです。
 {{< /board-member >}}
 
