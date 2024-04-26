@@ -22,12 +22,6 @@ aliases:
 Daniel Izquierdo Cortazar é pesquisador e um dos fundadores da Bitergia, uma empresa que oferece análises de software para ecossistemas Open Source. Atualmente, é diretor de dados da Bitergia e concentra-se na qualidade dos dados, pesquisa de novas métricas, análises e estudos de interesse para os clientes da Bitergia por meio de mineração e processamento de dados. Daniel possui um doutorado em engenharia de open source software pela Universidad Rey Juan Carlos, em Madrid, onde se concentrou na análise de padrões de atividade de desenvolvedores com erros na comunidade Mozilla. Daniel faz parte do conselho e é membro da InnerSource Commons.
 {{< /board-member >}}
 
-{{< board-member name="Russell Rutledge" title="Vice-Presidente" image="/images/about/Russell_Rutledge.jpg" >}}
-Russ Rutledge é Diretor Sênior de InnerSource e Colaboração na WellSky. A WellSky é uma empresa líder em tecnologia que oferece uma variedade de sol
-
-uções de software para organizações em todo o setor de saúde. Nessa função, Russ está liderando uma mudança transformacional na empresa em direção a um InnerSource amplo e abrangente como forma normal de realizar o trabalho. Anteriormente, Russ fundou e liderou o esforço de Colaboração de Desenvolvedores na Nike. A motivação e paixão de Russ é permitir que todos os engenheiros de software alcancem uma incrível produtividade técnica e empresarial por meio de ferramentas de qualidade e processos de trabalho simplificados.
-{{< /board-member >}}
-
 {{< board-member name="Tom Sadler" title="Tesoureira" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
 Tom Sadler é líder de equipe de engenharia de software para BBC iPlayer & Sounds, trabalhando no espaço de TV conectada e focando na colaboração entre equipes, incluindo o InnerSource. Tom está envolvido com a InnerSource Commons desde 2019, palestrando em diversos eventos da comunidade, é um Trusted Committer no projeto InnerSource Learning Path e liderou a publicação do Learning Path em innersourcecommons.org.
 {{< /board-member >}}
@@ -95,6 +89,12 @@ Jacob Green, fundador da Mosslabs.io, é um artista de open source, estrategista
 
 {{< board-member name="Klaas-Jan Stol" image="/images/about/Klaas-Jan_Stol.jpg" >}}
 Klaas-Jan Stol é professor na University College Cork, Irlanda, pesquisador financiado pelo Lero, o Centro de Pesquisa de Software da Science Foundation Ireland, e consultor científico do SINTEF, Noruega. Como acadêmico, ele realiza pesquisas sobre abordagens contemporâneas de desenvolvimento de software, bem como aspectos humanos e organizacionais. Ele sempre teve interesse no InnerSource e publicou diversos artigos sobre o tema. Klaas possui um doutorado pela University of Limerick.
+{{< /board-member >}}
+
+{{< board-member name="Russell Rutledge" image="/images/about/Russell_Rutledge.jpg" >}}
+Russ Rutledge é Diretor Sênior de InnerSource e Colaboração na WellSky. A WellSky é uma empresa líder em tecnologia que oferece uma variedade de sol
+
+uções de software para organizações em todo o setor de saúde. Nessa função, Russ está liderando uma mudança transformacional na empresa em direção a um InnerSource amplo e abrangente como forma normal de realizar o trabalho. Anteriormente, Russ fundou e liderou o esforço de Colaboração de Desenvolvedores na Nike. A motivação e paixão de Russ é permitir que todos os engenheiros de software alcancem uma incrível produtividade técnica e empresarial por meio de ferramentas de qualidade e processos de trabalho simplificados.
 {{< /board-member >}}
 
 {{< board-member name="Cedric Williams" image="/images/about/Cedric_Williams.jpg" >}}

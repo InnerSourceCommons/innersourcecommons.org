@@ -66,10 +66,6 @@ Dmitrii Sugrobovは、小売業界の経験豊富なエンジニアリングマ�
   </p>
 </div>
 
-{{< board-member name="Russell Rutledge" title="Executive Director" image="/images/about/Russell_Rutledge.jpg" >}}
-Russ Rutledgeは、WellSkyのInnerSourceおよびコラボレーションのシニアディレクターです。WellSkyは、ヘルスケア連続体全体の組織を支援するさまざまなソフトウェアソリューションを提供する主要なテクノロジー企業です。彼の役割では、RussはInnerSourceを一般的な作業方法とするために会社全体での変革をリードしています。以前は、RussはNikeで開発者コラボレーションの取り組みを立ち上げてリードしました。Russの情熱と熱意は、品質のツールと効率的な作業プロセスを通じて、すべてのソフトウェアエンジニアが驚くべき技術的な成果とビジネスの生産性を達成できるようにすることです。
-{{< /board-member >}}
-
 <div class="section-first container">
     <h2>過去の取締役および役員：</h2>
 </div>
@@ -104,6 +100,10 @@ Jacob GreenはMosslabs.ioの創設者であり、オープンソースのアー�
 
 {{< board-member name="Klaas-Jan Stol" image="/images/about/Klaas-Jan_Stol.jpg" >}}
 Klaas-Jan Stolは、アイルランドのコーク大学カレッジの講師であり、ソフトウェアのためのアイルランド研究財団であるLeroの研究員、およびノルウェーのSINTEFの科学顧問です。彼は学術的な研究者として、現代のソフトウェア開発手法や人間と組織の側面についての研究を行っています。彼は長い間インナーソースに興味を持っており、このテーマに関するいくつかの論文を発表しています。Klaasはリムリック大学で博士号を取得しています。
+{{< /board-member >}}
+
+{{< board-member name="Russell Rutledge" image="/images/about/Russell_Rutledge.jpg" >}}
+Russ Rutledgeは、WellSkyのInnerSourceおよびコラボレーションのシニアディレクターです。WellSkyは、ヘルスケア連続体全体の組織を支援するさまざまなソフトウェアソリューションを提供する主要なテクノロジー企業です。彼の役割では、RussはInnerSourceを一般的な作業方法とするために会社全体での変革をリードしています。以前は、RussはNikeで開発者コラボレーションの取り組みを立ち上げてリードしました。Russの情熱と熱意は、品質のツールと効率的な作業プロセスを通じて、すべてのソフトウェアエンジニアが驚くべき技術的な成果とビジネスの生産性を達成できるようにすることです。
 {{< /board-member >}}
 
 {{< board-member name="Johannes Tigges" image="/images/about/Johannes_Tigges.png" >}}

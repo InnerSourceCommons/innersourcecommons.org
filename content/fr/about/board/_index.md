@@ -65,14 +65,6 @@ Dmitry is an experienced engineering manager in the retail industry, known for h
   </p>
 </div>
 
-{{< board-member name="Russell Rutledge" title="Executive Director" image="/images/about/Russell_Rutledge.jpg" >}}
-Russ Rutledge is the Senior Director of InnerSource and Collaboration at WellSky.
-WellSky is a leading technology company offering a range of software solutions that help organizations across the healthcare continuum.
-In this role, Russ is leading a transformational change in the company towards broad and pervasive InnerSource as the normal way that work gets done.
-Previously, Russ founded and led the Developer Collaboration effort at Nike.
-Russ's drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process.
-{{< /board-member >}}
-
 <div class="section-first container">
     <h2>Anciens membres et officiers :</h2>
 </div>
@@ -105,6 +97,14 @@ Jacob Green, the founder of Mosslabs.io, is an open source artist, strategist & 
 
 {{< board-member name="Klaas-Jan Stol" image="/images/about/Klaas-Jan_Stol.jpg" >}}
 Klaas-Jan Stol is a lecturer with University College Cork, Ireland, a Funded Investigator with Lero, the Science Foundation Ireland Research Centre for Software, and a Scientific Advisor with SINTEF, Norway. As an academic, he conducts research on contemporary software development approaches, as well as human and organizational aspects. He has long had an interest in InnerSource, and has published several papers on the topic. Klaas holds a PhD from the University of Limerick.
+{{< /board-member >}}
+
+{{< board-member name="Russell Rutledge" image="/images/about/Russell_Rutledge.jpg" >}}
+Russ Rutledge is the Senior Director of InnerSource and Collaboration at WellSky.
+WellSky is a leading technology company offering a range of software solutions that help organizations across the healthcare continuum.
+In this role, Russ is leading a transformational change in the company towards broad and pervasive InnerSource as the normal way that work gets done.
+Previously, Russ founded and led the Developer Collaboration effort at Nike.
+Russ's drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process.
 {{< /board-member >}}
 
 {{< board-member name="Johannes Tigges" image="/images/about/Johannes_Tigges.png" >}}
