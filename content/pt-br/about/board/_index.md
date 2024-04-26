@@ -18,10 +18,6 @@ aliases:
     <h2>O Conselho atual:</h2>
 </div>
 
-{{< board-member name="Isabel Drost-Fromm" title="Presidente" image="/images/about/Isabel_Drost-Fromm.jpeg" style="section-first" >}}
-Isabel Drost-Fromm é Estrategista de Open Source na Europace AG, na Alemanha. Ela é membro da Apache Software Foundation, co-fundadora do Apache Mahout e orientou vários projetos em fase de incubação. Isabel se interessa por tudo relacionado a FOSS, busca e mineração de texto, com um bom conhecimento em aprendizado de máquina. Seguindo a natureza das pessoas que vivem em Berlim, ela adora receber amigos para uma breve visita. Como resultado, ela co-fundou e ainda é uma das mentes criativas por trás do Berlin Buzzwords, uma conferência de tecnologia sobre busca, escalabilidade e armazenamento.
-{{< /board-member >}}
-
 {{< board-member name="Daniel Izquierdo Cortazar" title="Presidente" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
 Daniel Izquierdo Cortazar é pesquisador e um dos fundadores da Bitergia, uma empresa que oferece análises de software para ecossistemas Open Source. Atualmente, é diretor de dados da Bitergia e concentra-se na qualidade dos dados, pesquisa de novas métricas, análises e estudos de interesse para os clientes da Bitergia por meio de mineração e processamento de dados. Daniel possui um doutorado em engenharia de open source software pela Universidad Rey Juan Carlos, em Madrid, onde se concentrou na análise de padrões de atividade de desenvolvedores com erros na comunidade Mozilla. Daniel faz parte do conselho e é membro da InnerSource Commons.
 {{< /board-member >}}
@@ -81,6 +77,10 @@ Maximilian Capraro é pesquisador e candidato a doutorado no Open Source Researc
 
 {{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" >}}
 Danese Cooper é a fundadora da InnerSource Commons. Ela é uma Open Source advocate de longa data, tendo atuado anteriormente como Head de open source software do PayPal, CTO da Wikimedia Foundation, evangelista-chefe de open surce da Sun e diretora sênior de estratégias de open source da Intel. Danese também foi a primeira presidente da Node.js Foundation. Ela se concentra em criar comunidades open source saudáveis e já integrou os conselhos da Drupal Association, da Open Source Initiative e da Open Source Hardware Association. Ela também é consultora da Mozilla e da Apache Software Foundation. Danese também dirige uma bem-sucedida consultoria de open source que conta com clientes como a Fundação Bill & Melinda Gates, o SETI Institute, a Harris e a Numenta. Ela é conhecida por tricotar durante as reuniões.
+{{< /board-member >}}
+
+{{< board-member name="Isabel Drost-Fromm" image="/images/about/Isabel_Drost-Fromm.jpeg" style="section-first" >}}
+Isabel Drost-Fromm é Estrategista de Open Source na Europace AG, na Alemanha. Ela é membro da Apache Software Foundation, co-fundadora do Apache Mahout e orientou vários projetos em fase de incubação. Isabel se interessa por tudo relacionado a FOSS, busca e mineração de texto, com um bom conhecimento em aprendizado de máquina. Seguindo a natureza das pessoas que vivem em Berlim, ela adora receber amigos para uma breve visita. Como resultado, ela co-fundou e ainda é uma das mentes criativas por trás do Berlin Buzzwords, uma conferência de tecnologia sobre busca, escalabilidade e armazenamento.
 {{< /board-member >}}
 
 {{< board-member name="Johannes Tigges" image="/images/about/Johannes_Tigges.png" >}}

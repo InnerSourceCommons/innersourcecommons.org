@@ -24,10 +24,6 @@ aliases:
   </p>
 </div>
 
-{{< board-member name="Isabel Drost-Fromm" title="Chair" image="/images/about/Isabel_Drost-Fromm.jpeg" style="section-first" >}}
-Isabel Drost-Frommは、ドイツのEuropace AGでオープンソースストラテジストを務めています。彼女はApache Software Foundationのメンバーであり、Apache Mahoutの共同設立者であり、いくつかのインキュベーションプロジェクトのメンターを務めました。IsabelはFOSS、検索、テキストマイニングに関するあらゆることに興味を持ち、優れた機械学習のバックグラウンドを持っています。ベルリンに住む人々の性格に忠実に、彼女は友達が短い訪問のために飛んでくるのが好きです。その結果、彼女はベルリンのBuzzwordsというテックカンファレンスの創設メンバーであり、創造的なメンバーの一人です。Buzzwordsは、検索、スケール、ストレージに関するすべてのテクノロジーに関するカンファレンスです。
-{{< /board-member >}}
-
 {{< board-member name="Daniel Izquierdo Cortazar" title="President" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
 Daniel Izquierdo Cortazarは、オープンソースエコシステムのためのソフトウェア分析を提供するBitergiaの創設者の一人であり、現在は同社のチーフデータオフィサーとして、データの品質、新しいメトリクスの研究、データマイニングと処理を通じたBitergiaの顧客の関心事や研究に焦点を当てています。Danielは、マドリードのレイフアン・フアン・カルロス大学でのフリーソフトウェアエンジニアリングの博士号を持ち、Mozillaコミュニティのバグのある開発者の活動パターンの分析に焦点を当てました。Danielは、InnerSource Commonsの理事会のメンバーであり、メンバーでもあります。
 {{< /board-member >}}
@@ -96,6 +92,10 @@ Maximilian Capraroは、Friedrich-Alexander-University Erlangen-Nürnbergのオ�
 Danese Cooperは、InnerSource Commonsの創設者です。彼女は長期にわたりオープンソースの支持者として活動しており、以前はPayPalのオープンソースソフトウェア部門の責任者、ウィキメディア財団のCTO、Sunのチーフオープンソースエバンジェリスト、Intelのオープンソース戦略のシニアディレクターなどを務めました。DaneseはNode.js Foundationの初代議長でもあり
 
 ました。彼女は健全なオープンソースコミュニティの形成に注力し、Drupal Association、Open Source Initiative、Open Source Hardware Associationの役員を務め、MozillaやApache Software Foundationにアドバイスを提供しています。Daneseは成功したオープンソースのコンサルティング業務も運営しており、ビル＆メリンダゲイツ財団、SETI Institute、Harris、Numentaなどをクライアントとして数えることができます。彼女は会議中に編み物をすることでも知られています。
+{{< /board-member >}}
+
+{{< board-member name="Isabel Drost-Fromm" image="/images/about/Isabel_Drost-Fromm.jpeg" style="section-first" >}}
+Isabel Drost-Frommは、ドイツのEuropace AGでオープンソースストラテジストを務めています。彼女はApache Software Foundationのメンバーであり、Apache Mahoutの共同設立者であり、いくつかのインキュベーションプロジェクトのメンターを務めました。IsabelはFOSS、検索、テキストマイニングに関するあらゆることに興味を持ち、優れた機械学習のバックグラウンドを持っています。ベルリンに住む人々の性格に忠実に、彼女は友達が短い訪問のために飛んでくるのが好きです。その結果、彼女はベルリンのBuzzwordsというテックカンファレンスの創設メンバーであり、創造的なメンバーの一人です。Buzzwordsは、検索、スケール、ストレージに関するすべてのテクノロジーに関するカンファレンスです。
 {{< /board-member >}}
 
 {{< board-member name="Jacob Green" image="/images/about/Jacob_Green.jpg" >}}
