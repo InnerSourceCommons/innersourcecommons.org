@@ -57,6 +57,12 @@ We do our best to ensure that the information on this page is accurate and helpf
         </td>
     </tr>
      <tr>
+         <td><img src="/images/logos/make-dev.png" alt="Make.dev"></td>
+        <td>Consulting Services</td>
+        <td class="title">Make.dev is a community-building consultancy that specializes in driving software developer engagements. At Make.dev, we understand the impact that InnerSource can have on organizational culture and have the experience and tools necessary to guide your team to kickstart your Innersource community. This includes creating awareness campaigns for leadership and developers, designing onboarding journeys, and creating bespoke developer events.   <a href="https://www.make.dev/">Click here to learn more</a> or <a href="community@make.dev">contact Make.dev</a> directly.
+        </td>
+    </tr>
+    <tr>
         <td><img src="/images/logos/promyze.png" alt="Promyze"></td>
         <td>Tools</td>
         <td class="title">Promyze supports InnerSource adoption by providing a knowledge-sharing platform for software developers, to create and share best coding practices. The tool is fully integrated in the developer ecosystem. Each team can define their best practices and choose to make them publicly available to other teams within the company. Teams can retrieve knowledge relevant to their context or can suggest improvements and ask questions. This boosts knowledge sharing and increases source code uniformity within a company.   <a href="https://promyze.com/innersource-understand-in-5-minutes/">Click here to learn more</a> or <a href="https://promyze.com/contact">contact Promyze</a> directly.
