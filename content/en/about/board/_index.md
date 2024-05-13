@@ -55,7 +55,7 @@ Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO.
 Yuki is a distinguished technology expert currently serving as an Architect at GitHub, possessing an extensive background in Cloud technology and DevOps methodologies. Throughout his career, he has offered valuable guidance and proficiency to a myriad of enterprise clients, assisting them in refining their systems and processes.
 Yuki’s area of specialization is InnerSource transformation, and he has notably established a thriving community in Japan that has engaged with prominent industry figures and thought leaders. As a passionate advocate of InnerSource, Yuki has translated a vast array of materials and has organized numerous workshops and video presentations to disseminate awareness and understanding of the subject. He takes immense pride in serving as an exemplar for other regions and remains wholeheartedly committed to employing his expertise and knowledge to benefit others within the community.
 {{< /board-member >}}
-
+<!-- 
 <div class="section-first container">
     <h2>Elected Officers:</h2>
 </div>
@@ -64,7 +64,7 @@ Yuki’s area of specialization is InnerSource transformation, and he has notabl
   <p>
     The following elected Officers do not sit on the Board of Directors.
   </p>
-</div>
+</div> -->
 
 <div class="section-first container">
     <h2>Past Directors and Officers:</h2>
