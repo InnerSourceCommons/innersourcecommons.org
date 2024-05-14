@@ -33,11 +33,12 @@ Yuki Hattori is a Senior Architect at GitHub with a strong background in cloud t
 {{< /board-member >}}
 
 {{< board-member name="Matt Cobby" title="Secretary" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
-Matt Cobbyは、Deloitteのエンジニアリングディレクターであり、チームのエンジニアリングプラクティス、開発者体験、およびプラットフォーム＆プロダクトエンジニアリングに関する支援に特化しています。InnerSource Foundationのメンバーとして、彼は大規模なInnerSourceプログラムを運営し、チームにオープンソーススタイルのコラボレーションの多くの利点を追求するように励まし、組織内での採用を促すことを目指しています。英国、ヨーロッパ、オーストラリアでの18年以上の変革経験を持ち、エンジニアの指導をすることに情熱を持ち、技術的およびローカルコミュニティを積極的にサポートしています。
+For most of his career, Matt Cobby’s mission has been to improve the daily lives of software engineering teams, wrangling people and technology through engineering evolutions. He is a veteran of developer experience over the past eight years and believes that InnerSource is a key factor in building a good developer experience. Matt has run a large scale InnerSource program for a bank. He is currently CTO for CXGuardian.ai, a platform helping companies and engineers adopt AI with fair and ethical governance to reshape their business and productivity.
+Previously a Director of Engineering for Deloitte, Matt consulted with technology executives on engineering strategy and has also worked with RWE Supply and Trading, BP, Shell and National Australia Bank. With over 18 years transformation experience in the UK, Europe and Australia, Matt has a passion for mentoring engineers towards engineering excellence and is an active supporter of technical and local communities.
 {{< /board-member >}}
 
 {{< board-member name="Katie Schueths" title="Assistant Secretary" image="/images/about/Katie_Schueths.jpg" >}}
-Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community art events.
+Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community arts events.
 {{< /board-member >}}
 
 {{< board-member name="Tom Sadler" title="Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
