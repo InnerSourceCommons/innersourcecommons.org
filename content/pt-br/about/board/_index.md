@@ -22,9 +22,8 @@ aliases:
 Daniel Izquierdo Cortázar é pesquisador e um dos fundadores da Bitergia, uma empresa que oferece análises de software para ecossistemas Open Source. Atualmente, é diretor de dados da Bitergia e concentra-se na qualidade dos dados, pesquisa de novas métricas, análises e estudos de interesse para os clientes da Bitergia por meio de mineração e processamento de dados. Daniel possui um doutorado em engenharia de open source software pela Universidad Rey Juan Carlos, em Madrid, onde se concentrou na análise de padrões de atividade de desenvolvedores com erros na comunidade Mozilla. Daniel faz parte do conselho e é membro da InnerSource Commons.
 {{< /board-member >}}
 
-{{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" >}}
-é um distinto especialista em tecnologia que atualmente atua como arquiteto no GitHub, com vasta experiência em tecnologia em nuvem e metodologias DevOps. Ao longo de sua carreira, ele ofereceu orientação valiosa e proficiência para uma infinidade de clientes corporativos, ajudando-os a aprimorar seus sistemas e processos. A área de especialização de Yuki é a transformação InnerSource e ele estabeleceu uma comunidade próspera no Japão que se envolveu com figuras proeminentes e líderes de pensamento da indústria.
-Como defensor apaixonado do InnerSource, Yuki traduziu uma vasta gama de materiais e organizou inúmeros workshops e apresentações em vídeo para disseminar a conscientização e a compreensão do assunto. Ele se orgulha imensamente de servir como exemplo para outras regiões e continua comprometido em empregar sua experiência e conhecimento para beneficiar outros membros da comunidade.
+{{< board-member name="Yuki Hattori" title="Vice-Presidente"  image="/images/about/Yuki_Hattori.jpg" >}}
+Yuki Hattori is a Senior Architect at GitHub with a strong background in cloud technology and DevOps. He enjoys helping customers optimize their services and processes. As a proponent of InnerSource, Yuki is leading in the InnerSource downstream movement and also serves as a community organizer in Japan. He is passionate about sharing his knowledge and contributing to the growth of the InnerSource community.
 {{< /board-member >}}
 
 {{< board-member name="Matt Cobby" title="Secretário" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
