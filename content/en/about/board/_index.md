@@ -25,7 +25,7 @@ aliases:
 </div>
 
 {{< board-member name="Daniel Izquierdo Cortázar" title="President" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
-Daniel Izquierdo Cortázar is a researcher and one of the founders of Bitergia, a company that provides software analytics for open source ecosystems. Currently the chief data officer at Bitergia, he is focused on the quality of the data, research of new metrics, analysis, and studies of interest for Bitergia customers via data mining and processing. Daniel holds a PhD in free software engineering from the Universidad Rey Juan Carlos in Madrid, where he focused on the analysis of buggy developers activity patterns in the Mozilla Community. Daniel serves on the board and is a Member of the InnerSource Commons.
+Daniel Izquierdo Cortázar is a researcher and one of the founders of Bitergia, a company that provides software analytics for open source ecosystems. Currently the Chief Data Officer at Bitergia, he is focused on the quality of the data; research of new metrics, analysis; and studies of interest for Bitergia customers via data mining and processing. Daniel holds a PhD in free software engineering from the Universidad Rey Juan Carlos in Madrid, where he focused on the analysis of buggy developer activity patterns in the Mozilla Community. Daniel serves on the Board and is a Member of the InnerSource Commons.
 {{< /board-member >}}
 
 {{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" >}}
