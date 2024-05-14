@@ -36,7 +36,7 @@ Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is
 {{< /board-member >}}
 
 {{< board-member name="Tom Sadler" title="Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
-Tom Sadler is a Software Engineering Team Lead for BBC iPlayer and Sounds, working in the connected TV space and focusing on cross-team collaboration, including InnerSource. Tom has been involved with InnerSource Commons since 2019, speaking at multiple community events. He is a Trusted Committer on the InnerSource Learning Path project, and the Lead on publishing the Learning Path to innersourcecommons.org.
+Tom Sadler is a Principal Software Engineer for BBC iPlayer and Sounds, working in the connected TV space and focusing on cross-team collaboration, including InnerSource. Tom has been involved with InnerSource Commons since 2019, speaking at multiple community events. He is a Trusted Committer on the InnerSource Learning Path project, and the Lead on publishing the Learning Path to innersourcecommons.org.
 {{< /board-member >}}
 
 {{< board-member name="Georg Grütter" title="Assistant Treasurer" image="/images/about/Georg_Grutter.jpeg" >}}
