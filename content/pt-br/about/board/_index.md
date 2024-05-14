@@ -43,6 +43,10 @@ Tom Sadler é líder de equipe de engenharia de software para BBC iPlayer & Soun
 Georg Grütter é um evangelista de código social e defensor de desenvolvedores na Bosch.IO. Ele co-fundou e liderou a primeira comunidade InnerSource na Bosch. Georg é um desenvolvedor de software apaixonado com mais de 30 anos de experiência. Anteriormente, ocupou diversos cargos e funções na Bosch, Line Information, Zurich System House e DaimlerChrysler. Georg criou dois projetos open source e também adora fotografia e chocolate.
 {{< /board-member >}}
 
+{{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" >}}
+Danese Cooper é a fundadora da InnerSource Commons. Ela é uma Open Source advocate de longa data, tendo atuado anteriormente como Head de open source software do PayPal, CTO da Wikimedia Foundation, evangelista-chefe de open surce da Sun e diretora sênior de estratégias de open source da Intel. Danese também foi a primeira presidente da Node.js Foundation. Ela se concentra em criar comunidades open source saudáveis e já integrou os conselhos da Drupal Association, da Open Source Initiative e da Open Source Hardware Association. Ela também é consultora da Mozilla e da Apache Software Foundation. Danese também dirige uma bem-sucedida consultoria de open source que conta com clientes como a Fundação Bill & Melinda Gates, o SETI Institute, a Harris e a Numenta. Ela é conhecida por tricotar durante as reuniões.
+{{< /board-member >}}
+
 {{< board-member name="Sebastian Spier" title="Vice-Presidente & Secretário Assistente" image="/images/about/Sebastian_Spier.jpg" >}}
 Sebastian Spier é Diretor de Programas de Engenharia na Meltwater, onde trabalha em ferramentas e métodos para melhorar o trabalho diário de mais de 500 engenheiros, removendo atritos sempre que possível. Como gerente de engenharia de diversas equipes de desenvolvimento de software, ele vivenciou o InnerSource como um bloco fundamental para apoiar a colaboração bem-sucedida em equipes distribuídas. Como membro da InnerSource Commons Foundation, ele mantém a coleção de Padrões InnerSource, sempre procurando ajudar os outros a utilizar e aprimorar esses padrões.
 {{< /board-member >}}
@@ -63,10 +67,6 @@ Silona Bonewald é Diretora Executiva do IEEE SA OPEN, uma plataforma abrangente
 
 {{< board-member name="Maximilian Capraro" image="/images/about/Maximilian_Capraro.jpg" >}}
 Maximilian Capraro é pesquisador e candidato a doutorado no Open Source Research Group na Friedrich-Alexander-University Erlangen-Nürnberg. Ele trabalhou em projetos de pesquisa de InnerSource com diversas empresas, incluindo Black Duck Software, Continental e várias unidades de negócios da Siemens. Ele desenvolveu o método de medição de fluxo de patch (para medir a colaboração no desenvolvimento de software) e o primeiro framework de classificação para projetos e programas InnerSource. Suas áreas de pesquisa incluem quantificação da colaboração no desenvolvimento de software, governança de InnerSource, incluindo aspectos legais e tributários, e muitos outros tópicos relacionados a InnerSource, Open Source e engenharia de software.
-{{< /board-member >}}
-
-{{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" >}}
-Danese Cooper é a fundadora da InnerSource Commons. Ela é uma Open Source advocate de longa data, tendo atuado anteriormente como Head de open source software do PayPal, CTO da Wikimedia Foundation, evangelista-chefe de open surce da Sun e diretora sênior de estratégias de open source da Intel. Danese também foi a primeira presidente da Node.js Foundation. Ela se concentra em criar comunidades open source saudáveis e já integrou os conselhos da Drupal Association, da Open Source Initiative e da Open Source Hardware Association. Ela também é consultora da Mozilla e da Apache Software Foundation. Danese também dirige uma bem-sucedida consultoria de open source que conta com clientes como a Fundação Bill & Melinda Gates, o SETI Institute, a Harris e a Numenta. Ela é conhecida por tricotar durante as reuniões.
 {{< /board-member >}}
 
 {{< board-member name="Isabel Drost-Fromm" image="/images/about/Isabel_Drost-Fromm.jpeg" >}}

@@ -48,6 +48,12 @@ Tom Sadlerは、BBC iPlayer＆Soundsのソフトウェアエンジニアリン�
 Georg Grütterは、Bosch.IOのソーシャルコーディングエバンジェリストであり、デベロッパーアドボケートです。彼はBoschで最初のインナーソースコミュニティを共同設立し、リードしました。Georgは、30年以上のソフトウェア開発の経験を持つ情熱的なソフトウェア開発者です。以前は、Bosch、Line Information、Zurich System House、DaimlerChryslerでさまざまなポジションと役割を務めました。Georgは2つのオープンソースプロジェクトを作成し、写真撮影とチョコレートも大好きです。
 {{< /board-member >}}
 
+{{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" >}}
+Danese Cooperは、InnerSource Commonsの創設者です。彼女は長期にわたりオープンソースの支持者として活動しており、以前はPayPalのオープンソースソフトウェア部門の責任者、ウィキメディア財団のCTO、Sunのチーフオープンソースエバンジェリスト、Intelのオープンソース戦略のシニアディレクターなどを務めました。DaneseはNode.js Foundationの初代議長でもあり
+
+ました。彼女は健全なオープンソースコミュニティの形成に注力し、Drupal Association、Open Source Initiative、Open Source Hardware Associationの役員を務め、MozillaやApache Software Foundationにアドバイスを提供しています。Daneseは成功したオープンソースのコンサルティング業務も運営しており、ビル＆メリンダゲイツ財団、SETI Institute、Harris、Numentaなどをクライアントとして数えることができます。彼女は会議中に編み物をすることでも知られています。
+{{< /board-member >}}
+
 {{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
 Sebastian Spierは、Meltwaterのエンジニアリングプログラムディレクターであり、500人以上のエンジニアの日々の業務を改善するためのツールや方法に取り組んでおり、できる限り摩擦を減らしています。さまざまなソフトウェア開発チームのエンジニアリングマネージャーとして、彼は分散チームでの成功したコラボレーションをサポートするための中核的な要素としてのインナーソースを経験しました。InnerSource Commons Foundationのメンバーとして、彼はInnerSourceパターンのコレクションを維持し、他の人々がこれらのパターンを使用し改善できるようにするのを助けることを常に目指しています。
 {{< /board-member >}}
@@ -78,12 +84,6 @@ Silona Bonewaldは、IEEE SA OPENのエグゼクティブディレクターで�
 
 {{< board-member name="Maximilian Capraro" title="副財務担当" image="/images/about/Maximilian_Capraro.jpg" >}}
 Maximilian Capraroは、Friedrich-Alexander-University Erlangen-Nürnbergのオープンソース研究グループの研究員および博士候補生です。彼はBlack Duck Software、Continental、および複数のSiemensのビジネスユニットとの研究プロジェクトでインナーソースに取り組みました。彼はソフトウェア開発の協力を測定するためのパッチフロー測定法（ソフトウェア開発の協力の測定）、およびインナーソースプロジェクトとプログラムのための最初の分類フレームワークを開発しました。彼の研究の興味はソフトウェア開発の協力の数量化、法的および税務の側面を含むインナーソースガバナンス、およびインナーソース、オープンソース、ソフトウェアエンジニアリングの周りの多くのことです。
-{{< /board-member >}}
-
-{{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" >}}
-Danese Cooperは、InnerSource Commonsの創設者です。彼女は長期にわたりオープンソースの支持者として活動しており、以前はPayPalのオープンソースソフトウェア部門の責任者、ウィキメディア財団のCTO、Sunのチーフオープンソースエバンジェリスト、Intelのオープンソース戦略のシニアディレクターなどを務めました。DaneseはNode.js Foundationの初代議長でもあり
-
-ました。彼女は健全なオープンソースコミュニティの形成に注力し、Drupal Association、Open Source Initiative、Open Source Hardware Associationの役員を務め、MozillaやApache Software Foundationにアドバイスを提供しています。Daneseは成功したオープンソースのコンサルティング業務も運営しており、ビル＆メリンダゲイツ財団、SETI Institute、Harris、Numentaなどをクライアントとして数えることができます。彼女は会議中に編み物をすることでも知られています。
 {{< /board-member >}}
 
 {{< board-member name="Isabel Drost-Fromm" image="/images/about/Isabel_Drost-Fromm.jpeg" >}}
