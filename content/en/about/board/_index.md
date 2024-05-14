@@ -42,9 +42,9 @@ Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is
 {{< /board-member >}}
 
 {{< board-member name="Matt Cobby" title="Secretary" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
-Matt Cobby is Director of Engineering at Deloitte where he specializes in helping teams with their engineering practices, developer experience, and platform & product engineering.
-As a member of the InnerSource Foundation he has run a large scale InnerSource program and now seeks to inspire teams to seek the many benefits of an Open Source style of collaboration inside their own organization.
-With over 18 years transformation experience in the UK, Europe & Australia, he has a passion for mentoring engineers and is an active supporter of technical & local communities that inspire people.
+Matt’s mission for most of his career has been to improve the daily lives of software engineering teams, wrangling people & technology through engineering evolutions. He is a veteran of Developer Experience over the past 8 years and believes that InnerSource is a key factor in building a good Developer Experience and has run a large scale InnerSource program for a bank. He is currently CTO for CXGuardian.ai, building a platform to help companies & engineers adopt AI with fair & ethical governance to reshape their business and productivity.
+
+Previously a Director of Engineering for Deloitte, he consulted with Technology Executives on engineer strategy and has also worked with RWE Supply & Trading, BP, Shell and National Australia Bank. With over 18 years transformation experience in the UK, Europe & Australia, he has a passion for mentoring engineers towards engineering excellence and is an active supporter of technical & local communities.
 {{< /board-member >}}
 
 {{< board-member name="Georg Grütter" title="Assistant Treasurer" image="/images/about/Georg_Grutter.jpeg" >}}
