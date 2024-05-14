@@ -24,21 +24,13 @@ aliases:
   </p>
 </div>
 
-{{< board-member name="Daniel Izquierdo Cortazar" title="President" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
-Daniel Izquierdo Cortazar is a researcher and one of the founders of Bitergia, a company that provides software analytics for open source ecosystems. Currently the chief data officer at Bitergia, he is focused on the quality of the data, research of new metrics, analysis, and studies of interest for Bitergia customers via data mining and processing. Daniel holds a PhD in free software engineering from the Universidad Rey Juan Carlos in Madrid, where he focused on the analysis of buggy developers activity patterns in the Mozilla Community. Daniel serves on the board and is a Member of the InnerSource Commons.
+{{< board-member name="Daniel Izquierdo Cortázar" title="President" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
+Daniel Izquierdo Cortázar is a researcher and one of the founders of Bitergia, a company that provides software analytics for open source ecosystems. Currently the chief data officer at Bitergia, he is focused on the quality of the data, research of new metrics, analysis, and studies of interest for Bitergia customers via data mining and processing. Daniel holds a PhD in free software engineering from the Universidad Rey Juan Carlos in Madrid, where he focused on the analysis of buggy developers activity patterns in the Mozilla Community. Daniel serves on the board and is a Member of the InnerSource Commons.
 {{< /board-member >}}
 
-{{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
-Over his 15 years journey in software development, Sebastian has worked as individual contributor, agile coach, team lead, product owner, engineering manager, and director of engineering. No matter the role or team, effective cross-team collaboration has been key for getting things done at organizations of any size. For Sebastian, InnerSource is more than just a concept – it's a powerful enabler and a transformative teaching tool for fostering collaboration across teams. He firmly believes that it holds the key to enabling organizations to deliver exceptional value to their customers, cultivating a workforce that is not only more content but also highly engaged. In his vision, InnerSource is a pathway towards a more connected company.
-As a member of the InnerSource Commons Foundation, he is maintaining the collection of InnerSource Patterns. He is always looking for ways to help others to use these patterns at their org, as well as sharing their own experiences in the form of patterns.
-{{< /board-member >}}
-
-{{< board-member name="Tom Sadler" title="Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
-Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working in the connected TV space and focussing on cross-team collaboration, including InnerSource. Tom has been involved with the InnerSource Commons since 2019, speaking at multiple community events, is a Trusted Committer on the InnerSource Learning Path project, and lead on publishing the Learning Path to innersourcecommons.org.
-{{< /board-member >}}
-
-{{< board-member name="Katie Schueths" image="/images/about/Katie_Schueths.jpg" >}}
-Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community art events.
+{{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" style="bg-light" >}}
+Yuki is a distinguished technology expert currently serving as an Architect at GitHub, possessing an extensive background in Cloud technology and DevOps methodologies. Throughout his career, he has offered valuable guidance and proficiency to a myriad of enterprise clients, assisting them in refining their systems and processes.
+Yuki’s area of specialization is InnerSource transformation, and he has notably established a thriving community in Japan that has engaged with prominent industry figures and thought leaders. As a passionate advocate of InnerSource, Yuki has translated a vast array of materials and has organized numerous workshops and video presentations to disseminate awareness and understanding of the subject. He takes immense pride in serving as an exemplar for other regions and remains wholeheartedly committed to employing his expertise and knowledge to benefit others within the community.
 {{< /board-member >}}
 
 {{< board-member name="Matt Cobby" title="Secretary" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
@@ -47,14 +39,23 @@ Matt’s mission for most of his career has been to improve the daily lives of s
 Previously a Director of Engineering for Deloitte, he consulted with Technology Executives on engineer strategy and has also worked with RWE Supply & Trading, BP, Shell and National Australia Bank. With over 18 years transformation experience in the UK, Europe & Australia, he has a passion for mentoring engineers towards engineering excellence and is an active supporter of technical & local communities.
 {{< /board-member >}}
 
+{{< board-member name="Katie Schueths" title="Assistant Secretary" image="/images/about/Katie_Schueths.jpg" >}}
+Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community art events.
+{{< /board-member >}}
+
+{{< board-member name="Tom Sadler" title="Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
+Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working in the connected TV space and focussing on cross-team collaboration, including InnerSource. Tom has been involved with the InnerSource Commons since 2019, speaking at multiple community events, is a Trusted Committer on the InnerSource Learning Path project, and lead on publishing the Learning Path to innersourcecommons.org.
+{{< /board-member >}}
+
 {{< board-member name="Georg Grütter" title="Assistant Treasurer" image="/images/about/Georg_Grutter.jpeg" >}}
 Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO. He co-founded and led the first InnerSource community at Bosch. Georg is a passionate software developer with over 30 years of experience. Previously, he held various positions and roles at Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg has created two open source projects, and also loves photography and chocolate.
 {{< /board-member >}}
 
-{{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" style="bg-light" >}}
-Yuki is a distinguished technology expert currently serving as an Architect at GitHub, possessing an extensive background in Cloud technology and DevOps methodologies. Throughout his career, he has offered valuable guidance and proficiency to a myriad of enterprise clients, assisting them in refining their systems and processes.
-Yuki’s area of specialization is InnerSource transformation, and he has notably established a thriving community in Japan that has engaged with prominent industry figures and thought leaders. As a passionate advocate of InnerSource, Yuki has translated a vast array of materials and has organized numerous workshops and video presentations to disseminate awareness and understanding of the subject. He takes immense pride in serving as an exemplar for other regions and remains wholeheartedly committed to employing his expertise and knowledge to benefit others within the community.
+{{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
+Over his 15 years journey in software development, Sebastian has worked as individual contributor, agile coach, team lead, product owner, engineering manager, and director of engineering. No matter the role or team, effective cross-team collaboration has been key for getting things done at organizations of any size. For Sebastian, InnerSource is more than just a concept – it's a powerful enabler and a transformative teaching tool for fostering collaboration across teams. He firmly believes that it holds the key to enabling organizations to deliver exceptional value to their customers, cultivating a workforce that is not only more content but also highly engaged. In his vision, InnerSource is a pathway towards a more connected company.
+As a member of the InnerSource Commons Foundation, he is maintaining the collection of InnerSource Patterns. He is always looking for ways to help others to use these patterns at their org, as well as sharing their own experiences in the form of patterns.
 {{< /board-member >}}
+
 <!-- 
 <div class="section-first container">
     <h2>Elected Officers:</h2>

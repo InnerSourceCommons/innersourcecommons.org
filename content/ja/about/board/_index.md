@@ -24,35 +24,35 @@ aliases:
   </p>
 </div>
 
-{{< board-member name="Daniel Izquierdo Cortazar" title="President" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
-Daniel Izquierdo Cortazarは、オープンソースエコシステムのためのソフトウェア分析を提供するBitergiaの創設者の一人であり、現在は同社のチーフデータオフィサーとして、データの品質、新しいメトリクスの研究、データマイニングと処理を通じたBitergiaの顧客の関心事や研究に焦点を当てています。Danielは、マドリードのレイフアン・フアン・カルロス大学でのフリーソフトウェアエンジニアリングの博士号を持ち、Mozillaコミュニティのバグのある開発者の活動パターンの分析に焦点を当てました。Danielは、InnerSource Commonsの理事会のメンバーであり、メンバーでもあります。
-{{< /board-member >}}
-
-{{< board-member name="Tom Sadler" title="Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
-Tom Sadlerは、BBC iPlayer＆Soundsのソフトウェアエンジニアリングチームリーダーであり、インナーソースを含むクロスチームの協力に焦点を当てた、コネクテッドテレビの領域で活動しています。Tomは2019年からInnerSource Commonsに関与しており、複数のコミュニティイベントで講演しており、InnerSource Learning PathプロジェクトのTrusted Committerを務め、Learning Pathをinnersourcecommons.orgに公開するためのリードを担当しています。
-{{< /board-member >}}
-
-{{< board-member name="Katie Schueths" image="/images/about/Katie_Schueths.jpg" >}}
-Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community art events.
-{{< /board-member >}}
-
-{{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
-Sebastian Spierは、Meltwaterのエンジニアリングプログラムディレクターであり、500人以上のエンジニアの日々の業務を改善するためのツールや方法に取り組んでおり、できる限り摩擦を減らしています。さまざまなソフトウェア開発チームのエンジニアリングマネージャーとして、彼は分散チームでの成功したコラボレーションをサポートするための中核的な要素としてのインナーソースを経験しました。InnerSource Commons Foundationのメンバーとして、彼はInnerSourceパターンのコレクションを維持し、他の人々がこれらのパターンを使用し改善できるようにするのを助けることを常に目指しています。
-{{< /board-member >}}
-
-{{< board-member name="Matt Cobby" title="Secretary" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
-Matt Cobbyは、Deloitteのエンジニアリングディレクターであり、チームのエンジニアリングプラクティス、開発者体験、およびプラットフォーム＆プロダクトエンジニアリングに関する支援に特化しています。InnerSource Foundationのメンバーとして、彼は大規模なInnerSourceプログラムを運営し、チームにオープンソーススタイルのコラボレーションの多くの利点を追求するように励まし、組織内での採用を促すことを目指しています。英国、ヨーロッパ、オーストラリアでの18年以上の変革経験を持ち、エンジニアの指導をすることに情熱を持ち、技術的およびローカルコミュニティを積極的にサポートしています。
-{{< /board-member >}}
-
-{{< board-member name="Georg Grütter" title="Assistant Treasurer" image="/images/about/Georg_Grutter.jpeg" >}}
-Georg Grütterは、Bosch.IOのソーシャルコーディングエバンジェリストであり、デベロッパーアドボケートです。彼はBoschで最初のインナーソースコミュニティを共同設立し、リードしました。Georgは、30年以上のソフトウェア開発の経験を持つ情熱的なソフトウェア開発者です。以前は、Bosch、Line Information、Zurich System House、DaimlerChryslerでさまざまなポジションと役割を務めました。Georgは2つのオープンソースプロジェクトを作成し、写真撮影とチョコレートも大好きです。
+{{< board-member name="Daniel Izquierdo Cortázar" title="President" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
+Daniel Izquierdo Cortázarは、オープンソースエコシステムのためのソフトウェア分析を提供するBitergiaの創設者の一人であり、現在は同社のチーフデータオフィサーとして、データの品質、新しいメトリクスの研究、データマイニングと処理を通じたBitergiaの顧客の関心事や研究に焦点を当てています。Danielは、マドリードのレイフアン・フアン・カルロス大学でのフリーソフトウェアエンジニアリングの博士号を持ち、Mozillaコミュニティのバグのある開発者の活動パターンの分析に焦点を当てました。Danielは、InnerSource Commonsの理事会のメンバーであり、メンバーでもあります。
 {{< /board-member >}}
 
 {{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" style="bg-light" >}}
 Yuki Hattoriは、GitHubのアーキテクトとして現在活動している傑出した技術エキスパートであり、クラウド技術とDevOpsの方法論に幅広い経験を持っています。彼のキャリアを通じて、彼は多くのエンタープライズクライアントに貴重なガイダンスと専門知識を提供し、システムとプロセスを洗練させる支援をしてきました。 Yukiの専門分野はインナーソースの変革であり、日本で顕著な業界の関係者や思想リーダーと関わる活発なコミュニティを確立しました。インナーソースの情報を広めるために、彼はさまざまな資料を翻訳し、ワークショップやビデオプレゼンテーションを数多く開催しました。彼は他の地域の模範としての役割に誇りを持ち、自身の専門知識と知識をコミュニティ内の他の人々のために活用し続けることに全力を尽くしています。
 {{< /board-member >}}
 
-<div class="section-first container">
+{{< board-member name="Matt Cobby" title="Secretary" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
+Matt Cobbyは、Deloitteのエンジニアリングディレクターであり、チームのエンジニアリングプラクティス、開発者体験、およびプラットフォーム＆プロダクトエンジニアリングに関する支援に特化しています。InnerSource Foundationのメンバーとして、彼は大規模なInnerSourceプログラムを運営し、チームにオープンソーススタイルのコラボレーションの多くの利点を追求するように励まし、組織内での採用を促すことを目指しています。英国、ヨーロッパ、オーストラリアでの18年以上の変革経験を持ち、エンジニアの指導をすることに情熱を持ち、技術的およびローカルコミュニティを積極的にサポートしています。
+{{< /board-member >}}
+
+{{< board-member name="Katie Schueths" title="Assistant Secretary" image="/images/about/Katie_Schueths.jpg" >}}
+Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community art events.
+{{< /board-member >}}
+
+{{< board-member name="Tom Sadler" title="Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
+Tom Sadlerは、BBC iPlayer＆Soundsのソフトウェアエンジニアリングチームリーダーであり、インナーソースを含むクロスチームの協力に焦点を当てた、コネクテッドテレビの領域で活動しています。Tomは2019年からInnerSource Commonsに関与しており、複数のコミュニティイベントで講演しており、InnerSource Learning PathプロジェクトのTrusted Committerを務め、Learning Pathをinnersourcecommons.orgに公開するためのリードを担当しています。
+{{< /board-member >}}
+
+{{< board-member name="Georg Grütter" title="Assistant Treasurer" image="/images/about/Georg_Grutter.jpeg" >}}
+Georg Grütterは、Bosch.IOのソーシャルコーディングエバンジェリストであり、デベロッパーアドボケートです。彼はBoschで最初のインナーソースコミュニティを共同設立し、リードしました。Georgは、30年以上のソフトウェア開発の経験を持つ情熱的なソフトウェア開発者です。以前は、Bosch、Line Information、Zurich System House、DaimlerChryslerでさまざまなポジションと役割を務めました。Georgは2つのオープンソースプロジェクトを作成し、写真撮影とチョコレートも大好きです。
+{{< /board-member >}}
+
+{{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
+Sebastian Spierは、Meltwaterのエンジニアリングプログラムディレクターであり、500人以上のエンジニアの日々の業務を改善するためのツールや方法に取り組んでおり、できる限り摩擦を減らしています。さまざまなソフトウェア開発チームのエンジニアリングマネージャーとして、彼は分散チームでの成功したコラボレーションをサポートするための中核的な要素としてのインナーソースを経験しました。InnerSource Commons Foundationのメンバーとして、彼はInnerSourceパターンのコレクションを維持し、他の人々がこれらのパターンを使用し改善できるようにするのを助けることを常に目指しています。
+{{< /board-member >}}
+
+<!-- <div class="section-first container">
     <h2>選任役員：</h2>
 </div>
 
@@ -60,7 +60,7 @@ Yuki Hattoriは、GitHubのアーキテクトとして現在活動している�
   <p>
     以下の選任役員は、取締役会には所属していません。
   </p>
-</div>
+</div> -->
 
 <div class="section-first container">
     <h2>過去の取締役および役員：</h2>

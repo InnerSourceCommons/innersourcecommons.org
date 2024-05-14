@@ -18,24 +18,8 @@ aliases:
     <h2>O Conselho atual:</h2>
 </div>
 
-{{< board-member name="Daniel Izquierdo Cortazar" title="Presidente" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
-Daniel Izquierdo Cortazar é pesquisador e um dos fundadores da Bitergia, uma empresa que oferece análises de software para ecossistemas Open Source. Atualmente, é diretor de dados da Bitergia e concentra-se na qualidade dos dados, pesquisa de novas métricas, análises e estudos de interesse para os clientes da Bitergia por meio de mineração e processamento de dados. Daniel possui um doutorado em engenharia de open source software pela Universidad Rey Juan Carlos, em Madrid, onde se concentrou na análise de padrões de atividade de desenvolvedores com erros na comunidade Mozilla. Daniel faz parte do conselho e é membro da InnerSource Commons.
-{{< /board-member >}}
-
-{{< board-member name="Tom Sadler" title="Tesoureira" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
-Tom Sadler é líder de equipe de engenharia de software para BBC iPlayer & Sounds, trabalhando no espaço de TV conectada e focando na colaboração entre equipes, incluindo o InnerSource. Tom está envolvido com a InnerSource Commons desde 2019, palestrando em diversos eventos da comunidade, é um Trusted Committer no projeto InnerSource Learning Path e liderou a publicação do Learning Path em innersourcecommons.org.
-{{< /board-member >}}
-
-{{< board-member name="Katie Schueths" image="/images/about/Katie_Schueths.jpg" >}}
-Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community art events.
-{{< /board-member >}}
-
-{{< board-member name="Sebastian Spier" title="Vice-Presidente & Secretário Assistente" image="/images/about/Sebastian_Spier.jpg" >}}
-Sebastian Spier é Diretor de Programas de Engenharia na Meltwater, onde trabalha em ferramentas e métodos para melhorar o trabalho diário de mais de 500 engenheiros, removendo atritos sempre que possível. Como gerente de engenharia de diversas equipes de desenvolvimento de software, ele vivenciou o InnerSource como um bloco fundamental para apoiar a colaboração bem-sucedida em equipes distribuídas. Como membro da InnerSource Commons Foundation, ele mantém a coleção de Padrões InnerSource, sempre procurando ajudar os outros a utilizar e aprimorar esses padrões.
-{{< /board-member >}}
-
-{{< board-member name="Georg Grütter" title="Tesoureiro Assistente" image="/images/about/Georg_Grutter.jpeg" style="bg-light" >}}
-Georg Grütter é um evangelista de código social e defensor de desenvolvedores na Bosch.IO. Ele co-fundou e liderou a primeira comunidade InnerSource na Bosch. Georg é um desenvolvedor de software apaixonado com mais de 30 anos de experiência. Anteriormente, ocupou diversos cargos e funções na Bosch, Line Information, Zurich System House e DaimlerChrysler. Georg criou dois projetos open source e também adora fotografia e chocolate.
+{{< board-member name="Daniel Izquierdo Cortázar" title="Presidente" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
+Daniel Izquierdo Cortázar é pesquisador e um dos fundadores da Bitergia, uma empresa que oferece análises de software para ecossistemas Open Source. Atualmente, é diretor de dados da Bitergia e concentra-se na qualidade dos dados, pesquisa de novas métricas, análises e estudos de interesse para os clientes da Bitergia por meio de mineração e processamento de dados. Daniel possui um doutorado em engenharia de open source software pela Universidad Rey Juan Carlos, em Madrid, onde se concentrou na análise de padrões de atividade de desenvolvedores com erros na comunidade Mozilla. Daniel faz parte do conselho e é membro da InnerSource Commons.
 {{< /board-member >}}
 
 {{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" >}}
@@ -45,6 +29,22 @@ Como defensor apaixonado do InnerSource, Yuki traduziu uma vasta gama de materia
 
 {{< board-member name="Matt Cobby" title="Secretário" image="/images/about/Matt_Cobby.jpg" >}}
 Matt Cobby é Diretor de Engenharia na Deloitte, onde se especializa em ajudar equipes com suas práticas de engenharia, experiência do desenvolvedor e engenharia de plataforma e produtos. Como membro da InnerSource Foundation, ele conduziu um programa InnerSource em grande escala e agora busca inspirar equipes a buscar os muitos benefícios de um estilo de colaboração de código aberto dentro de suas próprias organizações. Com mais de 18 anos de experiência em transformação no Reino Unido, Europa e Austrália, ele tem paixão por orientar engenheiros e é um apoiador ativo de comunidades técnicas e locais que inspiram as pessoas.
+{{< /board-member >}}
+
+{{< board-member name="Katie Schueths" title="Secretário assistente" image="/images/about/Katie_Schueths.jpg" >}}
+Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community art events.
+{{< /board-member >}}
+
+{{< board-member name="Tom Sadler" title="Tesoureira" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
+Tom Sadler é líder de equipe de engenharia de software para BBC iPlayer & Sounds, trabalhando no espaço de TV conectada e focando na colaboração entre equipes, incluindo o InnerSource. Tom está envolvido com a InnerSource Commons desde 2019, palestrando em diversos eventos da comunidade, é um Trusted Committer no projeto InnerSource Learning Path e liderou a publicação do Learning Path em innersourcecommons.org.
+{{< /board-member >}}
+
+{{< board-member name="Georg Grütter" title="Tesoureiro Assistente" image="/images/about/Georg_Grutter.jpeg" style="bg-light" >}}
+Georg Grütter é um evangelista de código social e defensor de desenvolvedores na Bosch.IO. Ele co-fundou e liderou a primeira comunidade InnerSource na Bosch. Georg é um desenvolvedor de software apaixonado com mais de 30 anos de experiência. Anteriormente, ocupou diversos cargos e funções na Bosch, Line Information, Zurich System House e DaimlerChrysler. Georg criou dois projetos open source e também adora fotografia e chocolate.
+{{< /board-member >}}
+
+{{< board-member name="Sebastian Spier" title="Vice-Presidente & Secretário Assistente" image="/images/about/Sebastian_Spier.jpg" >}}
+Sebastian Spier é Diretor de Programas de Engenharia na Meltwater, onde trabalha em ferramentas e métodos para melhorar o trabalho diário de mais de 500 engenheiros, removendo atritos sempre que possível. Como gerente de engenharia de diversas equipes de desenvolvimento de software, ele vivenciou o InnerSource como um bloco fundamental para apoiar a colaboração bem-sucedida em equipes distribuídas. Como membro da InnerSource Commons Foundation, ele mantém a coleção de Padrões InnerSource, sempre procurando ajudar os outros a utilizar e aprimorar esses padrões.
 {{< /board-member >}}
 
 <div class="section-first container">
