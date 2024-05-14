@@ -28,7 +28,7 @@ aliases:
 Daniel Izquierdo Cortázarは、オープンソースエコシステムのためのソフトウェア分析を提供するBitergiaの創設者の一人であり、現在は同社のチーフデータオフィサーとして、データの品質、新しいメトリクスの研究、データマイニングと処理を通じたBitergiaの顧客の関心事や研究に焦点を当てています。Danielは、マドリードのレイフアン・フアン・カルロス大学でのフリーソフトウェアエンジニアリングの博士号を持ち、Mozillaコミュニティのバグのある開発者の活動パターンの分析に焦点を当てました。Danielは、InnerSource Commonsの理事会のメンバーであり、メンバーでもあります。
 {{< /board-member >}}
 
-{{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" style="bg-light" >}}
+{{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" >}}
 Yuki Hattoriは、GitHubのアーキテクトとして現在活動している傑出した技術エキスパートであり、クラウド技術とDevOpsの方法論に幅広い経験を持っています。彼のキャリアを通じて、彼は多くのエンタープライズクライアントに貴重なガイダンスと専門知識を提供し、システムとプロセスを洗練させる支援をしてきました。 Yukiの専門分野はインナーソースの変革であり、日本で顕著な業界の関係者や思想リーダーと関わる活発なコミュニティを確立しました。インナーソースの情報を広めるために、彼はさまざまな資料を翻訳し、ワークショップやビデオプレゼンテーションを数多く開催しました。彼は他の地域の模範としての役割に誇りを持ち、自身の専門知識と知識をコミュニティ内の他の人々のために活用し続けることに全力を尽くしています。
 {{< /board-member >}}
 
@@ -48,13 +48,17 @@ Tom Sadlerは、BBC iPlayer＆Soundsのソフトウェアエンジニアリン�
 Georg Grütterは、Bosch.IOのソーシャルコーディングエバンジェリストであり、デベロッパーアドボケートです。彼はBoschで最初のインナーソースコミュニティを共同設立し、リードしました。Georgは、30年以上のソフトウェア開発の経験を持つ情熱的なソフトウェア開発者です。以前は、Bosch、Line Information、Zurich System House、DaimlerChryslerでさまざまなポジションと役割を務めました。Georgは2つのオープンソースプロジェクトを作成し、写真撮影とチョコレートも大好きです。
 {{< /board-member >}}
 
-{{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" >}}
+{{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" style="bg-light" >}}
 Danese Cooperは、InnerSource Commonsの創設者です。彼女は長期にわたりオープンソースの支持者として活動しており、以前はPayPalのオープンソースソフトウェア部門の責任者、ウィキメディア財団のCTO、Sunのチーフオープンソースエバンジェリスト、Intelのオープンソース戦略のシニアディレクターなどを務めました。DaneseはNode.js Foundationの初代議長でもあり
 
 ました。彼女は健全なオープンソースコミュニティの形成に注力し、Drupal Association、Open Source Initiative、Open Source Hardware Associationの役員を務め、MozillaやApache Software Foundationにアドバイスを提供しています。Daneseは成功したオープンソースのコンサルティング業務も運営しており、ビル＆メリンダゲイツ財団、SETI Institute、Harris、Numentaなどをクライアントとして数えることができます。彼女は会議中に編み物をすることでも知られています。
 {{< /board-member >}}
 
-{{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
+{{< board-member name="Clare Dillon" image="/images/about/Clare_Dillon.jpeg" >}}
+With over 25 years' experience in the technology industry, Clare Dillon is currently a researcher with Lero, the Science Foundation Ireland's Research Centre for Software, where she focuses on InnerSource. Clare also works with CURIOSS, a global community for  university and research institution OSPOs (Open Source Program Offices). Clare has been participating in the InnerSource Commons community since 2019. From 2021-2023, Clare served as the inaugural Executive Director of the InnerSource Commons Foundation. Previously, Clare was a member of the Microsoft Ireland Leadership Team for eight years; heading up their Developer Evangelism Group. Clare is also a certified coach and frequently speaks at international conferences and corporate events on topics relating to open collaboration and the future of work.
+{{< /board-member >}}
+
+{{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" style="bg-light" >}}
 Sebastian Spierは、Meltwaterのエンジニアリングプログラムディレクターであり、500人以上のエンジニアの日々の業務を改善するためのツールや方法に取り組んでおり、できる限り摩擦を減らしています。さまざまなソフトウェア開発チームのエンジニアリングマネージャーとして、彼は分散チームでの成功したコラボレーションをサポートするための中核的な要素としてのインナーソースを経験しました。InnerSource Commons Foundationのメンバーとして、彼はInnerSourceパターンのコレクションを維持し、他の人々がこれらのパターンを使用し改善できるようにするのを助けることを常に目指しています。
 {{< /board-member >}}
 

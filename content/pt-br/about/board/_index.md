@@ -27,7 +27,7 @@ Daniel Izquierdo Cortázar é pesquisador e um dos fundadores da Bitergia, uma e
 Como defensor apaixonado do InnerSource, Yuki traduziu uma vasta gama de materiais e organizou inúmeros workshops e apresentações em vídeo para disseminar a conscientização e a compreensão do assunto. Ele se orgulha imensamente de servir como exemplo para outras regiões e continua comprometido em empregar sua experiência e conhecimento para beneficiar outros membros da comunidade.
 {{< /board-member >}}
 
-{{< board-member name="Matt Cobby" title="Secretário" image="/images/about/Matt_Cobby.jpg" >}}
+{{< board-member name="Matt Cobby" title="Secretário" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
 Matt Cobby é Diretor de Engenharia na Deloitte, onde se especializa em ajudar equipes com suas práticas de engenharia, experiência do desenvolvedor e engenharia de plataforma e produtos. Como membro da InnerSource Foundation, ele conduziu um programa InnerSource em grande escala e agora busca inspirar equipes a buscar os muitos benefícios de um estilo de colaboração de código aberto dentro de suas próprias organizações. Com mais de 18 anos de experiência em transformação no Reino Unido, Europa e Austrália, ele tem paixão por orientar engenheiros e é um apoiador ativo de comunidades técnicas e locais que inspiram as pessoas.
 {{< /board-member >}}
 
@@ -39,15 +39,19 @@ Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is
 Tom Sadler é líder de equipe de engenharia de software para BBC iPlayer & Sounds, trabalhando no espaço de TV conectada e focando na colaboração entre equipes, incluindo o InnerSource. Tom está envolvido com a InnerSource Commons desde 2019, palestrando em diversos eventos da comunidade, é um Trusted Committer no projeto InnerSource Learning Path e liderou a publicação do Learning Path em innersourcecommons.org.
 {{< /board-member >}}
 
-{{< board-member name="Georg Grütter" title="Tesoureiro Assistente" image="/images/about/Georg_Grutter.jpeg" style="bg-light" >}}
+{{< board-member name="Georg Grütter" title="Tesoureiro Assistente" image="/images/about/Georg_Grutter.jpeg" >}}
 Georg Grütter é um evangelista de código social e defensor de desenvolvedores na Bosch.IO. Ele co-fundou e liderou a primeira comunidade InnerSource na Bosch. Georg é um desenvolvedor de software apaixonado com mais de 30 anos de experiência. Anteriormente, ocupou diversos cargos e funções na Bosch, Line Information, Zurich System House e DaimlerChrysler. Georg criou dois projetos open source e também adora fotografia e chocolate.
 {{< /board-member >}}
 
-{{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" >}}
+{{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" style="bg-light" >}}
 Danese Cooper é a fundadora da InnerSource Commons. Ela é uma Open Source advocate de longa data, tendo atuado anteriormente como Head de open source software do PayPal, CTO da Wikimedia Foundation, evangelista-chefe de open surce da Sun e diretora sênior de estratégias de open source da Intel. Danese também foi a primeira presidente da Node.js Foundation. Ela se concentra em criar comunidades open source saudáveis e já integrou os conselhos da Drupal Association, da Open Source Initiative e da Open Source Hardware Association. Ela também é consultora da Mozilla e da Apache Software Foundation. Danese também dirige uma bem-sucedida consultoria de open source que conta com clientes como a Fundação Bill & Melinda Gates, o SETI Institute, a Harris e a Numenta. Ela é conhecida por tricotar durante as reuniões.
 {{< /board-member >}}
 
-{{< board-member name="Sebastian Spier" title="Vice-Presidente & Secretário Assistente" image="/images/about/Sebastian_Spier.jpg" >}}
+{{< board-member name="Clare Dillon" image="/images/about/Clare_Dillon.jpeg" >}}
+With over 25 years' experience in the technology industry, Clare Dillon is currently a researcher with Lero, the Science Foundation Ireland's Research Centre for Software, where she focuses on InnerSource. Clare also works with CURIOSS, a global community for  university and research institution OSPOs (Open Source Program Offices). Clare has been participating in the InnerSource Commons community since 2019. From 2021-2023, Clare served as the inaugural Executive Director of the InnerSource Commons Foundation. Previously, Clare was a member of the Microsoft Ireland Leadership Team for eight years; heading up their Developer Evangelism Group. Clare is also a certified coach and frequently speaks at international conferences and corporate events on topics relating to open collaboration and the future of work.
+{{< /board-member >}}
+
+{{< board-member name="Sebastian Spier" title="Vice-Presidente & Secretário Assistente" image="/images/about/Sebastian_Spier.jpg" style="bg-light" >}}
 Sebastian Spier é Diretor de Programas de Engenharia na Meltwater, onde trabalha em ferramentas e métodos para melhorar o trabalho diário de mais de 500 engenheiros, removendo atritos sempre que possível. Como gerente de engenharia de diversas equipes de desenvolvimento de software, ele vivenciou o InnerSource como um bloco fundamental para apoiar a colaboração bem-sucedida em equipes distribuídas. Como membro da InnerSource Commons Foundation, ele mantém a coleção de Padrões InnerSource, sempre procurando ajudar os outros a utilizar e aprimorar esses padrões.
 {{< /board-member >}}
 
