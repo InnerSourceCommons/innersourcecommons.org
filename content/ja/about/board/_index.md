@@ -24,10 +24,6 @@ aliases:
   </p>
 </div>
 
-{{< board-member name="Isabel Drost-Fromm" title="Chair" image="/images/about/Isabel_Drost-Fromm.jpeg" style="section-first" >}}
-Isabel Drost-Frommは、ドイツのEuropace AGでオープンソースストラテジストを務めています。彼女はApache Software Foundationのメンバーであり、Apache Mahoutの共同設立者であり、いくつかのインキュベーションプロジェクトのメンターを務めました。IsabelはFOSS、検索、テキストマイニングに関するあらゆることに興味を持ち、優れた機械学習のバックグラウンドを持っています。ベルリンに住む人々の性格に忠実に、彼女は友達が短い訪問のために飛んでくるのが好きです。その結果、彼女はベルリンのBuzzwordsというテックカンファレンスの創設メンバーであり、創造的なメンバーの一人です。Buzzwordsは、検索、スケール、ストレージに関するすべてのテクノロジーに関するカンファレンスです。
-{{< /board-member >}}
-
 {{< board-member name="Daniel Izquierdo Cortazar" title="President" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
 Daniel Izquierdo Cortazarは、オープンソースエコシステムのためのソフトウェア分析を提供するBitergiaの創設者の一人であり、現在は同社のチーフデータオフィサーとして、データの品質、新しいメトリクスの研究、データマイニングと処理を通じたBitergiaの顧客の関心事や研究に焦点を当てています。Danielは、マドリードのレイフアン・フアン・カルロス大学でのフリーソフトウェアエンジニアリングの博士号を持ち、Mozillaコミュニティのバグのある開発者の活動パターンの分析に焦点を当てました。Danielは、InnerSource Commonsの理事会のメンバーであり、メンバーでもあります。
 {{< /board-member >}}
@@ -56,10 +52,6 @@ Georg Grütterは、Bosch.IOのソーシャルコーディングエバンジェ�
 Yuki Hattoriは、GitHubのアーキテクトとして現在活動している傑出した技術エキスパートであり、クラウド技術とDevOpsの方法論に幅広い経験を持っています。彼のキャリアを通じて、彼は多くのエンタープライズクライアントに貴重なガイダンスと専門知識を提供し、システムとプロセスを洗練させる支援をしてきました。 Yukiの専門分野はインナーソースの変革であり、日本で顕著な業界の関係者や思想リーダーと関わる活発なコミュニティを確立しました。インナーソースの情報を広めるために、彼はさまざまな資料を翻訳し、ワークショップやビデオプレゼンテーションを数多く開催しました。彼は他の地域の模範としての役割に誇りを持ち、自身の専門知識と知識をコミュニティ内の他の人々のために活用し続けることに全力を尽くしています。
 {{< /board-member >}}
 
-{{< board-member name="Dmitrii Sugrobov" image="/images/about/Dmitrii_Sugrobov.jpg" >}}
-Dmitrii Sugrobovは、小売業界の経験豊富なエンジニアリングマネージャーであり、技術を活用して革新と効率を推進する能力に長けています。Dmitriiは、インナーソースをソフトウェア開発の産業標準として強く提唱し、多くのチームを指導し、このアプローチを使用して継続的にプラクティスを改善してきました。
-{{< /board-member >}}
-
 <div class="section-first container">
     <h2>選任役員：</h2>
 </div>
@@ -69,10 +61,6 @@ Dmitrii Sugrobovは、小売業界の経験豊富なエンジニアリングマ�
     以下の選任役員は、取締役会には所属していません。
   </p>
 </div>
-
-{{< board-member name="Russell Rutledge" title="Executive Director" image="/images/about/Russell_Rutledge.jpg" >}}
-Russ Rutledgeは、WellSkyのInnerSourceおよびコラボレーションのシニアディレクターです。WellSkyは、ヘルスケア連続体全体の組織を支援するさまざまなソフトウェアソリューションを提供する主要なテクノロジー企業です。彼の役割では、RussはInnerSourceを一般的な作業方法とするために会社全体での変革をリードしています。以前は、RussはNikeで開発者コラボレーションの取り組みを立ち上げてリードしました。Russの情熱と熱意は、品質のツールと効率的な作業プロセスを通じて、すべてのソフトウェアエンジニアが驚くべき技術的な成果とビジネスの生産性を達成できるようにすることです。
-{{< /board-member >}}
 
 <div class="section-first container">
     <h2>過去の取締役および役員：</h2>
@@ -98,12 +86,24 @@ Danese Cooperは、InnerSource Commonsの創設者です。彼女は長期にわ
 ました。彼女は健全なオープンソースコミュニティの形成に注力し、Drupal Association、Open Source Initiative、Open Source Hardware Associationの役員を務め、MozillaやApache Software Foundationにアドバイスを提供しています。Daneseは成功したオープンソースのコンサルティング業務も運営しており、ビル＆メリンダゲイツ財団、SETI Institute、Harris、Numentaなどをクライアントとして数えることができます。彼女は会議中に編み物をすることでも知られています。
 {{< /board-member >}}
 
+{{< board-member name="Isabel Drost-Fromm" image="/images/about/Isabel_Drost-Fromm.jpeg" >}}
+Isabel Drost-Frommは、ドイツのEuropace AGでオープンソースストラテジストを務めています。彼女はApache Software Foundationのメンバーであり、Apache Mahoutの共同設立者であり、いくつかのインキュベーションプロジェクトのメンターを務めました。IsabelはFOSS、検索、テキストマイニングに関するあらゆることに興味を持ち、優れた機械学習のバックグラウンドを持っています。ベルリンに住む人々の性格に忠実に、彼女は友達が短い訪問のために飛んでくるのが好きです。その結果、彼女はベルリンのBuzzwordsというテックカンファレンスの創設メンバーであり、創造的なメンバーの一人です。Buzzwordsは、検索、スケール、ストレージに関するすべてのテクノロジーに関するカンファレンスです。
+{{< /board-member >}}
+
 {{< board-member name="Jacob Green" image="/images/about/Jacob_Green.jpg" >}}
 Jacob GreenはMosslabs.ioの創設者であり、オープンソースのアーティスト、戦略家、システムビルダーとして、オープンソースの影響力と応用範囲を世界的に拡大するために活動しています。彼はボルチモア出身であり、都市と大学でのオープンソースに情熱を持ち、オープンソースを通じて機関をつなぐ取り組みを行っています。Mosslabs.ioの前に、JacobはLTNGlobalで戦略的イニシアチブのディレクターを務め、グローバルなビデオトランスポートネットワークを最初の原則から立ち上げました。
 {{< /board-member >}}
 
 {{< board-member name="Klaas-Jan Stol" image="/images/about/Klaas-Jan_Stol.jpg" >}}
 Klaas-Jan Stolは、アイルランドのコーク大学カレッジの講師であり、ソフトウェアのためのアイルランド研究財団であるLeroの研究員、およびノルウェーのSINTEFの科学顧問です。彼は学術的な研究者として、現代のソフトウェア開発手法や人間と組織の側面についての研究を行っています。彼は長い間インナーソースに興味を持っており、このテーマに関するいくつかの論文を発表しています。Klaasはリムリック大学で博士号を取得しています。
+{{< /board-member >}}
+
+{{< board-member name="Russell Rutledge" image="/images/about/Russell_Rutledge.jpg" >}}
+Russ Rutledgeは、WellSkyのInnerSourceおよびコラボレーションのシニアディレクターです。WellSkyは、ヘルスケア連続体全体の組織を支援するさまざまなソフトウェアソリューションを提供する主要なテクノロジー企業です。彼の役割では、RussはInnerSourceを一般的な作業方法とするために会社全体での変革をリードしています。以前は、RussはNikeで開発者コラボレーションの取り組みを立ち上げてリードしました。Russの情熱と熱意は、品質のツールと効率的な作業プロセスを通じて、すべてのソフトウェアエンジニアが驚くべき技術的な成果とビジネスの生産性を達成できるようにすることです。
+{{< /board-member >}}
+
+{{< board-member name="Dmitrii Sugrobov" image="/images/about/Dmitrii_Sugrobov.jpg" >}}
+Dmitrii Sugrobovは、小売業界の経験豊富なエンジニアリングマネージャーであり、技術を活用して革新と効率を推進する能力に長けています。Dmitriiは、インナーソースをソフトウェア開発の産業標準として強く提唱し、多くのチームを指導し、このアプローチを使用して継続的にプラクティスを改善してきました。
 {{< /board-member >}}
 
 {{< board-member name="Johannes Tigges" image="/images/about/Johannes_Tigges.png" >}}

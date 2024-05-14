@@ -18,18 +18,8 @@ aliases:
     <h2>O Conselho atual:</h2>
 </div>
 
-{{< board-member name="Isabel Drost-Fromm" title="Presidente" image="/images/about/Isabel_Drost-Fromm.jpeg" style="section-first" >}}
-Isabel Drost-Fromm é Estrategista de Open Source na Europace AG, na Alemanha. Ela é membro da Apache Software Foundation, co-fundadora do Apache Mahout e orientou vários projetos em fase de incubação. Isabel se interessa por tudo relacionado a FOSS, busca e mineração de texto, com um bom conhecimento em aprendizado de máquina. Seguindo a natureza das pessoas que vivem em Berlim, ela adora receber amigos para uma breve visita. Como resultado, ela co-fundou e ainda é uma das mentes criativas por trás do Berlin Buzzwords, uma conferência de tecnologia sobre busca, escalabilidade e armazenamento.
-{{< /board-member >}}
-
 {{< board-member name="Daniel Izquierdo Cortazar" title="Presidente" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
 Daniel Izquierdo Cortazar é pesquisador e um dos fundadores da Bitergia, uma empresa que oferece análises de software para ecossistemas Open Source. Atualmente, é diretor de dados da Bitergia e concentra-se na qualidade dos dados, pesquisa de novas métricas, análises e estudos de interesse para os clientes da Bitergia por meio de mineração e processamento de dados. Daniel possui um doutorado em engenharia de open source software pela Universidad Rey Juan Carlos, em Madrid, onde se concentrou na análise de padrões de atividade de desenvolvedores com erros na comunidade Mozilla. Daniel faz parte do conselho e é membro da InnerSource Commons.
-{{< /board-member >}}
-
-{{< board-member name="Russell Rutledge" title="Vice-Presidente" image="/images/about/Russell_Rutledge.jpg" >}}
-Russ Rutledge é Diretor Sênior de InnerSource e Colaboração na WellSky. A WellSky é uma empresa líder em tecnologia que oferece uma variedade de sol
-
-uções de software para organizações em todo o setor de saúde. Nessa função, Russ está liderando uma mudança transformacional na empresa em direção a um InnerSource amplo e abrangente como forma normal de realizar o trabalho. Anteriormente, Russ fundou e liderou o esforço de Colaboração de Desenvolvedores na Nike. A motivação e paixão de Russ é permitir que todos os engenheiros de software alcancem uma incrível produtividade técnica e empresarial por meio de ferramentas de qualidade e processos de trabalho simplificados.
 {{< /board-member >}}
 
 {{< board-member name="Tom Sadler" title="Tesoureira" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
@@ -51,10 +41,6 @@ Georg Grütter é um evangelista de código social e defensor de desenvolvedores
 {{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" >}}
 é um distinto especialista em tecnologia que atualmente atua como arquiteto no GitHub, com vasta experiência em tecnologia em nuvem e metodologias DevOps. Ao longo de sua carreira, ele ofereceu orientação valiosa e proficiência para uma infinidade de clientes corporativos, ajudando-os a aprimorar seus sistemas e processos. A área de especialização de Yuki é a transformação InnerSource e ele estabeleceu uma comunidade próspera no Japão que se envolveu com figuras proeminentes e líderes de pensamento da indústria.
 Como defensor apaixonado do InnerSource, Yuki traduziu uma vasta gama de materiais e organizou inúmeros workshops e apresentações em vídeo para disseminar a conscientização e a compreensão do assunto. Ele se orgulha imensamente de servir como exemplo para outras regiões e continua comprometido em empregar sua experiência e conhecimento para beneficiar outros membros da comunidade.
-{{< /board-member >}}
-
-{{< board-member name="Dmitrii Sugrobov" image="/images/about/Dmitrii_Sugrobov.jpg" style="bg-light" >}}
-Dmitrii é um gerente de engenharia experiente no setor varejista, conhecido por sua proficiência em aproveitar a tecnologia para impulsionar a inovação e a eficiência. Dmitrii é um grande defensor do InnerSource como padrão industrial de desenvolvimento de software e liderou equipes no uso dessa abordagem para melhorar continuamente suas práticas.
 {{< /board-member >}}
 
 {{< board-member name="Matt Cobby" title="Secretário" image="/images/about/Matt_Cobby.jpg" >}}
@@ -83,6 +69,10 @@ Maximilian Capraro é pesquisador e candidato a doutorado no Open Source Researc
 Danese Cooper é a fundadora da InnerSource Commons. Ela é uma Open Source advocate de longa data, tendo atuado anteriormente como Head de open source software do PayPal, CTO da Wikimedia Foundation, evangelista-chefe de open surce da Sun e diretora sênior de estratégias de open source da Intel. Danese também foi a primeira presidente da Node.js Foundation. Ela se concentra em criar comunidades open source saudáveis e já integrou os conselhos da Drupal Association, da Open Source Initiative e da Open Source Hardware Association. Ela também é consultora da Mozilla e da Apache Software Foundation. Danese também dirige uma bem-sucedida consultoria de open source que conta com clientes como a Fundação Bill & Melinda Gates, o SETI Institute, a Harris e a Numenta. Ela é conhecida por tricotar durante as reuniões.
 {{< /board-member >}}
 
+{{< board-member name="Isabel Drost-Fromm" image="/images/about/Isabel_Drost-Fromm.jpeg" >}}
+Isabel Drost-Fromm é Estrategista de Open Source na Europace AG, na Alemanha. Ela é membro da Apache Software Foundation, co-fundadora do Apache Mahout e orientou vários projetos em fase de incubação. Isabel se interessa por tudo relacionado a FOSS, busca e mineração de texto, com um bom conhecimento em aprendizado de máquina. Seguindo a natureza das pessoas que vivem em Berlim, ela adora receber amigos para uma breve visita. Como resultado, ela co-fundou e ainda é uma das mentes criativas por trás do Berlin Buzzwords, uma conferência de tecnologia sobre busca, escalabilidade e armazenamento.
+{{< /board-member >}}
+
 {{< board-member name="Johannes Tigges" image="/images/about/Johannes_Tigges.png" >}}
 Johannes é co-criador do InnerSource Commons Learning Path e trabalhou na introdução do InnerSource na HERE Technologies, uma empresa líder em mapas digitais e localização. Atualmente, ele oferece coaching e consultoria em Produtividade de Engenharia, Estratégia de Open Source e InnerSource e tópicos de OSPO, além de arquitetura de soluções em nuvem. Ele também atua como palestrante e oferece treinamentos técnicos sobre os temas mencionados acima. Ele apresenta seu trabalho e pensamentos em conferências do setor, como o FOSDEM ou a InnerSource Commons Summit, e é ativo em comunidades open source há muito tempo. Com formação em ciência da computação e sociologia das organizações, ele possui uma perspectiva única sobre organizações de engenharia de software. Em funções anteriores, ele também trabalhou na introdução de Integração e Entrega Contínua em grandes instituições de pesquisa, em funções de DevOps para plataformas baseadas em nuvem de grande porte e desenvolveu software no domínio de telecomunicações.
 {{< /board-member >}}
@@ -95,6 +85,16 @@ Jacob Green, fundador da Mosslabs.io, é um artista de open source, estrategista
 
 {{< board-member name="Klaas-Jan Stol" image="/images/about/Klaas-Jan_Stol.jpg" >}}
 Klaas-Jan Stol é professor na University College Cork, Irlanda, pesquisador financiado pelo Lero, o Centro de Pesquisa de Software da Science Foundation Ireland, e consultor científico do SINTEF, Noruega. Como acadêmico, ele realiza pesquisas sobre abordagens contemporâneas de desenvolvimento de software, bem como aspectos humanos e organizacionais. Ele sempre teve interesse no InnerSource e publicou diversos artigos sobre o tema. Klaas possui um doutorado pela University of Limerick.
+{{< /board-member >}}
+
+{{< board-member name="Russell Rutledge" image="/images/about/Russell_Rutledge.jpg" >}}
+Russ Rutledge é Diretor Sênior de InnerSource e Colaboração na WellSky. A WellSky é uma empresa líder em tecnologia que oferece uma variedade de sol
+
+uções de software para organizações em todo o setor de saúde. Nessa função, Russ está liderando uma mudança transformacional na empresa em direção a um InnerSource amplo e abrangente como forma normal de realizar o trabalho. Anteriormente, Russ fundou e liderou o esforço de Colaboração de Desenvolvedores na Nike. A motivação e paixão de Russ é permitir que todos os engenheiros de software alcancem uma incrível produtividade técnica e empresarial por meio de ferramentas de qualidade e processos de trabalho simplificados.
+{{< /board-member >}}
+
+{{< board-member name="Dmitrii Sugrobov" image="/images/about/Dmitrii_Sugrobov.jpg" style="bg-light" >}}
+Dmitrii é um gerente de engenharia experiente no setor varejista, conhecido por sua proficiência em aproveitar a tecnologia para impulsionar a inovação e a eficiência. Dmitrii é um grande defensor do InnerSource como padrão industrial de desenvolvimento de software e liderou equipes no uso dessa abordagem para melhorar continuamente suas práticas.
 {{< /board-member >}}
 
 {{< board-member name="Cedric Williams" image="/images/about/Cedric_Williams.jpg" >}}
