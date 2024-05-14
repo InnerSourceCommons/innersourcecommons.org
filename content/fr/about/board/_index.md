@@ -40,11 +40,11 @@ Tom Sadler is a Software Engineering Team Lead for BBC iPlayer and Sounds, worki
 {{< /board-member >}}
 
 {{< board-member name="Georg Grütter" title="Assistant Treasurer" image="/images/about/Georg_Grutter.jpeg" >}}
-Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO. He co-founded and led the first InnerSource community at Bosch. Georg is a passionate software developer with over 30 years of experience. Previously, he held various positions and roles at Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg has created two open source projects, and also loves photography and chocolate.
+Georg Grütter is an InnerSource evangelist and Developer Advocate at Robert Bosch. He co-founded and led the first InnerSource community at Bosch in 2009 and also co-founded the InnerSource Commons Foundation in 2020. Previously, he held various positions and roles at Robert Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg is passionate about sharing his enthusiasm for InnerSource and loves to inspire developers and companies to engage with InnerSource. 
 {{< /board-member >}}
 
 {{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" style="bg-light" >}}
-Danese Cooper is the founder of InnerSource Commons. She is a long term open source advocate, having previously served as the of head of open source software at PayPal, CTO of the Wikimedia Foundation, chief open source evangelist for Sun, and senior director of open source strategies for Intel. Danese was also the inaugural chairperson of the Node.js Foundation. She concentrates on creating healthy open source communities and has served on the boards of Drupal Association, the Open Source Initiative, the Open Source Hardware Association, and she’s advised Mozilla and the Apache Software Foundation. Danese also runs a successful open source consultancy that counts the Bill & Melinda Gates Foundation, the SETI Institute, Harris, and Numenta as clients. She’s been known to knit through meetings.
+Danese Cooper is the founder of InnerSource Commons. She is a long term open source advocate, having previously served as the Head of open source software at PayPal, CTO of the Wikimedia Foundation, Chief Open Source Evangelist for Sun, and Senior Director of open source strategies for Intel. Danese was also the inaugural chairperson of the Node.js Foundation. She concentrates on creating healthy open source communities and has served on the Boards of the Drupal Association, the Open Source Initiative and the Open Source Hardware Association. She has also advised Mozilla and the Apache Software Foundation. Danese runs a successful open source consultancy that counts the Bill & Melinda Gates Foundation, the SETI Institute, Harris, and Numenta as clients. She has been known to knit through meetings.
 {{< /board-member >}}
 
 {{< board-member name="Clare Dillon" image="/images/about/Clare_Dillon.jpeg" >}}
@@ -52,9 +52,7 @@ With over 25 years' experience in the technology industry, Clare Dillon is curre
 {{< /board-member >}}
 
 {{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" style="bg-light" >}}
-Sebastian Spier is Director of Engineering Programs at Meltwater, where he works on tools and methods to improve the daily work of 500+ engineers, removing frictions wherever possible.
-As an engineering manger for various software development teams, he has experienced InnerSource as a central building block to support successful collaboration in distributed teams.
-As a Member of the InnerSource Commons Foundation, he is maintaining the collection of InnerSource Patterns, always looking to help others to use and improve these patterns.
+Over his 15 years journey in software development, Sebastian Spier has worked as an individual contributor, agile coach, team lead, product owner, engineering manager, and director of engineering. No matter the role or team; effective cross-team collaboration has been key to getting things done at organizations of any size. For Sebastian, InnerSource is more than just a concept – it's a powerful enabler and a transformative teaching tool for fostering collaboration across teams. He firmly believes that it holds the key to enabling organizations to deliver exceptional value to their customers, cultivating a workforce that is not only more content but also highly engaged. In his vision, InnerSource is a pathway towards a more connected company. As a member of the InnerSource Commons Foundation, Sebastian maintains the collection of InnerSource Patterns. He is always looking for ways to enable others to use the patterns in their organizations and to share their own experiences in the form of patterns.
 {{< /board-member >}}
 
 <!-- 
