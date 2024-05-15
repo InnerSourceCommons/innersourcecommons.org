@@ -28,4 +28,4 @@ The InnerSource Commons Foundation was incorporated on February 19th, 2020 and i
 
 ### Contact Information
 
-If you would like to learn more about [InnerSource Commons](https://innersourcecommons.org/), our [Members](https://innersourcecommons.org/about/members/), or our [sponsor program](https://innersourcecommons.org/about/sponsors/), please contact us at: info@innersourcecommons.org.
+If you would like to learn more about [InnerSource Commons](https://innersourcecommons.org/), our [Board](https://innersourcecommons.org/about/board/) or our [sponsor program](https://innersourcecommons.org/about/sponsors/), please contact us at: info@innersourcecommons.org
