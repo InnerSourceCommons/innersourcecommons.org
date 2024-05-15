@@ -24,37 +24,43 @@ aliases:
   </p>
 </div>
 
-{{< board-member name="Daniel Izquierdo Cortazar" title="President" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
-Daniel Izquierdo Cortazar is a researcher and one of the founders of Bitergia, a company that provides software analytics for open source ecosystems. Currently the chief data officer at Bitergia, he is focused on the quality of the data, research of new metrics, analysis, and studies of interest for Bitergia customers via data mining and processing. Daniel holds a PhD in free software engineering from the Universidad Rey Juan Carlos in Madrid, where he focused on the analysis of buggy developers activity patterns in the Mozilla Community. Daniel serves on the board and is a Member of the InnerSource Commons.
+{{< board-member name="Daniel Izquierdo Cortázar" title="President" image="/images/about/Daniel_Izquierdo.jpeg" style="bg-light" >}}
+Daniel Izquierdo Cortázar is a researcher and one of the founders of Bitergia, a company that provides software analytics for open source ecosystems. Currently the Chief Data Officer at Bitergia, he is focused on the quality of the data; research of new metrics, analysis; and studies of interest for Bitergia customers via data mining and processing. Daniel holds a PhD in free software engineering from the Universidad Rey Juan Carlos in Madrid, where he focused on the analysis of buggy developer activity patterns in the Mozilla Community. Daniel serves on the Board and is a Member of the InnerSource Commons.
 {{< /board-member >}}
 
-{{< board-member name="Sebastian Spier" title="Vice President & Assistant Secretary" image="/images/about/Sebastian_Spier.jpg" >}}
-Over his 15 years journey in software development, Sebastian has worked as individual contributor, agile coach, team lead, product owner, engineering manager, and director of engineering. No matter the role or team, effective cross-team collaboration has been key for getting things done at organizations of any size. For Sebastian, InnerSource is more than just a concept – it's a powerful enabler and a transformative teaching tool for fostering collaboration across teams. He firmly believes that it holds the key to enabling organizations to deliver exceptional value to their customers, cultivating a workforce that is not only more content but also highly engaged. In his vision, InnerSource is a pathway towards a more connected company.
-As a member of the InnerSource Commons Foundation, he is maintaining the collection of InnerSource Patterns. He is always looking for ways to help others to use these patterns at their org, as well as sharing their own experiences in the form of patterns.
-{{< /board-member >}}
-
-{{< board-member name="Tom Sadler" title="Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
-Tom Sadler is a Software Engineering Team Lead for BBC iPlayer & Sounds, working in the connected TV space and focussing on cross-team collaboration, including InnerSource. Tom has been involved with the InnerSource Commons since 2019, speaking at multiple community events, is a Trusted Committer on the InnerSource Learning Path project, and lead on publishing the Learning Path to innersourcecommons.org.
-{{< /board-member >}}
-
-{{< board-member name="Katie Schueths" image="/images/about/Katie_Schueths.jpg" >}}
-Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community art events.
+{{< board-member name="Yuki Hattori" title="Vice President" image="/images/about/Yuki_Hattori.jpg" >}}
+Yuki Hattori is a Senior Architect at GitHub with a strong background in cloud technology and DevOps. He enjoys helping customers optimize their services and processes. As a proponent of InnerSource, Yuki is leading in the InnerSource downstream movement and also serves as a community organizer in Japan. He is passionate about sharing his knowledge and contributing to the growth of the InnerSource community.
 {{< /board-member >}}
 
 {{< board-member name="Matt Cobby" title="Secretary" image="/images/about/Matt_Cobby.jpg" style="bg-light" >}}
-Matt Cobby is Director of Engineering at Deloitte where he specializes in helping teams with their engineering practices, developer experience, and platform & product engineering.
-As a member of the InnerSource Foundation he has run a large scale InnerSource program and now seeks to inspire teams to seek the many benefits of an Open Source style of collaboration inside their own organization.
-With over 18 years transformation experience in the UK, Europe & Australia, he has a passion for mentoring engineers and is an active supporter of technical & local communities that inspire people.
+For most of his career, Matt Cobby’s mission has been to improve the daily lives of software engineering teams, wrangling people and technology through engineering evolutions. He is a veteran of developer experience over the past eight years and believes that InnerSource is a key factor in building a good developer experience. Matt has run a large scale InnerSource program for a bank. He is currently CTO for CXGuardian.ai, a platform helping companies and engineers adopt AI with fair and ethical governance to reshape their business and productivity.
+Previously a Director of Engineering for Deloitte, Matt consulted with technology executives on engineering strategy and has also worked with RWE Supply and Trading, BP, Shell and National Australia Bank. With over 18 years transformation experience in the UK, Europe and Australia, Matt has a passion for mentoring engineers towards engineering excellence and is an active supporter of technical and local communities.
+{{< /board-member >}}
+
+{{< board-member name="Katie Schueths" title="Assistant Secretary" image="/images/about/Katie_Schueths.jpg" >}}
+Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community arts events.
+{{< /board-member >}}
+
+{{< board-member name="Tom Sadler" title="Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
+Tom Sadler is a Principal Software Engineer for BBC iPlayer and Sounds, working in the connected TV space and focusing on cross-team collaboration, including InnerSource. Tom has been involved with InnerSource Commons since 2019, speaking at multiple community events. He is a Trusted Committer on the InnerSource Learning Path project, and the Lead on publishing the Learning Path to innersourcecommons.org.
 {{< /board-member >}}
 
 {{< board-member name="Georg Grütter" title="Assistant Treasurer" image="/images/about/Georg_Grutter.jpeg" >}}
-Georg Grütter is a social coding evangelist and developer advocate at Bosch.IO. He co-founded and led the first InnerSource community at Bosch. Georg is a passionate software developer with over 30 years of experience. Previously, he held various positions and roles at Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg has created two open source projects, and also loves photography and chocolate.
+Georg Grütter is an InnerSource evangelist and Developer Advocate at Robert Bosch. He co-founded and led the first InnerSource community at Bosch in 2009 and also co-founded the InnerSource Commons Foundation in 2020. Previously, he held various positions and roles at Robert Bosch, Line Information, the Zurich System House, and DaimlerChrysler. Georg is passionate about sharing his enthusiasm for InnerSource and loves to inspire developers and companies to engage with InnerSource. 
 {{< /board-member >}}
 
-{{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" style="bg-light" >}}
-Yuki is a distinguished technology expert currently serving as an Architect at GitHub, possessing an extensive background in Cloud technology and DevOps methodologies. Throughout his career, he has offered valuable guidance and proficiency to a myriad of enterprise clients, assisting them in refining their systems and processes.
-Yuki’s area of specialization is InnerSource transformation, and he has notably established a thriving community in Japan that has engaged with prominent industry figures and thought leaders. As a passionate advocate of InnerSource, Yuki has translated a vast array of materials and has organized numerous workshops and video presentations to disseminate awareness and understanding of the subject. He takes immense pride in serving as an exemplar for other regions and remains wholeheartedly committed to employing his expertise and knowledge to benefit others within the community.
+{{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" style="bg-light" >}}
+Danese Cooper is the founder of InnerSource Commons. She is a long term open source advocate, having previously served as the Head of open source software at PayPal, CTO of the Wikimedia Foundation, Chief Open Source Evangelist for Sun, and Senior Director of open source strategies for Intel. Danese was also the inaugural chairperson of the Node.js Foundation. She concentrates on creating healthy open source communities and has served on the Boards of the Drupal Association, the Open Source Initiative and the Open Source Hardware Association. She has also advised Mozilla and the Apache Software Foundation. Danese runs a successful open source consultancy that counts the Bill & Melinda Gates Foundation, the SETI Institute, Harris, and Numenta as clients. She has been known to knit through meetings.
 {{< /board-member >}}
+
+{{< board-member name="Clare Dillon" image="/images/about/Clare_Dillon.jpeg" >}}
+With over 25 years' experience in the technology industry, Clare Dillon is currently a researcher with Lero, the Science Foundation Ireland's Research Centre for Software, where she focuses on InnerSource. Clare also works with CURIOSS, a global community for  university and research institution OSPOs (Open Source Program Offices). Clare has been participating in the InnerSource Commons community since 2019. From 2021-2023, Clare served as the inaugural Executive Director of the InnerSource Commons Foundation. Previously, Clare was a member of the Microsoft Ireland Leadership Team for eight years; heading up their Developer Evangelism Group. Clare is also a certified coach and frequently speaks at international conferences and corporate events on topics relating to open collaboration and the future of work.
+{{< /board-member >}}
+
+{{< board-member name="Sebastian Spier" image="/images/about/Sebastian_Spier.jpg" style="bg-light" >}}
+Over his 15 years journey in software development, Sebastian Spier has worked as an individual contributor, agile coach, team lead, product owner, engineering manager, and director of engineering. No matter the role or team; effective cross-team collaboration has been key to getting things done at organizations of any size. For Sebastian, InnerSource is more than just a concept – it's a powerful enabler and a transformative teaching tool for fostering collaboration across teams. He firmly believes that it holds the key to enabling organizations to deliver exceptional value to their customers, cultivating a workforce that is not only more content but also highly engaged. In his vision, InnerSource is a pathway towards a more connected company. As a member of the InnerSource Commons Foundation, Sebastian maintains the collection of InnerSource Patterns. He is always looking for ways to enable others to use the patterns in their organizations and to share their own experiences in the form of patterns.
+{{< /board-member >}}
+
 <!-- 
 <div class="section-first container">
     <h2>Elected Officers:</h2>
@@ -82,10 +88,6 @@ Silona Bonewald is the Executive Director for IEEE SA OPEN, a comprehensive plat
 
 {{< board-member name="Maximilian Capraro" image="/images/about/Maximilian_Capraro.jpg" >}}
 Maximilian Capraro is a researcher and doctoral candidate at the Open Source Research Group at Friedrich-Alexander-University Erlangen-Nürnberg. He worked on inner source in research projects with a variety of companies including Black Duck Software, Continental, and multiple Siemens business units. He developed the patch-flow measurement method (for measuring software development collaboration) and the first classification framework for inner source projects and programs. His research interests the quantification of software development collaboration, inner source governance including legal and taxation aspects, and many other things around inner source, open source, and software engineering.
-{{< /board-member >}}
-
-{{< board-member name="Danese Cooper" image="/images/about/Danese_Cooper.jpg" >}}
-Danese Cooper is the founder of InnerSource Commons. She is a long term open source advocate, having previously served as the of head of open source software at PayPal, CTO of the Wikimedia Foundation, chief open source evangelist for Sun, and senior director of open source strategies for Intel. Danese was also the inaugural chairperson of the Node.js Foundation. She concentrates on creating healthy open source communities and has served on the boards of Drupal Association, the Open Source Initiative, the Open Source Hardware Association, and she’s advised Mozilla and the Apache Software Foundation. Danese also runs a successful open source consultancy that counts the Bill & Melinda Gates Foundation, the SETI Institute, Harris, and Numenta as clients. She’s been known to knit through meetings.
 {{< /board-member >}}
 
 {{< board-member name="Isabel Drost-Fromm" image="/images/about/Isabel_Drost-Fromm.jpeg" >}}
