@@ -80,5 +80,5 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
       
 We are thankful to our sponsors for their partnership and support which contributes to growing our community, facilitating the work we do and spreading the word about InnerSource.
 
-Sponsorship costs vary depending on the type of sponsorship, type and size of organization and length of commitment. You can find out more information [here](https://drive.google.com/file/d/1kPP44d9NQEUqY65kjt61bSMfP1BvxHD6/view?usp=sharing). If you are interested in sponsoring InnerSource Commons and would like to know more about our Partner and Supporter Programs, please contact us at sponsor@innersourcecommons.org. 
+Sponsorship costs vary depending on the type of sponsorship, type and size of organization and length of commitment. If you are interested in sponsoring InnerSource Commons and would like to know more about our Partner and Supporter Programs, please contact us at info@innersourcecommons.org. 
 
