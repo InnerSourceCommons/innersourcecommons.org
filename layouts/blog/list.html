@@ -1,0 +1,104 @@
+{{ define "main" }}
+{{ partial "breadcrumbs.html" . }}
+
+{{ $pages := .Data.Pages }}
+{{ $pages = where $pages "Section" "in" "blogs" }}
+{{ $latest := first 1 $pages }}
+{{ $others := after 1 $pages }}
+<style>
+  /* Hide the announcement banner */
+  .notice {
+    display: none;
+  }
+  body > section.section {
+    padding: 0;
+  }
+  .author {
+    font-size: 16px;
+    font-weight: 900;
+    color: black;
+    padding-right: 4px;
+  }
+  .text-gradient {
+    font-size: 16px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(0deg, #0aa8a7, #0aa807);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 4px;
+    border:none;
+  }
+  .text-gradient:hover {
+    border:none;
+  }
+  p {
+    line-height: 24px;
+  }
+  .card-body{
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-bottom: 20px;
+  }
+
+</style>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ range $latest }}
+      <div class="col-12 mb-5">
+        <div class="row">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }}>
+              <img src="{{ .Params.image | absURL }}" alt="{{.Title}}" class="img-fluid rounded-lg w-100">
+            </a>
+          </div>
+          <div class="col-md-6">
+            {{ range .Params.categories }}
+            <span href="#" class="text-gradient">{{ . }}</span>
+            {{ end }}
+            <h2><a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="post-title">{{ .Title }}</a></h2>
+            <p class="card-text"> {{ .Summary }}</p>
+            <p>
+            {{ range .Params.authors}}
+            <span class="author">{{ . }}</span>
+            {{ end }}
+            <span><small class="text-muted">{{ .Date.Format "January 2, 2006" }}</small></span></p>
+            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn-link">Read more</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      {{ range $others }}
+      <div class="col-lg-12 col-sm-12 mb-12">
+      <div class="card mb-3 border-0">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }}>
+              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img rounded-lg">
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+            {{ range .Params.categories }}
+            <span class="text-gradient">{{ . }}</span>
+            {{ end }}
+              <h3><a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="post-title">{{ .Title }}</a></h3>
+              <p class="card-text"><small class="text-muted">{{ .Summary }}</small></p>
+            <p>
+            {{ range .Params.authors}}
+            <span  class="author">{{ . }}</span>
+            {{ end }}
+            <span><small class="text-muted">{{ .Date.Format "January 2, 2006" }}</small></span></p>
+            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn-link">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}
