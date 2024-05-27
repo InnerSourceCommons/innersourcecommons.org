@@ -5,8 +5,6 @@ image: "/images/about/announcements/2023-06-new-members-announcement.png"
 date: 2023-06-12
 featured: false
 type: "announcements"
-aliases:
-    - /about/announcements/2023-06-new-board-and-officers
 ---
  
 June, 2023
