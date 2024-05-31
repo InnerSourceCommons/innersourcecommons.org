@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        language: [ja, de, zh, it, es, ru, fr]
+        language: [ja, de, zh, it, es, ru, fr, pt-br]
     steps:
       - uses: actions/checkout@v2
         with:
@@ -92,6 +92,7 @@ jobs:
             ["es"]="🇪🇸 Spanish"
             ["ru"]="🇷🇺 Russian"
             ["fr"]="🇫🇷 French"
+            ["pt-br"]="🇧🇷 Brazilian Portuguese"
           )
 
           # Set the issue title
