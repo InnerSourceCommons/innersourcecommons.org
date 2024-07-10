@@ -22,6 +22,23 @@ main:
   - name: Events
     URL: events
     weight: 2
+    identifier: events
+  - name: Summit 2024
+    URL: events/summit-2024
+    parent: events
+    weight: 4
+  - name: Local Gatherings
+    URL: events/local-gatherings
+    parent: events
+    weight: 5
+  - name: Community Calls
+    URL: events
+    parent: events
+    weight: 6
+  - name: Past Summits
+    URL: events/past-summits
+    parent: events
+    weight: 7
   - name: Calendar
     URL: calendar
     weight: 3
