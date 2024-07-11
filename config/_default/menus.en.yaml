@@ -24,11 +24,11 @@ main:
     weight: 2
     identifier: events
   - name: Summit 2024
-    URL: https://www.eventbrite.com/e/innersource-summit-2024-tickets-943448669367
+    URL: events/summit-2024
     parent: events
     weight: 4
   - name: Local Gatherings
-    URL: events/local-gatherings
+    URL: https://gatherings.innersourcecommons.org/
     parent: events
     weight: 5
   - name: Community Calls
