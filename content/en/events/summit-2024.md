@@ -15,7 +15,7 @@ type: page
                 <a class="nav-link" href="#">Sponsor</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../../about/contact/">Contact Us</a>
+                <a class="nav-link" href="https://innersourcecommons.org/about/contact/">Contact Us</a>
             </li>
         </ul>
     </div>
