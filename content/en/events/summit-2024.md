@@ -9,10 +9,10 @@ type: page
                 <a class="nav-link" href="https://www.eventbrite.com/e/innersource-summit-2024-tickets-943448669367">Register</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">View the Schedule</a>
+                <a class="nav-link" href="https://innersourcecommons.org/events/isc-2024/">Speakers</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Sponsor</a>
+                <a class="nav-link" href="https://innersourcecommons.org/events/isc-2024/">Sponsor</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://innersourcecommons.org/about/contact/">Contact Us</a>
