@@ -8,7 +8,6 @@ Welcome to the InnerSource Services Directory. We have compiled a list of compan
 If you would like to be added to the services list please send us an email at info@innersourcecommons.org.
 
 We do our best to ensure that the information on this page is accurate and helpful at all times. However, any link or content listed below does not represent any endorsement or recommendation by InnerSource Commons and does not mean that we have any association with the linked organizations.
-</p>
 
 <table class="schedule table table-striped">
     <tr>
