@@ -62,7 +62,7 @@ We do our best to ensure that the information on this page is accurate and helpf
         <td class="title">Komyu is a consulting and training company based in France that specializes in setting up Massive Cooperation worldwide. We believe that the world's challenges require the ability to work together in large groups, utilizing InnerSource, Open Source, well-engineered communities, and effective leadership. Our approach involves working on multiple levels, including corporate strategy, program tactics, operations, and individual leadership, to deploy InnerSource in both its operational dimensions (e.g. legal, tools, governance) and its human factors (e.g. sponsors, contributors, users). With global intervention capabilities, we aim to facilitate the adoption of InnerSource and foster collaboration on a massive scale.   <a href="https://www.komyu.io/">Click here to learn more</a> or <a href="mailto:contact@komyu.fr">contact Komyu</a> directly.
         </td>
     </tr>
-     <tr>
+    <tr>
          <td><img src="/images/logos/make-dev.png" alt="Make.dev"></td>
         <td>Consulting Services</td>
         <td class="title">Make.dev is a community-building consultancy that specializes in driving software developer engagements. At Make.dev, we understand the impact that InnerSource can have on organizational culture and have the experience and tools necessary to guide your team to kickstart your Innersource community. This includes creating awareness campaigns for leadership and developers, designing onboarding journeys, and creating bespoke developer events.   <a href="https://www.make.dev/">Click here to learn more</a> or <a href="community@make.dev">contact Make.dev</a> directly.
@@ -82,7 +82,7 @@ We do our best to ensure that the information on this page is accurate and helpf
         Learn more about our community-building services <a href="https://www.redhat.com/en/services/consulting#contact">here</a>. 
         </td>
     </tr>
-     <tr>
+    <tr>
         <td><img src="/images/logos/sourcegraph-logo.svg" alt="Sourcegraph"></td>
         <td>Tools & Training Services</td>
         <td class="title">Sourcegraph makes it easy to help drive adoption of InnerSource. Our customers can find existing code libraries for reuse and avoid spending time on problems you know a teammate already solved. This means a more secure and coherent codebase and more time for you to spend on more interesting work. <a href="https://srcgr.ph/innersource-commons">Click here to learn more</a> or <a href="mailto:innersource@sourcegraph.com">contact Sourcegraph</a> directly.
