@@ -8,7 +8,6 @@ Bem-vindo ao Diretório de Serviços InnerSource. Compilamos uma lista de empres
 Se você gostaria de ser adicionado à lista de serviços, por favor, envie-nos um e-mail para info@innersourcecommons.org.
 
 Nós fazemos o nosso melhor para garantir que as informações desta página sejam precisas e úteis o tempo todo. No entanto, qualquer link ou conteúdo listado abaixo não representa qualquer endosso ou recomendação da InnerSource Commons e não significa que tenhamos qualquer associação com as organizações vinculadas.
-</p>
 
 <table class="schedule table table-striped">
     <tr>
@@ -50,6 +49,12 @@ tricas de primeira linha. <a href="https://bitergia.com/innersource/">Clique aqu
         <td><img src="/images/logos/gitlab.png" alt="GitLab"></td>
         <td>Ferramentas e Serviços de Treinamento</td>
         <td class="title">O InnerSource é fundamental para os valores do GitLab de "Todos podem Contribuir". Como tal, temos muita experiência nas melhores maneiras de obter ideias e contribuições em empresas. Oferecemos treinamentos gratuitos e pagos para organizações que desejam InnerSource com segurança e promover a inovação em todos os cantos da empresa. Nosso workshop gratuito é conduzido por um Gerente de Conta Técnica para contas qualificadas. Você também pode realizar um treinamento conduzido pelos serviços profissionais. Saiba mais sobre seu <a href="https://about.gitlab.com/solutions/innersource/">treinamento conduzido pelos serviços profissionais</a> e seus <a href="https://about.gitlab.com/handbook/customer-success/workshops/innersource-workshop.html">workshops conduzidos pelo TAM</a> ou <a href="https://about.gitlab.com/sales/">entre em contato com o GitLab</a> diretamente.
+        </td>
+    </tr>
+     <tr>
+        <td><img src="/images/logos/kolabri.svg" alt="Kolabri"></td>
+        <td>Ferramentas e Serviços de Consultoria</td>
+        <td class="title">Ajudamos a implementar estratégias pragmáticas de preços de transferência para o desenvolvimento de software InnerSource distribuído globalmente - sem nenhum impedimento para seus desenvolvedores. Saiba mais sobre como Kolabri e nossa ferramenta Kolabri Cloud podem mitigar seus riscos fiscais em <a href="https://kolabri.io/">www.kolabri.io</a>. 
         </td>
     </tr>
     <tr>
