@@ -24,7 +24,7 @@ main:
     weight: 2
     identifier: events
   - name: Summit 2024
-    URL: events/summit-2024
+    URL: events/isc-2024
     parent: events
     weight: 4
   - name: Local Gatherings
@@ -104,7 +104,7 @@ footer_middle:
     weight: 1
     post: bold
   - name: Summit 2024
-    URL: events/summit-2024
+    URL: events/isc-2024
     weight: 2
   - name: Local Gatherings
     URL: https://gatherings.innersourcecommons.org/
