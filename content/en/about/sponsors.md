@@ -11,9 +11,13 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
 
   <div class="container">
     <div class="row justify-content-center">
-      {{< company name="Analog Devices" image="/images/logos/analog-devices.png" >}}{{< /company >}}
+      {{< company name="Analog Devices" image="/images/logos/analog-devices.png" author_name="Glen Anderson" author_title="Managing Director, Developer Platforms, Software Engineering & Solutions, Analog Devices">}}
+      At Analog Devices, we believe strongly in the power of InnerSource to accelerate innovation and improve developer experience. ISC has been a key partner for us to connect with likeminded companies industry-wide and collaboratively drive best practices. We believe that ISC continues to be the right steward for that vision. 
+      {{< /company >}}
       {{< company name="Bitergia" image="/images/logos/bitergia.png" >}}{{< /company >}}
-      {{< company name="GitHub" image="/images/logos/github.png" >}}{{< /company >}}
+      {{< company name="GitHub" image="/images/logos/github.png" author_name="Zack Koppert" author_title="Senior Engineering Manager at GitHub, Open Source Program Office, GitHub" >}}
+      For GitHub, sponsoring the InnerSource Commons is one of the many ways that we are investing in making software better for everyone. We believe that collaborative software development leads to the best outcomes whether that’s open source or InnerSource. So for us, supporting the InnerSource Commons is core to what we are trying to do as a company. The support that is offered to each other by the InnerSource community and the structured assets like patterns and books are tangible outcomes that we have seen huge benefits from for the industry. That real impact is exactly what we want to expand as we support the InnerSource Commons.
+      {{< /company >}}
       {{< company name="IBM" image="/images/logos/ibm.png" >}}{{< /company >}}
       {{< company name="Microsoft" image="/images/logos/microsoft.png" >}}{{< /company >}}
     </div>
