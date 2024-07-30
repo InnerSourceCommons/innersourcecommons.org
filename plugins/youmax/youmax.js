@@ -164,7 +164,7 @@ var youmax_global_options = {};
 
     initFeaturedVideos = function () {
         youTubePlaylistURL = youmax_global_options.youTubePlaylistURL;
-        console.log('inside init featured - '+youTubePlaylistURL);
+        // console.log('inside init featured - '+youTubePlaylistURL);
         if(null!=youTubePlaylistURL&&youTubePlaylistURL.indexOf("youtube.com/playlist?list=")!=-1) {
             youmaxFeaturedPlaylistId = youTubePlaylistURL.substring(youTubePlaylistURL.indexOf("?list=")+6);
             youmax_global_options.youmaxFeaturedPlaylistId = youmaxFeaturedPlaylistId;
@@ -174,8 +174,8 @@ var youmax_global_options = {};
 
 
     showInfo = function(response) {
-        console.log('showInfo');
-        console.log(response);
+        // console.log('showInfo');
+        // console.log(response);
 
         var channelData = response.items[0];
         var channelId = channelData.id;
@@ -234,7 +234,7 @@ var youmax_global_options = {};
 
 
     showPlaylists = function(response,loadMoreFlag) {
-        console.log(response);
+        // console.log(response);
 
         if(!loadMoreFlag) {
             $('#youmax-video-list-div').empty();
@@ -307,7 +307,7 @@ var youmax_global_options = {};
     },
 
     showUploads = function(response,playlistTitle,loadMoreFlag) {
-        console.log(response);
+        // console.log(response);
 
         if(!loadMoreFlag) {
             $('#youmax-video-list-div').empty();
@@ -426,7 +426,7 @@ var youmax_global_options = {};
         var uploadsPlaylistId = youmaxTabId.substring(youmaxTabId.indexOf('_')+1);
         var apiUploadURL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId="+uploadsPlaylistId+"&maxResults="+youmax_global_options.maxResults+pageTokenUrl+"&key="+youmax_global_options.apiKey;
 
-        console.log('apiUploadURL-'+apiUploadURL);
+        // console.log('apiUploadURL-'+apiUploadURL);
 
         $.ajax({
             url: apiUploadURL,
