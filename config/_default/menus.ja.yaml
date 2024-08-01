@@ -61,6 +61,10 @@ main:
   URL: ja/about/contact
   parent: about
   weight: 6
+- name: 欠員
+  URL: ja/about/vacancies
+  parent: about
+  weight: 7
 footer_left:
 - name: 学ぶ
   URL: ja/learn
@@ -121,3 +125,6 @@ footer_right:
 - name: プライバシーポリシー
   URL: ja/about/privacy
   weight: 7
+- name: 欠員
+  URL: ja/about/vacancies
+  weight: 8
