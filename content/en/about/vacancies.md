@@ -11,7 +11,7 @@ InnerSource and the InnerSource Commons are on the rise.  InnerSource is [moving
 To encourage and amplify the work of these volunteers, the InnerSource Commons needs a Community Manager to support them.  Through encouragement, structure, and servant leadership, you will encourage volunteers to engage with the InnerSource Commons and remove 	barriers to their work so that they can produce output that simultaneously benefits InnerSource in the industry, the InnerSource Commons, their employer, and their own personal interests.
 
 
-This is a part-time, remote role.  Send email with resume to info@innersourcecommons.org to apply.
+This is a part-time, contracted, remote role.  Send email with resume to info@innersourcecommons.org to apply.
 
 # Responsibilities
 
