@@ -34,7 +34,7 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
       {{< company name="Comcast" image="/images/logos/comcast.png" >}}{{< /company >}}
       {{< company name="Fannie Mae" image="/images/logos/Fannie_Mae.png" >}}{{< /company >}}
       {{< company name="indeed" image="/images/logos/Indeed_Logo_RGB.png" >}}{{< /company >}}
-      {{< company name="lenstra" image="/images/logos/lenstra.png" >}}{{< /company >}}
+      {{< company name="lenstra" image="/images/logos/lentra black.png" >}}{{< /company >}}
       {{< company name="Mercedes Benz" image="/images/logos/Mercedes-Benz.png" >}}{{< /company >}}
       {{< company name="Red Hat" image="/images/logos/Red Hat.png" >}}{{< /company >}}
       {{< company name="SAP" image="/images/logos/sap.png" >}}{{< /company >}}
