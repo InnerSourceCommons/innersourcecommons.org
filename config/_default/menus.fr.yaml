@@ -61,10 +61,10 @@ main:
     URL: fr/about/contact
     parent: about
     weight: 6
-  - name: Postes vacants
-    URL: fr/about/vacancies
-    parent: about
-    weight: 7
+  # - name: Postes vacants
+  #   URL: fr/about/vacancies
+  #   parent: about
+  #   weight: 7
 footer_left:
   - name: Apprendre
     URL: fr/learn
@@ -125,6 +125,6 @@ footer_right:
   - name: Politique de confidentialité
     URL: fr/about/privacy
     weight: 7
-  - name: Postes vacants
-    URL: fr/about/vacancies
-    weight: 8
+  # - name: Postes vacants
+  #   URL: fr/about/vacancies
+  #   weight: 8
