@@ -218,7 +218,7 @@ aliases:
       {{< /company >}}
       {{< company name="Societe Generale" image="/images/logos/societegenerale.png" article="https://github.com/customer-stories/societe-generale" >}}
       {{< /company >}}
-      {{< company name="Sourcegraph" image="/images/logos/sourcegraph.svg" article="https://about.sourcegraph.com/podcast/jonathan-carter/" >}}
+      {{< company name="Sourcegraph" image="/images/logos/sourcegraph-vector-logo.png" article="https://about.sourcegraph.com/podcast/jonathan-carter/" >}}
       {{< /company >}}
       {{< company name="Spotify" image="/images/logos/spotify.png" article="https://github.com/customer-stories/spotify" author_name="Laurent Ploix" author_title="Product Manager" >}}
       Pull requests are welcome. Someone out there might find a better solution than I can.
