@@ -20,7 +20,7 @@ main:
   URL: ja/learn/research
   weight: 5
 - name: イベント
-  URL: ja/events
+  URL: ja/events/community-calls
   weight: 2
 - name: コミュニティ
   identifier: community
@@ -84,7 +84,7 @@ footer_left:
   weight: 5
 footer_middle:
 - name: イベント
-  URL: ja/events
+  URL: ja/events/community-calls
   weight: 1
   post: bold
 - name: コミュニティ

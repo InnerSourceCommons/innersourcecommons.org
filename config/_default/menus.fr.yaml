@@ -20,7 +20,7 @@ main:
     URL: fr/learn/research
     weight: 5
   - name: Évènements
-    URL: fr/events
+    URL: fr/events/community-calls
     weight: 2
   - name: Communauté
     identifier: community
@@ -84,7 +84,7 @@ footer_left:
     weight: 5
 footer_middle:
   - name: Évènements
-    URL: fr/events
+    URL: fr/events/community-calls
     weight: 1
     post: bold
   - name: Communauté

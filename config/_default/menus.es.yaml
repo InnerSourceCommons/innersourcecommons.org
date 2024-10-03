@@ -20,7 +20,7 @@ main:
     URL: es/learn/research
     weight: 5
   - name: Events
-    URL: es/events
+    URL: es/events/community-calls
     weight: 2
   - name: Community
     identifier: community
@@ -80,7 +80,7 @@ footer_left:
     weight: 5
 footer_middle:
   - name: Events
-    URL: es/events
+    URL: es/events/community-calls
     weight: 1
     post: bold
   - name: Community

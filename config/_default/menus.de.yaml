@@ -20,7 +20,7 @@ main:
     URL: de/learn/research
     weight: 5
   - name: Ereignisse
-    URL: de/events
+    URL: de/events/community-calls
     weight: 2
   - name: Gemeinschaft
     identifier: community
@@ -80,7 +80,7 @@ footer_left:
     weight: 5
 footer_middle:
   - name: Ereignisse
-    URL: de/events
+    URL: de/events/community-calls
     weight: 1
     post: bold
   - name: Gemeinschaft

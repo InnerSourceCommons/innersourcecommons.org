@@ -20,7 +20,7 @@ main:
     URL: learn/research
     weight: 5
   - name: Events
-    URL: events
+    URL: events/community-calls
     weight: 2
     identifier: events
   - name: Summit 2024
@@ -32,7 +32,7 @@ main:
     parent: events
     weight: 5
   - name: Community Calls
-    URL: events
+    URL: events/community-calls
     parent: events
     weight: 6
   - name: Past Summits
@@ -104,7 +104,7 @@ footer_left:
     weight: 5
 footer_middle:
   - name: Events
-    URL: events
+    URL: events/community-calls
     weight: 1
     post: bold
   - name: Summit 2024
