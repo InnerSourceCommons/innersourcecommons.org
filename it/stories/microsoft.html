@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta charset="utf-8">
+  <title>Microsoft DevOps Dojo InnerSource Case Study</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content='The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource.'>
+  <meta name="keywords" content='InnerSource,Open source,silo,collaboration'>
+  <meta name="author" content="InnerSource Commons">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/plugins/youmax/youmax.css">
+  
+  <link rel="stylesheet" href="/plugins/bootstrap-select/css/bootstrap-select.min.css">
+  
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link href="/scss/style.min.css" rel="stylesheet" media="screen"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="layout" content="page - page - stories - stories - Page(/stories/_index.md)">
+  
+  
+	
+	<link rel="alternate" hreflang="en" href="/stories/microsoft.html" title="English">
+	
+	<link rel="alternate" hreflang="ja" href="/ja/stories/microsoft.html" title="日本語">
+	
+	<link rel="alternate" hreflang="pt-br" href="/pt-br/stories/microsoft.html" title="Português Brasileiro">
+	
+	<link rel="alternate" hreflang="de" href="/de/stories/microsoft.html" title="Deutsch">
+	
+	<link rel="alternate" hreflang="es" href="/es/stories/microsoft.html" title="Español">
+	
+	<link rel="alternate" hreflang="fr" href="/fr/stories/microsoft.html" title="Français">
+	
+	<link rel="alternate" hreflang="ru" href="/ru/stories/microsoft.html" title="Русский">
+	
+	<link rel="alternate" hreflang="zh" href="/zh/stories/microsoft.html" title="中文">
+	
+  
+  
+  <meta property="og:title" content="Microsoft DevOps Dojo InnerSource Case Study" />
+<meta property="og:description" content="Summary When done right, InnerSource is one of the most effective ways to release trapped value in the enterprise." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/it/stories/microsoft.html" />
+
+
+  
+    
+    <meta property="og:image" content="/images/logo.png" />
+    
+  
+
+  <!-- Mastodon verification code -->
+  <link href="https://fosstodon.org/@innersource" rel="me">
+
+</head><body><!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand"
+        href='/it'>
+        <img width="200px" class="img-fluid" src="/images/logo.png"
+          alt="InnerSource Commons">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/it/learn" >Learn</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/it/learn/books" >Books</a>
+              
+              <a class="dropdown-item" href="/it/learn/learning-path" >Learning Path</a>
+              
+              <a class="dropdown-item" href="/it/learn/patterns" >Patterns</a>
+              
+              <a class="dropdown-item" href="/it/learn/research" >Research</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/it/events/community-calls" >Events</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/it/community" >Community</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/it/community/services" >Services Directory</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/it/stories" >Stories</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/it/about" >About</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/it/about/announcements" >Announcements</a>
+              
+              <a class="dropdown-item" href="/it/about/board" >Board &amp; Governance</a>
+              
+              <a class="dropdown-item" href="/it/about/members" >Members</a>
+              
+              <a class="dropdown-item" href="/it/about/sponsors" >Sponsors</a>
+              
+              <a class="dropdown-item" href="/it/about/codeofconduct" >Code of Conduct</a>
+              
+              <a class="dropdown-item" href="/it/about/contact" >Contact Us</a>
+              
+            </div>
+          </li>
+          
+          
+        </ul>
+        <a href="/slack" class="btn btn-sm slack-invite-btn btn-primary ml-2" target="_blank"><i
+            class="ti-comments pr-2"></i>Join Slack</a>
+        
+        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+          <option>Italiano</option>
+          
+          <option value="/stories/microsoft.html">English</option>
+          
+          <option value="/ja/stories/microsoft.html">日本語</option>
+          
+          <option value="/pt-br/stories/microsoft.html">Português Brasileiro</option>
+          
+          <option value="/fr/stories/microsoft.html">Français</option>
+          
+        </select>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="notice bg-primary text-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-12 text-center">
+          <i class="ti-calendar mr-2"></i>
+          <a href="https://bit.ly/ISCSUM24" class="bg-primary text-light" target="_blank"> INNERSOURCE SUMMIT 2024 - book your ticket for November 20th and 21st </i></a>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="notice bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">Join us on Tuesday, October 8th, at 8am GMT / 9am CEST / 12:30pm IST / 6pm AEDT when Vincent Caldeira, Red Hat, Clemens Jütte, Humanitec, and Luiz Fernando Almeida de Oliveira, Red Hat, will discuss  <a href="https://bit.ly/ISCOct08" class="btn-link ml-1" target="_blank">Promoting InnerSource Practices with an Internal Developer Platform.
+            <i class="ti-arrow-right"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<div class="container">
+
+<ol class="breadcrumb">
+  
+
+
+
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/it/">InnerSource Commons</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/it/stories.html">InnerSource Stories</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+   
+  Microsoft DevOps Dojo …
+  
+</li>
+
+</ol>
+
+
+</div>
+<section class="section pb-0 section-first">
+  <div class="container text-center">
+    <h1 class="display-3">Microsoft DevOps Dojo InnerSource Case Study</h1>
+    
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="content"><h2 id="summary">Summary</h2>
+<p>When done right, InnerSource is one of the most effective ways to release trapped value in the enterprise. InnerSource is not just for source code, it can be used for any content including sales, presales, marketing, solution, delivery or education in your organization.</p>
+<p>Microsoft has been practicing InnerSource within the product groups to develop code for more than 5 years with early pockets of cross team collaboration on code reaching back many more years. In the string of collaboration efforts, the DevOps Dojo within Microsoft Professional Services is one of the more recent groups to use InnerSource, this time, to create content collaboratively.</p>
+<p>Read on to learn how Microsoft’s DevOps Dojo leveraged InnerSource to help them:</p>
+<ul>
+<li><strong>Solve the problem</strong> of having many divergent copies of customer-facing content, instead creating a “single source of truth” for the resources used in the delivery of their DevOps masterclasses</li>
+<li><strong>Empower a global community</strong> of DevOps practitioners and Microsoft consultants to engage in the co-creation of the assets, asynchronously, ancillary to their day-job</li>
+<li>Enable team members to <strong>incorporate customer feedback</strong> to improve the content live with customers and have it propagated quickly to the entire organization</li>
+<li><strong>Grow skills</strong> in communication, documentation, and community building that led to personal fulfilment, professional success, and promotions</li>
+<li>Build <strong>deep and lasting personal</strong> connections across the globe.</li>
+</ul>
+<h2 id="background">Background</h2>
+<p>Microsoft engineering has undergone a massive transformation over the past number of years: From taking a year to release a packaged software in 2014, to having deployment to production 82,000 times a day in 2019, and today 5.6M times a month. Customers naturally were asking: “How did that happen?” and “What’s the secret sauce behind the scenes?” A group within Microsoft Professional Services (now called Microsoft Industry Solution) decided to address this challenge and share Microsoft’s learnings of practicing InnerSource with content directly delivered to customers.  The DevOps Dojo initiative started in early 2019.
+DevOps Dojo is a community of practice at Microsoft. It started with a small group of volunteers from the Services organization, then expanded to Customer Success, Digital Advisory, Product Groups, and other organizations. All participation is voluntary and happens adjacent to their core job priorities. It is a community where cross-functional teams practice agile, continuous collaboration and automation principles of DevOps to find the best path to delivering software from idea to production with quality. It includes a diverse set of participants across roles, levels of experience and geographies, all working to learn together and share those learnings with Microsoft’s customers.</p>
+<h2 id="problems-to-be-solved">Problems to Be Solved</h2>
+<p>When DevOps Dojo started out the cross-functional IP was closed source. This posed a problem. The teams were working with technologies that had just come out, with tools that were still in beta. The core content was being updated by the Product Groups on a continuous basis. Links to resources and reports had to be regularly updated.</p>
+<p>Each member of the Dojo would often create their own local copy to customize or update for customers. There was a proliferation of versions of the content, each slightly different from each other: There was no “single source of truth”. Global updates could not be easily issued, and customer feedback stayed with the Dojo member closest to the customer.</p>
+<p>Michael Watson, Architect at Microsoft, elaborated on the issue: “DevOps Dojo is a collaboration of more than just Microsoft staff. We were bringing people together to talk about this subject matter. Even though we had a point of view, many of the people we were engaging had years of experience. We wanted to learn from each other and keep up to date with what was happening in the industry.”</p>
+<p>While contemplating the problem, one of the Dojo members, Alvaro Guadamillas, remembered: “I saw so much amazing content created by the DevOps Dojo community that from day one I felt the need to make this content as open to everyone as possible. After two months of being part of the Dojo Community, I felt enough trust to share one idea: Why don’t we make DevOps Dojo content InnerSource? Why don’t we apply Pull Requests to the creation of the content and collaborate at scale to have the latest and the greatest content available to everyone at Microsoft? Why don’t we avoid having multiple copies of the same presentation  distributed everywhere and having a single source of truth instead?”
+At a Dojo masterclass event in Shanghai, Alvaro met with some of the other core team members and suggested the approach. Looking at how it addressed their challenges and recognizing that there was a global InnerSource community that already existed to help them on their journey, it was agreed that they would experiment with an InnerSource approach. With consideration of the cultural impact of InnerSource, the team decided to pilot InnerSource first on a subset of the DevOps Dojo solution. With the support of the Dojo community, including the Azure DevOps engineering team, and the expertise from GitHub, they created the first InnerSource pilot in Microsoft Professional Services.</p>
+<h2 id="foundations--implementation">Foundations &amp; Implementation</h2>
+<p>One of the first steps the team took was to get some expert advice to help them on their journey. They called on Natalie Bradley from GitHub who had significant experience in working with organizations to help them on their InnerSource journey. With Natalie&rsquo;s help, the team set about getting all the appropriate policies and processes in place to help the team. All the content was stored as markdown files in GitHub and the Dojo communicated day to day through the Community’s Channels on Microsoft Teams.</p>
+<p><img src="/images/stories/microsoft.png" alt="InnerSource at Microsoft">
+<em>Figure 1: InnerSource at the DevOps Dojo at Microsoft</em></p>
+<p>The team focused on delivering a seamless experience for contributors. They also took care to provide governance clarity, including nominating who was responsible for each area, and how they would resolve any disputes that may arise.</p>
+<p>From Day One the team knew that it would be essential to be able to track and celebrate both contributions to, and usage of, their output. Therefore, the initial set up also included metrics around downloads as well as tracking the number and source of pull requests.</p>
+<p>When designing the DevOps Dojo, the team didn’t think of the Dojo simply as a short-term program. They believed the Dojo was a transformational program for both internal Microsoft field and Microsoft’s customers. They adopted a product-centric model through a “lean product” process and approach. You can find out more details about the lean product approach in the <a href="https://devblogs.microsoft.com/devops/devops-dojo-lean-product-part-1/">DevOps Dojo blog</a>.</p>
+<h2 id="a-single-source-of-truth--delivered">A Single Source of Truth – Delivered</h2>
+<p>Within a couple of months, the initial core team had a minimum viable product (MVP) up and running. Content for the masterclasses was being delivered to the community in a way that was constantly up-to-date. Labs and the instructions for the lab delivery were created and updated in the same way.</p>
+<p>As Harleen Kaur, Technical Consultant at Microsoft, described: “As a coach I would prepare for each session, and if I saw a link or reference that needed to be changed, my first instinct was to do that on the website, so everyone else would benefit from the change. I was able to do that in the moment. If I couldn’t, I may have forgotten to go back later to do it.”</p>
+<p>The core team then began to hold regular sessions to help spread the word. They showed the content that was available, and how the team could use it, or even better, contribute to it. They did live role-play to demonstrate how the various InnerSource roles worked, and even live edits to the content on calls so people could see how the reviewing and approving process worked and how easy it was. Through this process they were also identifying different customer challenges and experiences to incorporate.</p>
+<p>Participation and contributions soon spread across the world. The Dojo currently has multiple business units working together across 36 countries to deliver the latest, most accurate content to Microsoft’s customers.</p>
+<p>Deep Mehta, Technology Consultant at Microsoft shared: “IP reuse is something we always wanted to provide, but in the past, it has been a challenge. InnerSource has helped us deliver that. Plus, we encourage those who reuse the content to help by contributing back. InnerSource also helps you network with people around the organization. You get to know contributors; you get to learn from them. That is a major plus point.”</p>
+<p>Dave McKinstry, Microsoft’s DevOps FastTrack Program Manager, added: “What I’ve noticed from an engineering perspective, is that when you open up your source code, quality inherently goes up. People want to make things better.”</p>
+<h2 id="innovation-enabled">Innovation Enabled</h2>
+<p>As the use of the DevOps Dojo content increased, the team realized additional tools could help the users get to know the content. They were inspired to implement a QnA Chatbot to improve the experience for the users of the content.</p>
+<p>The chatbot enables the Dojo community to ask anything in their community Teams channel supported by AI bots and QnA Maker (an Azure Cognitive Service). Besides providing real-time answers with language support, the solution organically improves questions and answers by the community. Integrated with powerful AI capabilities, the solution is designed to help Dojos get answers related to Dojo Content, Readiness, Offerings and Delivery quickly in a conversational style in Microsoft Teams.</p>
+<p>Once requirements were defined and the team had a good understanding of the integration architecture, they began the implementation through InnerSource. The QnA Bot went public at Microsoft as planned. All improvements and contributions happen through an InnerSource process and can quickly take effect through automation pipelines.</p>
+<p>Yue Sheng, who worked on the AI Chatbot outside of her core job responsibilities, shared: “You have mentors, teachers, and friends here. Everything is a bi-directional process. We are always trying new innovations. I get fresh interesting things through the process.”</p>
+<p>As Kan Tang, one of the leaders of DevOps Dojo observed: “At Microsoft, we all have our job focus. Sometimes you see something you want to try outside of your core responsibilities. People come to DevOps Dojo, and they have autonomy to experiment and innovate. “</p>
+<h2 id="learning-through-innersource">Learning Through InnerSource</h2>
+<p>Through their practice of InnerSource, the Dojo community also noted that publishing their content through InnerSource created a wonderful learning opportunity. InnerSource requires a team to capture and document everything so the team can collaborate asynchronously and not rely on being in close physical proximity to each other. As the team observed: writing makes you think, thinking makes you reflect, reflection makes you deliberate, deliberation makes you learn more deeply.</p>
+<p>“In our writing, we constantly challenge each other, learn from one another, and iterate collectively,” commented Kitty Chiu, DevOps Architect at GitHub.</p>
+<p>“For me, what made me join the team was the concept of sharing content and learning from different parts of the world and different roles. We were always sharing ideas and different points of view. It’s a real enrichment, a conversation that brought a lot of value,” shared Giulia Cupani, Azure Program Manager.</p>
+<h2 id="worldwide-connections">Worldwide Connections</h2>
+<p>The DevOps Dojo team is distributed across the globe. This presents many challenges such as time zone constraints not allowing the entire team to meet together.
+Kitty Chiu, based in Australia, described how the InnerSource process and focus on content creation allowed for them to engage seamlessly in the process: “Before the pandemic the Microsoft culture usually involved face-to-face meetings. That was a challenge if you are working in a different time zone. We often had to fly to Seattle to collaborate on projects like this. When the Covid-19 pandemic hit, the notion of asynchronous communication became the norm. InnerSource was where conversations started. Everyone could contribute equally; it didn’t matter where they sat in the world.”
+Margarita Sanz, DevOps and Cloud Consultant at Microsoft, also shared how InnerSource allowed the team to develop a common purpose across the global team: “I have never seen people more committed to a goal than this team. The team went from China to Madrid, passing through India and Switzerland, to multiple time zones in the US, etc. Different time zones, different languages, and different backgrounds, but the same goal, and above all, the same CULTURE.”</p>
+<h2 id="customer-first">Customer First</h2>
+<p>Microsoft often talks about a “customer first” culture. In this case, the DevOps Dojo team demonstrated how taking an InnerSource approach for the creation of their content not only ensured their customer received the latest, most up-to-date content, but also allowed them to have the customer engage in the update process.</p>
+<p>The teams deliver their masterclasses directly to customers. Paul Fijnvandraat, Principal Consultant at Microsoft, shared that if a customer had feedback or a question to be answered (in pre-sales or delivery), he created a pull request to have the question and answer added to the DevOps Dojo content. In this way, the customer feedback propagated to the entire organization almost immediately.</p>
+<h2 id="impact-for-the-team">Impact for the Team</h2>
+<p>The DevOps Dojo delivers significant value to Microsoft and its customers. However, from talking with the DevOps Dojo team, one additional benefit is the incredible impact on the individual participants.</p>
+<p>Many members of the Dojo were formally rewarded and promoted because of its huge success, but it seems the biggest reward of all was even more personal. Those in the Dojo reported that they had forged close relationships across regions and experience levels, that they built new skills and had amazing learning experiences. Margarita Sanz described:</p>
+<p><em>“I know by heart finding a team where you feel supported, and valued is not easy, and even though the path hasn’t always been smooth, I would walk it again without doubt. We were not a team, we were friends, we were family working side by side supporting each other. The day I joined Dojo, I felt like I was joining a new family. Today I develop, learn, and grow hand in hand with all of them, and I couldn’t be prouder and more excited about the future that lies ahead.”</em>
+As described by Kan Tang: <em>“What do we gain out of this experience? Tremendous learning and growth, new opportunities, happiness, self-confidence, and life-time friendships!”</em></p>
+<h2 id="future-plans">Future Plans</h2>
+<p>Today, the DevOps Dojo content is continuously improved by the community, they have a single source of truth with the latest and greatest content, and the team can collaborate on a scale, at anytime and anywhere in the world.
+They have seen the adoption of the DevOps Dojo content grow month on month and have started to see contributions begin from other regions in the world. The group looks forward to extending both the DevOps Dojo and InnerSource practices within Microsoft and perhaps even begin the process of open sourcing the DevOps Dojo content to the world!
+<em>“We have over 80,000 engineers working on code at Microsoft, and we are constantly evaluating what would be interesting to openly share with our customers. InnerSource has allowed us to unlock that potential, reduce redundancy, and collaborate more effectively.”</em> Arno Mihm, Principal Program Manager for InnerSource @ Microsoft.</p>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<p>This case study was written by Clare Dillon, Executive Director of InnerSource Commons, Daniel Izquierdo, CEO Bitergia &amp; Director of InnerSource Commons, and Dr. Klaas-Jan Stol, Director of InnerSource Commons, following a series of interviews with the DevOps Dojo Teams at Microsoft.</p>
+<p>Clare notes “Sharing stories about our InnerSource journeys is an important part of the InnerSource Commons community. We would like to send a huge thank you to all the wonderful people in Microsoft and GitHub who took the time to share their experiences and help us record this case study:</p>
+<ul>
+<li>Deep Mehta – Technology Consultant, Azure Cloud &amp; AI, Microsoft India</li>
+<li>Margarita Sanz – DevOps and Cloud Consultant, Microsoft Spain</li>
+<li>Álvaro Guadamillas – Business Program Manager, Azure Cloud &amp; AI, Microsoft Spain</li>
+<li>Michael Watson - Architect, Microsoft Australia</li>
+<li>Yue Sheng – Consultant, Azure Cloud &amp; AI, Microsoft China</li>
+<li>Kitty Chiu – Senior DevOps Architect, GitHub, Australia</li>
+<li>Harleen Kaur – Technical Delivery – Information Security &amp; DevOps, Microsoft India</li>
+<li>Dave Burnison - Senior Technical Advocate, GitHub, US</li>
+<li>Karl Piteira - Principal Group PM Manager, Microsoft, US</li>
+<li>Jeff Wilcox - Principal PM Manager, Microsoft, US</li>
+<li>Natalie Bradley - Director, Customer Success Architects, GitHub, US</li>
+<li>Dave McKinstry – Manager, DevOps FastTrack Program, GitHub, US</li>
+<li>Paul Fijnvandraat – Principal Consultant, Microsoft Netherlands</li>
+<li>Chris Witte - Senior Consultant, Microsoft US</li>
+<li>Jihee Choi - Consultant, Microsoft US</li>
+<li>Nicolas Mays - ASSC Consultant, Microsoft US</li>
+<li>Geoff Sexton - Senior Consultant, US</li>
+<li>Giulia Cupani – Azure Program Manager, Microsoft Switzerland</li>
+<li>Aakanksha Lnu – Consulting Product Manager, Microsoft, UK</li>
+<li>Beste Altinay - ASSC Architect, Microsoft Netherlands</li>
+<li>Rui Melo - Architect, Microsoft, PORTUGAL</li>
+<li>Nithyanathan R - ASSC Architect, Microsoft India</li>
+<li>Charlie Gu - Architect, Microsoft, China</li>
+<li>Harry Chen – Architect, Microsoft, US</li>
+<li>Bahram Rushenas – Architect, Microsoft, US</li>
+<li>Garry Trinder – Senior Cloud Advocate, Microsoft, UK</li>
+<li>Kan Tang – Architect Manager, Retail &amp; Consumer Goods Service Line, US</li>
+<li>Arno Mihm – Principal Program Manager, InnerSource @Microsoft, US</li>
+</ul>
+<p>For more information or to get more details, join the InnerSource Commons community Slack to spark up a conversation. You can also check out the <a href="https://devblogs.microsoft.com/devops/intro-of-devops-dojo/">DevOps Dojo blog posts</a> (all created by the team using Markdown through an InnerSource process).</p>
+<p>If you would like to share your InnerSource story, please reach out to us at <a href="mailto:info@innersourcecommons.org">info@innersourcecommons.org</a>.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/it/learn">Learn</a></b></li>
+          
+          <li><a href="/it/learn/books">Books</a></li>
+          
+          <li><a href="/it/learn/learning-path">Learning Path</a></li>
+          
+          <li><a href="/it/learn/patterns">Patterns</a></li>
+          
+          <li><a href="/it/learn/research">Research</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/it/events/community-calls">Events</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/it/community">Community</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/it/stories">Stories</a></b></li>
+          
+          <li><a href="/it/community/services">Services Directory</a></li>
+          
+          <li><a href="/it/about/announcements">Announcements</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/it/about">About</a></b></li>
+          
+          <li><a href="/it/about/board">Board &amp; Governance</a></li>
+          
+          <li><a href="/it/about/members">Members</a></li>
+          
+          <li><a href="/it/about/sponsors">Sponsors</a></li>
+          
+          <li><a href="/it/about/codeofconduct">Code of Conduct</a></li>
+          
+          <li><a href="/it/about/contact">Contact Us</a></li>
+          
+          <li><a href="/it/about/privacy">Privacy Policy</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href='//it'><img width="200px"   class="img-fluid" src="/images/logo.png" alt="InnerSource Commons"></a>
+        <p class="mb-4">The site is licensed under a CC-BY-SA license unless otherwise marked.</p>
+        
+        
+        
+        <ul class="list-inline social-icons">
+          
+          <li class="list-inline-item"><a href="http://github.com/InnerSourceCommons"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube"></i></a></li>
+          
+          <li class="list-inline-item"><a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">Design by <a href="https://themefisher.com/">Themefisher</a> and <a href="https://gethugothemes.com/">Gethugothemes</a>, icons by <a href="https://storyset.com/people">Freepik Storyset</a></small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+<script src="/plugins/youmax/youmax.js"></script>
+
+<script src="/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<script>
+	$('#youmax').youmax({
+	apiKey:'AIzaSyCTmhVwOZhhT1WceQm9MobWFuJIA6lI-Dw',
+	youTubeChannelURL: "https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA",
+	youmaxDefaultTab: "UPLOADS",
+	youmaxColumns: 3,
+	showVideoInLightbox: false,
+	maxResults: 6,
+});
+$(function(){
+  $('#langpicker').selectpicker();
+  $('#langpicker').change(function() {
+    window.location.href = this.value;
+  });
+});
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7179Q3Y3T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H7179Q3Y3T');
+</script>
+
+</body>
+
+</html>

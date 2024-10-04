@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta charset="utf-8">
+  <title>InnerSource and Planning</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content='The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource.'>
+  <meta name="keywords" content='InnerSource,Open source,silo,collaboration'>
+  <meta name="author" content="InnerSource Commons">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/plugins/youmax/youmax.css">
+  
+  <link rel="stylesheet" href="/plugins/bootstrap-select/css/bootstrap-select.min.css">
+  
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link href="/scss/style.min.css" rel="stylesheet" media="screen"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="layout" content="page -  - learn - learn - Page(/learn/learning-path/project-leader/_index.md)">
+  
+  
+	
+	<link rel="alternate" hreflang="en" href="/learn/learning-path/project-leader/03.html" title="English">
+	
+	<link rel="alternate" hreflang="ja" href="/ja/learn/learning-path/project-leader/03.html" title="日本語">
+	
+	<link rel="alternate" hreflang="de" href="/de/learn/learning-path/project-leader/03.html" title="Deutsch">
+	
+	<link rel="alternate" hreflang="es" href="/es/learn/learning-path/project-leader/03.html" title="Español">
+	
+	<link rel="alternate" hreflang="fr" href="/fr/learn/learning-path/project-leader/03.html" title="Français">
+	
+	<link rel="alternate" hreflang="pt-br" href="/pt-br/learn/learning-path/project-leader/03.html" title="Português Brasileiro">
+	
+	<link rel="alternate" hreflang="ru" href="/ru/learn/learning-path/project-leader/03.html" title="Русский">
+	
+	<link rel="alternate" hreflang="zh" href="/zh/learn/learning-path/project-leader/03.html" title="中文">
+	
+  
+  
+  <meta property="og:title" content="InnerSource and Planning" />
+<meta property="og:description" content="Planning plays a role in InnerSource in two important situations:
+ Contributing teams need to understand that working on upstream code typically does need more time than making comparable changes to their own codebase that they are well familiar with." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/it/learn/learning-path/project-leader/03.html" />
+
+
+  
+    
+    <meta property="og:image" content="/images/learn/LP-article-default.png" />
+    
+  
+
+  <!-- Mastodon verification code -->
+  <link href="https://fosstodon.org/@innersource" rel="me">
+
+</head><body><!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand"
+        href='/it'>
+        <img width="200px" class="img-fluid" src="/images/logo.png"
+          alt="InnerSource Commons">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/it/learn" >Learn</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/it/learn/books" >Books</a>
+              
+              <a class="dropdown-item" href="/it/learn/learning-path" >Learning Path</a>
+              
+              <a class="dropdown-item" href="/it/learn/patterns" >Patterns</a>
+              
+              <a class="dropdown-item" href="/it/learn/research" >Research</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/it/events/community-calls" >Events</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/it/community" >Community</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/it/community/services" >Services Directory</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/it/stories" >Stories</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/it/about" >About</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/it/about/announcements" >Announcements</a>
+              
+              <a class="dropdown-item" href="/it/about/board" >Board &amp; Governance</a>
+              
+              <a class="dropdown-item" href="/it/about/members" >Members</a>
+              
+              <a class="dropdown-item" href="/it/about/sponsors" >Sponsors</a>
+              
+              <a class="dropdown-item" href="/it/about/codeofconduct" >Code of Conduct</a>
+              
+              <a class="dropdown-item" href="/it/about/contact" >Contact Us</a>
+              
+            </div>
+          </li>
+          
+          
+        </ul>
+        <a href="/slack" class="btn btn-sm slack-invite-btn btn-primary ml-2" target="_blank"><i
+            class="ti-comments pr-2"></i>Join Slack</a>
+        
+        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+          <option>Italiano</option>
+          
+          <option value="/learn/learning-path/project-leader/03.html">English</option>
+          
+          <option value="/ja/learn/learning-path/project-leader/03.html">日本語</option>
+          
+          <option value="/de/learn/learning-path/project-leader/03.html">Deutsch</option>
+          
+          <option value="/es/learn/learning-path/project-leader/03.html">Español</option>
+          
+          <option value="/fr/learn/learning-path/project-leader/03.html">Français</option>
+          
+          <option value="/pt-br/learn/learning-path/project-leader/03.html">Português Brasileiro</option>
+          
+          <option value="/ru/learn/learning-path/project-leader/03.html">Русский</option>
+          
+          <option value="/zh/learn/learning-path/project-leader/03.html">中文</option>
+          
+        </select>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="notice bg-primary text-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-12 text-center">
+          <i class="ti-calendar mr-2"></i>
+          <a href="https://bit.ly/ISCSUM24" class="bg-primary text-light" target="_blank"> INNERSOURCE SUMMIT 2024 - book your ticket for November 20th and 21st </i></a>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="notice bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">Join us on Tuesday, October 8th, at 8am GMT / 9am CEST / 12:30pm IST / 6pm AEDT when Vincent Caldeira, Red Hat, Clemens Jütte, Humanitec, and Luiz Fernando Almeida de Oliveira, Red Hat, will discuss  <a href="https://bit.ly/ISCOct08" class="btn-link ml-1" target="_blank">Promoting InnerSource Practices with an Internal Developer Platform.
+            <i class="ti-arrow-right"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="container">
+
+<ol class="breadcrumb">
+  
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/it/">InnerSource Commons</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/it/learn.html">Learn</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/it/learn/learning-path.html">Learning Path</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/it/learn/learning-path/project-leader.html">Learning Path - Project Leader</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+   
+  InnerSource and Planning
+  
+</li>
+
+</ol>
+
+
+</div>
+<section class="section section-first">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h1 class="mb-4">InnerSource and Planning</h1>
+        
+        <img src="/images/learn/LP-article-default.png" alt="InnerSource and Planning" class="img-fluid w-100 rounded mb-4">
+        
+        <div class="content"><div class="paragraph">
+<p>Planning plays a role in InnerSource in two important situations:</p>
+</div>
+<div class="paragraph">
+<p>Contributing teams need to understand that working on upstream code
+typically does need more time than making comparable changes to their
+own codebase that they are well familiar with. They need to be aware of
+the fact that even if the host team does not have to implement the
+change they still need to be available for mentoring and reviewing. The
+time needed for that increases with the size of the change required. As
+a result early communication with the host team is important in
+particular in cases of larger changes.</p>
+</div>
+<div class="paragraph">
+<p>Host teams also need to be aware of the time needed for mentoring and
+reviewing. Simply telling contributing teams that they can submit
+changes as patches does not reduce the time to make the change to zero
+for the host team. In addition host teams can find themselves in the
+rare situation where they are flooded with pull requests. For that event
+there needs to be a clear understanding of business priorities for the
+projects sending these pull requests. When overwhelmed with patches it
+is often time to think about sharing ownership of the component. In
+particular contributors that are coming back regularly and have earned
+trust of the host team are good candidates to receive the title Trusted
+Committer.</p>
+</div>
+<div class="paragraph">
+<p>Some friction due to slightly different work culture cannot be avoided
+though. For these cases it is important to explicitly set expectations.</p>
+</div>
+<div class="sect2">
+<h3 id="_setting_expectations">Setting expectations</h3>
+<div class="paragraph">
+<p>Imagine the following situation: As a contributor you finally made the
+change needed - likely with a little help from the host team. You
+proudly submit the pull request. Then - nothing happens. A day later -
+still no reaction. You start wondering if the host team has seen your
+patch. You wonder where to best ping the team about an update. This
+silence is very frustrating in particular for first time contributors.
+There are several remedies to this situation - remedies that need no
+coding knowledge, but require at least some basic communication skills:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Make reaction times that can be expected of the host team explicit -
+e.g. in the contributing documentation.</p>
+</li>
+<li>
+<p>As soon as a pull request is
+received communicate the expected time it will take to receive
+substantial feedback instead of letting contributors wait.</p>
+</li>
+<li>
+<p>Communicate
+ways for contributors to get in touch with the host team and watch
+communication there.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Neither of these tasks needs code writing skills. This underscores the
+need for people beyond those who have programming knowledge. It is good
+practice to consider people covering these tasks as committed to the
+InnerSource project and include them as Trusted Committers as well.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_small_vs_large_changes">Small vs. large changes</h3>
+<div class="paragraph">
+<p>Small changes and patches are easy to handle - they are quick to review
+and often do not carry a lot of risk when merged. One way to help host
+teams is to make time for splitting changes into smaller chunks. Make
+sure to communicate the wider context these changes belong to though.</p>
+</div>
+<div class="paragraph">
+<p>Often making larger changes requires communicating intent and purpose
+early. It can also be beneficial to make sure contributing team and host
+team have enough time set aside for working on the change together. This
+means that people setting team priorities need to think beyond their own
+team when prioritizing changes. However coordination can still happen
+fairly independently as typically only the pair of contributing and host
+team are involved.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_increasing_the_team_around_your_innersource_projects">Increasing the team around your InnerSource projects</h3>
+<div class="paragraph">
+<p>Rarely host teams run into the challenge of receiving too many patches
+from contributing teams. In that case it helps thinking about moving
+trusted contributors to the Trusted Committer role. In addition to
+simply help with reviews, new Trusted Committers can help with issue
+triage, mentoring new contributors and the like.</p>
+</div>
+<div class="paragraph">
+<p>When faced with a lot of interest in contributions one additional factor
+to consider when prioritizing mentoring help for contributors can be
+interest of the contributors in a long term relationship with the host
+team. The more time is needed for mentoring, the more likely it should
+be for contributors to stick around longer.</p>
+</div>
+<div class="paragraph">
+<p>In practice sharing ownership of the component with very active
+contributors has proven to keep the newly minted Trusted Committers
+engaged with the project over a longer period of time. Typically they
+help keep the component up to date and mentor new contributors long
+after the initial motivation for the contribution has been addressed.</p>
+</div>
+</div>
+<!--- This file autogenerated from https://github.com/InnerSourceCommons/InnerSourceLearningPath/blob/main/scripts --></div>
+        <div class="clearfix">
+          
+            <a class="btn btn-light float-left" href="/it/learn/learning-path/project-leader/02.html">← InnerSource and Agile</a>
+          
+          
+            <a class="btn btn-primary float-right" href="/it/learn/learning-path/project-leader/04.html"> InnerSource and Negotiation Skills →</a>
+          
+        </div>
+        
+        <div class="mt-4">
+          <h3>Contributors</h3>
+          <ul class="nav">
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/spier" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/spier" alt="Sebastian Spier" title="Sebastian Spier" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/rrrutledge" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/rrrutledge" alt="rrrutledge" title="rrrutledge" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/marshmallowrobot" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/marshmallowrobot" alt="Laura" title="Laura" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/MaineC" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/MaineC" alt="Isabel Drost-Fromm" title="Isabel Drost-Fromm" /></a>
+            </li>
+            
+          </ul>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/it/learn">Learn</a></b></li>
+          
+          <li><a href="/it/learn/books">Books</a></li>
+          
+          <li><a href="/it/learn/learning-path">Learning Path</a></li>
+          
+          <li><a href="/it/learn/patterns">Patterns</a></li>
+          
+          <li><a href="/it/learn/research">Research</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/it/events/community-calls">Events</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/it/community">Community</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/it/stories">Stories</a></b></li>
+          
+          <li><a href="/it/community/services">Services Directory</a></li>
+          
+          <li><a href="/it/about/announcements">Announcements</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/it/about">About</a></b></li>
+          
+          <li><a href="/it/about/board">Board &amp; Governance</a></li>
+          
+          <li><a href="/it/about/members">Members</a></li>
+          
+          <li><a href="/it/about/sponsors">Sponsors</a></li>
+          
+          <li><a href="/it/about/codeofconduct">Code of Conduct</a></li>
+          
+          <li><a href="/it/about/contact">Contact Us</a></li>
+          
+          <li><a href="/it/about/privacy">Privacy Policy</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href='//it'><img width="200px"   class="img-fluid" src="/images/logo.png" alt="InnerSource Commons"></a>
+        <p class="mb-4">The site is licensed under a CC-BY-SA license unless otherwise marked.</p>
+        
+        
+        
+        <ul class="list-inline social-icons">
+          
+          <li class="list-inline-item"><a href="http://github.com/InnerSourceCommons"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube"></i></a></li>
+          
+          <li class="list-inline-item"><a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">Design by <a href="https://themefisher.com/">Themefisher</a> and <a href="https://gethugothemes.com/">Gethugothemes</a>, icons by <a href="https://storyset.com/people">Freepik Storyset</a></small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+<script src="/plugins/youmax/youmax.js"></script>
+
+<script src="/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<script>
+	$('#youmax').youmax({
+	apiKey:'AIzaSyCTmhVwOZhhT1WceQm9MobWFuJIA6lI-Dw',
+	youTubeChannelURL: "https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA",
+	youmaxDefaultTab: "UPLOADS",
+	youmaxColumns: 3,
+	showVideoInLightbox: false,
+	maxResults: 6,
+});
+$(function(){
+  $('#langpicker').selectpicker();
+  $('#langpicker').change(function() {
+    window.location.href = this.value;
+  });
+});
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7179Q3Y3T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H7179Q3Y3T');
+</script>
+
+</body>
+
+</html>
