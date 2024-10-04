@@ -14,3 +14,4 @@ markup:
 minify:
   disableHTML: true
 defaultContentLanguage: 'en'
+uglyurls: true
