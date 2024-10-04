@@ -19,6 +19,10 @@ main:
     parent: learn
     URL: ru/learn/research
     weight: 5
+  - name: Видео
+    parent: learn
+    URL: https://www.youtube.com/@InnerSourceCommons
+    weight: 6
   - name: События
     URL: ru/events/community-calls
     weight: 2

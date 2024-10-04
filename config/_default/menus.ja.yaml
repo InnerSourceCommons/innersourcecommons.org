@@ -19,6 +19,10 @@ main:
   parent: learn
   URL: ja/learn/research
   weight: 5
+- name: ビデオ
+  parent: learn
+  URL: https://www.youtube.com/@InnerSourceCommons
+  weight: 6
 - name: イベント
   URL: ja/events/community-calls
   weight: 2
