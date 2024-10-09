@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "InnerSource Stories"
-subtitle: "The InnerSource Commons community has over 1500 subscribers from 500 organizations. Listed below is a sample of the organizations who have publicly spoken about using InnerSource."
+subtitle: "The InnerSource Commons community has over 3000 subscribers from 800 organizations. Listed below is a sample of the organizations who have publicly spoken about using InnerSource."
 image: "/images/learn/InnerSourceInAction.jpg"
 aliases:
 - /community/action/
@@ -218,7 +218,7 @@ aliases:
       {{< /company >}}
       {{< company name="Societe Generale" image="/images/logos/societegenerale.png" article="https://github.com/customer-stories/societe-generale" >}}
       {{< /company >}}
-      {{< company name="Sourcegraph" image="/images/logos/sourcegraph.svg" article="https://about.sourcegraph.com/podcast/jonathan-carter/" >}}
+      {{< company name="Sourcegraph" image="/images/logos/sourcegraph-vector-logo.png" article="https://about.sourcegraph.com/podcast/jonathan-carter/" >}}
       {{< /company >}}
       {{< company name="Spotify" image="/images/logos/spotify.png" article="https://github.com/customer-stories/spotify" author_name="Laurent Ploix" author_title="Product Manager" >}}
       Pull requests are welcome. Someone out there might find a better solution than I can.

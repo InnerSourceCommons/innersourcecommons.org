@@ -19,8 +19,12 @@ main:
     parent: learn
     URL: zh/learn/research
     weight: 5
+  - name: Videos
+    parent: learn
+    URL: https://www.youtube.com/@InnerSourceCommons
+    weight: 6
   - name: Events
-    URL: zh/events
+    URL: zh/events/community-calls
     weight: 2
   - name: Community
     identifier: community
@@ -80,7 +84,7 @@ footer_left:
     weight: 5
 footer_middle:
   - name: Events
-    URL: zh/events
+    URL: zh/events/community-calls
     weight: 1
     post: bold
   - name: Community

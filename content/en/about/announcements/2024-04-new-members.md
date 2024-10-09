@@ -3,10 +3,8 @@ layout: page
 title: 'New Members Appointed to the InnerSource Commons Foundation'
 image: "/images/about/announcements/2024-04-new-members-announcement.png"
 date: 2024-04-26
-featured: true
+featured: false
 type: "announcements"
-aliases:
-    - /about/announcements/2024-04-new-board-and-officers
 ---
  
 April 26 2024

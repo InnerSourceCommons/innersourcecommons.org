@@ -19,8 +19,12 @@ main:
     parent: learn
     URL: pt-br/learn/research
     weight: 5
+  - name: Videos
+    parent: learn
+    URL: https://www.youtube.com/@InnerSourceCommons
+    weight: 6
   - name: Eventos
-    URL: pt-br/events
+    URL: pt-br/events/community-calls
     weight: 2
   - name: Comunidade
     identifier: community
@@ -61,6 +65,10 @@ main:
     URL: pt-br/about/contact
     parent: about
     weight: 6
+  # - name: Vagas
+  #   URL: pt-br/about/vacancies
+  #   parent: about
+  #   weight: 7
 footer_left:
   - name: Aprender
     URL: pt-br/learn
@@ -80,7 +88,7 @@ footer_left:
     weight: 5
 footer_middle:
   - name: Eventos
-    URL: pt-br/events
+    URL: pt-br/events/community-calls
     weight: 1
     post: bold
   - name: Comunidade
@@ -121,3 +129,6 @@ footer_right:
   - name: Política de Privacidade
     URL: pt-br/about/privacy
     weight: 7
+  # - name: Vagas
+  #   URL: pt-br/about/vacancies
+  #   weight: 8
