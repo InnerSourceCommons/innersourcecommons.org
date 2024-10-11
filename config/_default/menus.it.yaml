@@ -24,7 +24,7 @@ main:
     URL: https://www.youtube.com/@InnerSourceCommons
     weight: 6
   - name: Events
-    URL: it/events/communitycalls
+    URL: it/events/community-calls
     weight: 2
   - name: Community
     identifier: community
@@ -84,7 +84,7 @@ footer_left:
     weight: 5
 footer_middle:
   - name: Events
-    URL: it/events/communitycalls
+    URL: it/events/community-calls
     weight: 1
     post: bold
   - name: Community
