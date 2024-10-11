@@ -24,7 +24,7 @@ main:
     URL: https://www.youtube.com/@InnerSourceCommons
     weight: 6
   - name: События
-    URL: ru/events
+    URL: ru/events/community-calls
     weight: 2
   - name: Сообщество
     identifier: community
@@ -75,7 +75,7 @@ footer_left:
     weight: 2
 footer_middle:
   - name: События
-    URL: ru/events
+    URL: ru/events/community-calls
     weight: 1
     post: bold
   - name: Сообщество
