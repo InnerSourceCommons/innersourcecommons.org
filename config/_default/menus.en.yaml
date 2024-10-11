@@ -24,7 +24,7 @@ main:
     URL: https://www.youtube.com/@InnerSourceCommons
     weight: 6
   - name: Events
-    URL: events/community-calls
+    URL: events/communitycalls
     weight: 2
     identifier: events
   - name: Summit 2024
@@ -36,7 +36,7 @@ main:
     parent: events
     weight: 5
   - name: Community Calls
-    URL: events/community-calls
+    URL: events/communitycalls
     parent: events
     weight: 6
   - name: Past Summits
@@ -108,7 +108,7 @@ footer_left:
     weight: 5
 footer_middle:
   - name: Events
-    URL: events/community-calls
+    URL: events/communitycalls
     weight: 1
     post: bold
   - name: Summit 2024
