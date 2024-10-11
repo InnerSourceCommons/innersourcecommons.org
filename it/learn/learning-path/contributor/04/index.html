@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta charset="utf-8">
+  <title>Meccaniche della contribuzione</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content='The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource.'>
+  <meta name="keywords" content='InnerSource,Open source,silo,collaboration'>
+  <meta name="author" content="InnerSource Commons">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/plugins/youmax/youmax.css">
+  
+  <link rel="stylesheet" href="/plugins/bootstrap-select/css/bootstrap-select.min.css">
+  
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link href="/scss/style.min.css" rel="stylesheet" media="screen"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="layout" content="page -  - learn - learn - Page(/learn/learning-path/contributor/_index.it.md)">
+  
+  
+	
+	<link rel="alternate" hreflang="en" href="/learn/learning-path/contributor/04/" title="English">
+	
+	<link rel="alternate" hreflang="ja" href="/ja/learn/learning-path/contributor/04/" title="日本語">
+	
+	<link rel="alternate" hreflang="fr" href="/fr/learn/learning-path/contributor/04/" title="Français">
+	
+	<link rel="alternate" hreflang="ru" href="/ru/learn/learning-path/contributor/04/" title="Русский">
+	
+	<link rel="alternate" hreflang="es" href="/es/learn/learning-path/contributor/04/" title="Español">
+	
+	<link rel="alternate" hreflang="pt-br" href="/pt-br/learn/learning-path/contributor/04/" title="Português Brasileiro">
+	
+	<link rel="alternate" hreflang="de" href="/de/learn/learning-path/contributor/04/" title="Deutsch">
+	
+	<link rel="alternate" hreflang="zh" href="/zh/learn/learning-path/contributor/04/" title="中文">
+	
+  
+  
+  <meta property="og:title" content="Meccaniche della contribuzione" />
+<meta property="og:description" content="Sei pronto per iniziare a contribuire a progetti/repo di altri team? Non vedi l&#8217;ora di ridurre i tuoi blocchi non tramite la gestione dell&#8217;escalation ma tramite la collaborazione?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/it/learn/learning-path/contributor/04/" />
+
+
+  
+    
+    <meta property="og:image" content="https://img.youtube.com/vi/wv3uylJC4K0/mqdefault.jpg" />
+    
+  
+
+  <!-- Mastodon verification code -->
+  <link href="https://fosstodon.org/@innersource" rel="me">
+
+</head><body><!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand"
+        href='/it'>
+        <img width="200px" class="img-fluid" src="/images/logo.png"
+          alt="InnerSource Commons">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/it/learn" >Learn</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/it/learn/books" >Books</a>
+              
+              <a class="dropdown-item" href="/it/learn/learning-path" >Learning Path</a>
+              
+              <a class="dropdown-item" href="/it/learn/patterns" >Patterns</a>
+              
+              <a class="dropdown-item" href="/it/learn/research" >Research</a>
+              
+              <a class="dropdown-item" href="https://www.youtube.com/@InnerSourceCommons" >Videos</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/it/events/community-calls" >Events</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/it/community" >Community</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/it/community/services" >Services Directory</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/it/stories" >Stories</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/it/about" >About</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/it/about/announcements" >Announcements</a>
+              
+              <a class="dropdown-item" href="/it/about/board" >Board &amp; Governance</a>
+              
+              <a class="dropdown-item" href="/it/about/members" >Members</a>
+              
+              <a class="dropdown-item" href="/it/about/sponsors" >Sponsors</a>
+              
+              <a class="dropdown-item" href="/it/about/codeofconduct" >Code of Conduct</a>
+              
+              <a class="dropdown-item" href="/it/about/contact" >Contact Us</a>
+              
+            </div>
+          </li>
+          
+          
+        </ul>
+        <a href="/slack" class="btn btn-sm slack-invite-btn btn-primary ml-2" target="_blank"><i
+            class="ti-comments pr-2"></i>Join Slack</a>
+        
+        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+          <option>Italiano</option>
+          
+          <option value="/learn/learning-path/contributor/04/">English</option>
+          
+          <option value="/ja/learn/learning-path/contributor/04/">日本語</option>
+          
+          <option value="/fr/learn/learning-path/contributor/04/">Français</option>
+          
+          <option value="/ru/learn/learning-path/contributor/04/">Русский</option>
+          
+          <option value="/es/learn/learning-path/contributor/04/">Español</option>
+          
+          <option value="/pt-br/learn/learning-path/contributor/04/">Português Brasileiro</option>
+          
+          <option value="/de/learn/learning-path/contributor/04/">Deutsch</option>
+          
+          <option value="/zh/learn/learning-path/contributor/04/">中文</option>
+          
+        </select>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="notice bg-primary text-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-12 text-center">
+          <i class="ti-calendar mr-2"></i>
+          <a href="https://bit.ly/ISCSUM24" class="bg-primary text-light" target="_blank"> INNERSOURCE SUMMIT 2024 - book your ticket for November 20th and 21st </i></a>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="notice bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">Join us on Tuesday, October 22nd, at 5pm GMT / 6pm CEST / 11am CDT / 9am PDT when David Grizzanti, from The New York Times, will discuss  <a href="https://bit.ly/ISCOct22" class="btn-link ml-1" target="_blank">Building Sustainable Internal Developer Platforms with InnerSource.
+            <i class="ti-arrow-right"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="container">
+
+<ol class="breadcrumb">
+  
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/it/">InnerSource Commons</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/it/learn/">Learn</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/it/learn/learning-path/">Learning Path</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/it/learn/learning-path/contributor/">Learning Path - Contributore</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+   
+  Meccaniche della contribuzione
+  
+</li>
+
+</ol>
+
+
+</div>
+<section class="section section-first">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h1 class="mb-4">Meccaniche della contribuzione</h1>
+        
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+          <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/wv3uylJC4K0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="content"><div class="paragraph">
+<p>Sei pronto per iniziare a contribuire a progetti/repo di altri team?
+Non vedi l&#8217;ora di ridurre i tuoi blocchi non tramite la gestione dell&#8217;escalation ma tramite la collaborazione?
+Questa sezione mostra consigli pratici e evidenzia i trucchi da ricordare quando si realizza un contributo InnerSource. Consente a te ed all&#8217;host team di vivere un&#8217;esperienza il più piacevole possibile, ponendo le basi per ulteriori contributi e grandiosa collaborazione.</p>
+</div>
+<div class="paragraph">
+<p>Questo articolo è diviso in tre passi che probabilmente sperimenterai</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#preparing-to-work">Sollecitare la tua opportunità di contribuzione e preparare a lavorarci</a></p>
+</li>
+<li>
+<p><a href="#creating-the-pull-request">Creare realmente il contributo</a></p>
+</li>
+<li>
+<p><a href="#submitting-the-pull-request">Lucidare e incartare bene il dono e presentarlo all&#8217;host team</a>.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Se il tuo contributo è più grande, probabilmente eseguirai ripetutamente (alcuni) di questi passaggi mentre itererai verso il tuo obiettivo comune.
+E' molto probabile che, mentre lo fai, il tutto sembrerà sempre più naturale - forse ti chiederai anche perché stavi facendo qualcos&#8217;altro prima.</p>
+</div>
+<div class="sect2">
+<h3 id="_prepararsi_a_lavorare">Prepararsi a lavorare</h3>
+<div class="sect3">
+<h4 id="_tempi_di_consegna">Tempi di consegna</h4>
+<div class="paragraph">
+<p>Una differenza fondamentale è il tempo di consegna.</p>
+</div>
+<div class="paragraph">
+<p>Con ogni primo contributo per la prima volta arrivi in un nuovo (host) team.
+Di conseguenza, dovrai conoscere la loro code base, le tecnologie usate, e anche il loro ambiente preferito di sviluppo (pensa al framework di test, al sistema di build).
+Anche nei casi in cui questo tipo di tool è standardizzato, ogni team avrà sviluppato alcune peculiarità individuali.
+Oltre al lato tecnico, potresti trovarti di fronte a differenze nella comunicazione (pensa alle revisioni del codice).
+Anche se torni dopo un pò di tempo, le modalità ed i membri del team potrebbero essere cambiati.
+Prenditi il tuo tempo come se vorresti incontrare un amico che non vedi da un po' e che stai visitando ora.</p>
+</div>
+<div class="paragraph">
+<p>Datevi tempo sufficiente.</p>
+</div>
+<div class="paragraph">
+<p>Inizia abbastanza presto, in modo che il tuo lavoro sia disponibile per farti leva nel momento in cui ne hai bisogno.
+E' meglio aggiungere più tempo di pausa inizialmente - avrai un&#8217;idea dei tempi di consegna una volta che lavorerai con l&#8217;host team.
+Spesso noterai una riduzione del tempo di consegna per l&#8217;host team dopo aver fornito alcuni contributi di successo a quell&#8217;host team.
+Questo effetto può essere osservato anche con l&#8217;Open Source, puoi leggere di più a riguardo <a href="#buildup-of-trust-through-collaboration">quì</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_gestione_delle_aspettative">Gestione delle aspettative</h4>
+<div class="paragraph">
+<p>Nei tuoi team classici tutti avevano un&#8217;idea dei tempi di consegna previsti.
+All&#8217;interno del contesto InnerSource questo potrebbe non essere il caso, a causa di grandi differenze di fuso orario (ad esempio Seattle, USA con PDT contro Berlin, Germania con CEST) o non sei disponibile a tempo pieno come il tuo team originale, anche se sono nella stessa posizione fisica in cui ti trovi.
+Pertanto, per prevenire la frustazione da entrambe le parti, come l&#8217;impazienza e altri effetti che non incentivano la fiducia, dovrai quindi gestire esplicitamente le aspettative per quanto riguarda i tempi di reazione previsti.
+Un approccio consiste nel reagire rapidamente con un "Lo analizzerò, mi serviranno alcuni giorni" ad un feedback del <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committer&#8217;s</em></a> se sai che potrai lavorarci in pochi giorni.</p>
+</div>
+<div class="paragraph">
+<p>Idealmente, puoi fornire loro una stima di massima di quando avrai il tempo per visionare il loro contributo.
+Facendo in questo modo costruisci fiducia per affidabilità anche per contatti non fisici, distanze maggiori o canali altrimenti asincroni.
+La fiducia stabilita ti permetterà di superare i momenti di incertezza nella strada collaborativa che hai da percorrere.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_costruire_fiducia">Costruire fiducia</h4>
+<div class="paragraph">
+<p>InnerSource attribuisce un enorme peso alla comunicazione scritta - in particolare quando si tratta di decisioni del progetto.
+Questo implica che la comunicazione di persona è vietata?</p>
+</div>
+<div class="paragraph">
+<p>Chiaramente no: mentre la comunicazione scritta funziona molto bene quando si tratta di archiviazione e ricercabilità, la comunicazione di persona funziona quando si tratta di larghezza di banda di comunicazione.
+Cerca di investire tempo ad incontrare le persone dietro i nomi. Se possibile, cerca di incontrarle davanti alla tua bevanda o cibo preferito.
+Quando sei in grado di sentire le persone parlare, quando conosci le loro idiosincrasie, la collaborazione remota diventerà più facile.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_evitare_il_rifiuto">Evitare il rifiuto</h4>
+<div class="paragraph">
+<p>Hai una grande funzionalità su cui vuoi contribuire?
+Eccellente!
+Non sarebbe terribile se tutto il tuo lavoro fosse sprecato?
+Può accadere quando l&#8217;host team sta già costruendo qualcosa di molto simile, sta pianificando di deprecare il software, o non vede quello che stai proponendo per essere un qualcosa di adatto per il loro progetto.
+Questa sfida è frequente e a molte relazioni tra team è capitato di incrinarsi per non aver concordato in anticipo che un contributo fosse adatto.</p>
+</div>
+<div class="paragraph">
+<p>Rendi felici te stesso e l&#8217;host team (e possibilmente risparmia un po' di lavoro) ottenendo un accordo dall&#8217;host team sulla progettazione tecnica / utente del contributo <em>prima</em> di lavorare sulle modifiche ed inviare la pull request.
+Devi capire come l&#8217;host team vorrebbe che ti mettessi in contatto per questo.
+La cosa migliore è chiedere al <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> come discutere al meglio la tua proposta.</p>
+</div>
+<div class="paragraph">
+<p>E' saggezza provata più volte nell&#8217;area Open Source che, se puoi scegliere come discutere la tua proposta, dovresti provare a selezionare un modo scritto.
+Idealmente, scegli la modalità dove gli artefacci sono pubblici, ricercabili e con link unici per consentire di fare riferimento alla tua proposta nelle discussioni successive su questo contributo futuro o su altri contributi a venire tuoi o di altri.</p>
+</div>
+<div class="paragraph">
+<p>Questo tipo di accordo anticipato di alto livello farà risparmiare tempo nella rielaborazione o nel rifiuto della tua pull request.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_creazione_della_pull_request">Creazione della pull request</h3>
+<div class="sect3">
+<h4 id="_comunicazione_e_sbloccare_se_stessi">Comunicazione e sbloccare se stessi</h4>
+<div class="paragraph">
+<p>Fantastico, hai preso familiarità con l&#8217;approccio dell&#8217;host team, e non vedono l&#8217;ora di ricevere la tua pull request.
+Quali trucchi ti stanno aspettando adesso?</p>
+</div>
+<div class="paragraph">
+<p>Innanzitutto, sarai in contatto meno diretto con loro. In secondo luogo, non ci si aspetta che tu abbia la conoscenza e sia competente come potresti essere nei progetti a tempo pieno di proprietà del tuo team.
+Come puoi affrontarlo al meglio?</p>
+</div>
+<div class="paragraph">
+<p>Prova ad esaminare la loro documentazione, le conversazioni negli archivi e gli artefatti nel codice del team per sbloccarti.
+Questo è simile alla situazione in cui ti trovi tu e probabilmente la maggior parte delle persone quando utilizza uno dei progetti popolari OSS.
+Proprio come nei progetti Open Source, chiedi all&#8217;host team se le cose non stanno andando avanti anche dopo aver provato a sbloccarti.
+Le domande che tu fai e le risposte che ricevi aiuteranno altri che arriveranno dopo che avrai risolto gli stessi problemi.
+Assicurati che la tua comunicazione finisca in un archivio ricercabile che sia strettamente collegato al progetto stesso.
+Dovresti vedere facili opportunità di miglioramento per raggiungere l&#8217;obiettivo se non è stato ancora raggiunto, puoi provare - molto edicatamente - a suggerire un miglioramento al tuo host team.
+A volte lo status quo nasce da pura casualità e rimane tale perché nessuno aveva un&#8217;idea diversa o se ne curava abbastanza.
+I suggerimenti al miglioramento potrebbero essere i benvenuti in questi casi.
+Non giova a nessuna delle due parti girare attorno per sempre al problema che potrebbe essere risolto in una conversazione di pochi minuti con qualcuno più informato sul progetto.
+Va bene chiedere aiuto.</p>
+</div>
+<div class="paragraph">
+<p>C&#8217;è una differenza fondamentale tuttavia, che porterà vantaggi a te e ad altre persone in futuro:
+In quasi tutti i casi dovresti preferire i canali di comunicazioni ufficiali dei progetti - può essere una maliling list, una chat room, un issue tracker o qualcosa di simile, a seconda dello scopo di avere una modalità di comunicazione sincrona o asincrona, o a seconda delle esigenze che variano per la struttura di comunicazione.
+Tutte queste modalità hanno in comunune che sono basate su testo, archiviate, ricercabili e dotate di collegamenti stabili - questo significa che la tua domanda e la risposta saranno scritte, e le referenze che tu menzioni nelle risposte saranno mantenute raggiungibili.
+In questo modo puoi beneficiare di questa conoscenza documentata passivamente nella tua ricerca E aiutare i futuri contributori ad avere lo stesso vantaggio.
+Tale documentazione passiva potrebbe anche servire per arricchire la documentazione 'ufficiale', qualcosa dovesse contenere gemme particolarmente preziose - come definizioni importanti che create ad-hoc.</p>
+</div>
+<div class="paragraph">
+<p>Mentre lavori, se trovi documentazione mancante (o non aggiornata), fai un favore al prossimo Contributore e aggiornala con ciò che hai scoperto.
+I team di progetto sono spesso felici di ricevere aggiunte, aggiornamenti o correzioni per la loro documentazione attuale - hai appena trovato un&#8217;altra opportunità per contribuire!
+(Oppure fornisci educatamente un feedback sulla tua esperienza, e su cosa ti avrebbe aiutato.)</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_creazione_del_codice">Creazione del codice</h4>
+<div class="paragraph">
+<p>Tutti noi abbiamo le nostre preferenze e opinioni sullo stile del codice, l&#8217;identazione, ecc.
+Anche il progetto dell&#8217;host team ne ha.
+Cerca di adattare ed abbinare queste preferenze anche se non sono quello che tu avresti normalmente fatto, e anche se non è specificato nel file <a href="https://innersourcecommons.org/it/learn/learning-path/trusted-committer/05/"><em>`CONTRIBUTING.md`</em></a>.
+Se non siete sicuri, potete sempre chiedere educatamente. Tuttavia, per un contributo di una funzionalità o per un bug fix non è il momento di introdurre un nuovo modo di struttrare o formattare il codice del progetto.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_invio_della_pull_request">Invio della pull request</h3>
+<div class="paragraph">
+<p>Hai completato tutto il lavoro essenziale, capito tutte le stranezze del problema e il progetto a cui stai contribuendo, il momento che avevi pianificato per la nuova funzionalità si avvicina, e vuoi assicurarti che il tuo contributo venga usato tramite merge nel modo più veloce e fluido possibile.
+Ecco quì quello che puoi fare per rendere la revisione ed il merging più facile possibile per il <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> e l&#8217;host team.
+Questo potrebbe attualmente essere abbastanza simile a quello che potresti già fare sul tuo progetto per far accettare le tue modifiche. Se è così - fantastico, ti verrà naturale!</p>
+</div>
+<div class="sect3">
+<h4 id="_test_e_automazione">Test e automazione</h4>
+<div class="paragraph">
+<p>Il punto fondamentale quì è abilitare il <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> a validare il contributo senza la tua presenza e assicurare una facile manutenibilità.
+Immagina di aver creato una funzionalità o la gestione di una stranezza irrisolvibile, o di un&#8217;importante modifica delle prestazioni ed il tuo codice non è del tutto ovvio (o potrebbe persino sembrare orrendo / sbagliato a prima vista).
+Se l&#8217;hai coperta con un test - ed idealmente hai scritto due parole sul razionale che c&#8217;è dietro in un commento - ad un futuro editor verrà ricordato lo scopo del codice, ed i test assicureranno che il valore realizzato del tuo codice sarà mantenuto, anche nelle nuove implementazioni.
+Per ottenere ciò, procedi nel seguente modo:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Aggiungi i test per il codice del tuo contributo, così che la validazione della funzione della tua contribuzione possa funzionare bene anche per altri, anche dopo un pò di tempo, quando lavorerai in altri progetti o nell&#8217;eventualità tu abbia smesso di contribuire a questo progetto.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Spesso i progetti avranno dei controlli automatici sulle richieste di pull request usando questi test ed il livello di copertura del codice. Cerca di soddisfare i criteri imposti da questi test.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Molti progetti forniranno script per eseguire la build e la validazione che ti permetterà di testare localmente le tue modifiche.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Usa questi script per assicurarti che il tuo contributo funzioni al meglio prima di aprire una pull request.</p>
+</li>
+<li>
+<p>Dover revisionare le richieste di pull request con errori facili da risolvere spesso infastidisce i trusted committer. Non correggeranno il tuo codice ma chiederanno a te di farlo. Questo potrebbe creare più cicli e rallentare il merge.</p>
+</li>
+<li>
+<p>Tuttavia nessuno è perfetto. Fai del tuo meglio, usa gli script di validazione preparati se ce ne sono, e dai il meglio di te con una pull request!</p>
+</li>
+<li>
+<p>Se la tua pull request continua a rompere i test, e tu non capisci il perché dopo aver dato il meglio di te: prova ad evidenziare questi test in un commento della pull request, illustra la tua attuale comprensione del problema e chiedi aiuto.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Non dimenticare il tuo progetto che ha scatenato il tuo contributo in primo luogo. Crea una build modificata del progetto condiviso con le tue modifiche e provalo nel tuo progetto che lo usa.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_documentazione_e_revisione">Documentazione e revisione</h4>
+<div class="paragraph">
+<p>Vuoi essere sicuro che la tua pull request includa ogni aggiornamento della documentazione che sia rilevante per le tue modifiche.
+Se la documentazione risiede in un posto diverso, assicurati che sia aggiunta lì e sia collegata nella tua pull request.</p>
+</div>
+<div class="paragraph">
+<p>Per rendere la revisione del codice attuale quanto più semplice possibile per il trusted committer o altre persone che lo revisioneranno, cerca di seguire questi suggerimenti:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Assicurati che la tua pull request includa solamente le modifiche attinenti per la issue che stai completando.</p>
+</li>
+<li>
+<p>Prova ad evitare di fare commit di grandi dimensioni, commit con messaggi non chiari, miliardi di file, modifiche non coerenti (ad esempio toccando più argomenti).</p>
+</li>
+<li>
+<p>Fornisci una descrizione chiara di cosa viene modificato da questa pull request, perché lo fa in questo modo, e a quale issue e documenti di progettazione (se ce ne sono) fa riferimento.</p>
+</li>
+<li>
+<p>Se c&#8217;è qualcosa di non comune o inaspettato nella pull request, sottolinealo e fornisci una spiegazione. Questo renderà più facile ragionarci sopra e risolvere potenziali domande bloccanti che un reviewer potrebbe avere durante la revisione.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Lo stesso vale per lo scenario dove non eri sicuro dell&#8217;implementazione o del tuo approccio - sottolinealo e chiedi un approfondimento.</p>
+</li>
+<li>
+<p>Sii civile e aspettati civiltà dalla revisione del <a href="https://innersourcecommons.org/learn/learning-path/trusted-committer"><em>Trusted Committer&#8217;s</em></a>.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Fare pull request troppo ampie e grandi le rende più difficile da revisionare, quindi sarà necessario molto più tempo prima che vengano accettate.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Se hai una funzionalità più grande che stai per contribuire, spesso aiuta dividerla in più pull request che sono da inviare, revisionare e accettare sequenzialmente.
+Puoi ancora raccoglierle insieme in una issue a cui fai riferimento.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Alcuni tool hanno anche la funzionalità di pull request per Draft / WIP che puoi usare per marchiare esplicitamente un lavoro non finito e non finalizzato e ricevi ancora un feedback immediato dal <a href="https://innersourcecommons.org/it/learn/learning-path/trusted-committer/02/"><em>Trusted Committers</em></a> dell&#8217;host team.</p>
+</li>
+<li>
+<p>Questo ti permette di assicurare che stai procedendo verso un percorso che il tuo host team è felice di accogliere una volta fatto, aderendo all&#8217;approccio "rilascia presto, rilascia spesso".</p>
+</li>
+<li>
+<p>La responsabilità dell&#8217;host team è quella di creare un&#8217;atmosfera dove la condivisione e la discussione sul lavoro non del tutto finalizzato è possibile e benvenuta. Se non puoi fallire al sicuro, non puoi innovare, e la collaborazione diventa molto difficile.</p>
+</li>
+<li>
+<p>Cerca di trovare un equilibrio tra il chiedere per una revisione in anticipo e fornire modifiche significative alla revisione.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_articoli_aggiuntivi">Articoli aggiuntivi</h3>
+<div class="paragraph">
+<p>Alcune di queste risorse potrebbero essere nascoste dietro i paywall.
+A volte il tuo datore di lavoro ha un abbonamento che consente l&#8217;accesso, altrimenti le biblioteche delle università pubbliche spesso consentono l&#8217;accesso anche agli ospiti.</p>
+</div>
+<div class="sect3">
+<h4 id="_buildup_of_trust_through_collaboration"><a href="https://doi.org/10.1109/MS.2013.95">Buildup of trust through collaboration</a></h4>
+</div>
+</div>
+<!--- This file autogenerated from https://github.com/InnerSourceCommons/InnerSourceLearningPath/blob/main/scripts --></div>
+        <div class="clearfix">
+          
+            <a class="btn btn-light float-left" href="/it/learn/learning-path/contributor/03/">← La mentalità del Contributore</a>
+          
+          
+            <a class="btn btn-primary float-right" href="/it/learn/learning-path/contributor/05/"> I vantaggi del diventare un Contributore InnerSource →</a>
+          
+        </div>
+        
+        <div class="mt-4">
+          <h3>Contributors</h3>
+          <ul class="nav">
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/tsadler1988" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/tsadler1988" alt="Tom Sadler" title="Tom Sadler" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/ystk" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/ystk" alt="Yoshitake Kobayashi" title="Yoshitake Kobayashi" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/OpenPj" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/OpenPj" alt="Piergiorgio Lucidi" title="Piergiorgio Lucidi" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/dottorblaster" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/dottorblaster" alt="Alessio Biancalana" title="Alessio Biancalana" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/lenucksi" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/lenucksi" alt="lenucksi" title="lenucksi" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/rrrutledge" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/rrrutledge" alt="rrrutledge" title="rrrutledge" /></a>
+            </li>
+            
+          </ul>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/it/learn">Learn</a></b></li>
+          
+          <li><a href="/it/learn/books">Books</a></li>
+          
+          <li><a href="/it/learn/learning-path">Learning Path</a></li>
+          
+          <li><a href="/it/learn/patterns">Patterns</a></li>
+          
+          <li><a href="/it/learn/research">Research</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/it/events/community-calls">Events</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/it/community">Community</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/it/stories">Stories</a></b></li>
+          
+          <li><a href="/it/community/services">Services Directory</a></li>
+          
+          <li><a href="/it/about/announcements">Announcements</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/it/about">About</a></b></li>
+          
+          <li><a href="/it/about/board">Board &amp; Governance</a></li>
+          
+          <li><a href="/it/about/members">Members</a></li>
+          
+          <li><a href="/it/about/sponsors">Sponsors</a></li>
+          
+          <li><a href="/it/about/codeofconduct">Code of Conduct</a></li>
+          
+          <li><a href="/it/about/contact">Contact Us</a></li>
+          
+          <li><a href="/it/about/privacy">Privacy Policy</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href='//it'><img width="200px"   class="img-fluid" src="/images/logo.png" alt="InnerSource Commons"></a>
+        <p class="mb-4">The site is licensed under a CC-BY-SA license unless otherwise marked.</p>
+        
+        
+        
+        <ul class="list-inline social-icons">
+          
+          <li class="list-inline-item"><a href="http://github.com/InnerSourceCommons"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube"></i></a></li>
+          
+          <li class="list-inline-item"><a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">Design by <a href="https://themefisher.com/">Themefisher</a> and <a href="https://gethugothemes.com/">Gethugothemes</a>, icons by <a href="https://storyset.com/people">Freepik Storyset</a></small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+<script src="/plugins/youmax/youmax.js"></script>
+
+<script src="/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<script>
+	$('#youmax').youmax({
+	apiKey:'AIzaSyCTmhVwOZhhT1WceQm9MobWFuJIA6lI-Dw',
+	youTubeChannelURL: "https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA",
+	youmaxDefaultTab: "UPLOADS",
+	youmaxColumns: 3,
+	showVideoInLightbox: false,
+	maxResults: 6,
+});
+$(function(){
+  $('#langpicker').selectpicker();
+  $('#langpicker').change(function() {
+    window.location.href = this.value;
+  });
+});
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7179Q3Y3T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H7179Q3Y3T');
+</script>
+
+</body>
+
+</html>

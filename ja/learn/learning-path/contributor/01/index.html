@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta charset="utf-8">
+  <title>はじめに</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content='InnerSource Commons は、インナーソースに関する知識を創造し、共有することを目的とした実践者のコミュニティです。'>
+  <meta name="keywords" content='InnerSource,インナーソース,オープンソース,サイロ,コード共有,共創,コラボレーション'>
+  <meta name="author" content="InnerSource Commons">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/plugins/youmax/youmax.css">
+  
+  <link rel="stylesheet" href="/plugins/bootstrap-select/css/bootstrap-select.min.css">
+  
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link href="/scss/style.min.css" rel="stylesheet" media="screen"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="layout" content="page -  - learn - learn - Page(/learn/learning-path/contributor/_index.ja.md)">
+  
+  
+	
+	<link rel="alternate" hreflang="en" href="/learn/learning-path/contributor/01/" title="English">
+	
+	<link rel="alternate" hreflang="de" href="/de/learn/learning-path/contributor/01/" title="Deutsch">
+	
+	<link rel="alternate" hreflang="es" href="/es/learn/learning-path/contributor/01/" title="Español">
+	
+	<link rel="alternate" hreflang="fr" href="/fr/learn/learning-path/contributor/01/" title="Français">
+	
+	<link rel="alternate" hreflang="ru" href="/ru/learn/learning-path/contributor/01/" title="Русский">
+	
+	<link rel="alternate" hreflang="it" href="/it/learn/learning-path/contributor/01/" title="Italiano">
+	
+	<link rel="alternate" hreflang="pt-br" href="/pt-br/learn/learning-path/contributor/01/" title="Português Brasileiro">
+	
+	<link rel="alternate" hreflang="zh" href="/zh/learn/learning-path/contributor/01/" title="中文">
+	
+  
+  
+  <meta property="og:title" content="はじめに" />
+<meta property="og:description" content="InnerSourceのコントリビューター あなたは、あなたの依存する機能を他チームがシステムに追加をする時間が無いために、次のコーディングタスクをブロックされたことはありませんか？ もしかすると、しばらくしてから、その不足している機能を補うために、あなたのプロジェクトで余計な作業をしなければならなかったかも知れません。 このような形で全くブロックされないことは、どんなに素晴らしいことでしょうか？
+ InnerSourceの原則を組み込んだプロジェクトでは、必要な機能を他のチームが提供するのを待ってブロックされることは決してありません。 もし必要なものが得られないなら、InnerSourceコントリビューターとして行動し、他チームのコードリポジトリに直接あなたが必要な変更を行うことかできます。
+ コントリビューターの役割は、InnerSourceコミュニティプロジェクトのリポジトリに貢献する人と表されます。 この人はコミュニティの一部の人であるかも知れないし、そうでないかも知れません。 しかし、かなりの数の人にとってコントリビューターとは、単にコミュニティについて知るだけのことから、コミュニティのプロダクトを使用し、コミュニティのメンバーと対話し、そして最終的に貢献を始めることができるという旅のようなものです。 最終的に、そのうち何人かは Trusted Committer(トラステッドコミッター) になるかも知れません。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/ja/learn/learning-path/contributor/01/" />
+
+
+  
+    
+    <meta property="og:image" content="https://img.youtube.com/vi/ncPO1fz5fRg/mqdefault.jpg" />
+    
+  
+
+  <!-- Mastodon verification code -->
+  <link href="https://fosstodon.org/@innersource" rel="me">
+
+</head><body><!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand"
+        href='/ja'>
+        <img width="200px" class="img-fluid" src="/images/logo.png"
+          alt="InnerSource Commons">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/ja/learn" >学ぶ</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/ja/learn/books" >関連書籍</a>
+              
+              <a class="dropdown-item" href="/ja/learn/learning-path" >ラーニングパス</a>
+              
+              <a class="dropdown-item" href="/ja/learn/patterns" >インナーソースパターン</a>
+              
+              <a class="dropdown-item" href="/ja/learn/research" >リサーチ</a>
+              
+              <a class="dropdown-item" href="https://www.youtube.com/@InnerSourceCommons" >ビデオ</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/ja/events/community-calls" >イベント</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/ja/community" >コミュニティ</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/ja/community/services" >提供企業</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/ja/stories" >事例</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/ja/about" >About</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/ja/about/announcements" >アナウンス</a>
+              
+              <a class="dropdown-item" href="/ja/about/board" >役員とガバナンス</a>
+              
+              <a class="dropdown-item" href="/ja/about/members" >メンバーについて</a>
+              
+              <a class="dropdown-item" href="/ja/about/sponsors" >スポンサー</a>
+              
+              <a class="dropdown-item" href="/ja/about/codeofconduct" >行動規範</a>
+              
+              <a class="dropdown-item" href="/ja/about/contact" >お問合せ</a>
+              
+            </div>
+          </li>
+          
+          
+        </ul>
+        <a href="/slack" class="btn btn-sm slack-invite-btn btn-primary ml-2" target="_blank"><i
+            class="ti-comments pr-2"></i>Slackに参加</a>
+        
+        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+          <option>日本語</option>
+          
+          <option value="/learn/learning-path/contributor/01/">English</option>
+          
+          <option value="/de/learn/learning-path/contributor/01/">Deutsch</option>
+          
+          <option value="/es/learn/learning-path/contributor/01/">Español</option>
+          
+          <option value="/fr/learn/learning-path/contributor/01/">Français</option>
+          
+          <option value="/ru/learn/learning-path/contributor/01/">Русский</option>
+          
+          <option value="/it/learn/learning-path/contributor/01/">Italiano</option>
+          
+          <option value="/pt-br/learn/learning-path/contributor/01/">Português Brasileiro</option>
+          
+          <option value="/zh/learn/learning-path/contributor/01/">中文</option>
+          
+        </select>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="notice bg-primary text-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-12 text-center">
+          <i class="ti-calendar mr-2"></i>
+          <a href="https://bit.ly/ISCSUM24" class="bg-primary text-light" target="_blank"> INNERSOURCE SUMMIT 2024 - book your ticket for November 20th and 21st </i></a>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="notice bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">Join us on Tuesday, October 22nd, at 5pm GMT / 6pm CEST / 11am CDT / 9am PDT when David Grizzanti, from The New York Times, will discuss  <a href="https://bit.ly/ISCOct22" class="btn-link ml-1" target="_blank">Building Sustainable Internal Developer Platforms with InnerSource.
+            <i class="ti-arrow-right"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="container">
+
+<ol class="breadcrumb">
+  
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/ja/">InnerSource Commons</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/ja/learn/">学ぶ</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/ja/learn/learning-path/">Learning Path</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/ja/learn/learning-path/contributor/">ラーニングパス - コントリビューター</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+   
+  はじめに
+  
+</li>
+
+</ol>
+
+
+</div>
+<section class="section section-first">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h1 class="mb-4">はじめに</h1>
+        
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+          <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/ncPO1fz5fRg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="content"><div class="sect2">
+<h3 id="_innersourceのコントリビューター">InnerSourceのコントリビューター</h3>
+<div class="paragraph">
+<p>あなたは、あなたの依存する機能を他チームがシステムに追加をする時間が無いために、次のコーディングタスクをブロックされたことはありませんか？
+もしかすると、しばらくしてから、その不足している機能を補うために、あなたのプロジェクトで余計な作業をしなければならなかったかも知れません。
+このような形で全くブロックされないことは、どんなに素晴らしいことでしょうか？</p>
+</div>
+<div class="paragraph">
+<p>InnerSourceの原則を組み込んだプロジェクトでは、必要な機能を他のチームが提供するのを待ってブロックされることは決してありません。
+もし必要なものが得られないなら、InnerSourceコントリビューターとして行動し、他チームのコードリポジトリに直接あなたが必要な変更を行うことかできます。</p>
+</div>
+<div class="paragraph">
+<p>コントリビューターの役割は、InnerSourceコミュニティプロジェクトのリポジトリに貢献する人と表されます。
+この人はコミュニティの一部の人であるかも知れないし、そうでないかも知れません。
+しかし、かなりの数の人にとってコントリビューターとは、単にコミュニティについて知るだけのことから、コミュニティのプロダクトを使用し、コミュニティのメンバーと対話し、そして最終的に貢献を始めることができるという旅のようなものです。
+最終的に、そのうち何人かは <a href="https://innersourcecommons.org/ja/learn/learning-path/trusted-committer">Trusted Committer(トラステッドコミッター)</a> になるかも知れません。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_他の役割との関係">他の役割との関係</h3>
+<div class="paragraph">
+<p>InnerSourceコミュニティにおけるコントリビューターとしてあなたは、 <a href="https://innersourcecommons.org/ja/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> や <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner"><em>Product Owner (プロダクトオーナー)</em></a> などのInnerSourceの他の役割を担っている人や、おそらく他のコントリビューターとも交流することになります。
+まれに、小さな草の根スタイルのプロジェクトでは、Trusted Committerとプロダクトオーナーなどの役割は同じ人が行うことができます。</p>
+</div>
+<div class="paragraph">
+<p>この節では、他の2つの役割について非常に短い概要を説明しますが、 <a href="https://innersourcecommons.org/ja/learn/learning-path/trusted-committer/01/">Trusted Committerの役割の紹介記事</a> と <a href="https://innersourcecommons.org/ja/learn/learning-path/trusted-committer/05/">参加障壁を下げる</a> 記事を、コントリビューターの役割をより深く掘り下げて説明する前に読むことを推奨します。
+記事を読む代わりに、ビデオ (<a href="https://innersourcecommons.org/ja/learn/learning-path/trusted-committer/01/">入門</a>、 <a href="https://innersourcecommons.org/ja/learn/learning-path/trusted-committer/05/">参入障壁を下げる</a>) を見ることもできます。</p>
+</div>
+<div class="sect3">
+<h4 id="_trusted_committer">Trusted Committer</h4>
+<div class="paragraph">
+<p>Trusted Committerは、ホスティングするコミュニティにあなたが滞在する間、あなたのホストになります。
+彼らはプロジェクトのコードリポジトリのゲートキーパーで、あなたの貢献を彼らが受け入れた時、それをプロダクションレベルに近づけてくれます。
+彼らの役割は、あなたが彼らのコミュニティに貢献するための指導をすることです。
+彼らは、あなたを直接助けたり、あなた自身で解決できるようにするための情報を提供したりします。
+この情報は、レビューのためのハウスルール、大きな変更の提案テンプレート、あなたの貢献に関するコードセクションやドキュメントへのポインタなどで構成されます。</p>
+</div>
+<div class="paragraph">
+<p>彼らはまた、プロダクトの品質、持続可能性とプロジェクトの進化など技術的な側面とともに、一般的な側面となる、すべての人に貢献することへの障壁を減らすことやコミュニティ全般のケアもする必要があります。
+コミュニティのケアには、健全性の維持、コミュニティと参加者のレベル向上、組織におけるニーズを説くことが含まれます。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_プロダクトオーナー">プロダクトオーナー</h4>
+<div class="paragraph">
+<p><a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner"><em>プロダクトオーナー</em></a> の役割は、平均的なプロジェクトのプロダクトオーナーの役割と、いくつかの類似点があります。
+しかし、プロジェクトのサイズによって違いがありますが、この役割はTrusted Committerとして行動する同じ人が担当することがよくあります。
+大規模なプロジェクトや、貢献を受け容れることで彼らのニーズを満たす部分にだけInnerSourceのアプローチを用いるチームでは、この役割はTrusted Committerとは別の人が担当する可能性があります。</p>
+</div>
+<div class="paragraph">
+<p>プロダクトオーナーの役割との対話では、あなたの貢献が一般的プロダクトとそのロードマップに適合するかに焦点を当てる可能性があります。
+あなたはプロダクトオーナーの役割と協力して、あなたの貢献をマージする際に、ドキュメントやUI/UXの一貫性などの一般的な側面を確認することになります。</p>
+</div>
+<div class="paragraph">
+<p>最後に重要なことですが、プロダクトオーナーとして行動している誰かは、プロジェクトやその利点およびコミュニティに対して、あなたの注目を引くことに関わっている可能性があります。</p>
+</div>
+<div class="paragraph">
+<p>もし、これらの他の役割に関する詳細を学びたい場合は、 <a href="https://innersourcecommons.org/ja/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> と <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner"><em>プロダクトオーナー</em></a> のセクションを別に用意してありますので、そちらをお勧めします。</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_セクションの概要">セクションの概要</h3>
+<div class="paragraph">
+<p>これ以降の5つのセグメントで、ここで紹介したさまざまな側面について、詳しく学びます。</p>
+</div>
+<div class="paragraph">
+<p>次のセグメントでは、 <em>InnerSourceコントリビューターになる</em> 機会を生みだす <em>マインドセットや習慣</em> について詳しく説明します。</p>
+</div>
+<div class="paragraph">
+<p>3番目のセグメントでは、 <em>コントリビューターの精神</em> 、すなわち、あなたとホストチームにとって快適かつ生産的な時間につながり、より多くのコラボレーションを促進する可能性がある <em>行動</em> の側面を見ていきます。
+紹介ビデオで示したゲストインホームのアナロジーは、鮮明な例となるでしょう。</p>
+</div>
+<div class="paragraph">
+<p>4番目のセグメントでは、あなたの貢献を成功させるための実践的なこと、つまり <em>貢献の仕組み</em> について説明します。
+貢献に取り組む準備をしていたり、開発をしたり、プルリクエストをしたりする時に活用する実用的なヒントを提供します。</p>
+</div>
+<div class="paragraph">
+<p>コントリビューターの個人的、相互作用的、そして技術的な側面を扱った後に、5番目のセグメントでは、貢献するために努力することの効果について示します。
+あなた、あなたのチーム、そして企業全体の視点など、さまざまな視点で効果があることを示します。</p>
+</div>
+<div class="paragraph">
+<p>最後のセグメントでは、InnerSourceコントリビューターであるということについて学んだことをまとめます。
+我々は、あなたが他のオンラインのビデオと記事の両方やオンラインのInnerSourceコミュニティへの参加を通じて、どのようにInnerSourceの学習を継続するかについて共有します。</p>
+</div>
+</div>
+<!--- This file autogenerated from https://github.com/InnerSourceCommons/InnerSourceLearningPath/blob/main/scripts --></div>
+        <div class="clearfix">
+          
+          
+            <a class="btn btn-primary float-right" href="/ja/learn/learning-path/contributor/02/"> InnerSourceコントリビューターになる →</a>
+          
+        </div>
+        
+        <div class="mt-4">
+          <h3>Contributors</h3>
+          <ul class="nav">
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/ystk" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/ystk" alt="Yoshitake Kobayashi" title="Yoshitake Kobayashi" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/tsadler1988" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/tsadler1988" alt="Tom Sadler" title="Tom Sadler" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/johtani" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/johtani" alt="Jun Ohtani" title="Jun Ohtani" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/rrrutledge" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/rrrutledge" alt="rrrutledge" title="rrrutledge" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/ShinobuSaito" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/ShinobuSaito" alt="Shinobu Saito" title="Shinobu Saito" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/lenucksi" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/lenucksi" alt="lenucksi" title="lenucksi" /></a>
+            </li>
+            
+          </ul>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/ja/learn">学ぶ</a></b></li>
+          
+          <li><a href="/ja/learn/books">関連書籍</a></li>
+          
+          <li><a href="/ja/learn/learning-path">ラーニングパス</a></li>
+          
+          <li><a href="/ja/learn/patterns">インナーソースパターン</a></li>
+          
+          <li><a href="/ja/learn/research">リサーチ</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/ja/events/community-calls">イベント</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/ja/community">コミュニティ</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/ja/stories">事例</a></b></li>
+          
+          <li><a href="/ja/community/services">提供企業</a></li>
+          
+          <li><a href="/ja/about/announcements">アナウンス</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/ja/about">About</a></b></li>
+          
+          <li><a href="/ja/about/board">役員とガバナンス</a></li>
+          
+          <li><a href="/ja/about/members">メンバーについて</a></li>
+          
+          <li><a href="/ja/about/sponsors">スポンサー</a></li>
+          
+          <li><a href="/ja/about/codeofconduct">行動規範</a></li>
+          
+          <li><a href="/ja/about/contact">お問合せ</a></li>
+          
+          <li><a href="/ja/about/privacy">プライバシーポリシー</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href='//ja'><img width="200px"   class="img-fluid" src="/images/logo.png" alt="InnerSource Commons"></a>
+        <p class="mb-4">特定ライセンスが明記されている場合を除き、このサイトにおける内容は CC-BY-SA ライセンスのもと提供されています</p>
+        
+        
+        
+        <ul class="list-inline social-icons">
+          
+          <li class="list-inline-item"><a href="http://github.com/InnerSourceCommons"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube"></i></a></li>
+          
+          <li class="list-inline-item"><a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">Design by <a href="https://themefisher.com/">Themefisher</a> and <a href="https://gethugothemes.com/">Gethugothemes</a>, icons by <a href="https://storyset.com/people">Freepik Storyset</a></small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+<script src="/plugins/youmax/youmax.js"></script>
+
+<script src="/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<script>
+	$('#youmax').youmax({
+	apiKey:'AIzaSyCTmhVwOZhhT1WceQm9MobWFuJIA6lI-Dw',
+	youTubeChannelURL: "https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA",
+	youmaxDefaultTab: "UPLOADS",
+	youmaxColumns: 3,
+	showVideoInLightbox: false,
+	maxResults: 6,
+});
+$(function(){
+  $('#langpicker').selectpicker();
+  $('#langpicker').change(function() {
+    window.location.href = this.value;
+  });
+});
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7179Q3Y3T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H7179Q3Y3T');
+</script>
+
+</body>
+
+</html>

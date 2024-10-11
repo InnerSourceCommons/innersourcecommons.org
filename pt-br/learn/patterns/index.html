@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta charset="utf-8">
+  <title>Padrões InnerSource</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content='A InnerSource Commons é uma comunidade crescente de profissionais com o objetivo de criar e compartilhar conhecimento sobre InnerSource.'>
+  <meta name="keywords" content='InnerSource,Código aberto,silo,colaboração'>
+  <meta name="author" content="InnerSource Commons">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/plugins/youmax/youmax.css">
+  
+  <link rel="stylesheet" href="/plugins/bootstrap-select/css/bootstrap-select.min.css">
+  
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link href="/scss/style.min.css" rel="stylesheet" media="screen"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="layout" content="page -  - community - learn - Page(/learn/_index.md)">
+  
+  
+	
+	<link rel="alternate" hreflang="en" href="/learn/patterns/" title="English">
+	
+	<link rel="alternate" hreflang="ja" href="/ja/learn/patterns/" title="日本語">
+	
+	<link rel="alternate" hreflang="de" href="/de/learn/patterns/" title="Deutsch">
+	
+	<link rel="alternate" hreflang="es" href="/es/learn/patterns/" title="Español">
+	
+	<link rel="alternate" hreflang="fr" href="/fr/learn/patterns/" title="Français">
+	
+	<link rel="alternate" hreflang="it" href="/it/learn/patterns/" title="Italiano">
+	
+	<link rel="alternate" hreflang="ru" href="/ru/learn/patterns/" title="Русский">
+	
+	<link rel="alternate" hreflang="zh" href="/zh/learn/patterns/" title="中文">
+	
+  
+  
+  <meta property="og:title" content="Padrões InnerSource" />
+<meta property="og:description" content="A InnerSource Commons fornece um fórum para a comunidade compartilhar suas experiências e aprender uns com os outros na forma de Padrões InnerSource." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/pt-br/learn/patterns/" />
+
+
+  
+    
+    <meta property="og:image" content="/images/learn/patterns.png" />
+    
+  
+
+  <!-- Mastodon verification code -->
+  <link href="https://fosstodon.org/@innersource" rel="me">
+
+</head><body><!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand"
+        href='/pt-br'>
+        <img width="200px" class="img-fluid" src="/images/logo.png"
+          alt="InnerSource Commons">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/pt-br/learn" >Aprender</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/pt-br/learn/books" >Livros</a>
+              
+              <a class="dropdown-item" href="/pt-br/learn/learning-path" >Caminho de Aprendizado</a>
+              
+              <a class="dropdown-item" href="/pt-br/learn/patterns" >Padrões</a>
+              
+              <a class="dropdown-item" href="/pt-br/learn/research" >Pesquisa</a>
+              
+              <a class="dropdown-item" href="https://www.youtube.com/@InnerSourceCommons" >Videos</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/pt-br/events/community-calls" >Eventos</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/pt-br/community" >Comunidade</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/pt-br/community/services" >Diretório de Serviços</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/pt-br/stories" >Histórias</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/pt-br/about" >Sobre</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/pt-br/about/announcements" >Anúncios</a>
+              
+              <a class="dropdown-item" href="/pt-br/about/board" >Diretoria e Governança</a>
+              
+              <a class="dropdown-item" href="/pt-br/about/members" >Membros</a>
+              
+              <a class="dropdown-item" href="/pt-br/about/sponsors" >Patrocinadores</a>
+              
+              <a class="dropdown-item" href="/pt-br/about/codeofconduct" >Código de Conduta</a>
+              
+              <a class="dropdown-item" href="/pt-br/about/contact" >Fale Conosco</a>
+              
+            </div>
+          </li>
+          
+          
+        </ul>
+        <a href="/slack" class="btn btn-sm slack-invite-btn btn-primary ml-2" target="_blank"><i
+            class="ti-comments pr-2"></i>Participe do Slack</a>
+        
+        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+          <option>Português Brasileiro</option>
+          
+          <option value="/learn/patterns/">English</option>
+          
+          <option value="/ja/learn/patterns/">日本語</option>
+          
+          <option value="/fr/learn/patterns/">Français</option>
+          
+        </select>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="notice bg-primary text-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-12 text-center">
+          <i class="ti-calendar mr-2"></i>
+          <a href="https://bit.ly/ISCSUM24" class="bg-primary text-light" target="_blank"> INNERSOURCE SUMMIT 2024 - book your ticket for November 20th and 21st </i></a>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="notice bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">Join us on Tuesday, October 22nd, at 5pm GMT / 6pm CEST / 11am CDT / 9am PDT when David Grizzanti, from The New York Times, will discuss  <a href="https://bit.ly/ISCOct22" class="btn-link ml-1" target="_blank">Building Sustainable Internal Developer Platforms with InnerSource.
+            <i class="ti-arrow-right"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="container">
+
+<ol class="breadcrumb">
+  
+
+
+
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/pt-br/">InnerSource Commons</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/pt-br/learn/">Learn</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+   
+  Padrões InnerSource
+  
+</li>
+
+</ol>
+
+
+</div>
+<section class="section pb-0 section-first">
+  <div class="container text-center">
+    <h1 class="display-3">Padrões InnerSource</h1>
+    
+    <p>Melhores práticas do InnerSource codificadas em um formato específico, fácil de entender e reutilizar.</p>
+    
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="content"><section class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-2">
+        <p>A InnerSource Commons fornece um fórum para a comunidade compartilhar suas experiências e aprender uns com os outros na forma de Padrões InnerSource.
+        </p>
+        <p class="mt-4"><b>Um Padrão InnerSource</b> - É assim que chamamos as melhores práticas do InnerSource codificadas em um formato específico para torná-las fáceis de entender, avaliar e aplicar em seu contexto.</p>
+      </div>
+      <div class="col-md-5 order-1 order-md-1 mb-4 mb-md-0">
+        <img src="/images/learn/patterns/patterns-symbol-cropped.png" class="img-fluid">
+      </div>
+  </div>
+</section>
+<h2 style="text-align: center;">O Grupo de Trabalho de Padrões InnerSource está oferecendo os seguintes serviços para nossa comunidade</h2>
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-sm-6 mb-4">
+        <div class="feature-card text-left">
+          <a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A"><img src="/images/events/meetup-2021-10-05.jpg" alt="Chamadas da Comunidade de Padrões InnerSource"></a>
+          <h3 class="mb-2">Facilitando a identificação de padrões em vários contextos, como nossas <a href="/events/">Chamadas da Comunidade</a> e por meio de discussões no <a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A">Slack</a>.</h3>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 mb-4">
+        <div class="feature-card text-left">
+          <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/issues"><img src="/images/learn/patterns/maturing_patterns.png" alt="Padrões InnerSource Maduros"></a>
+          <h3 class="mb-2">Ajudando a Comunidade a <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/issues">amadurecer os padrões</a> revisando-os e fornecendo exemplos de instâncias em que o padrão foi usado.</h3>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 mb-4">
+        <div class="feature-card text-left">
+          <a href="https://github.com/InnerSourceCommons/InnerSourcePatterns"><img src="/images/learn/patterns/github_conversation.png" alt="Conversa no GitHub"></a>
+          <h3 class="mb-2">Fornecendo um espaço para as empresas colaborarem em padrões no <a href="https://github.com/
+<p>InnerSourceCommons/InnerSourcePatterns&quot;&gt;GitHub</a>.</h3>
+</div>
+</div>
+<div class="col-md-6 col-sm-6 mb-4">
+<div class="feature-card text-left">
+<a href="https://patterns.innersourcecommons.org"><img src="/images/learn/patterns/patterns_book.jpg" alt="Livro de Padrões InnerSource"></a>
+<h3 class="mb-2">Publicando os padrões mais maduros no <a href="https://patterns.innersourcecommons.org">Livro de Padrões InnerSource</a>.</h3>
+</div>
+</div>
+<div class="col-md-6 col-sm-6 mb-4">
+<div class="feature-card text-left">
+<a href="https://patterns.innersourcecommons.org/explore-patterns"><img src="/images/learn/patterns/patterns_mind_map.png" alt="Mapa Mental de Padrões InnerSource"></a>
+<h3 class="mb-2">Fornecendo ferramentas de descoberta, como o <a href="https://patterns.innersourcecommons.org/explore-patterns">Mapa Mental de Padrões InnerSource</a>.</h3>
+</div>
+</div>
+</div></p>
+  </div>
+</section>
+<h2 id="como-se-envolver">Como se Envolver</h2>
+<p>Se você já está utilizando o InnerSource em sua empresa e deseja contribuir para os esforços mencionados acima, compartilhando suas experiências ou introduzindo novos padrões, adoraríamos <a href="https://patterns.innersourcecommons.org/contribute">receber suas contribuições para o livro</a> e para nossas conversas no Slack no canal <a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A">#innersource-patterns</a>.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/pt-br/learn">Aprender</a></b></li>
+          
+          <li><a href="/pt-br/learn/books">Livros</a></li>
+          
+          <li><a href="/pt-br/learn/learning-path">Caminho de Aprendizado</a></li>
+          
+          <li><a href="/pt-br/learn/patterns">Padrões</a></li>
+          
+          <li><a href="/pt-br/learn/research">Pesquisa</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/pt-br/events/community-calls">Eventos</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/pt-br/community">Comunidade</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/pt-br/stories">Histórias</a></b></li>
+          
+          <li><a href="/pt-br/community/services">Diretório de Serviços</a></li>
+          
+          <li><a href="/pt-br/about/announcements">Anúncios</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/pt-br/about">Sobre</a></b></li>
+          
+          <li><a href="/pt-br/about/board">Diretoria e Governança</a></li>
+          
+          <li><a href="/pt-br/about/members">Membros</a></li>
+          
+          <li><a href="/pt-br/about/sponsors">Patrocinadores</a></li>
+          
+          <li><a href="/pt-br/about/codeofconduct">Código de Conduta</a></li>
+          
+          <li><a href="/pt-br/about/contact">Fale Conosco</a></li>
+          
+          <li><a href="/pt-br/about/privacy">Política de Privacidade</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href='//pt-br'><img width="200px"   class="img-fluid" src="/images/logo.png" alt="InnerSource Commons"></a>
+        <p class="mb-4">O site está licenciado sob uma licença CC-BY-SA, a menos que indicado de outra forma.</p>
+        
+        
+        
+        <ul class="list-inline social-icons">
+          
+          <li class="list-inline-item"><a href="http://github.com/InnerSourceCommons"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube"></i></a></li>
+          
+          <li class="list-inline-item"><a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">Design by <a href="https://themefisher.com/">Themefisher</a> and <a href="https://gethugothemes.com/">Gethugothemes</a>, icons by <a href="https://storyset.com/people">Freepik Storyset</a></small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+<script src="/plugins/youmax/youmax.js"></script>
+
+<script src="/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<script>
+	$('#youmax').youmax({
+	apiKey:'AIzaSyCTmhVwOZhhT1WceQm9MobWFuJIA6lI-Dw',
+	youTubeChannelURL: "https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA",
+	youmaxDefaultTab: "UPLOADS",
+	youmaxColumns: 3,
+	showVideoInLightbox: false,
+	maxResults: 6,
+});
+$(function(){
+  $('#langpicker').selectpicker();
+  $('#langpicker').change(function() {
+    window.location.href = this.value;
+  });
+});
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7179Q3Y3T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H7179Q3Y3T');
+</script>
+
+</body>
+
+</html>

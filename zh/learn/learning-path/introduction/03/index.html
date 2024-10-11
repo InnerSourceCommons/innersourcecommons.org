@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta charset="utf-8">
+  <title>InnerSource如何运作?</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content='The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource.'>
+  <meta name="keywords" content='InnerSource,Open source,silo,collaboration'>
+  <meta name="author" content="InnerSource Commons">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/plugins/youmax/youmax.css">
+  
+  <link rel="stylesheet" href="/plugins/bootstrap-select/css/bootstrap-select.min.css">
+  
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link href="/scss/style.min.css" rel="stylesheet" media="screen"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="layout" content="page -  - learn - learn - Page(/learn/learning-path/introduction/_index.zh.md)">
+  
+  
+	
+	<link rel="alternate" hreflang="en" href="/learn/learning-path/introduction/03/" title="English">
+	
+	<link rel="alternate" hreflang="ja" href="/ja/learn/learning-path/introduction/03/" title="日本語">
+	
+	<link rel="alternate" hreflang="it" href="/it/learn/learning-path/introduction/03/" title="Italiano">
+	
+	<link rel="alternate" hreflang="fr" href="/fr/learn/learning-path/introduction/03/" title="Français">
+	
+	<link rel="alternate" hreflang="pt-br" href="/pt-br/learn/learning-path/introduction/03/" title="Português Brasileiro">
+	
+	<link rel="alternate" hreflang="de" href="/de/learn/learning-path/introduction/03/" title="Deutsch">
+	
+	<link rel="alternate" hreflang="ru" href="/ru/learn/learning-path/introduction/03/" title="Русский">
+	
+	<link rel="alternate" hreflang="es" href="/es/learn/learning-path/introduction/03/" title="Español">
+	
+  
+  
+  <meta property="og:title" content="InnerSource如何运作?" />
+<meta property="og:description" content="=
+ 假设团队A使用的软件是由团队B生产的。团队A给团队B提交了一个特性需求，但团队B无法在团队A要求的时间内及时实现该功能。在InnerSource设置中，如果团队A不能得到这个特性请求，它会提一个提拉请求(Pull Request, 简称PR)代替。也就是说，团队A直接在团队B的软件中实现该功能，并提交一个带有代码更改的拉请求。团队B合作伙伴审查并接受提交的代码。
+ 在这个例子中，我们称团队A为 调用(Guest) 团队 ，称团队B为 维护(Host) 团队 。 协同（Guest） 和 主导（Host） 这两个术语暗示了一种类似于在家里接待客人的情况。在这种情况下，大多数人都想成为一个好主人。为了迎接协同方的到来，他们确保所有的东西都保持整洁。来访者在门口受到欢迎并被邀请进来。他们可以使用家中公共区域的功能和公用设施。可能会有一些客人被要求遵守的家规。同样的，大多数客人也想表现出对家庭和主人的尊重。他们对房子里的东西很小心，在他们逗留期间遵守规则。只要他们有礼貌，他们就会希望收到新的访问邀请。这些围绕着家访的概念是一个隐喻，它是团队在一个主导向另一个协同贡献代码库时应该采取的态度和行为。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/zh/learn/learning-path/introduction/03/" />
+
+
+  
+    
+    <meta property="og:image" content="https://img.youtube.com/vi/jPPwnaEBd8U/mqdefault.jpg" />
+    
+  
+
+  <!-- Mastodon verification code -->
+  <link href="https://fosstodon.org/@innersource" rel="me">
+
+</head><body><!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand"
+        href='/zh'>
+        <img width="200px" class="img-fluid" src="/images/logo.png"
+          alt="InnerSource Commons">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/zh/learn" >Learn</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/zh/learn/books" >Books</a>
+              
+              <a class="dropdown-item" href="/zh/learn/learning-path" >Learning Path</a>
+              
+              <a class="dropdown-item" href="/zh/learn/patterns" >Patterns</a>
+              
+              <a class="dropdown-item" href="/zh/learn/research" >Research</a>
+              
+              <a class="dropdown-item" href="https://www.youtube.com/@InnerSourceCommons" >Videos</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/zh/events/community-calls" >Events</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/zh/community" >Community</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/zh/community/services" >Services Directory</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/zh/stories" >Stories</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/zh/about" >About</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/zh/about/announcements" >Announcements</a>
+              
+              <a class="dropdown-item" href="/zh/about/board" >Board &amp; Governance</a>
+              
+              <a class="dropdown-item" href="/zh/about/members" >Members</a>
+              
+              <a class="dropdown-item" href="/zh/about/sponsors" >Sponsors</a>
+              
+              <a class="dropdown-item" href="/zh/about/codeofconduct" >Code of Conduct</a>
+              
+              <a class="dropdown-item" href="/zh/about/contact" >Contact Us</a>
+              
+            </div>
+          </li>
+          
+          
+        </ul>
+        <a href="/slack" class="btn btn-sm slack-invite-btn btn-primary ml-2" target="_blank"><i
+            class="ti-comments pr-2"></i>Join Slack</a>
+        
+        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+          <option>中文</option>
+          
+          <option value="/learn/learning-path/introduction/03/">English</option>
+          
+          <option value="/ja/learn/learning-path/introduction/03/">日本語</option>
+          
+          <option value="/it/learn/learning-path/introduction/03/">Italiano</option>
+          
+          <option value="/fr/learn/learning-path/introduction/03/">Français</option>
+          
+          <option value="/pt-br/learn/learning-path/introduction/03/">Português Brasileiro</option>
+          
+          <option value="/de/learn/learning-path/introduction/03/">Deutsch</option>
+          
+          <option value="/ru/learn/learning-path/introduction/03/">Русский</option>
+          
+          <option value="/es/learn/learning-path/introduction/03/">Español</option>
+          
+        </select>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="notice bg-primary text-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-12 text-center">
+          <i class="ti-calendar mr-2"></i>
+          <a href="https://bit.ly/ISCSUM24" class="bg-primary text-light" target="_blank"> INNERSOURCE SUMMIT 2024 - book your ticket for November 20th and 21st </i></a>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="notice bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">Join us on Tuesday, October 22nd, at 5pm GMT / 6pm CEST / 11am CDT / 9am PDT when David Grizzanti, from The New York Times, will discuss  <a href="https://bit.ly/ISCOct22" class="btn-link ml-1" target="_blank">Building Sustainable Internal Developer Platforms with InnerSource.
+            <i class="ti-arrow-right"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="container">
+
+<ol class="breadcrumb">
+  
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/zh/">InnerSource Commons</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/zh/learn/">Learn</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/zh/learn/learning-path/">Learning Path</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/zh/learn/learning-path/introduction/">概述</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+   
+  InnerSource如何运作?
+  
+</li>
+
+</ol>
+
+
+</div>
+<section class="section section-first">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h1 class="mb-4">InnerSource如何运作?</h1>
+        
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+          <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/jPPwnaEBd8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="content"><div class="paragraph">
+<p>=</p>
+</div>
+<div class="paragraph">
+<p>假设团队A使用的软件是由团队B生产的。团队A给团队B提交了一个特性需求，但团队B无法在团队A要求的时间内及时实现该功能。在InnerSource设置中，如果团队A不能得到这个特性请求，它会提一个提拉请求(Pull Request, 简称PR)代替。也就是说，团队A直接在团队B的软件中实现该功能，并提交一个带有代码更改的拉请求。团队B合作伙伴审查并接受提交的代码。</p>
+</div>
+<div class="paragraph">
+<p>在这个例子中，我们称团队A为 <em>调用(Guest)</em> 团队 ，称团队B为 <em>维护(Host)</em> 团队 。 <em>协同（Guest）</em> 和 <em>主导（Host）</em> 这两个术语暗示了一种类似于在家里接待客人的情况。在这种情况下，大多数人都想成为一个好主人。为了迎接协同方的到来，他们确保所有的东西都保持整洁。来访者在门口受到欢迎并被邀请进来。他们可以使用家中公共区域的功能和公用设施。可能会有一些客人被要求遵守的家规。同样的，大多数客人也想表现出对家庭和主人的尊重。他们对房子里的东西很小心，在他们逗留期间遵守规则。只要他们有礼貌，他们就会希望收到新的访问邀请。这些围绕着家访的概念是一个隐喻，它是团队在一个主导向另一个协同贡献代码库时应该采取的态度和行为。</p>
+</div>
+<div class="paragraph">
+<p>让我们仔细看看InnerSource的流程机制是如何工作的。为了帮助解释，我们将列出调用团队和维护团队中的几个关键人物。首先， <a href="https://innersourcecommons.org/zh/learn/learning-path/product-owner"><em>产品所有者（Product Owner）</em></a>  确定维护团队愿意接受哪些功能作为贡献。 <a href="https://innersourcecommons.org/zh/learn/learning-path/contributor"><em>贡献者（Contributor）</em></a> 是调用团队中提交代码贡献以供主人团队评审的个人。 <a href="https://innersourcecommons.org/zh/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> 代表维护团队在提供一个成功的拉取请求所需的任何及时支持和指导。在小规模的基层工作中，一个人通常同时担任产品所有者和受信任提交者的角色。</p>
+</div>
+<div class="paragraph">
+<p>有了这些定义，下面是一个InnerSource的贡献的基本概要。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>调用团队或贡献者向维护团队提交一个特性请求。</p>
+</li>
+<li>
+<p>产品所有者确保由调用团队或维护团队的成员创建表示特性需求的用户故事。这些描述应该以调用团队所同意的方式来描述所请求的特性。它们还列出了来自维护团队关于如何交付功能以使工作被接受的所有细节。这些细节的例子包括架构约束、编码约定、依赖用法、数据契约等等。</p>
+</li>
+<li>
+<p>在受信任提交者的支持下，贡献者提交PR来实现所请求的特性。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>请注意，这些步骤并没有为团队的时间或优先级的一般组织假定一个特定的系统。InnerSource假设团队已经有了现有的组织方法，并提供了一个框架，用于在有调用团队希望向维护团队贡献代码时，如何使用这些方法进行协作。</p>
+</div>
+<div class="paragraph">
+<p>这个选项对调用团队很有效，因为他们在需要的时候获得了所需的功能，而无需承担解决方案的长期维护负担。这对于维护团队来说是有效的，因为他们能够更好地拓展和服务他们的消费者。它适用于整个公司，因为共享问题的解决方案最终都在共享的、集中维护的位置，任何人都可以使用它们。更多的工程时间集中于生成解决公司问题的代码，而不是花费在特性协商和问题升级过程中。</p>
+</div>
+<div class="sect2">
+<h3 id="_额外的资源">额外的资源</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://patterns.innersourcecommons.org/p/trusted-committer">Trusted Committer</a> 的模式。</p>
+</li>
+</ul>
+</div>
+</div>
+<!--- This file autogenerated from https://github.com/InnerSourceCommons/InnerSourceLearningPath/blob/main/scripts --></div>
+        <div class="clearfix">
+          
+            <a class="btn btn-light float-left" href="/zh/learn/learning-path/introduction/02/">← InnerSource解决的问题?</a>
+          
+          
+            <a class="btn btn-primary float-right" href="/zh/learn/learning-path/introduction/04/"> InnerSource的收益? →</a>
+          
+        </div>
+        
+        <div class="mt-4">
+          <h3>Contributors</h3>
+          <ul class="nav">
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/ystk" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/ystk" alt="Yoshitake Kobayashi" title="Yoshitake Kobayashi" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/rrrutledge" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/rrrutledge" alt="rrrutledge" title="rrrutledge" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/tsadler1988" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/tsadler1988" alt="Tom Sadler" title="Tom Sadler" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/spier" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/spier" alt="Sebastian Spier" title="Sebastian Spier" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/WillemJiang" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/WillemJiang" alt="Willem Jiang" title="Willem Jiang" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/lenucksi" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/lenucksi" alt="lenucksi" title="lenucksi" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/tanzhongyi003" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/tanzhongyi003" alt="Tanzhongyi(Jerry Tan)" title="Tanzhongyi(Jerry Tan)" /></a>
+            </li>
+            
+          </ul>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/zh/learn">Learn</a></b></li>
+          
+          <li><a href="/zh/learn/books">Books</a></li>
+          
+          <li><a href="/zh/learn/learning-path">Learning Path</a></li>
+          
+          <li><a href="/zh/learn/patterns">Patterns</a></li>
+          
+          <li><a href="/zh/learn/research">Research</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/zh/events/community-calls">Events</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/zh/community">Community</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/zh/stories">Stories</a></b></li>
+          
+          <li><a href="/zh/community/services">Services Directory</a></li>
+          
+          <li><a href="/zh/about/announcements">Announcements</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/zh/about">About</a></b></li>
+          
+          <li><a href="/zh/about/board">Board &amp; Governance</a></li>
+          
+          <li><a href="/zh/about/members">Members</a></li>
+          
+          <li><a href="/zh/about/sponsors">Sponsors</a></li>
+          
+          <li><a href="/zh/about/codeofconduct">Code of Conduct</a></li>
+          
+          <li><a href="/zh/about/contact">Contact Us</a></li>
+          
+          <li><a href="/zh/about/privacy">Privacy Policy</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href='//zh'><img width="200px"   class="img-fluid" src="/images/logo.png" alt="InnerSource Commons"></a>
+        <p class="mb-4">The site is licensed under a CC-BY-SA license unless otherwise marked.</p>
+        
+        
+        
+        <ul class="list-inline social-icons">
+          
+          <li class="list-inline-item"><a href="http://github.com/InnerSourceCommons"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube"></i></a></li>
+          
+          <li class="list-inline-item"><a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">Design by <a href="https://themefisher.com/">Themefisher</a> and <a href="https://gethugothemes.com/">Gethugothemes</a>, icons by <a href="https://storyset.com/people">Freepik Storyset</a></small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+<script src="/plugins/youmax/youmax.js"></script>
+
+<script src="/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<script>
+	$('#youmax').youmax({
+	apiKey:'AIzaSyCTmhVwOZhhT1WceQm9MobWFuJIA6lI-Dw',
+	youTubeChannelURL: "https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA",
+	youmaxDefaultTab: "UPLOADS",
+	youmaxColumns: 3,
+	showVideoInLightbox: false,
+	maxResults: 6,
+});
+$(function(){
+  $('#langpicker').selectpicker();
+  $('#langpicker').change(function() {
+    window.location.href = this.value;
+  });
+});
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7179Q3Y3T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H7179Q3Y3T');
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta charset="utf-8">
+  <title>降低准入门槛</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content='The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource.'>
+  <meta name="keywords" content='InnerSource,Open source,silo,collaboration'>
+  <meta name="author" content="InnerSource Commons">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/plugins/youmax/youmax.css">
+  
+  <link rel="stylesheet" href="/plugins/bootstrap-select/css/bootstrap-select.min.css">
+  
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link href="/scss/style.min.css" rel="stylesheet" media="screen"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="layout" content="page -  - learn - learn - Page(/learn/learning-path/trusted-committer/_index.zh.md)">
+  
+  
+	
+	<link rel="alternate" hreflang="en" href="/learn/learning-path/trusted-committer/05/" title="English">
+	
+	<link rel="alternate" hreflang="ja" href="/ja/learn/learning-path/trusted-committer/05/" title="日本語">
+	
+	<link rel="alternate" hreflang="fr" href="/fr/learn/learning-path/trusted-committer/05/" title="Français">
+	
+	<link rel="alternate" hreflang="de" href="/de/learn/learning-path/trusted-committer/05/" title="Deutsch">
+	
+	<link rel="alternate" hreflang="ru" href="/ru/learn/learning-path/trusted-committer/05/" title="Русский">
+	
+	<link rel="alternate" hreflang="es" href="/es/learn/learning-path/trusted-committer/05/" title="Español">
+	
+	<link rel="alternate" hreflang="pt-br" href="/pt-br/learn/learning-path/trusted-committer/05/" title="Português Brasileiro">
+	
+	<link rel="alternate" hreflang="it" href="/it/learn/learning-path/trusted-committer/05/" title="Italiano">
+	
+  
+  
+  <meta property="og:title" content="降低准入门槛" />
+<meta property="og:description" content="在InnerSource社区中征求贡献比在OpenSource社区中征求更具挑战性，原因有：
+   InnerSource社区中潜在的 贡献者(Contributor)数量很少。
+  贡献者 Contributor_会想要在他们的工作时间内做出贡献，省下他们的休息时间。
+  在InnerSource中工作不一定会是 贡献者（Contributor）工作正式绩效目标的一部分，因此在Inner Source上工作花费时间和精力，可能会影响到他们实现本身的绩效。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/zh/learn/learning-path/trusted-committer/05/" />
+
+
+  
+    
+    <meta property="og:image" content="https://img.youtube.com/vi/0Ztb6k5Y17o/mqdefault.jpg" />
+    
+  
+
+  <!-- Mastodon verification code -->
+  <link href="https://fosstodon.org/@innersource" rel="me">
+
+</head><body><!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand"
+        href='/zh'>
+        <img width="200px" class="img-fluid" src="/images/logo.png"
+          alt="InnerSource Commons">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/zh/learn" >Learn</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/zh/learn/books" >Books</a>
+              
+              <a class="dropdown-item" href="/zh/learn/learning-path" >Learning Path</a>
+              
+              <a class="dropdown-item" href="/zh/learn/patterns" >Patterns</a>
+              
+              <a class="dropdown-item" href="/zh/learn/research" >Research</a>
+              
+              <a class="dropdown-item" href="https://www.youtube.com/@InnerSourceCommons" >Videos</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/zh/events/community-calls" >Events</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/zh/community" >Community</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/zh/community/services" >Services Directory</a>
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/zh/stories" >Stories</a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-with-toggle" href="/zh/about" >About</a>
+            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
+              data-display="static"></a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="/zh/about/announcements" >Announcements</a>
+              
+              <a class="dropdown-item" href="/zh/about/board" >Board &amp; Governance</a>
+              
+              <a class="dropdown-item" href="/zh/about/members" >Members</a>
+              
+              <a class="dropdown-item" href="/zh/about/sponsors" >Sponsors</a>
+              
+              <a class="dropdown-item" href="/zh/about/codeofconduct" >Code of Conduct</a>
+              
+              <a class="dropdown-item" href="/zh/about/contact" >Contact Us</a>
+              
+            </div>
+          </li>
+          
+          
+        </ul>
+        <a href="/slack" class="btn btn-sm slack-invite-btn btn-primary ml-2" target="_blank"><i
+            class="ti-comments pr-2"></i>Join Slack</a>
+        
+        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+          <option>中文</option>
+          
+          <option value="/learn/learning-path/trusted-committer/05/">English</option>
+          
+          <option value="/ja/learn/learning-path/trusted-committer/05/">日本語</option>
+          
+          <option value="/fr/learn/learning-path/trusted-committer/05/">Français</option>
+          
+          <option value="/de/learn/learning-path/trusted-committer/05/">Deutsch</option>
+          
+          <option value="/ru/learn/learning-path/trusted-committer/05/">Русский</option>
+          
+          <option value="/es/learn/learning-path/trusted-committer/05/">Español</option>
+          
+          <option value="/pt-br/learn/learning-path/trusted-committer/05/">Português Brasileiro</option>
+          
+          <option value="/it/learn/learning-path/trusted-committer/05/">Italiano</option>
+          
+        </select>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="notice bg-primary text-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-12 text-center">
+          <i class="ti-calendar mr-2"></i>
+          <a href="https://bit.ly/ISCSUM24" class="bg-primary text-light" target="_blank"> INNERSOURCE SUMMIT 2024 - book your ticket for November 20th and 21st </i></a>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="notice bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">Join us on Tuesday, October 22nd, at 5pm GMT / 6pm CEST / 11am CDT / 9am PDT when David Grizzanti, from The New York Times, will discuss  <a href="https://bit.ly/ISCOct22" class="btn-link ml-1" target="_blank">Building Sustainable Internal Developer Platforms with InnerSource.
+            <i class="ti-arrow-right"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="container">
+
+<ol class="breadcrumb">
+  
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/zh/">InnerSource Commons</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/zh/learn/">Learn</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/zh/learn/learning-path/">Learning Path</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="/zh/learn/learning-path/trusted-committer/">学习途径 - Trusted Committer</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+   
+  降低准入门槛
+  
+</li>
+
+</ol>
+
+
+</div>
+<section class="section section-first">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h1 class="mb-4">降低准入门槛</h1>
+        
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+          <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/0Ztb6k5Y17o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="content"><div class="paragraph">
+<p>在InnerSource社区中征求贡献比在OpenSource社区中征求更具挑战性，原因有：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>InnerSource社区中潜在的 <a href="https://innersourcecommons.org/zh/learn/learning-path/contributor"><em>贡献者(Contributor)</em></a>数量很少。</p>
+</li>
+<li>
+<p><a href="https://innersourcecommons.org/zh/learn/learning-path/contributor">贡献者 Contributor_</a>会想要在他们的工作时间内做出贡献，省下他们的休息时间。</p>
+</li>
+<li>
+<p>在InnerSource中工作不一定会是 <a href="https://innersourcecommons.org/zh/learn/learning-path/contributor"><em>贡献者（Contributor）</em></a>工作正式绩效目标的一部分，因此在Inner Source上工作花费时间和精力，可能会影响到他们实现本身的绩效。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>这就是为什么对于Trusted Committer而言，使潜在 <a href="https://innersourcecommons.org/zh/learn/learning-path/contributor"><em>贡献者（Contributor）</em></a>向贡献者成长的重要性。有很多事情可以帮助到您实现这个目的：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>在每个代码存储库中都会有一个README.md。优秀的README.md解释了代码库中的内容及其用途。此外，它应提供有关如何获取，构建，测试和使用代码库中软件的详细说明，包括有关许可证的信息。</p>
+</li>
+<li>
+<p>拥有一个良好的CONTRIBUTING.md，其中概述了 <a href="https://innersourcecommons.org/zh/learn/learning-path/contributor"><em>贡献者（Contributor）</em></a>的期望。它应回答常见问题，例如：</p>
+<div class="ulist">
+<ul>
+<li>
+<p>如何提交错误报告或功能请求？</p>
+</li>
+<li>
+<p>如有疑问，应与谁联系，如何联系？</p>
+</li>
+<li>
+<p>代码样式，分支或提交消息的约定是什么？</p>
+</li>
+<li>
+<p>贡献“完成”的定义是什么？</p>
+</li>
+<li>
+<p>有哪些管理贡献的流程步骤？</p>
+</li>
+<li>
+<p>在贡献被接受后，我对支持贡献代码有什么期望？</p>
+</li>
+<li>
+<p>行为准则是什么，社区运作的准则是什么？</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>如果您拥有该软件的内部许可（在某些公司中这是在法人之间共享软件的先决条件），请提供该许可的副本以及对外行的权利和义务的说明。</p>
+</div>
+<div class="paragraph">
+<p>除了这些文档任务外，与开源软件开发类似，应该容易且直接地运行和测试潜在贡献者在本地开发的软件，以便他们可以尽量不用去实施和验证其贡献。</p>
+</div>
+<div class="paragraph">
+<p>有两种常见的贡献模型：<em>共享代码库</em> 以及 <em>fork和join</em>。两者都有优势，作为Trusted Committer，你应该希望社区同时支持这两种模型，以适应贡献者和潜在贡献者的不同需求。您的贡献者经常会遇到有关贡献过程或社区本身的问题，而必须有人来回答这些问题。因此，对于任何InnerSource社区来说，重要的是要有一个或多个联系人可以回答这些问题。通常，来自“Trusted Committer”组中的某个人是联系人，否则，他们需要确保有“随时待命”的社区成员。</p>
+</div>
+<div class="paragraph">
+<p>帮助潜在的 <a href="https://innersourcecommons.org/zh/learn/learning-path/contributor"><em>贡献者（Contributor）</em></a>确定需要哪些贡献也很重要。这些可以是代码贡献，也可以是非代码贡献，例如编写文档，创建插图或组织活动。一种常见的实现方法是在社区中设置“新手任务”，或为 <a href="https://innersourcecommons.org/zh/learn/learning-path/contributor"><em>贡献者（Contributor）</em></a>提供一个任务市场让他们能够挑选任务。</p>
+</div>
+<div class="paragraph">
+<p>总而言之，对于公司环境中的InnerSource社区而言，将贡献的障碍降低到最低水平，以允许更多人贡献是非常重要的。这意味着成员既可以访问有用的文档，也可以回答任何问题，以此鼓励协作。总之，Trusted Committer应确保加入社区和参与贡献对他人来说是良好的经历。</p>
+</div>
+<!--- This file autogenerated from https://github.com/InnerSourceCommons/InnerSourceLearningPath/blob/main/scripts --></div>
+        <div class="clearfix">
+          
+            <a class="btn btn-light float-left" href="/zh/learn/learning-path/trusted-committer/04/">← 牵引社区成员</a>
+          
+          
+            <a class="btn btn-primary float-right" href="/zh/learn/learning-path/trusted-committer/06/"> 倡导社区需求 →</a>
+          
+        </div>
+        
+        <div class="mt-4">
+          <h3>Contributors</h3>
+          <ul class="nav">
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/ystk" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/ystk" alt="Yoshitake Kobayashi" title="Yoshitake Kobayashi" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/rrrutledge" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/rrrutledge" alt="rrrutledge" title="rrrutledge" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/WillemJiang" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/WillemJiang" alt="Willem Jiang" title="Willem Jiang" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/tsadler1988" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/tsadler1988" alt="Tom Sadler" title="Tom Sadler" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/lenucksi" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/lenucksi" alt="lenucksi" title="lenucksi" /></a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/tanzhongyi003" target="_blank"><img class="rounded-circle contributor" src="https://avatars.githubusercontent.com/tanzhongyi003" alt="Tanzhongyi(Jerry Tan)" title="Tanzhongyi(Jerry Tan)" /></a>
+            </li>
+            
+          </ul>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/zh/learn">Learn</a></b></li>
+          
+          <li><a href="/zh/learn/books">Books</a></li>
+          
+          <li><a href="/zh/learn/learning-path">Learning Path</a></li>
+          
+          <li><a href="/zh/learn/patterns">Patterns</a></li>
+          
+          <li><a href="/zh/learn/research">Research</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/zh/events/community-calls">Events</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/zh/community">Community</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="/zh/stories">Stories</a></b></li>
+          
+          <li><a href="/zh/community/services">Services Directory</a></li>
+          
+          <li><a href="/zh/about/announcements">Announcements</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="/zh/about">About</a></b></li>
+          
+          <li><a href="/zh/about/board">Board &amp; Governance</a></li>
+          
+          <li><a href="/zh/about/members">Members</a></li>
+          
+          <li><a href="/zh/about/sponsors">Sponsors</a></li>
+          
+          <li><a href="/zh/about/codeofconduct">Code of Conduct</a></li>
+          
+          <li><a href="/zh/about/contact">Contact Us</a></li>
+          
+          <li><a href="/zh/about/privacy">Privacy Policy</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href='//zh'><img width="200px"   class="img-fluid" src="/images/logo.png" alt="InnerSource Commons"></a>
+        <p class="mb-4">The site is licensed under a CC-BY-SA license unless otherwise marked.</p>
+        
+        
+        
+        <ul class="list-inline social-icons">
+          
+          <li class="list-inline-item"><a href="http://github.com/InnerSourceCommons"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube"></i></a></li>
+          
+          <li class="list-inline-item"><a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">Design by <a href="https://themefisher.com/">Themefisher</a> and <a href="https://gethugothemes.com/">Gethugothemes</a>, icons by <a href="https://storyset.com/people">Freepik Storyset</a></small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+<script src="/plugins/youmax/youmax.js"></script>
+
+<script src="/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<script>
+	$('#youmax').youmax({
+	apiKey:'AIzaSyCTmhVwOZhhT1WceQm9MobWFuJIA6lI-Dw',
+	youTubeChannelURL: "https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA",
+	youmaxDefaultTab: "UPLOADS",
+	youmaxColumns: 3,
+	showVideoInLightbox: false,
+	maxResults: 6,
+});
+$(function(){
+  $('#langpicker').selectpicker();
+  $('#langpicker').change(function() {
+    window.location.href = this.value;
+  });
+});
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7179Q3Y3T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H7179Q3Y3T');
+</script>
+
+</body>
+
+</html>
