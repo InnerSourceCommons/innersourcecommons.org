@@ -1,4 +1,4 @@
 ---
 title: "Community Calls"
-url: /events/communitycalls
+url: /events/community-calls
 ---
