@@ -1,4 +1,6 @@
 baseURL: '/'
+defaultContentLanguage: 'en'
+defaultContentLanguageInSubdir: false
 title: InnerSource Commons
 
 pluralizeListTitles: false
@@ -13,5 +15,4 @@ markup:
       unsafe: true
 minify:
   disableHTML: true
-defaultContentLanguage: 'en'
 uglyurls: false
