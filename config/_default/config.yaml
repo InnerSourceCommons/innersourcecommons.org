@@ -1,6 +1,6 @@
 baseURL: '/'
 defaultContentLanguage: 'en'
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 title: InnerSource Commons
 
 pluralizeListTitles: false
