@@ -1,3 +1,8 @@
+---
+markmap:
+    colorFreezeLevel: 2
+---
+
 # Scaling InnerSource
 
 ## Governance of InnerSource Programs
