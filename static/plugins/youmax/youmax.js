@@ -176,7 +176,10 @@ var youmax_global_options = {};
     showInfo = function(response) {
         // console.log('showInfo');
         // console.log(response);
-
+        if (!response.items) {
+            return;
+        }
+        
         var channelData = response.items[0];
         var channelId = channelData.id;
         var channelName = channelData.snippet.title;
