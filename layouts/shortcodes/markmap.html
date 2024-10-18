@@ -1,0 +1,19 @@
+{{ partial "markmap.html" . }}
+
+{{ $relativePath := .Get "path" }}
+{{ $currentDir := .Page.File.Dir }}
+{{ $filePath := printf "%s/%s" $currentDir $relativePath }}
+{{ $fileContent := readFile $filePath }}
+
+<style>
+      .markmap > svg {
+        width: 100%;
+        height: 1000px;
+      }
+</style>
+
+<div class="markmap">
+    <script type="text/template">
+        {{ $fileContent }}
+    </script>
+</div>
