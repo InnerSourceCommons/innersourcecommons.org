@@ -7,4 +7,4 @@ image: "images/learn/patterns.png"
 weight: 1
 ---
 
-{{< markmap path="markmap_content.md" >}}
+{{< markmap path="markmap-content.md" >}}
