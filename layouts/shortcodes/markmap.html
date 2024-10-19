@@ -6,9 +6,15 @@
 {{ $fileContent := readFile $filePath }}
 
 <style>
-      .markmap > svg {
+      .markmap {
         width: 100%;
         height: 1000px;
+        display: flex;
+        justify-content: center;        
+        margin-bottom: 100px;        
+      }
+      .markmap > svg {
+        max-width: 70%;
         border: 1px solid;
       }
 </style>
