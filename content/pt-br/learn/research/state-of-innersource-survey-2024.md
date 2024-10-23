@@ -1,22 +1,22 @@
 ---
 type: research
 title: 'Pesquisa Estado do InnerSource 2024'
-image: "/images/learn/research/sois2024.png"
+image: "/images/learn/research/sois2024PT_BR.png"
 weight: 4
 summary: Relatório da Pesquisa State of InnerSource de 2024
-research_url: /documents/surveys/State.of.InnerSource.2024.pdf
+research_url: https://innersourcecommons.org/documents/surveys/State.of.InnerSource.2024.PTBR.pdf
 survey_closing_date: 2024-01-01
 report_publish_date: 2024-10-01
 ---
 
-The 'State of InnerSource' survey was designed in consultation with the InnerSource Commons community in October 2023. Following the consultation, the survey accepted responses from November 2023 to January 2024 and gathered insights from approximately 120 participants. These responses capture a moment in time, reflecting each individual's InnerSource journey within their organization.
+A pesquisa “State of InnerSource” foi elaborada em consulta com a comunidade do InnerSource Commons em outubro de 2023. Após a consulta, a pesquisa aceitou respostas de novembro de 2023 a janeiro de 2024 e reuniu percepções de aproximadamente 120 participantes. Essas respostas capturam um momento no tempo, refletindo a jornada do InnerSource de cada indivíduo em sua organização.
 
-This research highlights a wide range of global experiences, offering an overview of how the InnerSource Commons community adopts and aligns InnerSource to their organizations' strategies. It also provides insights into the most commonly used practices; the benefits achieved; and the metrics for success.
+Esta pesquisa destaca uma ampla gama de experiências globais, oferecendo uma visão geral de como a comunidade InnerSource Commons adota e alinha o InnerSource às estratégias de suas organizações. Ela também fornece insights sobre as práticas mais comumente usadas, os benefícios obtidos e as métricas de sucesso.
 
-We extend our heartfelt thanks to the InnerSource Commons community members who generously took the time to complete the survey.
+Agradecemos sinceramente aos membros da comunidade InnerSource Commons que generosamente dedicaram seu tempo para responder à pesquisa.
 
-Special recognition goes to Clare Dillon, the report's lead author, and to everyone involved in promoting, designing, analyzing, writing, and reviewing the report. We are grateful to Apostolos Kritikos, Ciara Flanagan, 
-Daniel Izquierdo Cortázar, Guilherme Dellagustin and Yuki Hattori for their contributions.
+Um reconhecimento especial vai para Clare Dillon, a principal autora do relatório, e para todos os envolvidos na promoção, concepção, análise, redação e revisão do relatório. Somos gratos a Apostolos Kritikos, Ciara Flanagan, Daniel Izquierdo Cortázar, Guilherme Dellagustin e Yuki Hattori por suas contribuições.
 
-If you'd like to explore the findings further, join the conversation on the [InnerSource Commons Slack](/slack), where you can connect with other InnerSource practitioners.
+Também agradecemos especialmente ao Arthur Fücher, que traduziu o relatório para o português (pt-br).
+Se você quiser explorar mais, participe da conversa no Slack do InnerSource Commons [Slack do InnerSource Commons](/slack), onde você pode se conectar com outros profissionais do InnerSource.
 
