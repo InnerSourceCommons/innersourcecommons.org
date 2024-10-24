@@ -4,7 +4,7 @@ title: 'Pesquisa Estado do InnerSource 2024'
 image: "/images/learn/research/sois2024PT_BR.png"
 weight: 4
 summary: Relatório da Pesquisa State of InnerSource de 2024
-research_url: https://innersourcecommons.org/documents/surveys/State.of.InnerSource.2024.PTBR.pdf
+research_url: /documents/surveys/State.of.InnerSource.2024.pt-br.pdf
 survey_closing_date: 2024-01-01
 report_publish_date: 2024-10-01
 ---
