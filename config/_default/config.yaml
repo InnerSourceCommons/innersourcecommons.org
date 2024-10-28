@@ -16,3 +16,8 @@ markup:
 minify:
   disableHTML: true
 uglyurls: false
+
+frontmatter:
+  date:
+  - report_publish_date
+  - :default
