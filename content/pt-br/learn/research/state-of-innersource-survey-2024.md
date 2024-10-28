@@ -1,6 +1,6 @@
 ---
 type: research
-title: 'Pesquisa Estado do InnerSource 2024'
+title: 'Pesquisa State of InnerSource 2024'
 image: "/images/learn/research/sois2024PT_BR.png"
 weight: 4
 summary: Relatório da Pesquisa State of InnerSource de 2024
