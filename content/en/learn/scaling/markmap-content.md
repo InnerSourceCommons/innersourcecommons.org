@@ -67,15 +67,7 @@ markmap:
 
 ## Research
 
-  ### Career/involvement boost
-
-  ### Home trap contributions
-
-  ### [Showcase success stories](https://innersourcecommons.org/stories/)
-
-  ### Leader/team gamification
-
-  ### [Money](https://innersourcecommons.gitbook.io/managing-innersource-projects/introduction/framework#financial-support)
+<!--  ### Home trap contributions -->
 
   ### Better team/company efficiency
 
@@ -124,6 +116,10 @@ markmap:
   #### Decision Making
 
 ## Awareness & Education
+
+  ### Leader/team gamification
+
+  ### [Showcase success stories](https://innersourcecommons.org/stories/)
 
   ### Presence on internal events
 
@@ -225,6 +221,10 @@ markmap:
   ### Advisory board for InnerSource
 
 ## Rewards
+
+  ### [Money](https://innersourcecommons.gitbook.io/managing-innersource-projects/introduction/framework#financial-support)
+
+  ### Career/involvement boost
 
   ### More Projects Reuse
 
