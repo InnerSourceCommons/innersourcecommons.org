@@ -5,8 +5,6 @@ image: "/images/about/announcements/2023-08-new-executive-director-announcement.
 date: 2023-08-02
 featured: false
 type: "announcements"
-aliases:
-    - /about/announcements/2023-08-new-executive-director
 ---
  
 August 2023
