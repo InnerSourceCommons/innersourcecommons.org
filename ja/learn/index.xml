@@ -1,2 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>学ぶ on InnerSource Commons</title><link>https://innersourcecommons.org/ja/learn/</link><description>Recent content in 学ぶ on InnerSource Commons</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://innersourcecommons.org/ja/learn/index.xml" rel="self" type="application/rss+xml"/><item><title>インナーソース パターン</title><link>https://innersourcecommons.org/ja/learn/patterns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/patterns/</guid><description>InnerSource Commons は、インナーソース パターンという形で、コミュニティがお互いの経験を共有し、学ぶための場を提供しています。 インナーソースパターン - InnerSource のベスト プラクティスと呼ばれる特定の形式でまとめられたもので、コンテキストでの理解・評価・適用を容易にします。
-ワーキンググループの活動 コミュニティコールやSlackでのディスカッションなど、様々な場面でパターンの特定を促進します。 パターンをレビューし、そのパターンが使用された例を提供することで、コミュニティの成熟を支援しています。 GitHub で企業がパターンを共同開発する場を提供しています インナーソースパターンブックでは最も成熟したパターンを公開しています。 インナーソースパターンマインドマップなどの探索ツールを提供しています。 How to Get Involved もしあなたが既に社内でインナーソースを使っていて、自分の経験を共有したり、新しいパターンを紹介したりして、上記の取り組みに貢献したいとお考えなのであれば、ぜひ本への投稿や、#innersource-patterns チャンネルでのSlack会話への参加をお待ちしています。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>学ぶ on InnerSource Commons</title><link>https://innersourcecommons.org/ja/learn/</link><description>Recent content in 学ぶ on InnerSource Commons</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://innersourcecommons.org/ja/learn/index.xml" rel="self" type="application/rss+xml"/><item><title>インナーソース パターン</title><link>https://innersourcecommons.org/ja/learn/patterns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/patterns/</guid><description>&lt;section class="section">
+ &lt;div class="container">
+ &lt;div class="row align-items-center">
+ &lt;div class="col-md-6 order-2 order-md-2">
+ &lt;p>InnerSource Commons は、インナーソース パターンという形で、コミュニティがお互いの経験を共有し、学ぶための場を提供しています。
+ &lt;/p>
+ &lt;p class="mt-4">&lt;b> インナーソースパターン&lt;/b> - InnerSource のベスト プラクティスと呼ばれる特定の形式でまとめられたもので、コンテキストでの理解・評価・適用を容易にします。&lt;/p>
+ &lt;/div>
+ &lt;div class="col-md-5 order-1 order-md-1 mb-4 mb-md-0">
+ &lt;img src="https://innersourcecommons.org/images/learn/patterns/patterns-symbol-cropped.png" class="img-fluid">
+ &lt;/div>
+ &lt;/div>
+&lt;/section>
+&lt;h2 style="text-align: center;">ワーキンググループの活動&lt;/h2>
+&lt;br>
+&lt;section class="section bg-light">
+ &lt;div class="container">
+ &lt;div class="row justify-content-center">
+ &lt;div class="col-md-6 col-sm-6 mb-4">
+ &lt;div class="feature-card text-left">
+ &lt;a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A">&lt;img src="https://innersourcecommons.org/images/events/meetup-2021-10-05.jpg" alt="InnerSource Patterns Community Calls">&lt;/a>
+ &lt;h4 class="mb-2">
+ &lt;a href="https://innersourcecommons.org/events/">コミュニティコール&lt;/a>や&lt;a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A">Slack&lt;/a>でのディスカッションなど、様々な場面でパターンの特定を促進します。
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="col-md-6 col-sm-6 mb-4">
+ &lt;div class="feature-card text-left">
+ &lt;a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/issues">&lt;img src="https://innersourcecommons.org/images/learn/patterns/maturing_patterns.png" alt="Mature InnerSource Patterns">&lt;/a>
+ &lt;h4 class="mb-2">
+ パターンをレビューし、そのパターンが使用された例を提供することで、&lt;a href="https://github.com/InnerSourceCommons/InnerSourcePatterns/issues">コミュニティの成熟を支援しています。&lt;/a>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="col-md-6 col-sm-6 mb-4">
+ &lt;div class="feature-card text-left">
+ &lt;a href="https://github.com/InnerSourceCommons/InnerSourcePatterns">&lt;img src="https://innersourcecommons.org/images/learn/patterns/github_conversation.png" alt="GitHub Conversation">&lt;/a>
+ &lt;h4 class="mb-2">
+ &lt;a href="https://github.com/InnerSourceCommons/InnerSourcePatterns">GitHub&lt;/a> で企業がパターンを共同開発する場を提供しています&lt;/h4>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="col-md-6 col-sm-6 mb-4">
+ &lt;div class="feature-card text-left">
+ &lt;a href="https://patterns.innersourcecommons.org">&lt;img src="https://innersourcecommons.org/images/learn/patterns/patterns_book.jpg" alt="InnerSource Patterns Book">&lt;/a>
+ &lt;h4 class="mb-2"> &lt;a href="https://patterns.innersourcecommons.org">インナーソースパターンブック&lt;/a>では最も成熟したパターンを公開しています。 &lt;/h3>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="col-md-6 col-sm-6 mb-4">
+ &lt;div class="feature-card text-left">
+ &lt;a href="https://patterns.innersourcecommons.org/explore-patterns">&lt;img src="https://innersourcecommons.org/images/learn/patterns/patterns_mind_map.png" alt="InnerSource Patterns Mind Map">&lt;/a>
+ &lt;h4 class="mb-2">
+ インナーソースパターン&lt;a href="https://patterns.innersourcecommons.org/explore-patterns">マインドマップ&lt;/a>などの探索ツールを提供しています。
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/section>
+&lt;h2 id="how-to-get-involved">How to Get Involved&lt;/h2>
+&lt;p>もしあなたが既に社内でインナーソースを使っていて、自分の経験を共有したり、新しいパターンを紹介したりして、上記の取り組みに&lt;a href="https://patterns.innersourcecommons.org/contribute" >貢献したい&lt;/a>とお考えなのであれば、ぜひ本への投稿や、&lt;a href="https://innersourcecommons.slack.com/archives/C2EFRTS6A">#innersource-patterns&lt;/a> チャンネルでのSlack会話への参加をお待ちしています。&lt;/p></description></item></channel></rss>

@@ -1,12 +1,126 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>イントロダクション on InnerSource Commons</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/</link><description>Recent content in イントロダクション on InnerSource Commons</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://innersourcecommons.org/ja/learn/learning-path/introduction/index.xml" rel="self" type="application/rss+xml"/><item><title>はじめに</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/01/</guid><description>このラーニングパスは、InnerSourceの紹介にあたるものです。 InnerSourceは、企業内のソフトウェア開発にオープンソースの実践と原則を適用したものです。 InnerSourceソフトウェアは、会社としてはプロプライエタリなものとなりますが、内部にはオープンで、誰もが利用したり貢献したりできるようになります。 この方法は、広範かつ効果的なコラボレーション、内部の多くのステークホルダーからの変化する要求に、迅速かつ軽快に対応することを可能とします。
-このラーニングパスでは、InnerSourceを適用する良い候補となる状況を、どのように認識するかについて学びます。 私たちは、これらの状況でどのようにInnerSourceが活用できるか概略を示します。 それにより、あなたはInnerSourceについて議論する際の共通用語に詳しくなるでしょう。 私たちはまた、InnerSourceの基礎となる主要な原則と、それが効果的に適用された時に得られる効果を列挙します。</description></item><item><title>InnerSourceによって解決される課題とは？</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/02/</guid><description>InnerSourceは、企業の組織構造やその立場に関係なく、誰もがコードを再利用したりコラボレーションすることを推奨し、それに報いることができるものです。 このアプローチは、従来の組織に見られるアイデアや成果物を企業組織の階層やサイロの中に閉じ込めておくものとは異なるものです。 この考えについて実例をあげて見ていきましょう。
-同じ会社にある二つのチームが、別々のソフトウェア部品を提供する時、片方のチームのソフトウェアが、もう一方のチームのソフトウェアに依存する状況を想像してください。 もう少し具体的にユーザエクスペリエンスを例にすると、表示用データを取得するAPIに依存するサービスがあります。 このような状況は、一つのチームが作成するソフトウェアが、数十人、数百人の利用される大企業では一般的なことです。
-利用側のチームが多くの機能を必要とした時、提供側のチームは通常、どの機能から開発を進めるかを決めるために、ある種の要件や優先度付けを行うプロセスを持っています。 すぐに作業に取り掛かるため優先度が付けられていなかった重要な機能のリクエストのために、利用側のチームは通常、次に示す3つのオプションから一つを選択することになると思いますが、それぞれ欠点があります。
-静観： 利用側のチームは何もせずにリスエストされた機能が無いために足を引っ張られるかもしれません。 このオプションは、利用側の作業を最小限にすることができます。 機能リクエストの効果に依存しているかもしれませんが、もしかすると待つだけで良いかもしれません。 しかし、これは苦痛を伴うかもしれません。要求された機能がいつまでたっても提供されない場合は、特に大きな苦痛を伴います。</description></item><item><title>どのようにInnerSourceは機能するのか？</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/03/</guid><description>AチームがBチームから提供されるソフトウェアを利用する場合を例に考えてみましょう。 AチームはBチームに機能追加のリクエストを送ります、でもBチームはそれを期限内に実装してAチームにリリースすることはできません。 InnerSourceでは、もしAチームがこの要求機能を得ることができない場合、代わりにプルリクエストを送信します。 それは、AチームはBチームのソフトウェアに直接機能を実装してプルリクエストを送付することを意味します。 チームBは連携して送付されたコードをレビューして受け入れます。
-この例において、チームAは ゲスト チーム、チームBは ホスト チームと呼ばれます。 ゲスト や ホスト の用語は、自宅にお客を招くような感覚で使われています。 この状況では、殆どの人は良いホストとなること期待しています。 彼らはゲストの到着を見越して、物事が整理整頓されていることを保証します。 訪問者は、ドアのところで迎えられて中に招かれます。</description></item><item><title>InnerSourceの効果とは？</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/04/</guid><description>InnerSourceによるコラボレーションには、多くの効果があります。 InnerSourceは、ゲストチームが長期メンテナンスの負担をせず、 彼らが必要な時に機能要求を手に入れる ためのスケーラブルな戦略を企業に提供します。 ゲストチームの時間を、他の人たちが利用できるコードに投入することが、会社全体としての勝利へとつながります。
-この結果はInnerSourceの優れた効果であると同時に、定常的にInnerSourceのコントリビューションを受け取るホストにも多くの効果があります。 InnerSourceのプロセスの一部には、ホストチームのプロダクトオーナーが、コントリビューションされた機能が正しくかつ望まれたものであることに、最初から同意していることを思い出してください。 InnerSourceは、それを利用する人達のために 良いプロダクトを作るための支援 をホストチームが受け取ることを可能にします!
-InnerSourceはホストチームにスケーラブルな戦略を提供し 、多くの利用者たちからの、さまざまな機能要求に応えてゆくことが可能となります。 ホストチームのフルタイムメンバーの対応力が固定されているとした場合、時として、その利用者たちのビジネスロードマップの組み合せが、ホストチームの製品で非常に（または理不尽に）大量の作業を必要とすることにつながる可能性があります。 InnerSourceなしでは、こうした状況は、リーダーにエスカレーションされた多くの機能要求に対処する、過労とストレスに満ちたチームを簡単に生みだすことにつながります。</description></item><item><title>InnerSourceの原則</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/05/</guid><description>会社、チーム、プロジェクト、そして個人はそれぞれ異ります。 ですので、InnerSourceのコンセプトが実際に機能する正しい方法は、ある状況と他の状況とで異なるものになるでしょう。 しかし、InnerSourceの成功例の根底には4つの原則があります。 これらの原則は、オープンソースプロジェクトの成功からインスピレーションを得ており、InnerSourceが前に説明したような効果を得るために必要なものです。
-これらの原則は次の通りです：
-オープン性
-透明性
-優先的なメンターシップ</description></item><item><title>おわりに</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/06/</guid><description>このラーニングパスでは、InnerSourceの紹介をしました。 InnerSourceは、企業内のソフトウェア開発にオープンソースのベストプラクティスと原則を適用したものです。 これは、提供側のチームが必要な機能要件を提供することができない時に、利用者に追加オプションを提供するものです。 InnerSourceの成功には、 ホストチーム の プロダクトオーナー と Trusted Committer 、そして ゲストチーム の コントリビューター が関わります。 効果的に行うと、InnerSourceは両方の参加チームに多くの効果をもたらします。 効果的なInnerSource実施の主要な原則は、 自発的なコードコントリビューション と 優先的なメンターシップ です。</description></item><item><title>FAQ</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/07/</guid><description>To conclude the Introduction segment of the Learning Path, here are some Frequently Asked Questions people have when embarking on their InnerSource journey.</description></item><item><title>Is InnerSource Right for My Project?</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/08/</guid><description>InnerSource is the application of open source principles to company-internal software development. Done right, it unblocks progress and eases adoption of shared services and modules.</description></item><item><title>The InnerSource Mentality</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/09/</guid><description>InnerSource helps when there are multiple teams at our company that have a shared need - business or technical.</description></item><item><title>Workbook</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/workbook/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/workbook/</guid><description>Video: Introduction to InnerSource SEGMENT: What Problems Does InnerSource Solve? TIP: More than one answer may be correct in some questions.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>イントロダクション on InnerSource Commons</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/</link><description>Recent content in イントロダクション on InnerSource Commons</description><generator>Hugo</generator><language>ja</language><atom:link href="https://innersourcecommons.org/ja/learn/learning-path/introduction/index.xml" rel="self" type="application/rss+xml"/><item><title>はじめに</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/01/</guid><description>&lt;div class="paragraph">
+&lt;p>このラーニングパスは、InnerSourceの紹介にあたるものです。
+InnerSourceは、企業内のソフトウェア開発にオープンソースの実践と原則を適用したものです。
+InnerSourceソフトウェアは、会社としてはプロプライエタリなものとなりますが、内部にはオープンで、誰もが利用したり貢献したりできるようになります。
+この方法は、広範かつ効果的なコラボレーション、内部の多くのステークホルダーからの変化する要求に、迅速かつ軽快に対応することを可能とします。&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>このラーニングパスでは、InnerSourceを適用する良い候補となる状況を、どのように認識するかについて学びます。
+私たちは、これらの状況でどのようにInnerSourceが活用できるか概略を示します。
+それにより、あなたはInnerSourceについて議論する際の共通用語に詳しくなるでしょう。
+私たちはまた、InnerSourceの基礎となる主要な原則と、それが効果的に適用された時に得られる効果を列挙します。&lt;/p>
+&lt;/div>
+&lt;!--- This file autogenerated from https://github.com/InnerSourceCommons/InnerSourceLearningPath/blob/main/scripts --></description></item><item><title>InnerSourceによって解決される課題とは？</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/02/</guid><description>&lt;div class="paragraph">
+&lt;p>InnerSourceは、企業の組織構造やその立場に関係なく、誰もがコードを再利用したりコラボレーションすることを推奨し、それに報いることができるものです。
+このアプローチは、従来の組織に見られるアイデアや成果物を企業組織の階層やサイロの中に閉じ込めておくものとは異なるものです。
+この考えについて実例をあげて見ていきましょう。&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>同じ会社にある二つのチームが、別々のソフトウェア部品を提供する時、片方のチームのソフトウェアが、もう一方のチームのソフトウェアに依存する状況を想像してください。
+もう少し具体的にユーザエクスペリエンスを例にすると、表示用データを取得するAPIに依存するサービスがあります。
+このような状況は、一つのチームが作成するソフトウェアが、数十人、数百人の利用される大企業では一般的なことです。&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>利用側のチームが多くの機能を必要とした時、提供側のチームは通常、どの機能から開発を進めるかを決めるために、ある種の要件や優先度付けを行うプロセスを持っています。
+すぐに作業に取り掛かるため優先度が付けられていなかった重要な機能のリクエストのために、利用側のチームは通常、次に示す3つのオプションから一つを選択することになると思いますが、それぞれ欠点があります。&lt;/p>
+&lt;/div>
+&lt;div class="olist arabic">
+&lt;ol class="arabic">
+&lt;li>
+&lt;p>&lt;strong>静観：&lt;/strong> 利用側のチームは何もせずにリスエストされた機能が無いために足を引っ張られるかもしれません。
+このオプションは、利用側の作業を最小限にすることができます。
+機能リクエストの効果に依存しているかもしれませんが、もしかすると待つだけで良いかもしれません。
+しかし、これは苦痛を伴うかもしれません。要求された機能がいつまでたっても提供されない場合は、特に大きな苦痛を伴います。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>回避策：&lt;/strong> 利用側のチームが待ちたくない時は、利用側が要求する機能が足りない部分を補うために、別の場所で追加作業をするかもしれません。
+この追加作業は、利用側のプロジェクトの変更となるかもしれません。
+あるいは、利用側のチームは彼らのニーズを満たし、開発チームの全部もしくは一部の仕様を置き換える新しいプロジェクトを作成するかもしれません（コード/プロジェクトの複製）。
+こうした方法は、利用側のチームが要求する機能を自分たちの努力だけで手に入れることができます。とはいえ、これには幾つかの欠点があります。&lt;/p></description></item><item><title>どのようにInnerSourceは機能するのか？</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/03/</guid><description>&lt;div class="paragraph">
+&lt;p>AチームがBチームから提供されるソフトウェアを利用する場合を例に考えてみましょう。
+AチームはBチームに機能追加のリクエストを送ります、でもBチームはそれを期限内に実装してAチームにリリースすることはできません。
+InnerSourceでは、もしAチームがこの要求機能を得ることができない場合、代わりにプルリクエストを送信します。
+それは、AチームはBチームのソフトウェアに直接機能を実装してプルリクエストを送付することを意味します。
+チームBは連携して送付されたコードをレビューして受け入れます。&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>この例において、チームAは &lt;em>ゲスト&lt;/em> チーム、チームBは &lt;em>ホスト&lt;/em> チームと呼ばれます。
+&lt;em>ゲスト&lt;/em> や &lt;em>ホスト&lt;/em> の用語は、自宅にお客を招くような感覚で使われています。
+この状況では、殆どの人は良いホストとなること期待しています。
+彼らはゲストの到着を見越して、物事が整理整頓されていることを保証します。
+訪問者は、ドアのところで迎えられて中に招かれます。&lt;/p></description></item><item><title>InnerSourceの効果とは？</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/04/</guid><description>&lt;div class="paragraph">
+&lt;p>InnerSourceによるコラボレーションには、多くの効果があります。
+InnerSourceは、ゲストチームが長期メンテナンスの負担をせず、 &lt;strong>彼らが必要な時に機能要求を手に入れる&lt;/strong> ためのスケーラブルな戦略を企業に提供します。
+ゲストチームの時間を、他の人たちが利用できるコードに投入することが、会社全体としての勝利へとつながります。&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>この結果はInnerSourceの優れた効果であると同時に、定常的にInnerSourceのコントリビューションを受け取るホストにも多くの効果があります。
+InnerSourceのプロセスの一部には、ホストチームのプロダクトオーナーが、コントリビューションされた機能が正しくかつ望まれたものであることに、最初から同意していることを思い出してください。
+InnerSourceは、それを利用する人達のために &lt;strong>良いプロダクトを作るための支援&lt;/strong> をホストチームが受け取ることを可能にします!&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>&lt;strong>InnerSourceはホストチームにスケーラブルな戦略を提供し&lt;/strong> 、多くの利用者たちからの、さまざまな機能要求に応えてゆくことが可能となります。
+ホストチームのフルタイムメンバーの対応力が固定されているとした場合、時として、その利用者たちのビジネスロードマップの組み合せが、ホストチームの製品で非常に（または理不尽に）大量の作業を必要とすることにつながる可能性があります。
+InnerSourceなしでは、こうした状況は、リーダーにエスカレーションされた多くの機能要求に対処する、過労とストレスに満ちたチームを簡単に生みだすことにつながります。&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>しかし、もしホストチームがInnerSourceにより運営している場合、それらの機能を構築するために必要なエンジニアリソースは、それらの重要度に応じたゲストコントリビューターの形で現れます。
+&lt;strong>InnerSourceは、フォースマルチプライヤーになり&lt;/strong> 、需要が高い時間帯に、ホストチームが一時的に実際のサイズよりも大きく行動することを可能とします。
+需要が終了すると、チーム人員や作業項目に関するマイクロマネージメントを一切せずとも、チームのスループットは通常のレベルに戻ります。
+InnerSourceは、組織が必要とする時と場所にエンジニアリングの時間を有機的に投入することを可能とします。&lt;/p></description></item><item><title>InnerSourceの原則</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/05/</guid><description>&lt;div class="paragraph">
+&lt;p>会社、チーム、プロジェクト、そして個人はそれぞれ異ります。
+ですので、InnerSourceのコンセプトが実際に機能する正しい方法は、ある状況と他の状況とで異なるものになるでしょう。
+しかし、InnerSourceの成功例の根底には4つの原則があります。
+これらの原則は、オープンソースプロジェクトの成功からインスピレーションを得ており、InnerSourceが前に説明したような効果を得るために必要なものです。&lt;/p>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>これらの原則は次の通りです：&lt;/p>
+&lt;/div>
+&lt;div class="ulist">
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>オープン性&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>透明性&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>優先的なメンターシップ&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>自発的なコードコントリビューション&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;div class="paragraph">
+&lt;p>それでは、それぞれの原則について詳細を見ていきましょう。&lt;/p>
+&lt;/div>
+&lt;div class="sect2">
+&lt;h3 id="_オープン性">オープン性&lt;/h3>
+&lt;div class="paragraph">
+&lt;p>オープンなプロジェクトを構成することで、摩擦のないコントリビューションが可能となります。
+プロジェクトは、リポジトリのトップに置かれる README.md ファイルと CONTRIBUTING.md ファイルによって十分にドキュメント化され発見できるようになっていなければなりません。
+組織の中の誰もが、目的としていたプロジェクトを見つけ、ホストチームのメンバからの過度な直接指導がなくても成長できるようになっていなければなりません。
+ホストチームの連絡先情報は、そのプロジェクトにとって理にかなう程度の多くのチャネルに広められていなければなりません。
+InnerSourceのコントリビューションを彼らのプロジェクトに受け入れるというホストチームの意図は、注目度を高めるために関連する組織のチャネルを通して共有されるべきです。
+特に、小さめの環境では、あなたのチームが行っているInnerSourceの作業について定期的に"ブロードキャスト"したいかも知れません。
+しかし、より大きい環境では、このようなブロードキャストは、多量のノイズとなる可能性があるため、簡単に使えるツールでプロジェクトを発見可能とする方が適切かも知れません。
+忘れないでください。目標は、あなたの会社で機能する適切なチャネルを意識して使用することです。&lt;/p></description></item><item><title>おわりに</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/06/</guid><description>&lt;div class="paragraph">
+&lt;p>このラーニングパスでは、InnerSourceの紹介をしました。
+InnerSourceは、企業内のソフトウェア開発にオープンソースのベストプラクティスと原則を適用したものです。
+これは、提供側のチームが必要な機能要件を提供することができない時に、利用者に追加オプションを提供するものです。
+InnerSourceの成功には、 &lt;strong>ホストチーム&lt;/strong> の &lt;a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner">&lt;em>プロダクトオーナー&lt;/em>&lt;/a> と &lt;a href="https://innersourcecommons.org/ja/learn/learning-path/trusted-committer">&lt;em>Trusted Committer&lt;/em>&lt;/a> 、そして &lt;strong>ゲストチーム&lt;/strong> の &lt;a href="https://innersourcecommons.org/ja/learn/learning-path/contributor">&lt;em>コントリビューター&lt;/em>&lt;/a> が関わります。
+効果的に行うと、InnerSourceは両方の参加チームに多くの効果をもたらします。
+効果的なInnerSource実施の主要な原則は、 &lt;strong>自発的なコードコントリビューション&lt;/strong> と &lt;strong>優先的なメンターシップ&lt;/strong> です。&lt;/p></description></item><item><title>FAQ</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/07/</guid><description>&lt;div class="paragraph">
+&lt;p>To conclude the Introduction segment of the Learning Path, here are some Frequently Asked Questions people have when embarking on their InnerSource journey.&lt;/p></description></item><item><title>Is InnerSource Right for My Project?</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/08/</guid><description>&lt;div class="paragraph">
+&lt;p>InnerSource is the application of open source principles to company-internal software development. Done right, it unblocks progress and eases adoption of shared services and modules.
+This article contains guidance and questions to ask yourself when considering adoption of an InnerSource approach to running your project.&lt;/p></description></item><item><title>The InnerSource Mentality</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/09/</guid><description>&lt;div class="paragraph">
+&lt;p>InnerSource helps when there are multiple teams at our company that have a shared need - business or technical.
+We want one shared project that all can leverage.
+This sharing allows each team to spend as much time as possible in their unique business area instead of reinventing what someone has done before.&lt;/p></description></item><item><title>Workbook</title><link>https://innersourcecommons.org/ja/learn/learning-path/introduction/workbook/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://innersourcecommons.org/ja/learn/learning-path/introduction/workbook/</guid><description>&lt;div class="sect2">
+&lt;h3 id="_video_introduction_to_innersource">Video: Introduction to InnerSource&lt;/h3>
+&lt;div class="sect3">
+&lt;h4 id="_segment_what_problems_does_innersource_solve">SEGMENT: What Problems Does InnerSource Solve?&lt;/h4>
+&lt;div class="paragraph">
+&lt;p>TIP:
+More than one answer may be correct in some questions.&lt;/p></description></item></channel></rss>

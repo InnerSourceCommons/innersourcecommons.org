@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US"><head>
+<html lang="ja"><head>
   <meta charset="utf-8">
   <title>InnerSourceによって解決される課題とは？</title>
 
@@ -8,7 +8,7 @@
   <meta name="description" content='InnerSource Commons は、インナーソースに関する知識を創造し、共有することを目的とした実践者のコミュニティです。'>
   <meta name="keywords" content='InnerSource,インナーソース,オープンソース,サイロ,コード共有,共創,コラボレーション'>
   <meta name="author" content="InnerSource Commons">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.142.0">
 
   <!-- plugins -->
   
@@ -37,7 +37,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-  <meta name="layout" content="page -  - learn - learn - Page(/learn/learning-path/introduction/_index.ja.md)">
+  <meta name="layout" content="page -  - learn - learn - /home/runner/work/innersourcecommons.org/innersourcecommons.org/content/en/learn/learning-path/introduction/_index.ja.md">
   
   
 	
@@ -59,14 +59,17 @@
 	
   
   
-  <meta property="og:title" content="InnerSourceによって解決される課題とは？" />
-<meta property="og:description" content="InnerSourceは、企業の組織構造やその立場に関係なく、誰もがコードを再利用したりコラボレーションすることを推奨し、それに報いることができるものです。 このアプローチは、従来の組織に見られるアイデアや成果物を企業組織の階層やサイロの中に閉じ込めておくものとは異なるものです。 この考えについて実例をあげて見ていきましょう。
- 同じ会社にある二つのチームが、別々のソフトウェア部品を提供する時、片方のチームのソフトウェアが、もう一方のチームのソフトウェアに依存する状況を想像してください。 もう少し具体的にユーザエクスペリエンスを例にすると、表示用データを取得するAPIに依存するサービスがあります。 このような状況は、一つのチームが作成するソフトウェアが、数十人、数百人の利用される大企業では一般的なことです。
- 利用側のチームが多くの機能を必要とした時、提供側のチームは通常、どの機能から開発を進めるかを決めるために、ある種の要件や優先度付けを行うプロセスを持っています。 すぐに作業に取り掛かるため優先度が付けられていなかった重要な機能のリクエストのために、利用側のチームは通常、次に示す3つのオプションから一つを選択することになると思いますが、それぞれ欠点があります。
-  静観： 利用側のチームは何もせずにリスエストされた機能が無いために足を引っ張られるかもしれません。 このオプションは、利用側の作業を最小限にすることができます。 機能リクエストの効果に依存しているかもしれませんが、もしかすると待つだけで良いかもしれません。 しかし、これは苦痛を伴うかもしれません。要求された機能がいつまでたっても提供されない場合は、特に大きな苦痛を伴います。" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://innersourcecommons.org/ja/learn/learning-path/introduction/02/" />
-
+  <meta property="og:url" content="https://innersourcecommons.org/ja/learn/learning-path/introduction/02/">
+  <meta property="og:site_name" content="InnerSource Commons">
+  <meta property="og:title" content="InnerSourceによって解決される課題とは？">
+  <meta property="og:description" content="InnerSourceは、企業の組織構造やその立場に関係なく、誰もがコードを再利用したりコラボレーションすることを推奨し、それに報いることができるものです。 このアプローチは、従来の組織に見られるアイデアや成果物を企業組織の階層やサイロの中に閉じ込めておくものとは異なるものです。 この考えについて実例をあげて見ていきましょう。
+同じ会社にある二つのチームが、別々のソフトウェア部品を提供する時、片方のチームのソフトウェアが、もう一方のチームのソフトウェアに依存する状況を想像してください。 もう少し具体的にユーザエクスペリエンスを例にすると、表示用データを取得するAPIに依存するサービスがあります。 このような状況は、一つのチームが作成するソフトウェアが、数十人、数百人の利用される大企業では一般的なことです。
+利用側のチームが多くの機能を必要とした時、提供側のチームは通常、どの機能から開発を進めるかを決めるために、ある種の要件や優先度付けを行うプロセスを持っています。 すぐに作業に取り掛かるため優先度が付けられていなかった重要な機能のリクエストのために、利用側のチームは通常、次に示す3つのオプションから一つを選択することになると思いますが、それぞれ欠点があります。
+静観： 利用側のチームは何もせずにリスエストされた機能が無いために足を引っ張られるかもしれません。 このオプションは、利用側の作業を最小限にすることができます。 機能リクエストの効果に依存しているかもしれませんが、もしかすると待つだけで良いかもしれません。 しかし、これは苦痛を伴うかもしれません。要求された機能がいつまでたっても提供されない場合は、特に大きな苦痛を伴います。
+回避策： 利用側のチームが待ちたくない時は、利用側が要求する機能が足りない部分を補うために、別の場所で追加作業をするかもしれません。 この追加作業は、利用側のプロジェクトの変更となるかもしれません。 あるいは、利用側のチームは彼らのニーズを満たし、開発チームの全部もしくは一部の仕様を置き換える新しいプロジェクトを作成するかもしれません（コード/プロジェクトの複製）。 こうした方法は、利用側のチームが要求する機能を自分たちの努力だけで手に入れることができます。とはいえ、これには幾つかの欠点があります。">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="learn">
 
   
     
