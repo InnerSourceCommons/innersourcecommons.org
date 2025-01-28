@@ -184,13 +184,7 @@ var youmax_global_options = {};
         var channelId = channelData.id;
         var channelName = channelData.snippet.title;
         var channelPic = channelData.snippet.thumbnails.default.url;
-        var channelSubscribers = channelData.statistics.subscriberCount;
-        var channelViews = channelData.statistics.viewCount;
-        var channelDesc = "";
         var channelUploadsPlaylistId = channelData.contentDetails.relatedPlaylists.uploads;
-
-
-
 
         $('#youmax-header').append('<a href="' + youTubeChannelURL + '" target="_blank"><img id="youmax-header-logo" src="'+channelPic+'"/>'+channelName+'</a>');
 
@@ -366,53 +360,7 @@ var youmax_global_options = {};
                 $('html,body').animate({scrollTop: $("#youmax-video").offset().top},'fast');
             }
         });
-        getVideoStats(videoIdArray);
     },
-
-
-    //get video stats using Youtube API
-    getVideoStats = function(videoIdList) {
-        //console.log('inside getVideoStats');
-        //console.log(videoIdList);
-        //showLoader();
-
-        apiVideoStatURL = "https://www.googleapis.com/youtube/v3/videos?part=statistics%2CcontentDetails&id="+videoIdList+"&key="+youmax_global_options.apiKey;
-        $.ajax({
-            url: apiVideoStatURL,
-            type: "GET",
-            async: true,
-            cache: true,
-            dataType: 'jsonp',
-            success: function(response) { displayVideoStats(response);},
-            error: function(html) { alert(html); },
-            beforeSend: setHeader
-        });
-    },
-
-    //display video statistics
-    displayVideoStats = function(response) {
-        //console.log(response);
-
-        var videoArray = response.items;
-        var $videoThumbnail;
-
-        for(var i=0; i<videoArray.length; i++) {
-            videoId = videoArray[i].id;
-            videoViewCount = videoArray[i].statistics.viewCount;
-            videoViewCount = getReadableNumber(videoViewCount);
-            videoDuration = videoArray[i].contentDetails.duration;
-            //console.log('videoDuration-'+videoDuration);
-
-            videoDuration = convertDuration(videoDuration);
-            videoDefinition = videoArray[i].contentDetails.definition.toUpperCase();
-            $videoThumbnail = $('#youmax-video-list-div #'+videoId);
-            $videoThumbnail.find('.youmax-video-list-views').prepend(videoViewCount+' views | ');
-            $videoThumbnail.find('.youmax-duration').append(videoDuration);
-            //$videoThumbnail.append('<div class="youmax-definition">'+videoDefinition+'</div>');
-
-        }
-    },
-
 
     getUploads = function(youmaxTabId,playlistTitle,nextPageToken) {
         //showLoader();
