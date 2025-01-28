@@ -2,6 +2,13 @@ var youmax_global_options = {};
 
 
 (function ($) {
+    prepareYoumax = function() {
+        $('#youmax').empty();
+        loadYoumax();
+        showLoader();
+        getUploads();
+    }
+
     loadYoumax = function() {
         ym = $('#youmax');
         youmaxWidgetWidth = ym.width();
@@ -19,38 +26,6 @@ var youmax_global_options = {};
         ym.append('<div id="youmax-lightbox"><div style="width:100%; position:absolute; top:20%;"><iframe id="youmax-video-lightbox" width="640" height="360" src="" frameborder="0" allowfullscreen></iframe></div></div>');
 
         $('#youmax-lightbox').hide();
-    },
-
-    getChannelId = function(apiUrl) {
-
-        $.ajax({
-            url: apiUrl,
-            type: "GET",
-            async: true,
-            cache: true,
-            dataType: 'jsonp',
-            success: function(response) {
-                youmaxChannelId = response.items[0].id
-                getChannelDetails(youmaxChannelId);
-            },
-            error: function(html) { alert(html); },
-            beforeSend: setHeader
-        });
-    },
-
-    getChannelDetails = function(channelId) {
-        var apiProfileURL = "https://www.googleapis.com/youtube/v3/channels?part=brandingSettings%2Csnippet%2Cstatistics%2CcontentDetails&id="+channelId+"&key="+youmax_global_options.apiKey;
-
-        $.ajax({
-            url: apiProfileURL,
-            type: "GET",
-            async: true,
-            cache: true,
-            dataType: 'jsonp',
-            success: function(response) { showInfo(response);},
-            error: function(html) { alert(html); },
-            beforeSend: setHeader
-        });
     },
 
     setHeader = function(xhr) {
@@ -99,16 +74,8 @@ var youmax_global_options = {};
 
     },
 
-    showUploads = function(response,playlistTitle,loadMoreFlag) {
-
-        if(!loadMoreFlag) {
-            $('#youmax-video-list-div').empty();
-
-            if(playlistTitle) {
-                $('.youmax-tab-hover').removeClass('youmax-tab-hover');
-                $('#youmax-video-list-div').append('<span class="youmax-showing-title youmax-tab-hover" id="uploads_'+response.items[0].snippet.playlistId+'" style="max-width:100%;"><span class="youmax-showing">&nbsp;&nbsp;Showing playlist: </span>'+playlistTitle+'</span><br/>');
-            }
-        }
+    showUploads = function(response) {
+        $('#youmax-video-list-div').empty();
 
         var nextPageToken = response.nextPageToken;
         var $youmaxLoadMoreDiv = $('#youmax-load-more-div');
@@ -124,7 +91,7 @@ var youmax_global_options = {};
         var videoIdArray = [];
 
         for(var i=0; i<uploadsArray.length; i++) {
-            videoId = uploadsArray[i].snippet.resourceId.videoId;
+            videoId = uploadsArray[i].id.videoId;
             videoTitle = uploadsArray[i].snippet.title;
             videoUploaded = uploadsArray[i].snippet.publishedAt;
             videoThumbnail = uploadsArray[i].snippet.thumbnails.medium.url;
@@ -136,17 +103,9 @@ var youmax_global_options = {};
         youmax_global_options.youmaxItemCount+=uploadsArray.length;
     },
 
-    getUploads = function(youmaxTabId,playlistTitle,nextPageToken) {
-        var pageTokenUrl = "";
-        var loadMoreFlag = false;
-
-        if(null!=nextPageToken) {
-            pageTokenUrl = "&pageToken="+nextPageToken;
-            loadMoreFlag = true;
-        }
-
-        var uploadsPlaylistId = youmaxTabId.substring(youmaxTabId.indexOf('_')+1);
-        var apiUploadURL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId="+uploadsPlaylistId+"&maxResults="+youmax_global_options.maxResults+pageTokenUrl+"&key="+youmax_global_options.apiKey;
+    getUploads = function() {
+        let channelId = youmax_global_options.youTubeChannelURL.split('/').pop();
+        var apiUploadURL = "https://www.googleapis.com/youtube/v3/search?key=" + youmax_global_options.apiKey + "&channelId="+ channelId +"&part=snippet,id&order=date&maxResults=" + youmax_global_options.maxResults;
 
         $.ajax({
             url: apiUploadURL,
@@ -154,49 +113,11 @@ var youmax_global_options = {};
             async: true,
             cache: true,
             dataType: 'jsonp',
-            success: function(response) { showUploads(response,playlistTitle,loadMoreFlag);},
+            success: function(response) { showUploads(response);},
             error: function(html) { alert(html); },
             beforeSend: setHeader
         });
     },
-
-    prepareYoumax = function() {
-        $('#youmax').empty();
-        loadYoumax();
-        showLoader();
-
-        $('.youmax-tab').click(function(){
-            $('.youmax-tab-hover').removeClass('youmax-tab-hover');
-            $(this).addClass('youmax-tab-hover');
-            youmaxTabId = this.id;
-            showLoader();
-            getUploads(youmaxTabId);
-        });
-
-        youTubeChannelURL = youmax_global_options.youTubeChannelURL;
-        console.log(youTubeChannelURL);
-        
-
-        if(youTubeChannelURL!=null) {
-            s=youTubeChannelURL.indexOf("/user/");
-            if(s!=-1) {
-                userId = youTubeChannelURL.substring(s+6);
-                apiUrl = "https://www.googleapis.com/youtube/v3/channels?part=id&forUsername="+userId+"&key="+youmax_global_options.apiKey;
-                getChannelId(apiUrl);
-            } else {
-                s=youTubeChannelURL.indexOf("/channel/");
-                if(s!=-1) {
-                    youmaxChannelId = youTubeChannelURL.substring(s+9);
-                    youmax_global_options.youmaxChannelId = youmaxChannelId;
-                    getChannelDetails(youmaxChannelId);
-                } else {
-                    alert("Could Not Find Channel..");
-                }
-            }
-        }
-
-    }
-
 
     $.fn.youmax = function(options) {
         //set local options
@@ -213,6 +134,4 @@ var youmax_global_options = {};
         youmax_global_options.youtubeMqdefaultAspectRatio = 300/180;
         prepareYoumax();
     };
-
-
 }( jQuery ));
