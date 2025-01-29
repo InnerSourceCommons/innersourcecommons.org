@@ -77,7 +77,6 @@ var youmax_global_options = {};
     showUploads = function() {
         $('#youmax-video-list-div').empty();
         let response = JSON.parse(sessionStorage.getItem("youtubeResponse"));
-        console.log(response);
         var nextPageToken = response.nextPageToken;
         var $youmaxLoadMoreDiv = $('#youmax-load-more-div');
         youmaxColumns = youmax_global_options.youmaxColumns;
@@ -89,16 +88,14 @@ var youmax_global_options = {};
         }
 
         var uploadsArray = response.items;
-        var videoIdArray = [];
 
         for(var i=0; i<uploadsArray.length; i++) {
             videoId = uploadsArray[i].id.videoId;
             videoTitle = uploadsArray[i].snippet.title;
             videoUploaded = uploadsArray[i].snippet.publishedAt;
             videoThumbnail = uploadsArray[i].snippet.thumbnails.medium.url;
-            videoIdArray.push(videoId);
-
-            $('#youmax-video-list-div').append('<div class="col-md-4 col-sm-6"><div class="youmax-video-tnail-box" id="'+videoId+'"><div class="youmax-video-tnail" style="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src=\''+videoThumbnail+'\', sizingMethod=\'scale\'); background-image:url(\''+videoThumbnail+'\')"><div class="youmax-duration"></div></div><span class="youmax-video-list-title">'+videoTitle+'</span><br/></div></div>');
+            
+            $('#youmax-video-list-div').append('<div class="col-md-4 col-sm-6"><a target="_blank" href="https://www.youtube.com/watch?v='+ videoId +'><div class="youmax-video-tnail-box" id="'+videoId+'"><div class="youmax-video-tnail" style="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src=\''+videoThumbnail+'\', sizingMethod=\'scale\'); background-image:url(\''+videoThumbnail+'\')"><div class="youmax-duration"></div></div><span class="youmax-video-list-title">'+videoTitle+'</span><br/></div></a></div>');
             
         }
         youmax_global_options.youmaxItemCount+=uploadsArray.length;
@@ -108,7 +105,6 @@ var youmax_global_options = {};
         let response = JSON.parse(sessionStorage.getItem("youtubeResponse"));
         if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1")){
             if(!response){
-                console.log('gonna call');
                 let channelId = youmax_global_options.youTubeChannelURL.split('/').pop();
                 var apiUploadURL = "https://www.googleapis.com/youtube/v3/search?key=" + youmax_global_options.apiKey + "&channelId="+ channelId +"&part=snippet,id&order=date&maxResults=" + youmax_global_options.maxResults;
         
@@ -129,7 +125,6 @@ var youmax_global_options = {};
                 showUploads();
             }
         }
-
     },
 
     $.fn.youmax = function(options) {
