@@ -60,6 +60,7 @@
 	margin: 0px auto;
 	font-size: 14px;
 	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 .youmax-video-tnail {
