@@ -74,9 +74,10 @@ var youmax_global_options = {};
 
     },
 
-    showUploads = function(response) {
+    showUploads = function() {
         $('#youmax-video-list-div').empty();
-
+        let response = JSON.parse(sessionStorage.getItem("youtubeResponse"));
+        console.log(response);
         var nextPageToken = response.nextPageToken;
         var $youmaxLoadMoreDiv = $('#youmax-load-more-div');
         youmaxColumns = youmax_global_options.youmaxColumns;
@@ -104,19 +105,31 @@ var youmax_global_options = {};
     },
 
     getUploads = function() {
-        let channelId = youmax_global_options.youTubeChannelURL.split('/').pop();
-        var apiUploadURL = "https://www.googleapis.com/youtube/v3/search?key=" + youmax_global_options.apiKey + "&channelId="+ channelId +"&part=snippet,id&order=date&maxResults=" + youmax_global_options.maxResults;
+        let response = JSON.parse(sessionStorage.getItem("youtubeResponse"));
+        if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1")){
+            if(!response){
+                console.log('gonna call');
+                let channelId = youmax_global_options.youTubeChannelURL.split('/').pop();
+                var apiUploadURL = "https://www.googleapis.com/youtube/v3/search?key=" + youmax_global_options.apiKey + "&channelId="+ channelId +"&part=snippet,id&order=date&maxResults=" + youmax_global_options.maxResults;
+        
+                $.ajax({
+                    url: apiUploadURL,
+                    type: "GET",
+                    async: true,
+                    cache: true,
+                    dataType: 'jsonp',
+                    success: function(response) {
+                        sessionStorage.setItem("youtubeResponse", JSON.stringify(response));
+                        showUploads(response);
+                    },
+                    error: function(html) { alert(html); },
+                    beforeSend: setHeader
+                });
+            } else {
+                showUploads();
+            }
+        }
 
-        $.ajax({
-            url: apiUploadURL,
-            type: "GET",
-            async: true,
-            cache: true,
-            dataType: 'jsonp',
-            success: function(response) { showUploads(response);},
-            error: function(html) { alert(html); },
-            beforeSend: setHeader
-        });
     },
 
     $.fn.youmax = function(options) {
