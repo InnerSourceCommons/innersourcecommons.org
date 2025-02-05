@@ -311,3 +311,15 @@ button.svelte-la9dd4:disabled {
 //     top: 0;
 //     width: 100%;
 // }
+
+.content .nav-item::before {
+    background: none;
+}
+
+.primary-link {
+    color: white !important;
+}
+
+.dropdown {
+    margin-right: 10px;
+}

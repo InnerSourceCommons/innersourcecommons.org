@@ -1,0 +1,8 @@
+{
+    "frontmatter": {
+       "date": [
+          "report_publish_date",
+          ":default"
+       ]
+    }
+ }

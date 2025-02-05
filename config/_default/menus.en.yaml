@@ -19,9 +19,30 @@ main:
     parent: learn
     URL: learn/research
     weight: 5
+  - name: Videos
+    parent: learn
+    URL: https://www.youtube.com/@InnerSourceCommons
+    weight: 6
   - name: Events
-    URL: events
+    URL: events/community-calls
     weight: 2
+    identifier: events
+  - name: Summit 2024
+    URL: events/isc-2024
+    parent: events
+    weight: 4
+  - name: Local Gatherings
+    URL: https://gatherings.innersourcecommons.org/
+    parent: events
+    weight: 5
+  - name: Community Calls
+    URL: events/community-calls
+    parent: events
+    weight: 6
+  - name: Past Summits
+    URL: events/past-summits
+    parent: events
+    weight: 7
   - name: Calendar
     URL: calendar
     weight: 3
@@ -64,6 +85,10 @@ main:
     URL: about/contact
     parent: about
     weight: 6
+  # - name: Vacancies
+  #   URL: about/vacancies
+  #   parent: about
+  #   weight: 7
 footer_left:
   - name: Learn
     URL: learn
@@ -83,24 +108,33 @@ footer_left:
     weight: 5
 footer_middle:
   - name: Events
-    URL: events
+    URL: events/community-calls
     weight: 1
     post: bold
+  - name: Summit 2024
+    URL: events/isc-2024
+    weight: 2
+  - name: Local Gatherings
+    URL: https://gatherings.innersourcecommons.org/
+    weight: 3
+  - name: Past Summits
+    URL: events/past-summits
+    weight: 3
   - name: Community
     URL: community
-    weight: 2
+    weight: 4
     post: bold
     pre: _blank
   - name: Stories
     URL: stories
-    weight: 3
+    weight: 5
     post: bold
   - name: Services Directory
     URL: community/services
-    weight: 4
+    weight: 6
   - name: Announcements
     URL: about/announcements
-    weight: 5
+    weight: 7
 footer_right:
   - name: About
     URL: about
@@ -124,3 +158,6 @@ footer_right:
   - name: Privacy Policy
     URL: about/privacy
     weight: 7
+  # - name: Vacancies
+  #   URL: about/vacancies
+  #   weight: 8

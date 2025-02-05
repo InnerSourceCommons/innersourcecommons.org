@@ -1,10 +1,12 @@
-version: "3.9"
+name: Innersourcecommons
+
 services:
-  hugo:
+  server:
     # The version here must be kept in sync with the one used at .github/workflows/main.yml
-    image: klakegg/hugo:0.80.0-ext-ubuntu
-    command: server --appendPort=false --baseURL=/
-    ports:
-    - "1313:1313"
+    image: hugomods/hugo:base-0.133.1
+    command: server -D
     volumes:
-    - .:/src
+      - ./:/src
+      - ~/hugo_cache:/tmp/hugo_cache
+    ports:
+      - 1313:1313

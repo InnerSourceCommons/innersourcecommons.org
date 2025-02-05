@@ -1,0 +1,5 @@
+{{ if not (.Page.Scratch.Get "markmap") }}
+<!-- Include markmap only first time -->
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.16"></script>
+{{ .Page.Scratch.Set "markmap" true }}
+{{ end }}
