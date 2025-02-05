@@ -48,6 +48,9 @@ title: "Community"
     <div class="row d-flex justify-content-center">
         <a href="/slack" class="btn btn-primary btn-sm"><img src="/images/slack.png" class="slack-tiny mr-2"/>Join Slack</a>
     </div>
+    <div class="row d-flex justify-content-center">
+      <p class="mt-4">You can also email us at <a href="mailto:info@innersourcecommons.org">info@innersourcecommons.org</a> if you have trouble joining. </p>
+    </div>
   </div>
 </section>
 
@@ -172,11 +175,10 @@ title: "Community"
   <div class="container section-small shadow rounded-lg px-4 bg-light">
     <div class="row align-items-center justify-content-center text-center text-md-left">
       <div class="col-lg-5 col-md-4 mb-4 mb-md-0">
-        <a class="twitter-timeline" data-height="500" data-dnt="true" href="https://twitter.com/InnerSourceOrg?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <p class="h2 section-title">Stay Connected</p>
+        <p class="mb-4">Most of the action in the community happens on our <a href="https://join.slack.com/t/innersourcecommons/shared_invite/zt-2yyv81kz4-azF2u20HQ2K42JBmI0FK4A">Slack Channel</a>. You can also keep informed about the InnerSource Commons news, events and activities by signing up to our newsletter below, follow us on <a href="https://twitter.com/InnerSourceOrg">Twitter</a> and <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, and subscribing to our <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube Channel</a>.</p>
       </div>
       <div class="col-md-5 offset-md-1">
-        <p class="h2 section-title">Stay Connected</p>
-        <p class="mb-4">Most of the action in the community happens on our <a href="https://join.slack.com/t/innersourcecommons/shared_invite/zt-1msf8vcqu-fYEHcyI1l4eSPq6rGprMXA">Slack Channel</a>. You can also keep informed about the InnerSource Commons news, events and activities by signing up to our newsletter below, follow us on <a href="https://twitter.com/InnerSourceOrg">Twitter</a> and <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, and subscribing to our <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube Channel</a>.</p>
         <p class="h3 section-title">Sign up to our newsletter</p>
         {{< contact-form >}}
       </div>

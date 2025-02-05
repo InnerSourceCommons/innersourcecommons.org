@@ -17,7 +17,7 @@
             {{ if and (now.Before (time .Params.report_publish_date)) (now.After (time .Params.survey_closing_date)) }}
               <a href="{{.Permalink}}" class="btn btn-primary btn-sm">Coming Soon</a>
             {{ else if (now.After (time .Params.report_publish_date)) }}
-              <a href="{{.Permalink}}" class="btn btn-primary btn-sm">Read Research Report</a>
+              <a href="{{.Permalink}}" class="btn btn-primary btn-sm">{{ T "read_research_report" }}</a>
             {{ else }}
               <a href="{{.Permalink}}" class="btn btn-primary btn-sm">Take Survey</a>
             {{ end }}

@@ -68,9 +68,11 @@
   });
 </script>
 {{ end }}
+
+{{ if .Params.fetchYoutubeVideos }}
 <script>
 	$('#youmax').youmax({
-	apiKey:'AIzaSyCTmhVwOZhhT1WceQm9MobWFuJIA6lI-Dw',
+	apiKey:'AIzaSyAarbxeg1eOcMvxTD2Px_G3OhmDQD9N2EE',
 	youTubeChannelURL: "https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA",
 	youmaxDefaultTab: "UPLOADS",
 	youmaxColumns: 3,
@@ -85,6 +87,7 @@ $(function(){
 });
 </script>
 
+{{ end }}
 <!-- Google Analytics compliant with GDPR -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H7179Q3Y3T"></script>
 <script>

@@ -5,8 +5,16 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
-        <h2 class="mb-4">{{ .Title }}</h2>
+        {{ if .Params.image }}
+          {{ if ne .Params.showImageInSinglePage false }}
+            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
+          {{ end }}
+        {{ end }}
+        {{ if .Params.bigHeading }}
+          <h1 class="display-3 text-center">{{ .Title }}</h1>
+        {{ else }}
+          <h2 class="mb-4">{{ .Title }}</h2>
+        {{ end }}
         <div class="content">{{.Content}}</div>
       </div>
     </div>

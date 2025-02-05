@@ -1,4 +1,6 @@
-baseURL: '/'
+baseURL: 'https://innersourcecommons.org/'
+defaultContentLanguage: 'en'
+defaultContentLanguageInSubdir: false
 title: InnerSource Commons
 
 pluralizeListTitles: false
@@ -13,4 +15,9 @@ markup:
       unsafe: true
 minify:
   disableHTML: true
-defaultContentLanguage: 'en'
+uglyurls: false
+
+frontmatter:
+  date:
+  - report_publish_date
+  - :default

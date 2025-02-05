@@ -204,8 +204,6 @@ aliases:
       {{< company name="SAP" image="/images/logos/sap.png" video="https://www.youtube.com/watch?v=2nhKMcv5STc&t=269s" author_name="Micheal Graf and Guilherme Dellagustin" author_title="SAP" >}}
       We work together as a team to provide InnerSource methodology to encourage new people to initiate new projects... 70% of SAP employees would like to contribute if suitable projects are available.
       {{< /company >}}
-      {{< company name="SberBank" image="/images/logos/sberbank.png" article="https://habr.com/ru/company/sberbank/blog/503902/" >}}
-      {{< /company >}}
       {{< company name="Seagate" image="/images/logos/seagate.png" article="https://github.com/customer-stories/seagate" >}}
       {{< /company >}}
       {{< company name="Shell" image="/images/logos/shell.png" video="https://youtu.be/7AJuMROHRHY" >}}
@@ -218,7 +216,7 @@ aliases:
       {{< /company >}}
       {{< company name="Societe Generale" image="/images/logos/societegenerale.png" article="https://github.com/customer-stories/societe-generale" >}}
       {{< /company >}}
-      {{< company name="Sourcegraph" image="/images/logos/sourcegraph.svg" article="https://about.sourcegraph.com/podcast/jonathan-carter/" >}}
+      {{< company name="Sourcegraph" image="/images/logos/sourcegraph-vector-logo.png" article="https://about.sourcegraph.com/podcast/jonathan-carter/" >}}
       {{< /company >}}
       {{< company name="Spotify" image="/images/logos/spotify.png" article="https://github.com/customer-stories/spotify" author_name="Laurent Ploix" author_title="Product Manager" >}}
       Pull requests are welcome. Someone out there might find a better solution than I can.
