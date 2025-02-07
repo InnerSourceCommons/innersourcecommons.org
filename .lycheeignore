@@ -2,12 +2,19 @@
 # The file allows you to list multiple regular expressions for exclusion (one pattern per line).
 github\.com/.*
 linkedin\.com/.*
+marriott\.com/.*
+sheratonlisle\.com/.*
 youtu\.be/.*
 
+https://support.sap.com/en/product/globalization.html
 https://medium.com/adobetech/open-development-inner-source-and-open-source-46c2ba174be6
 silona.org
 https://www.chathamhouse.org/about-us/chatham-house-rule
+https://www.safaribooksonline.com/learning-paths
+https://www.tripadvisor.com/Restaurants-g36422-zfp16-Naperville_DuPage_County_Illinois.html
 
+# added this due to maintenance on wikimedia. To be removed later
+https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/JimJag-with-Gumby.jpg/220px-JimJag-with-Gumby.jpg
 # lychee claims that it finds this link in 'content/about/privacy.md' but I don't see it there.
 xn--ivg
 

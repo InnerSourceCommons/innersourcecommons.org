@@ -39,7 +39,7 @@ John Landy is Lead Product Owner for a group championing inner source community 
 InnerSource takes the lessons learned from developing open source software and applies them to the way companies develop software internally. As developers have become accustomed to working on world class open source software, there is a strong desire to bring those practices back inside the firewall and apply them to software that companies may be reluctant to release. For companies building mostly closed source software, InnerSource can be a great tool to help break down silos, encourage internal collaboration, accelerate new engineer on-boarding, and identify opportunities to contribute software back to the open source world.
  
 ### What is the InnerSource Commons?
-The InnerSource Commons ([InnerSourceCommons.org](http://innersourcecommons.org)) aka ISC is a consortium of representatives from over sixty companies and institutions. It utilizes open source methods to provide organizations pursuing inner sourcing a forum for discussing and improving the practice of InnerSource through the sharing of experiences (under the [Chatham House Rule](https://www.chathamhouse.org/about/chatham-house-rule)), creation and review of InnerSource patterns, and the open exchange of ideas.
+The InnerSource Commons ([InnerSourceCommons.org](http://innersourcecommons.org)) aka ISC is a consortium of representatives from over sixty companies and institutions. It utilizes open source methods to provide organizations pursuing inner sourcing a forum for discussing and improving the practice of InnerSource through the sharing of experiences (under the [Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule)), creation and review of InnerSource patterns, and the open exchange of ideas.
   
 ### Who should attend?
 The InnerSource Common Summits welcomes software professionals at all levels, from executive level manager to software developer.  The program targets software development managers and executive managers in particular because adopting InnerSource requires significant efforts to make changes in the organization—whether these are implemented top-down or bottom-up. If you or your organization is adopting, or considering adopting, InnerSource, then attending the InnerSource Summit is the best thing you can do.
@@ -88,7 +88,7 @@ Some examples of content that had been sought:
 * InnerSource metrics
 * InnerSource Commons governance
 
-Note that all presentations given at the Fall Summit, unless otherwise designated by the presenter, will be covered by [the Chatham House Rule](https://www.chathamhouse.org/about/chatham-house-rule).
+Note that all presentations given at the Fall Summit, unless otherwise designated by the presenter, will be covered by [the Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule).
 
 ### Travel and Transit
 
@@ -112,7 +112,7 @@ Address: 1801 North Naper Boulevard  Naperville  Illinois  60563  USA, Phone: +1
 Hotel Info ~$260 USD per night, About .9 miles, 3 mins by car to Nokia office 
 [Directions](https://www.google.com/maps/dir/Nokia+(Formerly+Alcatel-Lucent:Bell+Laboratories),+2000+W+Lucent+Ln,+Naperville,+IL+60563/Chicago+Marriott+Naperville,+North+Naper+Boulevard,+Naperville,+IL/@41.8080402,-88.1245904,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x880e568422edd6f5:0x95799e677024921d!2m2!1d-88.1199456!2d41.8124202!1m5!1m1!1s0x880e56f288e7c751:0x1fb5dc6273f63c77!2m2!1d-88.1215389!2d41.8037073!3e0)   
 
-#### 4. [Courtyard Marriot](http://www.marriott.com/hotels/travel/chinp-courtyard-chicago-naperville/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2)  
+#### 4. [Courtyard Marriot](https://www.marriott.com/en-us/hotels/chinp-courtyard-chicago-naperville/overview/)  
 Address: 1155 East Diehl Road  Naperville  Illinois  60563  USA, Phone: +1 (630) 505-0550  
 Hotel Info: ~ $134 USD per night, 1.0 mile (4 mins by car) to Nokia office 
 [Directions](https://www.google.com/maps/dir/Nokia+(Formerly+Alcatel-Lucent:Bell+Laboratories),+2000+W+Lucent+Ln,+Naperville,+IL+60563/Courtyard+by+Marriott+Chicago+Naperville,+East+Diehl+Road,+Naperville,+IL/@41.8066128,-88.1320469,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x880e568422edd6f5:0x95799e677024921d!2m2!1d-88.1199456!2d41.8124202!1m5!1m1!1s0x880e56f59ccb3255:0x776be0c3588b1a97!2m2!1d-88.1284549!2d41.8025581!3e0)
@@ -136,7 +136,7 @@ Downtown Naperville features [its own riverwalk](http://www.naperville.il.us/enj
 
 Only a 40 minute drive to the east, Chicago has [many worthwhile attractions](http://www.planetware.com/tourist-attractions-/chicago-us-il-chi.htm) for those who are looking for something to do outside of the Fall Summit.
 
-There are [many good restaurants in the Naperville area](https://www.tripadvisor.com/Restaurants-g36422-zfp16-Naperville_Illinois.html). See [this list of restaurants](https://docs.google.com/document/d/170wNcDTrsMCvsaW9j6PU_av33GjYUe-sN-4LfxdWmzw/edit).
+There are [many good restaurants in the Naperville area](https://www.tripadvisor.com/Restaurants-g36422-zfp16-Naperville_DuPage_County_Illinois.html). See [this list of restaurants](https://docs.google.com/document/d/170wNcDTrsMCvsaW9j6PU_av33GjYUe-sN-4LfxdWmzw/edit).
 
 ### [Code of Conduct](/events/conduct/)
 

@@ -369,7 +369,7 @@ Culture is hard to describe, and even harder to emulate. So how do you even star
 ### Call For Presentations
 Use this form to submit your proposal [here](https://tinyurl.com/ycuxbjbe) for the InnerSource Commons Spring Summit 2019
 
-All proposals are due by midnight, February 17th, 2019. All presentations at the Spring Summit, unless otherwise designated by the presenter, will be covered by the Chatham House Rule. See the [Chatham House Rule](https://www.chathamhouse.org/about/chatham-house-rule). 
+All proposals are due by midnight, February 17th, 2019. All presentations at the Spring Summit, unless otherwise designated by the presenter, will be covered by the Chatham House Rule. See the [Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule). 
 
 ### Registration
 Please visit our [Registration Page](https://innersourcesummit2019.brownpapertickets.com/) to register for InnerSource Commons Spring Summit 2019.
@@ -574,7 +574,7 @@ Kristof Van Tomme is an open source strategist and architect. He is the CEO and 
 
 ### What is the InnerSource Commons?
 
-The InnerSource Commons ([InnerSourceCommons.org](http://innersourcecommons.org)) aka ISC is a consortium of representatives from almost a hundred companies and institutions. It utilizes open source methods to provide organizations pursuing inner sourcing a forum for discussing and improving the practice of InnerSource through the sharing of experiences (under the [Chatham House Rule](https://www.chathamhouse.org/about/chatham-house-rule)), creation and review of InnerSource patterns, and the open exchange of ideas.
+The InnerSource Commons ([InnerSourceCommons.org](http://innersourcecommons.org)) aka ISC is a consortium of representatives from almost a hundred companies and institutions. It utilizes open source methods to provide organizations pursuing inner sourcing a forum for discussing and improving the practice of InnerSource through the sharing of experiences (under the [Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule)), creation and review of InnerSource patterns, and the open exchange of ideas.
   
 ### Who should attend?
 
