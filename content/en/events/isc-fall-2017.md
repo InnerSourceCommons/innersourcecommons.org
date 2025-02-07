@@ -112,7 +112,7 @@ Address: 1801 North Naper Boulevard  Naperville  Illinois  60563  USA, Phone: +1
 Hotel Info ~$260 USD per night, About .9 miles, 3 mins by car to Nokia office 
 [Directions](https://www.google.com/maps/dir/Nokia+(Formerly+Alcatel-Lucent:Bell+Laboratories),+2000+W+Lucent+Ln,+Naperville,+IL+60563/Chicago+Marriott+Naperville,+North+Naper+Boulevard,+Naperville,+IL/@41.8080402,-88.1245904,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x880e568422edd6f5:0x95799e677024921d!2m2!1d-88.1199456!2d41.8124202!1m5!1m1!1s0x880e56f288e7c751:0x1fb5dc6273f63c77!2m2!1d-88.1215389!2d41.8037073!3e0)   
 
-#### 4. [Courtyard Marriot](http://www.marriott.com/hotels/travel/chinp-courtyard-chicago-naperville/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2)  
+#### 4. [Courtyard Marriot](https://www.marriott.com/en-us/hotels/chinp-courtyard-chicago-naperville/overview/)  
 Address: 1155 East Diehl Road  Naperville  Illinois  60563  USA, Phone: +1 (630) 505-0550  
 Hotel Info: ~ $134 USD per night, 1.0 mile (4 mins by car) to Nokia office 
 [Directions](https://www.google.com/maps/dir/Nokia+(Formerly+Alcatel-Lucent:Bell+Laboratories),+2000+W+Lucent+Ln,+Naperville,+IL+60563/Courtyard+by+Marriott+Chicago+Naperville,+East+Diehl+Road,+Naperville,+IL/@41.8066128,-88.1320469,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x880e568422edd6f5:0x95799e677024921d!2m2!1d-88.1199456!2d41.8124202!1m5!1m1!1s0x880e56f59ccb3255:0x776be0c3588b1a97!2m2!1d-88.1284549!2d41.8025581!3e0)
@@ -136,7 +136,7 @@ Downtown Naperville features [its own riverwalk](http://www.naperville.il.us/enj
 
 Only a 40 minute drive to the east, Chicago has [many worthwhile attractions](http://www.planetware.com/tourist-attractions-/chicago-us-il-chi.htm) for those who are looking for something to do outside of the Fall Summit.
 
-There are [many good restaurants in the Naperville area](https://www.tripadvisor.com/Restaurants-g36422-zfp16-Naperville_Illinois.html). See [this list of restaurants](https://docs.google.com/document/d/170wNcDTrsMCvsaW9j6PU_av33GjYUe-sN-4LfxdWmzw/edit).
+There are [many good restaurants in the Naperville area](https://www.tripadvisor.com/Restaurants-g36422-zfp16-Naperville_DuPage_County_Illinois.html). See [this list of restaurants](https://docs.google.com/document/d/170wNcDTrsMCvsaW9j6PU_av33GjYUe-sN-4LfxdWmzw/edit).
 
 ### [Code of Conduct](/events/conduct/)
 
