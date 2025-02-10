@@ -1,0 +1,18 @@
+# ニュースアイテムは上から新しい順に並べます
+- content: "Does your organization want to host InnerSource Summit 2025? Click [here](https://bit.ly/4fchanz) to apply or contact us at [info@innersourcecommons.org](mailto:info@innersourcecommons.org) to find out more"
+  active: true
+  type: "light"
+
+- content: "Join us on Tuesday, February 18th, 9am GMT / 10am CET / 2:30pm IST / 8pm AEDT, when Dr. Christian DeFeo and Ben Butcher, from Shell, will discuss [Project Fleming: An Open Source Discovery Tool](https://bit.ly/ISCFeb18)"
+  active: true
+  type: "primary"
+
+# 以下は非アクティブな過去のお知らせ
+- content: "INNERSOURCE SUMMIT 2024 - book your ticket for November 20th and 21st"
+  url: "https://bit.ly/ISCSUM24"
+  active: false
+  type: "primary"
+
+- content: "Join us on Tuesday, June 11th, at 9am BST / 10am CEST / 1:30pm IST / 6pm AEST, when two of our members, Matt Cobby, from Antler, and Guilherme Dellagustin, from SAP, will host an [InnerSource Commons Ask Me Anything session](https://bit.ly/AMAAPAC)"
+  active: false
+  type: "light" 
