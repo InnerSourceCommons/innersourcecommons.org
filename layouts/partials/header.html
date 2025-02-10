@@ -58,6 +58,23 @@
                     <h4>Latest Projects</h4>
                     <p>Discover our latest InnerSource initiatives</p>
                   </div>
+                  {{ else if eq .Name "Blog & News" }}
+                  {{ $pages := where site.Pages "Type" "in" "announcements" }}
+                  {{ $pages = where $pages "Kind" "in" "page" }}
+                  {{ range first 3 $pages }}
+                  <div class="article-card">
+                    <a href="{{ .Permalink }}" class="article-link">
+                      {{ with .Params.image }}
+                      <div class="article-image">
+                        <img src="{{ . | absURL }}" alt="{{ $.Title }}">
+                      </div>
+                      {{ end }}
+                      <div class="article-content">
+                        <h4>{{ .Title }}</h4>
+                      </div>
+                    </a>
+                  </div>
+                  {{ end }}
                   {{ end }}
                 </div>
               </div>
