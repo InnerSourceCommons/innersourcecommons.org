@@ -22,6 +22,8 @@
   
   <link rel="stylesheet" href="https://innersourcecommons.org/plugins/bootstrap-select/css/bootstrap-select.min.css">
   
+  <link rel="stylesheet" href="https://innersourcecommons.org/css/custom-menu.css">
+  
   
 
   <!-- Main Stylesheet -->
@@ -71,95 +73,216 @@ The InnerSource Commons Foundation is delighted to announce the election of a ne
 
 </head><body><!-- navigation -->
 <header class="navigation">
-  <div class="container">
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-      <a class="navbar-brand"
-        href='https://innersourcecommons.org/ja'>
-        <img width="200px" class="img-fluid" src="https://innersourcecommons.org/images/logo.png"
-          alt="InnerSource Commons">
+  <div class="container wrap">
+    <div class="logo">
+      <a href='https://innersourcecommons.org/ja' title="InnerSource Commons">
+        <img loading="eager" decoding="async" fetchpriority="high" width="200px" class="img-fluid" src="https://innersourcecommons.org/images/logo.png" alt="InnerSource Commons">
       </a>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
-        <i class="ti-menu"></i>
-      </button>
+    </div>
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/ja/learn" >学ぶ</a>
-            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
-              data-display="static"></a>
-            <div class="dropdown-menu">
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/learn/books" >関連書籍</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/learn/learning-path" >ラーニングパス</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/learn/patterns" >インナーソースパターン</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/learn/research" >リサーチ</a>
-              
-              <a class="dropdown-item" href="https://www.youtube.com/@InnerSourceCommons" >ビデオ</a>
-              
-            </div>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://innersourcecommons.org/ja/events/community-calls" >イベント</a>
-          </li>
-          
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/ja/community" >コミュニティ</a>
-            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
-              data-display="static"></a>
-            <div class="dropdown-menu">
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/community/services" >提供企業</a>
-              
-            </div>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://innersourcecommons.org/ja/stories" >事例</a>
-          </li>
-          
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/ja/about" >About</a>
-            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
-              data-display="static"></a>
-            <div class="dropdown-menu">
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/about/announcements" >アナウンス</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/about/board" >役員とガバナンス</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/about/members" >メンバーについて</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/about/sponsors" >スポンサー</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/about/codeofconduct" >行動規範</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/about/contact" >お問合せ</a>
-              
-            </div>
-          </li>
-          
-          
-        </ul>
-        <a href="https://innersourcecommons.org/slack" class="btn btn-sm slack-invite-btn btn-primary ml-2" target="_blank"><i
-            class="ti-comments pr-2"></i>Slackに参加</a>
+    <nav class="main-menu">
+      <ul class="main-menu__wrapper">
         
-        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+        
+        <li class="menu-item-has-children">
+          <a href="#"><span>学ぶ</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  <li class="menu-title">Main</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/learn/books" >
+                      関連書籍
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/learn/learning-path" >
+                      ラーニングパス
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/learn/patterns" >
+                      インナーソースパターン
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/learn/research" >
+                      リサーチ
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://www.youtube.com/@InnerSourceCommons" >
+                      ビデオ
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  <li class="menu-title">Additional Info</li>
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                <ul class="menu">
+                  <li class="menu-title">Featured Articles</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        <li class="menu-item">
+          <a href="https://innersourcecommons.org/ja/events/community-calls" ><span>イベント</span></a>
+        </li>
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#"><span>コミュニティ</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  <li class="menu-title">Main</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/community/services" >
+                      提供企業
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  <li class="menu-title">Additional Info</li>
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                <ul class="menu">
+                  <li class="menu-title">Featured Articles</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        <li class="menu-item">
+          <a href="https://innersourcecommons.org/ja/stories" ><span>事例</span></a>
+        </li>
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#"><span>About</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  <li class="menu-title">Main</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about/announcements" >
+                      アナウンス
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about/board" >
+                      役員とガバナンス
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about/members" >
+                      メンバーについて
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about/sponsors" >
+                      スポンサー
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about/codeofconduct" >
+                      行動規範
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  <li class="menu-title">Additional Info</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about/contact" >
+                      お問合せ
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                <ul class="menu">
+                  <li class="menu-title">Featured Articles</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                  <div class="article-card">
+                    <img src="/images/featured/about.jpg" alt="About Us">
+                    <h4>Who We Are</h4>
+                    <p>Learn more about InnerSource Commons</p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+      </ul>
+
+      <div class="header-cta">
+        <a href="https://innersourcecommons.org/slack" class="btn btn-primary" target="_blank">
+          <i class="ti-comments pr-2"></i>Slackに参加
+        </a>
+        
+        <select id="langpicker" class="selectpicker" data-style="btn-light" data-width="fit">
           <option>日本語</option>
           
           <option value="https://innersourcecommons.org/about/announcements/2023-05-new-board-and-officers/">English</option>
@@ -172,8 +295,61 @@ The InnerSource Commons Foundation is delighted to announce the election of a ne
         
       </div>
     </nav>
+
+    <button class="hamburger" type="button" aria-label="Toggle Menu">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
   </div>
 </header>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const hamburger = document.querySelector('.hamburger');
+  const menu = document.querySelector('.main-menu__wrapper');
+  const subMenuParents = document.querySelectorAll('.menu-item-has-children > a');
+  const isMobile = window.innerWidth <= 992;
+
+  
+  hamburger.addEventListener('click', function() {
+    this.classList.toggle('is-active');
+    menu.classList.toggle('is-active');
+  });
+
+  
+  if (isMobile) {
+    subMenuParents.forEach(item => {
+      item.addEventListener('click', function(e) {
+        e.preventDefault();
+        const parent = this.parentElement;
+        const subMenu = this.nextElementSibling;
+        
+        
+        subMenuParents.forEach(otherItem => {
+          if (otherItem !== this) {
+            otherItem.parentElement.classList.remove('is-active');
+            otherItem.nextElementSibling.classList.remove('is-active');
+          }
+        });
+
+        
+        parent.classList.toggle('is-active');
+        subMenu.classList.toggle('is-active');
+      });
+    });
+  }
+
+  
+  window.addEventListener('resize', function() {
+    const isNowMobile = window.innerWidth <= 992;
+    if (isNowMobile !== isMobile) {
+      location.reload();
+    }
+  });
+});
+</script>
+
 <!-- /navigation -->
 
 

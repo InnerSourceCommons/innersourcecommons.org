@@ -22,6 +22,8 @@
   
   <link rel="stylesheet" href="https://innersourcecommons.org/plugins/bootstrap-select/css/bootstrap-select.min.css">
   
+  <link rel="stylesheet" href="https://innersourcecommons.org/css/custom-menu.css">
+  
   
 
   <!-- Main Stylesheet -->
@@ -68,114 +70,305 @@
 
 </head><body><!-- navigation -->
 <header class="navigation">
-  <div class="container">
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-      <a class="navbar-brand"
-        href='https://innersourcecommons.org/'>
-        <img width="200px" class="img-fluid" src="https://innersourcecommons.org/images/logo.png"
-          alt="InnerSource Commons">
+  <div class="container wrap">
+    <div class="logo">
+      <a href='https://innersourcecommons.org/' title="InnerSource Commons">
+        <img loading="eager" decoding="async" fetchpriority="high" width="200px" class="img-fluid" src="https://innersourcecommons.org/images/logo.png" alt="InnerSource Commons">
       </a>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
-        <i class="ti-menu"></i>
-      </button>
+    </div>
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/learn" >Learn</a>
-            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
-              data-display="static"></a>
-            <div class="dropdown-menu">
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/learn/books" >Books</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/learn/learning-path" >Learning Path</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/learn/patterns" >Patterns</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/learn/research" >Research</a>
-              
-              <a class="dropdown-item" href="https://www.youtube.com/@InnerSourceCommons" >Videos</a>
-              
-            </div>
-          </li>
-          
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/events/community-calls" >Events</a>
-            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
-              data-display="static"></a>
-            <div class="dropdown-menu">
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/events/isc-2024" >Summit 2024</a>
-              
-              <a class="dropdown-item" href="https://gatherings.innersourcecommons.org/" >Local Gatherings</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/events/community-calls" >Community Calls</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/events/past-summits" >Past Summits</a>
-              
-            </div>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://innersourcecommons.org/calendar" >Calendar</a>
-          </li>
-          
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/community" >Community</a>
-            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
-              data-display="static"></a>
-            <div class="dropdown-menu">
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/community/services" >Services Directory</a>
-              
-            </div>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://innersourcecommons.org/stories" >Stories</a>
-          </li>
-          
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/about" >About</a>
-            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
-              data-display="static"></a>
-            <div class="dropdown-menu">
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/about/announcements" >Announcements</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/about/board" >Board &amp; Governance</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/about/members" >Members</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/about/sponsors" >Sponsors</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/about/codeofconduct" >Code of Conduct</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/about/contact" >Contact Us</a>
-              
-            </div>
-          </li>
-          
-          
-        </ul>
-        <a href="https://innersourcecommons.org/slack" class="btn btn-sm slack-invite-btn btn-primary ml-2" target="_blank"><i
-            class="ti-comments pr-2"></i>Join Slack</a>
+    <nav class="main-menu">
+      <ul class="main-menu__wrapper">
         
-        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
+        
+        <li class="menu-item-has-children">
+          <a href="#"><span>About</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  <li class="menu-title">Main</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/about" >
+                      Who We Are
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/about/board" >
+                      Board &amp; Governance
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/about/members" >
+                      Members
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/about/codeofconduct" >
+                      Code of Conduct
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/about/contact" >
+                      Contact Us
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  <li class="menu-title">Additional Info</li>
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                <ul class="menu">
+                  <li class="menu-title">Featured Articles</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                  <div class="article-card">
+                    <img src="/images/featured/about.jpg" alt="About Us">
+                    <h4>Who We Are</h4>
+                    <p>Learn more about InnerSource Commons</p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#"><span>Projects</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  <li class="menu-title">Main</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/learn/patterns" >
+                      Patterns
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/learn/research" >
+                      Research
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  <li class="menu-title">Additional Info</li>
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                <ul class="menu">
+                  <li class="menu-title">Featured Articles</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                  <div class="article-card">
+                    <img src="/images/featured/projects.jpg" alt="Our Projects">
+                    <h4>Latest Projects</h4>
+                    <p>Discover our latest InnerSource initiatives</p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#"><span>Training</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  <li class="menu-title">Main</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/learn/books" >
+                      Books
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/learn/learning-path" >
+                      Learning Path
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  <li class="menu-title">Additional Info</li>
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                <ul class="menu">
+                  <li class="menu-title">Featured Articles</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#"><span>Community</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  <li class="menu-title">Main</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/events/community-calls" >
+                      Events
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/events/isc-2024" >
+                      Summit 2024
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://gatherings.innersourcecommons.org/" >
+                      Local Gatherings
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/events/community-calls" >
+                      Community Calls
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/calendar" >
+                      Calendar
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  <li class="menu-title">Additional Info</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/community/services" >
+                      Services Directory
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                <ul class="menu">
+                  <li class="menu-title">Featured Articles</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#"><span>Blog &amp; News</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  <li class="menu-title">Main</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/about/announcements" >
+                      Announcements
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/stories" >
+                      Stories
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  <li class="menu-title">Additional Info</li>
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                <ul class="menu">
+                  <li class="menu-title">Featured Articles</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+      </ul>
+
+      <div class="header-cta">
+        <a href="https://innersourcecommons.org/slack" class="btn btn-primary" target="_blank">
+          <i class="ti-comments pr-2"></i>Join Slack
+        </a>
+        
+        <select id="langpicker" class="selectpicker" data-style="btn-light" data-width="fit">
           <option>English</option>
           
           <option value="https://innersourcecommons.org/ja/about/board/2023-03-23/">日本語</option>
@@ -188,8 +381,61 @@
         
       </div>
     </nav>
+
+    <button class="hamburger" type="button" aria-label="Toggle Menu">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
   </div>
 </header>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const hamburger = document.querySelector('.hamburger');
+  const menu = document.querySelector('.main-menu__wrapper');
+  const subMenuParents = document.querySelectorAll('.menu-item-has-children > a');
+  const isMobile = window.innerWidth <= 992;
+
+  
+  hamburger.addEventListener('click', function() {
+    this.classList.toggle('is-active');
+    menu.classList.toggle('is-active');
+  });
+
+  
+  if (isMobile) {
+    subMenuParents.forEach(item => {
+      item.addEventListener('click', function(e) {
+        e.preventDefault();
+        const parent = this.parentElement;
+        const subMenu = this.nextElementSibling;
+        
+        
+        subMenuParents.forEach(otherItem => {
+          if (otherItem !== this) {
+            otherItem.parentElement.classList.remove('is-active');
+            otherItem.nextElementSibling.classList.remove('is-active');
+          }
+        });
+
+        
+        parent.classList.toggle('is-active');
+        subMenu.classList.toggle('is-active');
+      });
+    });
+  }
+
+  
+  window.addEventListener('resize', function() {
+    const isNowMobile = window.innerWidth <= 992;
+    if (isNowMobile !== isMobile) {
+      location.reload();
+    }
+  });
+});
+</script>
+
 <!-- /navigation -->
 
 
