@@ -1,17 +1,19 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const notice = document.querySelector('.notice');
-  if (notice) {
-    document.body.classList.add('has-notice');
-  }
-});
+  document.addEventListener('DOMContentLoaded', function () {
+    const notice = document.querySelector('.notice');
+    if (notice) {
+      document.body.classList.add('has-notice');
+    }
+  });
 </script>
 <header class="navigation">
   <div class="container wrap">
     <div class="logo">
-      <a href='{{ if eq .Site.Language.Lang "en" }}{{ site.BaseURL }}{{ else }}{{ site.BaseURL }}{{ .Site.Language.Lang }}{{end}}' title="{{ site.Title }}">
-        <img loading="eager" decoding="async" fetchpriority="high" width="{{ site.Params.logo_width}}" class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
+      <a href='{{ if eq .Site.Language.Lang "en" }}{{ site.BaseURL }}{{ else }}{{ site.BaseURL }}{{ .Site.Language.Lang }}{{end}}'
+        title="{{ site.Title }}" style="border-bottom: 0px solid #e0e0e0;">
+        <img loading="eager" decoding="async" fetchpriority="high" width="{{ site.Params.logo_width}}" class="img-fluid"
+          src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
       </a>
     </div>
 
@@ -20,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {{ range site.Menus.main }}
         {{ if .HasChildren }}
         <li class="menu-item-has-children">
-          <a href="#"><span>{{ .Name }}</span></a>
+          <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>{{ .Name }}</span></a>
           <div class="sub-menu">
             <div class="col-container">
               <div class="col1">
@@ -38,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
               </div>
               <div class="col2">
                 <ul class="menu">
-                  <li class="menu-title">Additional Info</li>
+                  <li class="menu-title">Additional Information</li>
                   {{ range after 5 .Children }}
                   <li class="menu-item">
                     <a href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
@@ -50,55 +52,134 @@ document.addEventListener('DOMContentLoaded', function() {
                 </ul>
               </div>
               <div class="col3">
+                {{ if eq .Name "About" }}
                 <ul class="menu">
-                  <li class="menu-title">Featured Articles</li>
+                  <li class="menu-title">Featured Information</li>
                 </ul>
                 <div class="featured-articles">
-                  {{ if eq .Name "About" }}
+                  {{ range where site.Data.featured_articles.about "visible" true }}
                   <div class="article-card">
-                    <img src="/images/featured/about.jpg" alt="About Us">
-                    <h4>Who We Are</h4>
-                    <p>Learn more about InnerSource Commons</p>
-                  </div>
-                  {{ else if eq .Name "Projects" }}
-                  <div class="article-card">
-                    <img src="/images/featured/projects.jpg" alt="Our Projects">
-                    <h4>Latest Projects</h4>
-                    <p>Discover our latest InnerSource initiatives</p>
-                  </div>
-                  {{ else if eq .Name "Blog & News" }}
-                  {{ $pages := where site.Pages "Type" "in" "announcements" }}
-                  {{ $pages = where $pages "Kind" "in" "page" }}
-                  {{ range first 3 $pages }}
-                  <div class="article-card">
-                    <a href="{{ .Permalink }}" class="article-link">
-                      {{ with .Params.image }}
+                    <a href="{{ .link }}" class="article-link">
                       <div class="article-image">
-                        <img src="{{ . | absURL }}" alt="{{ $.Title }}">
+                        <img src="{{ .image }}" alt="{{ .title }}">
                       </div>
-                      {{ end }}
                       <div class="article-content">
-                        <h4>{{ .Title }}</h4>
+                        <h4>{{ .title }}</h4>
+                        <p>{{ .description }}</p>
                       </div>
                     </a>
                   </div>
                   {{ end }}
-                  {{ end }}
-                </div>
-              </div>
-            </div>
-          </div>
+                  {{ else if eq .Name "Activities" }}
+                  <ul class="menu">
+                    <li class="menu-title">Featured Information</li>
+                  </ul>
+                  <div class="featured-articles">
+                    {{ range where site.Data.featured_articles.activities "visible" true }}
+                    <div class="article-card">
+                      <a href="{{ .link }}" class="article-link">
+                        <div class="article-image">
+                          <img src="{{ .image }}" alt="{{ .title }}">
+                        </div>
+                        <div class="article-content">
+                          <h4>{{ .title }}</h4>
+                          <p>{{ .description }}</p>
+                        </div>
+                      </a>
+                    </div>
+                    {{ end }}
+                    {{ else if eq .Name "Learning" }}
+                    <ul class="menu">
+                      <li class="menu-title">Featured Articles</li>
+                    </ul>
+                    <div class="featured-articles">
+                      {{ range where site.Data.featured_articles.learning "visible" true }}
+                      <div class="article-card">
+                        <a href="{{ .link }}" class="article-link">
+                          <div class="article-image">
+                            <img src="{{ .image }}" alt="{{ .title }}">
+                          </div>
+                          <div class="article-content">
+                            <h4>{{ .title }}</h4>
+                            <p>{{ .description }}</p>
+                          </div>
+                        </a>
+                      </div>
+                      {{ end }}
+                      {{ else if eq .Name "Community" }}
+                      <ul class="menu">
+                        <li class="menu-title">Featured Activity</li>
+                      </ul>
+                      <div class="featured-articles">
+                        {{ $pages := where site.Pages "Type" "in" "redirects" }}
+                        {{ $pages = where $pages "Section" "events" }}
+                        {{ range first 1 ($pages.ByDate.Reverse) }}
+                        <div class="article-card">
+                          <a href="{{ .Params.redirect }}" class="article-link" target="_blank">
+                            <div class="article-image">
+                              <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                            </div>
+                            <div class="article-content">
+                              <h4>{{ .Title }} will be held on {{ .Date.Format "January 2, 2006" }}</h4>
+                            </div>
+                          </a>
+                        </div>
+                        {{ end }}
+                        {{ range where site.Data.featured_articles.community "visible" true }}
+                        <div class="article-card">
+                          <a href="{{ .link }}" class="article-link">
+                            <div class="article-image">
+                              <img src="{{ .image }}" alt="{{ .title }}">
+                            </div>
+                            <div class="article-content">
+                              <h4>{{ .title }}</h4>
+                            </div>
+                          </a>
+                        </div>
+                        {{ end }}
+                        {{ else if eq .Name "Blog & News" }}
+                        <ul class="menu">
+                          <li class="menu-title">Featured Articles</li>
+                        </ul>
+                        <div class="featured-articles">
+                          {{ range where site.Data.featured_articles.blog "visible" true }}
+                          <div class="article-card">
+                            <a href="{{ .link }}" class="article-link">
+                              <div class="article-image">
+                                <img src="{{ .image }}" alt="{{ .title }}">
+                              </div>
+                              <div class="article-content">
+                                <h4>{{ .title }}</h4>
+                              </div>
+                            </a>
+                          </div>
+                          {{ end }}
+                        </div>
+                        {{ end }}
+                      </div>
+                    </div>
+                  </div>
         </li>
         {{ else }}
+        {{ if eq .Name "Schedule" }}
+        <li class="menu-item-has-children">
+          <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>{{ .Name }}</span></a>
+          <div class="sub-menu" style="padding:0px;margin:0px;">
+            <div style="width:100%;margin:0px" id="calendar-container">
+            </div>
+            </div>
+        </li>
+        {{else}}
         <li class="menu-item">
           <a href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}><span>{{ .Name }}</span></a>
         </li>
         {{ end }}
         {{ end }}
+        {{ end }}
       </ul>
 
       <div class="header-cta">
-        <a href="{{ "slack" | absURL }}" class="btn btn-primary" target="_blank">
+        <a href="{{ " slack" | absURL }}" class="btn btn-primary" target="_blank">
           <i class="ti-comments pr-2"></i>{{ T "join_slack" }}
         </a>
         {{ if in .CurrentSection.Permalink "/learn/learning-path"}}
@@ -128,69 +209,66 @@ document.addEventListener('DOMContentLoaded', function() {
 </header>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const hamburger = document.querySelector('.hamburger');
-  const menu = document.querySelector('.main-menu__wrapper');
-  const subMenuParents = document.querySelectorAll('.menu-item-has-children > a');
-  const isMobile = window.innerWidth <= 992;
+  document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.querySelector('.hamburger');
+    const menu = document.querySelector('.main-menu__wrapper');
+    const subMenuParents = document.querySelectorAll('.menu-item-has-children > a');
+    const isMobile = window.innerWidth <= 992;
 
-  // ハンバーガーメニューの開閉
-  hamburger.addEventListener('click', function() {
-    this.classList.toggle('is-active');
-    menu.classList.toggle('is-active');
-  });
-
-  // モバイル時のサブメニュー制御
-  if (isMobile) {
-    subMenuParents.forEach(item => {
-      item.addEventListener('click', function(e) {
-        e.preventDefault();
-        const parent = this.parentElement;
-        const subMenu = this.nextElementSibling;
-        
-        // 他のメニューを閉じる
-        subMenuParents.forEach(otherItem => {
-          if (otherItem !== this) {
-            otherItem.parentElement.classList.remove('is-active');
-            otherItem.nextElementSibling.classList.remove('is-active');
-          }
-        });
-
-        // 現在のメニューをトグル
-        parent.classList.toggle('is-active');
-        subMenu.classList.toggle('is-active');
-      });
+    // ハンバーガーメニューの開閉
+    hamburger.addEventListener('click', function () {
+      this.classList.toggle('is-active');
+      menu.classList.toggle('is-active');
     });
-  }
 
-  // ウィンドウリサイズ時の処理
-  window.addEventListener('resize', function() {
-    const isNowMobile = window.innerWidth <= 992;
-    if (isNowMobile !== isMobile) {
-      location.reload();
+    // モバイル時のサブメニュー制御
+    if (isMobile) {
+      subMenuParents.forEach(item => {
+        item.addEventListener('click', function (e) {
+          e.preventDefault();
+          const parent = this.parentElement;
+          const subMenu = this.nextElementSibling;
+
+          // 他のメニューを閉じる
+          subMenuParents.forEach(otherItem => {
+            if (otherItem !== this) {
+              otherItem.parentElement.classList.remove('is-active');
+              otherItem.nextElementSibling.classList.remove('is-active');
+            }
+          });
+
+          // 現在のメニューをトグル
+          parent.classList.toggle('is-active');
+          subMenu.classList.toggle('is-active');
+        });
+      });
     }
+
+    // ウィンドウリサイズ時の処理
+    window.addEventListener('resize', function () {
+      const isNowMobile = window.innerWidth <= 992;
+      if (isNowMobile !== isMobile) {
+        location.reload();
+      }
+    });
   });
-});
 </script>
 
 {{ "<!-- /navigation -->" | safeHTML }}
 
 {{ range site.Data.news }}
 {{ if .active }}
-<section class="notice bg-{{ .type }}{{ if eq .type "primary" }} text-light{{ end }}">
+<section class='notice bg-{{ .type }}{{ if eq .type "primary" }} text-light{{ end }}'>
   <div class="container">
-    <div class="row align-items-center">
       <div class="col-md-12">
         {{ if .url }}
-          <i class="ti-calendar mr-2"></i>
-          <a href="{{ .url }}" target="_blank">{{ .content }}</a>
+        <i class="ti-calendar mr-2"></i>
+        <a href="{{ .url }}" target="_blank">{{ .content }}</a>
         {{ else }}
-          {{ .content | markdownify }}
+        {{ .content | markdownify }}
         {{ end }}
-      </div>
     </div>
   </div>
 </section>
 {{ end }}
 {{ end }}
-

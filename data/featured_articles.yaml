@@ -1,0 +1,49 @@
+about:
+  - title: The Latest Case Study - Microsoft
+    image: https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/RWCZER-Legal-IP-Trademarks-CP-MS-logo-740x417-1
+    link: https://innersourcecommons.org/stories/microsoft/
+    visible: true
+
+activities:
+  - title: How the ISPO working group can help you [YouTube]
+    image: https://img.youtube.com/vi/Z56LmteBSiM/maxresdefault.jpg
+    link: https://www.youtube.com/watch?v=Z56LmteBSiM
+    visible: true
+  - title: State of InnerSource 2024 [YouTube]
+    image: https://img.youtube.com/vi/8AnaQ7p6iLg/maxresdefault.jpg
+    link: https://www.youtube.com/watch?v=8AnaQ7p6iLg
+    visible: true
+
+learning:
+  - title: "InnerSource Patterns, where the collaborative magic happens"
+    image: "https://2736370588-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fs9OEmdHhkmMvqlFUqXlU%2Fsocialpreview%2FzZq1AkbMAojyPa1wVtzJ%2Finnersource-patterns-book-cover-social-media-preview-gitbook.png?alt=media&token=2239b9d6-b6bb-4d4f-ac7d-2c7e45dc18de"
+    link: "https://patterns.innersourcecommons.org/"
+    visible: true
+  - title: "InnerSource Strategy and Configuration Management for GitHub"
+    image: https://images.unsplash.com/photo-1574790398664-0cb03682ed1c?q=80&w=400
+    link: "https://innersourcecommons.gitbook.io/managing-innersource-projects/innersource-tooling/github-strategy"
+    visible: true
+
+community:
+  - title: "InnerSource Gathering Berlin 2025 is open for registration!"
+    image: "https://gatherings.innersourcecommons.org/images/gathering/berlin-2025.png"
+    link: https://gatherings.innersourcecommons.org/berlin-2025/
+    visible: true
+  - title: Call for Hosts for InnerSource Summit 2025
+    image: https://images.unsplash.com/photo-1578054041218-5ee0003926dd?q=80&w=400
+    link: https://docs.google.com/forms/d/e/1FAIpQLSdjeQFYDVT_0pVwMJTHTmArMPLtq7oHwBO8CgQzd_aV0UxRKA/viewform
+    visible: true
+
+blog:
+  - title: 'InnerSource Commons welcomes our new Board and Officers'
+    image: "/images/about/announcements/2024-05-new-board-and-officers.png"
+    link: "/about/announcements/2024-05-new-board-and-officers"
+    visible: true
+  - title: 'New Members Appointed to the InnerSource Commons Foundation'
+    image: "/images/about/announcements/2024-04-new-members-announcement.png"
+    link: "/about/announcements/2024-04-new-members"
+    visible: true
+  - title: 'Russell Rutledge appointed as new Executive Director of InnerSource Commons'
+    image: "/images/about/announcements/2023-08-new-executive-director-announcement.png"
+    link: "/about/announcements/2023-08-new-executive-director"
+    visible: true

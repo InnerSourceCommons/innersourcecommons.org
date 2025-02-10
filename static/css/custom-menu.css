@@ -441,4 +441,16 @@
   vertical-align: middle;
   display: inline-block;
   text-align: left;
+}
+
+/* カレンダーのサブメニュー用スタイル */
+.menu-item-has-children:has(#calendar-container) .sub-menu {
+  max-width: 100%;
+  padding: 0;
+}
+
+.menu-item-has-children:has(#calendar-container) .sub-menu > div {
+  max-width: 100%;
+  margin: 0;
+  padding: 20px;
 } 

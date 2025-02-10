@@ -1,4 +1,3 @@
-# ニュースアイテムは上から新しい順に並べます
 - content: "Does your organization want to host InnerSource Summit 2025? Click [here](https://bit.ly/4fchanz) to apply or contact us at [info@innersourcecommons.org](mailto:info@innersourcecommons.org) to find out more"
   active: true
   type: "light"
@@ -7,7 +6,6 @@
   active: true
   type: "primary"
 
-# 以下は非アクティブな過去のお知らせ
 - content: "INNERSOURCE SUMMIT 2024 - book your ticket for November 20th and 21st"
   url: "https://bit.ly/ISCSUM24"
   active: false
