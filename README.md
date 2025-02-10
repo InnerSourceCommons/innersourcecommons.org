@@ -33,7 +33,7 @@ Alternatively, if you have [Docker][] installed in your machine, you can do the 
 git clone [url]
 cd innersourcecommons.org
 docker compose up -d
-``` 
+```
 
 ## Making changes to specific pages
 
