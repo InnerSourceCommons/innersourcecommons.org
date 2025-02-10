@@ -1,68 +1,10 @@
 main:
-  - name: Learn
-    URL: learn
-    weight: 1
-    identifier: learn
-  - name: Books
-    parent: learn
-    URL: learn/books
-    weight: 2
-  - name: Learning Path
-    parent: learn
-    URL: learn/learning-path
-    weight: 3
-  - name: Patterns
-    parent: learn
-    URL: learn/patterns
-    weight: 4
-  - name: Research
-    parent: learn
-    URL: learn/research
-    weight: 5
-  - name: Videos
-    parent: learn
-    URL: https://www.youtube.com/@InnerSourceCommons
-    weight: 6
-  - name: Events
-    URL: events/community-calls
-    weight: 2
-    identifier: events
-  - name: Summit 2024
-    URL: events/isc-2024
-    parent: events
-    weight: 4
-  - name: Local Gatherings
-    URL: https://gatherings.innersourcecommons.org/
-    parent: events
-    weight: 5
-  - name: Community Calls
-    URL: events/community-calls
-    parent: events
-    weight: 6
-  - name: Past Summits
-    URL: events/past-summits
-    parent: events
-    weight: 7
-  - name: Calendar
-    URL: calendar
-    weight: 3
-  - name: Community
-    identifier: community
-    URL: community
-    weight: 4
-  - name: Stories
-    URL: stories
-    weight: 5
-  - name: Services Directory
-    URL: community/services
-    parent: community
-    weight: 2
   - name: About
-    identifier: about
     URL: about
-    weight: 6
-  - name: Announcements
-    URL: about/announcements
+    weight: 1
+    identifier: about
+  - name: Who We Are
+    URL: about
     parent: about
     weight: 1
   - name: Board & Governance
@@ -73,22 +15,78 @@ main:
     URL: about/members
     parent: about
     weight: 3
-  - name: Sponsors
-    URL: about/sponsors
-    parent: about
-    weight: 4
   - name: Code of Conduct
     URL: about/codeofconduct
     parent: about
-    weight: 5
+    weight: 4
   - name: Contact Us
     URL: about/contact
     parent: about
+    weight: 5
+  - name: Projects
+    URL: learn/patterns
+    weight: 2
+    identifier: projects
+  - name: Patterns
+    URL: learn/patterns
+    parent: projects
+    weight: 1
+  - name: Research
+    URL: learn/research
+    parent: projects
+    weight: 2
+  - name: Training
+    URL: learn
+    weight: 3
+    identifier: training
+  - name: Books
+    URL: learn/books
+    parent: training
+    weight: 1
+  - name: Learning Path
+    URL: learn/learning-path
+    parent: training
+    weight: 2
+  - name: Community
+    URL: community
+    weight: 4
+    identifier: community
+  - name: Events
+    URL: events/community-calls
+    parent: community
+    weight: 1
+  - name: Summit 2024
+    URL: events/isc-2024
+    parent: community
+    weight: 2
+  - name: Local Gatherings
+    URL: https://gatherings.innersourcecommons.org/
+    parent: community
+    weight: 3
+  - name: Community Calls
+    URL: events/community-calls
+    parent: community
+    weight: 4
+  - name: Calendar
+    URL: calendar
+    parent: community
+    weight: 5
+  - name: Services Directory
+    URL: community/services
+    parent: community
     weight: 6
-  # - name: Vacancies
-  #   URL: about/vacancies
-  #   parent: about
-  #   weight: 7
+  - name: Blog & News
+    URL: about/announcements
+    weight: 5
+    identifier: news
+  - name: Announcements
+    URL: about/announcements
+    parent: news
+    weight: 1
+  - name: Stories
+    URL: stories
+    parent: news
+    weight: 2
 footer_left:
   - name: Learn
     URL: learn
