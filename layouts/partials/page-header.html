@@ -1,8 +1,6 @@
-<section class="section pb-0 section-first">
-  <div class="container text-center">
+  <div class="container">
     <h1 class="display-3">{{ .Title | markdownify }}</h1>
     {{ with .Params.subtitle }}
     <p>{{ . | markdownify }}</p>
     {{ end }}
   </div>
-</section>

@@ -2,50 +2,209 @@
 {{ partial "breadcrumbs.html" . }}
 {{ partial "page-header.html" . }}
 
-<section class="section">
   <div class="container">
-    <div class="row">
-      {{ range first 1 (where .Data.Pages.ByWeight ".Params.featured" "==" true) }}
-
-      <div class="col-12 mb-5 pb-5">
-        <div class="row align-items-center">
-          {{ if .Params.image }}
-          <div class="col-md-6 mb-4 mb-md-0">
-            <a href="{{.Permalink}}">
-              <img src="{{ .Params.image | absURL }}" alt="{{.Title}}" class="img-fluid rounded-lg w-100">
-            </a>
+    <div class="course-list">
+      <!-- Introduction を最初に表示 -->
+      {{ range where .Data.Pages.ByWeight "Title" "Introduction" }}
+      <div class="course-wrapper">
+        <a href="{{ default .Permalink .Params.redirect }}" data-course-link="{{ .Permalink }}" data-type="{{ .Kind }}" class="course-item-link">
+          <div class="course-item">
+            <div class="course-image">
+              {{ if .Params.image }}
+              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+              {{ end }}
+            </div>
+            <div class="course-content">
+              <h3>{{ .Title }}</h3>
+              <p class="course-description">{{ default .Summary .Params.description }}</p>
+              <div class="course-meta">
+                {{ if .Params.duration }}
+                <span class="duration">{{ .Params.duration }}</span>
+                {{ end }}
+                {{ if .Params.level }}
+                <span class="level">{{ .Params.level }}</span>
+                {{ end }}
+              </div>
+              <span class="btn-link">{{ T "learn_button" }} <i class="ti-arrow-right"></i></span>
+            </div>
           </div>
-          {{ end }}
-          <div class="col-md-6">
-            <h2><a href="{{ default .Permalink .Params.redirect }}" class="post-title"{{ with .Params.target }} target="{{ . }}"{{ end }}>
-              {{ .Title }}</a></h2>
-            <p class="card-text">{{ default .Summary .Params.description }}</p>
-            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary">
-              {{ T "learn_button" }}</a>
-          </div>
-        </div>
+        </a>
+        <div class="course-expanded-content"></div>
       </div>
       {{ end }}
-      {{ range where .Data.Pages.ByWeight ".Params.featured" "!=" true }}
-      <div class="col-lg-4 col-sm-4 mb-5">
-        <div class="card border-0">
-          {{ if .Params.image }}
-          <a href="{{.Permalink}}">
-            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img rounded-lg mb-4">
-          </a>
-          {{ end }}
-          <div class="card-body p-0">
-            <h3><a href="{{ default .Permalink .Params.redirect }}" class="post-title"{{ with .Params.target }} target="{{ . }}"{{ end }}>
-              {{ .Title }}</a></h3>
-            <p class="card-text">{{ default .Summary .Params.description }}</p>
-            <a href="{{ default .Permalink .Params.redirect }}" class="btn btn-primary btn-sm"{{ with .Params.target }} target="{{ . }}"{{ end }}>
-              {{ T "learn_button" }}</a>
+      
+      <!-- その他のページを表示 -->
+      {{ range where .Data.Pages.ByWeight "Title" "!=" "Introduction" }}
+      <div class="course-wrapper">
+        <a href="{{ default .Permalink .Params.redirect }}" data-course-link="{{ .Permalink }}" data-type="{{ .Kind }}" class="course-item-link">
+          <div class="course-item">
+            <div class="course-image">
+              {{ if .Params.image }}
+              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+              {{ end }}
+            </div>
+            <div class="course-content">
+              <h3>{{ .Title }}</h3>
+              <p class="course-description">{{ default .Summary .Params.description }}</p>
+              <div class="course-meta">
+                {{ if .Params.duration }}
+                <span class="duration">{{ .Params.duration }}</span>
+                {{ end }}
+                {{ if .Params.level }}
+                <span class="level">{{ .Params.level }}</span>
+                {{ end }}
+              </div>
+              <span class="btn-link">{{ T "learn_button" }} <i class="ti-arrow-right"></i></span>
+            </div>
           </div>
-        </div>
+        </a>
+        <div class="course-expanded-content"></div>
       </div>
       {{ end }}
     </div>
   </div>
-</section>
 
+  <!-- モーダルポップアップ -->
+  <div id="courseModal" class="course-modal">
+    <div class="course-modal-content">
+      <button id="modalClose" class="modal-close">&times;</button>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- JavaScriptを追加 -->
+  <script>
+  (function() {
+    function initializeCourseList() {
+      const isMobile = window.innerWidth < 768;
+      const courseLinks = document.querySelectorAll('.course-item-link');
+      const modal = document.getElementById('courseModal');
+      const modalClose = document.getElementById('modalClose');
+      
+      if (!courseLinks.length) return;
+
+      // コンテンツを取得して表示する関数
+      async function fetchAndDisplayContent(url, container) {
+        try {
+          const response = await fetch(url);
+          const html = await response.text();
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(html, 'text/html');
+          
+          // section section-first クラスを持つ要素を探す
+          const targetSection = doc.querySelector('.section.section-first');
+          
+          if (targetSection) {
+            // h1-h6要素を削除
+            targetSection.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(el => el.remove());
+            
+            // ナビゲーションボタンと関連要素を削除
+            targetSection.querySelectorAll([
+              '.navigation',
+              '.nav-buttons',
+              '.btn-next',
+              '.btn-prev',
+              '.btn',
+              '.button',
+              '[class*="btn-"]',
+              '.navigation-buttons',
+              '.page-navigation'
+            ].join(',')).forEach(el => el.remove());
+            
+            // スタイルを維持するためにラッパーを作成
+            const wrapper = document.createElement('div');
+            wrapper.className = 'section section-first full-width';
+            wrapper.innerHTML = targetSection.innerHTML;
+            
+            // コンテナに表示
+            container.innerHTML = '';
+            container.appendChild(wrapper);
+          } else {
+            console.error('対象のセクションが見つかりませんでした');
+          }
+        } catch (error) {
+          console.error('コンテンツの読み込みに失敗しました:', error);
+        }
+      }
+      
+      courseLinks.forEach(link => {
+        link.addEventListener('click', async function(e) {
+          if (isMobile) return; // モバイルの場合は通常の遷移
+
+          // パンくずリストの最新部分を取得
+          const breadcrumbs = document.querySelector('.breadcrumb');
+          const lastBreadcrumb = breadcrumbs ? breadcrumbs.lastElementChild : null;
+          const isListPage = lastBreadcrumb && lastBreadcrumb.textContent.trim() === 'Learning Path';
+          const targetType = this.getAttribute('data-type');
+
+          // list → list の遷移の場合は通常の遷移を行う
+          if (isListPage && targetType === 'section') {
+            return;
+          }
+          
+          e.preventDefault();
+          const url = this.getAttribute('data-course-link');
+          const wrapper = this.closest('.course-wrapper');
+          const expandedContent = wrapper.querySelector('.course-expanded-content');
+          
+          if (window.innerWidth >= 1024) { // PCの場合
+            // 同じ項目がクリックされた場合は閉じる
+            if (expandedContent.classList.contains('active')) {
+              expandedContent.innerHTML = '';
+              expandedContent.classList.remove('active');
+              return;
+            }
+
+            // 他の展開されたコンテンツを閉じる
+            document.querySelectorAll('.course-expanded-content.active').forEach(content => {
+              if (content !== expandedContent) {
+                content.innerHTML = '';
+                content.classList.remove('active');
+              }
+            });
+            
+            await fetchAndDisplayContent(url, expandedContent);
+            expandedContent.classList.add('active');
+            expandedContent.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          } else if (modal) { // タブレットの場合
+            // モーダルが既に表示されている場合は閉じる
+            if (modal.classList.contains('active')) {
+              modal.classList.remove('active');
+              modal.querySelector('.modal-body').innerHTML = '';
+              return;
+            }
+
+            await fetchAndDisplayContent(url, modal.querySelector('.modal-body'));
+            modal.classList.add('active');
+          }
+        });
+      });
+      
+      // モーダルを閉じる
+      if (modalClose) {
+        modalClose.addEventListener('click', function() {
+          if (modal) {
+            modal.classList.remove('active');
+            modal.querySelector('.modal-body').innerHTML = '';
+          }
+        });
+        
+        // モーダルの外側をクリックしても閉じる
+        modal.addEventListener('click', function(e) {
+          if (e.target === modal) {
+            modal.classList.remove('active');
+            modal.querySelector('.modal-body').innerHTML = '';
+          }
+        });
+      }
+    }
+
+    // DOMContentLoadedイベントで初期化
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializeCourseList);
+    } else {
+      initializeCourseList();
+    }
+  })();
+  </script>
 {{ end }}
