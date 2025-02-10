@@ -1,17 +1,17 @@
-.navigation {
-  position: relative;
-  padding: 10px 0;
-  background: #fff;
-  border-bottom: 1px solid #eee;
-}
-
 .container.wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
   max-width: 1140px;
-  padding: 0 15px;
+  padding: 0 30px;
   margin: 0 auto;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+.logo {
+  padding-right: 15px;
 }
 
 .logo img {
@@ -22,7 +22,7 @@
 .main-menu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex: 1;
   margin-left: 30px;
 }
@@ -32,6 +32,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  justify-content: center;
+  gap: 30px;
 }
 
 /* ハンバーガーメニュー */
@@ -97,13 +99,13 @@
 
 .menu-item-has-children {
   position: static;
-  padding: 0 15px;
+  padding: 0;
 }
 
 .menu-item-has-children > a {
   color: #333;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
   padding: 15px 0;
   display: block;
   position: relative;
@@ -113,7 +115,7 @@
 .menu-item-has-children > a::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   width: 100%;
   height: 2px;
@@ -124,7 +126,7 @@
 /* デスクトップのみホバーエフェクト */
 @media (min-width: 993px) {
   .menu-item-has-children:hover > a::after {
-    background: #0066cc;
+    background: #0aa8a7 !important;
   }
 
   .menu-item-has-children:hover .sub-menu {
@@ -135,7 +137,7 @@
 .sub-menu {
   display: none;
   position: fixed;
-  top: 62px;
+  top: 47px;
   left: 0;
   right: 0;
   background: #fff;
@@ -147,10 +149,10 @@
 .sub-menu::before {
   content: '';
   position: absolute;
-  top: -10px;
+  top: -1px;
   left: 0;
   right: 0;
-  height: 10px;
+  height: 1px;
   background: transparent;
 }
 
@@ -290,46 +292,50 @@
     flex-wrap: nowrap;
   }
 
-  .main-menu {
-    position: static;
-    margin-left: 0;
-  }
-
   .main-menu__wrapper {
+    justify-content: flex-start;
+    gap: 0;
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     background: #fff;
-    padding: 20px;
+    padding: 20px 30px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     z-index: 1000;
+    flex-direction: column;
+    width: 100%;
   }
 
   .main-menu__wrapper.is-active {
     display: block;
   }
 
-  .main-menu__wrapper {
-    flex-direction: column;
-    width: 100%;
-  }
-
   .menu-item-has-children {
     padding: 0;
+    list-style-type: none;
   }
 
   .menu-item-has-children > a {
-    padding: 12px 0;
+    padding: 12px;
     border-bottom: 1px solid #eee;
+    position: relative;
+  }
+
+  .menu-item-has-children:first-child > a {
+    border-top: none;
+  }
+
+  .menu-item-has-children:last-child > a {
+    border-bottom: none;
   }
 
   /* モバイル時のサブメニュー表示制御 */
   .menu-item-has-children > a::after {
     content: '+';
     position: absolute;
-    right: 0;
+    right: 12px;
     top: 50%;
     transform: translateY(-50%);
     background: none;
@@ -345,7 +351,7 @@
   .sub-menu {
     position: static;
     box-shadow: none;
-    padding: 0;
+    padding: 0 0 0 15px;
     margin: 10px 0;
     display: none;
   }
@@ -357,7 +363,17 @@
   .col-container {
     grid-template-columns: 1fr;
     gap: 20px;
-    padding: 15px;
+    padding: 15px 30px;
+  }
+
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-item {
+    list-style-type: none;
   }
 
   .hamburger {
