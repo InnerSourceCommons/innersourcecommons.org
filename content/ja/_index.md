@@ -7,9 +7,9 @@ fetchYoutubeVideos: true
 	style="background-image:url(https://gatherings.innersourcecommons.org/images/main-dark.png); background-size: cover; background-position: center; height:400px;">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-7 mr-auto">
+			<div class="col-lg-12 mr-auto">
 				<div class="banner-content">
-					<h1 style="font-size: 40px; color: white; text-align: center;">InnerSource Commons へようこそ！</h1>
+					<h1 style="font-size: 40px; color: white; text-align: left;">InnerSource Commons へようこそ！</h1>
 				</div>
 			</div>
 		</div>
