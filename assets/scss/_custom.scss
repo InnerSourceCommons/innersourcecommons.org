@@ -19,16 +19,82 @@ a:hover, .content a:hover {
 .author{ width:25% }
 
 .notice {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 8px 0;
+    background: inherit;
+    font-size: 13px;
+    line-height: 1.4;
+    
+    a {
+        color: inherit;
+        text-decoration: underline;
+        
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    
+    .container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
 
 .section-first {
-    padding-top: 20px;
+    padding-top: 40px;
+    
+    .h1 {
+      margin-bottom: 30px;
+    }
+    
+    p {
+      margin-bottom: 20px;
+    }
 }
 
 .section-last {
     padding-top: 0;
+    
+    .section-small {
+        max-width: 800px;
+        margin: 0 auto;
+        
+        @media (max-width: 992px) {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        
+        @media (max-width: 576px) {
+            max-width: calc(100% - 24px);
+            margin: 0 12px;
+            padding: 20px 15px;
+        }
+        
+        p {
+            @media (max-width: 576px) {
+                font-size: 14px;
+                line-height: 1.5;
+                margin-bottom: 15px;
+            }
+        }
+        
+        .h2 {
+            @media (max-width: 576px) {
+                font-size: 20px;
+                margin-bottom: 12px;
+            }
+        }
+        
+        a {
+            @media (max-width: 576px) {
+                display: inline;
+                padding: 0;
+                margin: 0;
+                border: none;
+                font-weight: 500;
+            }
+        }
+    }
 }
 
 .section-small {
@@ -83,17 +149,17 @@ ol.breadcrumb {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 30px 15px;
+  padding: 15px;
   display: inline;
 }
 .navbar-expand-lg .navbar-nav .nav-with-toggle {
-  padding: 30px 0px;
+  padding: 15px 0;
   display: inline;
 }
 .nav-item{
-  padding: 0px 0px;
-  height:44px;
-  line-height: 44px;
+  padding: 0;
+  height:48px;
+  line-height: 48px;
 }
 .show {
     z-index:100;
@@ -453,10 +519,22 @@ button.svelte-la9dd4:disabled {
       max-width: 100%;
       font-size: 14px;
       color: #666;
+      
+      @media (max-width: 576px) {
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+      }
     }
     
     .signup-text {
-      white-space: nowrap;
+      white-space: normal;
+      
+      @media (max-width: 576px) {
+        width: 100%;
+        font-size: 13px;
+        margin-bottom: 4px;
+      }
     }
     
     .form-input {
@@ -464,6 +542,12 @@ button.svelte-la9dd4:disabled {
       border: 1px solid #e5e5e5;
       padding: 6px 12px;
       font-size: 14px;
+      
+      @media (max-width: 576px) {
+        width: calc(100% - 80px);
+        font-size: 13px;
+        padding: 4px 8px;
+      }
       
       &:focus {
         outline: none;
@@ -481,9 +565,59 @@ button.svelte-la9dd4:disabled {
       font-weight: 600;
       cursor: pointer;
       
+      @media (max-width: 576px) {
+        width: 70px;
+        text-align: right;
+        font-size: 13px;
+        padding: 4px 0;
+      }
+      
       &:hover {
         text-decoration: underline;
       }
     }
   }
+}
+
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  color: #0aa8a7;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0;
+  border: none;
+  
+  i {
+    margin-left: 6px;
+    font-size: 12px;
+    transition: transform 0.2s ease;
+  }
+  
+  &:hover {
+    color: darken(#0aa8a7, 10%);
+    text-decoration: none;
+    
+    i {
+      transform: translateX(3px);
+    }
+  }
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 1000;
+  border-bottom: 1px solid #eee;
+}
+
+body {
+  padding-top: 48px;
+}
+
+body.has-notice {
 }

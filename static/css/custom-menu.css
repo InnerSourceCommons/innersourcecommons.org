@@ -8,6 +8,7 @@
   background: #fff;
   border-bottom: 1px solid #eee;
   position: relative;
+  min-height: 48px;
 }
 
 
@@ -264,7 +265,7 @@
     left: 0;
     right: 0;
     background: #fff;
-    padding: 20px 30px;
+    padding: 0 30px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     z-index: 1000;
     flex-direction: column;
@@ -281,7 +282,7 @@
   }
 
   .menu-item-has-children > a {
-    padding: 12px;
+    padding: 8px 12px;
     border-bottom: 1px solid #eee;
     position: relative;
   }
@@ -364,7 +365,7 @@
   }
 
   .logo img {
-    height: 28px;
+    height: 32px;
   }
 
   .menu-item-has-children > a {
@@ -373,6 +374,10 @@
 
   .menu-item a {
     font-size: 12px;
+  }
+
+  .container.wrap {
+    min-height: 48px;
   }
 
   .notice {

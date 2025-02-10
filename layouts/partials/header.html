@@ -1,4 +1,12 @@
 {{ "<!-- navigation -->" | safeHTML }}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const notice = document.querySelector('.notice');
+  if (notice) {
+    document.body.classList.add('has-notice');
+  }
+});
+</script>
 <header class="navigation">
   <div class="container wrap">
     <div class="logo">
