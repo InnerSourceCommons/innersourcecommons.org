@@ -1,134 +1,238 @@
 main:
-- name: 学ぶ
-  URL: ja/learn
-  weight: 1
-  identifier: learn
-- name: 関連書籍
-  parent: learn
-  URL: ja/learn/books
-  weight: 2
-- name: ラーニングパス
-  parent: learn
-  URL: ja/learn/learning-path
-  weight: 3
-- name: インナーソースパターン
-  parent: learn
-  URL: ja/learn/patterns
-  weight: 4
-- name: リサーチ
-  parent: learn
-  URL: ja/learn/research
-  weight: 5
-- name: ビデオ
-  parent: learn
-  URL: https://www.youtube.com/@InnerSourceCommons
-  weight: 6
-- name: イベント
-  URL: ja/events/community-calls
-  weight: 2
-- name: コミュニティ
-  identifier: community
-  URL: ja/community
-  weight: 3
-- name: 事例
-  URL: ja/stories
-  weight: 4
-- name: 提供企業
-  URL: ja/community/services
-  parent: community
-  weight: 2
-- name: About
-  identifier: about
-  URL: ja/about
-  weight: 5
-- name: アナウンス
-  URL: ja/about/announcements
-  parent: about
-  weight: 1
-- name: 役員とガバナンス
-  URL: ja/about/board
-  parent: about
-  weight: 2
-- name: メンバーについて
-  URL: ja/about/members
-  parent: about
-  weight: 3
-- name: スポンサー
-  URL: ja/about/sponsors
-  parent: about
-  weight: 4
-- name: 行動規範
-  URL: ja/about/codeofconduct
-  parent: about
-  weight: 5
-- name: お問合せ
-  URL: ja/about/contact
-  parent: about
-  weight: 6
-# - name: 欠員
-#   URL: ja/about/vacancies
-#   parent: about
-#   weight: 7
+  - name: About
+    URL: about
+    weight: 1
+    identifier: about
+  - name: "私たちについて"
+    URL: about
+    parent: about
+    weight: 2
+  - name: "理事会とガバナンス"
+    URL: about/board
+    parent: about
+    weight: 3
+  - name: "メンバー"
+    URL: about/members
+    parent: about
+    weight: 4
+  - name: "スポンサー"
+    URL: about/sponsors
+    parent: about
+    weight: 5
+  - name: "InnerSource ストーリー"
+    URL: stories
+    parent: about
+    weight: 6
+  - name: GitHub
+    URL: https://github.com/InnerSourceCommons
+    parent: about
+    weight: 7
+  - name: "お問い合わせ"
+    URL: about/contact
+    parent: about
+    weight: 10
+  - name: "行動規範"
+    URL: about/codeofconduct
+    parent: about
+    weight: 11
+
+
+# Projects
+  - name: Activities
+    URL: learn/patterns
+    weight: 2
+    identifier: activities
+  - name: "活動"
+    URL: /community
+    parent: activities
+    weight: 1
+  - name: InnerSource Patterns Working Group
+    URL: /learn/patterns
+    parent: activities
+    weight: 1
+  - name: ISPO Working Group
+    URL: /community/
+    parent: activities
+    weight: 2
+  - name: Learning Path Working Group
+    URL: /community/
+    parent: activities
+    weight: 3
+  - name: Marketing & Outreach Working Group
+    URL: /community/
+    parent: activities
+    weight: 4
+  - name: "ローカルコミュニティ"
+    URL: /community/
+    parent: activities
+    weight: 7
+  - name: "InnerSourceサーベイの現状"
+    URL: learn/research
+    parent: activities
+    weight: 8
+
+## Learning
+  - name: Learning
+    URL: learn
+    weight: 1
+    identifier: learning
+  - name: "学習"
+    URL: learn/
+    parent: learning
+    weight: 1
+  - name: "ラーニングパス"
+    URL: learn/learning-path
+    parent: learning
+    weight: 2
+  - name: InnerSource Patterns
+    URL: https://innersourcecommons.org/learn/books/innersource-patterns/
+    parent: learning
+    weight: 3
+  - name: "InnerSourceプロジェクトの管理"
+    URL: https://innersourcecommons.org/learn/books/managing-innersource-projects/
+    parent: learning
+    weight: 4
+  - name: "動画"
+    URL: https://www.youtube.com/@InnerSourceCommons
+    parent: learning
+    weight: 5
+  - name: "書籍"
+    URL: learn/books
+    parent: learning
+    weight: 6
+  - name: "InnerSourceを始めよう"
+    URL: https://innersourcecommons.org/learn/books/getting-started-with-innersource/
+    parent: learning
+    weight: 7
+  - name: "InnerSourceチェックリストの理解"
+    URL: https://innersourcecommons.org/learn/books/understanding-the-innersource-checklist/
+    parent: learning
+    weight: 8
+  - name: "InnerSourceの原則と事例研究の採用"
+    URL: https://innersourcecommons.org/learn/books/adopting-innersource-principles-and-case-studies/
+    parent: learning
+    weight: 9
+
+# Community
+  - name: Community
+    URL: community
+    weight: 4
+    identifier: community
+  - name: "コミュニティコール"
+    URL: events/community-calls
+    parent: community
+    weight: 1
+    
+  - name: "InnerSource Gatherings - ローカルチャプター"
+    URL: https://gatherings.innersourcecommons.org/
+    parent: community
+    weight: 3
+  - name: "InnerSourceサミット2024"
+    URL: events/isc-2024
+    parent: community
+    weight: 4
+  - name: "過去のサミット"
+    URL: https://innersourcecommons.org/events/past-summits/
+    parent: community
+    weight: 5
+  - name: "サービスディレクトリ"
+    URL: community/services
+    parent: community
+    weight: 10
+  - name: "InnerSourcersマップ"
+    URL: about/map
+    parent: community
+    weight: 11
+
+# News
+  - name: Blog & News
+    URL: about/announcements
+    weight: 5
+    identifier: news
+  - name: "お知らせ"
+    URL: about/announcements
+    parent: news
+    weight: 1
+  - name: "過去のニュースレター"
+    URL: https://us1.campaign-archive.com/home/?u=0363fb06e6a59d48c6e260f1b&id=97224b5ff2
+    parent: news
+    weight: 1
+
+# Calendar
+  - name: Schedule
+    URL: #
+    weight: 9
+    identifier: schedule
+
 footer_left:
-- name: 学ぶ
-  URL: ja/learn
-  weight: 1
-  post: bold
-- name: 関連書籍
-  URL: ja/learn/books
-  weight: 2
-- name: ラーニングパス
-  URL: ja/learn/learning-path
-  weight: 3
-- name: インナーソースパターン
-  URL: ja/learn/patterns
-  weight: 4
-- name: リサーチ
-  URL: ja/learn/research
-  weight: 5
+  - name: "学習"
+    URL: learn
+    weight: 1
+    post: bold
+  - name: "書籍"
+    URL: learn/books
+    weight: 2
+  - name: "ラーニングパス"
+    URL: learn/learning-path
+    weight: 3
+  - name: "パターン"
+    URL: learn/patterns
+    weight: 4
+  - name: "研究"
+    URL: learn/research
+    weight: 5
 footer_middle:
-- name: イベント
-  URL: ja/events/community-calls
-  weight: 1
-  post: bold
-- name: コミュニティ
-  URL: ja/community
-  weight: 2
-  post: bold
-  pre: _blank
-- name: 事例
-  URL: ja/stories
-  weight: 3
-  post: bold
-- name: 提供企業
-  URL: ja/community/services
-  weight: 4
-- name: アナウンス
-  URL: ja/about/announcements
-  weight: 5
+  - name: "イベント"
+    URL: events/community-calls
+    weight: 1
+    post: bold
+  - name: "サミット2024"
+    URL: events/isc-2024
+    weight: 2
+  - name: "ローカル集会"
+    URL: https://gatherings.innersourcecommons.org/
+    weight: 3
+  - name: "過去のサミット"
+    URL: events/past-summits
+    weight: 3
+  - name: "コミュニティ"
+    URL: community
+    weight: 4
+    post: bold
+    pre: _blank
+  - name: "ストーリー"
+    URL: stories
+    weight: 5
+    post: bold
+  - name: "サービスディレクトリ"
+    URL: community/services
+    weight: 6
+  - name: "お知らせ"
+    URL: about/announcements
+    weight: 7
 footer_right:
-- name: About
-  URL: ja/about
-  weight: 1
-  post: bold
-- name: 役員とガバナンス
-  URL: ja/about/board
-  weight: 2
-- name: メンバーについて
-  URL: ja/about/members
-  weight: 3
-- name: スポンサー
-  URL: ja/about/sponsors
-  weight: 4
-- name: 行動規範
-  URL: ja/about/codeofconduct
-  weight: 5
-- name: お問合せ
-  URL: ja/about/contact
-  weight: 6
-- name: プライバシーポリシー
-  URL: ja/about/privacy
-  weight: 7
-# - name: 欠員
-#   URL: ja/about/vacancies
-#   weight: 8
+  - name: "概要"
+    URL: about
+    weight: 1
+    post: bold
+  - name: "理事会とガバナンス"
+    URL: about/board
+    weight: 2
+  - name: "メンバー"
+    URL: about/members
+    weight: 3
+  - name: "スポンサー"
+    URL: about/sponsors
+    weight: 4
+  - name: "行動規範"
+    URL: about/codeofconduct
+    weight: 5
+  - name: "お問い合わせ"
+    URL: about/contact
+    weight: 6
+  - name: "プライバシーポリシー"
+    URL: about/privacy
+    weight: 7
+  # - name: "求人"
+  #   URL: about/vacancies
+  #   weight: 8

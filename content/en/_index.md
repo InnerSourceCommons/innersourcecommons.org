@@ -3,6 +3,19 @@ title: "InnerSource Commons"
 fetchYoutubeVideos: true
 ---
 
+<section class="section-banner d-flex align-items-center"
+	style="background-image:url(https://gatherings.innersourcecommons.org/images/main-dark.png); background-size: cover; background-position: center; height:400px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 mr-auto">
+				<div class="banner-content">
+					<h1 style="font-size: 40px; color: white; text-align: center;">Welcome to InnerSource Commons</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section class="section section-first">
   <div class="container">
     <div class="row align-items-center">

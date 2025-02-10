@@ -1,120 +1,238 @@
 main:
-  - name: Обучение
-    URL: ru/learn
+  - name: About
+    URL: about
     weight: 1
-    identifier: learn
-  - name: Книги
-    parent: learn
-    URL: ru/learn/books
-    weight: 2
-  - name: Программа обучения
-    parent: learn
-    URL: ru/learn/learning-path
-    weight: 3
-  - name: Паттерны
-    parent: learn
-    URL: ru/learn/patterns
-    weight: 4
-  - name: Исследования
-    parent: learn
-    URL: ru/learn/research
-    weight: 5
-  - name: Видео
-    parent: learn
-    URL: https://www.youtube.com/@InnerSourceCommons
-    weight: 6
-  - name: События
-    URL: ru/events/community-calls
-    weight: 2
-  - name: Сообщество
-    identifier: community
-    URL: ru/community
-    weight: 3
-  - name: Истории
-    URL: ru/stories
-    weight: 4
-  - name: Каталог услуг
-    URL: ru/community/services
-    parent: community
-    weight: 2
-  - name: О нас
     identifier: about
-    URL: ru/about
-    weight: 5
-  - name: Объявления
-    URL: ru/about/announcements
-    parent: about
-    weight: 1
-  - name: Совет и управление
-    URL: ru/about/board
+  - name: "Кто мы"
+    URL: about
     parent: about
     weight: 2
-  - name: Участники
-    URL: ru/about/members
+  - name: "Совет и управление"
+    URL: about/board
     parent: about
     weight: 3
-  - name: Спонсоры
-    URL: ru/about/sponsors
+  - name: "Участники"
+    URL: about/members
     parent: about
     weight: 4
-  - name: Кодекс поведения
-    URL: ru/about/codeofconduct
+  - name: "Спонсоры"
+    URL: about/sponsors
     parent: about
     weight: 5
-  - name: Контакты
-    URL: ru/about/contact
+  - name: "Истории InnerSource"
+    URL: stories
     parent: about
     weight: 6
+  - name: GitHub
+    URL: https://github.com/InnerSourceCommons
+    parent: about
+    weight: 7
+  - name: "Связаться с нами"
+    URL: about/contact
+    parent: about
+    weight: 10
+  - name: "Кодекс поведения"
+    URL: about/codeofconduct
+    parent: about
+    weight: 11
+
+
+# Projects
+  - name: Activities
+    URL: learn/patterns
+    weight: 2
+    identifier: activities
+  - name: "Деятельность"
+    URL: /community
+    parent: activities
+    weight: 1
+  - name: InnerSource Patterns Working Group
+    URL: /learn/patterns
+    parent: activities
+    weight: 1
+  - name: ISPO Working Group
+    URL: /community/
+    parent: activities
+    weight: 2
+  - name: Learning Path Working Group
+    URL: /community/
+    parent: activities
+    weight: 3
+  - name: Marketing & Outreach Working Group
+    URL: /community/
+    parent: activities
+    weight: 4
+  - name: "Локальное сообщество"
+    URL: /community/
+    parent: activities
+    weight: 7
+  - name: "Состояние опроса InnerSource"
+    URL: learn/research
+    parent: activities
+    weight: 8
+
+## Learning
+  - name: Learning
+    URL: learn
+    weight: 1
+    identifier: learning
+  - name: "Обучение"
+    URL: learn/
+    parent: learning
+    weight: 1
+  - name: "Путь обучения"
+    URL: learn/learning-path
+    parent: learning
+    weight: 2
+  - name: InnerSource Patterns
+    URL: https://innersourcecommons.org/learn/books/innersource-patterns/
+    parent: learning
+    weight: 3
+  - name: "Управление проектами InnerSource"
+    URL: https://innersourcecommons.org/learn/books/managing-innersource-projects/
+    parent: learning
+    weight: 4
+  - name: "Видео"
+    URL: https://www.youtube.com/@InnerSourceCommons
+    parent: learning
+    weight: 5
+  - name: "Книги"
+    URL: learn/books
+    parent: learning
+    weight: 6
+  - name: "Начало работы с InnerSource"
+    URL: https://innersourcecommons.org/learn/books/getting-started-with-innersource/
+    parent: learning
+    weight: 7
+  - name: "Понимание контрольного списка InnerSource"
+    URL: https://innersourcecommons.org/learn/books/understanding-the-innersource-checklist/
+    parent: learning
+    weight: 8
+  - name: "Принятие принципов и примеры использования InnerSource"
+    URL: https://innersourcecommons.org/learn/books/adopting-innersource-principles-and-case-studies/
+    parent: learning
+    weight: 9
+
+# Community
+  - name: Community
+    URL: community
+    weight: 4
+    identifier: community
+  - name: "Звонки сообщества"
+    URL: events/community-calls
+    parent: community
+    weight: 1
+    
+  - name: "Встречи InnerSource - Локальные главы"
+    URL: https://gatherings.innersourcecommons.org/
+    parent: community
+    weight: 3
+  - name: "Саммит InnerSource 2024"
+    URL: events/isc-2024
+    parent: community
+    weight: 4
+  - name: "Прошедшие саммиты"
+    URL: https://innersourcecommons.org/events/past-summits/
+    parent: community
+    weight: 5
+  - name: "Каталог услуг"
+    URL: community/services
+    parent: community
+    weight: 10
+  - name: "Карта InnerSourcers"
+    URL: about/map
+    parent: community
+    weight: 11
+
+# News
+  - name: Blog & News
+    URL: about/announcements
+    weight: 5
+    identifier: news
+  - name: "Объявления"
+    URL: about/announcements
+    parent: news
+    weight: 1
+  - name: "Предыдущие рассылки"
+    URL: https://us1.campaign-archive.com/home/?u=0363fb06e6a59d48c6e260f1b&id=97224b5ff2
+    parent: news
+    weight: 1
+
+# Calendar
+  - name: Schedule
+    URL: #
+    weight: 9
+    identifier: schedule
+
 footer_left:
-  - name: Обучение
-    URL: ru/learn
+  - name: "Обучение"
+    URL: learn
     weight: 1
     post: bold
-  - name: Книги
-    URL: ru/learn/books
+  - name: "Книги"
+    URL: learn/books
     weight: 2
+  - name: "Путь обучения"
+    URL: learn/learning-path
+    weight: 3
+  - name: "Шаблоны"
+    URL: learn/patterns
+    weight: 4
+  - name: "Исследования"
+    URL: learn/research
+    weight: 5
 footer_middle:
-  - name: События
-    URL: ru/events/community-calls
+  - name: "События"
+    URL: events/community-calls
     weight: 1
     post: bold
-  - name: Сообщество
-    URL: ru/community
+  - name: "Саммит 2024"
+    URL: events/isc-2024
     weight: 2
+  - name: "Локальные встречи"
+    URL: https://gatherings.innersourcecommons.org/
+    weight: 3
+  - name: "Прошедшие саммиты"
+    URL: events/past-summits
+    weight: 3
+  - name: "Сообщество"
+    URL: community
+    weight: 4
     post: bold
     pre: _blank
-  - name: Истории
-    URL: ru/stories
-    weight: 3
-    post: bold
-  - name: Каталог услуг
-    URL: ru/community/services
-    weight: 4
-  - name: Объявления
-    URL: ru/about/announcements
+  - name: "Истории"
+    URL: stories
     weight: 5
+    post: bold
+  - name: "Каталог услуг"
+    URL: community/services
+    weight: 6
+  - name: "Объявления"
+    URL: about/announcements
+    weight: 7
 footer_right:
-  - name: О нас
-    URL: ru/about
+  - name: "О нас"
+    URL: about
     weight: 1
     post: bold
-  - name: Совет и управление
-    URL: ru/about/board
+  - name: "Совет и управление"
+    URL: about/board
     weight: 2
-  - name: Участники
-    URL: ru/about/members
+  - name: "Участники"
+    URL: about/members
     weight: 3
-  - name: Спонсоры
-    URL: ru/about/sponsors
+  - name: "Спонсоры"
+    URL: about/sponsors
     weight: 4
-  - name: Кодекс поведения
-    URL: ru/about/codeofconduct
+  - name: "Кодекс поведения"
+    URL: about/codeofconduct
     weight: 5
-  - name: Контакты
-    URL: ru/about/contact
+  - name: "Связаться с нами"
+    URL: about/contact
     weight: 6
-  - name: Политика конфиденциальности
-    URL: ru/about/privacy
+  - name: "Политика конфиденциальности"
+    URL: about/privacy
     weight: 7
-
-
+  # - name: "Вакансии"
+  #   URL: about/vacancies
+  #   weight: 8

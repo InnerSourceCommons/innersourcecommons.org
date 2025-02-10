@@ -122,10 +122,6 @@ main:
     URL: events/community-calls
     parent: community
     weight: 1
-  - name: Calendar
-    URL: calendar
-    parent: community
-    weight: 2
     
   - name: InnerSource Gatherings - Local Chapters
     URL: https://gatherings.innersourcecommons.org/
