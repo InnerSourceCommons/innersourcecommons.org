@@ -83,6 +83,13 @@
       
       if (!courseLinks.length) return;
 
+      // パンくずリストから現在のページがLearnページかどうかを判断
+      const breadcrumbs = document.querySelector('.breadcrumb');
+      const lastBreadcrumb = breadcrumbs ? breadcrumbs.lastElementChild : null;
+      const isLearnPage = lastBreadcrumb && 
+        (lastBreadcrumb.textContent.trim() === 'Learn' || 
+         lastBreadcrumb.textContent.trim() === 'Learning Path');
+
       // コンテンツを取得して表示する関数
       async function fetchAndDisplayContent(url, container) {
         try {
@@ -129,19 +136,8 @@
       
       courseLinks.forEach(link => {
         link.addEventListener('click', async function(e) {
-          if (isMobile) return; // モバイルの場合は通常の遷移
+          if (isMobile || isLearnPage) return; // モバイルまたはLearnページの場合は通常の遷移
 
-          // パンくずリストの最新部分を取得
-          const breadcrumbs = document.querySelector('.breadcrumb');
-          const lastBreadcrumb = breadcrumbs ? breadcrumbs.lastElementChild : null;
-          const isListPage = lastBreadcrumb && lastBreadcrumb.textContent.trim() === 'Learning Path';
-          const targetType = this.getAttribute('data-type');
-
-          // list → list の遷移の場合は通常の遷移を行う
-          if (isListPage && targetType === 'section') {
-            return;
-          }
-          
           e.preventDefault();
           const url = this.getAttribute('data-course-link');
           const wrapper = this.closest('.course-wrapper');
