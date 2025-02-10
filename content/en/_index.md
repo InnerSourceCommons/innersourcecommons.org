@@ -99,8 +99,8 @@ fetchYoutubeVideos: true
 </section>
 
 <section class="section-last section">
-  <div class="container section-small shadow rounded-lg px-4 bg-light">
-    <div class="row align-items-center  text-md-left">
+  <div class="container shadow rounded-lg bg-light" style="padding: 20px;">
+    <div class="row">
       <div class="col-md-12">
         <p class="h2 section-title">Stay Connected</p>
         <p>Most of the action in the community happens on our <a href="/slack">Slack Channel</a>. You can also keep informed about the InnerSource Commons news, events and activities by signing up to our newsletter below, follow us on <a href="https://twitter.com/InnerSourceOrg">Twitter</a> and <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>, and subscribing to our <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube Channel</a>.</p>
