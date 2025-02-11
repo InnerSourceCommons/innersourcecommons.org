@@ -4,7 +4,7 @@ fetchYoutubeVideos: true
 ---
 
 <section class="section-banner d-flex align-items-center"
-	style="background-image:url(https://gatherings.innersourcecommons.org/images/main-dark.png); background-size: cover; background-position: center; height:400px;">
+	style="background-image:url(/images/photos/welcome-to-the-isc.jpg); background-size: cover; background-position: center; height:400px;">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 mr-auto">

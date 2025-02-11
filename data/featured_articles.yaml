@@ -6,11 +6,11 @@ about:
 
 activities:
   - title: How the ISPO working group can help you [YouTube]
-    image: https://img.youtube.com/vi/Z56LmteBSiM/maxresdefault.jpg
+    image: https://img.youtube.com/vi/Z56LmteBSiM/hqdefault.jpg
     link: https://www.youtube.com/watch?v=Z56LmteBSiM
     visible: true
   - title: State of InnerSource 2024 [YouTube]
-    image: https://img.youtube.com/vi/8AnaQ7p6iLg/maxresdefault.jpg
+    image: https://img.youtube.com/vi/8AnaQ7p6iLg/hqdefault.jpg
     link: https://www.youtube.com/watch?v=8AnaQ7p6iLg
     visible: true
 
@@ -20,17 +20,17 @@ learning:
     link: "https://patterns.innersourcecommons.org/"
     visible: true
   - title: "InnerSource Strategy and Configuration Management for GitHub"
-    image: https://images.unsplash.com/photo-1574790398664-0cb03682ed1c?q=80&w=400
+    image: "/images/photos/scm-config.png"
     link: "https://innersourcecommons.gitbook.io/managing-innersource-projects/innersource-tooling/github-strategy"
     visible: true
 
 community:
   - title: "InnerSource Gathering Berlin 2025 is open for registration!"
-    image: "https://gatherings.innersourcecommons.org/images/gathering/berlin-2025.png"
+    image: "/images/photos/berlin-2025.png"
     link: https://gatherings.innersourcecommons.org/berlin-2025/
     visible: true
   - title: Call for Hosts for InnerSource Summit 2025
-    image: https://images.unsplash.com/photo-1578054041218-5ee0003926dd?q=80&w=400
+    image: "/images/photos/call-for-hosts.png"
     link: https://docs.google.com/forms/d/e/1FAIpQLSdjeQFYDVT_0pVwMJTHTmArMPLtq7oHwBO8CgQzd_aV0UxRKA/viewform
     visible: true
 
