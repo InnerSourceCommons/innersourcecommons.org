@@ -60,132 +60,13 @@
                 </ul>
               </div>
               <div class="col3">
-                {{ if eq .Name "About" }}
-                <ul class="menu">
-                  <li class="menu-title">Featured Information</li>
-                </ul>
-                <div class="featured-articles">
-                  {{ range where site.Data.featured_articles.about "visible" true }}
-                  <div class="article-card">
-                    <a href="{{ .link }}" class="article-link">
-                      <div class="article-image">
-                        <img src="{{ .image }}" alt="{{ .title }}">
-                      </div>
-                      <div class="article-content">
-                        <h4>{{ .title }}</h4>
-                        <p>{{ .description }}</p>
-                      </div>
-                    </a>
-                  </div>
-                  {{ end }}
-                  {{ else if eq .Name "Activities" }}
-                  <ul class="menu">
-                    <li class="menu-title">Featured Information</li>
-                  </ul>
-                  <div class="featured-articles">
-                    {{ range where site.Data.featured_articles.activities "visible" true }}
-                    <div class="article-card">
-                      <a href="{{ .link }}" class="article-link">
-                        <div class="article-image">
-                          <img src="{{ .image }}" alt="{{ .title }}">
-                        </div>
-                        <div class="article-content">
-                          <h4>{{ .title }}</h4>
-                          <p>{{ .description }}</p>
-                        </div>
-                      </a>
-                    </div>
-                    {{ end }}
-                    {{ else if eq .Name "Learning" }}
-                    <ul class="menu">
-                      <li class="menu-title">Featured Articles</li>
-                    </ul>
-                    <div class="featured-articles">
-                      {{ range where site.Data.featured_articles.learning "visible" true }}
-                      <div class="article-card">
-                        <a href="{{ .link }}" class="article-link">
-                          <div class="article-image">
-                            <img src="{{ .image }}" alt="{{ .title }}">
-                          </div>
-                          <div class="article-content">
-                            <h4>{{ .title }}</h4>
-                            <p>{{ .description }}</p>
-                          </div>
-                        </a>
-                      </div>
-                      {{ end }}
-                      {{ else if eq .Name "Community" }}
-                      <ul class="menu">
-                        <li class="menu-title">Featured Activity</li>
-                      </ul>
-                      <div class="featured-articles">
-                        {{ $pages := where site.Pages "Type" "in" "redirects" }}
-                        {{ $pages = where $pages "Section" "events" }}
-                        {{ range first 1 ($pages.ByDate.Reverse) }}
-                        <div class="article-card">
-                          <a href="{{ .Params.redirect }}" class="article-link" target="_blank">
-                            <div class="article-image">
-                              <img src="{{ .Params.image }}" alt="{{ .Title }}">
-                            </div>
-                            <div class="article-content">
-                              <h4>{{ .Title }} will be held on {{ .Date.Format "January 2, 2006" }}</h4>
-                            </div>
-                          </a>
-                        </div>
-                        {{ end }}
-                        {{ range where site.Data.featured_articles.community "visible" true }}
-                        <div class="article-card">
-                          <a href="{{ .link }}" class="article-link">
-                            <div class="article-image">
-                              <img src="{{ .image }}" alt="{{ .title }}">
-                            </div>
-                            <div class="article-content">
-                              <h4>{{ .title }}</h4>
-                            </div>
-                          </a>
-                        </div>
-                        {{ end }}
-                        {{ else if eq .Name "Blog & News" }}
-                        <ul class="menu">
-                          <li class="menu-title">Featured Articles</li>
-                        </ul>
-                        <div class="featured-articles">
-                          {{ range where site.Data.featured_articles.blog "visible" true }}
-                          <div class="article-card">
-                            <a href="{{ .link }}" class="article-link">
-                              <div class="article-image">
-                                <img src="{{ .image }}" alt="{{ .title }}">
-                              </div>
-                              <div class="article-content">
-                                <h4>{{ .title }}</h4>
-                              </div>
-                            </a>
-                          </div>
-                          {{ end }}
-                        </div>
-                        {{ end }}
-                      </div>
-                    </div>
-                  </div>
-        </li>
-        {{ else }}
-        {{ if eq .Name "Schedule" }}
-        <li class="menu-item-has-children">
-          <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>{{ .Name }}</span></a>
-          <div class="sub-menu" style="padding:0px;margin:0px;">
-            <div style="width:100%;margin:0px;padding:0px;" id="calendar-container">
-              <div id="calendar-loading" style="text-align:center;padding:40px;color:#666;">
-                <i class="ti-reload" style="animation: spin 2s linear infinite;display:block;font-size:24px;margin-bottom:10px;"></i>
-                <span>Loading...</span>
+                {{ partial "featured-articles.html" . }}
               </div>
             </div>
           </div>
         </li>
-        {{else}}
-        <li class="menu-item">
-          <a href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}><span>{{ .Name }}</span></a>
-        </li>
-        {{ end }}
+        {{ else }}
+        {{ partial "menu.html" . }}
         {{ end }}
         {{ end }}
       </ul>

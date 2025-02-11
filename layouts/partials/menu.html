@@ -1,0 +1,51 @@
+{{ if eq .Name "Schedule" }}
+<li class="menu-item-has-children">
+  <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>{{ .Name }}</span></a>
+  <div class="sub-menu" style="padding:0px;margin:0px;">
+    <div style="width:100%;margin:0px;padding:0px;" id="calendar-container">
+      <div id="calendar-loading" style="text-align:center;padding:40px;color:#666;">
+        <i class="ti-reload" style="animation: spin 2s linear infinite;display:block;font-size:24px;margin-bottom:10px;"></i>
+        <span>Loading...</span>
+      </div>
+    </div>
+  </div>
+</li>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var calendarContainer = document.getElementById('calendar-container');
+  if(calendarContainer){
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone 
+    const html = `<iframe src="https://calendar.google.com/calendar/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com&ctz=${timezone}" style="border:0; width:100%; min-height:500px;margin:0px;" frameborder="0" scrolling="no"></iframe>`
+    calendarContainer.innerHTML = html;
+  }
+
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      if (mutation.addedNodes.length > 0) {
+        const loadingElement = document.getElementById('calendar-loading');
+        if (loadingElement) {
+          loadingElement.style.transition = 'opacity 0.5s ease-out';
+          loadingElement.style.opacity = '1';
+          
+          setTimeout(() => {
+            loadingElement.style.opacity = '0';
+            setTimeout(() => {
+              loadingElement.style.display = 'none';
+            }, 500);
+          }, 2000);
+        }
+      }
+    });
+  });
+
+  if (calendarContainer) {
+    observer.observe(calendarContainer, { childList: true, subtree: true });
+  }
+});
+</script>
+{{else}}
+<li class="menu-item">
+  <a href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}><span>{{ .Name }}</span></a>
+</li>
+{{ end }} 
