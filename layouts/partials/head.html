@@ -55,7 +55,7 @@
     {{ end }}
   {{ end }}
 
-  {{ if not .Site.IsServer }}
+  {{ if not hugo.IsServer }}
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.Params.googleAnalytics }}" crossorigin="anonymous"></script>
   <script>
