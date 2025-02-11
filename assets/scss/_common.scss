@@ -1,6 +1,7 @@
 body {
   background-color: $body-color;
   overflow-x: hidden;
+  text-align: left;
 }
 
 ::selection {
@@ -75,9 +76,11 @@ a:hover {
 .section {
   padding-top: 70px;
   padding-bottom: 70px;
+  text-align: left;
 
   &-title {
     margin-bottom: 30px;
+    text-align: left;
   }
 }
 

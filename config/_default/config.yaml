@@ -1,4 +1,4 @@
-baseURL: 'https://innersourcecommons.org/'
+baseURL: 'https://staging.iscf.site/'
 defaultContentLanguage: 'en'
 defaultContentLanguageInSubdir: false
 title: InnerSource Commons
