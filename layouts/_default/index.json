@@ -1,0 +1,20 @@
+{
+  "data": [
+    {{- $pages := .Site.AllPages -}}
+    {{- $len := (len $pages) -}}
+
+    {{- range $index, $e := (where .Site.AllPages "Section" "in" (slice "learn" "about" "events" "stories" "patterns" "isc-101")) -}}
+      {{- if and (not .Params.hidden) (not .Draft) -}}
+        {{- if $index -}},{{- end }}
+        {
+          "id": {{ $index | add 1 }},
+          "len": {{ $len }},
+          "url": "{{ .Permalink }}",
+          "title": {{ .Title | jsonify }},
+          "summary": {{ .Summary | jsonify }},
+          "lang": "{{ .Language.Lang }}"
+        }
+      {{- end -}}
+    {{- end -}}
+  ]
+} 
