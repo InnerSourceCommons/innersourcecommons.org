@@ -4,7 +4,7 @@
     {{- $len := (len $pages) -}}
 
     {{- range $index, $e := (where .Site.AllPages "Section" "in" (slice "learn" "about" "events" "stories" "patterns" "isc-101")) -}}
-      {{- if and (not .Params.hidden) (not .Draft) -}}
+      {{- if and (not .Params.hidden) (not .Draft) (ne .Type "redirects" ) -}}
         {{- if $index -}},{{- end }}
         {
           "id": {{ $index | add 1 }},
