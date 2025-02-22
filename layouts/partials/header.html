@@ -195,7 +195,7 @@
             {{ end }}
           </select>
         </div>
-        <a href="{{ "slack" | absURL }}" class="btn btn-primary d-flex align-items-center" target="_blank">
+        <a href="{{ "slack" | absURL }}" class="btn btn-outline-primary d-flex align-items-center" target="_blank" style="background-color: white;">
           <img src="/images/slack.png" class="slack-icon-pulse" alt="Slack" style="width: 16px; height: 16px; margin-right: 8px;">{{ T "join_slack" }}
         </a>
       </div>
@@ -217,14 +217,30 @@
 
 @keyframes pulse {
   0% { transform: scale(1); }
-  50% { transform: scale(1.2); }
+  50% { transform: scale(1.5); }
   100% { transform: scale(1); }
 }
 
 .slack-icon-pulse {
   display: inline-block;
-  animation: pulse 2s infinite ease-in-out;
+  animation: pulse 1.5s infinite ease-in-out;
   vertical-align: middle;
+}
+
+.btn-outline-primary {
+  box-shadow: none !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: 0 !important;
+}
+
+.btn-outline-primary:hover .slack-icon-pulse {
+  animation: pulse 0.8s infinite ease-in-out;
 }
 
 .language-selector {
