@@ -21,3 +21,5 @@ frontmatter:
   date:
   - report_publish_date
   - :default
+outputs:
+  home: ["HTML", "RSS", "JSON"]

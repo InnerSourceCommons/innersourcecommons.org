@@ -6,7 +6,6 @@
       document.body.classList.add('has-notice');
     }
 
-    // selectpickerの初期化
     if ($.fn.selectpicker) {
       $('.selectpicker').selectpicker({
         style: 'btn-light',
@@ -20,8 +19,7 @@
     <div class="logo">
       <a href='{{ if eq .Site.Language.Lang "en" }}{{ site.BaseURL }}{{ else }}{{ site.BaseURL }}{{ .Site.Language.Lang }}{{end}}'
         title="{{ site.Title }}" style="border-bottom: 0px solid #e0e0e0;">
-        <img loading="eager" decoding="async" fetchpriority="high" width="{{ site.Params.logo_width}}" class="img-fluid"
-          src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
+        <img  width="{{ site.Params.logo_width}}" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
       </a>
     </div>
 
@@ -149,7 +147,7 @@
                   </div>
                   {{ end }}
                 </div>
-                {{ else if eq .Name "Blog & News" }}
+                {{ else if eq .Name "News" }}
                 <ul class="menu">
                   <li class="menu-title">Featured Articles</li>
                 </ul>
@@ -176,25 +174,29 @@
         {{ partial "menu.html" . }}
         {{ end }}
         {{ end }}
+        <div class="search-wrapper">
+        {{ partial "search" . }}
+        </div>
       </ul>
+       
 
       <div class="header-cta">
         <div class="language-selector">
           <select class="form-control" id="language-selector">
-            <option value="" selected disabled>{{ .Site.Language.LanguageName }}</option>
+            <option value="" selected disabled>{{ if eq .Site.Language.Lang "en" }}🇺🇸{{ else if eq .Site.Language.Lang "ja" }}🇯🇵{{ else if eq .Site.Language.Lang "fr" }}🇫🇷{{ else if eq .Site.Language.Lang "pt-br" }}🇧🇷{{ end }}</option>
             {{ if in .CurrentSection.Permalink "/learn/learning-path" }}
-              {{ range .Translations }}
-              <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
-              {{ end }}
+            {{ range .Translations }}
+              <option value="{{ .Permalink }}">{{ if eq .Language.Lang "en" }}🇺🇸{{ else if eq .Language.Lang "ja" }}🇯🇵{{ else if eq .Language.Lang "fr" }}🇫🇷{{ else if eq .Language.Lang "pt-br" }}🇧🇷{{ end }}</option>
+            {{ end }}
             {{ else }}
               {{ range where .Translations ".Language.Lang" "in" (slice "en" "ja" "fr" "pt-br") }}
-              <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
-              {{ end }}
+              <option value="{{ .Permalink }}">{{ if eq .Language.Lang "en" }}🇺🇸{{ else if eq .Language.Lang "ja" }}🇯🇵{{ else if eq .Language.Lang "fr" }}🇫🇷{{ else if eq .Language.Lang "pt-br" }}🇧🇷{{ end }}</option>
+            {{ end }}
             {{ end }}
           </select>
         </div>
-        <a href="{{ "slack" | absURL }}" class="btn btn-primary" target="_blank">
-          <i class="ti-comments pr-2"></i>{{ T "join_slack" }}
+        <a href="{{ "slack" | absURL }}" class="btn btn-outline-primary d-flex align-items-center" target="_blank" style="background-color: white;">
+          <img src="/images/slack.png" class="slack-icon-pulse" alt="Slack" style="width: 16px; height: 16px; margin-right: 8px;">{{ T "join_slack" }}
         </a>
       </div>
     </nav>
@@ -213,6 +215,34 @@
   to { transform: rotate(360deg); }
 }
 
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.5); }
+  100% { transform: scale(1); }
+}
+
+.slack-icon-pulse {
+  display: inline-block;
+  animation: pulse 1.5s infinite ease-in-out;
+  vertical-align: middle;
+}
+
+.btn-outline-primary {
+  box-shadow: none !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: 0 !important;
+}
+
+.btn-outline-primary:hover .slack-icon-pulse {
+  animation: pulse 0.8s infinite ease-in-out;
+}
+
 .language-selector {
   display: inline-block;
   margin-right: 10px;
@@ -224,7 +254,28 @@
   border-radius: 4px;
   background-color: white;
   cursor: pointer;
-  min-width: 120px;
+  min-width: 80px;
+  width: 80px;
+}
+
+.header-cta {
+  display: flex;
+  align-items: center;
+}
+
+.header-cta .search-wrapper {
+  flex-grow: 1;
+}
+
+.header-cta .search-wrapper input {
+  width: 100%;
+  min-width: 200px;
+}
+
+.header-cta .search-wrapper input:focus {
+  border-color: #00A0A0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 160, 160, 0.25);
+  outline: none;
 }
 </style>
 
