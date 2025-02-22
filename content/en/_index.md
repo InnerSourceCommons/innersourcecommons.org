@@ -4,12 +4,15 @@ fetchYoutubeVideos: true
 ---
 
 <section class="section-banner d-flex align-items-center"
-	style="background-image:url(/images/photos/welcome-to-the-isc.jpg); background-size: cover; background-position: center; height:400px;">
+	style="background-image:url(/images/photos/welcome-to-the-isc.jpg); background-size: cover; background-position: center; height:400px; position: relative;">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 mr-auto">
-					<h1 style="font-size: 40px; color: white; text-align: left;">Welcome to the InnerSource Commons</h1>
-				</div>
+		<div class="row align-items-center">
+			<div class="col-lg-8 mr-auto">
+				<h1 style="font-size: 40px; color: white; text-align: left; margin: 0;">Welcome to the InnerSource Commons</h1>
+			</div>
+			<div class="col-lg-4">
+				{{< upcoming-event-card style="banner" >}}
+			</div>
 		</div>
 	</div>
 </section>
@@ -40,9 +43,16 @@ fetchYoutubeVideos: true
         <p>InnerSource takes the lessons learned from developing open source software and applies them to the way companies develop software internally. As developers have become accustomed to working on world class open source software, there is a strong desire to bring those practices back inside the firewall and apply them to software that companies may be reluctant to release. For companies building mostly closed source software, InnerSource can be a great tool to help break down silos, encourage internal collaboration, accelerate new engineer on-boarding, and identify opportunities to contribute software back to the open source world.
         </p>
       </div>
-      <div class="col-md-5 my-auto">
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/kkxRvNP31K8?si=Lmqas3O0XmhzGRL5" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="col-md-5">
+        <div class="row">
+          <div class="col-12 mb-4">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/kkxRvNP31K8?si=Lmqas3O0XmhzGRL5" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-12">
+            {{< upcoming-event-card >}}
+          </div>
         </div>
       </div>
     </div>
