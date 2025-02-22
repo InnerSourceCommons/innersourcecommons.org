@@ -145,7 +145,7 @@ main:
     weight: 11
 
 # News
-  - name: Blog & News
+  - name: News
     URL: about/announcements
     weight: 5
     identifier: news

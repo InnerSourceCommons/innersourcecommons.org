@@ -20,8 +20,7 @@
     <div class="logo">
       <a href='{{ if eq .Site.Language.Lang "en" }}{{ site.BaseURL }}{{ else }}{{ site.BaseURL }}{{ .Site.Language.Lang }}{{end}}'
         title="{{ site.Title }}" style="border-bottom: 0px solid #e0e0e0;">
-        <img loading="eager" decoding="async" fetchpriority="high" width="{{ site.Params.logo_width}}" class="img-fluid"
-          src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
+        <img  width="{{ site.Params.logo_width}}" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
       </a>
     </div>
 
@@ -149,7 +148,7 @@
                   </div>
                   {{ end }}
                 </div>
-                {{ else if eq .Name "Blog & News" }}
+                {{ else if eq .Name "News" }}
                 <ul class="menu">
                   <li class="menu-title">Featured Articles</li>
                 </ul>
@@ -176,24 +175,23 @@
         {{ partial "menu.html" . }}
         {{ end }}
         {{ end }}
+        <div class="search-wrapper">
+        {{ partial "search" . }}
+        </div>
       </ul>
 
       <div class="header-cta">
-        <div class="search-wrapper">
-        {{ partial "search" . }}
-
-        </div>
         <div class="language-selector">
           <select class="form-control" id="language-selector">
             <option value="" selected disabled>{{ if eq .Site.Language.Lang "en" }}🇺🇸{{ else if eq .Site.Language.Lang "ja" }}🇯🇵{{ else if eq .Site.Language.Lang "fr" }}🇫🇷{{ else if eq .Site.Language.Lang "pt-br" }}🇧🇷{{ end }}</option>
             {{ if in .CurrentSection.Permalink "/learn/learning-path" }}
-              {{ range .Translations }}
+            {{ range .Translations }}
               <option value="{{ .Permalink }}">{{ if eq .Language.Lang "en" }}🇺🇸{{ else if eq .Language.Lang "ja" }}🇯🇵{{ else if eq .Language.Lang "fr" }}🇫🇷{{ else if eq .Language.Lang "pt-br" }}🇧🇷{{ end }}</option>
-              {{ end }}
+            {{ end }}
             {{ else }}
               {{ range where .Translations ".Language.Lang" "in" (slice "en" "ja" "fr" "pt-br") }}
               <option value="{{ .Permalink }}">{{ if eq .Language.Lang "en" }}🇺🇸{{ else if eq .Language.Lang "ja" }}🇯🇵{{ else if eq .Language.Lang "fr" }}🇫🇷{{ else if eq .Language.Lang "pt-br" }}🇧🇷{{ end }}</option>
-              {{ end }}
+            {{ end }}
             {{ end }}
           </select>
         </div>
@@ -245,6 +243,12 @@
 .header-cta .search-wrapper input {
   width: 100%;
   min-width: 200px;
+}
+
+.header-cta .search-wrapper input:focus {
+  border-color: #00A0A0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 160, 160, 0.25);
+  outline: none;
 }
 </style>
 
