@@ -195,8 +195,8 @@
             {{ end }}
           </select>
         </div>
-        <a href="{{ "slack" | absURL }}" class="btn btn-primary" target="_blank">
-          <i class="ti-comments pr-2"></i>{{ T "join_slack" }}
+        <a href="{{ "slack" | absURL }}" class="btn btn-primary d-flex align-items-center" target="_blank">
+          <img src="/images/slack.png" class="slack-icon-pulse" alt="Slack" style="width: 16px; height: 16px; margin-right: 8px;">{{ T "join_slack" }}
         </a>
       </div>
     </nav>
@@ -213,6 +213,18 @@
 @keyframes spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.slack-icon-pulse {
+  display: inline-block;
+  animation: pulse 2s infinite ease-in-out;
+  vertical-align: middle;
 }
 
 .language-selector {
