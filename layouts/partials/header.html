@@ -179,17 +179,20 @@
       </ul>
 
       <div class="header-cta">
+        <div class="search-wrapper">
         {{ partial "search" . }}
+
+        </div>
         <div class="language-selector">
           <select class="form-control" id="language-selector">
-            <option value="" selected disabled>{{ .Site.Language.LanguageName }}</option>
+            <option value="" selected disabled>{{ if eq .Site.Language.Lang "en" }}🇺🇸{{ else if eq .Site.Language.Lang "ja" }}🇯🇵{{ else if eq .Site.Language.Lang "fr" }}🇫🇷{{ else if eq .Site.Language.Lang "pt-br" }}🇧🇷{{ end }}</option>
             {{ if in .CurrentSection.Permalink "/learn/learning-path" }}
               {{ range .Translations }}
-              <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
+              <option value="{{ .Permalink }}">{{ if eq .Language.Lang "en" }}🇺🇸{{ else if eq .Language.Lang "ja" }}🇯🇵{{ else if eq .Language.Lang "fr" }}🇫🇷{{ else if eq .Language.Lang "pt-br" }}🇧🇷{{ end }}</option>
               {{ end }}
             {{ else }}
               {{ range where .Translations ".Language.Lang" "in" (slice "en" "ja" "fr" "pt-br") }}
-              <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
+              <option value="{{ .Permalink }}">{{ if eq .Language.Lang "en" }}🇺🇸{{ else if eq .Language.Lang "ja" }}🇯🇵{{ else if eq .Language.Lang "fr" }}🇫🇷{{ else if eq .Language.Lang "pt-br" }}🇧🇷{{ end }}</option>
               {{ end }}
             {{ end }}
           </select>
@@ -225,7 +228,23 @@
   border-radius: 4px;
   background-color: white;
   cursor: pointer;
-  min-width: 120px;
+  min-width: 80px;
+  width: 80px;
+}
+
+.header-cta {
+  display: flex;
+  align-items: center;
+}
+
+.header-cta .search-wrapper {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.header-cta .search-wrapper input {
+  width: 100%;
+  min-width: 200px;
 }
 </style>
 
