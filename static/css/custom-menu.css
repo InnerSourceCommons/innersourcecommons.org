@@ -124,7 +124,7 @@
 /* デスクトップのみホバーエフェクト */
 @media (min-width: 993px) {
   .menu-item-has-children:hover > a::after {
-    background: #0aa8a7 !important;
+    background: #00A0A0 !important;
   }
 
   .menu-item-has-children:hover .sub-menu {

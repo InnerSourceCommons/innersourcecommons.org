@@ -1,12 +1,12 @@
 // This file is empty within the template
 // You can use it to override CSS from within your project
 a, .content a {
-    color: #0aa8a7;
+    color: #00A0A0;
     border-bottom: 1px dotted #ececec;
 }
 
 a:hover, .content a:hover {
-    color: #0aa8a7;
+    color: #00A0A0;
     border-bottom: 1px solid #ececec;
 }
 
@@ -277,7 +277,7 @@ button.svelte-la9dd4 {
     position: relative;
     z-index: 1;
     transition: .2s ease;
-    background-color: #0aa8a7;
+    background-color: #00A0A0;
     color: #fff;
     box-shadow: none;
     height: inherit;
@@ -325,7 +325,7 @@ button.svelte-la9dd4:disabled {
 }
 
 .cite-icons i:hover {
-    color: #0aa8a7;
+    color: #00A0A0;
 }
 
 .cite-text {
@@ -551,14 +551,14 @@ button.svelte-la9dd4:disabled {
       
       &:focus {
         outline: none;
-        border-color: #0aa8a7;
+        border-color: #00A0A0;
       }
     }
     
     button {
       white-space: nowrap;
       background: none;
-      color: #0aa8a7;
+      color: #00A0A0;
       border: none;
       padding: 6px 0;
       font-size: 14px;
@@ -582,7 +582,7 @@ button.svelte-la9dd4:disabled {
 .btn-link {
   display: inline-flex;
   align-items: center;
-  color: #0aa8a7;
+  color: #00A0A0;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
@@ -596,7 +596,7 @@ button.svelte-la9dd4:disabled {
   }
   
   &:hover {
-    color: darken(#0aa8a7, 10%);
+    color: darken(#00A0A0, 10%);
     text-decoration: none;
     
     i {
@@ -690,7 +690,7 @@ body.has-notice {
       }
       
       .btn-link {
-        color: darken(#0aa8a7, 10%);
+        color: darken(#00A0A0, 10%);
         
         i {
           transform: translateX(3px);
@@ -871,7 +871,7 @@ body.has-notice {
     z-index: 1;
     
     &:hover {
-      color: #0aa8a7;
+      color: #00A0A0;
     }
   }
   
