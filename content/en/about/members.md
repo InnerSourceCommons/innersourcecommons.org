@@ -2,7 +2,7 @@
 title: "Members"
 subtitle: ""
 description: "Some community participants go above and beyond, and may be invited to become an ISC Member."
-image: "/images/logo.png"
+image: "/images/about/members-badge.png"
 ---
 <div class="d-flex">
     <img src="/images/about/members-badge.png" title="The InnersourceCommons Badge is given to all Members" class="img-fluid mx-auto">
