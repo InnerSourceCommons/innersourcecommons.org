@@ -2,50 +2,191 @@
 {{ partial "breadcrumbs.html" . }}
 {{ partial "page-header.html" . }}
 
-<section class="section">
   <div class="container">
-    <div class="row">
-      {{ range first 1 (where .Data.Pages.ByWeight ".Params.featured" "==" true) }}
-
-      <div class="col-12 mb-5 pb-5">
-        <div class="row align-items-center">
-          {{ if .Params.image }}
-          <div class="col-md-6 mb-4 mb-md-0">
-            <a href="{{.Permalink}}">
-              <img src="{{ .Params.image | absURL }}" alt="{{.Title}}" class="img-fluid rounded-lg w-100">
-            </a>
+    <div class="course-list">
+      <!-- Introduction を最初に表示 -->
+      {{ range where .Data.Pages.ByWeight "Title" "Introduction" }}
+      <div class="course-wrapper">
+        <a href="{{ default .Permalink .Params.redirect }}" data-course-link="{{ .Permalink }}" data-type="{{ .Kind }}" class="course-item-link">
+          <div class="course-item">
+            <div class="course-image">
+              {{ if .Params.image }}
+              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+              {{ end }}
+            </div>
+            <div class="course-content">
+              <h3>{{ .Title }}</h3>
+              <p class="course-description">{{ default .Summary .Params.description }}</p>
+              <div class="course-meta">
+                {{ if .Params.duration }}
+                <span class="duration">{{ .Params.duration }}</span>
+                {{ end }}
+                {{ if .Params.level }}
+                <span class="level">{{ .Params.level }}</span>
+                {{ end }}
+              </div>
+              <span class="btn-link">{{ T "learn_button" }} <i class="ti-arrow-right"></i></span>
+            </div>
           </div>
-          {{ end }}
-          <div class="col-md-6">
-            <h2><a href="{{ default .Permalink .Params.redirect }}" class="post-title"{{ with .Params.target }} target="{{ . }}"{{ end }}>
-              {{ .Title }}</a></h2>
-            <p class="card-text">{{ default .Summary .Params.description }}</p>
-            <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary">
-              {{ T "learn_button" }}</a>
-          </div>
-        </div>
+        </a>
+        <div class="course-expanded-content"></div>
       </div>
       {{ end }}
-      {{ range where .Data.Pages.ByWeight ".Params.featured" "!=" true }}
-      <div class="col-lg-4 col-sm-4 mb-5">
-        <div class="card border-0">
-          {{ if .Params.image }}
-          <a href="{{.Permalink}}">
-            <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img rounded-lg mb-4">
-          </a>
-          {{ end }}
-          <div class="card-body p-0">
-            <h3><a href="{{ default .Permalink .Params.redirect }}" class="post-title"{{ with .Params.target }} target="{{ . }}"{{ end }}>
-              {{ .Title }}</a></h3>
-            <p class="card-text">{{ default .Summary .Params.description }}</p>
-            <a href="{{ default .Permalink .Params.redirect }}" class="btn btn-primary btn-sm"{{ with .Params.target }} target="{{ . }}"{{ end }}>
-              {{ T "learn_button" }}</a>
+      
+      {{ range where .Data.Pages.ByWeight "Title" "!=" "Introduction" }}
+      <div class="course-wrapper">
+        <a href="{{ default .Permalink .Params.redirect }}" data-course-link="{{ .Permalink }}" data-type="{{ .Kind }}" class="course-item-link">
+          <div class="course-item">
+            <div class="course-image">
+              {{ if .Params.image }}
+              <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+              {{ end }}
+            </div>
+            <div class="course-content">
+              <h3>{{ .Title }}</h3>
+              <p class="course-description">{{ default .Summary .Params.description }}</p>
+              <div class="course-meta">
+                {{ if .Params.duration }}
+                <span class="duration">{{ .Params.duration }}</span>
+                {{ end }}
+                {{ if .Params.level }}
+                <span class="level">{{ .Params.level }}</span>
+                {{ end }}
+              </div>
+              <span class="btn-link">{{ T "learn_button" }} <i class="ti-arrow-right"></i></span>
+            </div>
           </div>
-        </div>
+        </a>
+        <div class="course-expanded-content"></div>
       </div>
       {{ end }}
     </div>
   </div>
-</section>
 
+  <!-- モーダルポップアップ -->
+  <div id="courseModal" class="course-modal">
+    <div class="course-modal-content">
+      <button id="modalClose" class="modal-close">&times;</button>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- JavaScriptを追加 -->
+  <script>
+  (function() {
+    function initializeCourseList() {
+      const isMobile = window.innerWidth < 768;
+      const courseLinks = document.querySelectorAll('.course-item-link');
+      const modal = document.getElementById('courseModal');
+      const modalClose = document.getElementById('modalClose');
+      
+      if (!courseLinks.length) return;
+
+      const breadcrumbs = document.querySelector('.breadcrumb');
+      const lastBreadcrumb = breadcrumbs ? breadcrumbs.lastElementChild : null;
+      const isLearnPage = lastBreadcrumb && 
+        (lastBreadcrumb.textContent.trim() === 'Learn' || 
+         lastBreadcrumb.textContent.trim() === 'Learning Path');
+
+      async function fetchAndDisplayContent(url, container) {
+        try {
+          const response = await fetch(url);
+          const html = await response.text();
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(html, 'text/html');
+          
+          const targetSection = doc.querySelector('.section.section-first');
+          
+          if (targetSection) {
+            targetSection.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(el => el.remove());
+            
+            targetSection.querySelectorAll([
+              '.navigation',
+              '.nav-buttons',
+              '.btn-next',
+              '.btn-prev',
+              '.btn',
+              '.button',
+              '[class*="btn-"]',
+              '.navigation-buttons',
+              '.page-navigation'
+            ].join(',')).forEach(el => el.remove());
+            
+            const wrapper = document.createElement('div');
+            wrapper.className = 'section section-first full-width';
+            wrapper.innerHTML = targetSection.innerHTML;
+            
+            container.innerHTML = '';
+            container.appendChild(wrapper);
+          } else {
+            console.error("Couldn't find the section");
+          }
+        } catch (error) {
+          console.error('Error', error);
+        }
+      }
+      
+      courseLinks.forEach(link => {
+        link.addEventListener('click', async function(e) {
+          if (isMobile || isLearnPage) return; 
+
+          e.preventDefault();
+          const url = this.getAttribute('data-course-link');
+          const wrapper = this.closest('.course-wrapper');
+          const expandedContent = wrapper.querySelector('.course-expanded-content');
+          
+          if (window.innerWidth >= 1024) { // PC
+            if (expandedContent.classList.contains('active')) {
+              expandedContent.innerHTML = '';
+              expandedContent.classList.remove('active');
+              return;
+            }
+
+            document.querySelectorAll('.course-expanded-content.active').forEach(content => {
+              if (content !== expandedContent) {
+                content.innerHTML = '';
+                content.classList.remove('active');
+              }
+            });
+            
+            await fetchAndDisplayContent(url, expandedContent);
+            expandedContent.classList.add('active');
+            expandedContent.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          } else if (modal) { // Tablet
+            if (modal.classList.contains('active')) {
+              modal.classList.remove('active');
+              modal.querySelector('.modal-body').innerHTML = '';
+              return;
+            }
+
+            await fetchAndDisplayContent(url, modal.querySelector('.modal-body'));
+            modal.classList.add('active');
+          }
+        });
+      });
+      
+      if (modalClose) {
+        modalClose.addEventListener('click', function() {
+          if (modal) {
+            modal.classList.remove('active');
+            modal.querySelector('.modal-body').innerHTML = '';
+          }
+        });
+        
+        modal.addEventListener('click', function(e) {
+          if (e.target === modal) {
+            modal.classList.remove('active');
+            modal.querySelector('.modal-body').innerHTML = '';
+          }
+        });
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializeCourseList);
+    } else {
+      initializeCourseList();
+    }
+  })();
+  </script>
 {{ end }}
