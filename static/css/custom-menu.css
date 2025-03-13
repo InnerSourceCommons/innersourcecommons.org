@@ -31,10 +31,9 @@
   margin: 0;
   padding: 0;
   justify-content: center;
-  gap: 30px;
+  gap: 18px;
 }
 
-/* ハンバーガーメニュー */
 .hamburger {
   display: none;
   background: none;
@@ -80,7 +79,6 @@
   bottom: -6px;
 }
 
-/* ハンバーガーメニューのアクティブ状態 */
 .hamburger.is-active .hamburger-inner {
   transform: rotate(45deg);
 }
@@ -121,10 +119,9 @@
   transition: background-color 0.3s;
 }
 
-/* デスクトップのみホバーエフェクト */
 @media (min-width: 993px) {
   .menu-item-has-children:hover > a::after {
-    background: #00A0A0 !important;
+    background: #0aa8a7 !important;
   }
 
   .menu-item-has-children:hover .sub-menu {
@@ -295,7 +292,6 @@
     border-bottom: none;
   }
 
-  /* モバイル時のサブメニュー表示制御 */
   .menu-item-has-children > a::after {
     content: '+';
     position: absolute;
@@ -443,7 +439,6 @@
   text-align: left;
 }
 
-/* カレンダーのサブメニュー用スタイル */
 .menu-item-has-children:has(#calendar-container) .sub-menu {
   max-width: 100%;
   padding: 0;

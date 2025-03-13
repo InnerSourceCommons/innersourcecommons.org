@@ -8,7 +8,7 @@ fetchYoutubeVideos: true
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-8 mr-auto">
-				<h1 style="font-size: 40px; color: white; text-align: left; margin: 0;">Welcome to the InnerSource Commons</h1>
+				<h1 style="font-size: 40px; color: white; text-align: left; margin: 20px 0px;">Welcome to the InnerSource Commons</h1>
 			</div>
 			<div class="col-lg-4">
 				{{< upcoming-event-card style="banner" >}}
@@ -47,11 +47,8 @@ fetchYoutubeVideos: true
         <div class="row">
           <div class="col-12 mb-4">
             <div class="video-container">
-              <iframe src="https://www.youtube.com/embed/kkxRvNP31K8?si=Lmqas3O0XmhzGRL5" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/cVpcjrU4TLI?si=KJrdnYseg-49Km_w" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-          </div>
-          <div class="col-12">
-            {{< upcoming-event-card >}}
           </div>
         </div>
       </div>

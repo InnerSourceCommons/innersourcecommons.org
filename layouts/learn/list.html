@@ -33,7 +33,6 @@
       </div>
       {{ end }}
       
-      <!-- その他のページを表示 -->
       {{ range where .Data.Pages.ByWeight "Title" "!=" "Introduction" }}
       <div class="course-wrapper">
         <a href="{{ default .Permalink .Params.redirect }}" data-course-link="{{ .Permalink }}" data-type="{{ .Kind }}" class="course-item-link">
@@ -83,14 +82,12 @@
       
       if (!courseLinks.length) return;
 
-      // パンくずリストから現在のページがLearnページかどうかを判断
       const breadcrumbs = document.querySelector('.breadcrumb');
       const lastBreadcrumb = breadcrumbs ? breadcrumbs.lastElementChild : null;
       const isLearnPage = lastBreadcrumb && 
         (lastBreadcrumb.textContent.trim() === 'Learn' || 
          lastBreadcrumb.textContent.trim() === 'Learning Path');
 
-      // コンテンツを取得して表示する関数
       async function fetchAndDisplayContent(url, container) {
         try {
           const response = await fetch(url);
@@ -98,14 +95,11 @@
           const parser = new DOMParser();
           const doc = parser.parseFromString(html, 'text/html');
           
-          // section section-first クラスを持つ要素を探す
           const targetSection = doc.querySelector('.section.section-first');
           
           if (targetSection) {
-            // h1-h6要素を削除
             targetSection.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(el => el.remove());
             
-            // ナビゲーションボタンと関連要素を削除
             targetSection.querySelectorAll([
               '.navigation',
               '.nav-buttons',
@@ -118,40 +112,36 @@
               '.page-navigation'
             ].join(',')).forEach(el => el.remove());
             
-            // スタイルを維持するためにラッパーを作成
             const wrapper = document.createElement('div');
             wrapper.className = 'section section-first full-width';
             wrapper.innerHTML = targetSection.innerHTML;
             
-            // コンテナに表示
             container.innerHTML = '';
             container.appendChild(wrapper);
           } else {
-            console.error('対象のセクションが見つかりませんでした');
+            console.error("Couldn't find the section");
           }
         } catch (error) {
-          console.error('コンテンツの読み込みに失敗しました:', error);
+          console.error('Error', error);
         }
       }
       
       courseLinks.forEach(link => {
         link.addEventListener('click', async function(e) {
-          if (isMobile || isLearnPage) return; // モバイルまたはLearnページの場合は通常の遷移
+          if (isMobile || isLearnPage) return; 
 
           e.preventDefault();
           const url = this.getAttribute('data-course-link');
           const wrapper = this.closest('.course-wrapper');
           const expandedContent = wrapper.querySelector('.course-expanded-content');
           
-          if (window.innerWidth >= 1024) { // PCの場合
-            // 同じ項目がクリックされた場合は閉じる
+          if (window.innerWidth >= 1024) { // PC
             if (expandedContent.classList.contains('active')) {
               expandedContent.innerHTML = '';
               expandedContent.classList.remove('active');
               return;
             }
 
-            // 他の展開されたコンテンツを閉じる
             document.querySelectorAll('.course-expanded-content.active').forEach(content => {
               if (content !== expandedContent) {
                 content.innerHTML = '';
@@ -162,8 +152,7 @@
             await fetchAndDisplayContent(url, expandedContent);
             expandedContent.classList.add('active');
             expandedContent.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-          } else if (modal) { // タブレットの場合
-            // モーダルが既に表示されている場合は閉じる
+          } else if (modal) { // Tablet
             if (modal.classList.contains('active')) {
               modal.classList.remove('active');
               modal.querySelector('.modal-body').innerHTML = '';
@@ -176,7 +165,6 @@
         });
       });
       
-      // モーダルを閉じる
       if (modalClose) {
         modalClose.addEventListener('click', function() {
           if (modal) {
@@ -185,7 +173,6 @@
           }
         });
         
-        // モーダルの外側をクリックしても閉じる
         modal.addEventListener('click', function(e) {
           if (e.target === modal) {
             modal.classList.remove('active');
@@ -195,7 +182,6 @@
       }
     }
 
-    // DOMContentLoadedイベントで初期化
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', initializeCourseList);
     } else {

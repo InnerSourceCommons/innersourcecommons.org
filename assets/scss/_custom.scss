@@ -1,12 +1,12 @@
 // This file is empty within the template
 // You can use it to override CSS from within your project
 a, .content a {
-    color: #00A0A0;
+    color: #0aa8a7;
     border-bottom: 1px dotted #ececec;
 }
 
 a:hover, .content a:hover {
-    color: #00A0A0;
+    color: #0aa8a7;
     border-bottom: 1px solid #ececec;
 }
 
@@ -277,7 +277,7 @@ button.svelte-la9dd4 {
     position: relative;
     z-index: 1;
     transition: .2s ease;
-    background-color: #00A0A0;
+    background-color: #0aa8a7;
     color: #fff;
     box-shadow: none;
     height: inherit;
@@ -325,7 +325,7 @@ button.svelte-la9dd4:disabled {
 }
 
 .cite-icons i:hover {
-    color: #00A0A0;
+    color: #0aa8a7;
 }
 
 .cite-text {
@@ -409,7 +409,7 @@ button.svelte-la9dd4:disabled {
 .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* 16:9のアスペクト比 */
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
     border-radius: 2px;
@@ -551,14 +551,14 @@ button.svelte-la9dd4:disabled {
       
       &:focus {
         outline: none;
-        border-color: #00A0A0;
+        border-color: #0aa8a7;
       }
     }
     
     button {
       white-space: nowrap;
       background: none;
-      color: #00A0A0;
+      color: #0aa8a7;
       border: none;
       padding: 6px 0;
       font-size: 14px;
@@ -582,7 +582,7 @@ button.svelte-la9dd4:disabled {
 .btn-link {
   display: inline-flex;
   align-items: center;
-  color: #00A0A0;
+  color: #0aa8a7;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
@@ -596,7 +596,7 @@ button.svelte-la9dd4:disabled {
   }
   
   &:hover {
-    color: darken(#00A0A0, 10%);
+    color: darken(#0aa8a7, 10%);
     text-decoration: none;
     
     i {
@@ -690,7 +690,7 @@ body.has-notice {
       }
       
       .btn-link {
-        color: darken(#00A0A0, 10%);
+        color: darken(#0aa8a7, 10%);
         
         i {
           transform: translateX(3px);
@@ -796,7 +796,6 @@ body.has-notice {
       }
     }
 
-    // YouTubeの動画コンテナ
     .video-container {
       position: relative;
       width: 100%;
@@ -871,7 +870,7 @@ body.has-notice {
     z-index: 1;
     
     &:hover {
-      color: #00A0A0;
+      color: #0aa8a7;
     }
   }
   
@@ -907,7 +906,6 @@ body.has-notice {
         }
       }
 
-      // YouTubeの動画コンテナ
       .video-container {
         position: relative;
         width: 100%;
