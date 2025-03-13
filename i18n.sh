@@ -94,5 +94,3 @@ if [ "$answer" = "Yes" ]; then
 else
   echo "Script terminated."
 fi
-
-
