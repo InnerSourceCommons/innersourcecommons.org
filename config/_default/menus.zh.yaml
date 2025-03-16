@@ -233,6 +233,3 @@ footer_right:
   - name: "隐私政策"
     URL: about/privacy
     weight: 7
-  # - name: "职位空缺"
-  #   URL: about/vacancies
-  #   weight: 8

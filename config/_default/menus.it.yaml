@@ -233,6 +233,3 @@ footer_right:
   - name: "Informativa sulla Privacy"
     URL: about/privacy
     weight: 7
-  # - name: "Posizioni Aperte"
-  #   URL: about/vacancies
-  #   weight: 8

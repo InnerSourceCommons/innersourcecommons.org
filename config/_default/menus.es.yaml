@@ -233,6 +233,3 @@ footer_right:
   - name: "Política de Privacidad"
     URL: about/privacy
     weight: 7
-  # - name: "Vacantes"
-  #   URL: about/vacancies
-  #   weight: 8
