@@ -210,7 +210,8 @@ aliases:
       {{< /company >}}
       {{< company name="Shutterstock" image="/images/logos/shutterstock.png" article="https://panelpicker.sxsw.com/vote/89929" >}}
       {{< /company >}}
-      {{< company name="Siemens" image="/images/logos/siemens.png" article="https://jfrog.com/blog/creating-an-inner-source-hub-at-siemens/" >}}
+      {{< company name="Siemens" image="/images/logos/siemens.png" video="https://youtu.be/BbA0qG958s0?si=zAX7dVMAEH6t31Jk" article="https://blog.siemens.com/2023/12/unlocking-collaboration-how-inner-source-transformed-the-way-we-develop-software-at-siemens/" >}}
+      Social Coding at Siemens: Applying best practices from Open Source internally. Working openly and transparently in a collaborative, community-centric way. Defining authority through knowledge and involvement.
       {{< /company >}}
       {{< company name="Skyscanner" image="/images/logos/skyscanner.png" article="https://github.com/customer-stories/skyscanner" >}}
       {{< /company >}}
