@@ -39,38 +39,6 @@ draft: false
   </div>
 </section>
 
-<!-- <section class="section">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="text-center">
-          <p class="section-title h2">RISE - Our Goals for 2025</p>
-          <p>
-          Our goals for 2025 are encapsulated in RISE, which stands for Reach out, Implement Documentation, Summit Success, and Establishing Brand - We're at a pivotal moment in the InnerSource journey, poised to make a significant impact across industries and regions.
-
-  RISE is not just about growth; it's about nurturing a vibrant ecosystem where everyone, from enthusiasts to experts, can find value and contribute. Whether you're here to explore, learn, or lead, RISE offers opportunities for all. Together, we'll elevate InnerSource, making its benefits accessible and impactful for organizations worldwide. Let's RISE together and shape the future of collaborative development.
-
-  In 2025, we have two principal goals and two adjacent goals. The two principal goals flow nearly directly from our strategy
-          </p>
-          <p><b>1.Reach New Industries and Regions:</b> Establish organized, purposeful outreach programs to specific industry subgroups. <br>
-            We will create, fill, and grow a structure and program for how to integrate InnerSource among existing industry practice areas (e.g. open source, agile, devops, developer experience, platform). Goals in these areas could be things like ensuring that we show up at relevant conferences, connect with key influences in the industry practice, publishing on how the practice area relates to InnerSource, etc.
-              We will similarly support and organize around InnerSource in specific regional and/or language groups (e.g. Japan, China, Brazil, Africa, etc). Goals for these areas could include hosting local, in-person gatherings, translating InnerSource Commons materials, ensuring that InnerSource shows up at regional and language conferences, etc.
-          </p>
-          <p><b>2. Implement:</b> Specific documentation on InnerSource<br>
-            We will publish more-detailed, quality documentation on specific challenges or confusions that we see on InnerSource in the industry. In this effort, we move past high-level guides and directional pieces but get specific as to how InnerSource can actually work in real situations. Whitepapers, blog articles, and guides cover topics such as: definition of InnerSource, qualitative benefits of InnerSource, ROI of InnerSource, AI and InnerSource, transfer pricing, governance, maturity model, pitch deck, etc. <br>
-
-Two adjacent goals support these principal goals and the InnerSource Commons in general.
-          </p>
-          <p><b>3. Summit: </b> Global, In-Person InnerSource Summit 2025 <br>
-            In the year of the 10th anniversary of the formation of the InnerSource Commons, we will hold an in-person summit instead of the virtual event that we've seen post-pandemic. Organizations will be invited to apply to host the summit.
-          </p>
-          <p><b>4. Establish: </b>Brand Consistency through the Brand Guide<br>
-            We will create, document, and share visual and stylistic branding guidelines for the InnerSource Commons. We will bring all current assets in-line with the guidelines and plan so that future publishing follows them.
-          </p>
-        </div>
-    </div>
-  </div>
-</section> -->
-
 <section class="section">
   <div class="container">
     <div class="row align-items-center">
@@ -78,6 +46,8 @@ Two adjacent goals support these principal goals and the InnerSource Commons in 
        <img src="/images/about/illustrations/rocket-launch.png" class="img-fluid pl-4 pr-4">
       </div>
       <div class="col-md-6">
+
+<a name="2025-goals"></a>
           <p class="section-title h2">RISE - Our Goals for 2025</p>
           <p>
           Our goals for 2025 are encapsulated in RISE, which stands for Reach out, Implement Documentation, Summit Success, and Establishing Brand - We're at a pivotal moment in the InnerSource journey, poised to make a significant impact across industries and regions.
