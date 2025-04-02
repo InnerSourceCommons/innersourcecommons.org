@@ -36,7 +36,7 @@
                   <li class="menu-title">Main</li>
                   {{ range first 5 .Children }}
                   <li class="menu-item">
-                    <a href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
+                    <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
                       {{ .Name }}
                       {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
                     </a>
@@ -49,7 +49,7 @@
                   <li class="menu-title">Additional Information</li>
                   {{ range after 5 .Children }}
                   <li class="menu-item">
-                    <a href="{{ .URL | absURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
+                    <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
                       {{ .Name }}
                       {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
                     </a>
