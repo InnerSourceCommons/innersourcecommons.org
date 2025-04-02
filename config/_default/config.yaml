@@ -4,7 +4,7 @@ defaultContentLanguageInSubdir: false
 title: InnerSource Commons
 
 pluralizeListTitles: false
-paginate: '3'
+pagination.pagerSize: '3'
 summaryLength: '15'
 disqusShortname: ''
 googleAnalytics: ''

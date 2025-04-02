@@ -1,11 +1,13 @@
-
+- content: "Join us on Tuesday, April 29th, 5pm GMT/ 6pm CET / 12pm CDT / 10am PDT, when Brittany Istenes, InnerSource Commons Member, will discuss [Empathetic Engineering and InnerSource](https://bit.ly/ISCApr29)."
+  active: true
+  type: "primary"
 
 - content: "Does your organization want to host InnerSource Summit 2025? Click [here](https://bit.ly/4fchanz) to apply or contact us at [info@innersourcecommons.org](mailto:info@innersourcecommons.org) to find out more"
-  active: true
+  active: false
   type: "light"
 
 - content: "Join us on Tuesday, March 18th, 9am GMT / 10am CET / 2:30pm IST / 8pm AEDT, when Carsten Hoffmann, from DB Systel GmbH, will discuss [InnerSource@DB: A Story About Open Source Practices at Deutsche Bahn](https://bit.ly/ISCMar18)"
-  active: true
+  active: false
   type: "primary"
 
 - content: "Join us on Tuesday, February 18th, 9am GMT / 10am CET / 2:30pm IST / 8pm AEDT, when Dr. Christian DeFeo and Ben Butcher, from Shell, will discuss [Project Fleming: An Open Source Discovery Tool](https://bit.ly/ISCFeb18)"
