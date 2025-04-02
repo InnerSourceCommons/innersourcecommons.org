@@ -15,4 +15,4 @@ jobs:
         with:
           fail: true
           jobSummary: true
-          args: --verbose --no-progress --exclude-mail --exclude-path content/events/ content/learn/learning-path/ -- content
+          args: --verbose --no-progress --exclude-path content/events/ content/learn/learning-path/ -- content

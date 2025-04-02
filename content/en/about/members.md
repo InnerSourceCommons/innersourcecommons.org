@@ -2,8 +2,11 @@
 title: "Members"
 subtitle: ""
 description: "Some community participants go above and beyond, and may be invited to become an ISC Member."
-image: "/images/logo.png"
+image: "/images/about/members-badge.png"
 ---
+<div class="d-flex">
+    <img src="/images/about/members-badge.png" title="The InnerSource Commons badge is given to all Members" class="img-fluid mx-auto">
+</div>
 
 The InnerSource Commons (ISC) community is open to all. Some community participants go above and beyond, and may be invited to become an ISC Member.
 The InnerSource Commons is a membership corporation, so ISC Members serve a similar role as shareholders in publicly traded corporations.
