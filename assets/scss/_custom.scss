@@ -58,7 +58,7 @@ a:hover, .content a:hover {
         max-width: 800px;
         margin: 0 auto;
         
-        @media (max-width: 992px) {
+        @media (max-width: 876px) {
             max-width: 600px;
             margin: 0 auto;
             padding: 30px;
@@ -397,7 +397,7 @@ button.svelte-la9dd4:disabled {
     border-bottom: 1px solid #eee;
     position: relative;
 
-    @media (max-width: 992px) {
+    @media (max-width: 876px) {
         padding: 0 12px;
     }
 }

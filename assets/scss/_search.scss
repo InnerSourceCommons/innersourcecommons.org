@@ -32,20 +32,23 @@
   max-height: 400px;
   overflow-y: auto;
   z-index: 1000;
+  
 
   .search-result-item {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: #0aa8a7;
+    color: #000;
     border-bottom: 1px solid #eee;
 
     &:hover {
       background: #f5f5f5;
+      color: #0aa8a7;
+      font-weight: bold;
     }
 
     .search-result-title {
-      font-weight: bold;
+      font-weight: 500;
       margin-bottom: 5px;
     }
 

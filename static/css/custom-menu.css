@@ -248,7 +248,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 876px) {
   .container.wrap {
     padding: 0 12px;
   }
