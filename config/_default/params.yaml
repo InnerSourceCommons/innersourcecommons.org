@@ -13,7 +13,7 @@ plugins:
     - link: plugins/youmax/youmax.js
     - link: plugins/bootstrap-select/js/bootstrap-select.min.js
 logo: images/logo.png
-logo_width: 200px
+mobileLogo: images/logo-big.png
 themeVariant: quizdown
 description: The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource.
 author: InnerSource Commons

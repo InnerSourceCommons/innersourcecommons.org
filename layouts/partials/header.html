@@ -19,7 +19,8 @@
     <div class="logo">
       <a href='{{ if eq .Site.Language.Lang "en" }}{{ site.BaseURL }}{{ else }}{{ site.BaseURL }}{{ .Site.Language.Lang }}{{end}}'
         title="{{ site.Title }}" style="border-bottom: 0px solid #e0e0e0;">
-        <img  width="{{ site.Params.logo_width}}" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
+        <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" class="desktop-logo">
+        <img src="{{ site.Params.mobileLogo | default site.Params.logo | absURL }}" alt="{{ site.Title }}" class="mobile-logo">
       </a>
     </div>
 
@@ -209,76 +210,6 @@
   </div>
 </header>
 
-<style>
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.5); }
-  100% { transform: scale(1); }
-}
-
-.slack-icon-pulse {
-  display: inline-block;
-  animation: pulse 1.5s infinite ease-in-out;
-  vertical-align: middle;
-}
-
-.btn-outline-primary {
-  box-shadow: none !important;
-}
-
-.btn-outline-primary:hover,
-.btn-outline-primary:active,
-.btn-outline-primary:focus {
-  box-shadow: none !important;
-  outline: none !important;
-  border: 0 !important;
-}
-
-.btn-outline-primary:hover .slack-icon-pulse {
-  animation: pulse 0.8s infinite ease-in-out;
-}
-
-.language-selector {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.language-selector select {
-  padding: 6px 12px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: white;
-  cursor: pointer;
-  min-width: 100px;
-  width: 100px;
-}
-
-.header-cta {
-  display: flex;
-  align-items: center;
-}
-
-.header-cta .search-wrapper {
-  flex-grow: 1;
-}
-
-.header-cta .search-wrapper input {
-  width: 100%;
-  min-width: 200px;
-}
-
-.header-cta .search-wrapper input:focus {
-  border-color: #0aa8a7;
-  box-shadow: 0 0 0 0.2rem rgba(0, 160, 160, 0.25);
-  outline: none;
-}
-</style>
-
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     const hamburger = document.querySelector('.hamburger');
@@ -324,6 +255,26 @@
       this.classList.toggle('is-active');
       menu.classList.toggle('is-active');
     });
+
+    // Logo switching function for resize events
+    const checkLogoDisplay = function() {
+      const desktopLogo = document.querySelector('.desktop-logo');
+      const mobileLogo = document.querySelector('.mobile-logo');
+      
+      if (window.innerWidth <= 390) {
+        if (desktopLogo) desktopLogo.style.display = 'none';
+        if (mobileLogo) mobileLogo.style.display = 'block';
+      } else {
+        if (desktopLogo) desktopLogo.style.display = 'block';
+        if (mobileLogo) mobileLogo.style.display = 'none';
+      }
+    };
+    
+    // Initial check
+    checkLogoDisplay();
+    
+    // Check on resize
+    window.addEventListener('resize', checkLogoDisplay);
 
     if (isMobile) {
       subMenuParents.forEach(item => {

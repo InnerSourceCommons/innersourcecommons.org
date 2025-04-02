@@ -928,6 +928,31 @@ body.has-notice {
   }
 }
 
+// Logo responsive styles
+.logo {
+  a {
+    display: block;
+  }
+  
+  .desktop-logo {
+    display: block;
+  }
+  
+  .mobile-logo {
+    display: none;
+  }
+  
+  @media (max-width: 390px) {
+    .desktop-logo {
+      display: none;
+    }
+    
+    .mobile-logo {
+      display: block;
+    }
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
