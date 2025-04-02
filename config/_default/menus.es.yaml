@@ -1,86 +1,16 @@
 main:
-  - name: About
-    URL: about
-    weight: 1
-    identifier: about
-  - name: "Quiénes somos"
-    URL: about
-    parent: about
-    weight: 2
-  - name: "Junta Directiva y Gobernanza"
-    URL: about/board
-    parent: about
-    weight: 3
-  - name: "Miembros"
-    URL: about/members
-    parent: about
-    weight: 4
-  - name: "Patrocinadores"
-    URL: about/sponsors
-    parent: about
-    weight: 5
-  - name: "Historias de InnerSource"
-    URL: stories
-    parent: about
-    weight: 6
-  - name: GitHub
-    URL: https://github.com/InnerSourceCommons
-    parent: about
-    weight: 7
-  - name: "Contáctenos"
-    URL: about/contact
-    parent: about
-    weight: 10
-  - name: "Código de Conducta"
-    URL: about/codeofconduct
-    parent: about
-    weight: 11
 
-
-# Projects
-  - name: Activities
-    URL: learn/patterns
-    weight: 2
-    identifier: activities
-  - name: "Actividades"
-    URL: /community
-    parent: activities
-    weight: 1
-  - name: InnerSource Patterns Working Group
-    URL: /learn/patterns
-    parent: activities
-    weight: 1
-  - name: ISPO Working Group
-    URL: /community/
-    parent: activities
-    weight: 2
-  - name: Learning Path Working Group
-    URL: /community/
-    parent: activities
-    weight: 3
-  - name: Marketing & Outreach Working Group
-    URL: /community/
-    parent: activities
-    weight: 4
-  - name: "Comunidad Local"
-    URL: /community/
-    parent: activities
-    weight: 7
-  - name: "Estado de la Encuesta InnerSource"
-    URL: learn/research
-    parent: activities
-    weight: 8
 
 ## Learning
   - name: Learning
     URL: learn
     weight: 1
     identifier: learning
-  - name: "Aprendizaje"
+  - name: Learning
     URL: learn/
     parent: learning
     weight: 1
-  - name: "Ruta de Aprendizaje"
+  - name: Learning Path
     URL: learn/learning-path
     parent: learning
     weight: 2
@@ -88,27 +18,27 @@ main:
     URL: https://innersourcecommons.org/learn/books/innersource-patterns/
     parent: learning
     weight: 3
-  - name: "Gestión de Proyectos InnerSource"
+  - name: Managing InnerSource Projects
     URL: https://innersourcecommons.org/learn/books/managing-innersource-projects/
     parent: learning
     weight: 4
-  - name: "Videos"
+  - name: Videos
     URL: https://www.youtube.com/@InnerSourceCommons
     parent: learning
     weight: 5
-  - name: "Libros"
+  - name: Books
     URL: learn/books
     parent: learning
     weight: 6
-  - name: "Comenzando con InnerSource"
+  - name: Getting Started with InnerSource
     URL: https://innersourcecommons.org/learn/books/getting-started-with-innersource/
     parent: learning
     weight: 7
-  - name: "Entendiendo la Lista de Verificación InnerSource"
+  - name: Understanding the InnerSource Checklist
     URL: https://innersourcecommons.org/learn/books/understanding-the-innersource-checklist/
     parent: learning
     weight: 8
-  - name: "Adopción de Principios y Casos de Estudio InnerSource"
+  - name: Adopting InnerSource Principles and Case Studies
     URL: https://innersourcecommons.org/learn/books/adopting-innersource-principles-and-case-studies/
     parent: learning
     weight: 9
@@ -118,118 +48,165 @@ main:
     URL: community
     weight: 4
     identifier: community
-  - name: "Llamadas de la Comunidad"
+  - name: Community Calls
     URL: events/community-calls
     parent: community
     weight: 1
-    
-  - name: "Encuentros InnerSource - Capítulos Locales"
-    URL: https://gatherings.innersourcecommons.org/
+  - name: Activities and Working Groups
+    URL: /community
+    parent: community
+    weight: 2
+  - name: InnerSource Stories
+    URL: stories
     parent: community
     weight: 3
-  - name: "Cumbre InnerSource 2024"
-    URL: events/isc-2024
-    parent: community
-    weight: 4
-  - name: "Cumbres Anteriores"
-    URL: https://innersourcecommons.org/events/past-summits/
-    parent: community
-    weight: 5
-  - name: "Directorio de Servicios"
+  - name: Services Directory
     URL: community/services
     parent: community
-    weight: 10
-  - name: "Mapa de InnerSourcers"
+    weight: 4
+  - name: Research
+    URL: learn/research
+    parent: community
+    weight: 5
+    
+  - name: InnerSource Gatherings - Local Chapters
+    URL: https://gatherings.innersourcecommons.org/
+    parent: community
+    weight: 6
+  - name: InnerSource Summit 2024
+    URL: events/isc-2024
+    parent: community
+    weight: 7
+  - name: Past Summits
+    URL: https://innersourcecommons.org/events/past-summits/
+    parent: community
+    weight: 8
+  - name: InnerSourcerers Map
     URL: about/map
     parent: community
     weight: 11
 
 # News
-  - name: News
+  - name: Announcements
     URL: about/announcements
-    weight: 5
-    identifier: news
-  - name: "Anuncios"
-    URL: about/announcements
-    parent: news
-    weight: 1
-  - name: "Boletines Anteriores"
+    parent: community
+    weight: 12
+  - name: Past Newsletters
     URL: https://us1.campaign-archive.com/home/?u=0363fb06e6a59d48c6e260f1b&id=97224b5ff2
-    parent: news
-    weight: 1
+    parent: community
+    weight: 13
+
 
 # Calendar
-  - name: Schedule
+  - name: Calendar
     URL: #
     weight: 9
-    identifier: schedule
+    identifier: calendar
+
+# About
+  - name: About
+    URL: about
+    weight: 10
+    identifier: about
+  - name: Who We Are
+    URL: about
+    parent: about
+    weight: 2
+  - name: Board & Governance
+    URL: about/board
+    parent: about
+    weight: 3
+  - name: Members
+    URL: about/members
+    parent: about
+    weight: 4
+  - name: Sponsors
+    URL: about/sponsors
+    parent: about
+    weight: 5
+  - name: GitHub
+    URL: https://github.com/InnerSourceCommons
+    parent: about
+    weight: 7
+  - name: Contact Us
+    URL: about/contact
+    parent: about
+    weight: 10
+  - name: Code of Conduct
+    URL: about/codeofconduct
+    parent: about
+    weight: 11
+
 
 footer_left:
-  - name: "Aprendizaje"
+  - name: Learn
     URL: learn
     weight: 1
     post: bold
-  - name: "Libros"
+  - name: Books
     URL: learn/books
     weight: 2
-  - name: "Ruta de Aprendizaje"
+  - name: Learning Path
     URL: learn/learning-path
     weight: 3
-  - name: "Patrones"
+  - name: Patterns
     URL: learn/patterns
     weight: 4
-  - name: "Investigación"
+  - name: Research
     URL: learn/research
     weight: 5
 footer_middle:
-  - name: "Eventos"
+  - name: Events
     URL: events/community-calls
     weight: 1
     post: bold
-  - name: "Cumbre 2024"
+  - name: Summit 2024
     URL: events/isc-2024
     weight: 2
-  - name: "Encuentros Locales"
+  - name: Local Gatherings
     URL: https://gatherings.innersourcecommons.org/
     weight: 3
-  - name: "Cumbres Anteriores"
+  - name: Past Summits
     URL: events/past-summits
     weight: 3
-  - name: "Comunidad"
+  - name: Community
     URL: community
     weight: 4
     post: bold
     pre: _blank
-  - name: "Historias"
+  - name: Stories
     URL: stories
     weight: 5
     post: bold
-  - name: "Directorio de Servicios"
+  - name: Services Directory
     URL: community/services
     weight: 6
-  - name: "Anuncios"
+  - name: Announcements
     URL: about/announcements
     weight: 7
 footer_right:
-  - name: "Acerca de"
+  - name: About
     URL: about
     weight: 1
     post: bold
-  - name: "Junta Directiva y Gobernanza"
+  - name: Board & Governance
     URL: about/board
     weight: 2
-  - name: "Miembros"
+  - name: Members
     URL: about/members
     weight: 3
-  - name: "Patrocinadores"
+  - name: Sponsors
     URL: about/sponsors
     weight: 4
-  - name: "Código de Conducta"
+  - name: Code of Conduct
     URL: about/codeofconduct
     weight: 5
-  - name: "Contáctenos"
+  - name: Contact Us
     URL: about/contact
     weight: 6
-  - name: "Política de Privacidad"
+  - name: Privacy Policy
     URL: about/privacy
     weight: 7
+  # - name: Vacancies
+  #   URL: about/vacancies
+  #   weight: 8

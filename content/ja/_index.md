@@ -4,13 +4,14 @@ fetchYoutubeVideos: true
 ---
 
 <section class="section-banner d-flex align-items-center"
-	style="background-image:url(/images/photos/welcome-to-the-isc.jpg); background-size: cover; background-position: center; height:400px;">
+	style="background-image:url(/images/photos/welcome-to-the-isc.jpg); background-size: cover; background-position: center; height:400px; position: relative;">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 mr-auto">
-				<div class="banner-content">
-					<h1 style="font-size: 40px; color: white; text-align: left;">InnerSource Commons へようこそ！</h1>
-				</div>
+		<div class="row align-items-center">
+			<div class="col-lg-8 col-md-6 col-sm-6" style="margin-top: 40px;">
+				<h1 style="font-size: 40px; color: white; text-align: left; margin: 0px">InnerSource Commonsへようこそ</h1>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6" style="margin-top: 40px;">
+				{{< upcoming-event-card style="banner" >}}
 			</div>
 		</div>
 	</div>
@@ -20,7 +21,7 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-12">
-        <p class="h1">InnerSource Commons へようこそ！</p>
+        <p class="h1">InnerSource Commonsへようこそ</p>
       </div>
       <div class="col-md-12">
         <p>{{< about-text >}}
@@ -28,7 +29,7 @@ fetchYoutubeVideos: true
         <p>
         {{< contact-form-one-liner mode="vertical-light" >}}
         </p>
-        <p><a href="/about/" class="btn-link">財団について<i class="ti-arrow-right"></i></a></p>
+        <p><a href="/about/" class="btn-link">財団について <i class="ti-arrow-right"></i></a></p>
       </div>
     </div>
   </div>
@@ -38,12 +39,17 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
       <div class="col-md-7">
-        <p class="section-title h1">インナーソースとは？</p>
-        <p>インナーソースは、オープンソースソフトウェアの開発から学んだ教訓を企業内のソフトウェア開発に適用するものです。開発者たちは世界クラスのオープンソースソフトウェアでの作業に慣れており、そのプラクティスをファイアウォールの内側に持ち込み、企業が公開を躊躇するソフトウェアに適用したいという強い願望があります。主にクローズドソースのソフトウェアを開発している企業にとって、インナーソースはサイロを打破し、内部コラボレーションを促進し、新しいエンジニアの参加を加速し、オープンソースの世界にソフトウェアを還元する機会を特定するための優れたツールとなります。</p>
+        <p class="section-title h1">InnerSourceとは？</p>
+        <p>InnerSourceはオープンソースソフトウェア開発から学んだ教訓を、企業が社内でのソフトウェア開発方法に適用します。開発者が世界クラスのオープンソースソフトウェアでの作業に慣れるにつれ、それらのプラクティスを社内に持ち帰り、企業が公開を躊躇するソフトウェアに適用したいという強い要望があります。主にクローズドソースのソフトウェアを構築している企業にとって、InnerSourceはサイロを打破し、内部コラボレーションを促進し、新しいエンジニアのオンボーディングを加速し、ソフトウェアをオープンソース世界に還元する機会を特定するための素晴らしいツールとなります。
+        </p>
       </div>
-      <div class="col-md-5 my-auto">
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/cVpcjrU4TLI?si=KJrdnYseg-49Km_w" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="col-md-5">
+        <div class="row">
+          <div class="col-12 mb-4">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/cVpcjrU4TLI?si=KJrdnYseg-49Km_w" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -54,9 +60,10 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <p class="section-title h1">インナーソースについて学ぶ</p>
-        <p>インナーソースについてこれから学ぶ方、インナーソースが実装しているのが誰なのか、なぜなのかを詳しく知りたい方は、サイトの "学ぶ" セクションにアクセスしてください。トレーニング資料やベストプラクティス、書籍や過去のイベントの記録、ケーススタディなど、インナーソースの採用に役立つリソースが豊富に用意されています。</p>
-        <a href="/learn/" class="btn-link">インナーソースについて学ぶ<i class="ti-arrow-right"></i></a>
+        <p class="section-title h1">InnerSourceについて学ぶ</p>
+        <p>InnerSourceが初めての方や、誰がInnerSourceを実施しているのか、なぜ実施するのか、どのように始めるのかについてもっと知りたい方は、サイトの学習セクションにアクセスしてください。トレーニング資料、ベストプラクティス、書籍、過去のイベント録画、ケーススタディなど、InnerSourceへの旅を加速するのに役立つ豊富なリソースが見つかります。
+        </p>
+        <a href="/learn/" class="btn-link">InnerSourceについて学ぶ<i class="ti-arrow-right"></i></a>
       </div>
       <div class="col-md-4 mt-4 mb-4 mb-md-0">
         <div class="books-grid">
@@ -84,11 +91,12 @@ fetchYoutubeVideos: true
   </div>
 </section>
 
+
 <section class="section bg-light">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p class="h1 section-title">InnerSource Commons の動画</p>
+        <p class="h1 section-title">InnerSource Commonsの動画</p>
         <div id="youmax" class=""></div>
         {{< more-videos-button >}}
       </div>
@@ -101,8 +109,8 @@ fetchYoutubeVideos: true
     <div class="row">
       <div class="col-md-12">
           <p class="section-title h2">コミュニティに参加する</p>
-          <p>インナーソースの実践者やインナーソースを学びたい方を幅広い活動でサポートします。開始するには、Slack を介して InnerSource Commons のコミュニティに参加し、自己紹介をしてください。インナーソースの旅をともにする素晴らしい仲間を見つけることができますよ！</p>
-          <a href="/community/" class="btn-link">コミュニティへの参加<i class="ti-arrow-right"></i></a>
+          <p>私たちは幅広い活動を通じて、実践者やInnerSourceについて学びたい人々をサポートしています。まずは、成長を続けるISCコミュニティにSlackで参加し、自己紹介をしてください。InnerSourceの旅に同行してくれる素晴らしい仲間を見つけることができるでしょう。</p>
+          <a href="/community/" class="btn-link">コミュニティに参加する<i class="ti-arrow-right"></i></a>
         </div>
     </div>
   </div>
@@ -112,28 +120,10 @@ fetchYoutubeVideos: true
   <div class="container shadow rounded-lg bg-light" style="padding: 20px;">
     <div class="row">
       <div class="col-md-12">
-        <p class="h2 section-title">最新情報はこちら</p>
-        <p>コミュニティ活動のほとんどは、<a href="/slack">Slack</a> で行われています。また、メールの定期購読や、 <a href="https://twitter.com/InnerSourceOrg">Twitter</a>、 <a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a> のフォロー、<a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTube</a>チャンネルの登録やによって、InnerSource Commons のニュース、イベントについての情報を取得することができます。</p>
+        <p class="h2 section-title">つながりを維持する</p>
+        <p>コミュニティでの活動のほとんどは<a href="/slack">Slackチャンネル</a>で行われています。また、以下のニュースレターに登録したり、<a href="https://twitter.com/InnerSourceOrg">Twitter</a>や<a href="https://www.linkedin.com/company/innersourcecommons">LinkedIn</a>でフォローしたり、<a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA">YouTubeチャンネル</a>を購読することで、InnerSource Commonsのニュース、イベント、活動について最新情報を入手できます。</p>
         {{< contact-form-one-liner >}}
       </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container px-4">
-    <div class="row align-items-center justify-content-center text-center text-md-left">
-      <div class="col-lg-5 col-md-4 mb-4 mb-md-0">
-        <p class="h2 section-title">&#127471;&#127477;&nbsp;日本コミュニティ</p>
-        <p class="mb-4">
-        日本語での交流のために Slack には <b>#jp-general</b> チャネルがあります。Slack に登録したら<a href="https://app.slack.com/client/T04PXKRM0/C03M546NR16">こちら</a>にアクセスしてください。
-        <br>
-        また、日本向けのイベント登録は <a href="https://innersourcecommons.connpass.com/">Connpass のページ</a>で受け付けています。ぜひご参加ください！
-        </p>
-      </div>
-      <div class="col-md-5 offset-md-1">
-        <a class="twitter-timeline" data-height="300" data-dnt="true" href="https://twitter.com/InnerSourceJP?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
   </div>
