@@ -1,127 +1,212 @@
 main:
-  - name: Learn
-    URL: zh/learn
+
+
+## Learning
+  - name: Learning
+    URL: learn
     weight: 1
-    identifier: learn
-  - name: Books
-    parent: learn
-    URL: zh/learn/books
-    weight: 2
+    identifier: learning
+  - name: Learning
+    URL: learn/
+    parent: learning
+    weight: 1
   - name: Learning Path
-    parent: learn
-    URL: zh/learn/learning-path
-    weight: 3
-  - name: Patterns
-    parent: learn
-    URL: zh/learn/patterns
-    weight: 4
-  - name: Research
-    parent: learn
-    URL: zh/learn/research
-    weight: 5
-  - name: Videos
-    parent: learn
-    URL: https://www.youtube.com/@InnerSourceCommons
-    weight: 6
-  - name: Events
-    URL: zh/events/community-calls
+    URL: learn/learning-path
+    parent: learning
     weight: 2
-  - name: Community
-    identifier: community
-    URL: zh/community
+  - name: InnerSource Patterns
+    URL: https://innersourcecommons.org/learn/books/innersource-patterns/
+    parent: learning
     weight: 3
-  - name: Stories
-    URL: zh/stories
+  - name: Managing InnerSource Projects
+    URL: https://innersourcecommons.org/learn/books/managing-innersource-projects/
+    parent: learning
     weight: 4
-  - name: Services Directory
-    URL: zh/community/services
+  - name: Videos
+    URL: https://www.youtube.com/@InnerSourceCommons
+    parent: learning
+    weight: 5
+  - name: Books
+    URL: learn/books
+    parent: learning
+    weight: 6
+  - name: Getting Started with InnerSource
+    URL: https://innersourcecommons.org/learn/books/getting-started-with-innersource/
+    parent: learning
+    weight: 7
+  - name: Understanding the InnerSource Checklist
+    URL: https://innersourcecommons.org/learn/books/understanding-the-innersource-checklist/
+    parent: learning
+    weight: 8
+  - name: Adopting InnerSource Principles and Case Studies
+    URL: https://innersourcecommons.org/learn/books/adopting-innersource-principles-and-case-studies/
+    parent: learning
+    weight: 9
+
+# Community
+  - name: Community
+    URL: community
+    weight: 4
+    identifier: community
+  - name: Community Calls
+    URL: events/community-calls
+    parent: community
+    weight: 1
+  - name: Activities and Working Groups
+    URL: /community
     parent: community
     weight: 2
-  - name: About
-    identifier: about
-    URL: zh/about
+  - name: InnerSource Stories
+    URL: stories
+    parent: community
+    weight: 3
+  - name: Services Directory
+    URL: community/services
+    parent: community
+    weight: 4
+  - name: Research
+    URL: learn/research
+    parent: community
     weight: 5
+    
+  - name: InnerSource Gatherings - Local Chapters
+    URL: https://gatherings.innersourcecommons.org/
+    parent: community
+    weight: 6
+  - name: InnerSource Summit 2024
+    URL: events/isc-2024
+    parent: community
+    weight: 7
+  - name: Past Summits
+    URL: https://innersourcecommons.org/events/past-summits/
+    parent: community
+    weight: 8
+  - name: InnerSourcerers Map
+    URL: about/map
+    parent: community
+    weight: 11
+
+# News
   - name: Announcements
-    URL: zh/about/announcements
-    parent: about
-    weight: 1
-  - name: Board & Governance
-    URL: zh/about/board
+    URL: about/announcements
+    parent: community
+    weight: 12
+  - name: Past Newsletters
+    URL: https://us1.campaign-archive.com/home/?u=0363fb06e6a59d48c6e260f1b&id=97224b5ff2
+    parent: community
+    weight: 13
+
+
+# Calendar
+  - name: Calendar
+    URL: #
+    weight: 9
+    identifier: calendar
+
+# About
+  - name: About
+    URL: about
+    weight: 10
+    identifier: about
+  - name: Who We Are
+    URL: about
     parent: about
     weight: 2
-  - name: Members
-    URL: zh/about/members
+  - name: Board & Governance
+    URL: about/board
     parent: about
     weight: 3
-  - name: Sponsors
-    URL: zh/about/sponsors
+  - name: Members
+    URL: about/members
     parent: about
     weight: 4
-  - name: Code of Conduct
-    URL: zh/about/codeofconduct
+  - name: Sponsors
+    URL: about/sponsors
     parent: about
     weight: 5
-  - name: Contact Us
-    URL: zh/about/contact
+  - name: GitHub
+    URL: https://github.com/InnerSourceCommons
     parent: about
-    weight: 6
+    weight: 7
+  - name: Contact Us
+    URL: about/contact
+    parent: about
+    weight: 10
+  - name: Code of Conduct
+    URL: about/codeofconduct
+    parent: about
+    weight: 11
+
+
 footer_left:
   - name: Learn
-    URL: zh/learn
+    URL: learn
     weight: 1
     post: bold
   - name: Books
-    URL: zh/learn/books
+    URL: learn/books
     weight: 2
   - name: Learning Path
-    URL: zh/learn/learning-path
+    URL: learn/learning-path
     weight: 3
   - name: Patterns
-    URL: zh/learn/patterns
+    URL: learn/patterns
     weight: 4
   - name: Research
-    URL: zh/learn/research
+    URL: learn/research
     weight: 5
 footer_middle:
   - name: Events
-    URL: zh/events/community-calls
+    URL: events/community-calls
     weight: 1
     post: bold
-  - name: Community
-    URL: zh/community
+  - name: Summit 2024
+    URL: events/isc-2024
     weight: 2
+  - name: Local Gatherings
+    URL: https://gatherings.innersourcecommons.org/
+    weight: 3
+  - name: Past Summits
+    URL: events/past-summits
+    weight: 3
+  - name: Community
+    URL: community
+    weight: 4
     post: bold
     pre: _blank
   - name: Stories
-    URL: zh/stories
-    weight: 3
+    URL: stories
+    weight: 5
     post: bold
   - name: Services Directory
-    URL: zh/community/services
-    weight: 4
+    URL: community/services
+    weight: 6
   - name: Announcements
-    URL: zh/about/announcements
-    weight: 5
+    URL: about/announcements
+    weight: 7
 footer_right:
   - name: About
-    URL: zh/about
+    URL: about
     weight: 1
     post: bold
   - name: Board & Governance
-    URL: zh/about/board
+    URL: about/board
     weight: 2
   - name: Members
-    URL: zh/about/members
+    URL: about/members
     weight: 3
   - name: Sponsors
-    URL: zh/about/sponsors
+    URL: about/sponsors
     weight: 4
   - name: Code of Conduct
-    URL: zh/about/codeofconduct
+    URL: about/codeofconduct
     weight: 5
   - name: Contact Us
-    URL: zh/about/contact
+    URL: about/contact
     weight: 6
   - name: Privacy Policy
-    URL: zh/about/privacy
+    URL: about/privacy
     weight: 7
+  # - name: Vacancies
+  #   URL: about/vacancies
+  #   weight: 8

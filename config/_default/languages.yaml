@@ -1,36 +1,45 @@
 en:
   languageName: English
   contentDir: content/en
+  languageCode: en
   weight: 1
 ja:
   languageName: 日本語
   contentDir: content/ja
+  languageCode: ja
   weight: 2
 de:
   languageName: Deutsch
   contentDir: content/de
+  languageCode: de
   weight: 3
 zh:
   languageName: 中文
   contentDir: content/zh
+  languageCode: zh
   weight: 3
 it:
   languageName: Italiano
   contentDir: content/it
+  languageCode: it
   weight: 3
 es:
   languageName: Español
   contentDir: content/es
+  languageCode: es
   weight: 3
 ru:
   languageName: Русский
   contentDir: content/ru
+  languageCode: ru
   weight: 3
 fr:
   languageName: Français
   contentDir: content/fr
+  languageCode: fr
   weight: 3
 pt-br:
   languageName: Português Brasileiro
   contentDir: content/pt-br
+  languageCode: pt-br
   weight: 3

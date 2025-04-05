@@ -5,7 +5,7 @@
         {{ if site.Menus.footer_left }}
         <ul class="list-unstyled footer-list">
           {{ range site.Menus.footer_left }}
-          <li>{{ if .Post }}<b class="mt-2 d-block">{{ end }}<a href="{{ .URL | absURL }}">{{ .Name }}</a>{{ if .Post }}</b>{{ end }}</li>
+          <li>{{ if .Post }}<b class="mt-2 d-block">{{ end }}<a href="{{ .URL | absLangURL }}">{{ .Name }}</a>{{ if .Post }}</b>{{ end }}</li>
           {{ end }}
         </ul>
         {{ end }}
@@ -14,7 +14,7 @@
         {{ if site.Menus.footer_middle }}
         <ul class="list-unstyled footer-list">
           {{ range site.Menus.footer_middle }}
-          <li>{{ if .Post }}<b class="mt-2 d-block">{{ end }}<a href="{{ .URL | absURL }}">{{ .Name }}</a>{{ if .Post }}</b>{{ end }}</li>
+          <li>{{ if .Post }}<b class="mt-2 d-block">{{ end }}<a href="{{ .URL | absLangURL }}">{{ .Name }}</a>{{ if .Post }}</b>{{ end }}</li>
           {{ end }}
         </ul>
         {{ end }}
@@ -23,7 +23,7 @@
         {{ if site.Menus.footer_right }}
         <ul class="list-unstyled footer-list">
           {{ range site.Menus.footer_right }}
-          <li>{{ if .Post }}<b class="mt-2 d-block">{{ end }}<a href="{{ .URL | absURL }}">{{ .Name }}</a>{{ if .Post }}</b>{{ end }}</li>
+          <li>{{ if .Post }}<b class="mt-2 d-block">{{ end }}<a href="{{ .URL | absLangURL }}">{{ .Name }}</a>{{ if .Post }}</b>{{ end }}</li>
           {{ end }}
         </ul>
         {{ end }}
@@ -63,7 +63,7 @@
   quizdown.init({
     shuffle_answers: false,
     shuffle_questions: false,
-    primary_color: '#0AA8A7',      
+    primary_color: '#0aa8a7',      
     secondary_color: '#EDF6F5'
   });
 </script>

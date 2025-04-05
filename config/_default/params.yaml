@@ -5,6 +5,7 @@ plugins:
     - link: plugins/slick/slick.css
     - link: plugins/youmax/youmax.css
     - link: plugins/bootstrap-select/css/bootstrap-select.min.css
+    - link: css/custom-menu.css
   js:
     - link: plugins/jQuery/jquery.min.js
     - link: plugins/bootstrap/bootstrap.min.js
@@ -12,14 +13,13 @@ plugins:
     - link: plugins/youmax/youmax.js
     - link: plugins/bootstrap-select/js/bootstrap-select.min.js
 logo: images/logo.png
-logo_width: 200px
+mobileLogo: images/logo-big.png
 themeVariant: quizdown
 description: The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource.
 author: InnerSource Commons
 defaultImage: images/logo.png
 copyright: >-
-  Design by [Themefisher](https://themefisher.com/) and [Gethugothemes](https://gethugothemes.com/),
-  icons by [Freepik Storyset](https://storyset.com/people)
+  © InnerSource Commons Foundation 
 preloader:
   enable: false
   preloader: ''

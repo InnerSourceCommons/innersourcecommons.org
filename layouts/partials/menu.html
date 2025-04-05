@@ -1,0 +1,96 @@
+{{ if eq .Name "Calendar" }}
+<li class="menu-item-has-children" id="schedule-menu-item">
+  <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>{{ .Name }}</span></a>
+  <div class="sub-menu" style="padding:0px;margin:0px;">
+    <div style="width:100%;margin:0px;padding:0px;" id="calendar-container">
+      <div id="calendar-placeholder">
+        <div id="calendar-loading" style="text-align:center;padding:40px;color:#666;opacity:0;transition:opacity 0.3s ease-in-out;">
+          <i class="ti-reload" style="animation: spin 2s linear infinite;display:block;font-size:24px;margin-bottom:10px;"></i>
+          <span>Loading...</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+
+<script>
+let calendarLoaded = false;
+
+function loadCalendar() {
+  if (calendarLoaded) return;
+  
+  const calendarContainer = document.getElementById('calendar-container');
+  const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const iframe = document.createElement('iframe');
+  iframe.style.border = '0';
+  iframe.style.width = '100%';
+  iframe.style.minHeight = '500px';
+  iframe.style.margin = '0px';
+  iframe.frameBorder = '0';
+  iframe.scrolling = 'no';
+  iframe.style.opacity = '0';
+  iframe.style.transition = 'opacity 0.3s ease-in-out';
+  
+  const loadingElement = document.getElementById('calendar-loading');
+  if (loadingElement) {
+    loadingElement.style.display = 'block';
+    setTimeout(() => {
+      loadingElement.style.opacity = '1';
+    }, 50);
+  }
+
+  iframe.onload = function() {
+    if (loadingElement) {
+      loadingElement.style.opacity = '0';
+      setTimeout(() => {
+        loadingElement.style.display = 'none';
+        iframe.style.opacity = '1';
+      }, 300);
+    }
+  };
+
+  iframe.src = `https://calendar.google.com/calendar/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com&ctz=${timezone}`;
+  
+  calendarContainer.appendChild(iframe);
+  calendarLoaded = true;
+}
+
+const menuItem = document.getElementById('schedule-menu-item');
+if (menuItem) {
+  menuItem.addEventListener('mouseenter', loadCalendar);
+  
+  const menuLink = menuItem.querySelector('a');
+  if (menuLink) {
+    menuLink.addEventListener('click', function(e) {
+      if (window.innerWidth <= 991) {
+        loadCalendar();
+      }
+    });
+  }
+}
+</script>
+{{ else if eq .Name "Featured Articles" }}
+<li class="menu-item-has-children">
+  <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>{{ .Name }}</span></a>
+  <div class="sub-menu">
+    {{ range $section, $articles := site.Data.featured_articles }}
+      {{ range $articles }}
+        {{ if .visible }}
+          <div class="featured-article">
+            <a href="{{ .link }}" {{ if hasPrefix .link "http" }}target="_blank"{{ end }}>
+              <div class="featured-article-image">
+                <img src="{{ .image }}" alt="{{ .title }}">
+              </div>
+              <div class="featured-article-title">{{ .title }}</div>
+            </a>
+          </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+</li>
+{{else}}
+<li class="menu-item">
+  <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}><span>{{ .Name }}</span></a>
+</li>
+{{ end }}
