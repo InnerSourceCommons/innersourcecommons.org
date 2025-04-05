@@ -8,7 +8,7 @@
   <meta name="description" content='InnerSource Commons は、インナーソースに関する知識を創造し、共有することを目的とした実践者のコミュニティです。'>
   <meta name="keywords" content='InnerSource,インナーソース,オープンソース,サイロ,コード共有,共創,コラボレーション'>
   <meta name="author" content="InnerSource Commons">
-  <meta name="generator" content="Hugo 0.133.1">
+  <meta name="generator" content="Hugo 0.145.0">
 
   <!-- plugins -->
   
@@ -22,7 +22,15 @@
   
   <link rel="stylesheet" href="https://innersourcecommons.org/plugins/bootstrap-select/css/bootstrap-select.min.css">
   
+  <link rel="stylesheet" href="https://innersourcecommons.org/css/custom-menu.css">
   
+  
+
+  <!-- jQuery and Bootstrap Dependencies -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
   <!-- Main Stylesheet -->
   
@@ -37,7 +45,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-  <meta name="layout" content="section -  - learn - learn - Page(/learn/learning-path/product-owner)">
+  <meta name="layout" content="section -  - learn - learn - /home/runner/work/innersourcecommons.org/innersourcecommons.org/content/en/learn/learning-path/product-owner/_index.ja.md">
   
   
 	
@@ -66,143 +74,718 @@
     
   
 
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=" crossorigin="anonymous"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '', {
+      'cookie_flags': 'SameSite=None;Secure',
+      'anonymize_ip': true,
+      'client_storage': 'none'
+    });
+  </script>
+  
+
   <!-- Mastodon verification code -->
   <link href="https://fosstodon.org/@innersource" rel="me">
 
 </head><body><!-- navigation -->
-<header class="navigation">
-  <div class="container">
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-      <a class="navbar-brand"
-        href='https://innersourcecommons.org/ja'>
-        <img width="200px" class="img-fluid" src="https://innersourcecommons.org/images/logo.png"
-          alt="InnerSource Commons">
-      </a>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
-        <i class="ti-menu"></i>
-      </button>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const notice = document.querySelector('.notice');
+    if (notice) {
+      document.body.classList.add('has-notice');
+    }
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/ja/learn" >学ぶ</a>
-            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
-              data-display="static"></a>
-            <div class="dropdown-menu">
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/learn/books" >関連書籍</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/learn/learning-path" >ラーニングパス</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/learn/patterns" >インナーソースパターン</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/learn/research" >リサーチ</a>
-              
-              <a class="dropdown-item" href="https://www.youtube.com/@InnerSourceCommons" >ビデオ</a>
-              
-            </div>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://innersourcecommons.org/ja/events/community-calls" >イベント</a>
-          </li>
-          
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/ja/community" >コミュニティ</a>
-            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
-              data-display="static"></a>
-            <div class="dropdown-menu">
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/community/services" >提供企業</a>
-              
-            </div>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://innersourcecommons.org/ja/stories" >事例</a>
-          </li>
-          
-          
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link nav-with-toggle" href="https://innersourcecommons.org/ja/about" >About</a>
-            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-reference="dropdown-toggle"
-              data-display="static"></a>
-            <div class="dropdown-menu">
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/about/announcements" >アナウンス</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/about/board" >役員とガバナンス</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/about/members" >メンバーについて</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/about/sponsors" >スポンサー</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/about/codeofconduct" >行動規範</a>
-              
-              <a class="dropdown-item" href="https://innersourcecommons.org/ja/about/contact" >お問合せ</a>
-              
-            </div>
-          </li>
-          
-          
-        </ul>
-        <a href="https://innersourcecommons.org/slack" class="btn btn-sm slack-invite-btn btn-primary ml-2" target="_blank"><i
-            class="ti-comments pr-2"></i>Slackに参加</a>
+    if ($.fn.selectpicker) {
+      $('.selectpicker').selectpicker({
+        style: 'btn-light',
+        size: 4
+      });
+    }
+  });
+</script>
+<header class="navigation">
+  <div class="container wrap">
+    <div class="logo">
+      <a href='https://innersourcecommons.org/ja'
+        title="InnerSource Commons" style="border-bottom: 0px solid #e0e0e0;">
+        <img src="https://innersourcecommons.org/images/logo.png" alt="InnerSource Commons" class="desktop-logo">
+        <img src="https://innersourcecommons.org/images/logo-big.png" alt="InnerSource Commons" class="mobile-logo">
+      </a>
+    </div>
+
+    <nav class="main-menu">
+      <ul class="main-menu__wrapper">
         
-        <select id="langpicker" class="selectpicker" data-style="btn-light btn-sm ml-3" data-width="fit">
-          <option>日本語</option>
-          
-          <option value="https://innersourcecommons.org/learn/learning-path/product-owner/">English</option>
-          
-          <option value="https://innersourcecommons.org/de/learn/learning-path/product-owner/">Deutsch</option>
-          
-          <option value="https://innersourcecommons.org/fr/learn/learning-path/product-owner/">Français</option>
-          
-          <option value="https://innersourcecommons.org/pt-br/learn/learning-path/product-owner/">Português Brasileiro</option>
-          
-          <option value="https://innersourcecommons.org/zh/learn/learning-path/product-owner/">中文</option>
-          
-        </select>
         
+        <li class="menu-item-has-children">
+          <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>Learning</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  <li class="menu-title">Main</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/learn/" >
+                      Learning
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/learn/learning-path" >
+                      Learning Path
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/learn/books/innersource-patterns/" >
+                      InnerSource Patterns
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/learn/books/managing-innersource-projects/" >
+                      Managing InnerSource Projects
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://www.youtube.com/@InnerSourceCommons" >
+                      Videos
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  <li class="menu-title">Additional Information</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/learn/books" >
+                      Books
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/learn/books/getting-started-with-innersource/" >
+                      Getting Started with InnerSource
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/learn/books/understanding-the-innersource-checklist/" >
+                      Understanding the InnerSource Checklist
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/learn/books/adopting-innersource-principles-and-case-studies/" >
+                      Adopting InnerSource Principles and Case Studies
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                
+                <ul class="menu">
+                  <li class="menu-title">Featured Articles</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                  <div class="article-card">
+                    <a href="https://patterns.innersourcecommons.org/" class="article-link">
+                      <div class="article-image">
+                        <img src="https://2736370588-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fs9OEmdHhkmMvqlFUqXlU%2Fsocialpreview%2FzZq1AkbMAojyPa1wVtzJ%2Finnersource-patterns-book-cover-social-media-preview-gitbook.png?alt=media&amp;token=2239b9d6-b6bb-4d4f-ac7d-2c7e45dc18de" alt="InnerSource Patterns, where the collaborative magic happens">
+                      </div>
+                      <div class="article-content">
+                        <h4>InnerSource Patterns, where the collaborative magic happens</h4>
+                        <p></p>
+                      </div>
+                    </a>
+                  </div>
+                  
+                  <div class="article-card">
+                    <a href="https://innersourcecommons.gitbook.io/managing-innersource-projects/innersource-tooling/github-strategy" class="article-link">
+                      <div class="article-image">
+                        <img src="/images/photos/scm-config.png" alt="InnerSource Strategy and Configuration Management for GitHub">
+                      </div>
+                      <div class="article-content">
+                        <h4>InnerSource Strategy and Configuration Management for GitHub</h4>
+                        <p></p>
+                      </div>
+                    </a>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>Community</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  <li class="menu-title">Main</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/events/community-calls" >
+                      Community Calls
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/community" >
+                      Activities and Working Groups
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/stories" >
+                      InnerSource Stories
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/community/services" >
+                      Services Directory
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/learn/research" >
+                      Research
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  <li class="menu-title">Additional Information</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://gatherings.innersourcecommons.org/" >
+                      InnerSource Gatherings - Local Chapters
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/events/isc-2024" >
+                      InnerSource Summit 2024
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/events/past-summits/" >
+                      Past Summits
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about/map" >
+                      InnerSourcerers Map
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about/announcements" >
+                      Announcements
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://us1.campaign-archive.com/home/?u=0363fb06e6a59d48c6e260f1b&amp;id=97224b5ff2" >
+                      Past Newsletters
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                
+                <ul class="menu">
+                  <li class="menu-title">Featured Activity</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                  
+                  
+                  <div class="article-card">
+                    <a href="https://bit.ly/ISCMay06" class="article-link" target="_blank">
+                      <div class="article-image">
+                        <img src="/images/events/meetup-2025-05-06.png" alt="InnerSource in China - Past, Present, and Future">
+                      </div>
+                      <div class="article-content">
+                        <h4>InnerSource in China - Past, Present, and Future will be held on May 6, 2025</h4>
+                      </div>
+                    </a>
+                  </div>
+                  
+                  
+                  <div class="article-card">
+                    <a href="https://gatherings.innersourcecommons.org/berlin-2025/" class="article-link">
+                      <div class="article-image">
+                        <img src="/images/photos/berlin-2025.png" alt="InnerSource Gathering Berlin 2025 is open for registration!">
+                      </div>
+                      <div class="article-content">
+                        <h4>InnerSource Gathering Berlin 2025 is open for registration!</h4>
+                      </div>
+                    </a>
+                  </div>
+                  
+                  <div class="article-card">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjeQFYDVT_0pVwMJTHTmArMPLtq7oHwBO8CgQzd_aV0UxRKA/viewform" class="article-link">
+                      <div class="article-image">
+                        <img src="/images/photos/call-for-hosts.png" alt="Call for Hosts for InnerSource Summit 2025">
+                      </div>
+                      <div class="article-content">
+                        <h4>Call for Hosts for InnerSource Summit 2025</h4>
+                      </div>
+                    </a>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        
+<li class="menu-item-has-children" id="schedule-menu-item">
+  <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>Calendar</span></a>
+  <div class="sub-menu" style="padding:0px;margin:0px;">
+    <div style="width:100%;margin:0px;padding:0px;" id="calendar-container">
+      <div id="calendar-placeholder">
+        <div id="calendar-loading" style="text-align:center;padding:40px;color:#666;opacity:0;transition:opacity 0.3s ease-in-out;">
+          <i class="ti-reload" style="animation: spin 2s linear infinite;display:block;font-size:24px;margin-bottom:10px;"></i>
+          <span>Loading...</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+
+<script>
+let calendarLoaded = false;
+
+function loadCalendar() {
+  if (calendarLoaded) return;
+  
+  const calendarContainer = document.getElementById('calendar-container');
+  const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const iframe = document.createElement('iframe');
+  iframe.style.border = '0';
+  iframe.style.width = '100%';
+  iframe.style.minHeight = '500px';
+  iframe.style.margin = '0px';
+  iframe.frameBorder = '0';
+  iframe.scrolling = 'no';
+  iframe.style.opacity = '0';
+  iframe.style.transition = 'opacity 0.3s ease-in-out';
+  
+  const loadingElement = document.getElementById('calendar-loading');
+  if (loadingElement) {
+    loadingElement.style.display = 'block';
+    setTimeout(() => {
+      loadingElement.style.opacity = '1';
+    }, 50);
+  }
+
+  iframe.onload = function() {
+    if (loadingElement) {
+      loadingElement.style.opacity = '0';
+      setTimeout(() => {
+        loadingElement.style.display = 'none';
+        iframe.style.opacity = '1';
+      }, 300);
+    }
+  };
+
+  iframe.src = `https://calendar.google.com/calendar/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com&ctz=${timezone}`;
+  
+  calendarContainer.appendChild(iframe);
+  calendarLoaded = true;
+}
+
+const menuItem = document.getElementById('schedule-menu-item');
+if (menuItem) {
+  menuItem.addEventListener('mouseenter', loadCalendar);
+  
+  const menuLink = menuItem.querySelector('a');
+  if (menuLink) {
+    menuLink.addEventListener('click', function(e) {
+      if (window.innerWidth <= 991) {
+        loadCalendar();
+      }
+    });
+  }
+}
+</script>
+
+
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>About</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  <li class="menu-title">Main</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about" >
+                      Who We Are
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about/board" >
+                      Board &amp; Governance
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about/members" >
+                      Members
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about/sponsors" >
+                      Sponsors
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://github.com/InnerSourceCommons" >
+                      GitHub
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  <li class="menu-title">Additional Information</li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about/contact" >
+                      Contact Us
+                      
+                    </a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="https://innersourcecommons.org/ja/about/codeofconduct" >
+                      Code of Conduct
+                      
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                
+                <ul class="menu">
+                  <li class="menu-title">Featured Information</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                  <div class="article-card">
+                    <a href="https://innersourcecommons.org/stories/microsoft/" class="article-link">
+                      <div class="article-image">
+                        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/RWCZER-Legal-IP-Trademarks-CP-MS-logo-740x417-1" alt="The Latest Case Study - Microsoft">
+                      </div>
+                      <div class="article-content">
+                        <h4>The Latest Case Study - Microsoft</h4>
+                        <p></p>
+                      </div>
+                    </a>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        <div class="search-wrapper">
+        <span class="menu-item" id="search-menu-item" style="width: 100%">
+  <span class="search-container" style="width: 100%">
+    <input 
+      type="text" 
+      id="search-input" 
+      placeholder="Search..." 
+      autocomplete="off" 
+      style="width: 100%; height: 33.5px;margin:7.2px"
+    >
+    <span id="search-results" class="search-results"></span>
+  </span >
+</span >
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('search-input');
+  const searchResults = document.getElementById('search-results');
+
+  function createSearchResultHTML(item) {
+    const summary = item.summary || '';
+    const truncatedSummary = summary.length > 100 ? 
+      `${summary.substring(0, 100)}...` : 
+      summary;
+
+    return `
+      <a href="${item.url}" class="search-result-item">
+        <div class="search-result-title">${item.title || ''}</div>
+        \x3C!-- div class="search-result-summary">${truncatedSummary}</div -->
+      </a>
+    `;
+  }
+
+  function handleSearch() {
+    const searchQuery = searchInput.value.trim();
+    
+    if (searchQuery.length < 2) {
+      searchResults.style.display = 'none';
+      return;
+    }
+
+    fetch('/index.json')
+      .then(response => response.json())
+      .then(response => {
+        const data = Object.values(response.data || {});
+        const currentLang = document.documentElement.lang || 'en';
+        
+        const results = data.filter(item => {
+          if (item.lang !== currentLang) return false;
+          
+          const regex = new RegExp(searchQuery, 'i');
+          return (item.title && item.title.match(regex)) || 
+                 (item.content && item.content.match(regex));
+        });
+
+        searchResults.innerHTML = results.length ? 
+          results.map(createSearchResultHTML).join('') : 
+          '<div class="no-results">No results found</div>';
+        
+        searchResults.style.display = 'block';
+      });
+  }
+
+  searchInput.addEventListener('input', handleSearch);
+
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.search-container')) {
+      searchResults.style.display = 'none';
+    }
+  });
+});
+</script> 
+
+        </div>
+      </ul>
+       
+
+      <div class="header-cta">
+        <div class="language-selector">
+          <select class="form-control" id="language-selector">
+            <option value="" selected disabled>日本語</option>
+            
+            
+            <option value="https://innersourcecommons.org/learn/learning-path/product-owner/">English</option>
+            
+            <option value="https://innersourcecommons.org/de/learn/learning-path/product-owner/">Deutsch</option>
+            
+            <option value="https://innersourcecommons.org/fr/learn/learning-path/product-owner/">Français</option>
+            
+            <option value="https://innersourcecommons.org/pt-br/learn/learning-path/product-owner/">Português Brasileiro</option>
+            
+            <option value="https://innersourcecommons.org/zh/learn/learning-path/product-owner/">中文</option>
+            
+            
+          </select>
+        </div>
+        <a href="https://innersourcecommons.org/slack" class="btn btn-outline-primary d-flex align-items-center" target="_blank" style="background-color: white;">
+          <img src="/images/slack.png" class="slack-icon-pulse" alt="Slack" style="width: 16px; height: 16px; margin-right: 8px;">Slackに参加
+        </a>
       </div>
     </nav>
+
+    <button class="hamburger" type="button" aria-label="Toggle Menu">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
   </div>
 </header>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.querySelector('.hamburger');
+    const menu = document.querySelector('.main-menu__wrapper');
+    const subMenuParents = document.querySelectorAll('.menu-item-has-children > a');
+    const isMobile = window.innerWidth <= 992;
+
+    const languageSelector = document.getElementById('language-selector');
+    if (languageSelector) {
+      languageSelector.addEventListener('change', function() {
+        const selectedUrl = this.value;
+        if (selectedUrl) {
+          window.location.href = selectedUrl;
+        }
+      });
+    }
+
+    const calendarContainer = document.getElementById('calendar-container');
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.addedNodes.length > 0) {
+          const loadingElement = document.getElementById('calendar-loading');
+          if (loadingElement) {
+            loadingElement.style.transition = 'opacity 0.5s ease-out';
+            loadingElement.style.opacity = '1';
+            
+            setTimeout(() => {
+              loadingElement.style.opacity = '0';
+              setTimeout(() => {
+                loadingElement.style.display = 'none';
+              }, 500);
+            }, 2000);
+          }
+        }
+      });
+    });
+
+    if (calendarContainer) {
+      observer.observe(calendarContainer, { childList: true, subtree: true });
+    }
+
+    hamburger.addEventListener('click', function () {
+      this.classList.toggle('is-active');
+      menu.classList.toggle('is-active');
+    });
+
+    
+    const checkLogoDisplay = function() {
+      const desktopLogo = document.querySelector('.desktop-logo');
+      const mobileLogo = document.querySelector('.mobile-logo');
+      
+      if (window.innerWidth <= 390) {
+        if (desktopLogo) desktopLogo.style.display = 'none';
+        if (mobileLogo) mobileLogo.style.display = 'block';
+      } else {
+        if (desktopLogo) desktopLogo.style.display = 'block';
+        if (mobileLogo) mobileLogo.style.display = 'none';
+      }
+    };
+    
+    
+    checkLogoDisplay();
+    
+    
+    window.addEventListener('resize', checkLogoDisplay);
+
+    if (isMobile) {
+      subMenuParents.forEach(item => {
+        item.addEventListener('click', function (e) {
+          e.preventDefault();
+          const parent = this.parentElement;
+          const subMenu = this.nextElementSibling;
+
+          subMenuParents.forEach(otherItem => {
+            if (otherItem !== this) {
+              otherItem.parentElement.classList.remove('is-active');
+              otherItem.nextElementSibling.classList.remove('is-active');
+            }
+          });
+
+          parent.classList.toggle('is-active');
+          subMenu.classList.toggle('is-active');
+        });
+      });
+    }
+
+    window.addEventListener('resize', function () {
+      const isNowMobile = window.innerWidth <= 992;
+      if (isNowMobile !== isMobile) {
+        location.reload();
+      }
+    });
+  });
+</script>
+
 <!-- /navigation -->
 
 
 
-
-
-
-
-
-
-
-
-<section class="notice bg-primary text-light">
+<section class='notice bg-primary text-light'>
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-12 text-center">Join us on Tuesday, April 29th, 5pm GMT/ 6pm CET / 12pm CDT / 10am PDT, when Brittany Istenes, InnerSource Commons Member, will discuss <a href="https://bit.ly/ISCApr29" class="bg-primary text-light" target="_blank"> Empathetic Engineering and InnerSource. 
-            <i class="ti-arrow-right"></i></a>
-      </div>
+      <div class="col-md-12">
+        
+        Join us on Tuesday, April 29th, 5pm GMT/ 6pm CET / 12pm CDT / 10am PDT, when Brittany Istenes, InnerSource Commons Member, will discuss <a href="https://bit.ly/ISCApr29">Empathetic Engineering and InnerSource</a>.
+        
     </div>
   </div>
 </section>
 
 
 
-<div class="container">
+
+
+
+
+
+
+
+
+
+
+<div class="container" style="padding: 0px;">
 
 <ol class="breadcrumb">
   
@@ -244,160 +827,422 @@
 
 
 </div>
-<section class="section pb-0 section-first">
-  <div class="container text-center">
+  <div class="container">
     <h1 class="display-3">ラーニングパス - プロダクトオーナー</h1>
     
   </div>
-</section>
 
-<section class="section">
+
   <div class="container">
-    <div class="row">
+    <div class="course-list">
       
-
-      <div class="col-12 mb-5 pb-5">
-        <div class="row align-items-center">
-          
-          <div class="col-md-6 mb-4 mb-md-0">
-            <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/01/">
-              <img src="https://img.youtube.com/vi/urbkSMsJXZ0/mqdefault.jpg" alt="はじめに" class="img-fluid rounded-lg w-100">
-            </a>
+      
+      
+      
+      <div class="course-wrapper">
+        <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/01/" data-course-link="https://innersourcecommons.org/ja/learn/learning-path/product-owner/01/" data-type="page" class="course-item-link">
+          <div class="course-item">
+            <div class="course-image">
+              
+              <img src="https://img.youtube.com/vi/urbkSMsJXZ0/mqdefault.jpg" alt="はじめに">
+              
+            </div>
+            <div class="course-content">
+              <h3>はじめに</h3>
+              <p class="course-description"><div class="paragraph">
+<p>こんにちは、中間管理職やプロダクトオーナー、プログラムマネージャーの皆さん。
+もっと幸せで効果的なチームをリードしたいと思いますか？
+報告地獄に閉じ込められた記録係よりもリーダーになりたいですか？
+私の会社にInnerSourceのプロセスを導入したことで、約80%が割り込み駆動型開発だった複数の大規模システムのリファクタリングをすることができました。
+そして私たちは皆、その環境を管理すること、ましてや開発することが、いかに難しいかを知っています。</p>
+</div>
+<div class="paragraph">
+<p>InnerSourceプロセスを通じて、私たちは数十年積み残していた内部残件を1年足らずで削減もしました。
+InnerSouceの重要な要素はオープンであることです。
+これは、ほとんどの企業のチームが陥っているサイロ化を破壊します。
+これを実現可能にして、数え切れない管理や開発者の時間を節約する、基本的なInnerSourceの手法について説明します。</p>
+</div>
+<div class="paragraph">
+<p>こんにちは。Sliona Bonewald です。PayPalでディレクターをしています。
+InnerSourceプロセスでは、40以上のチームと1500人以上のスタッフのトレーニングに成功しました。
+また、InnerSourceコモンズにも参加して定期的に講演しています。
+是非ご参加ください。
+<a href="http://innersourcecommons.org/">innersourcecommons.org</a> を、ご覧ください。
+<a href="http://innersourcecommons.org/checklist">innersourcecommons.org/checklist</a> で、O&#8217;Reillyと一緒に執筆した小冊子のコピーも入手できます。
+この動画より、さらに詳しい内容が書かれています。</p></p>
+              <div class="course-meta">
+                
+                
+              </div>
+              <span class="btn-link">More <i class="ti-arrow-right"></i></span>
+            </div>
           </div>
-          
-          <div class="col-md-6">
-            <h2><a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/01/" class="post-title">
-              はじめに</a></h2>
-            <p class="card-text">こんにちは、中間管理職やプロダクトオーナー、プログラムマネージャーの皆さん。 もっと幸せで効果的なチームをリードしたいと思いますか？ 報告地獄に閉じ込められた記録係よりもリーダーになりたいですか？ 私の会社にInnerSourceのプロセスを導入したことで、約80%が割り込み駆動型開発だった複数の大規模システムのリファクタリングをすることができました。 そして私たちは皆、その環境を管理すること、ましてや開発することが、いかに難しいかを知っています。
-InnerSourceプロセスを通じて、私たちは数十年積み残していた内部残件を1年足らずで削減もしました。 InnerSouceの重要な要素はオープンであることです。 これは、ほとんどの企業のチームが陥っているサイロ化を破壊します。 これを実現可能にして、数え切れない管理や開発者の時間を節約する、基本的なInnerSourceの手法について説明します。
-こんにちは。Sliona Bonewald です。PayPalでディレクターをしています。 InnerSourceプロセスでは、40以上のチームと1500人以上のスタッフのトレーニングに成功しました。 また、InnerSourceコモンズにも参加して定期的に講演しています。 是非ご参加ください。 innersourcecommons.</p>
-            <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/01/" class="btn btn-primary">
-              More</a>
-          </div>
-        </div>
+        </a>
+        <div class="course-expanded-content"></div>
       </div>
       
-      
-      <div class="col-lg-4 col-sm-4 mb-5">
-        <div class="card border-0">
-          
-          <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/02/">
-            <img src="https://img.youtube.com/vi/PQwlatm5Kak/mqdefault.jpg" alt="中間管理職でいることの難しさ" class="card-img rounded-lg mb-4">
-          </a>
-          
-          <div class="card-body p-0">
-            <h3><a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/02/" class="post-title">
-              中間管理職でいることの難しさ</a></h3>
-            <p class="card-text">まずは、プロダクトオーナーや中間管理職の人に話を聞いてみることから始めましょう。 ツライですね、統計からもわかります。 Googleで"中間管理職"と検索してみても、ほとんどの結果はそれが如何に大変かについてです。
-これが統計情報になります。 中間管理職の皆さんは、上司や部下よりもうつ病や不安を抱えている割合が高いです。 半数以上が常に不安を感じていると言うことです。 Harvard Business Reviewが32万人以上の従業員を対象に実施した調査によると、中間管理職の仕事の満足度は下位5%だということが明らかになりました。痛い！
-私が見つけた共通の不満を意訳すると、中間管理職は上層部のビジョン作成には関わらず、責任を取らされることがよくあります。 リーダーシップ能力を必要とする人にとって、これほどモチベーションが下がるものを思いつきません。
-いくつかの調査を読んでわかった不満のトップ5は、次の通りです。
-最初は、混沌と機能不全に陥ったプロダクトチームを引き継ぐことです。
-2番目は、柔軟性がなく、創造性を発揮する余地がほとんどないことです。多くの場合、これには明確な道筋が含まれていません。</p>
-            <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/02/" class="btn btn-primary btn-sm">
-              More</a>
+      <div class="course-wrapper">
+        <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/02/" data-course-link="https://innersourcecommons.org/ja/learn/learning-path/product-owner/02/" data-type="page" class="course-item-link">
+          <div class="course-item">
+            <div class="course-image">
+              
+              <img src="https://img.youtube.com/vi/PQwlatm5Kak/mqdefault.jpg" alt="中間管理職でいることの難しさ">
+              
+            </div>
+            <div class="course-content">
+              <h3>中間管理職でいることの難しさ</h3>
+              <p class="course-description"><div class="paragraph">
+<p>まずは、プロダクトオーナーや中間管理職の人に話を聞いてみることから始めましょう。
+ツライですね、統計からもわかります。
+Googleで"中間管理職"と検索してみても、ほとんどの結果はそれが如何に大変かについてです。</p>
+</div>
+<div class="paragraph">
+<p>これが統計情報になります。
+中間管理職の皆さんは、上司や部下よりもうつ病や不安を抱えている割合が高いです。
+半数以上が常に不安を感じていると言うことです。
+Harvard Business Reviewが32万人以上の従業員を対象に実施した調査によると、中間管理職の仕事の満足度は下位5%だということが明らかになりました。痛い！</p>
+</div>
+<div class="paragraph">
+<p>私が見つけた共通の不満を意訳すると、中間管理職は上層部のビジョン作成には関わらず、責任を取らされることがよくあります。
+リーダーシップ能力を必要とする人にとって、これほどモチベーションが下がるものを思いつきません。</p>
+</div>
+<div class="paragraph">
+<p>いくつかの調査を読んでわかった不満のトップ5は、次の通りです。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>最初は、混沌と機能不全に陥ったプロダクトチームを引き継ぐことです。</p>
+</li>
+<li>
+<p>2番目は、柔軟性がなく、創造性を発揮する余地がほとんどないことです。多くの場合、これには明確な道筋が含まれていません。</p>
+</li>
+<li>
+<p>3番目、そして私が個人的に一番取り組まなければならないこととして、政治と内紛に対処することのストレスがあります。</p></p>
+              <div class="course-meta">
+                
+                
+              </div>
+              <span class="btn-link">More <i class="ti-arrow-right"></i></span>
+            </div>
           </div>
-        </div>
+        </a>
+        <div class="course-expanded-content"></div>
       </div>
       
-      <div class="col-lg-4 col-sm-4 mb-5">
-        <div class="card border-0">
-          
-          <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/03/">
-            <img src="https://img.youtube.com/vi/UGX7khGbtx0/mqdefault.jpg" alt="InnerSourceのプロセスに組込まれている主なメリット" class="card-img rounded-lg mb-4">
-          </a>
-          
-          <div class="card-body p-0">
-            <h3><a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/03/" class="post-title">
-              InnerSourceのプロセスに組込まれている主なメリット</a></h3>
-            <p class="card-text">InnerSourceコモンズ では、オープンソースで学んだ オープン の概念について説明し、また、企業の中で私たちが知っていることや学んだことを再利用する方法について説明します。 それでは、マネージャーの視点からいくつか順を追っていきましょう。ディレクターとして、そしてPayPalではプロダクトオーナーと呼ぶプロダクトマネージャーとして、私にどのようなメリットをもたらしたかを説明します。
-最初は、 オープンコード です。 オープンコードとは、何でしょうか？基本的には、コードが企業全体から見えるということ、そして、他の開発者が他のコードベースにプルリクエストを送信して受け入れるプロセスがあるということです。 さらに理解を深めるために、詳細については Trusted Committer と、コントリビューションアグリーメントに関する記事を参照してください。
-マネージャーにとってのオープンコードとは、他チームのコードベースでバグ修正や機能実装されるのを待ったり、エスカレーションしたりする必要がなくなることを意味しています。 実装や計画を、より効果的に始めることができます。 多くの場合、あなたのチームの問題(または機能)は、他チームの最優先事項ではないかもしれません。 そのチームにアクセスするために、上層部へのエスカレーションや政治に頼る必要はもうありません。 代わりに、あなたのチームで優先順位を決定し、他者への依存を減らすことができる、より多くの力を手に入れます。 知識の習得までに、より時間がかかる場合もあります。しかし、それが常にボトルネックとなっているチームでは、何年も放置されているストーリーを、他チームのバックログから取り出すことができます。</p>
-            <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/03/" class="btn btn-primary btn-sm">
-              More</a>
+      <div class="course-wrapper">
+        <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/03/" data-course-link="https://innersourcecommons.org/ja/learn/learning-path/product-owner/03/" data-type="page" class="course-item-link">
+          <div class="course-item">
+            <div class="course-image">
+              
+              <img src="https://img.youtube.com/vi/UGX7khGbtx0/mqdefault.jpg" alt="InnerSourceのプロセスに組込まれている主なメリット">
+              
+            </div>
+            <div class="course-content">
+              <h3>InnerSourceのプロセスに組込まれている主なメリット</h3>
+              <p class="course-description"><div class="paragraph">
+<p><a href="http://innersourcecommons.org/">InnerSourceコモンズ</a> では、オープンソースで学んだ <em>オープン</em> の概念について説明し、また、企業の中で私たちが知っていることや学んだことを再利用する方法について説明します。
+それでは、マネージャーの視点からいくつか順を追っていきましょう。ディレクターとして、そしてPayPalではプロダクトオーナーと呼ぶプロダクトマネージャーとして、私にどのようなメリットをもたらしたかを説明します。</p>
+</div>
+<div class="paragraph">
+<p>最初は、 <em>オープンコード</em> です。
+オープンコードとは、何でしょうか？基本的には、コードが企業全体から見えるということ、そして、他の開発者が他のコードベースにプルリクエストを送信して受け入れるプロセスがあるということです。
+さらに理解を深めるために、詳細については <a href="https://innersourcecommons.org/ja/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a>  と、コントリビューションアグリーメントに関する記事を参照してください。</p>
+</div>
+<div class="paragraph">
+<p>マネージャーにとってのオープンコードとは、他チームのコードベースでバグ修正や機能実装されるのを待ったり、エスカレーションしたりする必要がなくなることを意味しています。
+実装や計画を、より効果的に始めることができます。
+多くの場合、あなたのチームの問題(または機能)は、他チームの最優先事項ではないかもしれません。
+そのチームにアクセスするために、上層部へのエスカレーションや政治に頼る必要はもうありません。
+代わりに、あなたのチームで優先順位を決定し、他者への依存を減らすことができる、より多くの力を手に入れます。
+知識の習得までに、より時間がかかる場合もあります。しかし、それが常にボトルネックとなっているチームでは、何年も放置されているストーリーを、他チームのバックログから取り出すことができます。</p></p>
+              <div class="course-meta">
+                
+                
+              </div>
+              <span class="btn-link">More <i class="ti-arrow-right"></i></span>
+            </div>
           </div>
-        </div>
+        </a>
+        <div class="course-expanded-content"></div>
       </div>
       
-      <div class="col-lg-4 col-sm-4 mb-5">
-        <div class="card border-0">
-          
-          <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/04/">
-            <img src="https://img.youtube.com/vi/afXNJjt2ReI/mqdefault.jpg" alt="新しい役割と責任" class="card-img rounded-lg mb-4">
-          </a>
-          
-          <div class="card-body p-0">
-            <h3><a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/04/" class="post-title">
-              新しい役割と責任</a></h3>
-            <p class="card-text">InnerSourceのリーダーには、新しい役割と責任が伴います。 その最初の1つが、TCをサポートすることです。TCは、 Trusted Committer です。 あなたが最初に行うことの1つは、おそらく、TCが誰になるかの選抜を支援し、彼らの仕事をサポートすることです。 もし、TCの役割について詳しく知りたければ、 Trusted Committer の章を参照してください。
-彼らは、あなたのコードベースのゲートキーパーです。 通常、彼らはコードレビューを得意とし、コードベースのアーキテクチャを深く理解しているリード開発者です。 彼らにはあなたのサポートが必要です。 他チームとのコラボレーションにおいても、彼らは重要です。 見積りやインテグレーションでは、あなたの右腕となるでしょう。彼らをサポートするのを忘れないでください。 彼らにはいくつかとても大変な新しい責任があり、 コントリビューションするチーム を支援するために指導が必要になるかもしれません。 開発者が交渉方法を教えられることはあまりありません。 私は、 Getting to Yes という本を、彼らと一緒に使うことをお勧めします。</p>
-            <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/04/" class="btn btn-primary btn-sm">
-              More</a>
+      <div class="course-wrapper">
+        <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/04/" data-course-link="https://innersourcecommons.org/ja/learn/learning-path/product-owner/04/" data-type="page" class="course-item-link">
+          <div class="course-item">
+            <div class="course-image">
+              
+              <img src="https://img.youtube.com/vi/afXNJjt2ReI/mqdefault.jpg" alt="新しい役割と責任">
+              
+            </div>
+            <div class="course-content">
+              <h3>新しい役割と責任</h3>
+              <p class="course-description"><div class="paragraph">
+<p>InnerSourceのリーダーには、新しい役割と責任が伴います。
+その最初の1つが、TCをサポートすることです。TCは、 <a href="https://innersourcecommons.org/ja/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> です。
+あなたが最初に行うことの1つは、おそらく、TCが誰になるかの選抜を支援し、彼らの仕事をサポートすることです。
+もし、TCの役割について詳しく知りたければ、 <a href="https://innersourcecommons.org/ja/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> の章を参照してください。</p>
+</div>
+<div class="paragraph">
+<p>彼らは、あなたのコードベースのゲートキーパーです。
+通常、彼らはコードレビューを得意とし、コードベースのアーキテクチャを深く理解しているリード開発者です。
+彼らにはあなたのサポートが必要です。
+他チームとのコラボレーションにおいても、彼らは重要です。
+見積りやインテグレーションでは、あなたの右腕となるでしょう。彼らをサポートするのを忘れないでください。
+彼らにはいくつかとても大変な新しい責任があり、 <a href="https://innersourcecommons.org/ja/learn/learning-path/contributor"><em>コントリビューションするチーム</em></a> を支援するために指導が必要になるかもしれません。
+開発者が交渉方法を教えられることはあまりありません。
+私は、 <a href="https://www.amazon.com/Getting-Yes-Negotiating-Agreement-Without/dp/0143118757/">Getting to Yes</a> という本を、彼らと一緒に使うことをお勧めします。</p></p>
+              <div class="course-meta">
+                
+                
+              </div>
+              <span class="btn-link">More <i class="ti-arrow-right"></i></span>
+            </div>
           </div>
-        </div>
+        </a>
+        <div class="course-expanded-content"></div>
       </div>
       
-      <div class="col-lg-4 col-sm-4 mb-5">
-        <div class="card border-0">
-          
-          <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/05/">
-            <img src="https://img.youtube.com/vi/LO5ouFdgyBY/mqdefault.jpg" alt="要約と要点" class="card-img rounded-lg mb-4">
-          </a>
-          
-          <div class="card-body p-0">
-            <h3><a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/05/" class="post-title">
-              要約と要点</a></h3>
-            <p class="card-text">この記事で説明した内容をまとめるために、簡単な振り返りをしたいと思います。
-まずは、労りましょう。中間管理職は大変です。
-私たちが話した主なメリットのいくつかについても説明していきます。 私たちは、InnerSourceがボトルネックを取り除くのにどのように役立つかについて、さまざまな方法を話しました。 また、中間管理職になることで、より多くの責任とより多くの統制力を得る方法について話しました。
-また、同僚とより多くコラボレーションすることで、より少ないリソースでより多くの成果を達成でき、その結果、こうした冗長性に実際に対処することができます。 オープンプロセスは、おそらく以前得ていたよりも多くの信用を、あなたの仕事に与えることを意味しています。 これらの計画プロセスを実行して公開することで、すべてがより明確になるため、政治的問題を少なくすることができます。
-そして最後に、新しい Trusted Committer をサポートするなどの新しい役割と責任があります。 彼らは、本当にあなたの助けを必要とするでしょう。 また、他のプロダクトオーナーと協力することで、より多くの作業をより短期間で行うことができます。 新しいドキュメントに関しては多くの時間を費やす必要がありますが、それでも大丈夫です。なぜなら、より多くの信用を得られるからです。</p>
-            <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/05/" class="btn btn-primary btn-sm">
-              More</a>
+      <div class="course-wrapper">
+        <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/05/" data-course-link="https://innersourcecommons.org/ja/learn/learning-path/product-owner/05/" data-type="page" class="course-item-link">
+          <div class="course-item">
+            <div class="course-image">
+              
+              <img src="https://img.youtube.com/vi/LO5ouFdgyBY/mqdefault.jpg" alt="要約と要点">
+              
+            </div>
+            <div class="course-content">
+              <h3>要約と要点</h3>
+              <p class="course-description"><div class="paragraph">
+<p>この記事で説明した内容をまとめるために、簡単な振り返りをしたいと思います。</p>
+</div>
+<div class="paragraph">
+<p>まずは、労りましょう。中間管理職は大変です。</p>
+</div>
+<div class="paragraph">
+<p>私たちが話した主なメリットのいくつかについても説明していきます。
+私たちは、InnerSourceがボトルネックを取り除くのにどのように役立つかについて、さまざまな方法を話しました。
+また、中間管理職になることで、より多くの責任とより多くの統制力を得る方法について話しました。</p>
+</div>
+<div class="paragraph">
+<p>また、同僚とより多くコラボレーションすることで、より少ないリソースでより多くの成果を達成でき、その結果、こうした冗長性に実際に対処することができます。
+オープンプロセスは、おそらく以前得ていたよりも多くの信用を、あなたの仕事に与えることを意味しています。
+これらの計画プロセスを実行して公開することで、すべてがより明確になるため、政治的問題を少なくすることができます。</p>
+</div>
+<div class="paragraph">
+<p>そして最後に、新しい <a href="https://innersourcecommons.org/ja/learn/learning-path/trusted-committer"><em>Trusted Committer</em></a> をサポートするなどの新しい役割と責任があります。
+彼らは、本当にあなたの助けを必要とするでしょう。
+また、他のプロダクトオーナーと協力することで、より多くの作業をより短期間で行うことができます。
+新しいドキュメントに関しては多くの時間を費やす必要がありますが、それでも大丈夫です。なぜなら、より多くの信用を得られるからです。</p>
+</div>
+<div class="paragraph">
+<p>また、社内マーケティングでは、そこで身につけなければならない新しいスキルがあります。
+しかし、いったんそれをマスターすれば、あなたの作業を完了させるための多くのリソースを手に入れることができます。</p></p>
+              <div class="course-meta">
+                
+                
+              </div>
+              <span class="btn-link">More <i class="ti-arrow-right"></i></span>
+            </div>
           </div>
-        </div>
+        </a>
+        <div class="course-expanded-content"></div>
       </div>
       
-      <div class="col-lg-4 col-sm-4 mb-5">
-        <div class="card border-0">
-          
-          <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/06/">
-            <img src="https://img.youtube.com/vi/0beNc9V-tro/mqdefault.jpg" alt="おわりに" class="card-img rounded-lg mb-4">
-          </a>
-          
-          <div class="card-body p-0">
-            <h3><a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/06/" class="post-title">
-              おわりに</a></h3>
-            <p class="card-text">是非、 innersourcecommon.org まで連絡をいただき、オンラインでご参加ください。 私たちは、80以上の企業が参加するとてもアクティブなコミュニティです。 それらの多くは、Fortune 500の企業です。
-他のビデオをまだ視聴されていなければ、是非ご覧ください。 そこには、InnerSourceのプロセスをあなたの会社に実装するために必要な最初のいくつかのステップが含まれています。 また、https://innersourcecommons.org/ja/learn/learning-path/trusted-committer[Trusted Committer] などの役割や、あなたの最初のコントリビューションの合意形成のような、いくつかの文書についても説明しています。
-もしよろしければ、私の本をご覧ください。 innersourcecommons.org/checklist から入手してください。 この本の後ろの部分には、プロダクトオーナーの皆さんが実行すべきことがたくさんあります。 innersourcecommons.</p>
-            <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/06/" class="btn btn-primary btn-sm">
-              More</a>
+      <div class="course-wrapper">
+        <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/06/" data-course-link="https://innersourcecommons.org/ja/learn/learning-path/product-owner/06/" data-type="page" class="course-item-link">
+          <div class="course-item">
+            <div class="course-image">
+              
+              <img src="https://img.youtube.com/vi/0beNc9V-tro/mqdefault.jpg" alt="おわりに">
+              
+            </div>
+            <div class="course-content">
+              <h3>おわりに</h3>
+              <p class="course-description"><div class="paragraph">
+<p>是非、 <a href="http://innersourcecommons.org/">innersourcecommon.org</a> まで連絡をいただき、オンラインでご参加ください。
+私たちは、80以上の企業が参加するとてもアクティブなコミュニティです。
+それらの多くは、Fortune 500の企業です。</p>
+</div>
+<div class="paragraph">
+<p>他のビデオをまだ視聴されていなければ、是非ご覧ください。
+そこには、InnerSourceのプロセスをあなたの会社に実装するために必要な最初のいくつかのステップが含まれています。
+また、https://innersourcecommons.org/ja/learn/learning-path/trusted-committer[Trusted Committer] などの役割や、あなたの最初のコントリビューションの合意形成のような、いくつかの文書についても説明しています。</p>
+</div>
+<div class="paragraph">
+<p>もしよろしければ、私の本をご覧ください。 <a href="http://innersourcecommons.org/checklist/">innersourcecommons.org/checklist</a> から入手してください。
+この本の後ろの部分には、プロダクトオーナーの皆さんが実行すべきことがたくさんあります。
+innersourcecommons.org に問い合わせいただくか、TwitterやFacebook、LinkedInで問い合わせいただくことも可能です。
+また、さらに詳しい話をするために連絡をしたい時には、 <a href="http://silona.org/">silona.com</a> までお問い合わせください。
+私もTwitterをよく利用しています。</p></p>
+              <div class="course-meta">
+                
+                
+              </div>
+              <span class="btn-link">More <i class="ti-arrow-right"></i></span>
+            </div>
           </div>
-        </div>
+        </a>
+        <div class="course-expanded-content"></div>
       </div>
       
-      <div class="col-lg-4 col-sm-4 mb-5">
-        <div class="card border-0">
-          
-          <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/workbook/">
-            <img src="https://innersourcecommons.org/images/learn/workbooks/Learning%20Path-Product%20Owner%20Workbook-image.png" alt="Workbook" class="card-img rounded-lg mb-4">
-          </a>
-          
-          <div class="card-body p-0">
-            <h3><a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/workbook/" class="post-title">
-              Workbook</a></h3>
-            <p class="card-text">Video: InnerSource Product Owners SEGMENT: How Difficult It Is to Be Middle Management TIP: More than one answer may be correct in some questions.</p>
-            <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/workbook/" class="btn btn-primary btn-sm">
-              More</a>
+      <div class="course-wrapper">
+        <a href="https://innersourcecommons.org/ja/learn/learning-path/product-owner/workbook/" data-course-link="https://innersourcecommons.org/ja/learn/learning-path/product-owner/workbook/" data-type="page" class="course-item-link">
+          <div class="course-item">
+            <div class="course-image">
+              
+              <img src="https://innersourcecommons.org/images/learn/workbooks/Learning%20Path-Product%20Owner%20Workbook-image.png" alt="Workbook">
+              
+            </div>
+            <div class="course-content">
+              <h3>Workbook</h3>
+              <p class="course-description"><div class="sect2">
+<h3 id="_video_innersource_product_owners">Video:  InnerSource Product Owners</h3>
+<div class="sect3">
+<h4 id="_segment_how_difficult_it_is_to_be_middle_management">SEGMENT: How Difficult It Is to Be Middle Management</h4>
+<div class="paragraph">
+<p>TIP:
+More than one answer may be correct in some questions.</p></p>
+              <div class="course-meta">
+                
+                
+              </div>
+              <span class="btn-link">More <i class="ti-arrow-right"></i></span>
+            </div>
           </div>
-        </div>
+        </a>
+        <div class="course-expanded-content"></div>
       </div>
       
     </div>
   </div>
-</section>
 
+  
+  <div id="courseModal" class="course-modal">
+    <div class="course-modal-content">
+      <button id="modalClose" class="modal-close">&times;</button>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  
+  <script>
+  (function() {
+    function initializeCourseList() {
+      const isMobile = window.innerWidth < 768;
+      const courseLinks = document.querySelectorAll('.course-item-link');
+      const modal = document.getElementById('courseModal');
+      const modalClose = document.getElementById('modalClose');
+      
+      if (!courseLinks.length) return;
+
+      const breadcrumbs = document.querySelector('.breadcrumb');
+      const lastBreadcrumb = breadcrumbs ? breadcrumbs.lastElementChild : null;
+      const isLearnPage = lastBreadcrumb && 
+        (lastBreadcrumb.textContent.trim() === 'Learn' || 
+         lastBreadcrumb.textContent.trim() === 'Learning Path');
+
+      async function fetchAndDisplayContent(url, container) {
+        try {
+          const response = await fetch(url);
+          const html = await response.text();
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(html, 'text/html');
+          
+          const targetSection = doc.querySelector('.section.section-first');
+          
+          if (targetSection) {
+            targetSection.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(el => el.remove());
+            
+            targetSection.querySelectorAll([
+              '.navigation',
+              '.nav-buttons',
+              '.btn-next',
+              '.btn-prev',
+              '.btn',
+              '.button',
+              '[class*="btn-"]',
+              '.navigation-buttons',
+              '.page-navigation'
+            ].join(',')).forEach(el => el.remove());
+            
+            const wrapper = document.createElement('div');
+            wrapper.className = 'section section-first full-width';
+            wrapper.innerHTML = targetSection.innerHTML;
+            
+            container.innerHTML = '';
+            container.appendChild(wrapper);
+          } else {
+            console.error("Couldn't find the section");
+          }
+        } catch (error) {
+          console.error('Error', error);
+        }
+      }
+      
+      courseLinks.forEach(link => {
+        link.addEventListener('click', async function(e) {
+          if (isMobile || isLearnPage) return; 
+
+          e.preventDefault();
+          const url = this.getAttribute('data-course-link');
+          const wrapper = this.closest('.course-wrapper');
+          const expandedContent = wrapper.querySelector('.course-expanded-content');
+          
+          if (window.innerWidth >= 1024) { 
+            if (expandedContent.classList.contains('active')) {
+              expandedContent.innerHTML = '';
+              expandedContent.classList.remove('active');
+              return;
+            }
+
+            document.querySelectorAll('.course-expanded-content.active').forEach(content => {
+              if (content !== expandedContent) {
+                content.innerHTML = '';
+                content.classList.remove('active');
+              }
+            });
+            
+            await fetchAndDisplayContent(url, expandedContent);
+            expandedContent.classList.add('active');
+            expandedContent.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          } else if (modal) { 
+            if (modal.classList.contains('active')) {
+              modal.classList.remove('active');
+              modal.querySelector('.modal-body').innerHTML = '';
+              return;
+            }
+
+            await fetchAndDisplayContent(url, modal.querySelector('.modal-body'));
+            modal.classList.add('active');
+          }
+        });
+      });
+      
+      if (modalClose) {
+        modalClose.addEventListener('click', function() {
+          if (modal) {
+            modal.classList.remove('active');
+            modal.querySelector('.modal-body').innerHTML = '';
+          }
+        });
+        
+        modal.addEventListener('click', function(e) {
+          if (e.target === modal) {
+            modal.classList.remove('active');
+            modal.querySelector('.modal-body').innerHTML = '';
+          }
+        });
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializeCourseList);
+    } else {
+      initializeCourseList();
+    }
+  })();
+  </script>
 <footer class="bg-light section pb-0">
   <div class="container">
     <div class="row">
@@ -405,15 +1250,15 @@ InnerSourceプロセスを通じて、私たちは数十年積み残していた
         
         <ul class="list-unstyled footer-list">
           
-          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/ja/learn">学ぶ</a></b></li>
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/ja/learn">学習</a></b></li>
           
-          <li><a href="https://innersourcecommons.org/ja/learn/books">関連書籍</a></li>
+          <li><a href="https://innersourcecommons.org/ja/learn/books">書籍</a></li>
           
           <li><a href="https://innersourcecommons.org/ja/learn/learning-path">ラーニングパス</a></li>
           
-          <li><a href="https://innersourcecommons.org/ja/learn/patterns">インナーソースパターン</a></li>
+          <li><a href="https://innersourcecommons.org/ja/learn/patterns">パターン</a></li>
           
-          <li><a href="https://innersourcecommons.org/ja/learn/research">リサーチ</a></li>
+          <li><a href="https://innersourcecommons.org/ja/learn/research">研究</a></li>
           
         </ul>
         
@@ -424,13 +1269,19 @@ InnerSourceプロセスを通じて、私たちは数十年積み残していた
           
           <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/ja/events/community-calls">イベント</a></b></li>
           
+          <li><a href="https://innersourcecommons.org/ja/events/isc-2024">Summit 2024</a></li>
+          
+          <li><a href="https://gatherings.innersourcecommons.org/">Local Gatherings</a></li>
+          
+          <li><a href="https://innersourcecommons.org/ja/events/past-summits">過去のサミット</a></li>
+          
           <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/ja/community">コミュニティ</a></b></li>
           
-          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/ja/stories">事例</a></b></li>
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/ja/stories">ストーリー</a></b></li>
           
-          <li><a href="https://innersourcecommons.org/ja/community/services">提供企業</a></li>
+          <li><a href="https://innersourcecommons.org/ja/community/services">サービスディレクトリ</a></li>
           
-          <li><a href="https://innersourcecommons.org/ja/about/announcements">アナウンス</a></li>
+          <li><a href="https://innersourcecommons.org/ja/about/announcements">お知らせ</a></li>
           
         </ul>
         
@@ -439,17 +1290,17 @@ InnerSourceプロセスを通じて、私たちは数十年積み残していた
         
         <ul class="list-unstyled footer-list">
           
-          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/ja/about">About</a></b></li>
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/ja/about">概要</a></b></li>
           
-          <li><a href="https://innersourcecommons.org/ja/about/board">役員とガバナンス</a></li>
+          <li><a href="https://innersourcecommons.org/ja/about/board">理事会とガバナンス</a></li>
           
-          <li><a href="https://innersourcecommons.org/ja/about/members">メンバーについて</a></li>
+          <li><a href="https://innersourcecommons.org/ja/about/members">メンバー</a></li>
           
           <li><a href="https://innersourcecommons.org/ja/about/sponsors">スポンサー</a></li>
           
           <li><a href="https://innersourcecommons.org/ja/about/codeofconduct">行動規範</a></li>
           
-          <li><a href="https://innersourcecommons.org/ja/about/contact">お問合せ</a></li>
+          <li><a href="https://innersourcecommons.org/ja/about/contact">お問い合わせ</a></li>
           
           <li><a href="https://innersourcecommons.org/ja/about/privacy">プライバシーポリシー</a></li>
           
@@ -457,7 +1308,7 @@ InnerSourceプロセスを通じて、私たちは数十年積み残していた
         
       </div>
       <div class="col-md-3 col-sm-6 mb-5">
-        <a class="d-block mb-3" href='https://innersourcecommons.org/https://innersourcecommons.org/ja'><img width="200px"   class="img-fluid" src="https://innersourcecommons.org/images/logo.png" alt="InnerSource Commons"></a>
+        <a class="d-block mb-3" href='https://innersourcecommons.org/https://innersourcecommons.org/ja'><img width=""   class="img-fluid" src="https://innersourcecommons.org/images/logo.png" alt="InnerSource Commons"></a>
         <p class="mb-4">特定ライセンスが明記されている場合を除き、このサイトにおける内容は CC-BY-SA ライセンスのもと提供されています</p>
         
         
@@ -477,7 +1328,7 @@ InnerSourceプロセスを通じて、私たちは数十年積み残していた
       </div>
     </div>
     <div class="border-top border-default text-center py-4 mt-4">
-      <small class="content">Design by <a href="https://themefisher.com/">Themefisher</a> and <a href="https://gethugothemes.com/">Gethugothemes</a>, icons by <a href="https://storyset.com/people">Freepik Storyset</a></small>
+      <small class="content">© InnerSource Commons Foundation</small>
     </div>
   </div>
 </footer>
