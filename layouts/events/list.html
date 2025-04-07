@@ -42,7 +42,7 @@
           </div>
           <div class="card-body p-0 d-flex flex-column">
             <h3><a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="post-title">{{ .Title }}</a></h3>
-            <p class="card-text event-card-text">{{ .Summary }}</p>
+            <p class="">{{ .Summary }}</p>
             <div class="d-flex mt-auto flex-md-row flex-sm-column">
               <a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="btn btn-primary btn-sm mr-md-1">Open Event</a>
               {{ if .Params.youtubeLink }}
