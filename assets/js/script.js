@@ -62,7 +62,7 @@ function toggleAbstract(elementId) {
     var calendarContainer = document.getElementById('calendar-container-old');
     if(calendarContainer){
       const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone 
-      const html = `<iframe src="https://calendar.google.com/calendar/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com&ctz=${timezone}" style=" border:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>`
+      const html = `<iframe src="https://calendar.google.com/calendar/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com&ctz=${timezone}&hl=en" style=" border:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>`
       calendarContainer.innerHTML = html;
     }
   });
