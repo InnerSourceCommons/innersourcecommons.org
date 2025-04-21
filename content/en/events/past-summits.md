@@ -7,7 +7,7 @@ type: page
         <div class="card border-0 h-100">
             <div class="h-md-45">
                 <a class="primary-link" href="https://innersourcecommons.org/events/isc-2023/">
-                    <img src="/images/events/summit-2024.png" alt="InnerSource Summit 2024" class="card-img rounded-lg">
+                    <img src="/images/events/Summit2024.jpg" alt="InnerSource Summit 2024" class="card-img rounded-lg">
                 </a>
                 </div>
                 <div class="card-body p-0 d-flex flex-column">

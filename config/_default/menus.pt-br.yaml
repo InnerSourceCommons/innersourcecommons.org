@@ -71,10 +71,10 @@ main:
     URL: https://gatherings.innersourcecommons.org/
     parent: community
     weight: 6
-  # - name: InnerSource Summit 2024
-  #   URL: events/isc-2024
-  #   parent: community
-  #   weight: 7
+  - name: InnerSource Summit 2025
+    URL: events/isc-2025
+    parent: community
+    weight: 7
   - name: Past Summits
     URL: events/past-summits
     parent: community
@@ -158,9 +158,9 @@ footer_middle:
     URL: events/community-calls
     weight: 1
     post: bold
-  # - name: Summit 2024
-  #   URL: events/isc-2024
-  #   weight: 2
+  - name: Summit 2025
+    URL: events/isc-2025
+    weight: 2
   - name: Local Gatherings
     URL: https://gatherings.innersourcecommons.org/
     weight: 3
