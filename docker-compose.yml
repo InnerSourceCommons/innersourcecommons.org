@@ -3,7 +3,7 @@ name: Innersourcecommons
 services:
   server:
     # The version here must be kept in sync with the one used at .github/workflows/main.yml
-    image: hugomods/hugo:base-0.145.0
+    image: hugomods/hugo:base-0.133.1
     command: server -D
     volumes:
       - ./:/src
