@@ -39,6 +39,7 @@ draft: false
   </div>
 </section>
 
+<a name="2025-goals"></a>
 <section class="section">
   <div class="container">
     <div class="row align-items-center">
@@ -46,8 +47,6 @@ draft: false
        <img src="/images/about/illustrations/rocket-launch.png" class="img-fluid pl-4 pr-4">
       </div>
       <div class="col-md-6">
-
-<a name="2025-goals"></a>
           <p class="section-title h2">RISE - Our Goals for 2025</p>
           <p>
           Our goals for 2025 are encapsulated in RISE, which stands for Reach out, Implement Documentation, Summit Success, and Establishing Brand - We're at a pivotal moment in the InnerSource journey, poised to make a significant impact across industries and regions.
