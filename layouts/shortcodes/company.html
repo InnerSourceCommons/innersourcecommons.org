@@ -1,3 +1,13 @@
+{{ if (eq .Page.RelPermalink "/stories/bragslide/") }} 
+
+<div class="col-md-1 d-flex align-items-center company-logo-box-bragslide">
+  <div>
+    <img src="{{ .Get "image" }}">
+  </div>
+</div>
+
+{{ else }}
+
 <div class="col-md-4 col-sm-6 mb-4">
   <div class="feature-card bg-light text-center mb-0">
     <div class="h-150 d-flex align-items-center justify-content-center mb-0 company-logo-box">
@@ -17,3 +27,6 @@
     {{ end }}
   </div>
 </div>
+
+
+{{ end }}
