@@ -2,11 +2,19 @@
 
 {{ $pages := where site.Pages "Type" "in" "redirects" }}
 {{ $pages = where $pages "Section" "events" }}
-{{ range first 1 ($pages.ByDate.Reverse) }}
-  <div style="position: relative; border: none; box-shadow: none;">
-    <div style="position: absolute; top: 10px; left: 10px; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: white; background: rgba(0, 0, 0, 0.5); padding: 4px 8px; border-radius: 2px; z-index: 1;">Upcoming Event</div>
-    <a href="{{ .Params.redirect }}" class="event-link" target="_blank" style="text-decoration: none; color: inherit; display: block; border: none;">
-      <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%; display: block; border: none; margin: 0; border-radius: 6px;">
-    </a>
-  </div>
+{{ $now := now }}
+{{ $futureEvents := where $pages "Date" "ge" $now }}
+{{ $upcomingEvent := first 1 ($futureEvents.ByDate) }}
+
+{{ if $upcomingEvent }}
+  {{ range $upcomingEvent }}
+    <div style="position: relative; border: none; box-shadow: none;">
+      <div style="position: absolute; top: 10px; left: 10px; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: white; background: rgba(0, 0, 0, 0.5); padding: 4px 8px; border-radius: 2px; z-index: 1;">Upcoming Event</div>
+      <a href="{{ .Params.redirect }}" class="event-link" target="_blank" style="text-decoration: none; color: inherit; display: block; border: none;">
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%; display: block; border: none; margin: 0; border-radius: 6px;">
+      </a>
+    </div>
+  {{ end }}
+{{ else }}
+  <!-- If no upcoming events, show a placeholder or nothing -->
 {{ end }}

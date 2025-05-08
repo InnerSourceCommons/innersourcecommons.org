@@ -25,13 +25,9 @@ learning:
     visible: true
 
 community:
-  - title: "InnerSource Gathering Berlin 2025 is open for registration!"
-    image: "/images/photos/berlin-2025.png"
-    link: https://gatherings.innersourcecommons.org/berlin-2025/
-    visible: true
-  - title: Call for Hosts for InnerSource Summit 2025
-    image: "/images/photos/call-for-hosts.png"
-    link: https://docs.google.com/forms/d/e/1FAIpQLSdjeQFYDVT_0pVwMJTHTmArMPLtq7oHwBO8CgQzd_aV0UxRKA/viewform
+  - title: "InnerSource Gathering London 2025 is open for registration!"
+    image: "https://gatherings.innersourcecommons.org/images/gathering/london-2025.png"
+    link: https://gatherings.innersourcecommons.org/london-2025/
     visible: true
 
 blog:
