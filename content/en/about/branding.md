@@ -32,15 +32,9 @@ The InnerSource Commons Foundation employs a carefully selected color palette ba
 
 | Color Role     | Hex Code | Description                                  | Suggested Contrast Pairings            |
 | -------------- | -------- | -------------------------------------------- | -------------------------------------- |
-| <span style="color:#00A0A0">**Primary**</span>    | #00A0A0  | Calm, modern teal; conveys trust and harmony | White (#FFFFFF), Dark Teal (#006262)   |
-| <span style="color:#006262">**Dark Teal**</span> | #006262  | Depth, contrast, and accessibility           | White text for WCAG 2.1 AAA compliance |
-| <span style="color:#00DEDE">**Light Teal**</span> | #00DEDE  | Highlights, hover states, gentle accents     | Dark Teal (#006262), Black text        |
-
-### Accent Color
-
-| Color Role        | Hex Code | Description                                        | Suggested Contrast Pairings     |
-| ----------------- | -------- | -------------------------------------------------- | ------------------------------- |
-| <span style="color:#FFB800">**Accent Yellow**</span> | #FFB800  | High-visibility for call-to-actions and highlights | Dark Teal (#006262), Black text |
+| <span style="color:#20B2AA">**Primary**</span>    | #20B2AA  | Calm, modern teal; conveys trust and harmony | White (#FFFFFF), Dark Teal (#006262)   |
+| <span style="color:#14746F">**Dark Teal**</span> | #14746F  | Depth, contrast, and accessibility           | White text for WCAG 2.1 AAA compliance |
+| <span style="color:#27DAD0">**Light Teal**</span> | #27DAD0  | Highlights, hover states, gentle accents     | Dark Teal (#006262), Black text        |
 
 
 <!-- For internal:
