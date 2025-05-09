@@ -13,7 +13,13 @@ markmap:
 
   ### Executive Sponsorship
 
+#### Pattern: [Review Committee](https://patterns.innersourcecommons.org/p/review-committee)
+
+#### Pattern: [Start as an Experiment](https://patterns.innersourcecommons.org/p/start-as-experiment)
+
   ### Dedicated Staffing
+
+  #### Pattern: [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
 
   ### InnerSource Program as an InnerSource Project (lead by example)
 
@@ -23,6 +29,10 @@ markmap:
 
   ### Unblock policy constraints
 
+  #### Pattern: [Contracted Contributor](https://patterns.innersourcecommons.org/p/contracted-contributor)
+  
+  #### Pattern: [InnerSource License](https://patterns.innersourcecommons.org/p/innersource-license)
+
   ### SBOMs for InnerSource projects
 
   #### [Applying OpenChain and SBOMs for InerSource](https://www.youtube.com/watch?v=uI5SGJB9fuw)
@@ -31,9 +41,13 @@ markmap:
 
   ### Systems
 
-  #### Book [Managing InnerSource Projects](https://innersourcecommons.gitbook.io/managing-innersource-projects), chapters _Infrastructure_ and _Tooling_
+  #### Book: [Managing InnerSource Projects](https://innersourcecommons.gitbook.io/managing-innersource-projects), chapters _Infrastructure_ and _Tooling_
+  
+  #### Pattern: [Service vs. Library](https://patterns.innersourcecommons.org/p/service-vs-library)
 
   ### Roadmap
+
+  #### Pattern: [Transparent Cross-Team Decision Making using RFCs](https://patterns.innersourcecommons.org/p/transparent-cross-team-decision-making-using-rfcs)
 
   ### Open source principles to fund open source variants of InnerSource
 
@@ -41,11 +55,17 @@ markmap:
 
   ### Repeatable SLAs
 
+  #### Pattern: [Explicit Governance Levels](https://patterns.innersourcecommons.org/p/governance-levels)
+
   ### Software/system upgrades
+
+  #### Pattern: [Standard Release Process](https://patterns.innersourcecommons.org/p/release-process)
 
 ## [Metrics](https://innersourcecommons.gitbook.io/managing-innersource-projects/measuring)
 
   ### Monitoring scale
+
+  #### Pattern: [Repository Activity Score](https://patterns.innersourcecommons.org/p/repository-activity-score)
 
   ### [Usage](https://innersourcecommons.gitbook.io/managing-innersource-projects/measuring/goals/use_gqm/metrics/usage-count)
 
@@ -53,13 +73,15 @@ markmap:
 
   ### Readiness
 
+  #### Pattern: [Maturity Model](https://patterns.innersourcecommons.org/p/maturity-model)
+
   ### Contributions
 
   ### Accelerated time to market
 
   ### Dev time saved
 
-#### [Cross-Team Project Valuation](https://patterns.innersourcecommons.org/p/crossteam-project-valuation)
+#### Pattern: [Cross-Team Project Valuation](https://patterns.innersourcecommons.org/p/crossteam-project-valuation)
 
   ### Developer satisfaction/happiness
 
@@ -71,7 +93,10 @@ markmap:
 
   ### Better team/company efficiency
 
+  #### Pattern: [Common Requirements](https://patterns.innersourcecommons.org/p/common-requirements)
+
   ### Physical/digital artifacts
+  #### Pattern: [Extensions for Sustainable Growth](https://patterns.innersourcecommons.org/p/extensions-for-sustainable-growth)
 
 ## [Project Governance](https://innersourcecommons.gitbook.io/managing-innersource-projects/governance)
 
@@ -79,17 +104,17 @@ markmap:
 
   ### Time/money budget available to support
 
-  #### [30 Day Warranty](https://patterns.innersourcecommons.org/p/30-day-warranty)
+  #### Pattern: [30 Day Warranty](https://patterns.innersourcecommons.org/p/30-day-warranty)
 
-  #### [Contracted Contributor](https://patterns.innersourcecommons.org/p/contracted-contributor)
+  #### Pattern: [Contracted Contributor](https://patterns.innersourcecommons.org/p/contracted-contributor)
 
   ### Response SLAs
 
   ### Security/version upgrades
 
-  #### [Core Team](https://patterns.innersourcecommons.org/p/core-team)
+  #### Pattern: [Core Team](https://patterns.innersourcecommons.org/p/core-team)
 
-  ### [Open source readiness](https://patterns.innersourcecommons.org/p/base-documentation)
+  ### Pattern: [Open source readiness](https://patterns.innersourcecommons.org/p/base-documentation)
 
   ### Treasurers to manage project success
 
@@ -97,7 +122,7 @@ markmap:
 
   ### Project discovery/governance
 
-  ### [Project maturity](https://patterns.innersourcecommons.org/p/maturity-model)
+  ### Pattern: [Project maturity](https://patterns.innersourcecommons.org/p/maturity-model)
 
   ### Reduce arbitrary uniqueness
 
@@ -115,11 +140,13 @@ markmap:
 
   #### Decision Making
 
+  ##### Pattern: [Transparent Cross-Team Decision Making using RFCs](https://patterns.innersourcecommons.org/p/transparent-cross-team-decision-making-using-rfcs)
+
 ## Awareness & Education
 
   ### Leader/team gamification
 
-  ### [Showcase success stories](https://innersourcecommons.org/stories/)
+  #### Pattern: [Showcase success stories](https://innersourcecommons.org/stories/)
 
   ### Presence on internal events
 
@@ -141,9 +168,9 @@ markmap:
 
   ### Communities of Practice
 
-  #### [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
+  #### Pattern: [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
 
-  #### [Document your Guiding Principles](https://patterns.innersourcecommons.org/p/document-your-guiding-principles)
+  #### Pattern: [Document your Guiding Principles](https://patterns.innersourcecommons.org/p/document-your-guiding-principles)
 
   ### Stakeholder comms
   
@@ -153,11 +180,13 @@ markmap:
 
   ### Project Discoverability
 
-  #### [Portal](https://patterns.innersourcecommons.org/p/innersource-portal)
+  #### Pattern: [Portal](https://patterns.innersourcecommons.org/p/innersource-portal)
 
   ##### Project Maturity
 
   ##### Project Health
+
+  ##### Pattern: [Group Support](https://patterns.innersourcecommons.org/p/group-support)
 
   ##### Project Value (Product Associations)
 
@@ -179,7 +208,7 @@ markmap:
 
   ##### Software/Content Reuse
 
-  ###### [Cross-Team Project Valuation](https://patterns.innersourcecommons.org/p/crossteam-project-valuation)
+  ###### Pattern: [Cross-Team Project Valuation](https://patterns.innersourcecommons.org/p/crossteam-project-valuation)
 
   ##### Product/brand alignment
 
@@ -188,6 +217,8 @@ markmap:
   ##### [Adopting InnerSource to Maximize Developer Experience](https://www.youtube.com/watch?v=fOJOacthP8k)
 
   #### Enhance communications
+
+  ##### Pattern: [Communication Tooling](https://patterns.innersourcecommons.org/p/communication-tooling)
 
   #### Learning & development / People strategy
 
@@ -204,7 +235,7 @@ markmap:
 
   ### Engage internal project community
 
-  #### [Prepare for open source](https://www.youtube.com/watch?v=5_hR3wjaub4)
+  #### Pattern: [Prepare for open source](https://www.youtube.com/watch?v=5_hR3wjaub4)
   
   #### Advertise Projects
 
@@ -220,11 +251,17 @@ markmap:
 
   ### Advisory board for InnerSource
 
+  ### Praise and Recognition
+
+  #### Pattern: [Praise Participants](https://patterns.innersourcecommons.org/p/praise-participants)
+
 ## Rewards
 
   ### [Money](https://innersourcecommons.gitbook.io/managing-innersource-projects/introduction/framework#financial-support)
 
   ### Career/involvement boost
+
+  #### Pattern: [Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer)
 
   ### More Projects Reuse
 
@@ -232,11 +269,17 @@ markmap:
 
   ### Social Recognition
 
+  #### Pattern: [Praise Participants](https://patterns.innersourcecommons.org/p/praise-participants)
+
   ### Money
 
   ### Better team/company efficiency
 
   ### Physical/digital artifacts
+
+  ### Time-bounded opportunities
+
+  #### Pattern: [Gig Marketplace](https://patterns.innersourcecommons.org/p/gig-marketplace)
 
 ## Templates
 
@@ -244,9 +287,13 @@ markmap:
 
   ### CONTRIBUTING
 
+  #### Pattern: [Standard Base Documentation](https://patterns.innersourcecommons.org/p/base-documentation)
+
   ### New GitHub Projects
   
   ### InnerSource License
+
+  #### Pattern: [InnerSource License](https://patterns.innersourcecommons.org/p/innersource-license)
 
   ### User and Developer Documentatione
   
