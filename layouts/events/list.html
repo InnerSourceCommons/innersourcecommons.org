@@ -40,7 +40,7 @@
               <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img rounded-lg">
             </a>
           </div>
-          <div class="card-body p-0 d-flex flex-column">
+          <div class="card-body p-0 pt-2 d-flex flex-column">
             <h3><a href="{{ default .Permalink .Params.redirect }}"{{ with .Params.target }} target="{{ . }}"{{ end }} class="post-title">{{ .Title }}</a></h3>
             <p class="">{{ .Summary }}</p>
             <div class="d-flex mt-auto flex-md-row flex-sm-column">
