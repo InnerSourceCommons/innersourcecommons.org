@@ -75,6 +75,7 @@ If you encounter any issues:
 - **Hugo server not starting**: Try restarting the Codespace by clicking on the menu in the bottom left corner and selecting "Codespaces: Stop Current Codespace" and then restarting it.
 - **Changes not showing**: Make sure you've saved your files and that the Hugo server is running.
 - **Port not forwarding**: Click the "Ports" tab at the bottom of the Codespace and make sure port 1313 is forwarded.
+- **Container in recovery mode**: If you see a message about the container running in recovery mode, click the "Rebuild Container" button in the notification or run the "Codespaces: Rebuild Container" command from the command palette (F1).
 
 ## Getting Help
 

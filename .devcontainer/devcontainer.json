@@ -1,8 +1,11 @@
 {
     "name": "Hugo (InnerSource Commons Website)",
-    "image": "hugomods/hugo:base-0.133.1",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-        "ghcr.io/devcontainers/features/git:1": {}
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts"
+        }
     },
     "customizations": {
         "vscode": {
@@ -20,6 +23,6 @@
         }
     },
     "forwardPorts": [1313],
-    "remoteUser": "root",
-    "postCreateCommand": "which hugo && hugo version && echo 'Hugo server ready to run! Use the Run and Debug view to start the server.'"
+    "remoteUser": "vscode",
+    "postCreateCommand": "cd /tmp && wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.133.1/hugo_extended_0.133.1_linux-amd64.deb && sudo dpkg -i hugo.deb && rm hugo.deb && hugo version && echo 'Hugo server ready to run! Use the Run and Debug view to start the server.'"
 }
