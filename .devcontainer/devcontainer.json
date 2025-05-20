@@ -1,30 +1,30 @@
 {
-    "name": "Hugo (InnerSource Commons Website)",
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-    "features": {
-        "ghcr.io/devcontainers/features/git:1": {},
-        "ghcr.io/devcontainers/features/node:1": {
-            "version": "lts"
-        }
-    },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "bungcip.better-toml",
-                "davidanson.vscode-markdownlint",
-                "esbenp.prettier-vscode",
-                "ms-vscode.live-server",
-                "tamasfe.even-better-toml",
-                "ms-vscode.js-debug-nightly"
-            ],
-            "settings": {
-                "editor.formatOnSave": true,
-                "editor.defaultFormatter": "esbenp.prettier-vscode",
-                "debug.javascript.autoAttachFilter": "smart"
-            }
-        }
-    },
-    "forwardPorts": [1313],
-    "remoteUser": "vscode",
-    "postCreateCommand": "cd /tmp && wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.133.1/hugo_extended_0.133.1_linux-amd64.deb && sudo dpkg -i hugo.deb && rm hugo.deb && npm init -y && npm install hugo-bin@latest && hugo version && echo 'Hugo server ready to run! Use the Run and Debug view to start the server.'"
+  "name": "Hugo (InnerSource Commons Website)",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bungcip.better-toml",
+        "davidanson.vscode-markdownlint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.live-server",
+        "tamasfe.even-better-toml",
+        "ms-vscode.js-debug-nightly"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "debug.javascript.autoAttachFilter": "smart"
+      }
+    }
+  },
+  "forwardPorts": [1313],
+  "remoteUser": "vscode",
+  "postCreateCommand": "npm install; cd /tmp && wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.133.1/hugo_extended_0.133.1_linux-amd64.deb && sudo dpkg -i hugo.deb && rm hugo.deb && npm init -y && npm install hugo-bin@latest && hugo version && echo 'Hugo server ready to run! Use the Run and Debug view to start the server.'"
 }
