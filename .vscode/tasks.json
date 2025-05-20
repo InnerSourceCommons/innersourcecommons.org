@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Hugo: Check Environment",
+            "type": "shell",
+            "command": "which hugo || (echo 'Hugo not found. Please make sure Hugo is installed and in your PATH.' && exit 1)",
+            "presentation": {
+                "reveal": "silent",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

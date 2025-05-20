@@ -3,16 +3,22 @@
     "configurations": [
         {
             "name": "Hugo Server",
-            "type": "shell",
+            "type": "pwa-node",
             "request": "launch",
-            "command": "hugo",
+            "program": "${workspaceFolder}/node_modules/.bin/hugo",
             "args": [
                 "server",
                 "--appendPort=false",
                 "--baseURL=/",
                 "-D"
             ],
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "preLaunchTask": "Hugo: Check Environment",
+            "serverReadyAction": {
+                "pattern": "Web Server is available at //localhost:(\\d+)/",
+                "uriFormat": "http://localhost:%s/",
+                "action": "openExternally"
+            }
         }
     ]
 }
