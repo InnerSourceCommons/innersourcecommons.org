@@ -46,4 +46,15 @@ for file in *.png; do
 done
 ```
 
+## Note About Original PNG Files
+
+After converting PNG files to optimized JPGs, the original PNG files can be safely removed to save repository space. As part of issue #424, we were able to reduce the total image size from 57MB to 4.9MB (91% reduction).
+
+To remove the original PNG files after confirming the JPGs work correctly:
+
+```bash
+git rm path/to/original_file.png
+git commit -m "Remove original PNG that has been converted to optimized JPG"
+```
+
 This guidance was created as part of issue #424 to improve page load performance.
