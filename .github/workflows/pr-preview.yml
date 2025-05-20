@@ -1,0 +1,60 @@
+name: PR Preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  build-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.133.1'
+          extended: true
+
+      - name: Copy the missing files from /content/en for publishing each language site
+        run: |
+          for i in fr ja pt-br; do
+            rsync -rv --ignore-existing content/en/ content/$i/ --log-file=content/.gitignore;
+            sed -i "s/^.\{37\} /$i\//g" content/.gitignore;
+            sed -i '/total size\|file list/d' content/.gitignore;
+          done
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy PR Preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./public/
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+          action: auto
+
+      - name: Find Comment
+        uses: peter-evans/find-comment@v1
+        id: fc
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: "Preview this PR"
+
+      - name: Create or Update Comment
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ### :rocket: Preview this PR
+            
+            You can view a preview of the website changes at:
+            https://innersourcecommons.github.io/innersourcecommons.org/pr-preview/pr-${{ github.event.pull_request.number }}/
+            
+            This preview will be updated automatically as you make changes to the PR.
+            
+            _Note: The preview may take a few moments to deploy after changes are pushed._
+          edit-mode: replace

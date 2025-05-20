@@ -1,0 +1,25 @@
+{
+    "name": "Hugo (InnerSource Commons Website)",
+    "image": "hugomods/hugo:base-0.133.1",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bungcip.better-toml",
+                "davidanson.vscode-markdownlint",
+                "esbenp.prettier-vscode",
+                "ms-vscode.live-server",
+                "tamasfe.even-better-toml"
+            ],
+            "settings": {
+                "editor.formatOnSave": true,
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+            }
+        }
+    },
+    "forwardPorts": [1313],
+    "remoteUser": "root",
+    "postCreateCommand": "echo 'Hugo server ready to run! Use the Run and Debug view to start the server.'"
+}

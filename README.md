@@ -18,6 +18,25 @@ In case the widget adds cookies to the website please update the Privacy Policy 
 
 ## Installation and local run
 
+### Using GitHub Codespaces (Recommended for Non-Technical Contributors)
+
+GitHub Codespaces provides an easy way to work on the website without installing anything on your local machine:
+
+1. Navigate to the repository on GitHub
+2. Click the green "Code" button
+3. Select the "Codespaces" tab
+4. Click "Create codespace on master"
+5. Wait for the codespace to load (this may take a minute)
+6. Once loaded, click the "Run and Debug" icon in the sidebar (or press F5)
+7. Select "Hugo Server" from the dropdown menu and click the play button
+8. When prompted, click "Open in Browser" to view the website
+
+The website will be displayed in a new browser tab, and any changes you make will automatically update in real-time.
+
+For a more detailed guide with screenshots, please see our [Codespaces documentation](CODESPACES.md).
+
+### Local Installation
+
 If you want to test the page before commit you can run the site locally.
 you need to have `git` and [hugo][] installed. Please follow the official installation instructions.
 
