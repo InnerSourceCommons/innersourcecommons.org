@@ -11,7 +11,7 @@ Follow us on [Twitter](https://twitter.com/Commons2019) and [Facebook](https://w
 ### Thank You!
 And that’s a wrap on the InnerSource Commons Spring Summit 2019! A special thanks to all attendees and speakers for visiting Galway to share experiences and making this summit so interesting, engaging and fun!
 
-![event](/images/events/spring2019.png)
+![event](/images/events/spring2019.jpg)
 
 <table class="schedule table table-striped">
 
