@@ -3,10 +3,10 @@
     "configurations": [
         {
             "name": "Hugo Server",
-            "type": "node",
+            "type": "shell",
             "request": "launch",
-            "runtimeExecutable": "hugo",
-            "runtimeArgs": [
+            "command": "hugo",
+            "args": [
                 "server",
                 "--appendPort=false",
                 "--baseURL=/",

@@ -21,5 +21,5 @@
     },
     "forwardPorts": [1313],
     "remoteUser": "root",
-    "postCreateCommand": "echo 'Hugo server ready to run! Use the Run and Debug view to start the server.'"
+    "postCreateCommand": "which hugo && hugo version && echo 'Hugo server ready to run! Use the Run and Debug view to start the server.'"
 }
