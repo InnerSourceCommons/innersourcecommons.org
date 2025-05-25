@@ -16,15 +16,18 @@ InnerSource Commons (ISC)コミュニティは、すべての人に開かれて�
 
 * Ada Dai
 * Addie Girouard
+* Arthur Fücher
 * Bill Higgins
 * Brittany Istenes
 * Cedric Williams
+* Chan Voong
 * Clare Dillon
 * Cristina Coffey
 * Danese Cooper
 * Daniel Izquierdo Cortazar
 * Dmitrii Sugrobov
 * Fei Wan
+* Fernando Correa
 * Georg Gr&#x00FC;tter
 * Guilherme Dellagustin
 * Igor Zubaiurre 
@@ -39,12 +42,18 @@ InnerSource Commons (ISC)コミュニティは、すべての人に開かれて�
 * Matt Cobby
 * Maximilian Capraro
 * Mishari Muqbil
+* Niall Maher
+* Regina Nkenchor
 * Russell Rutledge
+* Ryo Ashikawa
 * Sebastian Spier
+* Shoma Kubo
 * Silona Bonewald
 * Thomas Froment
 * Tim Yao
 * Tom Sadler
 * Willem Jiang
+* Wolfgang Gehring
+* Yoshitake Kobayashi
 * Yuki Hattori
 * Zack Koppert

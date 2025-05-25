@@ -16,6 +16,7 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 
 * Ada Dai
 * Addie Girouard
+* Arthur Fücher
 * Bill Higgins
 * Brittany Istenes
 * Cedric Williams
@@ -26,6 +27,7 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 * Daniel Izquierdo Cortazar
 * Dmitrii Sugrobov
 * Fei Wan
+* Fernando Correa
 * Georg Gr&#x00FC;tter
 * Guilherme Dellagustin
 * Igor Zubaiurre 
@@ -40,12 +42,18 @@ Membership is purely merit-based, free of any cost, and restricted to individual
 * Matt Cobby
 * Maximilian Capraro
 * Mishari Muqbil
+* Niall Maher
+* Regina Nkenchor
 * Russell Rutledge
+* Ryo Ashikawa
 * Sebastian Spier
+* Shoma Kubo
 * Silona Bonewald
 * Thomas Froment
 * Tim Yao
 * Tom Sadler
 * Willem Jiang
+* Wolfgang Gehring
+* Yoshitake Kobayashi
 * Yuki Hattori
 * Zack Koppert
