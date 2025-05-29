@@ -40,6 +40,10 @@ main:
     URL: https://innersourcecommons.org/learn/books/adopting-innersource-principles-and-case-studies/
     parent: learning
     weight: 9
+  - name: Artigos Acadêmicos
+    URL: learn/academic-papers
+    parent: learning
+    weight: 10
 
 # Community
   - name: Community
@@ -157,6 +161,9 @@ footer_left:
   - name: Research
     URL: learn/research
     weight: 5
+  - name: Artigos Acadêmicos
+    URL: learn/academic-papers
+    weight: 6
 footer_middle:
   - name: Events
     URL: events/community-calls

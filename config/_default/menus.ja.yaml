@@ -42,6 +42,10 @@ main:
     URL: https://innersourcecommons.org/learn/books/adopting-innersource-principles-and-case-studies/
     parent: learning
     weight: 9
+  - name: Academic Papers
+    URL: learn/academic-papers
+    parent: learning
+    weight: 10
 
 # Community
   - name: Community
@@ -159,6 +163,9 @@ footer_left:
   - name: "研究"
     URL: learn/research
     weight: 5
+  - name: "学術論文"
+    URL: learn/academic-papers
+    weight: 6
 footer_middle:
   - name: "イベント"
     URL: events/community-calls
