@@ -348,6 +348,10 @@ button.svelte-la9dd4:disabled {
     }
 }
 
+.company-logo-box-bragslide, .company-logo-box-bragslide * {
+    margin-bottom: 1px;
+}
+
 .board-profile {
     filter: grayscale(100%) brightness(105%);
     display: inline-block;
