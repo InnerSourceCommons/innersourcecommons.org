@@ -128,6 +128,10 @@ main:
     URL: about/sponsors
     parent: about
     weight: 5
+  - name: Brands & Logos
+    URL: about/branding
+    parent: about
+    weight: 6
   - name: GitHub
     URL: https://github.com/InnerSourceCommons
     parent: about
