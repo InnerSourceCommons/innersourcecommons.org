@@ -7,6 +7,10 @@ main:
     URL: https://innersourcecommons.org/community/
     parent: start-here
     weight: 1
+  - name: Summit 2025
+    URL: https://innersourcecommons.org/events/isc-2025/
+    parent: start-here
+    weight: 2
   - name: Community and Events
     URL: https://innersourcecommons.org/events/community-calls/
     parent: start-here
