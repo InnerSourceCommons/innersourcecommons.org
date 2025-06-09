@@ -7,10 +7,6 @@ main:
     URL: https://innersourcecommons.org/community/
     parent: start-here
     weight: 1
-  - name: Summit 2025
-    URL: https://innersourcecommons.org/events/isc-2025/
-    parent: start-here
-    weight: 2
   - name: Community and Events
     URL: https://innersourcecommons.org/events/community-calls/
     parent: start-here
@@ -60,6 +56,20 @@ main:
     URL: https://innersourcecommons.org/about/contact/
     parent: about
     weight: 7
+
+  # Summit 2025
+  - name: When and Where
+    URL: https://innersourcecommons.org/events/isc-2025/
+    parent: summit 2025
+    weight: 1
+  - name: Call for Presenters
+    URL: https://innersourcecommons.org/events/isc-2025/
+    parent: summit 2025
+    weight: 2
+  - name: Why Sponsor
+    URL: https://innersourcecommons.org/events/isc-2025/
+    parent: summit 2025
+    weight: 3
 
   # Community
   - name: Community
