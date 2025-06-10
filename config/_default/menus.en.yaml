@@ -4,11 +4,11 @@ main:
     weight: 1
     identifier: start-here
   - name: Get involved
-    URL: https://innersourcecommons.org/community/
+    URL: /community/
     parent: start-here
     weight: 1
   - name: Community and Events
-    URL: https://innersourcecommons.org/events/community-calls/
+    URL: /events/community-calls/
     parent: start-here
     weight: 2
   - name: Check out Our Repositories
@@ -16,7 +16,7 @@ main:
     parent: start-here
     weight: 3
   - name: Join our Chat on Slack
-    URL: https://innersourcecommons.org/slack
+    URL: /slack
     parent: start-here
     weight: 4
   - name: Join our Mailing List
@@ -29,46 +29,49 @@ main:
     weight: 2
     identifier: about
   - name: Who We Are
-    URL: https://innersourcecommons.org/about/
+    URL: /about/
     parent: about
     weight: 1
   - name: Board & Governance
-    URL: https://innersourcecommons.org/about/board/
+    URL: /about/board/
     parent: about
     weight: 2
   - name: Members
-    URL: https://innersourcecommons.org/about/members/
+    URL: /about/members/
     parent: about
     weight: 3
   - name: Sponsors
-    URL: https://innersourcecommons.org/about/sponsors/
+    URL: /about/sponsors/
     parent: about
     weight: 4
   - name: Code of Conduct
-    URL: https://innersourcecommons.org/about/codeofconduct/
+    URL: /about/codeofconduct/
     parent: about
     weight: 5
   - name: Vacancies
-    URL: https://innersourcecommons.org/about/vacancies/
+    URL: /about/vacancies/
     parent: about
     weight: 6
   - name: Get in Touch
-    URL: https://innersourcecommons.org/about/contact/
+    URL: /about/contact/
     parent: about
     weight: 7
 
-  # Summit 2025
+  # # Summit 2025
+  - name: Summit 2025
+    weight: 3
+    identifier: summit-2025
   - name: When and Where
-    URL: https://innersourcecommons.org/events/isc-2025/
-    parent: summit 2025
+    URL: /events/isc-2025/
+    parent: summit-2025
     weight: 1
   - name: Call for Presenters
-    URL: https://innersourcecommons.org/events/isc-2025/
-    parent: summit 2025
+    URL: /events/isc-2025/
+    parent: summit-2025
     weight: 2
   - name: Why Sponsor
-    URL: https://innersourcecommons.org/events/isc-2025/
-    parent: summit 2025
+    URL: /events/isc-2025/
+    parent: summit-2025
     weight: 3
 
   # Community
@@ -76,23 +79,23 @@ main:
     weight: 3
     identifier: community
   - name: Join us on Slack
-    URL: https://innersourcecommons.org/slack
+    URL: /slack
     parent: community
     weight: 1
   - name: Working Groups
-    URL: https://innersourcecommons.org/community/
+    URL: /community/
     parent: community
     weight: 2
   - name: Case Studies
-    URL: https://innersourcecommons.org/stories/microsoft/
+    URL: /stories/microsoft/
     parent: community
     weight: 3
   - name: Services Directory
-    URL: https://innersourcecommons.org/community/services/
+    URL: /community/services/
     parent: community
     weight: 4
   - name: Code of Conduct
-    URL: https://innersourcecommons.org/about/codeofconduct/
+    URL: /about/codeofconduct/
     parent: community
     weight: 5
 
@@ -102,19 +105,19 @@ main:
     identifier: learning
   # Learning Resources Column
   - name: InnerSource Patterns ⭐
-    URL: https://innersourcecommons.org/learn/books/innersource-patterns/
+    URL: /learn/books/innersource-patterns/
     parent: learning
     weight: 1
     params:
       column: resources
   - name: Learning Path
-    URL: https://innersourcecommons.org/learn/learning-path/
+    URL: /learn/learning-path/
     parent: learning
     weight: 2
     params:
       column: resources
   - name: InnerSource Stories
-    URL: https://innersourcecommons.org/stories/microsoft/
+    URL: /stories/microsoft/
     parent: learning
     weight: 3
     params:
@@ -127,31 +130,31 @@ main:
       column: resources
   # Books Column
   - name: Getting Started with InnerSource
-    URL: https://innersourcecommons.org/learn/books/getting-started-with-innersource/
+    URL: /learn/books/getting-started-with-innersource/
     parent: learning
     weight: 5
     params:
       column: books
   - name: Understanding the InnerSource Checklist
-    URL: https://innersourcecommons.org/learn/books/understanding-the-innersource-checklist/
+    URL: /learn/books/understanding-the-innersource-checklist/
     parent: learning
     weight: 6
     params:
       column: books
   - name: Managing InnerSource Projects
-    URL: https://innersourcecommons.org/learn/books/managing-innersource-projects/
+    URL: /learn/books/managing-innersource-projects/
     parent: learning
     weight: 7
     params:
       column: books
   - name: Adopting InnerSource
-    URL: https://innersourcecommons.org/learn/books/adopting-innersource-principles-and-case-studies/
+    URL: /learn/books/adopting-innersource-principles-and-case-studies/
     parent: learning
     weight: 8
     params:
       column: books
   - name: See All Books
-    URL: https://innersourcecommons.org/learn/books/
+    URL: /learn/books/
     parent: learning
     weight: 9
     params:
@@ -163,7 +166,7 @@ main:
     identifier: events
   # General Info Column
   - name: Upcoming Events
-    URL: https://innersourcecommons.org/events/community-calls/
+    URL: /events/community-calls/
     parent: events
     weight: 1
     params:
@@ -182,7 +185,7 @@ main:
       column: general
   # Event Types Column
   - name: Community Calls
-    URL: https://innersourcecommons.org/events/community-calls/
+    URL: /events/community-calls/
     parent: events
     weight: 4
     params:
@@ -194,24 +197,24 @@ main:
     params:
       column: types
   - name: InnerSource Summit 2025
-    URL: https://innersourcecommons.org/events/isc-2025/
+    URL: /events/isc-2025/
     parent: events
     weight: 6
     params:
       column: types
   - name: InnerSource Past Summits
-    URL: https://innersourcecommons.org/events/past-summits/
+    URL: /events/past-summits/
     parent: events
     weight: 7
     params:
       column: types
 
-  # News & Updates
+  # News & Updatess
   - name: News & Updates
     weight: 6
     identifier: news
   - name: Announcements
-    URL: https://innersourcecommons.org/about/announcements/
+    URL: /about/announcements/
     parent: news
     weight: 1
   - name: Newsletters
