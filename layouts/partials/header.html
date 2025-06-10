@@ -177,13 +177,13 @@
         {{ partial "menu.html" . }}
         {{ end }}
         {{ end }}
-        <div class="search-wrapper">
-        {{ partial "search" . }}
-        </div>
       </ul>
        
 
       <div class="header-cta">
+        <div class="search-wrapper">
+        {{ partial "search" . }}
+        </div>
         <div class="language-selector">
           <select class="form-control" id="language-selector">
             <option value="" selected disabled>{{ .Site.Language.LanguageName }}</option>

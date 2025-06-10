@@ -607,7 +607,7 @@ button.svelte-la9dd4:disabled {
 }
 
 .navigation {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -617,7 +617,7 @@ button.svelte-la9dd4:disabled {
 }
 
 body {
-  padding-top: 48px;
+  // padding-top: 48px;
 }
 
 body.has-notice {
