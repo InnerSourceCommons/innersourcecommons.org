@@ -96,6 +96,7 @@
 .menu-item-has-children {
   position: static;
   padding: 0;
+  width: 100%;
 }
 
 .menu-item-has-children > a {
@@ -106,6 +107,7 @@
   display: block;
   position: relative;
   font-size: 14px;
+  text-align: center;
 }
 
 .menu-item-has-children > a::after {
