@@ -11,7 +11,11 @@ fetchYoutubeVideos: true
 				<h1 style="font-size: 40px; color: white; text-align: left; margin: 0px">Welcome to the InnerSource Commons</h1>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6" style="margin-top: 40px;">
-				{{< upcoming-event-card style="banner" >}}
+          <!-- 
+            DO NOT REMOVE THIS LINE; This is temporarily disabled for summit
+				    {{ < upcoming-event-card style="banner" > }}
+          -->
+          {{< summit-event-card style="banner" >}}
 			</div>
 		</div>
 	</div>
