@@ -75,10 +75,19 @@ main:
     URL: events/isc-2025
     parent: community
     weight: 7
+    identifier: summit-2025
+  - name: Call for Presenters
+    URL: https://docs.google.com/forms/d/e/1FAIpQLSfWKkRDWIYN8eTOMlxONZp23-_i9nnAfqSJm26QCdzS5NtO9w/viewform
+    parent: community
+    weight: 8
+  - name: Why Sponsor the InnerSource Summit 2025?
+    URL: /events/isc-2025/#why-sponsor?
+    parent: community
+    weight: 9
   - name: Past Summits
     URL: events/past-summits
     parent: community
-    weight: 8
+    weight: 10
   - name: InnerSourcerers Map
     URL: about/map
     parent: community

@@ -57,23 +57,6 @@ main:
     parent: about
     weight: 7
 
-  # # Summit 2025
-  - name: Summit 2025
-    weight: 3
-    identifier: summit-2025
-  - name: When and Where
-    URL: /events/isc-2025/
-    parent: summit-2025
-    weight: 1
-  - name: Call for Presenters
-    URL: /events/isc-2025/
-    parent: summit-2025
-    weight: 2
-  - name: Why Sponsor
-    URL: /events/isc-2025/
-    parent: summit-2025
-    weight: 3
-
   # Community
   - name: Community
     weight: 3
@@ -200,12 +183,26 @@ main:
     URL: /events/isc-2025/
     parent: events
     weight: 6
+    identifier: summit-2025
     params:
       column: types
+  - name: Call for Presenters
+    URL: https://docs.google.com/forms/d/e/1FAIpQLSfWKkRDWIYN8eTOMlxONZp23-_i9nnAfqSJm26QCdzS5NtO9w/viewform
+    parent: events
+    weight: 7
+    params:
+      column: types
+  - name: Why Sponsor the InnerSource Summit 2025?
+    URL: /events/isc-2025/#why-sponsor?
+    parent: events
+    weight: 8
+    params:
+      column: types
+
   - name: InnerSource Past Summits
     URL: /events/past-summits/
     parent: events
-    weight: 7
+    weight: 9
     params:
       column: types
 
