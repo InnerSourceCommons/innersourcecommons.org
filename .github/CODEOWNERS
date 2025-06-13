@@ -1,13 +1,20 @@
-# Individuals that will receive automatic notifications about new PRs.
-#
-# For syntax details see:
-# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+# Require Cristina Coffey's review for changes to website menu-related files
+# Menu navigation configuration
+/config/navigation.yml @clcoffey
+/data/navigation.yml @clcoffey
+/config/menus.yml @clcoffey
+/data/menus.yml @clcoffey
 
-# CODEOWNERS defaults to webiste-maintainers team
-* @InnerSourceCommons/website-maintainers
+# Header components that might contain menu structure
+/layouts/partials/header.* @clcoffey
+/components/header/* @clcoffey
+/themes/*/layouts/partials/header.* @clcoffey
 
-# Learning Path
-/content/en/learn/learning-path @InnerSourceCommons/learning-path
+# Menu components
+/layouts/partials/menu.* @clcoffey
+/components/menu/* @clcoffey
+/themes/*/layouts/partials/menu.* @clcoffey
 
-# Changes to https://innersourcecommons.org/about/board/ incl. the terse notes for Board meetings should be reviewed by the Board
-/content/en/about/board/* @InnerSourceCommons/isc-board
+# Any other menu-related files
+**/nav*.* @clcoffey
+**/menu*.* @clcoffey
