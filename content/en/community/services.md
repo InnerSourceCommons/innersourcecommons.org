@@ -88,6 +88,12 @@ We do our best to ensure that the information on this page is accurate and helpf
         </td>
     </tr>
     <tr>
+        <td><img src="/images/events/speakers/thridmanagencylogo.png" alt="Third Man Agency"></td>
+        <td>Consulting Service</td>
+        <td class="title">Third Man Agency serves as your trusted partner in the journey to navigate complexity and build clarity, empowering your organization to thrive in today's ever-changing world. With a strong emphasis on strategic communications, facilitation, executive coaching, and change management, we offer a holistic approach to simplifying the way forward in any situation. <a href="https://www.thirdmanagency.com/">Click here to learn more</a> or <a href="https://www.thirdmanagency.com/">contact Third Man Agency</a> directly.
+        </td>
+    </tr>
+    <tr>
         <td><img src="/images/logos/wipro.png" alt="Wipro"></td>
         <td>Consulting Services</td>
         <td class="title">Wipro’s InnerSource Strategy and Implementation Services include a complete assessment of your organization, its culture, and its InnerSource mission, goals, and objectives. It helps you uncover the relevant KPIs and develop the funding models, collaboration processes, and technological collaboration stack. Putting all these together, the services will develop high-level plans for a proof of concept or pilot program so you can show results quickly while iterating on your findings from the program. <a href="http://wipro.com/open-source/">Click here to learn more</a> or <a href="mailto:vm.brasseur@wipro.com">contact Wipro</a> directly.
