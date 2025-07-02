@@ -45,6 +45,8 @@
                   {{ end }}
                 </ul>
               </div>
+              {{ $childCount := len .Children }}
+              {{ if gt $childCount 5 }}
               <div class="col2">
                 <ul class="menu">
                   <li class="menu-title">Additional Information</li>
@@ -58,6 +60,7 @@
                   {{ end }}
                 </ul>
               </div>
+              {{ end }}
               <div class="col3">
                 {{ if eq .Name "About" }}
                 <ul class="menu">
