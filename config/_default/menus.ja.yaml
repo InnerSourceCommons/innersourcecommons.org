@@ -117,10 +117,6 @@ main:
     URL: about
     weight: 10
     identifier: about
-  - name: Vacancies
-    URL: about/vacancies
-    parent: about
-    weight: 1
   - name: Who We Are
     URL: about
     parent: about

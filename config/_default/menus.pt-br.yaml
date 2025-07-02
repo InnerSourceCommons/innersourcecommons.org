@@ -115,10 +115,6 @@ main:
     URL: about
     weight: 10
     identifier: about
-  - name: Vacancies
-    URL: about/vacancies
-    parent: about
-    weight: 1
   - name: Who We Are
     URL: about
     parent: about
@@ -218,6 +214,3 @@ footer_right:
   - name: Privacy Policy
     URL: about/privacy
     weight: 7
-  # - name: Vacancies
-  #   URL: about/vacancies
-  #   weight: 8
