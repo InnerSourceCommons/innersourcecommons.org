@@ -23,10 +23,10 @@
         <img src="{{ site.Params.mobileLogo | default site.Params.logo | absURL }}" alt="{{ site.Title }}" class="mobile-logo">
       </a>
     </div>
-
     <nav class="main-menu">
       <ul class="main-menu__wrapper">
         {{ range site.Menus.main }}
+        {{ $childCount := len .Children }}
         {{ if .HasChildren }}
         <li class="menu-item-has-children">
           <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>{{ .Name }}</span></a>
@@ -34,33 +34,47 @@
             <div class="col-container">
               <div class="col1">
                 <ul class="menu">
-                  <li class="menu-title">Main</li>
-                  {{ range first 5 .Children }}
-                  <li class="menu-item">
-                    <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
-                      {{ .Name }}
-                      {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
-                    </a>
-                  </li>
+                  {{ if gt $childCount 5 }}
+                    {{ if .Params.mainTitle }}
+                    <li class="menu-title">{{ .Params.mainTitle }}</li>
+                    {{ else }}
+                    <li class="menu-title">Main</li>
+                    {{ end }}
                   {{ end }}
+
+                  {{ range first 5 .Children }}
+                    <li class="menu-item">
+                      <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
+                        {{ .Name }}
+                        {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
+                      </a>
+                    </li>
+                  {{ end }}
+
                 </ul>
               </div>
-              {{ $childCount := len .Children }}
-              {{ if gt $childCount 5 }}
               <div class="col2">
                 <ul class="menu">
-                  <li class="menu-title">Additional Information</li>
-                  {{ range after 5 .Children }}
-                  <li class="menu-item">
-                    <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
-                      {{ .Name }}
-                      {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
-                    </a>
-                  </li>
+                  {{ if gt $childCount 5 }}
+
+                    {{ if .Params.additionalItemsTitle }}
+                    <li class="menu-title">{{ .Params.additionalItemsTitle }}</li>
+                    {{ else }}
+                    <li class="menu-title">Additional Information</li>
+                    {{ end }}
+
+                    {{ range after 5 .Children }}
+                    <li class="menu-item">
+                      <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
+                        {{ .Name }}
+                        {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
+                      </a>
+                    </li>
+                    {{ end }}
+
                   {{ end }}
                 </ul>
               </div>
-              {{ end }}
               <div class="col3">
                 {{ if eq .Name "About" }}
                 <ul class="menu">

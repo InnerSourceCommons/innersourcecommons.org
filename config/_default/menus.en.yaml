@@ -82,6 +82,9 @@ main:
   - name: Learning
     weight: 4
     identifier: learning
+    params: 
+      mainTitle: Learning Resources
+      additionalItemsTitle: Books
   # Learning Resources Column
   - name: InnerSource Patterns ⭐
     URL: /learn/books/innersource-patterns/
@@ -143,6 +146,9 @@ main:
   - name: Events
     weight: 5
     identifier: events
+    params: 
+      mainTitle: Event Types
+      additionalItemsTitle: General Info
   # General Info Column
   - name: Upcoming Events
     URL: /events/community-calls/
