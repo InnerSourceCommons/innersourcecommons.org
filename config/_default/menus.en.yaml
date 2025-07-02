@@ -48,10 +48,6 @@ main:
     URL: /about/codeofconduct/
     parent: about
     weight: 5
-  - name: Vacancies
-    URL: /about/vacancies/
-    parent: about
-    weight: 6
   - name: Get in Touch
     URL: /about/contact/
     parent: about
@@ -296,6 +292,3 @@ footer_right:
   - name: Privacy Policy
     URL: about/privacy
     weight: 7
-  # - name: Vacancies
-  #   URL: about/vacancies
-  #   weight: 8
