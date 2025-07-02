@@ -34,44 +34,38 @@
             <div class="col-container">
               <div class="col1">
                 <ul class="menu">
-                  {{ if gt $childCount 5 }}
-                    {{ if .Params.mainTitle }}
-                    <li class="menu-title">{{ .Params.mainTitle }}</li>
-                    {{ else }}
-                    <li class="menu-title">Main</li>
-                    {{ end }}
+                  {{ if .Params.mainTitle }}
+                  <li class="menu-title">{{ .Params.mainTitle }}</li>
                   {{ end }}
 
-                  {{ range first 5 .Children }}
-                    <li class="menu-item">
-                      <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
-                        {{ .Name }}
-                        {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
-                      </a>
-                    </li>
+                  {{ range .Children }}
+                    {{ if not .Params.isSecondary }}
+                      <li class="menu-item">
+                        <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
+                          {{ .Name }}
+                          {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
+                        </a>
+                      </li>
+                    {{ end }}
                   {{ end }}
 
                 </ul>
               </div>
               <div class="col2">
                 <ul class="menu">
-                  {{ if gt $childCount 5 }}
+                  {{ if .Params.secondaryColumnTitle }}
+                  <li class="menu-title">{{ .Params.secondaryColumnTitle }}</li>
+                  {{ end }}
 
-                    {{ if .Params.additionalItemsTitle }}
-                    <li class="menu-title">{{ .Params.additionalItemsTitle }}</li>
-                    {{ else }}
-                    <li class="menu-title">Additional Information</li>
+                  {{ range .Children }}
+                    {{ if .Params.isSecondary }}
+                      <li class="menu-item">
+                        <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
+                          {{ .Name }}
+                          {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
+                        </a>
+                      </li>
                     {{ end }}
-
-                    {{ range after 5 .Children }}
-                    <li class="menu-item">
-                      <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
-                        {{ .Name }}
-                        {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
-                      </a>
-                    </li>
-                    {{ end }}
-
                   {{ end }}
                 </ul>
               </div>

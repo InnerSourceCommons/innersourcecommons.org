@@ -44,14 +44,14 @@ main:
     URL: /about/sponsors/
     parent: about
     weight: 4
-  - name: Code of Conduct
-    URL: /about/codeofconduct/
-    parent: about
-    weight: 5
+  # - name: Code of Conduct
+  #   URL: /about/codeofconduct/
+  #   parent: about
+  #   weight: 5
   - name: Get in Touch
     URL: /about/contact/
     parent: about
-    weight: 7
+    weight: 5
 
   # Community
   - name: Community
@@ -84,63 +84,59 @@ main:
     identifier: learning
     params: 
       mainTitle: Learning Resources
-      additionalItemsTitle: Books
+      secondaryColumnTitle: Books
   # Learning Resources Column
   - name: InnerSource Patterns ⭐
     URL: /learn/books/innersource-patterns/
     parent: learning
     weight: 1
     params:
-      column: resources
   - name: Learning Path
     URL: /learn/learning-path/
     parent: learning
     weight: 2
     params:
-      column: resources
   - name: InnerSource Stories
     URL: /stories/microsoft/
     parent: learning
     weight: 3
     params:
-      column: resources
   - name: Community Videos
     URL: https://www.youtube.com/@InnerSourceCommons
     parent: learning
     weight: 4
     params:
-      column: resources
   # Books Column
   - name: Getting Started with InnerSource
     URL: /learn/books/getting-started-with-innersource/
     parent: learning
     weight: 5
     params:
-      column: books
+      isSecondary: true
   - name: Understanding the InnerSource Checklist
     URL: /learn/books/understanding-the-innersource-checklist/
     parent: learning
     weight: 6
     params:
-      column: books
+      isSecondary: true
   - name: Managing InnerSource Projects
     URL: /learn/books/managing-innersource-projects/
     parent: learning
     weight: 7
     params:
-      column: books
+      isSecondary: true
   - name: Adopting InnerSource
     URL: /learn/books/adopting-innersource-principles-and-case-studies/
     parent: learning
     weight: 8
     params:
-      column: books
+      isSecondary: true
   - name: See All Books
     URL: /learn/books/
     parent: learning
     weight: 9
     params:
-      column: books
+      isSecondary: true
 
   # Events (Mega Menu)
   - name: Events
@@ -148,66 +144,61 @@ main:
     identifier: events
     params: 
       mainTitle: Event Types
-      additionalItemsTitle: General Info
-  # General Info Column
-  - name: Upcoming Events
+      secondaryColumnTitle: General Info
+
+     # Event Types Column
+  - name: Community Calls
     URL: /events/community-calls/
     parent: events
     weight: 1
     params:
-      column: general
-  - name: Events Calendar
-    URL: https://calendar.google.com/calendar/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com&ctz=Europe%2FDublin
-    parent: events
-    weight: 2
-    params:
-      column: general
-  - name: Past Event Recordings
-    URL: https://www.youtube.com/@InnerSourceCommons
-    parent: events
-    weight: 3
-    params:
-      column: general
-  # Event Types Column
-  - name: Community Calls
-    URL: /events/community-calls/
-    parent: events
-    weight: 4
-    params:
-      column: types
   - name: Gatherings - Local Chapters
     URL: https://gatherings.innersourcecommons.org/
     parent: events
-    weight: 5
+    weight: 2
     params:
-      column: types
   - name: InnerSource Summit 2025
     URL: /events/isc-2025/
     parent: events
-    weight: 6
+    weight: 3
     identifier: summit-2025
     params:
-      column: types
   - name: Call for Presenters
     URL: https://docs.google.com/forms/d/e/1FAIpQLSfWKkRDWIYN8eTOMlxONZp23-_i9nnAfqSJm26QCdzS5NtO9w/viewform
     parent: events
-    weight: 7
+    weight: 4
     params:
-      column: types
   - name: Why Sponsor the InnerSource Summit 2025?
     URL: /events/isc-2025/#why-sponsor?
     parent: events
-    weight: 8
+    weight: 5
     params:
-      column: types
-
   - name: InnerSource Past Summits
     URL: /events/past-summits/
     parent: events
+    weight: 6
+    params:
+
+  # General Info Column
+  - name: Upcoming Events
+    URL: /events/community-calls/
+    parent: events
+    weight: 7
+    params:
+      isSecondary: true
+  - name: Events Calendar
+    URL: https://calendar.google.com/calendar/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com&ctz=Europe%2FDublin
+    parent: events
+    weight: 8
+    params:
+      isSecondary: true
+  - name: Past Event Recordings
+    URL: https://www.youtube.com/@InnerSourceCommons
+    parent: events
     weight: 9
     params:
-      column: types
-
+      isSecondary: true
+ 
   # News & Updatess
   - name: News & Updates
     weight: 6
