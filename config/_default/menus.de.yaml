@@ -1,153 +1,224 @@
 main:
-
-
-## Learning
-  - name: Learning
-    URL: learn
+  # Start Here
+  - name: Start Here
     weight: 1
-    identifier: learning
-  - name: Learning
-    URL: learn/
-    parent: learning
+    identifier: start-here
+  - name: Get involved
+    URL: /community/
+    parent: start-here
     weight: 1
-  - name: Learning Path
-    URL: learn/learning-path
-    parent: learning
+  - name: Community and Events
+    URL: /events/community-calls/
+    parent: start-here
     weight: 2
-  - name: InnerSource Patterns
-    URL: https://innersourcecommons.org/learn/books/innersource-patterns/
-    parent: learning
+  - name: Check out Our Repositories
+    URL: https://github.com/InnerSourceCommons
+    parent: start-here
     weight: 3
-  - name: Managing InnerSource Projects
-    URL: https://innersourcecommons.org/learn/books/managing-innersource-projects/
-    parent: learning
+  - name: Join our Chat on Slack
+    URL: /slack
+    parent: start-here
     weight: 4
-  - name: Videos
-    URL: https://www.youtube.com/@InnerSourceCommons
-    parent: learning
+  - name: Join our Mailing List
+    URL: https://innersourcecommons.us1.list-manage.com/subscribe?u=0363fb06e6a59d48c6e260f1b&id=97224b5ff2
+    parent: start-here
     weight: 5
-  - name: Books
-    URL: learn/books
-    parent: learning
-    weight: 6
-  - name: Getting Started with InnerSource
-    URL: https://innersourcecommons.org/learn/books/getting-started-with-innersource/
-    parent: learning
-    weight: 7
-  - name: Understanding the InnerSource Checklist
-    URL: https://innersourcecommons.org/learn/books/understanding-the-innersource-checklist/
-    parent: learning
-    weight: 8
-  - name: Adopting InnerSource Principles and Case Studies
-    URL: https://innersourcecommons.org/learn/books/adopting-innersource-principles-and-case-studies/
-    parent: learning
-    weight: 9
 
-# Community
-  - name: Community
-    URL: community
+  # About
+  - name: About
+    weight: 2
+    identifier: about
+  - name: Who We Are
+    URL: /about/
+    parent: about
+    weight: 1
+  - name: Board & Governance
+    URL: /about/board/
+    parent: about
+    weight: 2
+  - name: Members
+    URL: /about/members/
+    parent: about
+    weight: 3
+  - name: Sponsors
+    URL: /about/sponsors/
+    parent: about
     weight: 4
+  # - name: Code of Conduct
+  #   URL: /about/codeofconduct/
+  #   parent: about
+  #   weight: 5
+  - name: Get in Touch
+    URL: /about/contact/
+    parent: about
+    weight: 5
+
+  # Community
+  - name: Community
+    weight: 3
     identifier: community
-  - name: Community Calls
-    URL: events/community-calls
+  - name: Join us on Slack
+    URL: /slack
     parent: community
     weight: 1
-  - name: Activities and Working Groups
-    URL: /community
+  - name: Working Groups
+    URL: /community/
     parent: community
     weight: 2
-  - name: InnerSource Stories
-    URL: stories
+  - name: Case Studies
+    URL: /stories/microsoft/
     parent: community
     weight: 3
   - name: Services Directory
-    URL: community/services
+    URL: /community/services/
     parent: community
     weight: 4
-  - name: Research
-    URL: learn/research
+  - name: Code of Conduct
+    URL: /about/codeofconduct/
     parent: community
     weight: 5
-    
-  - name: InnerSource Gatherings - Local Chapters
-    URL: https://gatherings.innersourcecommons.org/
-    parent: community
+
+  # Learning (Mega Menu)
+  - name: Learning
+    weight: 4
+    identifier: learning
+    params: 
+      mainTitle: Learning Resources
+      secondaryColumnTitle: Books
+  # Learning Resources Column
+  - name: InnerSource Patterns ⭐
+    URL: /learn/books/innersource-patterns/
+    parent: learning
+    weight: 1
+    params:
+  - name: Learning Path
+    URL: /learn/learning-path/
+    parent: learning
+    weight: 2
+    params:
+  - name: InnerSource Stories
+    URL: /stories/microsoft/
+    parent: learning
+    weight: 3
+    params:
+  - name: Community Videos
+    URL: https://www.youtube.com/@InnerSourceCommons
+    parent: learning
+    weight: 4
+    params:
+  # Books Column
+  - name: Getting Started with InnerSource
+    URL: /learn/books/getting-started-with-innersource/
+    parent: learning
+    weight: 5
+    params:
+      isSecondary: true
+  - name: Understanding the InnerSource Checklist
+    URL: /learn/books/understanding-the-innersource-checklist/
+    parent: learning
     weight: 6
-  - name: InnerSource Summit 2025
-    URL: events/isc-2025
-    parent: community
+    params:
+      isSecondary: true
+  - name: Managing InnerSource Projects
+    URL: /learn/books/managing-innersource-projects/
+    parent: learning
     weight: 7
+    params:
+      isSecondary: true
+  - name: Adopting InnerSource
+    URL: /learn/books/adopting-innersource-principles-and-case-studies/
+    parent: learning
+    weight: 8
+    params:
+      isSecondary: true
+  - name: See All Books
+    URL: /learn/books/
+    parent: learning
+    weight: 9
+    params:
+      isSecondary: true
+
+  # Events (Mega Menu)
+  - name: Events
+    weight: 5
+    identifier: events
+    params: 
+      mainTitle: Event Types
+      secondaryColumnTitle: General Info
+
+     # Event Types Column
+  - name: Community Calls
+    URL: /events/community-calls/
+    parent: events
+    weight: 1
+    params:
+  - name: Gatherings - Local Chapters
+    URL: https://gatherings.innersourcecommons.org/
+    parent: events
+    weight: 2
+    params:
+  - name: InnerSource Summit 2025
+    URL: /events/isc-2025/
+    parent: events
+    weight: 3
     identifier: summit-2025
+    params:
   - name: Call for Presenters
     URL: https://docs.google.com/forms/d/e/1FAIpQLSfWKkRDWIYN8eTOMlxONZp23-_i9nnAfqSJm26QCdzS5NtO9w/viewform
-    parent: community
-    weight: 8
+    parent: events
+    weight: 4
+    params:
   - name: Why Sponsor the InnerSource Summit 2025?
     URL: /events/isc-2025/#why-sponsor?
-    parent: community
-    weight: 9
-  - name: Past Summits
-    URL: events/past-summits
-    parent: community
-    weight: 10
-  - name: InnerSourcerers Map
-    URL: about/map
-    parent: community
-    weight: 11
-
-# News
-  - name: Announcements
-    URL: about/announcements
-    parent: community
-    weight: 12
-  - name: Past Newsletters
-    URL: https://us1.campaign-archive.com/home/?u=0363fb06e6a59d48c6e260f1b&id=97224b5ff2
-    parent: community
-    weight: 13
-
-
-# Calendar
-  - name: Calendar
-    URL: #
-    weight: 9
-    identifier: calendar
-
-# About
-  - name: About
-    URL: about
-    weight: 10
-    identifier: about
-    parent: about
-    weight: 1
-  - name: Who We Are
-    URL: about
-    parent: about
-    weight: 2
-  - name: Board & Governance
-    URL: about/board
-    parent: about
-    weight: 3
-  - name: Members
-    URL: about/members
-    parent: about
-    weight: 4
-  - name: Sponsors
-    URL: about/sponsors
-    parent: about
+    parent: events
     weight: 5
-  - name: GitHub
-    URL: https://github.com/InnerSourceCommons
-    parent: about
-    weight: 7
-  - name: Contact Us
-    URL: about/contact
-    parent: about
-    weight: 10
-  - name: Code of Conduct
-    URL: about/codeofconduct
-    parent: about
-    weight: 11
+    params:
+  - name: InnerSource Past Summits
+    URL: /events/past-summits/
+    parent: events
+    weight: 6
+    params:
 
+  # General Info Column
+  - name: Upcoming Events
+    URL: /events/community-calls/
+    parent: events
+    weight: 7
+    params:
+      isSecondary: true
+  - name: Events Calendar
+    URL: https://calendar.google.com/calendar/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com&ctz=Europe%2FDublin
+    parent: events
+    weight: 8
+    params:
+      isSecondary: true
+  - name: Past Event Recordings
+    URL: https://www.youtube.com/@InnerSourceCommons
+    parent: events
+    weight: 9
+    params:
+      isSecondary: true
+ 
+  # News & Updatess
+  - name: News & Updates
+    weight: 6
+    identifier: news
+  - name: Announcements
+    URL: /about/announcements/
+    parent: news
+    weight: 1
+  - name: Newsletters
+    URL: https://us1.campaign-archive.com/home/?u=0363fb06e6a59d48c6e260f1b&id=97224b5ff2
+    parent: news
+    weight: 2
+  - name: Newsletter Signup
+    URL: https://innersourcecommons.us1.list-manage.com/subscribe?u=0363fb06e6a59d48c6e260f1b&id=97224b5ff2
+    parent: news
+    weight: 3
+  - name: Submit an Article
+    URL: mailto:marketing@innersourcecommons.org
+    parent: news
+    weight: 4
 
 footer_left:
   - name: Learn
