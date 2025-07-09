@@ -151,7 +151,7 @@ main:
     params:
       column: general
   - name: Events Calendar
-    URL: https://calendar.google.com/calendar/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com&ctz=Europe%2FDublin
+    URL: https://calendar.google.com/calendar/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com
     parent: events
     weight: 2
     params:
