@@ -3,26 +3,30 @@ main:
   - name: Start Here
     weight: 1
     identifier: start-here
-  - name: Get involved
+  - name: Start Here
     URL: /community/
     parent: start-here
     weight: 1
+  - name: Get involved
+    URL: /community/
+    parent: start-here
+    weight: 2
   - name: Community and Events
     URL: /events/community-calls/
     parent: start-here
-    weight: 2
+    weight: 3
   - name: Check out Our Repositories
     URL: https://github.com/InnerSourceCommons
     parent: start-here
-    weight: 3
+    weight: 4
   - name: Join our Chat on Slack
     URL: /slack
     parent: start-here
-    weight: 4
+    weight: 5
   - name: Join our Mailing List
     URL: https://innersourcecommons.us1.list-manage.com/subscribe?u=0363fb06e6a59d48c6e260f1b&id=97224b5ff2
     parent: start-here
-    weight: 5
+    weight: 6
 
   # About
   - name: About
