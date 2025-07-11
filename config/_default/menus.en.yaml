@@ -3,8 +3,8 @@ main:
   - name: Start Here
     weight: 1
     identifier: start-here
-  - name: Start Here
-    URL: /community/
+  - name: Quick Start Guide
+    URL: /community/quick-start-guide
     parent: start-here
     weight: 1
   - name: Get involved
