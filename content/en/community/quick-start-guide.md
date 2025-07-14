@@ -22,12 +22,14 @@ Welcome! We understand everyone comes to a new community with different goals an
 
 [🙌 I’m Not Sure Where to Start](#-not-sure-where-to-start)
 
+---
+
 # 🗺️ I’m Simply an InnerSource Explorer 
 
 **You're curious about InnerSource, but you’re not ready to engage with the community. Start here:**
 
 - [Follow Learning Path of videos](/learn/learning-path/): This is a series of 1-7 minute videos explaining the basic concepts of InnerSource and the roles of contributors.
-- [Read / Watch: What are Patterns?(https://github.com/InnerSourceCommons/InnerSourcePatterns?tab=readme-ov-file#what-are-innersource-patterns)]: This is a collection of resources that describe the use of patterns to solve common obstacles when implementing the InnerSource approach. 
+- [Read / Watch: What are Patterns?](https://github.com/InnerSourceCommons/InnerSourcePatterns?tab=readme-ov-file#what-are-innersource-patterns): This is a collection of resources that describe the use of patterns to solve common obstacles when implementing the InnerSource approach. 
 - Read the Patterns [FAQ](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/FAQ.md) and [Glossary](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/glossary.md): These are very short documents to help build context around the concept of Patterns
 - [Read About The InnerSource Patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns?tab=readme-ov-file#list-of-patterns): This is a collection of actual patterns (solutions) that have been tested and developed.
 - [Watch Community Call Presentations of interest](https://www.youtube.com/playlist?list=PLCH-i0B0otNRwymv-0O15b_bjBkvvcpwV): These are open to anyone to attend, and they are 25-30 minute presentations by InnerSource practitioners
