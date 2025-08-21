@@ -45,6 +45,8 @@ For more in-depth information, consider reading:
 
 - [Peruse the rest of the InnerSource library](/learn/books/): This is a collection of recommended reading regarding InnerSource
 
+<span class="link-to-heading" id="--i-want-to-get-involved-a-little"></span>
+
 ---
 # 👋 I Want to Get Involved (A Little) 
 
@@ -76,7 +78,6 @@ You’re interested in potentially engaging, but don’t have much time. Start s
 ### Local Communities
 **Description:** These groups are for anyone who would like to connect with other InnerSource enthusiasts within their region. These groups meet in person and connect with each other asynchronously on [Slack](/slack).
 
-
 Join [Slack](/slack) and your local channel:
 - Japan ([#japan](https://innersourcecommons.slack.com/archives/C03M546NR16))
 - Latin America/Caribbean ([#latam](https://innersourcecommons.slack.com/archives/C03JP108XGE))
@@ -86,6 +87,8 @@ Join [Slack](/slack) and your local channel:
 - Africa ([#africa](https://innersourcecommons.slack.com/archives/C07MXDSG2P8))
 - Thailand ([#th-general](https://innersourcecommons.slack.com/archives/C04KNAD6S23))
 - All other areas, join the [#local-community](https://innersourcecommons.slack.com/archives/C046MD5R5RT) channel
+
+<span class="link-to-heading" id="-im-a-budding-participant"></span>
 
 # 🌱 I’m a Budding Participant
 You are interested in building loose connections with the community and have a little more time to engage. Start here:
@@ -132,6 +135,8 @@ Join [Slack](/slack) and your local channel:
 
 - Attend a [Local Gathering](https://gatherings.innersourcecommons.org/)
 - Review and help translate documents across the organization
+
+<span class="link-to-heading" id="-im-ready-to-contribute-meaningfully"></span>
 
 # 🙋 I’m Ready to Contribute Meaningfully
 
@@ -196,7 +201,7 @@ Join [Slack](/slack) and your local channel:
 - Review and help translate documents 
 - Organize a [Local Gathering](https://gatherings.innersourcecommons.org/)
 
-
+<span class="link-to-heading" id="-5-i-want-to-shape-the-future"></span>
 
 # 🚀 I Want to Shape the Future
 
@@ -210,6 +215,8 @@ Next Steps:
 - Start a local community in your area
 - [Propose a new initiative](https://github.com/InnerSourceCommons/foundation-governance/blob/master/how-to/proposing-new-initiative.md)
 
+
+<span class="link-to-heading" id="-other-ways-to-support-the-innersource-commons-foundation"></span>
 # 🤝 Other Ways to Support the InnerSource Commons Foundation 
 
 **You would like to give back in other ways. Here are some ideas:**
@@ -217,6 +224,7 @@ Next Steps:
 - Become a [financial sponsor](/about/sponsors/)
 - Educate others and be an advocate for InnerSource by submitting talks at conferences and writing articles
 
+<span class="link-to-heading" id="-not-sure-where-to-start"></span>
 # 🙌 Not Sure Where to Start?
 
 **No worries! Let us guide you. You can do 1 of 2 things:**
