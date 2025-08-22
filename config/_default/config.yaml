@@ -1,6 +1,10 @@
 baseURL: 'https://innersourcecommons.org/'
 defaultContentLanguage: 'en'
 defaultContentLanguageInSubdir: false
+params:
+  # Redirect to default language if translation is missing
+  redirectMissingTranslations: true
+
 title: InnerSource Commons
 
 pluralizeListTitles: false
