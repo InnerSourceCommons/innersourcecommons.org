@@ -118,7 +118,7 @@ var youmax_global_options = {};
                         sessionStorage.setItem("youtubeResponse", JSON.stringify(response));
                         showUploads(response);
                     },
-                    error: function(html) { alert(html); },
+                    error: function(html) { },
                     beforeSend: setHeader
                 });
             } else {
