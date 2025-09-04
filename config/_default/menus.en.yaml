@@ -110,35 +110,40 @@ main:
     parent: learning
     weight: 4
     params:
+  - name: Research
+    URL: /learn/research/
+    parent: learning
+    weight: 5
+    params:
   # Books Column
   - name: Getting Started with InnerSource
     URL: /learn/books/getting-started-with-innersource/
     parent: learning
-    weight: 5
+    weight: 6
     params:
       isSecondary: true
   - name: Understanding the InnerSource Checklist
     URL: /learn/books/understanding-the-innersource-checklist/
     parent: learning
-    weight: 6
+    weight: 7
     params:
       isSecondary: true
   - name: Managing InnerSource Projects
     URL: /learn/books/managing-innersource-projects/
     parent: learning
-    weight: 7
+    weight: 8
     params:
       isSecondary: true
   - name: Adopting InnerSource
     URL: /learn/books/adopting-innersource-principles-and-case-studies/
     parent: learning
-    weight: 8
+    weight: 9
     params:
       isSecondary: true
   - name: See All Books
     URL: /learn/books/
     parent: learning
-    weight: 9
+    weight: 10
     params:
       isSecondary: true
 
