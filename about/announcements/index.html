@@ -1451,4 +1451,29 @@ InnerSource Commons, the world&rsquo;s largest community of InnerSource practiti
 
 </body>
 
+
+ 
+	<script>
+		const path = window.location.pathname;
+		const pathParts = path.split('/');
+		const currentLang = pathParts[1];
+		
+		
+		if (currentLang !== 'en' && currentLang.length === 2) {
+			const englishPath = path.replace(`/${currentLang}/`, '/en/');
+			
+			
+			fetch(englishPath)
+			.then(response => {
+				if (response.ok) {
+				window.location.href = englishPath;
+				}
+			})
+			.catch(() => {
+				
+			});
+		}
+	</script>
+  
+
 </html>
