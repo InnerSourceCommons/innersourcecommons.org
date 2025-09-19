@@ -23,10 +23,10 @@
         <img src="{{ site.Params.mobileLogo | default site.Params.logo | absURL }}" alt="{{ site.Title }}" class="mobile-logo">
       </a>
     </div>
-
     <nav class="main-menu">
       <ul class="main-menu__wrapper">
         {{ range site.Menus.main }}
+        {{ $childCount := len .Children }}
         {{ if .HasChildren }}
         <li class="menu-item-has-children">
           <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>{{ .Name }}</span></a>
@@ -34,27 +34,38 @@
             <div class="col-container">
               <div class="col1">
                 <ul class="menu">
-                  <li class="menu-title">Main</li>
-                  {{ range first 5 .Children }}
-                  <li class="menu-item">
-                    <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
-                      {{ .Name }}
-                      {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
-                    </a>
-                  </li>
+                  {{ if .Params.mainTitle }}
+                  <li class="menu-title">{{ .Params.mainTitle }}</li>
                   {{ end }}
+
+                  {{ range .Children }}
+                    {{ if not .Params.isSecondary }}
+                      <li class="menu-item">
+                        <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
+                          {{ .Name }}
+                          {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
+                        </a>
+                      </li>
+                    {{ end }}
+                  {{ end }}
+
                 </ul>
               </div>
               <div class="col2">
                 <ul class="menu">
-                  <li class="menu-title">Additional Information</li>
-                  {{ range after 5 .Children }}
-                  <li class="menu-item">
-                    <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
-                      {{ .Name }}
-                      {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
-                    </a>
-                  </li>
+                  {{ if .Params.secondaryColumnTitle }}
+                  <li class="menu-title">{{ .Params.secondaryColumnTitle }}</li>
+                  {{ end }}
+
+                  {{ range .Children }}
+                    {{ if .Params.isSecondary }}
+                      <li class="menu-item">
+                        <a href="{{ .URL | absLangURL }}" {{ with .Pre }} target="{{ . }}" {{ end }}>
+                          {{ .Name }}
+                          {{ if .Post }}<span class="menu-description">{{ .Post }}</span>{{ end }}
+                        </a>
+                      </li>
+                    {{ end }}
                   {{ end }}
                 </ul>
               </div>
@@ -177,13 +188,13 @@
         {{ partial "menu.html" . }}
         {{ end }}
         {{ end }}
-        <div class="search-wrapper">
-        {{ partial "search" . }}
-        </div>
       </ul>
        
 
       <div class="header-cta">
+        <div class="search-wrapper">
+        {{ partial "search" . }}
+        </div>
         <div class="language-selector">
           <select class="form-control" id="language-selector">
             <option value="" selected disabled>{{ .Site.Language.LanguageName }}</option>
