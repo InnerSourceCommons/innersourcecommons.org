@@ -1,110 +1,110 @@
-name: PR Preview
+# name: PR Preview
 
-on:
-  pull_request:
-    types: [opened, synchronize, reopened]
+# on:
+   # pull_request:
+   #   types: [opened, synchronize, reopened]
 
-jobs:
-  build-preview:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-    steps:
-      - uses: actions/checkout@v3
+# jobs:
+#   build-preview:
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: write
+#       pull-requests: write
+#     steps:
+#       - uses: actions/checkout@v3
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.133.1'
-          extended: true
+#       - name: Setup Hugo
+#         uses: peaceiris/actions-hugo@v2
+#         with:
+#           hugo-version: '0.133.1'
+#           extended: true
 
-      - name: Copy the missing files from /content/en for publishing each language site
-        run: |
-          for i in fr ja pt-br; do
-            rsync -rv --ignore-existing content/en/ content/$i/ --log-file=content/.gitignore;
-            sed -i "s/^.\{37\} /$i\//g" content/.gitignore;
-            sed -i '/total size\|file list/d' content/.gitignore;
-          done
+#       - name: Copy the missing files from /content/en for publishing each language site
+#         run: |
+#           for i in fr ja pt-br; do
+#             rsync -rv --ignore-existing content/en/ content/$i/ --log-file=content/.gitignore;
+#             sed -i "s/^.\{37\} /$i\//g" content/.gitignore;
+#             sed -i '/total size\|file list/d' content/.gitignore;
+#           done
 
-      - name: Build
-        run: hugo --minify
+#       - name: Build
+#         run: hugo --minify
 
-      - name: Setup GitHub Pages
-        id: pages
-        uses: actions/configure-pages@v3
+#       - name: Setup GitHub Pages
+#         id: pages
+#         uses: actions/configure-pages@v3
 
-      - name: Deploy Preview to GitHub Pages Branch
-        run: |
-          PR_NUMBER=${{ github.event.pull_request.number }}
-          PREVIEW_DIR="pr-preview/pr-$PR_NUMBER"
+#       - name: Deploy Preview to GitHub Pages Branch
+#         run: |
+#           PR_NUMBER=${{ github.event.pull_request.number }}
+#           PREVIEW_DIR="pr-preview/pr-$PR_NUMBER"
           
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#           git config --global user.name "github-actions[bot]"
+#           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          git clone --quiet --branch=gh-pages --depth=1 https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git gh-pages
+#           git clone --quiet --branch=gh-pages --depth=1 https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git gh-pages
           
-          mkdir -p gh-pages/${PREVIEW_DIR}
-          rm -rf gh-pages/${PREVIEW_DIR}/*
-          cp -r public/* gh-pages/${PREVIEW_DIR}/
+#           mkdir -p gh-pages/${PREVIEW_DIR}
+#           rm -rf gh-pages/${PREVIEW_DIR}/*
+#           cp -r public/* gh-pages/${PREVIEW_DIR}/
           
-          cd gh-pages
-          git add .
-          git commit -m "Update preview for PR #$PR_NUMBER" || echo "No changes to commit"
-          git push origin gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#           cd gh-pages
+#           git add .
+#           git commit -m "Update preview for PR #$PR_NUMBER" || echo "No changes to commit"
+#           git push origin gh-pages
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Add or Update PR Comment
-        run: |
-          PR_NUMBER=${{ github.event.pull_request.number }}
-          PREVIEW_URL="${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-preview/pr-$PR_NUMBER/"
+#       - name: Add or Update PR Comment
+#         run: |
+#           PR_NUMBER=${{ github.event.pull_request.number }}
+#           PREVIEW_URL="${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-preview/pr-$PR_NUMBER/"
           
-          # Check if comment already exists
-          COMMENT_ID=$(gh pr view $PR_NUMBER --json comments --jq '.comments[] | select(.author.login == "github-actions[bot]" and contains(.body, "Preview this PR")) | .id')
+#           # Check if comment already exists
+#           COMMENT_ID=$(gh pr view $PR_NUMBER --json comments --jq '.comments[] | select(.author.login == "github-actions[bot]" and contains(.body, "Preview this PR")) | .id')
           
-          if [ -z "$COMMENT_ID" ]; then
-            # Create new comment
-            gh pr comment $PR_NUMBER --body "### :rocket: Preview this PR
+#           if [ -z "$COMMENT_ID" ]; then
+#             # Create new comment
+#             gh pr comment $PR_NUMBER --body "### :rocket: Preview this PR
             
-            You can view a preview of the website changes at:
-            https://${PREVIEW_URL}
+#             You can view a preview of the website changes at:
+#             https://${PREVIEW_URL}
             
-            This preview will be updated automatically as you make changes to the PR.
+#             This preview will be updated automatically as you make changes to the PR.
             
-            ### :computer: Review in GitHub Codespaces
+#             ### :computer: Review in GitHub Codespaces
             
-            You can also review these changes directly in GitHub Codespaces:
+#             You can also review these changes directly in GitHub Codespaces:
             
-            1. Click the 'Code' button above and select the 'Codespaces' tab
-            2. Create a codespace on this PR's branch
-            3. Once loaded, press F5 or use the Run and Debug panel to start the Hugo server
-            4. Make changes and see them update in real-time
+#             1. Click the 'Code' button above and select the 'Codespaces' tab
+#             2. Create a codespace on this PR's branch
+#             3. Once loaded, press F5 or use the Run and Debug panel to start the Hugo server
+#             4. Make changes and see them update in real-time
             
-            For detailed instructions, refer to the [Codespaces documentation](../blob/main/CODESPACES.md).
+#             For detailed instructions, refer to the [Codespaces documentation](../blob/main/CODESPACES.md).
             
-            _Note: The preview may take a few moments to deploy after changes are pushed._"
-          else
-            # Update existing comment
-            gh pr comment $PR_NUMBER --edit-comment $COMMENT_ID --body "### :rocket: Preview this PR
+#             _Note: The preview may take a few moments to deploy after changes are pushed._"
+#           else
+#             # Update existing comment
+#             gh pr comment $PR_NUMBER --edit-comment $COMMENT_ID --body "### :rocket: Preview this PR
             
-            You can view a preview of the website changes at:
-            https://${PREVIEW_URL}
+#             You can view a preview of the website changes at:
+#             https://${PREVIEW_URL}
             
-            This preview will be updated automatically as you make changes to the PR.
+#             This preview will be updated automatically as you make changes to the PR.
             
-            ### :computer: Review in GitHub Codespaces
+#             ### :computer: Review in GitHub Codespaces
             
-            You can also review these changes directly in GitHub Codespaces:
+#             You can also review these changes directly in GitHub Codespaces:
             
-            1. Click the 'Code' button above and select the 'Codespaces' tab
-            2. Create a codespace on this PR's branch
-            3. Once loaded, press F5 or use the Run and Debug panel to start the Hugo server
-            4. Make changes and see them update in real-time
+#             1. Click the 'Code' button above and select the 'Codespaces' tab
+#             2. Create a codespace on this PR's branch
+#             3. Once loaded, press F5 or use the Run and Debug panel to start the Hugo server
+#             4. Make changes and see them update in real-time
             
-            For detailed instructions, refer to the [Codespaces documentation](../blob/main/CODESPACES.md).
+#             For detailed instructions, refer to the [Codespaces documentation](../blob/main/CODESPACES.md).
             
-            _Note: The preview may take a few moments to deploy after changes are pushed._"
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#             _Note: The preview may take a few moments to deploy after changes are pushed._"
+#           fi
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

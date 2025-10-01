@@ -9,4 +9,29 @@
 	{{- partial "footer.html" . -}}
 </body>
 
+{{ if not .Content }}
+ {{ if .Site.Params.redirectMissingTranslations }}
+	<script>
+		const path = window.location.pathname;
+		const pathParts = path.split('/');
+		const currentLang = pathParts[1];
+		
+		// If not English, try English version
+		if (currentLang !== 'en' && currentLang.length === 2) {
+			const englishPath = path.replace(`/${currentLang}/`, '/en/');
+			
+			// Check if English version exists (you'd need to implement this check)
+			fetch(englishPath)
+			.then(response => {
+				if (response.ok) {
+				window.location.href = englishPath;
+				}
+			})
+			.catch(() => {
+				// Show 404 page
+			});
+		}
+	</script>
+  {{ end }}
+{{ end }}
 </html>
