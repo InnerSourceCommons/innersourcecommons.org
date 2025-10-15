@@ -167,39 +167,39 @@ main:
     weight: 3
     identifier: summit-2025
     params:
-  - name: Call for Presenters
-    URL: https://docs.google.com/forms/d/e/1FAIpQLSfWKkRDWIYN8eTOMlxONZp23-_i9nnAfqSJm26QCdzS5NtO9w/viewform
-    parent: events
-    weight: 4
-    params:
+  # - name: Call for Presenters
+  #   URL: https://docs.google.com/forms/d/e/1FAIpQLSfWKkRDWIYN8eTOMlxONZp23-_i9nnAfqSJm26QCdzS5NtO9w/viewform
+  #   parent: events
+  #   weight: 4
+  #   params:
   - name: Why Sponsor the InnerSource Summit 2025?
     URL: /events/isc-2025/#why-sponsor?
     parent: events
-    weight: 5
+    weight: 4
     params:
   - name: InnerSource Past Summits
     URL: /events/past-summits/
     parent: events
-    weight: 6
+    weight: 5
     params:
 
   # General Info Column
   - name: Upcoming Events
     URL: /events/community-calls/
     parent: events
-    weight: 7
+    weight: 6
     params:
       isSecondary: true
   - name: Events Calendar
     URL: https://calendar.google.com/calendar/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com&ctz=Europe%2FDublin
     parent: events
-    weight: 8
+    weight: 7
     params:
       isSecondary: true
   - name: Past Event Recordings
     URL: https://www.youtube.com/@InnerSourceCommons
     parent: events
-    weight: 9
+    weight: 8
     params:
       isSecondary: true
  
