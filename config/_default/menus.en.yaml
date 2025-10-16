@@ -105,13 +105,13 @@ main:
     parent: learning
     weight: 3
     params:
-  - name: Community Videos
-    URL: https://www.youtube.com/@InnerSourceCommons
+  - name: Research
+    URL: /learn/research/
     parent: learning
     weight: 4
     params:
-  - name: Research
-    URL: /learn/research/
+  - name: Community Videos
+    URL: https://www.youtube.com/@InnerSourceCommons
     parent: learning
     weight: 5
     params:
