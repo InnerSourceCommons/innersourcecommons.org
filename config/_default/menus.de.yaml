@@ -101,10 +101,15 @@ main:
     parent: learning
     weight: 3
     params:
+  - name: Research
+    URL: /learn/research/
+    parent: learning
+    weight: 4
+    params:
   - name: Community Videos
     URL: https://www.youtube.com/@InnerSourceCommons
     parent: learning
-    weight: 4
+    weight: 5
     params:
   # Books Column
   - name: Getting Started with InnerSource
