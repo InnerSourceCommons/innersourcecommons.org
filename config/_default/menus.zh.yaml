@@ -163,20 +163,20 @@ main:
     weight: 3
     identifier: summit-2025
     params:
-  - name: Call for Presenters
-    URL: https://docs.google.com/forms/d/e/1FAIpQLSfWKkRDWIYN8eTOMlxONZp23-_i9nnAfqSJm26QCdzS5NtO9w/viewform
-    parent: events
-    weight: 4
-    params:
+  # - name: Call for Presenters
+  #   URL: https://docs.google.com/forms/d/e/1FAIpQLSfWKkRDWIYN8eTOMlxONZp23-_i9nnAfqSJm26QCdzS5NtO9w/viewform
+  #   parent: events
+  #   weight: 4
+  #   params:
   - name: Why Sponsor the InnerSource Summit 2025?
     URL: /events/isc-2025/#why-sponsor?
     parent: events
-    weight: 5
+    weight: 4
     params:
   - name: InnerSource Past Summits
     URL: /events/past-summits/
     parent: events
-    weight: 6
+    weight: 5
     params:
 
   # General Info Column
