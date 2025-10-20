@@ -203,6 +203,12 @@ main:
     weight: 9
     params:
       isSecondary: true
+  - name: Summit Inclusion & Accessibility
+    URL: /events/isc-summit-2025-di/
+    parent: events
+    weight: 10
+    params:
+      isSecondary: true
  
   # News & Updatess
   - name: News & Updates
