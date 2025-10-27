@@ -6,7 +6,7 @@ All attendees, speakers, sponsors, and volunteers at InnerSource Summit are requ
 ### Scholarship and Funding
 
 For this year’s InnerSource Summit, we are unable to offer travel funding or in-person attendance scholarships. However, to support broader participation, we are providing Diversity Access Tickets for online attendance. 
-These tickets are designed to help individuals from underrepresented or marginalized communities join the summit virtually at no cost. You can opt in for a diversity access ticket via the [Online Registration Page.](https://www.eventbrite.com/e/innersource-summit-2025-tickets-1383865622329?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl) 
+These tickets are designed to help individuals from underrepresented or marginalized communities join the summit virtually at no cost. You can grab a diversity access ticket via the [Online Registration Page](https://www.eventbrite.com/e/innersource-summit-2025-tickets-1383865622329?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl) using this code **DIVSummit25**.
 <br/>
   
 ### Accessibility at the Venues
