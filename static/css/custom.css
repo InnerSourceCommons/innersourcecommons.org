@@ -1,0 +1,39 @@
+.bg-dark-green {
+  background-color: #077778!important;
+}
+
+.bg-darker-green {
+  background-color: #054C4D!important;
+}
+
+.text-cyan {
+  color: #29ABA9!important;
+ }
+
+.homepage-list li {
+  list-style-image: url("/images/resources/checkmark.png");
+  list-style: none;
+  padding-left: 30px;
+  background-image: url('/images/resources/checkmark.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px 20px; /* Control the size here */
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.btn-white {
+  background-color: white!important;
+  color: black;
+}
+
+.btn-dark-green {
+  background-color: #054C4D!important;
+  color: white!important;
+}
+
+.summit-box {
+  padding: 6rem!important;
+  border-radius: 40px;
+  margin-right: -6rem;
+}
