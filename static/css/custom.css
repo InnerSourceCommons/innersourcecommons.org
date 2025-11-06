@@ -16,10 +16,48 @@
 
 .text-cyan {
   color: #29ABA9!important;
- }
+}
 
 .text-dark-green {
   color: #054C4D!important;
+}
+
+.case-studies-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('/images/photos/case-studies-bg.jpg'); background-size: cover; 
+  background-position: center; 
+  position: relative;
+}
+
+.home-page-top {
+  background-image:url(/images/photos/homepage-top.png); 
+  background-size: cover; 
+  background-position: center; 
+  height:400px; 
+  position: relative;
+}
+
+.contact-section-rounded {
+  border-radius: 25px;
+}
+
+.rounded-item {
+  border-radius: 100px;
+}
+
+.w-50px {
+  width: 50px;
+}
+
+.newsletter-box {
+  margin-bottom: -10rem;
+}
+
+.image-under-newsletter-box{
+  margin-bottom: -7rem;
+}
+
+.rounded-input {
+  border-radius: 12px;
 }
 
 .homepage-list li {
@@ -34,6 +72,21 @@
   font-size: 1rem;
 }
 
+.homepage-social-icons-list-item a{
+  width: 50px!important;
+  height: 50px!important;
+  display: flex!important;
+}
+
+.homepage-social-icons-list-item a i{
+  font-size: 20px;
+  margin: auto;
+}
+
+.newsletter-input {
+  line-height: 2rem;
+}
+
 .btn-white {
   background-color: white!important;
   color: black;
@@ -41,6 +94,11 @@
 
 .btn-dark-green {
   background-color: #054C4D!important;
+  color: white!important;
+}
+
+.btn-cyan {
+  background-color: #29ABA9!important;
   color: white!important;
 }
 

@@ -3,8 +3,7 @@ title: "InnerSource Commons"
 fetchYoutubeVideos: true
 ---
 
-<section class="section-banner d-flex align-items-center"
-	style="background-image:url(/images/photos/homepage-top.png); background-size: cover; background-position: center; height:400px; position: relative;">
+<section class="section-banner d-flex align-items-center home-page-top">
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-8 col-md-6 col-sm-6" style="margin-top: 40px;">
@@ -88,16 +87,19 @@ fetchYoutubeVideos: true
 <section class="section bg-dark-green">
   <div class="container">
     <div class="row">
-      <div class="col-md-7">
-        <p class="text-white">Bosch</p>
+      <div class="col-md-4">
+        <p class="text-white mb-0">Bosch</p>
         <p class="text-cyan">- The Rise of InnerSource</p>
+        <div class="d-flex">
+          <img class="mx-auto" src="/images/photos/person-placeholder.png" width="80%">
+        </div>
       </div>
-      <div class="col-md-5">
-        <div class="row">
-          <div class="col-12 mb-4">
-            <p class="section-title h1"><span class="text-cyan">"InnerSource fosters cross-divisional collaboration and learning,</span> <span class="text-white">boosts innovation</span> <span class="text-cyan"> and </span><span class="text-white">accelerates development.</span> </p>
+      <div class="col-md-8">
+        <div class="col-12 mb-4 d-flex h-100">
+         <div class="my-auto">
+           <p class="section-title h1"><span class="text-cyan">"InnerSource fosters cross-divisional collaboration and learning,</span> <span class="text-white">boosts innovation</span> <span class="text-cyan"> and </span><span class="text-white">accelerates development.</span> </p>
             <p class="section-title h1 text-white">We have seen community developed solutions emerging as standards and replacing double developments."</p>
-          </div>
+         </div>
         </div>
       </div>
     </div>
@@ -168,14 +170,15 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <p class="text-white">Chan Voong</p>
+        <p class="text-white mb-0">Chan Voong</p>
         <p class="text-cyan">- Comcast</p>
+        <div class="d-flex">
+          <img class="mx-auto" src="/images/photos/person-placeholder.png" width="80%">
+        </div>
       </div>
       <div class="col-md-8">
-        <div class="row">
-          <div class="col-12 mb-4">
-            <p class="section-title h1 text-white">"InnerSource gets more eyes on the code. This allows our teams to find bugs more quickly and empowers them to <span class="text-cyan">share knowledge</span> and solve their own problems."</p>
-          </div>
+        <div class="col-12 mb-4 d-flex h-100">
+          <p class="section-title h1 text-white my-auto">"InnerSource gets more eyes on the code. This allows our teams to find bugs more quickly and empowers them to <span class="text-cyan">share knowledge</span> and solve their own problems."</p>
         </div>
       </div>
     </div>
@@ -217,14 +220,15 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <p class="text-white">Sally Deering</p>
+        <p class="text-white mb-0">Sally Deering</p>
         <p class="text-cyan">- Capital One</p>
+        <div class="d-flex">
+          <img class="mx-auto" src="/images/photos/person-placeholder.png" width="80%">
+        </div>
       </div>
       <div class="col-md-8">
-        <div class="row">
-          <div class="col-12 mb-4">
-            <p class="section-title h1 text-white">"The InnerSource Commons has given us so much when it comes to setting up <span class="text-cyan">great practices</span> for our communities. We'd love to collaborate more going forwards."</p>
-          </div>
+        <div class="col-12 mb-4 d-flex h-100">
+          <p class="section-title h1 text-white my-auto">"The InnerSource Commons has given us so much when it comes to setting up <span class="text-cyan">great practices</span> for our communities. We'd love to collaborate more going forwards."</p>
         </div>
       </div>
     </div>
@@ -266,15 +270,16 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <p class="text-white">Olivia Bouzek</p>
+        <p class="text-white mb-0">Olivia Bouzek</p>
         <p class="text-cyan">- IBM Alum</p>
+        <div class="d-flex">
+          <img class="mx-auto" src="/images/photos/person-placeholder.png" width="80%">
+        </div>
       </div>
       <div class="col-md-8">
-        <div class="row">
-          <div class="col-12 mb-4">
-            <p class="section-title h1 text-white">The InnerSource Commons has given us so much when it comes to setting up <span class="text-cyan">great practices</span>  for our communities. We'd love to collaborate more going forwards."</p>
-          </div> 
-        </div>
+        <div class="col-12 mb-4 d-flex h-100">
+          <p class="section-title h1 text-white my-auto">The InnerSource Commons has given us so much when it comes to setting up <span class="text-cyan">great practices</span>  for our communities. We'd love to collaborate more going forwards."</p>
+        </div> 
       </div>
     </div>
   </div>
@@ -313,25 +318,22 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <p class="text-white">Tracy Buckner</p>
+        <p class="text-white mb-0">Tracy Buckner</p>
         <p class="text-cyan">- Red Hat</p>
+        <div class="d-flex">
+          <img class="mx-auto" src="/images/photos/person-placeholder.png" width="80%">
+        </div>
       </div>
       <div class="col-md-8">
-        <div class="row">
-          <div class="col-12 mb-4">
-            <p class="section-title h1 text-white">What amazed me was that the information from InnerSource Commons was so <span class="text-cyan">tactical</span>. It wasn't just interesting to read; it was a <span class="text-cyan">solution</span> you could actually put to work.</p>
-          </div>
+        <div class="col-12 mb-4 d-flex h-100">
+          <p class="section-title h1 text-white my-auto">What amazed me was that the information from InnerSource Commons was so <span class="text-cyan">tactical</span>. It wasn't just interesting to read; it was a <span class="text-cyan">solution</span> you could actually put to work.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- TODO put case studies carousel here -->
-
-<section class="section bg-light" style="background: 
-    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
-    url('/images/photos/case-studies-bg.jpg'); background-size: cover; background-position: center; position: relative;">
+<section class="section bg-light case-studies-section">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -416,17 +418,22 @@ fetchYoutubeVideos: true
 
 <section class="section bg-dark-green">
   <div class="container">
-    <div class="row">
-      <div class="col-md-7">
-        <p class="section-title h1 text-white">InnerSource: a Gartner hype cycle trend</p>
-        <p class="text-white">Gartner</p>
-        <p class="text-cyan">- Software Engineering for 2023</p>
+    <div class="row px-4">
+      <div class="col-12">
+        <p class="section-title h1 text-white w-25">InnerSource: a Gartner hype cycle trend</p>
       </div>
-      <div class="col-md-5">
-        <div class="row">
-          <div class="col-12 mb-4">
-            <p class="section-title h4 text-white">“InnerSource gained mainstream recognition when it was first captured in Gartner's Hype Cycle and included in Top Strategic Technology Trends in Software Engineering for 2023.</p>
-            <p class="section-title h4 text-white">
+      <div class="col-md-4">
+        <p class="text-white mb-0">Gartner</p>
+        <p class="text-cyan">- Software Engineering for 2023</p>
+        <div class="d-flex">
+          <img class="mx-auto" src="/images/photos/person-placeholder.png" width="80%">
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="col-12 mb-4 d-flex h-100">
+          <div class="my-auto">
+            <p class="section-title h2 text-white font-weight-light">“InnerSource gained mainstream recognition when it was first captured in Gartner's Hype Cycle and included in Top Strategic Technology Trends in Software Engineering for 2023.</p>
+            <p class="section-title h2 text-white font-weight-light">
             This milestone demonstrates InnerSource's rising momentum and establishes its position as a <span class="text-cyan">key strategic technology</span> trend in the software engineering landscape.”</p>
           </div>
         </div>
@@ -452,27 +459,43 @@ fetchYoutubeVideos: true
   </div>
 </section>
 
-<img src="/images/photos/people.jpg" height="600px" width="100%" alt="">
+<img class="image-under-newsletter-box" src="/images/photos/people.jpg" height="600px" width="100%" alt="">
 
-<section class="section">
+<section class="section position-relative bg-light">
   <div class="container">
-    <div class="row">
+    <div class="row bg-cyan p-5 contact-section-rounded">
       <div class="col-md-3">
-        <p class="section-title h2">Join the InnerSource community</p>
+        <p class="section-title h1 text-white">Join the InnerSource community</p>
         <ul class="list-inline social-icons">
-          <li class="list-inline-item"><a href="http://github.com/InnerSourceCommons"><i class="ti-github"></i></a></li>
-          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube"></i></a></li>
-          <li class="list-inline-item"><a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt"></i></a></li>
-          <li class="list-inline-item"><a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin"></i></a></li>
+          <li class="list-inline-item bg-dark-green rounded-item homepage-social-icons-list-item">
+            <a href="http://github.com/InnerSourceCommons"><i class="ti-github text-white"></i></a>
+          </li>
+          <li class="list-inline-item bg-dark-green rounded-item homepage-social-icons-list-item">
+            <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube text-white"></i></a>
+          </li>
+          <li class="list-inline-item bg-dark-green rounded-item homepage-social-icons-list-item">
+            <a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt text-white"></i></a>
+          </li>
+          <li class="list-inline-item bg-dark-green rounded-item homepage-social-icons-list-item">
+            <a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin text-white"></i></a>
+          </li>
         </ul>
       </div>
-      <div class="col-md-9">
-        <p>Connect with expert practitioners on Slack and follow us for the latest news and events.</p>
-        <p>Get regular InnerSource updates and insights.Sign up to our newsletter.</p>
-        {{< contact-form-one-liner >}}
+      <div class="col-md-9 newsletter-box">
+        <p class="text-dark-green h2 font-weight-light">Connect with expert practitioners on Slack and follow us for the latest news and events.</p>
+        <div class="text-white bg-dark-green p-5 contact-section-rounded mt-5">
+          <p class="text-white h2">Get regular InnerSource updates and insights.</p>
+          <p class="text-white h2 font-weight-light">Sign up to our newsletter.</p>
+          {{< contact-form-one-liner >}}
+        </div>
       </div>
     </div>
   </div>
+</section>
+
+
+<!-- Empty section to make the colors match -->
+<section class="section bg-light">
 </section>
 
 <script src="/js/case-studies-carousel.js"></script>
