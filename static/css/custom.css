@@ -32,9 +32,16 @@
   background-image:url(/images/photos/homepage-top.png); 
   background-size: cover; 
   background-position: center; 
-  height:400px; 
+  height:100%;
+  min-height: 400px;
   position: relative;
+  padding-bottom: 10px;
 }
+
+/* .row{
+  margin-left: 0!important;
+  margin-right: 0!important;
+} */
 
 .contact-section-rounded {
   border-radius: 25px;
@@ -207,6 +214,13 @@
   background: #a0aec0;
 }
 
+@media (min-width: 768px) {
+  .newsletter-box-sm{
+    display: none!important;
+  }
+}
+
+
 @media (max-width: 768px) {
   .carousel-wrapper {
       padding: 40px 30px;
@@ -218,5 +232,8 @@
 
   .slide p {
       font-size: 1em;
+  }
+  .newsletter-box {
+    display: none!important;
   }
 }

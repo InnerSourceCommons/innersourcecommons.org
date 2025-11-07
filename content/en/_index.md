@@ -23,15 +23,14 @@ fetchYoutubeVideos: true
           <!-- {{< summit-event-card style="banner" >}} -->
 			</div>
       <div class="d-flex w-100">
-        <div class="mx-auto">
-          <a href="/slack" class="btn btn-primary btn-sm mr-2">Join our community</a>
+        <div class="mx-auto d-flex flex-column flex-md-row">
+          <a href="/slack" class="btn btn-primary btn-sm mr-2 mb-2 mb-md-0">Join our community</a>
           <a href="/slack" class="btn btn-white btn-sm">Learn about InnerSource</a>
         </div>
       </div>
 		</div>
 	</div>
 </section>
-
 
 <section class="section bg-light">
   <div class="container">
@@ -55,28 +54,27 @@ fetchYoutubeVideos: true
   </div>
 </section>
 
-
-<section class="section bg-light">
+<section class="section bg-light pt-0">
   <div class="container">
-    <div class="mt-4">
+    <div class="pt-4">
           <p class="section-title h1 text-center">Global leaders collaborate with InnerSource</p>
           <div class="row justify-content-center">
-            <div class="col-2 d-flex">
+            <div class="col-md-2 col-3 d-flex">
               <img class="mw-100 my-auto" src="/images/logos/db.png" alt="">
             </div>
-            <div class="col-2 d-flex">
+            <div class="col-md-2 col-3 d-flex">
               <img class="mw-100 my-auto" src="/images/logos/gartner.png" alt="">
             </div>
-            <div class="col-2 d-flex">
+            <div class="col-md-2 col-3 d-flex">
               <img class="mw-100 my-auto" src="/images/logos/Red Hat.png" alt="">
             </div>
-            <div class="col-2 d-flex">
+            <div class="col-md-2 col-3 d-flex">
               <img class="mw-100 my-auto" src="/images/logos/paypal.png" alt="">
             </div>
-            <div class="col-2 d-flex">
+            <div class="col-md-2 col-3 d-flex">
               <img class="mw-100 my-auto" src="/images/logos/microsoft.png" alt="">
             </div>
-            <div class="col-2 d-flex">
+            <div class="col-md-2 col-3 d-flex">
               <img class="mw-100 my-auto" src="/images/logos/capitalone.png" alt="">
             </div>
           </div>
@@ -106,30 +104,30 @@ fetchYoutubeVideos: true
   </div>
 </section>
 
-<img src="/images/photos/people-on-staircase.png" height="600px" width="100%"  alt="">
+<img src="/images/photos/people-on-staircase.png" width="100%"  alt="">
 
 <section class="section bg-darker-green">
   <div class="container">
-    <div class="row">
-      <div class="col-2 mx-auto">
-        <p class="section-title display-4 text-cyan mb-0 font-weight-bold">4000+</p>
-        <p class="section-title h1 text-white">Members</p>
+    <div class="row d-flex">
+      <div class="col-lg-2 col-md-3 col-6 mx-auto">
+        <p class="section-title display-4 text-cyan mb-0 font-weight-bold text-center">4000+</p>
+        <p class="section-title h1 text-white text-center">Members</p>
       </div>
-      <div class="col-2 mx-auto">
-        <p class="section-title display-4 text-cyan mb-0 font-weight-bold">300+</p>
-        <p class="section-title h1 text-white">Community videos</p>
+      <div class="col-lg-2 col-md-3 col-6 mx-auto">
+        <p class="section-title display-4 text-cyan mb-0 font-weight-bold text-center">300+</p>
+        <p class="section-title h1 text-white text-center">Community videos</p>
       </div>
-      <div class="col-2 mx-auto">
-        <p class="section-title display-4 text-cyan mb-0 font-weight-bold">48</p>
-        <p class="section-title h1 text-white">Patterns</p>
+      <div class="col-lg-2 col-md-3 col-6 mx-auto">
+        <p class="section-title display-4 text-cyan mb-0 font-weight-bold text-center">48</p>
+        <p class="section-title h1 text-white text-center">Patterns</p>
       </div>
-      <div class="col-2 mx-auto">
-        <p class="section-title h1 text-white mb-0">Founded in</p>
-        <p class="section-title display-4 text-cyan font-weight-bold">2015</p>
+      <div class="col-lg-2 col-md-3 col-6 mx-auto">
+        <p class="section-title h1 text-white mb-0 text-center">Founded in</p>
+        <p class="section-title display-4 text-cyan font-weight-bold text-center">2015</p>
       </div>
-      <div class="col-2 mx-auto">
-        <p class="section-title display-4 text-cyan mb-0 font-weight-bold">1000+</p>
-        <p class="section-title h1 text-white">Companies</p>
+      <div class="col-lg-2 col-md-3 col-6 mx-auto">
+        <p class="section-title display-4 text-cyan mb-0 font-weight-bold text-center">1000+</p>
+        <p class="section-title h1 text-white text-center">Companies</p>
       </div>
     </div>
   </div>
@@ -164,7 +162,7 @@ fetchYoutubeVideos: true
       </div>
     </div>
   </div>
-</section>
+</section> 
 
 <section class="section bg-dark-green">
   <div class="container">
@@ -183,9 +181,9 @@ fetchYoutubeVideos: true
       </div>
     </div>
   </div>
-</section>
+</section> 
 
-<img src="/images/photos/classroom.png" height="600px" width="100%" alt="">
+<img src="/images/photos/classroom.png" width="100%" alt="">
 
 <section class="section bg-light">
   <div class="container">
@@ -264,7 +262,7 @@ fetchYoutubeVideos: true
   </div>
 </section>
 
-<img src="/images/photos/presentation.png" height="600px" width="100%" alt="">
+<img src="/images/photos/presentation.png" width="100%" alt="">
 
 <section class="section bg-dark-green">
   <div class="container">
@@ -283,7 +281,7 @@ fetchYoutubeVideos: true
       </div>
     </div>
   </div>
-</section>
+</section> 
 
 <section class="section bg-light">
   <div class="container">
@@ -331,7 +329,7 @@ fetchYoutubeVideos: true
       </div>
     </div>
   </div>
-</section>
+</section> 
 
 <section class="section bg-light case-studies-section">
   <div class="container">
@@ -340,7 +338,7 @@ fetchYoutubeVideos: true
         <p class="section-title text-uppercase text-center">Case studies</p>
         <p class="section-title h1 text-center text-dark-green">InnerSource enables industry leaders to  <span class="text-cyan">collaborate at scale</span></p>
       </div>
-      <div class="col-7 mx-auto">
+      <div class="col-11 col-md-8 mx-auto">
          <div class="carousel-container bg-light-cyan">
             <div class="carousel-wrapper">
                 <div class="carousel-slides" id="slides">
@@ -420,7 +418,7 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row px-4">
       <div class="col-12">
-        <p class="section-title h1 text-white w-25">InnerSource: a Gartner hype cycle trend</p>
+        <p class="section-title h1 text-white w-2">InnerSource: a Gartner hype cycle trend</p>
       </div>
       <div class="col-md-4">
         <p class="text-white mb-0">Gartner</p>
@@ -445,11 +443,11 @@ fetchYoutubeVideos: true
 <section class="section bg-cyan">
   <div class="container">
     <div class="row">
-      <div class="col-10">
+      <div class="col-md-10">
         <p class="text-uppercase text-dark-green">Videos</p>
         <p class="h1 section-title text-white">Learn about InnerSource for your organization with free expert advice</p>
       </div>
-      <div class="col-2 d-flex">
+      <div class="col-md-2 d-flex">
         {{< more-videos-button >}}
       </div>
       <div class="col-md-12">
@@ -459,7 +457,7 @@ fetchYoutubeVideos: true
   </div>
 </section>
 
-<img class="image-under-newsletter-box" src="/images/photos/people.jpg" height="600px" width="100%" alt="">
+<img class="image-under-newsletter-box" src="/images/photos/people.jpg" width="100%" alt="">
 
 <section class="section position-relative bg-light">
   <div class="container">
@@ -488,6 +486,13 @@ fetchYoutubeVideos: true
           <p class="text-white h2 font-weight-light">Sign up to our newsletter.</p>
           {{< contact-form-one-liner >}}
         </div>
+      </div>
+    </div>
+    <div class="row newsletter-box-sm">
+      <div class="text-white bg-dark-green p-5 contact-section-rounded">
+        <p class="text-white h2">Get regular InnerSource updates and insights.</p>
+        <p class="text-white h2 font-weight-light">Sign up to our newsletter.</p>
+        {{< contact-form-one-liner >}}
       </div>
     </div>
   </div>
