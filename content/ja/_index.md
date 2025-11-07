@@ -7,25 +7,20 @@ fetchYoutubeVideos: true
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-8 col-md-6 col-sm-6" style="margin-top: 40px;">
-				<h1 style="font-size: 40px; color: white; text-align: left; margin: 0px">Build a more collaborative engineering team based on open-source principles</h1>
-        <p class="text-white">We are The InnerSource Commons.Our community develop the practices and frameworks for InnerSource — the  methodology that technology leaders use to build better software, faster.</p>
+				<h1 style="font-size: 40px; color: white; text-align: left; margin: 0px">オープンソースの原則に基づいた、より協調的なエンジニアリングチームを構築しましょう</h1>
+        <p class="text-white">私たちは InnerSource Commons です。私たちのコミュニティは、テクノロジーリーダーがより良いソフトウェアをより速く構築するための手法「InnerSource」の実践とフレームワークを開発しています。</p>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6" style="margin-top: 40px;">
         <ul class="text-white homepage-list">
-          <li>Break down silos</li>
-          <li>Increase code reuse</li>
-          <li>Empower your engineers</li>
+          <li>サイロを解消する</li>
+          <li>コードの再利用を促進する</li>
+          <li>エンジニアを主体的にする</li>
         </ul>
-          <!-- 
-            DO NOT REMOVE THIS LINE; This is temporarily disabled for summit
-				    {{ < upcoming-event-card style="banner" > }}
-          -->
-          <!-- {{< summit-event-card style="banner" >}} -->
 			</div>
       <div class="d-flex w-100">
         <div class="mx-auto d-flex flex-column flex-md-row">
-          <a href="/slack" class="btn btn-primary btn-sm mr-2 mb-2 mb-md-0">Join our community</a>
-          <a href="/slack" class="btn btn-white btn-sm">Learn about InnerSource</a>
+          <a href="/slack" class="btn btn-primary btn-sm mr-2 mb-2 mb-md-0">コミュニティに参加する</a>
+          <a href="/slack" class="btn btn-white btn-sm">InnerSourceについて学ぶ</a>
         </div>
       </div>
 		</div>
@@ -36,11 +31,10 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
       <div class="col-md-7 bg-primary summit-box">
-        <p class="section-title h1 text-white">Innersource Summit 2025</p>
-        <p class="text-white text-center">Join the InnerSource Summit 2025 — the leading event for open collaboration and innovation.
-        </p>
+        <p class="section-title h1 text-white">InnerSource サミット 2025</p>
+        <p class="text-white text-center">オープンなコラボレーションとイノベーションのための主要イベント「InnerSource サミット 2025」に参加しましょう。</p>
         <div class="d-flex">
-          <a href="/slack" class="btn btn-dark-green btn-sm mr-2 mx-auto">Get your ticket now</a>
+          <a href="/slack" class="btn btn-dark-green btn-sm mr-2 mx-auto">今すぐチケットを入手</a>
         </div>
       </div>
       <div class="col-md-5">
@@ -57,7 +51,7 @@ fetchYoutubeVideos: true
 <section class="section bg-light pt-0">
   <div class="container">
     <div class="pt-4">
-          <p class="section-title h1 text-center">Global leaders collaborate with InnerSource</p>
+          <p class="section-title h1 text-center">世界のリーダーが InnerSource と共に協働</p>
           <div class="row justify-content-center">
             <div class="col-md-2 col-3 d-flex">
               <img class="mw-100 my-auto" src="/images/logos/db.png" alt="">
@@ -87,7 +81,7 @@ fetchYoutubeVideos: true
     <div class="row">
       <div class="col-md-4">
         <p class="text-white mb-0">Bosch</p>
-        <p class="text-cyan">- The Rise of InnerSource</p>
+        <p class="text-cyan">- InnerSourceの台頭</p>
         <div class="d-flex">
           <img class="mx-auto" src="/images/photos/person-placeholder.png" width="80%">
         </div>
@@ -95,8 +89,8 @@ fetchYoutubeVideos: true
       <div class="col-md-8">
         <div class="col-12 mb-4 d-flex h-100">
          <div class="my-auto">
-           <p class="section-title h1"><span class="text-cyan">"InnerSource fosters cross-divisional collaboration and learning,</span> <span class="text-white">boosts innovation</span> <span class="text-cyan"> and </span><span class="text-white">accelerates development.</span> </p>
-            <p class="section-title h1 text-white">We have seen community developed solutions emerging as standards and replacing double developments."</p>
+           <p class="section-title h1"><span class="text-cyan">InnerSourceは部門を超えたコラボレーションと学習を促進し、</span> <span class="text-white">イノベーションを加速</span><span class="text-cyan">させ、</span><span class="text-white">開発スピードを高めます。</span></p>
+            <p class="section-title h1 text-white">私たちは、コミュニティによって開発されたソリューションが標準となり、重複開発を置き換えるのを目の当たりにしています。</p>
          </div>
         </div>
       </div>
@@ -111,23 +105,23 @@ fetchYoutubeVideos: true
     <div class="row d-flex">
       <div class="col-lg-2 col-md-3 col-6 mx-auto">
         <p class="section-title display-4 text-cyan mb-0 font-weight-bold text-center">4000+</p>
-        <p class="section-title h1 text-white text-center">Members</p>
+        <p class="section-title h1 text-white text-center">メンバー</p>
       </div>
       <div class="col-lg-2 col-md-3 col-6 mx-auto">
         <p class="section-title display-4 text-cyan mb-0 font-weight-bold text-center">300+</p>
-        <p class="section-title h1 text-white text-center">Community videos</p>
+        <p class="section-title h1 text-white text-center">コミュニティ動画</p>
       </div>
       <div class="col-lg-2 col-md-3 col-6 mx-auto">
         <p class="section-title display-4 text-cyan mb-0 font-weight-bold text-center">48</p>
-        <p class="section-title h1 text-white text-center">Patterns</p>
+        <p class="section-title h1 text-white text-center">パターン</p>
       </div>
       <div class="col-lg-2 col-md-3 col-6 mx-auto">
-        <p class="section-title h1 text-white mb-0 text-center">Founded in</p>
+        <p class="section-title h1 text-white mb-0 text-center">設立年</p>
         <p class="section-title display-4 text-cyan font-weight-bold text-center">2015</p>
       </div>
       <div class="col-lg-2 col-md-3 col-6 mx-auto">
         <p class="section-title display-4 text-cyan mb-0 font-weight-bold text-center">1000+</p>
-        <p class="section-title h1 text-white text-center">Companies</p>
+        <p class="section-title h1 text-white text-center">企業</p>
       </div>
     </div>
   </div>
@@ -137,26 +131,24 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <p class="section-title text-uppercase">Discover InnerSource</p>
-        <p class="section-title h1 text-dark-green"><span class="text-cyan">InnerSource</span> is a series of frameworks and principles that help developers to <span class="text-cyan">share resources</span></p>
+        <p class="section-title text-uppercase">InnerSourceを発見する</p>
+        <p class="section-title h1 text-dark-green"><span class="text-cyan">InnerSource</span> は、開発者が <span class="text-cyan">リソースを共有</span> するのを助けるための一連のフレームワークと原則です。</p>
       </div>
       <div class="col-md-7">
-        <p class="font-weight-bold text-dark-green">InnerSource applies proven open source principles to improve collaboration across your company.
-        </p>
-        <p class="text-dark-green">Now you can break down the silos and dependencies that slow down development, waste resources and frustrate your best engineers.
-        </p>
+        <p class="font-weight-bold text-dark-green">InnerSourceは、実績のあるオープンソースの原則を社内協業に応用し、チーム間のコラボレーションを改善します。</p>
+        <p class="text-dark-green">これにより、開発を遅らせるサイロや依存関係を解消し、リソースの浪費や優秀なエンジニアのフラストレーションを防ぐことができます。</p>
       </div>
       <div class="col-md-5">
         <div class="row">
           <div class="col-12 mb-4 ml-4">
             <ul class="homepage-list mb-5 text-dark-green pl-0">
-              <li class="">Faster software development</li>
+              <li class="">より速いソフトウェア開発</li>
               <hr>
-              <li class="">Fewer organisational bottlenecks</li>
+              <li class="">組織的なボトルネックの削減</li>
               <hr>
-              <li class="">Happier, more engaged engineers</li>
+              <li class="">より幸せで、より積極的なエンジニア</li>
             </ul>
-            <a href="/slack" class="btn btn-dark-green btn-sm">Learn about InnerSource</a>
+            <a href="/slack" class="btn btn-dark-green btn-sm">InnerSourceについて学ぶ</a>
           </div>
         </div>
       </div>
@@ -176,7 +168,7 @@ fetchYoutubeVideos: true
       </div>
       <div class="col-md-8">
         <div class="col-12 mb-4 d-flex h-100">
-          <p class="section-title h1 text-white my-auto">"InnerSource gets more eyes on the code. This allows our teams to find bugs more quickly and empowers them to <span class="text-cyan">share knowledge</span> and solve their own problems."</p>
+          <p class="section-title h1 text-white my-auto">"InnerSource により、より多くの人がコードを確認できるようになります。これにより、チームはバグを素早く見つけ、<span class="text-cyan">知識を共有</span> し、自ら問題を解決できるようになります。"</p>
         </div>
       </div>
     </div>
@@ -189,24 +181,24 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
        <div class="col-12">
-        <p class="section-title text-uppercase">InnerSource for leaders</p>
-        <p class="section-title h1 text-dark-green"><span class="text-cyan">Leaders</span> use InnerSource to collaborate at scale and create a <span class="text-cyan">happier</span>, more <span class="text-cyan">productive workplace</span></p>
+        <p class="section-title text-uppercase">リーダーのための InnerSource</p>
+        <p class="section-title h1 text-dark-green"><span class="text-cyan">リーダー</span> は InnerSource を活用して大規模に協働し、より <span class="text-cyan">幸せで</span>、より <span class="text-cyan">生産的な職場</span> を作り出します。</p>
       </div>
       <div class="col-md-7">
-        <p class="font-weight-bold text-dark-green">InnerSource enables leaders to maximise their engineering ROI.</p>
-        <p class="text-dark-green">You can eliminate duplicated work, break down knowledge silos and create a more efficient, transparent and scalable development culture that directly improves your business.</p>
+        <p class="font-weight-bold text-dark-green">InnerSource はリーダーがエンジニアリング投資のROIを最大化するのを支援します。</p>
+        <p class="text-dark-green">重複作業を排除し、知識のサイロをなくし、効率的で透明性が高くスケーラブルな開発文化を作り出すことで、ビジネスに直接的な改善をもたらします。</p>
       </div>
       <div class="col-md-5">
         <div class="row">
           <div class="col-12 mb-4 ml-4">
             <ul class="homepage-list mb-5 text-dark-green pl-0">
-              <li  class="font-weight-bold">Reduced silos and bottlenecks</li>
+              <li  class="font-weight-bold">サイロとボトルネックの削減</li>
               <hr>
-              <li class="font-weight-bold">Improved developer experience</li>
+              <li class="font-weight-bold">開発者体験の向上</li>
               <hr>
-              <li class="font-weight-bold">Increased employee retention</li>
+              <li class="font-weight-bold">従業員定着率の向上</li>
             </ul>
-            <a href="/slack" class="btn btn-dark-green btn-sm">Explore InnerSource for Leaders</a>
+            <a href="/slack" class="btn btn-dark-green btn-sm">リーダー向け InnerSource を探る</a>
           </div>
         </div>
       </div>
@@ -226,7 +218,7 @@ fetchYoutubeVideos: true
       </div>
       <div class="col-md-8">
         <div class="col-12 mb-4 d-flex h-100">
-          <p class="section-title h1 text-white my-auto">"The InnerSource Commons has given us so much when it comes to setting up <span class="text-cyan">great practices</span> for our communities. We'd love to collaborate more going forwards."</p>
+          <p class="section-title h1 text-white my-auto">"InnerSource Commons は、私たちのコミュニティのための <span class="text-cyan">優れた実践</span> を確立するうえで大きな助けとなりました。今後もさらに協働していきたいと思います。"</p>
         </div>
       </div>
     </div>
@@ -237,24 +229,24 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <p class="section-title text-uppercase">Innersource for practitioners</p>
-        <p class="section-title h1 text-dark-green"><span class="text-cyan">Practitioners</span> can contribute to InnerSource and <span class="text-cyan">shape the future</span> of collaboration</p>
+        <p class="section-title text-uppercase">実務者のための InnerSource</p>
+        <p class="section-title h1 text-dark-green"><span class="text-cyan">実務者</span> は InnerSource に貢献し、コラボレーションの <span class="text-cyan">未来を形作る</span> ことができます。</p>
       </div>
       <div class="col-md-7">
-        <p class="font-weight-bold text-dark-green">The InnerSource Commons  is the professional community for InnerSource leaders.</p>
-        <p class="text-dark-green">We provide a space to connect with fellow practitioners, grow your network and contribute to the practices that advance our industry.</p>
+        <p class="font-weight-bold text-dark-green">InnerSource Commons は InnerSource リーダーのための専門的なコミュニティです。</p>
+        <p class="text-dark-green">同じ志を持つ実務者とつながり、ネットワークを広げ、業界を前進させる実践に貢献できる場を提供します。</p>
       </div>
       <div class="col-md-5">
         <div class="row">
           <div class="col-12 mb-4 ml-4">
             <ul class="homepage-list mb-5 text-dark-green pl-0">
-              <li class="font-weight-bold">Community groups and events</li>
+              <li class="font-weight-bold">コミュニティグループとイベント</li>
               <hr>
-              <li class="font-weight-bold">Networking with fellow practitioners</li>
+              <li class="font-weight-bold">他の実務者とのネットワーキング</li>
               <hr>
-              <li class="font-weight-bold">Contribution to the knowledge base</li>
+              <li class="font-weight-bold">ナレッジベースへの貢献</li>
             </ul>
-            <a href="/slack" class="btn btn-dark-green  btn-sm">Explore InnerSource for Practitioners</a>
+            <a href="/slack" class="btn btn-dark-green  btn-sm">実務者向け InnerSource を探る</a>
           </div>
         </div>
       </div>
@@ -276,7 +268,7 @@ fetchYoutubeVideos: true
       </div>
       <div class="col-md-8">
         <div class="col-12 mb-4 d-flex h-100">
-          <p class="section-title h1 text-white my-auto">The InnerSource Commons has given us so much when it comes to setting up <span class="text-cyan">great practices</span>  for our communities. We'd love to collaborate more going forwards."</p>
+          <p class="section-title h1 text-white my-auto">"InnerSource Commons は、コミュニティのための <span class="text-cyan">優れた実践</span> を確立する際に非常に多くの助けを与えてくれました。今後もさらに協働していきたいと思います。"</p>
         </div> 
       </div>
     </div>
@@ -287,24 +279,24 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <p class="section-title text-uppercase">Research & Insights</p>
-        <p class="section-title h1 text-dark-green"><span class="text-cyan">Researchers</span> can access the latest reports to track <span class="text-cyan">InnerSource adoption</span></p>
+        <p class="section-title text-uppercase">リサーチとインサイト</p>
+        <p class="section-title h1 text-dark-green"><span class="text-cyan">研究者</span> は最新レポートにアクセスし、<span class="text-cyan">InnerSource の採用状況</span> を追跡できます。</p>
       </div>
       <div class="col-md-7">
-        <p class="text-dark-green font-weight-bold text-dark-green">The InnerSource Commons is the definitive source for data and trends on InnerSource adoption.</p>
-        <p class="text-dark-green">We create in-depth case studies and publish the industry's benchmark annual report — 'State of InnerSource'..</p>
+        <p class="text-dark-green font-weight-bold text-dark-green">InnerSource Commons は InnerSource 採用に関するデータとトレンドの決定的な情報源です。</p>
+        <p class="text-dark-green">私たちは詳細なケーススタディを作成し、業界のベンチマーク年次レポート「State of InnerSource」を発行しています。</p>
       </div>
       <div class="col-md-5">
         <div class="row">
           <div class="col-12 mb-4 ml-4">
             <ul class="homepage-list mb-5 text-dark-green pl-0">
-              <li class="font-weight-bold">'State of InnerSource' annual report</li>
+              <li class="font-weight-bold">『State of InnerSource』年次レポート</li>
               <hr>
-              <li class="font-weight-bold">Case studies with global brands</li>
+              <li class="font-weight-bold">グローバルブランドのケーススタディ</li>
               <hr>
-              <li class="font-weight-bold">Best practices and strategies</li>
+              <li class="font-weight-bold">ベストプラクティスと戦略</li>
             </ul>
-            <a href="/slack" class="btn btn-dark-green  btn-sm">Explore Research & Insights</a>
+            <a href="/slack" class="btn btn-dark-green  btn-sm">リサーチとインサイトを探る</a>
           </div>
         </div>
       </div>
@@ -316,7 +308,7 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <p class="text-white mb-0">Tracy Buckner</p>
+        <p class="text-white mb-0">Stephen Jacobs</p>
         <p class="text-cyan">- Red Hat</p>
         <div class="d-flex">
           <img class="mx-auto" src="/images/photos/person-placeholder.png" width="80%">
@@ -324,12 +316,14 @@ fetchYoutubeVideos: true
       </div>
       <div class="col-md-8">
         <div class="col-12 mb-4 d-flex h-100">
-          <p class="section-title h1 text-white my-auto">What amazed me was that the information from InnerSource Commons was so <span class="text-cyan">tactical</span>. It wasn't just interesting to read; it was a <span class="text-cyan">solution</span> you could actually put to work.</p>
+          <p class="section-title h1 text-white my-auto">"InnerSource は、オープンソースと企業文化の橋渡しをする強力な方法です。<span class="text-cyan">協働、共有、信頼</span> を高めるための基盤となります。"</p>
         </div>
       </div>
     </div>
   </div>
 </section> 
+
+<img src="/images/photos/team-collaboration.png" width="100%" alt="">
 
 <section class="section bg-light case-studies-section">
   <div class="container">
@@ -342,46 +336,46 @@ fetchYoutubeVideos: true
          <div class="carousel-container bg-light-cyan">
             <div class="carousel-wrapper">
                 <div class="carousel-slides" id="slides">
-                    <div class="slide active">
-                      <h2>PayPal <span class="text-cyan">cut engineering interrupts from 65% to 5%</span></h2>
-                      <p class="">PayPal's CheckOut team used InnerSource to reduce time spent on disruptive escalations from 65% of their sprint down to under 5%. This dramatic drop in interruptions allowed them to complete their planned work and eliminate a major source of frustration for engineering management.</p>
-                    </div>
-                    <div class="slide">
-                      <h2>Bosch<span class="text-cyan"> scaled its InnerSource community to 34,000 developers</span></h2>
-                      <p class="">At Bosch, the InnerSource community scaled to over 34,000 members across 150 business units. This massive internal adoption resulted in the creation of 12,000 shared code repositories and over one million individual code contributions, demonstrating profound organizational growth.</p>
-                    </div>
-                    <div class="slide">
-                      <h2>Microsoft<span class="text-cyan"> made InnerSource a mandate for every engineer</span></h2>
-                      <p class="">Microsoft leadership mandated that every engineer should practice InnerSource, establishing a new company-wide expectation for internal collaboration. Success was defined by clear metrics, with healthy projects achieving 15-35% of their pull requests from external contributing teams.</p>
-                    </div>
-                    <div class="slide">
-                      <h2>Deloitte<span class="text-cyan"> client proved massive ROI through code reuse</span></h2>
-                      <p class="">A Deloitte client demonstrated significant cost avoidance by tracking the reuse of a single shared library across more than 400 different applications. This allowed them to calculate the direct financial ROI of InnerSource by quantifying the massive reduction in duplicated development effort.</p>
-                    </div>
-                    <div class="slide">
-                      <h2>Capital One<span class="text-cyan"> ships faster and lowers developer costs</span></h2>
-                      <p class="">By embracing InnerSource, teams at Capital One are now delivering products in fewer sprints. Tapping into shared contributor expertise and prioritizing code reuse over reinvention has directly led to lower overall developer costs and increased resource efficiency across the organization.</p>
-                    </div>
-                    <div class="slide">
-                      <h2>Deutsche Bahn<span class="text-cyan"> united 500 legal entities with a single license</span></h2>
-                      <p class="">Deutsche Bahn used an InnerSource license to sweep away the legal impediments that prevented code sharing across its 500 separate legal entities. This governance breakthrough was the critical step that unlocked seamless collaboration throughout the entire global group.</p>
-                    </div>
-                    <div class="slide">
-                      <h2>IBM<span class="text-cyan"> earned a major partner endorsement with InnerSource</span></h2>
-                      <p class="">IBM consolidated fragmented investments into a common Watson NLP stack using InnerSource principles. The move was so successful that key partner SAP decided to go "all in" with the technology, providing powerful external validation of IBM's architecture and strategy.</p>
-                    </div>
-                    <div class="slide">
-                      <h2>Gartner<span class="text-cyan"> finds executive sponsorship lifts program success by 73%</span></h2>
-                      <p class="">According to Gartner research, InnerSource initiatives with active executive sponsorship are 73% more likely to succeed and achieve a positive return on investment. This data proves that engaged leadership is the single most important factor for program success.</p>
-                    </div>
-                    <div class="slide">
-                      <h2>Red Hat<span class="text-cyan"> engineers call ISC's resources 'tactical and actionable'</span></h2>
-                      <p class="">Red Hat engineers were "amazed" by the quality of the InnerSource Commons' resources, calling them tactical and immediately useful. The ISC's Patterns and Learning Path provided a clear, actionable solution that their teams could put to work right away.</p>
-                    </div>
-                    <div class="slide">
-                      <h2>The BBC<span class="text-cyan"> paved the way for open source</span></h2>
-                      <p class="">At the BBC, adopting InnerSource created a natural pathway for open-sourcing key components to the public. Because the internal documentation, contribution processes, and culture of transparency were already established, the move to external open source was a low-friction next step.</p>
-                    </div>
+                  <div class="slide active">
+                    <h2>PayPal <span class="text-cyan">はエンジニアリングの中断を65%から5%に削減</span></h2>
+                    <p class="">PayPalのCheckOutチームはInnerSourceを活用して、緊急の対応に費やす時間をスプリントの65%から5%未満に削減しました。この劇的な中断の減少により、計画された作業を完了し、エンジニアリング管理における主要な不満の原因を解消することができました。</p>
+                  </div>
+                  <div class="slide">
+                    <h2>Bosch <span class="text-cyan">はInnerSourceコミュニティを34,000人の開発者に拡大</span></h2>
+                    <p class="">Boschでは、InnerSourceコミュニティが150の事業部門で34,000人以上のメンバーに拡大しました。この大規模な社内導入により、12,000の共有コードリポジトリと100万以上の個別コード貢献が生まれ、大きな組織的成長を実現しました。</p>
+                  </div>
+                  <div class="slide">
+                    <h2>Microsoft <span class="text-cyan">はすべてのエンジニアにInnerSourceを義務付け</span></h2>
+                    <p class="">Microsoftのリーダーシップは、すべてのエンジニアがInnerSourceを実践すべきと義務付け、社内コラボレーションに関する新しい全社的な期待を確立しました。健全なプロジェクトでは、プルリクエストの15-35%が外部チームからの貢献であることを成功の指標としました。</p>
+                  </div>
+                  <div class="slide">
+                    <h2>Deloitte<span class="text-cyan">の顧客がコード再利用で大きなROIを実証</span></h2>
+                    <p class="">Deloitteの顧客は、単一の共有ライブラリが400以上の異なるアプリケーションで再利用されていることを追跡することで、大幅なコスト削減を実証しました。これにより、重複した開発作業の大幅な削減を数値化し、InnerSourceの直接的な財務ROIを算出することができました。</p>
+                  </div>
+                  <div class="slide">
+                    <h2>Capital One <span class="text-cyan">はより速いリリースと開発コストの削減を実現</span></h2>
+                    <p class="">InnerSourceを採用することで、Capital Oneのチームは少ないスプリントで製品を提供できるようになりました。共有された貢献者の専門知識を活用し、再発明よりもコードの再利用を優先することで、全体的な開発コストの削減と組織全体のリソース効率の向上に直接つながりました。</p>
+                  </div>
+                  <div class="slide">
+                    <h2>Deutsche Bahn <span class="text-cyan">は単一ライセンスで500の法人を統合</span></h2>
+                    <p class="">Deutsche Bahnは、InnerSourceライセンスを使用して、500の別個の法人間でのコード共有を妨げていた法的障壁を排除しました。このガバナンスの突破口は、グローバルグループ全体でシームレスなコラボレーションを実現する重要なステップとなりました。</p>
+                  </div>
+                  <div class="slide">
+                    <h2>IBM <span class="text-cyan">はInnerSourceで主要パートナーの承認を獲得</span></h2>
+                    <p class="">IBMはInnerSourceの原則を使用して、分散投資を共通のWatson NLPスタックに統合しました。この取り組みは非常に成功し、主要パートナーのSAPがこの技術に「全面的に」参加することを決定し、IBMのアーキテクチャと戦略の強力な外部検証となりました。</p>
+                  </div>
+                  <div class="slide">
+                    <h2>Gartner <span class="text-cyan">はエグゼクティブ支援によりプログラムの成功率が73%向上すると発見</span></h2>
+                    <p class="">Gartnerの調査によると、積極的なエグゼクティブ支援を受けているInnerSourceイニシアチブは、成功し、投資収益率でプラスの結果を達成する可能性が73%高くなります。このデータは、参画するリーダーシップがプログラムの成功にとって最も重要な要因であることを証明しています。</p>
+                  </div>
+                  <div class="slide">
+                    <h2>Red Hat <span class="text-cyan">のエンジニアがISCのリソースを「実践的で実用的」と評価</span></h2>
+                    <p class="">Red Hatのエンジニアは、InnerSource Commonsのリソースの質の高さに「驚嘆」し、実践的で即座に利用可能だと評価しました。ISCのパターンとラーニングパスは、チームがすぐに活用できる明確で実用的なソリューションを提供しました。</p>
+                  </div>
+                  <div class="slide">
+                    <h2>BBC <span class="text-cyan">はオープンソースへの道を切り開く</span></h2>
+                    <p class="">BBCでは、InnerSourceの採用により、主要コンポーネントを一般に公開するための自然な道筋が作られました。内部ドキュメント、貢献プロセス、透明性の文化が既に確立されていたため、外部オープンソースへの移行は摩擦の少ないステップとなりました。</p>
+                  </div>
                 </div>
                 <div class="carousel-controls">
                     <button class="arrow arrow-left" onclick="previousSlide()">
@@ -418,21 +412,21 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row px-4">
       <div class="col-12">
-        <p class="section-title h1 text-white w-2">InnerSource: a Gartner hype cycle trend</p>
-      </div>
-      <div class="col-md-4">
+        <p class="section-title h1 text-white w-2">InnerSource: Gartnerのハイプサイクルトレンド</p>
+            </div>
+            <div class="col-md-4">
         <p class="text-white mb-0">Gartner</p>
-        <p class="text-cyan">- Software Engineering for 2023</p>
+        <p class="text-cyan">- 2023年のソフトウェアエンジニアリング</p>
         <div class="d-flex">
           <img class="mx-auto" src="/images/photos/person-placeholder.png" width="80%">
         </div>
-      </div>
-      <div class="col-md-8">
+            </div>
+            <div class="col-md-8">
         <div class="col-12 mb-4 d-flex h-100">
           <div class="my-auto">
-            <p class="section-title h2 text-white font-weight-light">“InnerSource gained mainstream recognition when it was first captured in Gartner's Hype Cycle and included in Top Strategic Technology Trends in Software Engineering for 2023.</p>
+            <p class="section-title h2 text-white font-weight-light">“InnerSourceは、Gartnerのハイプサイクルに初めて取り上げられ、2023年のソフトウェアエンジニアリングにおける主要な戦略技術トレンドに含まれたことで、主流の認知を得ました。</p>
             <p class="section-title h2 text-white font-weight-light">
-            This milestone demonstrates InnerSource's rising momentum and establishes its position as a <span class="text-cyan">key strategic technology</span> trend in the software engineering landscape.”</p>
+            このマイルストーンは、InnerSourceの勢いの高まりを示し、ソフトウェアエンジニアリングの分野における<span class="text-cyan">重要な戦略技術</span>トレンドとしての地位を確立します。”</p>
           </div>
         </div>
       </div>
@@ -444,8 +438,8 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
       <div class="col-md-10">
-        <p class="text-uppercase text-dark-green">Videos</p>
-        <p class="h1 section-title text-white">Learn about InnerSource for your organization with free expert advice</p>
+        <p class="text-uppercase text-dark-green">ビデオ</p>
+        <p class="h1 section-title text-white">無料の専門家のアドバイスで、あなたの組織のためのInnerSourceについて学びましょう</p>    
       </div>
       <div class="col-md-2 d-flex">
         {{< more-videos-button >}}
@@ -463,35 +457,34 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row bg-cyan p-5 contact-section-rounded">
       <div class="col-md-3">
-        <p class="section-title h1 text-white">Join the InnerSource community</p>
-        <ul class="list-inline social-icons">
-          <li class="list-inline-item bg-dark-green rounded-item homepage-social-icons-list-item">
-            <a href="http://github.com/InnerSourceCommons"><i class="ti-github text-white"></i></a>
-          </li>
-          <li class="list-inline-item bg-dark-green rounded-item homepage-social-icons-list-item">
-            <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube text-white"></i></a>
-          </li>
-          <li class="list-inline-item bg-dark-green rounded-item homepage-social-icons-list-item">
-            <a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt text-white"></i></a>
-          </li>
-          <li class="list-inline-item bg-dark-green rounded-item homepage-social-icons-list-item">
-            <a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin text-white"></i></a>
-          </li>
-        </ul>
-      </div>
+        <p class="section-title h1 text-white">InnerSourceコミュニティに参加しよう</p>
+          <ul class="list-inline social-icons">
+            <li class="list-inline-item bg-dark-green rounded-item homepage-social-icons-list-item">
+              <a href="http://github.com/InnerSourceCommons"><i class="ti-github text-white"></i></a>
+            </li>
+            <li class="list-inline-item bg-dark-green rounded-item homepage-social-icons-list-item">
+              <a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube text-white"></i></a>
+            </li>
+            <li class="list-inline-item bg-dark-green rounded-item homepage-social-icons-list-item">
+              <a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt text-white"></i></a>
+            </li>
+            <li class="list-inline-item bg-dark-green rounded-item homepage-social-icons-list-item">
+              <a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin text-white"></i></a>
+            </li>
+          </ul>    </div>
       <div class="col-md-9 newsletter-box">
-        <p class="text-dark-green h2 font-weight-light">Connect with expert practitioners on Slack and follow us for the latest news and events.</p>
+        <p class="text-dark-green h2 font-weight-light">専門家の実務者とSlackでつながり、最新のニュースやイベントをフォローしましょう。</p>
         <div class="text-white bg-dark-green p-5 contact-section-rounded mt-5">
-          <p class="text-white h2">Get regular InnerSource updates and insights.</p>
-          <p class="text-white h2 font-weight-light">Sign up to our newsletter.</p>
+          <p class="text-white h2">定期的なInnerSourceの更新とインサイトを受け取りましょう。</p>
+          <p class="text-white h2 font-weight-light">ニュースレターに登録してください。</p>
           {{< contact-form-one-liner >}}
         </div>
       </div>
     </div>
     <div class="row newsletter-box-sm">
       <div class="text-white bg-dark-green p-5 contact-section-rounded">
-        <p class="text-white h2">Get regular InnerSource updates and insights.</p>
-        <p class="text-white h2 font-weight-light">Sign up to our newsletter.</p>
+        <p class="text-white h2">定期的なInnerSourceの更新とインサイトを受け取りましょう。</p>
+        <p class="text-white h2 font-weight-light">ニュースレターに登録してください。</p>
         {{< contact-form-one-liner >}}
       </div>
     </div>
