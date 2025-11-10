@@ -103,7 +103,7 @@ var youmax_global_options = {};
 
     getUploads = function() {
         let response = JSON.parse(sessionStorage.getItem("youtubeResponse"));
-        if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1")){
+        // if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1")){
             if(!response){
                 let channelId = youmax_global_options.youTubeChannelURL.split('/').pop();
                 var apiUploadURL = "https://www.googleapis.com/youtube/v3/search?key=" + youmax_global_options.apiKey + "&channelId="+ channelId +"&part=snippet,id&order=date&maxResults=" + youmax_global_options.maxResults;
@@ -124,7 +124,7 @@ var youmax_global_options = {};
             } else {
                 showUploads();
             }
-        }
+        // }
     },
 
     $.fn.youmax = function(options) {

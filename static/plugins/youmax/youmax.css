@@ -92,13 +92,13 @@
 }
 
 .youmax-video-list-title {
-	color: #0aa8a7;
+	color: white;
 	display: inline-block;
 	padding: 15px 20px;
-  font-weight: bold;
-  font-size: 15px;
+	font-weight: bold;
+	font-size: 15px;
 	max-width: 350px;
-  height: 60px;
+ 	 height: 60px;
 	overflow: hidden;
 }
 

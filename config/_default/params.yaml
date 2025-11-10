@@ -6,6 +6,7 @@ plugins:
     - link: plugins/youmax/youmax.css
     - link: plugins/bootstrap-select/css/bootstrap-select.min.css
     - link: css/custom-menu.css
+    - link: css/custom.css
   js:
     - link: plugins/jQuery/jquery.min.js
     - link: plugins/bootstrap/bootstrap.min.js
