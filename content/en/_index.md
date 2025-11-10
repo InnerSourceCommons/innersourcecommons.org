@@ -8,7 +8,7 @@ fetchYoutubeVideos: true
 		<div class="row align-items-center">
 			<div class="col-lg-8 col-md-6 col-sm-6" style="margin-top: 40px;">
 				<h1 style="font-size: 40px; color: white; text-align: left; margin: 0px">Build a more collaborative engineering team based on open-source principles</h1>
-        <p class="text-white">We are The InnerSource Commons.Our community develop the practices and frameworks for InnerSource — the  methodology that technology leaders use to build better software, faster.</p>
+        <p class="text-white mt-1">We are The InnerSource Commons.Our community develop the practices and frameworks for InnerSource — the  methodology that technology leaders use to build better software, faster.</p>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6" style="margin-top: 40px;">
         <ul class="text-white homepage-list">
@@ -23,7 +23,7 @@ fetchYoutubeVideos: true
           <!-- {{< summit-event-card style="banner" >}} -->
 			</div>
       <div class="d-flex w-100">
-        <div class="mx-auto d-flex flex-column flex-md-row">
+        <div class="mx-auto d-flex flex-column flex-md-row mb-2">
           <a href="/slack" class="btn btn-primary btn-sm mr-2 mb-2 mb-md-0">Join our community</a>
           <a href="/slack" class="btn btn-white btn-sm">Learn about InnerSource</a>
         </div>
@@ -35,8 +35,8 @@ fetchYoutubeVideos: true
 <section class="section bg-light">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 bg-primary summit-box">
-        <p class="section-title h1 text-white">Innersource Summit 2025</p>
+      <div class="col-11 col-md-7 bg-primary summit-box">
+        <p class="section-title h1 text-white">InnerSource Summit 2025</p>
         <p class="text-white text-center">Join the InnerSource Summit 2025 — the leading event for open collaboration and innovation.
         </p>
         <div class="d-flex">
@@ -237,7 +237,7 @@ fetchYoutubeVideos: true
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <p class="section-title text-uppercase">Innersource for practitioners</p>
+        <p class="section-title text-uppercase">InnerSource for practitioners</p>
         <p class="section-title h1 text-dark-green"><span class="text-cyan">Practitioners</span> can contribute to InnerSource and <span class="text-cyan">shape the future</span> of collaboration</p>
       </div>
       <div class="col-md-7">
@@ -459,7 +459,7 @@ fetchYoutubeVideos: true
 
 <img class="image-under-newsletter-box" src="/images/photos/people.jpg" width="100%" alt="">
 
-<section class="section position-relative bg-light">
+<section class="position-relative bg-light">
   <div class="container">
     <div class="row bg-cyan p-5 contact-section-rounded">
       <div class="col-md-3">

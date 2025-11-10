@@ -8,7 +8,7 @@ fetchYoutubeVideos: true
 		<div class="row align-items-center">
 			<div class="col-lg-8 col-md-6 col-sm-6" style="margin-top: 40px;">
 				<h1 style="font-size: 40px; color: white; text-align: left; margin: 0px">オープンソースの原則に基づいた、より協調的なエンジニアリングチームを構築しましょう</h1>
-        <p class="text-white">私たちは InnerSource Commons です。私たちのコミュニティは、テクノロジーリーダーがより良いソフトウェアをより速く構築するための手法「InnerSource」の実践とフレームワークを開発しています。</p>
+        <p class="text-white mt-1">私たちは InnerSource Commons です。私たちのコミュニティは、テクノロジーリーダーがより良いソフトウェアをより速く構築するための手法「InnerSource」の実践とフレームワークを開発しています。</p>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6" style="margin-top: 40px;">
         <ul class="text-white homepage-list">
@@ -18,7 +18,7 @@ fetchYoutubeVideos: true
         </ul>
 			</div>
       <div class="d-flex w-100">
-        <div class="mx-auto d-flex flex-column flex-md-row">
+        <div class="mx-auto d-flex flex-column flex-md-row mb-2">
           <a href="/slack" class="btn btn-primary btn-sm mr-2 mb-2 mb-md-0">コミュニティに参加する</a>
           <a href="/slack" class="btn btn-white btn-sm">InnerSourceについて学ぶ</a>
         </div>
@@ -30,7 +30,7 @@ fetchYoutubeVideos: true
 <section class="section bg-light">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 bg-primary summit-box">
+      <div class="col-11 col-md-7 bg-primary summit-box">
         <p class="section-title h1 text-white">InnerSource サミット 2025</p>
         <p class="text-white text-center">オープンなコラボレーションとイノベーションのための主要イベント「InnerSource サミット 2025」に参加しましょう。</p>
         <div class="d-flex">
@@ -453,7 +453,7 @@ fetchYoutubeVideos: true
 
 <img class="image-under-newsletter-box" src="/images/photos/people.jpg" width="100%" alt="">
 
-<section class="section position-relative bg-light">
+<section class="position-relative bg-light">
   <div class="container">
     <div class="row bg-cyan p-5 contact-section-rounded">
       <div class="col-md-3">

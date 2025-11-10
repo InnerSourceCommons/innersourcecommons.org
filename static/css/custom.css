@@ -222,6 +222,12 @@
 
 
 @media (max-width: 768px) {
+  .summit-box {
+    padding: 2rem!important;
+    border-radius: 40px;
+    margin-right: auto!important;
+    margin-left: auto!important;
+  }
   .carousel-wrapper {
       padding: 40px 30px;
   }
