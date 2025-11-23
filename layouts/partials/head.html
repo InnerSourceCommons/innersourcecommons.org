@@ -69,7 +69,22 @@
     });
   </script>
   {{ end }}
-
+  {{ "<!-- ENTERING LDJSON for events -->" | safeHTML }}
+  {{ if .IsPage }}
+  {{ if eq .Type "events" }}
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "{{ .Params.Title }}",
+      "startDate": "{{ .Params.date.Format "2006-01-02T15:04:05JST" }}",
+      "url": "{{ .Params.youtubeLink }}",
+      "image": "{{ .Params.image | absURL }}"
+  }
+  </script>
+  {{ end }}
+  {{ end }}
+  {{ "<!-- LEAVING LDJSON for events -->" | safeHTML }}
   {{ "<!-- Mastodon verification code -->" | safeHTML }}
   <link href="https://fosstodon.org/@innersource" rel="me">
 
