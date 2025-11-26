@@ -1,0 +1,245 @@
+.bg-dark-green {
+  background-color: #077778!important;
+}
+
+.bg-darker-green {
+  background-color: #054C4D!important;
+}
+
+.bg-light-cyan {
+  background-color: #E8F4F4!important;
+}
+
+.bg-cyan {
+  background-color: #29ABA9!important;
+}
+
+.text-cyan {
+  color: #29ABA9!important;
+}
+
+.text-dark-green {
+  color: #054C4D!important;
+}
+
+.case-studies-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('/images/photos/case-studies-bg.jpg'); background-size: cover; 
+  background-position: center; 
+  position: relative;
+}
+
+.home-page-top {
+  background-image:url(/images/photos/homepage-top.png); 
+  background-size: cover; 
+  background-position: center; 
+  height:100%;
+  min-height: 400px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* .row{
+  margin-left: 0!important;
+  margin-right: 0!important;
+} */
+
+.contact-section-rounded {
+  border-radius: 25px;
+}
+
+.rounded-item {
+  border-radius: 100px;
+}
+
+.w-50px {
+  width: 50px;
+}
+
+.newsletter-box {
+  margin-bottom: -10rem;
+}
+
+.image-under-newsletter-box{
+  margin-bottom: -7rem;
+}
+
+.rounded-input {
+  border-radius: 12px;
+}
+
+.homepage-list li {
+  list-style-image: url("/images/resources/checkmark.png");
+  list-style: none;
+  padding-left: 30px;
+  background-image: url('/images/resources/checkmark.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px 20px; /* Control the size here */
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.homepage-social-icons-list-item a{
+  width: 50px!important;
+  height: 50px!important;
+  display: flex!important;
+}
+
+.homepage-social-icons-list-item a i{
+  font-size: 20px;
+  margin: auto;
+}
+
+.newsletter-input {
+  line-height: 2rem;
+}
+
+.btn-white {
+  background-color: white!important;
+  color: black;
+}
+
+.btn-dark-green {
+  background-color: #054C4D!important;
+  color: white!important;
+}
+
+.btn-cyan {
+  background-color: #29ABA9!important;
+  color: white!important;
+}
+
+.summit-box {
+  padding: 6rem!important;
+  border-radius: 40px;
+  margin-right: -6rem;
+}
+
+.carousel-container {
+  max-width: 900px;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-wrapper {
+  border-radius: 20px;
+  padding: 60px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-slides {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+}
+
+.slide h2 {
+  color: #054C4D!important;
+}
+
+.slide.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.slide h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.slide p {
+  line-height: 1.7;
+  color: #054C4D!important;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.arrow:hover {
+  transform: scale(1.2);
+}
+
+.arrow svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.dots {
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #cbd5e0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background: #2d3748;
+  transform: scale(1.2);
+}
+
+.dot:hover {
+  background: #a0aec0;
+}
+
+@media (min-width: 768px) {
+  .newsletter-box-sm{
+    display: none!important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .summit-box {
+    padding: 2rem!important;
+    border-radius: 40px;
+    margin-right: auto!important;
+    margin-left: auto!important;
+  }
+  .carousel-wrapper {
+      padding: 40px 30px;
+  }
+
+  .slide h2 {
+      font-size: 1.8em;
+  }
+
+  .slide p {
+      font-size: 1em;
+  }
+  .newsletter-box {
+    display: none!important;
+  }
+}
