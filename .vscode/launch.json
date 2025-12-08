@@ -15,11 +15,7 @@
                 "-D"
             ],
             "console": "integratedTerminal",
-            "preLaunchTask": "Hugo: Check Environment",
-            "serverReadyAction": {
-                "pattern": "Web Server is available at",
-                "action": "openExternally"
-            }
+            "preLaunchTask": "Hugo: Check Environment"
         }
     ]
 }
