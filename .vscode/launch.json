@@ -8,15 +8,16 @@
             "program": "${workspaceFolder}/node_modules/.bin/hugo",
             "args": [
                 "server",
+                "--bind=0.0.0.0",
                 "--appendPort=false",
                 "--baseURL=/",
+                "--liveReloadPort=443",
                 "-D"
             ],
             "console": "integratedTerminal",
             "preLaunchTask": "Hugo: Check Environment",
             "serverReadyAction": {
-                "pattern": "Web Server is available at //localhost:(\\d+)/",
-                "uriFormat": "http://localhost:%s/",
+                "pattern": "Web Server is available at",
                 "action": "openExternally"
             }
         }
