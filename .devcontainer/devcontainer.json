@@ -32,5 +32,5 @@
     }
   },
   "remoteUser": "vscode",
-  "postCreateCommand": "npm install; cd /tmp && wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.133.1/hugo_extended_0.133.1_linux-amd64.deb && sudo dpkg -i hugo.deb && rm hugo.deb && npm init -y && npm install hugo-bin@latest && sudo mv /usr/local/bin/hugo /usr/local/bin/hugo-real && sudo cp ${containerWorkspaceFolder}/.devcontainer/hugo-wrapper.sh /usr/local/bin/hugo && sudo chmod +x /usr/local/bin/hugo && hugo version && echo 'Hugo server ready! You can now run: hugo server'"
+  "postCreateCommand": "npm install && cd /tmp && wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.133.1/hugo_extended_0.133.1_linux-amd64.deb && sudo dpkg -i hugo.deb && rm hugo.deb && npm init -y && npm install hugo-bin@latest && sudo mv /usr/local/bin/hugo /usr/local/bin/hugo-real && sudo cp /workspaces/innersourcecommons.org/.devcontainer/hugo-wrapper.sh /usr/local/bin/hugo && sudo chmod +x /usr/local/bin/hugo && hugo version && echo 'Hugo server ready! You can now run: hugo server'"
 }

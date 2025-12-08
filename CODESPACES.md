@@ -88,6 +88,11 @@ When the Hugo server starts:
 
 If you encounter any issues:
 
+- **CSS not loading (assets loading from localhost:1313)**: This means the Codespace environment wasn't detected properly. Try these steps:
+  1. Stop the Hugo server (Ctrl+C in the terminal or stop debugging)
+  2. Run `.devcontainer/debug-codespaces.sh` in the terminal to check your environment
+  3. Make sure you see the "Running in Codespaces mode" message when starting Hugo
+  4. If the environment variables are not set, try rebuilding the container (see below)
 - **Hugo server not starting**: Try restarting the Codespace by clicking on the menu in the bottom left corner and selecting "Codespaces: Stop Current Codespace" and then restarting it.
 - **Changes not showing**: Make sure you've saved your files and that the Hugo server is running.
 - **Port not forwarding**: Click the "Ports" tab at the bottom of the Codespace and make sure port 1313 is forwarded.
