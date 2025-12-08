@@ -26,11 +26,27 @@ The Codespace will take a minute or two to set up. You'll see a loading screen w
 
 ### Step 4: Run the Hugo Server
 
-Once the Codespace is loaded:
+Once the Codespace is loaded, you can start the Hugo server using any of these methods:
+
+**Option A: Command Line (Recommended and Easiest)**
+
+1. Open the terminal (Terminal → New Terminal if not already open)
+2. Run: `hugo server`
+
+That's it! In Codespaces, the `hugo server` command automatically detects the environment and configures everything correctly.
+
+**Option B: Using the Run and Debug Panel**
 
 1. Click the "Run and Debug" icon in the left sidebar (it looks like a play button with a bug)
 2. At the top of the Run and Debug panel, click on the dropdown and select "Hugo Server"
 3. Click the green play button to start the Hugo server
+
+**Option C: Using npm**
+
+1. Open the terminal (Terminal → New Terminal)
+2. Run: `npm start`
+
+All methods work correctly in Codespaces and will automatically configure the proper URL so that CSS and assets load correctly.
 
 ### Step 5: View the Website Preview
 

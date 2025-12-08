@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# Determine the base URL for Hugo server
-# In Codespaces, use the Codespaces URL; otherwise, use localhost
+# Hugo Server Starter for Codespaces and Local Development
+# This script automatically detects the environment and starts Hugo with the correct configuration
 
 if [ -n "$CODESPACE_NAME" ]; then
     # Running in GitHub Codespaces
