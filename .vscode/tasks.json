@@ -10,6 +10,29 @@
                 "panel": "dedicated"
             },
             "problemMatcher": []
+        },
+        {
+            "label": "Hugo: Start Server",
+            "type": "shell",
+            "command": "hugo server --bind=0.0.0.0 --appendPort=false --liveReloadPort=443 -D",
+            "isBackground": true,
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": {
+                "pattern": {
+                    "regexp": "^$",
+                    "file": 0,
+                    "location": 1,
+                    "message": 2
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "^.*Building sites.*$",
+                    "endsPattern": "^.*Web Server is available.*$"
+                }
+            }
         }
     ]
 }
