@@ -15,6 +15,8 @@ Members have particular rights in the ISC; for example, they may vote in board e
 To be eligible for Membership, a person must be nominated by a current Member.
 Membership is purely merit-based, free of any cost, and restricted to individuals.
 
+Membership in the InnerSource Commons Foundation requires nomination and election into the Foundation during annual elections each spring. If you are a member of the InnerSource Commons Community and interested in becoming a Foundation member, you can submit [this form](https://forms.gle/muCTRxXTXGfGDCnZ8) to express interest in receiving a member nomination in the next election.
+
 ## Members of the InnerSource Commons Foundation
 
 * Ada Dai
