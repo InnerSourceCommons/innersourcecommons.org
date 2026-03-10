@@ -5,6 +5,7 @@ description: "A mindmap to help you use different parts of the InnerSource Commo
 type: "community"
 image: "images/learn/patterns.png"
 weight: 1
+canonical: https://innersourcecommons.org/learn/scaling
 ---
 
 {{< markmap path="markmap-content.md" >}}
