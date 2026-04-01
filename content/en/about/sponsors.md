@@ -32,6 +32,7 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
       <!-- {{< company name="Adeo" image="/images/logos/adeo-supporters.png" >}}{{< /company >}} -->
       {{< company name="Bosch" image="/images/logos/bosch.png" >}}{{< /company >}}
       {{< company name="Comcast" image="/images/logos/comcast.png" >}}{{< /company >}}
+      {{< company name="GitLab" image="/images/logos/gitlab.png" >}}{{< /company >}}
       {{< company name="lenstra" image="/images/logos/lentra black.png" >}}{{< /company >}}
       {{< company name="Mercedes Benz" image="/images/logos/Mercedes-Benz.png" >}}{{< /company >}}
       {{< company name="Red Hat" image="/images/logos/Red Hat.png" >}}{{< /company >}}
