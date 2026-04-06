@@ -258,6 +258,8 @@ aliases:
       {{< /company >}}
       {{< company name="US Bank" image="/images/logos/usbank.png" video="https://youtu.be/4qT9wCz3hKw" >}}
       {{< /company >}}
+      {{< company name="Verizon" image="/images/logos/Verizon.png" article="https://www.youtube.com/watch?v=R7FQtR1T1AA" >}}
+      {{< /company >}}
       {{< company name="ViacomCBS" image="/images/logos/viacomcbs.png" article="https://github.com/customer-stories/viacomcbs-streaming" >}}
       {{< /company >}}
       {{< company name="Vmware" image="/images/logos/vmware.png" video="https://www.youtube.com/watch?v=Y6biezNfJOM" author_name="Minchene Tang" author_title="Vmware" >}}
