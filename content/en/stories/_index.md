@@ -256,6 +256,8 @@ aliases:
       {{< company name="Twilio" image="/images/logos/twilio.png" article="https://github.com/customer-stories/twilio" author_name="Roman Scheiter" author_title="Head of Productivity Engineering" >}}
       Twilio engineers are encouraged to submit pull requests to projects that are not immediately owned by their team. They can then work with the owning team on integrating their change into the code base.
       {{< /company >}}
+      {{< company name="University of Galway, Ireland" image="/images/logos/UCG.jpg" video="https://www.youtube.com/watch?v=Uw__82i8WGg&list=PLCH-i0B0otNQkjMyRiIgnDBVvLHW1_Gab&index=5" >}}
+      {{< /company >}}
       {{< company name="US Bank" image="/images/logos/usbank.png" video="https://youtu.be/4qT9wCz3hKw" >}}
       {{< /company >}}
       {{< company name="ViacomCBS" image="/images/logos/viacomcbs.png" article="https://github.com/customer-stories/viacomcbs-streaming" >}}
