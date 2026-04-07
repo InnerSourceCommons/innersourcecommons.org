@@ -24,6 +24,7 @@ aliases:
      {{< company name="Ahold Delhaize" image="/images/logos/ahold.png" article="https://github.com/customer-stories/ahold-delhaize" author_name="Joost Hofman" author_title="Head of Tech Enabling" >}}
       If we give people the right tools and the right platform, it’s a start. We can share more within our company and with each other, growing as an InnerSource organization.
       {{< /company >}}
+      {{< company name="Airbus" image="/images/events/airbus.png" video="https://www.youtube.com/watch?v=QIz_czuoREM&list=PLCH-i0B0otNQkjMyRiIgnDBVvLHW1_Gab&index=16" >}}
       {{< company name="Amadeus IT Group" image="/images/logos/amadeus.jpeg" video="https://www.youtube.com/watch?v=_lmAiOoQlhA&list=PLCH-i0B0otNQkjMyRiIgnDBVvLHW1_Gab&index=15" >}}
       {{< /company >}}
       {{< company name="Alliander" image="/images/logos/alliander.png" video="https://youtu.be/Q6yCZI4f2bo?t=1131" >}}
