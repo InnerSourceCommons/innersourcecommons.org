@@ -21,6 +21,8 @@ aliases:
       {{< /company >}}
       {{< company name="Adobe" image="/images/logos/adobe.png" article="https://medium.com/adobetech/open-development-inner-source-and-open-source-46c2ba174be6" >}}
       {{< /company >}}
+       {{< company name="Age of Peers" image="/images/events/age of peers.png" article="https://ageofpeers.com/2016/05/09/an-open-source-approach-to-community-culture/" >}}
+      {{< /company >}}
      {{< company name="Ahold Delhaize" image="/images/logos/ahold.png" article="https://github.com/customer-stories/ahold-delhaize" author_name="Joost Hofman" author_title="Head of Tech Enabling" >}}
       If we give people the right tools and the right platform, it’s a start. We can share more within our company and with each other, growing as an InnerSource organization.
       {{< /company >}}
