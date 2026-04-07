@@ -30,6 +30,8 @@ aliases:
       {{< /company >}}
       {{< company name="Alliander" image="/images/logos/alliander.png" video="https://youtu.be/Q6yCZI4f2bo?t=1131" >}}
       {{< /company >}}
+      {{< company name="Amazon" image="/images/logos/Amazon.png" video="https://www.youtube.com/watch?v=VBRdOpbY1O8&list=PLCH-i0B0otNTatSqMV51Xd_wJsqwcZ4HT&index=6" >}}
+      {{< /company >}}
       {{< company name="American Airlines" image="/images/logos/americanairlines.png" article="https://tech.aa.com/2020-10-30-innersource/" >}}
       {{< /company >}}
       {{< company name="Anyshore" image="/images/logos/Anyshore.png" article="https://www.linkedin.com/pulse/anyshore-innersource-journey-lisalee-tunde-farrell/?trackingId=2whtvdgFQga8y6CG8N9TOg%3D%3D" >}}
