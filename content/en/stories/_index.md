@@ -171,6 +171,8 @@ aliases:
       {{< company name="Microsoft" image="/images/logos/microsoft.png" video="https://www.youtube.com/watch?v=eZdx5MQCLA4" author_name="Arno Mihm" author_title="Program Manager InnerSource" >}}
       We have seen greater engineering satisfaction among teams that practice InnerSource... we have [also] seen better product quality and responses because of InnerSource.
       {{< /company >}}
+      {{< company name="Mitsubishi Electric" image="/images/logos/mitsubishi-electric-logo.png" video="https://www.youtube.com/watch?v=4I4ZvqS0-Ro" >}}
+      {{< /company >}}
       {{< company name="Morgan Stanley" image="/images/logos/morganstanley.png" video="https://www.youtube.com/watch?v=Z2l3rB9ewC8" >}}
       {{< /company >}}
       {{< company name="NASA" image="/images/logos/NASA.png" article="/events/isc-fall-2018" >}}
