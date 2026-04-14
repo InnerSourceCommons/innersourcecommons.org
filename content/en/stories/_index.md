@@ -152,6 +152,8 @@ aliases:
       {{< /company >}}
       {{< company name="Intuit" image="/images/logos/intuit.png" article="https://builtin.com/software-engineering-perspectives/intuit-duplication-innersource" >}}
       {{< /company >}}
+      {{< company name="KDDI" image="/images/logos/KDDI.svg" article="https://www.youtube.com/watch?v=WEmGZllbaf0" >}}
+      {{< /company >}}
       {{< company name="Knock" image="/images/logos/knock.png" article="https://github.com/customer-stories/knock" >}}
       {{< /company >}}
       {{< company name="KPMG" image="/images/logos/KPMG.png" article="https://github.com/customer-stories/kpmg" >}}
