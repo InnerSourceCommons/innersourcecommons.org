@@ -47,6 +47,8 @@ aliases:
       {{< /company >}}
       {{< company name="Baidu" image="/images/logos/baidu.png" article="https://conferences.oreilly.com/oscon/oscon-or-2019/public/schedule/detail/75342.html" >}}
       {{< /company >}}
+      {{< company name="Bandai Namco Studios Inc." image="/images/logos/Bandai.svg" article="https://www.youtube.com/watch?v=Z4RCmk2ZAn0" >}}
+      {{< /company >}}
       {{< company name="BBC" image="/images/logos/bbc.png" video="https://www.youtube.com/watch?v=pEGMxe6xz-0" author_name="Steph Egan" author_title="Software Engineering Team Lead" >}}
       Our tools have been built been built from the ground up with an expectation of InnerSource … The way that we encourage that in a very disparate organization is mostly word of mouth and clear documentation.
       {{< /company >}}
