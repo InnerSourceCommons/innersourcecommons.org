@@ -177,6 +177,8 @@ aliases:
       {{< /company >}}
       {{< company name="Morgan Stanley" image="/images/logos/morganstanley.png" video="https://www.youtube.com/watch?v=Z2l3rB9ewC8" >}}
       {{< /company >}}
+      {{< company name="National Personnel Authority Japan" image="/images/logos/NPA Japan.png" article="https://www.youtube.com/watch?v=kLOlvU2uVDA" >}}
+      {{< /company >}}
       {{< company name="NASA" image="/images/logos/NASA.png" article="/events/isc-fall-2018" >}}
       {{< /company >}}
       {{< company name="Nab" image="/images/logos/nab.jpg" video="https://www.youtube.com/watch?v=1jiAGQ7y_vQ&t=130s" >}}
