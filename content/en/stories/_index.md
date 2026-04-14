@@ -127,6 +127,8 @@ aliases:
       {{< company name="Ford" image="/images/logos/ford.png" article="https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/" author_name="Florian Frischmuth" author_title="Chief Engineer" >}}
       Our environment allows developers to find solutions that have already been developed. They can collaborate on those, and then reuse them.
       {{< /company >}}
+      {{< company name="Gartner" image="/images/logos/Gartner.svg" article="https://www.youtube.com/watch?v=iKhIXezMeys" >}}
+      {{< /company >}}
       {{< company name="GitHub" image="/images/logos/github.png" article="https://github.com/customer-stories/emirates-nbd" author_name="Martin Woodworth" author_title="Director, Developer Relations" >}}
       The reason why InnerSource works is because like open source you're working with people who are collaborating with different priorities because they're working on different things
       {{< /company >}}
