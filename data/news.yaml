@@ -1,5 +1,9 @@
-- content: "Join us on Tuesday, March 31st, 5pm BST / 6pm CEST / 11am CDT / 9am PDT, when Raimund Hook, from GitLab, will discuss how to [Break the contribution wall.](https://bit.ly/ISC0331)."
+- content: "Join us on Tuesday, April 28th, 5pm BST / 6pm CEST / 11am CDT / 9am PDT, when Marius Moulis, Thales Group ISPO Leader, will discuss [Why People Matter Most: Building a Sustainable InnerSource Strategy.](https://bit.ly/4uYIgrB)."
   active: true
+  type: "primary"
+
+- content: "Join us on Tuesday, March 31st, 5pm BST / 6pm CEST / 11am CDT / 9am PDT, when Raimund Hook, from GitLab, will discuss how to [Break the contribution wall.](https://bit.ly/ISC0331)."
+  active: false
   type: "primary"
 
 - content: "Join us on Tuesday, March 24th, 9am GMT / 10am CET / 2:30pm IST / 8pm AEDT, when Mishari Muqbil, from Mishari.net, will discuss [Imploding Silos with Games and Behavioral Science.](https://bit.ly/4uNUu6m)."
