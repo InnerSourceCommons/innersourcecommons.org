@@ -166,6 +166,12 @@ main:
     parent: events
     weight: 2
     params:
+  - name: InnerSource Summit 2026
+    URL: /events/isc-2026/
+    parent: events
+    weight: 3
+    identifier: summit-2026
+    params:
   # - name: InnerSource Summit 2025
   #   URL: /events/isc-2025/
   #   parent: events
