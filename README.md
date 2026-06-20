@@ -54,6 +54,11 @@ cd innersourcecommons.org
 docker compose up -d
 ```
 
+## Reviewing with GitHub Codespaces
+
+Using GitHub Codespaces, you can see and interact with the version of the site that is in pull request.
+Check out [this video](https://drive.google.com/file/d/1M97R4kgkIzVNDk6ysPVbQWBA7ZV1PAWe/view?usp=drive_link) to see how.
+
 ## Making changes to specific pages
 
 ### Adding a logo to the Stories page

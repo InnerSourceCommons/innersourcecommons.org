@@ -166,22 +166,28 @@ main:
     parent: events
     weight: 2
     params:
-  - name: InnerSource Summit 2025
-    URL: /events/isc-2025/
+  - name: InnerSource Summit 2026
+    URL: /events/isc-2026/
     parent: events
     weight: 3
-    identifier: summit-2025
+    identifier: summit-2026
     params:
+  # - name: InnerSource Summit 2025
+  #   URL: /events/isc-2025/
+  #   parent: events
+  #   weight: 3
+  #   identifier: summit-2025
+  #   params:
   # - name: Call for Presenters
   #   URL: https://docs.google.com/forms/d/e/1FAIpQLSfWKkRDWIYN8eTOMlxONZp23-_i9nnAfqSJm26QCdzS5NtO9w/viewform
   #   parent: events
   #   weight: 4
   #   params:
-  - name: Why Sponsor the InnerSource Summit 2025?
-    URL: /events/isc-2025/#why-sponsor?
-    parent: events
-    weight: 4
-    params:
+  # - name: Why Sponsor the InnerSource Summit 2025?
+  #   URL: /events/isc-2025/#why-sponsor?
+  #   parent: events
+  #   weight: 4
+  #   params:
   - name: InnerSource Past Summits
     URL: /events/past-summits/
     parent: events
@@ -207,12 +213,12 @@ main:
     weight: 8
     params:
       isSecondary: true
-  - name: Summit Inclusion & Accessibility
-    URL: /events/isc-summit-2025-di/
-    parent: events
-    weight: 10
-    params:
-      isSecondary: true
+  # - name: Summit Inclusion & Accessibility
+  #   URL: /events/isc-summit-2025-di/
+  #   parent: events
+  #   weight: 10
+  #   params:
+  #     isSecondary: true
  
   # News & Updatess
   - name: News & Updates

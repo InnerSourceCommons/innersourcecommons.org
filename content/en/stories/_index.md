@@ -21,10 +21,16 @@ aliases:
       {{< /company >}}
       {{< company name="Adobe" image="/images/logos/adobe.png" article="https://medium.com/adobetech/open-development-inner-source-and-open-source-46c2ba174be6" >}}
       {{< /company >}}
+       {{< company name="Age of Peers" image="/images/events/age of peers.png" article="https://ageofpeers.com/2016/05/09/an-open-source-approach-to-community-culture/" >}}
+      {{< /company >}}
      {{< company name="Ahold Delhaize" image="/images/logos/ahold.png" article="https://github.com/customer-stories/ahold-delhaize" author_name="Joost Hofman" author_title="Head of Tech Enabling" >}}
       If we give people the right tools and the right platform, it’s a start. We can share more within our company and with each other, growing as an InnerSource organization.
       {{< /company >}}
+      {{< company name="AIRBUS" image="/images/logos/airbus.png" video="https://www.youtube.com/watch?v=QIz_czuoREM" >}}
+      {{< /company >}}
       {{< company name="Alliander" image="/images/logos/alliander.png" video="https://youtu.be/Q6yCZI4f2bo?t=1131" >}}
+      {{< /company >}}
+      {{< company name="Amazon" image="/images/logos/Amazon.png" video="https://www.youtube.com/watch?v=VBRdOpbY1O8&list=PLCH-i0B0otNTatSqMV51Xd_wJsqwcZ4HT&index=6" >}}
       {{< /company >}}
       {{< company name="American Airlines" image="/images/logos/americanairlines.png" article="https://tech.aa.com/2020-10-30-innersource/" >}}
       {{< /company >}}
@@ -41,6 +47,8 @@ aliases:
       {{< /company >}}
       {{< company name="Baidu" image="/images/logos/baidu.png" article="https://conferences.oreilly.com/oscon/oscon-or-2019/public/schedule/detail/75342.html" >}}
       {{< /company >}}
+      {{< company name="Bandai Namco Studios Inc." image="/images/logos/Bandai.svg" article="https://www.youtube.com/watch?v=Z4RCmk2ZAn0" >}}
+      {{< /company >}}
       {{< company name="BBC" image="/images/logos/bbc.png" video="https://www.youtube.com/watch?v=pEGMxe6xz-0" author_name="Steph Egan" author_title="Software Engineering Team Lead" >}}
       Our tools have been built been built from the ground up with an expectation of InnerSource … The way that we encourage that in a very disparate organization is mostly word of mouth and clear documentation.
       {{< /company >}}
@@ -53,6 +61,8 @@ aliases:
       {{< /company >}}
       {{< company name="Bloomberg" image="/images/logos/bloomberg.png" article="https://resources.github.com/whitepapers/introduction-to-innersource/" author_name="Panna Pavangadkar" author_title="Global Head of Engineering Developer Experience" >}}
       InnerSource is not new to Bloomberg … our competitive advantage is really in being able to innovate, come up with new ideas and get them out to our specialized consumers on a regular basis at the speed that they require it to be competitive in the market.
+      {{< /company >}}
+      {{< company name="Booz Allen Hamilton" image="/images/logos/Booz.png" article="https://www.youtube.com/watch?v=CtWGVX700J4&list=PLCH-i0B0otNQP_A36ncidq3NvY_LiKvfw&index=36" >}}
       {{< /company >}}
       {{< company name="Bosch" image="/images/logos/bosch.png" article="https://www.oreilly.com/library/view/adopting-innersource/9781492041863/ch04.html" author_name="Georg Grütter" author_title="Chief Expert Social Coding" >}}
       InnerSource has proven invaluable for us. It has become the gold standard for internal collaboration on software at Bosch.
@@ -119,6 +129,8 @@ aliases:
       {{< company name="Ford" image="/images/logos/ford.png" article="https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/" author_name="Florian Frischmuth" author_title="Chief Engineer" >}}
       Our environment allows developers to find solutions that have already been developed. They can collaborate on those, and then reuse them.
       {{< /company >}}
+      {{< company name="Gartner" image="/images/logos/Gartner.svg" article="https://www.youtube.com/watch?v=iKhIXezMeys" >}}
+      {{< /company >}}
       {{< company name="GitHub" image="/images/logos/github.png" article="https://github.com/customer-stories/emirates-nbd" author_name="Martin Woodworth" author_title="Director, Developer Relations" >}}
       The reason why InnerSource works is because like open source you're working with people who are collaborating with different priorities because they're working on different things
       {{< /company >}}
@@ -144,6 +156,8 @@ aliases:
       {{< /company >}}
       {{< company name="Intuit" image="/images/logos/intuit.png" article="https://builtin.com/software-engineering-perspectives/intuit-duplication-innersource" >}}
       {{< /company >}}
+      {{< company name="KDDI" image="/images/logos/KDDI.svg" article="https://www.youtube.com/watch?v=WEmGZllbaf0" >}}
+      {{< /company >}}
       {{< company name="Knock" image="/images/logos/knock.png" article="https://github.com/customer-stories/knock" >}}
       {{< /company >}}
       {{< company name="KPMG" image="/images/logos/KPMG.png" article="https://github.com/customer-stories/kpmg" >}}
@@ -159,7 +173,11 @@ aliases:
       {{< company name="Microsoft" image="/images/logos/microsoft.png" video="https://www.youtube.com/watch?v=eZdx5MQCLA4" author_name="Arno Mihm" author_title="Program Manager InnerSource" >}}
       We have seen greater engineering satisfaction among teams that practice InnerSource... we have [also] seen better product quality and responses because of InnerSource.
       {{< /company >}}
+      {{< company name="Mitsubishi Electric" image="/images/logos/mitsubishi-electric-logo.png" video="https://www.youtube.com/watch?v=4I4ZvqS0-Ro" >}}
+      {{< /company >}}
       {{< company name="Morgan Stanley" image="/images/logos/morganstanley.png" video="https://www.youtube.com/watch?v=Z2l3rB9ewC8" >}}
+      {{< /company >}}
+      {{< company name="National Personnel Authority Japan" image="/images/logos/NPA Japan.png" article="https://www.youtube.com/watch?v=kLOlvU2uVDA" >}}
       {{< /company >}}
       {{< company name="NASA" image="/images/logos/NASA.png" article="/events/isc-fall-2018" >}}
       {{< /company >}}
@@ -254,7 +272,11 @@ aliases:
       {{< company name="Twilio" image="/images/logos/twilio.png" article="https://github.com/customer-stories/twilio" author_name="Roman Scheiter" author_title="Head of Productivity Engineering" >}}
       Twilio engineers are encouraged to submit pull requests to projects that are not immediately owned by their team. They can then work with the owning team on integrating their change into the code base.
       {{< /company >}}
+      {{< company name="University of Galway, Ireland" image="/images/logos/UCG.jpg" video="https://www.youtube.com/watch?v=Uw__82i8WGg&list=PLCH-i0B0otNQkjMyRiIgnDBVvLHW1_Gab&index=5" >}}
+      {{< /company >}}
       {{< company name="US Bank" image="/images/logos/usbank.png" video="https://youtu.be/4qT9wCz3hKw" >}}
+      {{< /company >}}
+      {{< company name="Verizon" image="/images/logos/Verizon.png" article="https://www.youtube.com/watch?v=R7FQtR1T1AA" >}}
       {{< /company >}}
       {{< company name="ViacomCBS" image="/images/logos/viacomcbs.png" article="https://github.com/customer-stories/viacomcbs-streaming" >}}
       {{< /company >}}

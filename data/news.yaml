@@ -1,5 +1,25 @@
-- content: "Early Bird Tickets Available! Grab your spot for InnerSource Summit 2025 — November 13, 2025 | Yokohama • Berlin • New York • Online | [Get your tickets before September 30th](https://innersourcecommons.org/events/isc-2025/)"
+- content: "Join us on Tuesday, 30th June, 9am BST, 10am CEST, 1:30pm IST, 6pm AEST, when Younes Hairej, Aokumo Inc., will discuss [Beyond Pull Requests: Quantifying the ROI of InnerSource](https://bit.ly/445FO6i)."
   active: true
+  type: "primary"
+
+- content: "Join us on Monday, May 11th, 5pm BST / 6pm CEST / 11am CDT / 9am PDT, when Tom Sadler, BBC, will discuss [InnerSource Anti-patterns.](https://bit.ly/4dpk7U7)."
+  active: false
+  type: "primary"
+
+- content: "Join us on Tuesday, April 28th, 5pm BST / 6pm CEST / 11am CDT / 9am PDT, when Marius Moulis, Thales Group ISPO Leader, will discuss [Why People Matter Most: Building a Sustainable InnerSource Strategy.](https://bit.ly/4uYIgrB)."
+  active: false
+  type: "primary"
+
+- content: "Join us on Tuesday, March 31st, 5pm BST / 6pm CEST / 11am CDT / 9am PDT, when Raimund Hook, from GitLab, will discuss how to [Break the contribution wall.](https://bit.ly/ISC0331)."
+  active: false
+  type: "primary"
+
+- content: "Join us on Tuesday, March 24th, 9am GMT / 10am CET / 2:30pm IST / 8pm AEDT, when Mishari Muqbil, from Mishari.net, will discuss [Imploding Silos with Games and Behavioral Science.](https://bit.ly/4uNUu6m)."
+  active: false
+  type: "primary"
+
+- content: "Early Bird Tickets Available! Grab your spot for InnerSource Summit 2025 — November 13, 2025 | Yokohama • Berlin • New York • Online | [Get your tickets before September 30th](https://innersourcecommons.org/events/isc-2025/)"
+  active: false
   type: "primary"
 
 - content: "Don’t miss your chance to speak at InnerSource Summit 2025! November 13, 2025 | Yokohama • Berlin • New York | [The Call for Presenters is now open.](https://bit.ly/ISCSummit25CFP) | Submit by 5PM GMT on Sunday, August 31."

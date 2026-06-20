@@ -3,6 +3,7 @@ markmap:
     colorFreezeLevel: 2
     initialExpandLevel: 2
 ---
+<!-- published version: https://innersourcecommons.org/learn/scaling -->
 
 [Managing InnerSource Projects]: https://innersourcecommons.gitbook.io/managing-innersource-projects
 [Patterns]: https://patterns.innersourcecommons.org/explore-patterns
