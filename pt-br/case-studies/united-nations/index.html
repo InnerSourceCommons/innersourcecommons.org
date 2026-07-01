@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+  <meta charset="utf-8">
+  <title>United Nations InnerSource Case Study: Reboot UN-tapped</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content='A InnerSource Commons é uma comunidade crescente de profissionais com o objetivo de criar e compartilhar conhecimento sobre InnerSource.'>
+  <meta name="keywords" content='InnerSource,Código aberto,silo,colaboração'>
+  <meta name="author" content="InnerSource Commons">
+  <meta name="generator" content="Hugo 0.133.1">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/youmax/youmax.css">
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/plugins/bootstrap-select/css/bootstrap-select.min.css">
+  
+  <link rel="stylesheet" href="https://innersourcecommons.org/css/custom-menu.css">
+  
+  
+
+  <!-- jQuery and Bootstrap Dependencies -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+  <!-- Main Stylesheet -->
+  
+  <link href="https://innersourcecommons.org/scss/style.min.css" rel="stylesheet" media="screen"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="layout" content="page - page - case-studies - case-studies - Page(/case-studies)">
+  
+  
+	
+	<link rel="alternate" hreflang="en" href="https://innersourcecommons.org/case-studies/united-nations/" title="English">
+	
+	<link rel="alternate" hreflang="ja" href="https://innersourcecommons.org/ja/case-studies/united-nations/" title="日本語">
+	
+	<link rel="alternate" hreflang="fr" href="https://innersourcecommons.org/fr/case-studies/united-nations/" title="Français">
+	
+  
+  
+  <meta property="og:url" content="https://innersourcecommons.org/pt-br/case-studies/united-nations/">
+  <meta property="og:site_name" content="InnerSource Commons">
+  <meta property="og:title" content="United Nations InnerSource Case Study: Reboot UN-tapped">
+  <meta property="og:description" content="Summary When the United Nations needed innovative solutions to some of the world’s hardest peacekeeping challenges, it did not turn to outside vendors.">
+  <meta property="og:locale" content="pt_br">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="case-studies">
+
+  
+    
+    <meta property="og:image" content="https://innersourcecommons.org/images/logo.png" />
+    
+  
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=" crossorigin="anonymous"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '', {
+      'cookie_flags': 'SameSite=None;Secure',
+      'anonymize_ip': true,
+      'client_storage': 'none'
+    });
+  </script>
+  
+
+  <!-- Mastodon verification code -->
+  <link href="https://fosstodon.org/@innersource" rel="me">
+
+</head><body><!-- navigation -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const notice = document.querySelector('.notice');
+    if (notice) {
+      document.body.classList.add('has-notice');
+    }
+
+    if ($.fn.selectpicker) {
+      $('.selectpicker').selectpicker({
+        style: 'btn-light',
+        size: 4
+      });
+    }
+  });
+</script>
+<header class="navigation">
+  <div class="container wrap">
+    <div class="logo">
+      <a href='https://innersourcecommons.org/pt-br'
+        title="InnerSource Commons" style="border-bottom: 0px solid #e0e0e0;">
+        <img src="https://innersourcecommons.org/images/logo.png" alt="InnerSource Commons" class="desktop-logo">
+        <img src="https://innersourcecommons.org/images/logo-big.png" alt="InnerSource Commons" class="mobile-logo">
+      </a>
+    </div>
+    <nav class="main-menu">
+      <ul class="main-menu__wrapper">
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>Start Here</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  
+
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/community/" >
+                          Get involved
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/events/community-calls/" >
+                          Community and Events
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://github.com/InnerSourceCommons" >
+                          Check out Our Repositories
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/slack" >
+                          Join our Chat on Slack
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.us1.list-manage.com/subscribe?u=0363fb06e6a59d48c6e260f1b&amp;id=97224b5ff2" >
+                          Join our Mailing List
+                          
+                        </a>
+                      </li>
+                    
+                  
+
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  
+
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>About</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  
+
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/about/" >
+                          Who We Are
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/about/board/" >
+                          Board &amp; Governance
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/about/members/" >
+                          Members
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/about/sponsors/" >
+                          Sponsors
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/about/contact/" >
+                          Get in Touch
+                          
+                        </a>
+                      </li>
+                    
+                  
+
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  
+
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                
+                <ul class="menu">
+                  <li class="menu-title">Featured Information</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                  <div class="article-card">
+                    <a href="https://innersourcecommons.org/stories/microsoft/" class="article-link">
+                      <div class="article-image">
+                        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/RWCZER-Legal-IP-Trademarks-CP-MS-logo-740x417-1" alt="The Latest Case Study - Microsoft">
+                      </div>
+                      <div class="article-content">
+                        <h4>The Latest Case Study - Microsoft</h4>
+                        <p></p>
+                      </div>
+                    </a>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>Community</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  
+
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/slack" >
+                          Join us on Slack
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/community/" >
+                          Working Groups
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/stories/microsoft/" >
+                          Case Studies
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/community/services/" >
+                          Services Directory
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/about/codeofconduct/" >
+                          Code of Conduct
+                          
+                        </a>
+                      </li>
+                    
+                  
+
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  
+
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                
+                <ul class="menu">
+                  <li class="menu-title">Featured Activity</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                                    
+                                    
+                                    
+                                    
+                  
+                  <div class="article-card">
+                    <a href="https://gatherings.innersourcecommons.org/london-2025/" class="article-link">
+                      <div class="article-image">
+                        <img src="https://gatherings.innersourcecommons.org/images/gathering/london-2025.png" alt="InnerSource Gathering London 2025 is open for registration!">
+                      </div>
+                      <div class="article-content">
+                        <h4>InnerSource Gathering London 2025 is open for registration!</h4>
+                      </div>
+                    </a>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>Learning</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  
+                  <li class="menu-title">Learning Resources</li>
+                  
+
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/learn/books/innersource-patterns/" >
+                          InnerSource Patterns ⭐
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/learn/learning-path/" >
+                          Learning Path
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/stories/microsoft/" >
+                          InnerSource Stories
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/learn/research/" >
+                          Research
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://www.youtube.com/@InnerSourceCommons" >
+                          Community Videos
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  
+                  <li class="menu-title">Books</li>
+                  
+
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/learn/books/getting-started-with-innersource/" >
+                          Getting Started with InnerSource
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/learn/books/understanding-the-innersource-checklist/" >
+                          Understanding the InnerSource Checklist
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/learn/books/managing-innersource-projects/" >
+                          Managing InnerSource Projects
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/learn/books/adopting-innersource-principles-and-case-studies/" >
+                          Adopting InnerSource
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/learn/books/" >
+                          See All Books
+                          
+                        </a>
+                      </li>
+                    
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                
+                <ul class="menu">
+                  <li class="menu-title">Featured Articles</li>
+                </ul>
+                <div class="featured-articles">
+                  
+                  <div class="article-card">
+                    <a href="https://patterns.innersourcecommons.org/" class="article-link">
+                      <div class="article-image">
+                        <img src="https://2736370588-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fs9OEmdHhkmMvqlFUqXlU%2Fsocialpreview%2FzZq1AkbMAojyPa1wVtzJ%2Finnersource-patterns-book-cover-social-media-preview-gitbook.png?alt=media&amp;token=2239b9d6-b6bb-4d4f-ac7d-2c7e45dc18de" alt="InnerSource Patterns, where the collaborative magic happens">
+                      </div>
+                      <div class="article-content">
+                        <h4>InnerSource Patterns, where the collaborative magic happens</h4>
+                        <p></p>
+                      </div>
+                    </a>
+                  </div>
+                  
+                  <div class="article-card">
+                    <a href="https://innersourcecommons.gitbook.io/managing-innersource-projects/innersource-tooling/github-strategy" class="article-link">
+                      <div class="article-image">
+                        <img src="/images/photos/scm-config.png" alt="InnerSource Strategy and Configuration Management for GitHub">
+                      </div>
+                      <div class="article-content">
+                        <h4>InnerSource Strategy and Configuration Management for GitHub</h4>
+                        <p></p>
+                      </div>
+                    </a>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>Events</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  
+                  <li class="menu-title">Event Types</li>
+                  
+
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/events/community-calls/" >
+                          Community Calls
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://gatherings.innersourcecommons.org/" >
+                          Gatherings - Local Chapters
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/events/isc-2025/" >
+                          InnerSource Summit 2025
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/events/isc-2025/#why-sponsor" >
+                          Why Sponsor the InnerSource Summit 2025?
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/events/past-summits/" >
+                          InnerSource Past Summits
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  
+                  <li class="menu-title">General Info</li>
+                  
+
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/events/community-calls/" >
+                          Upcoming Events
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://calendar.google.com/calendar/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com&amp;ctz=Europe%2FDublin" >
+                          Events Calendar
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://www.youtube.com/@InnerSourceCommons" >
+                          Past Event Recordings
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/events/isc-summit-2025-di/" >
+                          Summit Inclusion &amp; Accessibility
+                          
+                        </a>
+                      </li>
+                    
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        
+        
+        <li class="menu-item-has-children">
+          <a href="#" style="border-bottom: 0px solid #e0e0e0;"><span>News &amp; Updates</span></a>
+          <div class="sub-menu">
+            <div class="col-container">
+              <div class="col1">
+                <ul class="menu">
+                  
+
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.org/pt-br/about/announcements/" >
+                          Announcements
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://us1.campaign-archive.com/home/?u=0363fb06e6a59d48c6e260f1b&amp;id=97224b5ff2" >
+                          Newsletters
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="https://innersourcecommons.us1.list-manage.com/subscribe?u=0363fb06e6a59d48c6e260f1b&amp;id=97224b5ff2" >
+                          Newsletter Signup
+                          
+                        </a>
+                      </li>
+                    
+                  
+                    
+                      <li class="menu-item">
+                        <a href="mailto:marketing@innersourcecommons.org" >
+                          Submit an Article
+                          
+                        </a>
+                      </li>
+                    
+                  
+
+                </ul>
+              </div>
+              <div class="col2">
+                <ul class="menu">
+                  
+
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                </ul>
+              </div>
+              <div class="col3">
+                
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+      </ul>
+       
+
+      <div class="header-cta">
+        <div class="search-wrapper">
+        <span class="menu-item" id="search-menu-item" style="width: 100%">
+  <span class="search-container" style="width: 100%">
+    <input 
+      type="text" 
+      id="search-input" 
+      placeholder="Search..." 
+      autocomplete="off" 
+      style="width: 100%; height: 33.5px;margin:7.2px"
+    >
+    <span id="search-results" class="search-results"></span>
+  </span >
+</span >
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('search-input');
+  const searchResults = document.getElementById('search-results');
+
+  function createSearchResultHTML(item) {
+    const summary = item.summary || '';
+    const truncatedSummary = summary.length > 100 ? 
+      `${summary.substring(0, 100)}...` : 
+      summary;
+
+    return `
+      <a href="${item.url}" class="search-result-item">
+        <div class="search-result-title">${item.title || ''}</div>
+        \x3C!-- div class="search-result-summary">${truncatedSummary}</div -->
+      </a>
+    `;
+  }
+
+  function handleSearch() {
+    const searchQuery = searchInput.value.trim();
+    
+    if (searchQuery.length < 2) {
+      searchResults.style.display = 'none';
+      return;
+    }
+
+    fetch('/index.json')
+      .then(response => response.json())
+      .then(response => {
+        const data = Object.values(response.data || {});
+        const currentLang = document.documentElement.lang || 'en';
+        
+        const results = data.filter(item => {
+          if (item.lang !== currentLang) return false;
+          
+          const regex = new RegExp(searchQuery, 'i');
+          return (item.title && item.title.match(regex)) || 
+                 (item.content && item.content.match(regex));
+        });
+
+        searchResults.innerHTML = results.length ? 
+          results.map(createSearchResultHTML).join('') : 
+          '<div class="no-results">No results found</div>';
+        
+        searchResults.style.display = 'block';
+      });
+  }
+
+  searchInput.addEventListener('input', handleSearch);
+
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.search-container')) {
+      searchResults.style.display = 'none';
+    }
+  });
+});
+</script> 
+
+        </div>
+        <div class="language-selector">
+          <select class="form-control" id="language-selector">
+            <option value="" selected disabled>Português Brasileiro</option>
+            
+            
+            <option value="https://innersourcecommons.org/case-studies/united-nations/">English</option>
+            
+            <option value="https://innersourcecommons.org/ja/case-studies/united-nations/">日本語</option>
+            
+            <option value="https://innersourcecommons.org/fr/case-studies/united-nations/">Français</option>
+            
+            
+          </select>
+        </div>
+        <a href="https://innersourcecommons.org/slack" class="btn btn-outline-primary d-flex align-items-center" target="_blank" style="background-color: white;">
+          <img src="/images/slack.png" class="slack-icon-pulse" alt="Slack" style="width: 16px; height: 16px; margin-right: 8px;">Participe do Slack
+        </a>
+      </div>
+    </nav>
+
+    <button class="hamburger" type="button" aria-label="Toggle Menu">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </div>
+</header>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.querySelector('.hamburger');
+    const menu = document.querySelector('.main-menu__wrapper');
+    const subMenuParents = document.querySelectorAll('.menu-item-has-children > a');
+    const isMobile = window.innerWidth <= 992;
+
+    const languageSelector = document.getElementById('language-selector');
+    if (languageSelector) {
+      languageSelector.addEventListener('change', function() {
+        const selectedUrl = this.value;
+        if (selectedUrl) {
+          window.location.href = selectedUrl;
+        }
+      });
+    }
+
+    const calendarContainer = document.getElementById('calendar-container');
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.addedNodes.length > 0) {
+          const loadingElement = document.getElementById('calendar-loading');
+          if (loadingElement) {
+            loadingElement.style.transition = 'opacity 0.5s ease-out';
+            loadingElement.style.opacity = '1';
+            
+            setTimeout(() => {
+              loadingElement.style.opacity = '0';
+              setTimeout(() => {
+                loadingElement.style.display = 'none';
+              }, 500);
+            }, 2000);
+          }
+        }
+      });
+    });
+
+    if (calendarContainer) {
+      observer.observe(calendarContainer, { childList: true, subtree: true });
+    }
+
+    hamburger.addEventListener('click', function () {
+      this.classList.toggle('is-active');
+      menu.classList.toggle('is-active');
+    });
+
+    
+    const checkLogoDisplay = function() {
+      const desktopLogo = document.querySelector('.desktop-logo');
+      const mobileLogo = document.querySelector('.mobile-logo');
+      
+      if (window.innerWidth <= 390) {
+        if (desktopLogo) desktopLogo.style.display = 'none';
+        if (mobileLogo) mobileLogo.style.display = 'block';
+      } else {
+        if (desktopLogo) desktopLogo.style.display = 'block';
+        if (mobileLogo) mobileLogo.style.display = 'none';
+      }
+    };
+    
+    
+    checkLogoDisplay();
+    
+    
+    window.addEventListener('resize', checkLogoDisplay);
+
+    if (isMobile) {
+      subMenuParents.forEach(item => {
+        item.addEventListener('click', function (e) {
+          e.preventDefault();
+          const parent = this.parentElement;
+          const subMenu = this.nextElementSibling;
+
+          subMenuParents.forEach(otherItem => {
+            if (otherItem !== this) {
+              otherItem.parentElement.classList.remove('is-active');
+              otherItem.nextElementSibling.classList.remove('is-active');
+            }
+          });
+
+          parent.classList.toggle('is-active');
+          subMenu.classList.toggle('is-active');
+        });
+      });
+    }
+
+    window.addEventListener('resize', function () {
+      const isNowMobile = window.innerWidth <= 992;
+      if (isNowMobile !== isMobile) {
+        location.reload();
+      }
+    });
+  });
+</script>
+
+<!-- /navigation -->
+
+
+
+<section class='notice bg-primary text-light'>
+  <div class="container">
+      <div class="col-md-12">
+        
+        Join us on Tuesday, 30th June, 9am BST, 10am CEST, 1:30pm IST, 6pm AEST, when Younes Hairej, Aokumo Inc., will discuss <a href="https://bit.ly/445FO6i">Beyond Pull Requests: Quantifying the ROI of InnerSource</a>.
+        
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container" style="padding: 0px;">
+
+<ol class="breadcrumb">
+  
+
+
+
+
+
+<li class="breadcrumb-item">
+  
+  <a href="https://innersourcecommons.org/pt-br/">InnerSource Commons</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+  
+  <a href="https://innersourcecommons.org/pt-br/case-studies/">InnerSource Case Studies</a>
+  
+</li>
+
+
+<li class="breadcrumb-item">
+   
+  United Nations InnerSource …
+  
+</li>
+
+</ol>
+
+
+</div>
+  <div class="container">
+    <h1 class="display-3">United Nations InnerSource Case Study: Reboot UN-tapped</h1>
+    
+  </div>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 mx-auto">
+        <div class="content"><h2 id="summary">Summary</h2>
+<p>When the United Nations needed innovative solutions to some of the world&rsquo;s hardest peacekeeping challenges, it did not turn to outside vendors. It turned inward, to the talent it already had.</p>
+<p><em>Reboot UN-tapped</em> was an eight-week accelerator run by the United Nations&rsquo; Office of Information and Communications Technology (OICT) and the Business Transformation and Accountability Division (BTAD), built on InnerSource principles of internal collaboration, shared contribution, and breaking down silos. Around 300 staff expressed interest; 100 were selected, drawn from more than 40 UN offices and entities across 25-plus locations, with near 50/50 gender parity.</p>
+<p>Read on to learn how the United Nations used InnerSource to:</p>
+<ul>
+<li><strong>Leverage internal talent</strong> to develop solutions to real peacekeeping challenges, without incurring significant external cost</li>
+<li><strong>Produce 15 solution concepts and prototypes</strong>, two of which are now being implemented in peacekeeping missions in South Sudan and Cyprus</li>
+<li><strong>Break down silos</strong>, connecting colleagues across entities, regions, and hierarchical levels who might never have met otherwise</li>
+<li><strong>Demonstrate the UN 2.0 vision</strong> of a more modern, adaptable, and agile organization in practice</li>
+<li><strong>Engage and grow staff</strong>, offering meaningful opportunities for professional and personal development</li>
+</ul>
+<h2 id="background">Background</h2>
+<p>The <em>Reboot UN-tapped</em> initiative is a collaborative effort between OICT and BTAD. Building upon OICT&rsquo;s existing <em>Reboot</em> global coding competition, <em>Reboot UN-tapped</em> aimed to leverage internal UN talent for innovative solutions to real-world challenges.</p>
+<p>The initiative was structured as an eight-week innovation challenge, blending elements of a hackathon with an innovation accelerator or boot camp. The primary goal was to encourage internal staff to contribute to initiatives by developing digital products, often utilizing open source technologies. While some teams developed concepts, many successfully moved to the coding stage. Solutions were hosted on an internal UN platform — Unite Ideas — with the potential for evaluation, scaling, and wider implementation.</p>
+<p>The initiative received significant interest, with approximately 300 individuals expressing interest, eventually whittled down to 100 participants from 40 different UN offices and entities worldwide. Participants came from various position types, with a near 50/50 gender parity — an unintentional but positive outcome. The challenge was non-hierarchical, allowing assistants to lead teams.</p>
+<h2 id="the-challenges">The Challenges</h2>
+<p>Three specific peacekeeping challenges were identified as themes for the competition:</p>
+<ul>
+<li><strong>South Sudan (Climate and Conflict Nexus):</strong> Focused on forecasting and addressing issues related to drought and flooding with limited data. This challenge aimed to develop solutions for better preparedness and response to environmental disasters affecting both people and animals.</li>
+<li><strong>Cyprus (Information Management):</strong> Addressed the problem of fragmented data across various locations within the mission, aiming to consolidate information for better decision-making regarding troop movements and patrols. A significant aspect of this challenge was addressing knowledge transfer between frequently rotating military personnel.</li>
+<li><strong>Protection of Civilians (Perception Data):</strong> Sought to improve the use of perception data to enhance civilian safety in peacekeeping operations. Unlike the other challenges, this resulted in multiple contributing &ldquo;pieces of the puzzle&rdquo; rather than a single solution, focusing on data gathering, display, and survey construction.</li>
+</ul>
+<p>The <em>Reboot UN-tapped</em> challenge was structured in four phases: challenge sourcing, team formation, accelerator program, and product submission and evaluation. The accelerator program included masterclasses on innovation, though participants often preferred direct engagement with subject matter experts. Coaching was provided, with dedicated individuals facilitating communication between teams and subject matter experts.</p>
+<p>Solutions were pitched in a five-minute session and then evaluated by a team of subject matter experts and UN officials. Instead of a single winner, various awards were given to acknowledge all voluntary contributions, though one or two stronger solutions emerged from each challenge and are being moved forward for implementation. The internal Unite Ideas platform served as a centralized repository for team information, documents, and concepts, and was also used by the evaluation team.</p>
+<p>Senior management actively supported the initiative, viewing it as a practical step toward the UN 2.0 vision of a modernized, adaptable, and agile organization.</p>
+<h2 id="why-innersource-was-adopted">Why InnerSource Was Adopted</h2>
+<p>The adoption of InnerSource principles within <em>Reboot UN-tapped</em> was driven by several key factors, primarily addressing the evolving needs and strategic vision of the organization.</p>
+<p>Firstly, there is a clear <strong>business case for leveraging internal talent</strong> in a cost-effective manner. Historically, the UN model often involved outsourcing development to external consultants and vendors. However, with increasingly tight budgets and a significant reduction in staff development funds, there is a recognized need to cultivate internal capabilities and do &ldquo;more with less.&rdquo; InnerSource, by encouraging internal collaboration and contribution, allows the UN to develop solutions without incurring significant external costs. The time commitment of internal staff and the project team represented the primary cost; no direct financial expenditure was made on the project itself.</p>
+<p>Secondly, <em>Reboot UN-tapped</em> aligns with the broader <strong>UN 2.0 vision</strong>, which aims for a rejuvenated, more modern UN. This vision emphasizes advancing skills and potential in areas like digital data, innovation, behavioral science, and strategic foresight, all wrapped around organizational culture change. The initiative serves as a tangible demonstration of the UN &ldquo;walking the talk,&rdquo; proving that there is significant untapped talent within the organization that can contribute to these strategic goals.</p>
+<p>Thirdly, InnerSource provides a solution to address <strong>staff engagement and career development challenges</strong>. Surveys indicated that many UN staff felt their potential for career development and growth was limited. <em>Reboot UN-tapped</em> offered a valuable opportunity for individuals to explore new areas, develop skills, and apply their expertise to impactful projects, fostering a sense of purpose and connection that traditional hierarchical structures might not provide. The non-hierarchical nature of the teams further empowered individuals at all levels to lead and contribute.</p>
+<p>Finally, the nature of the challenges themselves lent themselves well to a collaborative, InnerSource approach. Problems like the climate and conflict nexus in South Sudan or information management in Cyprus are complex and require diverse perspectives and skill sets. By bringing together individuals from different offices and entities, <em>Reboot UN-tapped</em> facilitated <strong>cross-functional collaboration and breaking down silos</strong>. This collective ingenuity is seen as crucial for tackling the significant challenges the UN faces. The idea of reusability — where solutions developed for one context (e.g., South Sudan&rsquo;s climate tools) could be adapted for other regions facing similar issues — also underpins the InnerSource approach, potentially leading to future savings in development time and resources.</p>
+<h2 id="perceived-benefits-of-innersource">Perceived Benefits of InnerSource</h2>
+<p>By adopting InnerSource principles, <em>Reboot UN-tapped</em> yielded several perceived benefits for the United Nations:</p>
+<ul>
+<li><strong>Talent Identification and Utilization:</strong> The program successfully identified a significant pool of internal talent with strong technical and innovative skills that might otherwise have remained untapped. It provided a platform for staff to showcase their abilities and contribute beyond their traditional roles.</li>
+<li><strong>Enhanced Collaboration and Breaking Silos:</strong> A major benefit highlighted by participants was the opportunity to connect and collaborate with colleagues across different entities, regions, and hierarchical levels who they might never have met otherwise. This fostered a sense of community and broke down organizational silos, leading to &ldquo;amazing team collaboration.&rdquo;</li>
+<li><strong>Professional and Personal Growth:</strong> Participants reported significant professional and personal growth, broadening their horizons and gaining exposure to new concepts and real-world challenges. While technical skill development was not as extensive as some desired, the exposure to innovation processes and open source concepts was valuable for many.</li>
+<li><strong>Practical Solutions for Real-World Problems:</strong> The initiative resulted in 15 solutions for pressing peacekeeping challenges, some of which are actively being implemented. Solutions for South Sudan and Cyprus were developed much faster than typical UN projects, demonstrating the agility of this approach.</li>
+<li><strong>Increased Staff Engagement and Morale:</strong> The program provided an avenue for staff to feel more connected and engaged, addressing pre-existing frustrations about limited career development opportunities. The human aspect of working toward impactful solutions inspired participants to go &ldquo;above and beyond,&rdquo; including working during weekends and after hours.</li>
+<li><strong>Proof of Concept for UN 2.0:</strong> The success of <em>Reboot UN-tapped</em> served as a practical demonstration to senior management that the UN can &ldquo;walk the talk&rdquo; on its UN 2.0 vision for a more modern, adaptable, and agile organization through digital, data, and innovation capabilities.</li>
+<li><strong>Potential for Cost Savings and Reusability:</strong> Although not yet quantified, the solutions developed internally have the potential to save the UN money by reducing the need for external consultants and by being reusable across different missions or contexts with similar challenges. The South Sudan solution, for instance, could theoretically be applied in other countries facing similar climate-conflict issues.</li>
+<li><strong>Non-Hierarchical Work Environment:</strong> The challenge promoted a working environment where individuals from all levels could contribute and lead, fostering a more inclusive and innovative culture.</li>
+</ul>
+<h2 id="measuring-success-and-quantifying-benefits">Measuring Success and Quantifying Benefits</h2>
+<p>Currently, the success of <em>Reboot UN-tapped</em> is primarily measured through <strong>qualitative feedback and the successful development and initial implementation of solutions</strong>. Participant surveys were conducted, with completion being a prerequisite for receiving a certificate of participation. This feedback highlighted key benefits such as increased connectivity, professional growth, and involvement in real-world challenges. Strong support from Under-Secretaries-General also served as an indicator of perceived success at the leadership level.</p>
+<p>The team is candid about a current lack of <strong>quantifiable metrics</strong> for the perceived benefits, particularly in terms of financial savings or time efficiency. While the potential for cost savings through reusability (e.g., adapting the South Sudan climate solution for other regions) is recognized, this has not yet been formally quantified. The challenge developers also noted that their work itself did not incur direct financial costs, highlighting the internal time investment as the main expense.</p>
+<p>To quantify these benefits and build a stronger business case for future InnerSource initiatives, the team identified several approaches, including baseline cost comparisons against traditional external procurement, tracking the reuse of solutions across UN entities, measuring efficiency gains for end users, and tracking talent development and career progression over time.</p>
+<p>The team recognizes the need for these metrics to convince upper management to commit more resources, potentially in the form of a dedicated innovation fund or a shift in the IT department&rsquo;s operational model. The idea of an <strong>&ldquo;InnerSource maturity model&rdquo;</strong> was also suggested to assess current readiness and define future steps for fostering collaboration and transparency within the organization — defining specific goals for transparency, communication, and community building, and then establishing a framework to measure progress against them.</p>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<p>This case study was developed following a series of interviews with the <em>Reboot UN-tapped</em> team at the United Nations, in collaboration with the InnerSource Commons Foundation. We would like to thank everyone at the UN who took the time to share their experiences, including Beth Helen Magne-Watts and Melissa Quinn of the United Nations, and Daniel Izquierdo of the InnerSource Commons Foundation.</p>
+<p>If you would like to share your InnerSource story, please reach out to us at <a href="mailto:info@innersourcecommons.org">info@innersourcecommons.org</a>.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/pt-br/learn">Learn</a></b></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/learn/books">Books</a></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/learn/learning-path">Learning Path</a></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/learn/patterns">Patterns</a></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/learn/research">Research</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/pt-br/events/community-calls">Events</a></b></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/events/isc-2025">Summit 2025</a></li>
+          
+          <li><a href="https://gatherings.innersourcecommons.org/">Local Gatherings</a></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/events/past-summits">Past Summits</a></li>
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/pt-br/community">Community</a></b></li>
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/pt-br/stories">Stories</a></b></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/community/services">Services Directory</a></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/about/announcements">Announcements</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        
+        <ul class="list-unstyled footer-list">
+          
+          <li><b class="mt-2 d-block"><a href="https://innersourcecommons.org/pt-br/about">About</a></b></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/about/board">Board &amp; Governance</a></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/about/members">Members</a></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/about/sponsors">Sponsors</a></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/about/codeofconduct">Code of Conduct</a></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/about/contact">Contact Us</a></li>
+          
+          <li><a href="https://innersourcecommons.org/pt-br/about/privacy">Privacy Policy</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href='/pt-br/'>
+          <img width="" class="img-fluid" src="https://innersourcecommons.org/images/logo.png" alt="InnerSource Commons">
+        </a>
+        <p class="mb-4">O site está licenciado sob uma licença CC-BY-SA, a menos que indicado de outra forma.</p>
+        
+        
+        
+        <ul class="list-inline social-icons">
+          
+          <li class="list-inline-item"><a href="http://github.com/InnerSourceCommons"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCoSPSd6Or4F_vpjo4SmyoEA"><i class="ti-youtube"></i></a></li>
+          
+          <li class="list-inline-item"><a href="http://twitter.com/InnerSourceOrg"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://linkedin.com/company/innersourcecommons"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">© InnerSource Commons Foundation</small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="https://innersourcecommons.org/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://innersourcecommons.org/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://innersourcecommons.org/plugins/slick/slick.min.js"></script>
+
+<script src="https://innersourcecommons.org/plugins/youmax/youmax.js"></script>
+
+<script src="https://innersourcecommons.org/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://innersourcecommons.org/js/script.min.js"></script>
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7179Q3Y3T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H7179Q3Y3T');
+</script>
+
+</body>
+
+
+</html>
