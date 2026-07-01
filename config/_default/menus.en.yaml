@@ -70,7 +70,7 @@ main:
     parent: community
     weight: 2
   - name: Case Studies
-    URL: /stories/microsoft/
+    URL: /case-studies/
     parent: community
     weight: 3
   - name: Services Directory
