@@ -1,8 +1,9 @@
 ---
 layout: page
 title: 'The United Nations Put InnerSource to Work, and Shipped'
-image: "/images/about/announcements/2026-06-un-case-study.png"
+image: "/images/logos/united-nations.png"
 date: 2026-06-29
+featured: true
 type: "announcements"
 ---
 
