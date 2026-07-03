@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Reboot Untapped: Fostering Innovation and Collaboration within the UN"
+logo: "/images/logos/united-nations.png"
 ---
 
 ## Introduction to the Work Done
@@ -17,17 +18,23 @@ Three specific peacekeeping challenges were identified as themes for the competi
 
 The initiative received significant interest, with approximately 300 individuals expressing interest, eventually whittled down to 100 participants from 40 different UN offices and entities worldwide. Participants included individuals from various position types, with a near 50/50 gender parity, which was an unintentional but positive outcome. The challenge was non-hierarchical, allowing assistants to lead teams.
 
+![Reboot Untapped by the numbers: 100 staff in the cohort, 40+ UN entities represented, 25+ locations worldwide, ~50/50 gender parity, 15 prototypes built, 2 solutions now in the field](/images/case-studies/g1_by_the_numbers_isc.svg)
+
 The "Reboot Untapped" challenge was structured in four phases: challenge sourcing, team formation, accelerator program, and product submission and evaluation. The accelerator program included masterclasses on innovation, though participants often preferred direct engagement with subject matter experts. Coaching was provided, with dedicated individuals facilitating communication between teams and subject matter experts.
 
 Solutions were pitched in a 5-minute session and then evaluated by a team of subject matter experts and UN officials. Instead of a single winner, various awards were given to acknowledge all voluntary contributions, though 1-2 stronger solutions emerged from each challenge and are being moved forward for implementation. An internal platform called Unite Ideas, built on the Hype technology, served as a centralized repository for team information, documents, and concepts, and was also used by the evaluation team.
 
 Senior management actively supported the initiative, viewing it as a practical step towards the UN 2.0 vision of a modernized, adaptable, and agile organization. Feedback from participants highlighted benefits such as increased connectivity, opportunities for professional and personal growth, broadening horizons, and involvement in real-world challenges. While some challenges existed, such as team dynamics and the level of technical guidance, the overall experience was seen as a valuable learning opportunity for cultural change within the UN.
 
+![From interest to implementation: 400+ expressed interest, 100 selected to build, 15 prototypes built, 2 now live in Cyprus and South Sudan](/images/case-studies/g3_funnel_isc.svg)
+
 ## Why InnerSource was Adopted
 
 The adoption of InnerSource principles within the UN's "Reboot Untapped" initiative was driven by several key factors, primarily addressing the evolving needs and strategic vision of the organization.
 
 Firstly, there is a clear **business case for leveraging internal talent** in a cost-effective manner. Historically, the UN model often involved outsourcing development to external consultants and vendors. However, with increasingly tight budgets and a significant reduction in staff development funds, there's a recognized need to cultivate internal capabilities and do "more with less". InnerSource, by encouraging internal collaboration and contribution, allows the UN to develop solutions without incurring significant external costs. The time commitment of internal staff and the project team represented the primary cost, but no direct financial expenditure was made on the project itself.
+
+![They built it themselves: 100 UN staff, 0 outside vendors hired to do it. The UN met real peacekeeping challenges with talent it already had.](/images/case-studies/g2_built_themselves_isc.svg)
 
 Secondly, "Reboot Untapped" aligns with the broader **UN 2.0 vision**, which aims for a rejuvenated, more modern UN. This vision emphasizes advancing skills and potential in areas like digital data, innovation, behavioral science, and strategic foresight, all wrapped around organizational culture change. The initiative serves as a tangible demonstration of the UN "walking the talk" in this regard, proving that there is significant untapped talent within the organization that can contribute to these strategic goals.
 

@@ -1,6 +1,16 @@
   <div class="container">
+    {{ if .Params.logo }}
+    <div class="page-header-with-logo">
+      <img src="{{ .Params.logo }}" alt="{{ .Title }} logo" class="page-header-logo">
+      <div class="page-header-text">
+        <h1 class="display-3">{{ .Title | markdownify }}</h1>
+        {{ with .Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+      </div>
+    </div>
+    {{ else }}
     <h1 class="display-3">{{ .Title | markdownify }}</h1>
     {{ with .Params.subtitle }}
     <p>{{ . | markdownify }}</p>
+    {{ end }}
     {{ end }}
   </div>

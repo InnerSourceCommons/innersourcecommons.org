@@ -7,16 +7,15 @@ aliases:
 - /community/action/
 ---
   <div class="container">
-    <div class="row justify-content-center align-items-center">
-      {{< company-featured name="United Nations" image="/images/stories/united-nations.png" url="/case-studies/united-nations/" title="United Nations: Reboot UN-tapped" >}}
-      The UN Secretariat ran an eight-week accelerator on InnerSource principles, drawing 100 staff from more than 40 entities to build solutions to real peacekeeping challenges — with two now being implemented in missions in Cyprus and South Sudan.
-      {{< /company-featured >}}
-    </div>
-    <div class="row justify-content-center align-items-center">
-      {{< company-featured name="Microsoft" image="/images/logos/microsoft.png" url="microsoft" title="Microsoft DevOps Dojo InnerSource Case Study" >}}
-      Microsoft has been practicing InnerSource within the product groups to develop code for more than 5 years with early pockets of cross team collaboration on code reaching back many more years.
-      {{< /company-featured >}}
-    </div>
+
+{{< company-featured name="United Nations" image="/images/logos/united-nations.png" url="/case-studies/united-nations/" title="United Nations: Reboot Untapped" >}}
+The UN Secretariat ran an eight-week accelerator on InnerSource principles, drawing 100 staff from more than 40 entities to build solutions to real peacekeeping challenges — with two now being implemented in missions in Cyprus and South Sudan.
+{{< /company-featured >}}
+
+{{< company-featured name="Microsoft" image="/images/logos/microsoft.png" url="/case-studies/microsoft/" title="Microsoft: DevOps Dojo" >}}
+Microsoft has been practicing InnerSource within the product groups to develop code for more than 5 years with early pockets of cross team collaboration on code reaching back many more years.
+{{< /company-featured >}}
+
     <div class="row justify-content-center">
       {{< company name="3M" image="/images/logos/3m.png" article="https://github.com/customer-stories/3m" author_name="Kevin Truckenmiller" author_title="Lead DevOps Engineer in CRSL" >}}
       We’re moving towards more openness, which ultimately creates a communication culture and a generative culture, rather than one that’s bureaucratic and process-based.

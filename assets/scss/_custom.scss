@@ -212,6 +212,36 @@ ol.breadcrumb {
     margin-right: 50px;
 }
 
+.content img {
+    display: block;
+    margin: 2rem auto;
+    max-width: 620px;
+    width: 100%;
+}
+
+.page-header-with-logo {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    .page-header-logo {
+        width: 110px;
+        height: auto;
+        flex-shrink: 0;
+        object-fit: contain;
+    }
+
+    .page-header-text {
+        h1 { margin-bottom: 0.25rem; }
+    }
+
+    @media (max-width: 576px) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+}
+
 .speaker-bio p {
     overflow: hidden;
 }
