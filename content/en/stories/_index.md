@@ -8,12 +8,12 @@ aliases:
 ---
   <div class="container">
     <div class="row justify-content-center align-items-center">
-      {{< company-featured name="United Nations" image="/images/stories/united-nations.png" url="/case-studies/united-nations/" title="United Nations: Reboot UN-tapped" >}}
+      {{< company-featured name="United Nations" image="/images/logos/united-nations.png" url="/case-studies/united-nations/" title="United Nations: Reboot Untapped" >}}
       The UN Secretariat ran an eight-week accelerator on InnerSource principles, drawing 100 staff from more than 40 entities to build solutions to real peacekeeping challenges — with two now being implemented in missions in Cyprus and South Sudan.
       {{< /company-featured >}}
     </div>
     <div class="row justify-content-center align-items-center">
-      {{< company-featured name="Microsoft" image="/images/logos/microsoft.png" url="microsoft" title="Microsoft DevOps Dojo InnerSource Case Study" >}}
+      {{< company-featured name="Microsoft" image="/images/logos/microsoft.png" url="/case-studies/microsoft/" title="Microsoft: DevOps Dojo" >}}
       Microsoft has been practicing InnerSource within the product groups to develop code for more than 5 years with early pockets of cross team collaboration on code reaching back many more years.
       {{< /company-featured >}}
     </div>

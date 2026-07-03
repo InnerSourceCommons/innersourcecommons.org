@@ -101,7 +101,7 @@ main:
     weight: 2
     params:
   - name: InnerSource Stories
-    URL: /stories/microsoft/
+    URL: /stories/
     parent: learning
     weight: 3
     params:
