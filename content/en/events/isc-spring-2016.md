@@ -60,4 +60,4 @@ Looking forward to seeing you there!
 
 ### Hosts
 ![Bloomberg](/images/events/bloomberg.jpg)
-![Paypal](/images/events/paypal.png)
+![Paypal](/images/events/paypal.jpg)
