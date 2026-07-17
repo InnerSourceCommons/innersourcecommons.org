@@ -219,6 +219,12 @@ ol.breadcrumb {
     width: 100%;
 }
 
+.content {
+    ul, ol {
+        font-size: 16px;
+    }
+}
+
 .page-header-with-logo {
     display: flex;
     align-items: center;
