@@ -5,8 +5,17 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto">
+        {{ if .Params.logo }}
+        <div class="page-header-with-logo mb-4">
+          <img src="{{ .Params.logo | absURL }}" alt="{{ .Title }} logo" class="page-header-logo">
+          <div class="page-header-text">
+            <h2 class="mb-0">{{ .Title }}</h2>
+          </div>
+        </div>
+        {{ else }}
         <h2 class="mb-4">{{ .Title }}</h2>
         <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4 mt-1">
+        {{ end }}
         <div class="content">{{.Content}}</div>
         <div class="fw-500 mb-4 fl-r"><i class="ti-calendar text-dark me-1"></i> {{ .Params.Date.Format "January 2, 2006" }}</div>
       </div>
