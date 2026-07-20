@@ -13,7 +13,7 @@ Every year, leadership at InnerSource Commons changes hands a little: new voices
 
 Following this year's Board election, here's who will be leading the Foundation for the year ahead.
  
-## At a Glance
+### At a Glance
  
 | Role | Member Name |
 |---|---|
@@ -28,11 +28,11 @@ Following this year's Board election, here's who will be leading the Foundation 
 | Treasurer (Officer) | Georg Grütter |
 | Assistant Treasurer (Officer) | Tom Sadler |
  
-## Continuing to Lead
+### Continuing to Lead
  
 Four (4) Board Members are returning to build on work already underway: ** Addie Cobb ** (Chair), ** Jeff Bailey** (Secretary ), ** Yuki Hattori** (Member), and ** Isabel Drost-Fromm** (Member). Alongside them, ** Tom Sadler** continues as a non-director Foundation Officer, as the Assistant Treasurer.  Their continuity means a lot to the Foundation, and we're grateful to those who took up a new role during the appointment. 
  
-## New to the Board
+### New to the Board
  
 We're equally glad to welcome four (4) new Board Members for their first term: 
 
@@ -43,15 +43,15 @@ We're equally glad to welcome four (4) new Board Members for their first term:
 
 We are super thrilled to have such a great force and diverse experiences joining the board, and look forward to the great milestones they will achieve. 
  
-## Thank You to Our Outgoing Board
+### Thank You to Our Outgoing Board
  
 We also extend our deepest appreciation to our outgoing Board members - Clare Dillon, Matt Cobby, Daniel Izquierdo Cortázar, Jerry Tan, Cristina Coffe, and Danese Cooper. The Foundation runs better today because of the insights, commitment, and time they gave it.
  
-## How the Board Is Chosen
+### How the Board Is Chosen
  
 A quick note on process: the Board is elected annually by InnerSource Commons [Members](https://innersourcecommons.org/about/members/), who choose Directors for their expertise and their ability to help shape the Foundation's strategic vision.
  
-## A Word from Incoming Leadership
+### A Word from Incoming Leadership
  
 I'm genuinely excited about the board coming in with me. Around the table, we have a range of perspectives across industries, geographies, and ways of thinking about how software gets built, and that diversity is exactly what this next chapter of InnerSource Commons needs. Each incoming member brings something distinct: deep enterprise practice, community-building instinct, sharp thinking on governance, and real practitioner credibility. Together, they represent the kind of leadership the Foundation needs to meet the pace, complexity, and governance challenges facing engineering organizations today.
 
@@ -63,7 +63,7 @@ Stewarding the body of knowledge and turning it into practice is the work this b
 
 — **Addie Cobb, Chair, Board InnerSource Commons**
  
-## What's Next
+### What's Next
  
 The full list of the Foundation’s board members can be found on the [Board page](https://innersourcecommons.org/about/board/). The new Board's first meeting is already being scheduled. If there's something you'd like the Board to know, [get in touch](mailto:board@innersourcecommons.org).
  
