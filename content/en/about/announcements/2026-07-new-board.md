@@ -1,8 +1,7 @@
-
 ---
 layout: page
-title: 'InnerSource Commons welcomes new Board and Officers'
-image: "/images/about/announcements/"
+title: 'InnerSource Commons Welcomes new Board and Officers'
+image: "/images/about/announcements/2026-ISC-board-banner.png"
 date: 2026-07-09
 type: "announcements"
 ---
