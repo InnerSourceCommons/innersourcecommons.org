@@ -50,10 +50,13 @@ Jeff Bailey is a Principal Software Engineer at Nike. He has been an active memb
 {{< /board-member >}}
 
 {{< board-member name="Aaron Williamson" title="Assistant Secretary" image="/images/about/Aaron_Williamson.jpg" style="bg-light" >}}
-Aaron Williamson is the founding attorney at Williamson Legal, where he advises clients on technology transactions, software licensing, intellectual property, and open source issues, and serves as outside general counsel to open source foundations and other technology-focused nonprofits.
-He has more than ten years' experience providing legal counsel to companies, nonprofits, and technologists worldwide, on software licensing and open source, contracts, business disputes, computer crime and misuse, and nonprofit and tax-exempt issues.
-Aaron previously served as General Counsel and Director of Governance at the Fintech Open Source Foundation (FINOS), was a partner at Tor Ekeland P.C., worked in legal and compliance at IEEE, and was senior staff counsel at the Software Freedom Law Center.
-He holds a J.D. from the New York University School of Law and a B.S. in computer science from Taylor University.
+Aaron Williamson is an independent attorney who has advised clients on open source software matters for over 17 years.
+Aaron counsels clients on technology transactions and IP matters, including open source licensing, compliance, and community relations.
+He serves as outside general counsel to a number of open source- and technology-focused nonprofit organizations, advising organizations on all manner of legal issues, including corporate and regulatory compliance, contracts, and intellectual property.
+He has previously represented open source developers in litigation to enforce the terms of open source licenses.
+He now counsels clients on restorative approaches to conflict resolution.
+Before launching his own practice, Aaron served as general counsel to the Fintech Open Source Foundation (FINOS), a nonprofit foundation promoting open source collaboration in the financial services industry.
+He has also previously worked at IEEE, the Software Freedom Law Center, and in private practice.
 {{< /board-member >}}
 
 {{< board-member name="Georg Grütter" title="Treasurer" image="/images/about/Georg_Grutter.jpeg" >}}
