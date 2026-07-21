@@ -29,18 +29,18 @@ Addie Cobb is a strategic communications leader with nearly 20 years of experien
 {{< /board-member >}}
 
 {{< board-member name="Micaela Eller" title="President" image="/images/about/Micaela_Eller.jpg" >}}
-Micaela Eller leads the InnerSource program at EY, having previously built and run the InnerSource program at IBM.
-She has been an active voice in the InnerSource Commons community for several years, speaking at community calls and InnerSource Summits, serving on the 2025 Summit planning committee, and taking on the role of Summit Director for the 2026 Summit.
-Micaela has been closely involved in restructuring the Foundation's election and board organization processes, including a thorough review of the corporate bylaws.
-She also works to grow and sustain the Foundation's sponsor base, bringing both practitioner experience and organizational focus to the role of President.
+Micaela Eller is an Associate Director at EY, where she leads InnerSource enablement and works on human-centered AI.
+She spent nine years at IBM, most recently as Global Program Delivery Lead in the InnerSource Program Office at IBM Research, where she led IBM's global InnerSource and Open Innovation transformations.
+Before that she was a Senior Global Program Manager for IBM Watson and an agile transformation project manager and coach for IBM Cloud, following several years as a global project delivery manager at Amgen.
+Micaela is a certified Scrum Professional, Product Owner, and Scrum Master, and holds a degree from Boston University.
 {{< /board-member >}}
 
 {{< board-member name="Shane Coughlan" title="Vice President" image="/images/about/Shane_Coughlan.jpg" style="bg-light" >}}
 Shane Coughlan is Global Ambassador for OIN 2.0 at Open Invention Network, working to expand its patent non-aggression community.
 He brings executive-level experience from the Linux Foundation, where he spent eight years as General Manager of the OpenChain Project, leading the development of ISO/IEC 5230 and ISO/IEC 18974, the international standards for open source license compliance and security assurance.
 Shane also founded the European Legal Network, the largest professional community for open source legal practitioners, and has served on the board and general assembly of OpenForum Europe for over a decade.
-Shane has spoken at the InnerSource Commons Summit and other community events, and throughout his career has pursued efforts that span entire industries, building frameworks that bring organizations together across sectors.
-His ability to bridge open source governance, standards development, and community building brings a valuable cross-community perspective to the Board.
+He is also the founder of OpenDawn Studio, and co-founded the International Free and Open Source Software Law Review.
+Shane holds an MA in International Studies from the University of Birmingham.
 {{< /board-member >}}
 
 {{< board-member name="Jeff Bailey" title="Secretary" image="/images/about/Jeff_Bailey.png" >}}
@@ -48,10 +48,10 @@ Jeff Bailey is a Principal Software Engineer at Nike. He has been an active memb
 {{< /board-member >}}
 
 {{< board-member name="Aaron Williamson" title="Assistant Secretary" image="/images/about/Aaron_Williamson.jpg" style="bg-light" >}}
-Aaron Williamson is the founding attorney at Williamson Legal, and has advised clients on issues related to open source software and licensing for over 14 years.
-He has incorporated and advised several major open source foundations, helped businesses design and implement open source policies, worked with software companies to develop their open source strategies, and been involved in the drafting of major open source licenses.
-Aaron previously served as General Counsel and Director of Governance at the Fintech Open Source Foundation (FINOS), was a partner at Tor Ekeland P.C., served as in-house counsel for IEEE, and was senior staff counsel at the Software Freedom Law Center.
-He advises nonprofit organizations on formation, regulatory compliance, and governance, and has taught as an adjunct professor at the NYU School of Law Technology Law &amp; Policy Clinic.
+Aaron Williamson is the founding attorney at Williamson Legal, where he advises clients on technology transactions, software licensing, intellectual property, and open source issues, and serves as outside general counsel to open source foundations and other technology-focused nonprofits.
+He has more than ten years' experience providing legal counsel to companies, nonprofits, and technologists worldwide, on software licensing and open source, contracts, business disputes, computer crime and misuse, and nonprofit and tax-exempt issues.
+Aaron previously served as General Counsel and Director of Governance at the Fintech Open Source Foundation (FINOS), was a partner at Tor Ekeland P.C., worked in legal and compliance at IEEE, and was senior staff counsel at the Software Freedom Law Center.
+He holds a J.D. from the New York University School of Law and a B.S. in computer science from Taylor University.
 {{< /board-member >}}
 
 {{< board-member name="Georg Grütter" title="Treasurer" image="/images/about/Georg_Grutter.jpeg" >}}
@@ -61,8 +61,9 @@ Georg Grütter is an InnerSource evangelist and Developer Advocate at Robert Bos
 {{< board-member name="Guilherme Dellagustin" image="/images/about/Guilherme_Dellagustin.jpg" style="bg-light" >}}
 Guilherme Dellagustin is InnerSource Officer at SAP, where he drives InnerSource adoption through presentations, event organization, mentoring, and leading by example.
 He has been with SAP since 2010, working as a developer and senior developer on payroll solutions across Latin America and Europe before taking on the InnerSource Officer role, and has been promoting InnerSource at SAP and across the industry since 2019.
-Guilherme organized the European leg of the InnerSource Commons Summit 2025, contributes to the <a href="https://github.com/InnerSourceCommons/ispo-working-group/">InnerSource Program Office Working Group (ISPO WG)</a>, and provides coaching and leadership within the LATAM local community.
-He brings a practitioner's perspective and a strong commitment to growing InnerSource adoption across new regions.
+In his own words, promoting InnerSource is how he spreads the culture and values of open source.
+Guilherme organized the European leg of the InnerSource Summit 2025, is a consistent presence in the <a href="https://github.com/InnerSourceCommons/ispo-working-group/">InnerSource Program Office Working Group (ISPO WG)</a> and the LATAM community, and has given several presentations on InnerSource practice.
+He holds a degree in physics from the Federal University of Rio Grande do Sul.
 {{< /board-member >}}
 
 {{< board-member name="Isabel Drost-Fromm" image="/images/about/Isabel_Drost-Fromm.jpeg" >}}
