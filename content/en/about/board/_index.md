@@ -38,7 +38,7 @@ She is a certified Scrum Professional, Product Owner, and Scrum Master, and hold
 
 {{< board-member name="Shane Coughlan" title="Vice President" image="/images/about/Shane_Coughlan.jpg" style="bg-light" >}}
 Shane Coughlan is Global Ambassador for OIN 2.0 at Open Invention Network, working to expand its patent non-aggression community.
-He brings executive-level experience from the Linux Foundation, where he spent eight years as General Manager of the OpenChain Project, leading the development of ISO/IEC 5230 and ISO/IEC 18974, the international standards for open source license compliance and security assurance.
+He brings executive-level experience from the Linux Foundation, where he spent seven years as General Manager of the OpenChain Project, leading the development of ISO/IEC 5230 and ISO/IEC 18974, the international standards for open source license compliance and security assurance.
 Shane also founded the European Legal Network, the largest professional community for open source legal practitioners, and has served on the board and general assembly of OpenForum Europe for over a decade.
 He is also the founder of OpenDawn Studio, and co-founded the International Free and Open Source Software Law Review.
 Shane has made significant contributions to the InnerSource community, and throughout his career has built frameworks that bring organizations together across sectors.
