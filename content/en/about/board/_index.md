@@ -36,8 +36,9 @@ She also works to grow and sustain the Foundation's sponsor base, bringing both 
 {{< /board-member >}}
 
 {{< board-member name="Shane Coughlan" title="Vice President" image="/images/about/Shane_Coughlan.jpg" style="bg-light" >}}
-Shane Coughlan leads the OpenChain Project, where he has driven the development of internationally recognized certification and compliance standards for open source software.
-He brings executive-level experience from the Linux Foundation, where he served in a leadership capacity managing and growing open source projects on a global scale.
+Shane Coughlan is Global Ambassador for OIN 2.0 at Open Invention Network, working to expand its patent non-aggression community.
+He brings executive-level experience from the Linux Foundation, where he spent eight years as General Manager of the OpenChain Project, leading the development of ISO/IEC 5230 and ISO/IEC 18974, the international standards for open source license compliance and security assurance.
+Shane also founded the European Legal Network, the largest professional community for open source legal practitioners, and has served on the board and general assembly of OpenForum Europe for over a decade.
 Shane has spoken at the InnerSource Commons Summit and other community events, and throughout his career has pursued efforts that span entire industries, building frameworks that bring organizations together across sectors.
 His ability to bridge open source governance, standards development, and community building brings a valuable cross-community perspective to the Board.
 {{< /board-member >}}
@@ -47,9 +48,9 @@ Jeff Bailey is a Principal Software Engineer at Nike. He has been an active memb
 {{< /board-member >}}
 
 {{< board-member name="Aaron Williamson" title="Assistant Secretary" image="/images/about/Aaron_Williamson.jpg" style="bg-light" >}}
-Aaron Williamson is the founder of Williamson Legal, where for over 14 years he has advised clients on issues related to open source software and licensing.
+Aaron Williamson is the founding attorney at Williamson Legal, and has advised clients on issues related to open source software and licensing for over 14 years.
 He has incorporated and advised several major open source foundations, helped businesses design and implement open source policies, worked with software companies to develop their open source strategies, and been involved in the drafting of major open source licenses.
-Aaron previously served as General Counsel at the Fintech Open Source Foundation (FINOS), was a partner at Tor Ekeland P.C., served as in-house counsel for IEEE, and was senior staff counsel at the Software Freedom Law Center.
+Aaron previously served as General Counsel and Director of Governance at the Fintech Open Source Foundation (FINOS), was a partner at Tor Ekeland P.C., served as in-house counsel for IEEE, and was senior staff counsel at the Software Freedom Law Center.
 He advises nonprofit organizations on formation, regulatory compliance, and governance, and has taught as an adjunct professor at the NYU School of Law Technology Law &amp; Policy Clinic.
 {{< /board-member >}}
 
@@ -58,9 +59,10 @@ Georg Grütter is an InnerSource evangelist and Developer Advocate at Robert Bos
 {{< /board-member >}}
 
 {{< board-member name="Guilherme Dellagustin" image="/images/about/Guilherme_Dellagustin.jpg" style="bg-light" >}}
-Guilherme Dellagustin has been an active contributor across the InnerSource Commons community for several years.
-He has served as a regional lead for the InnerSource Commons Summit, contributes to the <a href="https://github.com/InnerSourceCommons/ispo-working-group/">InnerSource Program Office Working Group (ISPO WG)</a>, and provides coaching and leadership within the LATAM local community.
-Guilherme brings a practitioner's perspective and a strong commitment to growing InnerSource adoption across new regions.
+Guilherme Dellagustin is InnerSource Officer at SAP, where he drives InnerSource adoption through presentations, event organization, mentoring, and leading by example.
+He has been with SAP since 2010, working as a developer and senior developer on payroll solutions across Latin America and Europe before taking on the InnerSource Officer role, and has been promoting InnerSource at SAP and across the industry since 2019.
+Guilherme organized the European leg of the InnerSource Commons Summit 2025, contributes to the <a href="https://github.com/InnerSourceCommons/ispo-working-group/">InnerSource Program Office Working Group (ISPO WG)</a>, and provides coaching and leadership within the LATAM local community.
+He brings a practitioner's perspective and a strong commitment to growing InnerSource adoption across new regions.
 {{< /board-member >}}
 
 {{< board-member name="Isabel Drost-Fromm" image="/images/about/Isabel_Drost-Fromm.jpeg" >}}
@@ -78,7 +80,7 @@ Isabel Drost-Fromm is Open Source Strategist at Europace AG Germany. She`s a mem
   </p>
 </div>
 
-{{< board-member name="Tom Sadler" title="Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
+{{< board-member name="Tom Sadler" title="Assistant Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
 Tom Sadler is a Principal Software Engineer for BBC iPlayer and Sounds, working in the connected TV space and focusing on cross-team collaboration, including InnerSource. Tom has been involved with InnerSource Commons since 2019, speaking at multiple community events. He is a Trusted Committer on the InnerSource Learning Path project, and the Lead on publishing the Learning Path to innersourcecommons.org.
 {{< /board-member >}}
 
