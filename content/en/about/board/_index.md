@@ -114,7 +114,7 @@ Silona Bonewald is the Executive Director for IEEE SA OPEN, a comprehensive plat
 Maximilian Capraro is a researcher and doctoral candidate at the Open Source Research Group at Friedrich-Alexander-University Erlangen-Nürnberg. He worked on inner source in research projects with a variety of companies including Black Duck Software, Continental, and multiple Siemens business units. He developed the patch-flow measurement method (for measuring software development collaboration) and the first classification framework for inner source projects and programs. His research interests the quantification of software development collaboration, inner source governance including legal and taxation aspects, and many other things around inner source, open source, and software engineering.
 {{< /board-member >}}
 
-{{< board-member name="Matt Cobby" title="Secretary" image="/images/about/Matt_Cobby.png" >}}
+{{< board-member name="Matt Cobby" image="/images/about/Matt_Cobby.png" >}}
 Matthew Cobby is the AI Network Lead at the Commonwealth Bank of Australia (CBA), where is exploring the intersection of Generative AI and InnerSource. For most of his career, Matt Cobby’s mission has been to improve the daily lives of software engineering teams, wrangling people and technology to build highly effective teams through better developer experiences. Previously a founder of an AI startup, he’s also a veteran of consulting with Deloitte where he was a Director of Engineering advising CTO/CIOs. At  National Australia Bank he ran a large-scale InnerSource program and led the Cloud Guild program, successfully training more than 7,000 staff in cloud technologies.
 Matt has a passion for mentoring engineers towards engineering excellence and is an active supporter of technical and local communities. Matt serves on the board as Secretary and is a Member of the InnerSource Commons.
 {{< /board-member >}}
@@ -127,7 +127,7 @@ Cristina Coffey is a multidisciplinary leader with a background in software deve
 Danese Cooper is the founder of InnerSource Commons. She is a long term open source advocate, having previously served as the Head of open source software at PayPal, CTO of the Wikimedia Foundation, Chief Open Source Evangelist for Sun, and Senior Director of open source strategies for Intel. Danese was also the inaugural chairperson of the Node.js Foundation. She concentrates on creating healthy open source communities and has served on the Boards of the Drupal Association, the Open Source Initiative and the Open Source Hardware Association. She has also advised Mozilla and the Apache Software Foundation. Danese runs a successful open source consultancy that counts the Bill & Melinda Gates Foundation, the SETI Institute, Harris, and Numenta as clients. She has been known to knit through meetings.
 {{< /board-member >}}
 
-{{< board-member name="Clare Dillon" title="Vice President" image="/images/about/Clare_Dillon.jpeg" >}}
+{{< board-member name="Clare Dillon" image="/images/about/Clare_Dillon.jpeg" >}}
 With over 25 years' experience in the technology industry, Clare Dillon is currently a researcher with Lero, the Science Foundation Ireland's Research Centre for Software, where she focuses on InnerSource. Clare also works with CURIOSS, a global community for  university and research institution OSPOs (Open Source Program Offices). Clare has been participating in the InnerSource Commons community since 2019. From 2021-2023, Clare served as the inaugural Executive Director of the InnerSource Commons Foundation. Previously, Clare was a member of the Microsoft Ireland Leadership Team for eight years; heading up their Developer Evangelism Group. Clare is also a certified coach and frequently speaks at international conferences and corporate events on topics relating to open collaboration and the future of work.
 {{< /board-member >}}
 
@@ -135,13 +135,13 @@ With over 25 years' experience in the technology industry, Clare Dillon is curre
 Jacob Green, the founder of Mosslabs.io, is an open source artist, strategist & systems builder working to expand the impact and application of Open Source in society globally. Hailing from Baltimore, passionate about open source in cities & universities, and working to connect institutions via open source. Prior to Mosslabs.io, Jacob was Director of Strategic Initiatives at LTNGlobal, building a unique global video transport network from the ground up and from first principles.
 {{< /board-member >}}
 
-{{< board-member name="Yuki Hattori" title="President" image="/images/about/Yuki_Hattori.jpg" >}}
+{{< board-member name="Yuki Hattori" image="/images/about/Yuki_Hattori.jpg" >}}
 Yuki Hattori is a Senior Architect at GitHub, where he drives GitHub adoption across global organizations.
 As a leader in the global InnerSource movement, Yuki provided strategic direction and leadership for the foundation while expanding InnerSource methodology worldwide. He has coordinated local community leaders and fostered downstream adoption of InnerSource practices, successfully expanding the approach to companies and countries globally.
 Yuki also serves as a technical advisor for the Information Technology Promotion Agency (IPA), a Japanese government organization, where he contributes to the operational implementation of open source strategies at the national level in Japan.
 {{< /board-member >}}
 
-{{< board-member name="Daniel Izquierdo Cortázar" title="Chair" image="/images/about/Daniel_Izquierdo.jpeg" >}}
+{{< board-member name="Daniel Izquierdo Cortázar" image="/images/about/Daniel_Izquierdo.jpeg" >}}
 Daniel Izquierdo Cortázar is a researcher and one of the founders of Bitergia, a company that provides open source business intelligence services based on development analytics risk management and software production indicators at scale. Currently the Chief Executive Officer at Bitergia, he is focused on the quality of the data; research of new metrics, analysis; and studies of interest for Bitergia customers via data mining and processing. Daniel holds a PhD in free software engineering from the Universidad Rey Juan Carlos in Madrid, where he focused on the analysis of buggy developer activity patterns in the Mozilla Community. Daniel serves on the Board and is a Member of the InnerSource Commons, the CHAOSS community and the Apereo Foundation.
 {{< /board-member >}}
 
@@ -149,7 +149,7 @@ Daniel Izquierdo Cortázar is a researcher and one of the founders of Bitergia, 
 Klaas-Jan Stol is a lecturer with University College Cork, Ireland, a Funded Investigator with Lero, the Science Foundation Ireland Research Centre for Software, and a Scientific Advisor with SINTEF, Norway. As an academic, he conducts research on contemporary software development approaches, as well as human and organizational aspects. He has long had an interest in InnerSource, and has published several papers on the topic. Klaas holds a PhD from the University of Limerick.
 {{< /board-member >}}
 
-{{< board-member name="Katie Schueths" title="Assistant Secretary" image="/images/about/Katie_Schueths.jpg" >}}
+{{< board-member name="Katie Schueths" image="/images/about/Katie_Schueths.jpg" >}}
 Katie Schueths leads the InnerSource program at Analog Devices Inc (ADI). She is building an InnerSource framework at ADI to help improve collaboration, code reuse, and documentation across their engineering organization. Previously, she started the InnerSource program at Indeed. She is part of the InnerSource Commons Marketing Group, helping to plan monthly community calls and events. In her free time, Katie enjoys running operational logistics for volunteer-led community arts events.
 {{< /board-member >}}
 
