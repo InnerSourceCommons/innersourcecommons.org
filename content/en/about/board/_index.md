@@ -74,14 +74,21 @@ Isabel Drost-Fromm is Open Source Strategist at Europace AG Germany. She`s a mem
 
 
 <div class="section-first container">
-    <h2>Elected Officers:</h2>
+    <h2>Other Officers:</h2>
 </div>
 
 <div class="container">
   <p>
-    The following elected Officers do not sit on the Board of Directors.
+    The following Officers do not sit on the Board of Directors.
   </p>
 </div>
+
+{{< board-member name="Russell Rutledge" title="Executive Director" image="/images/about/Russell_Rutledge.jpg" >}}
+Russ Rutledge is the Executive Director of the InnerSource Commons Foundation.
+He previously served as Senior Director of InnerSource and Collaboration at WellSky, where he led a transformational change towards broad and pervasive InnerSource as the normal way that work gets done.
+Before that, Russ founded and led the Developer Collaboration effort at Nike.
+Russ's drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process.
+{{< /board-member >}}
 
 {{< board-member name="Tom Sadler" title="Assistant Treasurer" image="/images/about/Tom_Sadler.jpg" style="bg-light" >}}
 Tom Sadler is a Principal Software Engineer for BBC iPlayer and Sounds, working in the connected TV space and focusing on cross-team collaboration, including InnerSource. Tom has been involved with InnerSource Commons since 2019, speaking at multiple community events. He is a Trusted Committer on the InnerSource Learning Path project, and the Lead on publishing the Learning Path to innersourcecommons.org.
@@ -140,14 +147,6 @@ Daniel Izquierdo Cortázar is a researcher and one of the founders of Bitergia, 
 
 {{< board-member name="Klaas-Jan Stol" image="/images/about/Klaas-Jan_Stol.jpg" >}}
 Klaas-Jan Stol is a lecturer with University College Cork, Ireland, a Funded Investigator with Lero, the Science Foundation Ireland Research Centre for Software, and a Scientific Advisor with SINTEF, Norway. As an academic, he conducts research on contemporary software development approaches, as well as human and organizational aspects. He has long had an interest in InnerSource, and has published several papers on the topic. Klaas holds a PhD from the University of Limerick.
-{{< /board-member >}}
-
-{{< board-member name="Russell Rutledge" image="/images/about/Russell_Rutledge.jpg" >}}
-Russ Rutledge is the Senior Director of InnerSource and Collaboration at WellSky.
-WellSky is a leading technology company offering a range of software solutions that help organizations across the healthcare continuum.
-In this role, Russ is leading a transformational change in the company towards broad and pervasive InnerSource as the normal way that work gets done.
-Previously, Russ founded and led the Developer Collaboration effort at Nike.
-Russ's drive and passion is to enable all software engineers to achieve incredible technical and business throughput via quality tooling and streamlined work process.
 {{< /board-member >}}
 
 {{< board-member name="Katie Schueths" title="Assistant Secretary" image="/images/about/Katie_Schueths.jpg" >}}
