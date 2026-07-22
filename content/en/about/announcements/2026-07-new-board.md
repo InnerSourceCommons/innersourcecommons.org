@@ -24,7 +24,7 @@ Following this year's Board election, here's who will be leading the Foundation 
 | Assistant Secretary | Aaron Williamson|
 | Board Member | Guilherme Dellagustin|
 | Board Member | Isabel Drost-Fromm  |
-| Treasurer (Officer) | Georg Grütter |
+| Treasurer | Georg Grütter |
 | Assistant Treasurer (Officer) | Tom Sadler |
  
 ### Continuing to Lead
