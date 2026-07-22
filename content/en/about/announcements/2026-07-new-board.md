@@ -15,7 +15,8 @@ Following this year's Board election, here's who will be leading the Foundation 
  
 ### At a Glance
  
-| Role | Member Name |
+| **Role** | **Member Name** |
+``
 |---|---|
 | Chair | Addie Cobb |
 | President | Micaela Eller |
