@@ -29,11 +29,11 @@ Addie Cobb is a strategic communications leader with nearly 20 years of experien
 {{< /board-member >}}
 
 {{< board-member name="Micaela Eller" title="President" image="/images/about/Micaela_Eller.jpg" >}}
-Micaela Eller is an Associate Director at EY, where she leads InnerSource enablement and works on human-centered AI.
-She spent nine years at IBM, most recently as Global Program Delivery Lead in the InnerSource Program Office at IBM Research, where she led IBM's global InnerSource and Open Innovation transformations.
-Before that she was a Senior Global Program Manager for IBM Watson and an agile transformation project manager and coach for IBM Cloud, following several years as a global project delivery manager at Amgen.
-Within InnerSource Commons, Micaela has been involved in restructuring the election process and the board organization process.
-She is a certified Scrum Professional, Product Owner, and Scrum Master, and holds a degree from Boston University.
+Micaela Eller is an Associate Director at EY, where she leads InnerSource enablement strategy and champions collaborative ways of working at the intersection of technology, community, and enterprise transformation.
+Prior to joining EY, she spent more than nine years at IBM advancing Agile, InnerSource, and open collaboration practices across global engineering organizations.
+Micaela is excited to join the InnerSource Commons Foundation Board of Directors and honored to serve as the Foundation’s newly elected President.
+Anchored by a servant leadership mindset and human-centered view of innovation, she is focused on enabling and growing the global InnerSource Commons community of practitioners by creating spaces where people can share knowledge, build trust, learn from one another, and apply InnerSource as a practical path to meaningful organizational impact.
+Looking ahead, she hopes to help expand the Foundation’s global reach, strengthen connections across the practitioner ecosystem, and support the next generation of InnerSource leaders as they bring open collaboration practices to their teams and organizations.
 {{< /board-member >}}
 
 {{< board-member name="Shane Coughlan" title="Vice President" image="/images/about/Shane_Coughlan.jpg" style="bg-light" >}}
