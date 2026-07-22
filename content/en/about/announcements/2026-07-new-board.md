@@ -24,13 +24,12 @@ Following this year's Board election, here's who will be leading the Foundation 
 | Assistant Secretary | Aaron Williamson|
 | Board Member | Guilherme Dellagustin|
 | Board Member | Isabel Drost-Fromm  |
-| Board Member | Yuki Hattori |
 | Treasurer (Officer) | Georg Grütter |
 | Assistant Treasurer (Officer) | Tom Sadler |
  
 ### Continuing to Lead
  
-Four (4) Board Members are returning to build on work already underway: ** Addie Cobb ** (Chair), ** Jeff Bailey** (Secretary ), ** Yuki Hattori** (Member), and ** Isabel Drost-Fromm** (Member). Alongside them, ** Tom Sadler** continues as a non-director Foundation Officer, as the Assistant Treasurer.  Their continuity means a lot to the Foundation, and we're grateful to those who took up a new role during the appointment. 
+Four (4) Board Members are returning to build on work already underway: ** Addie Cobb ** (Chair), ** Jeff Bailey** (Secretary ), and ** Isabel Drost-Fromm** (Member). Alongside them, ** Tom Sadler** continues as a non-director Foundation Officer, as the Assistant Treasurer.  Their continuity means a lot to the Foundation, and we're grateful to those who took up a new role during the appointment. 
  
 ### New to the Board
  
@@ -45,7 +44,7 @@ We are super thrilled to have such a great force and diverse experiences joining
  
 ### Thank You to Our Outgoing Board
  
-We also extend our deepest appreciation to our outgoing Board members - Clare Dillon, Matt Cobby, Daniel Izquierdo Cortázar, Jerry Tan, Cristina Coffe, and Danese Cooper. The Foundation runs better today because of the insights, commitment, and time they gave it.
+We also extend our deepest appreciation to our outgoing Board members - Clare Dillon, Matt Cobby, Daniel Izquierdo Cortázar, Jerry Tan, Cristina Coffe, Yuki Hattori, and Danese Cooper. The Foundation runs better today because of the insights, commitment, and time they gave it.
  
 ### How the Board Is Chosen
  
