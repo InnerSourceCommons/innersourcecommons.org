@@ -29,7 +29,7 @@ Following this year's Board election, here's who will be leading the Foundation 
  
 ### Continuing to Lead
  
-Four (4) Board Members are returning to build on work already underway: ** Addie Cobb ** (Chair), ** Jeff Bailey** (Secretary ), and ** Isabel Drost-Fromm** (Member). Alongside them, ** Tom Sadler** continues as a non-director Foundation Officer, as the Assistant Treasurer.  Their continuity means a lot to the Foundation, and we're grateful to those who took up a new role during the appointment. 
+Four (4) Board Members are returning to build on work already underway: **Addie Cobb** (Chair), **Jeff Bailey** (Secretary ), and **Isabel Drost-Fromm** (Member). Alongside them, **Tom Sadler** continues as a non-director Foundation Officer, as the Assistant Treasurer.  Their continuity means a lot to the Foundation, and we're grateful to those who took up a new role during the appointment. 
  
 ### New to the Board
  
