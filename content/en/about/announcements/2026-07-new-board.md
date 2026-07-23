@@ -44,7 +44,7 @@ We are super thrilled to have such a great force and diverse experiences joining
 
 ### Thank You to Our Outgoing Board
 
-We also extend our deepest appreciation to our outgoing Board members - Clare Dillon, Matt Cobby, Daniel Izquierdo Cortázar, Jerry Tan, Cristina Coffey, and Danese Cooper. The Foundation runs better today because of the insights, commitment, and time they gave it.
+We also extend our deepest appreciation to our outgoing Board members - Clare Dillon, Matt Cobby, Daniel Izquierdo Cortázar, Jerry Tan, Cristina Coffey, Yuki Hattori, and Danese Cooper. The Foundation runs better today because of the insights, commitment, and time they gave it.
 
 ### How the Board Is Chosen
 
