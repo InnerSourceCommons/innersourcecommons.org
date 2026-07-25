@@ -10,7 +10,7 @@ type: "announcements"
 
 ### A New Case Study from UN Open Source Week
 
-A new case study from UN Open Source Week documents **Reboot UN-tapped**, an eight-week accelerator run by the UN Secretariat on InnerSource principles. 100 staff from more than 40 UN entities, across 25-plus locations, built solutions to real peacekeeping challenges using internal talent rather than outside vendors.
+A new case study from UN Open Source Week documents **Reboot Untapped**, an eight-week accelerator run by the UN Secretariat on InnerSource principles. 100 staff from more than 40 UN entities, across 25-plus locations, built solutions to real peacekeeping challenges using internal talent rather than outside vendors.
 
 Fifteen prototypes came out of it. Two are now being implemented in missions in Cyprus and South Sudan.
 
