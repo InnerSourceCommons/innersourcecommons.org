@@ -6,30 +6,30 @@ image: "/images/learn/InnerSourceInAction.jpg"
 aliases:
 - /community/action/
 ---
-  <div class="container">
+<div class="container">
 
-{{< company-featured name="United Nations" image="/images/logos/united-nations.png" url="/case-studies/united-nations/" title="United Nations: Reboot Untapped" >}}
-The UN Secretariat ran an eight-week accelerator on InnerSource principles, drawing 100 staff from more than 40 entities to build solutions to real peacekeeping challenges — with two now being implemented in missions in Cyprus and South Sudan.
-{{< /company-featured >}}
+  {{< company-featured name="United Nations" image="/images/logos/united-nations.png" url="/case-studies/united-nations/" title="United Nations: Reboot Untapped" >}}
+  The UN Secretariat ran an eight-week accelerator on InnerSource principles, drawing 100 staff from more than 40 entities to build solutions to real peacekeeping challenges — with two now being implemented in missions in Cyprus and South Sudan.
+  {{< /company-featured >}}
 
-{{< company-featured name="Microsoft" image="/images/logos/microsoft.png" url="/case-studies/microsoft/" title="Microsoft: DevOps Dojo" >}}
-Microsoft has been practicing InnerSource within the product groups to develop code for more than 5 years with early pockets of cross team collaboration on code reaching back many more years.
-{{< /company-featured >}}
+  {{< company-featured name="Microsoft" image="/images/logos/microsoft.png" url="/case-studies/microsoft/" title="Microsoft: DevOps Dojo" >}}
+  Microsoft has been practicing InnerSource within the product groups to develop code for more than 5 years with early pockets of cross team collaboration on code reaching back many more years.
+  {{< /company-featured >}}
 
-    <div class="row justify-content-center">
-      {{< company name="3M" image="/images/logos/3m.png" article="https://github.com/customer-stories/3m" author_name="Kevin Truckenmiller" author_title="Lead DevOps Engineer in CRSL" >}}
-      We’re moving towards more openness, which ultimately creates a communication culture and a generative culture, rather than one that’s bureaucratic and process-based.
-      {{< /company >}}
-      {{< company name="ADEO" image="/images/logos/adeo.png" article="https://github.com/customer-stories/adeo" author_name="Guilherme Guitte" author_title="Lead Developer Advocate" >}}
-      InnerSource paves the way for ADEO to introduce new open source projects and give developers more freedom.
-      {{< /company >}}
-      {{< company name="Adobe" image="/images/logos/adobe.png" article="https://medium.com/adobetech/open-development-inner-source-and-open-source-46c2ba174be6" >}}
-      {{< /company >}}
-       {{< company name="Age of Peers" image="/images/events/age of peers.png" article="https://ageofpeers.com/2016/05/09/an-open-source-approach-to-community-culture/" >}}
-      {{< /company >}}
-     {{< company name="Ahold Delhaize" image="/images/logos/ahold.png" article="https://github.com/customer-stories/ahold-delhaize" author_name="Joost Hofman" author_title="Head of Tech Enabling" >}}
-      If we give people the right tools and the right platform, it’s a start. We can share more within our company and with each other, growing as an InnerSource organization.
-      {{< /company >}}
+  <div class="row justify-content-center">
+    {{< company name="3M" image="/images/logos/3m.png" article="https://github.com/customer-stories/3m" author_name="Kevin Truckenmiller" author_title="Lead DevOps Engineer in CRSL" >}}
+    We’re moving towards more openness, which ultimately creates a communication culture and a generative culture, rather than one that’s bureaucratic and process-based.
+    {{< /company >}}
+    {{< company name="ADEO" image="/images/logos/adeo.png" article="https://github.com/customer-stories/adeo" author_name="Guilherme Guitte" author_title="Lead Developer Advocate" >}}
+    InnerSource paves the way for ADEO to introduce new open source projects and give developers more freedom.
+    {{< /company >}}
+    {{< company name="Adobe" image="/images/logos/adobe.png" article="https://medium.com/adobetech/open-development-inner-source-and-open-source-46c2ba174be6" >}}
+    {{< /company >}}
+      {{< company name="Age of Peers" image="/images/events/age of peers.png" article="https://ageofpeers.com/2016/05/09/an-open-source-approach-to-community-culture/" >}}
+    {{< /company >}}
+    {{< company name="Ahold Delhaize" image="/images/logos/ahold.png" article="https://github.com/customer-stories/ahold-delhaize" author_name="Joost Hofman" author_title="Head of Tech Enabling" >}}
+    If we give people the right tools and the right platform, it’s a start. We can share more within our company and with each other, growing as an InnerSource organization.
+    {{< /company >}}
       {{< company name="AIRBUS" image="/images/logos/airbus.png" video="https://www.youtube.com/watch?v=QIz_czuoREM" >}}
       {{< /company >}}
       {{< company name="Alliander" image="/images/logos/alliander.png" video="https://youtu.be/Q6yCZI4f2bo?t=1131" >}}
@@ -86,7 +86,7 @@ Microsoft has been practicing InnerSource within the product groups to develop c
       {{< company name="Comcast" image="/images/logos/comcast.png" video="https://www.youtube.com/watch?v=msD-8-yrGfs&t=6s" author_name="Nithya Ruff" author_title="Head of Comcast’s Open Source Program Office" >}}
       InnerSource helped us create a community inside the company... InnerSource is truly a cultural transformation.
       {{< /company >}}
-       {{< company name="Commonwealth Bank Austrailia" image="/images/logos/cba.png" article="https://www.itnews.com.au/news/cba-to-treat-its-software-like-food-in-the-fridge-570930" >}}
+        {{< company name="Commonwealth Bank Austrailia" image="/images/logos/cba.png" article="https://www.itnews.com.au/news/cba-to-treat-its-software-like-food-in-the-fridge-570930" >}}
       {{< /company >}}
       {{< company name="CHR" image="/images/logos/chr.png" article="https://github.com/customer-stories/ch-robinson/" >}}
       {{< /company >}}
@@ -310,4 +310,4 @@ Microsoft has been practicing InnerSource within the product groups to develop c
       {{< company name="Zymple" image="/images/logos/zymple.png" video="https://youtu.be/QWbxXp5-nOQ" >}}
       {{< /company >}}
     </div>
-  </div>
+</div>
