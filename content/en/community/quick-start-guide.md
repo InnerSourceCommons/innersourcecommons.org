@@ -145,7 +145,7 @@ You have time and skills and want to make a difference. Jump in:
 - Learn about the [InnerSource Commons Foundation](/about/)
 - Join our [Slack](/slack)
 - Attend (or better yet, offer to speak at or facilitate!) a [Community Call](/events/community-calls/)
-- Offer to [Volunteer at Summit (November 2025)](https://innersourcecommons.slack.com/archives/C08FEDXH4GP)
+- Offer to [Volunteer at Summit](https://docs.google.com/forms/d/e/1FAIpQLScJl68JOJla9luOd4lRIvLCRMCHtKQY_ReW_KQC4HO_pdXd5Q/viewform)
 - Learn about the [Groups](/community/) inside the InnerSource Commons
 - Begin to connect with areas that align most with your interests:
 

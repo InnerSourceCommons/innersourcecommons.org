@@ -70,7 +70,7 @@ main:
     parent: community
     weight: 2
   - name: Case Studies
-    URL: /stories/microsoft/
+    URL: /case-studies/
     parent: community
     weight: 3
   - name: Services Directory
@@ -101,7 +101,7 @@ main:
     weight: 2
     params:
   - name: InnerSource Stories
-    URL: /stories/microsoft/
+    URL: /stories/
     parent: learning
     weight: 3
     params:
@@ -165,6 +165,12 @@ main:
     URL: https://gatherings.innersourcecommons.org/
     parent: events
     weight: 2
+    params:
+  - name: InnerSource Summit 2026
+    URL: /events/isc-2026/
+    parent: events
+    weight: 3
+    identifier: summit-2026
     params:
   # - name: InnerSource Summit 2025
   #   URL: /events/isc-2025/

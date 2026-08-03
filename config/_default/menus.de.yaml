@@ -253,8 +253,8 @@ footer_middle:
     URL: events/community-calls
     weight: 1
     post: bold
-  - name: Summit 2025
-    URL: events/isc-2025
+  - name: Summit 2026
+    URL: events/isc-2026
     weight: 2
   - name: Local Gatherings
     URL: https://gatherings.innersourcecommons.org/
