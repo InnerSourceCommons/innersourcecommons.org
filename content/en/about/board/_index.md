@@ -46,7 +46,7 @@ He holds an MA in International Studies from the University of Birmingham.
 {{< /board-member >}}
 
 {{< board-member name="Jeff Bailey" title="Secretary" image="/images/about/Jeff_Bailey.png" >}}
-Jeff Bailey is a Principal Software Engineer at Nike. He has been an active member of the InnerSource Commons community since 2021 and became a formal member in 2024. Jeff is a Trusted Committer and a member of the <a href="https://github.com/InnerSourceCommons/ispo-working-group/">InnerSource Program Office Working Group (ISPO WG)</a>, where he contributes to shaping best practices and enabling organizational scale. He is passionate about driving InnerSource and Open Source communities of practice to power global platform engineering efforts, and has played a key role in scaling these efforts at Nike. Jeff focuses on fostering collaboration, reducing organizational friction, and creating sustainable software systems that enable teams to share, contribute, and innovate more effectively. 
+Jeff Bailey is a Principal Software Engineer at Nike. He has been an active member of the InnerSource Commons community since 2021 and became a formal member in 2024. Jeff is a Trusted Committer and a member of the <a href="https://github.com/InnerSourceCommons/innersource-working-group/">InnerSource Working Group</a>, where he contributes to shaping best practices and enabling organizational scale. He is passionate about driving InnerSource and Open Source communities of practice to power global platform engineering efforts, and has played a key role in scaling these efforts at Nike. Jeff focuses on fostering collaboration, reducing organizational friction, and creating sustainable software systems that enable teams to share, contribute, and innovate more effectively. 
 {{< /board-member >}}
 
 {{< board-member name="Aaron Williamson" title="Assistant Secretary" image="/images/about/Aaron_Williamson.jpg" style="bg-light" >}}
@@ -67,7 +67,7 @@ Georg Grütter is an InnerSource evangelist and Developer Advocate at Robert Bos
 Guilherme Dellagustin is InnerSource Officer at SAP, where he drives InnerSource adoption through presentations, event organization, mentoring, and leading by example.
 He has been with SAP since 2010, working as a developer and senior developer on payroll solutions across Latin America and Europe before taking on the InnerSource Officer role, and has been promoting InnerSource at SAP and across the industry since 2019.
 In his own words, promoting InnerSource is how he spreads the culture and values of open source.
-Guilherme organized the European leg of the InnerSource Summit 2025, is a consistent presence in the <a href="https://github.com/InnerSourceCommons/ispo-working-group/">InnerSource Program Office Working Group (ISPO WG)</a> and the LATAM community, and has given several presentations on InnerSource practice.
+Guilherme organized the European leg of the InnerSource Summit 2025, is a consistent presence in the <a href="https://github.com/InnerSourceCommons/innersource-working-group/">InnerSource Working Group (ISWG)</a> and the LATAM community, and has given several presentations on InnerSource practice.
 He holds a degree in physics from the Federal University of Rio Grande do Sul.
 {{< /board-member >}}
 

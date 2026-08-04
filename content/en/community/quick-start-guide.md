@@ -59,14 +59,14 @@ You’re interested in potentially engaging, but don’t have much time. Start s
 - Begin to connect with areas that align most with your interests:
 
 
-### ISPO Working Group
+### InnerSource Working Group
 
-**Description:** This working group is for those who are managing InnerSource projects, working in established ISPOs, or looking to start an ISPO in their company. They may have experience to share with others, or they may be looking for guidance and advice. This group meets biweekly in APAC and NA Time Zones and collaborates asynchronously on GitHub and [Slack](/slack).
+**Description:** This working group is for InnerSource practitioners. They may have experience to share with others, or they may be looking for guidance and advice. This group meets biweekly in APAC and NA Time Zones and collaborates asynchronously on GitHub and [Slack](/slack).
 
-- Join [Slack](/slack) and the ISPO working group channel
-- Watch the [introductory video](https://www.youtube.com/watch?v=r8Ce7GlwBeA)
-- Read through the group’s [Website](https://innersourcecommons.github.io/ispo-working-group/)
-- Attend 1 [ISPO Working Group meeting](https://calendar.google.com/calendar/u/0/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4@group.calendar.google.com)
+- Join [Slack](/slack) and the #innersource-working-group channel
+- Watch the [introductory video](https://github.com/InnerSourceCommons/innersource-working-group/tree/main#recording)
+- Read through the group's [Website](https://innersourcecommons.github.io/innersource-working-group/)
+- Attend 1 [InnerSource Working Group meeting](https://calendar.google.com/calendar/u/0/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4@group.calendar.google.com)
 
 ### Patterns Working Group
 **Description:** This working group is for those who are managing InnerSource projects and looking to solve or share solutions to specific obstacles that are often encountered. This group works asynchronously in GitHub and [Slack](/slack).
@@ -100,14 +100,14 @@ You are interested in building loose connections with the community and have a l
 - Begin to connect with areas that align most with your interests:
 
 
-## ISPO Working Group
+## InnerSource Working Group
 
-**Description:** This working group is for those who are managing InnerSource projects, working in established ISPOs, or looking to start an ISPO in their company. They may have experience to share with others, or they may be looking for guidance and advice. This group meets biweekly in APAC and NA Time Zones and collaborates asynchronously on GitHub and [Slack](/slack).
+**Description:** This working group is for all InnerSource practitioners. They may have experience to share with others, or they may be looking for guidance and advice. This group meets biweekly in APAC and NA Time Zones and collaborates asynchronously on GitHub and [Slack](/slack).
 
-- Join [Slack](/slack) and the ISPO working group channel
-- Watch the [introductory video](https://www.youtube.com/watch?v=r8Ce7GlwBeA)
-- Read through the group’s [Website](https://innersourcecommons.github.io/ispo-working-group/)
-- Add the [ISPO Working Group meeting](https://calendar.google.com/calendar/u/0/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4@group.calendar.google.com) to your calendar and plan to attend regularly
+- Join [Slack](/slack) and the #innersource-working-group channel
+- Watch the [introductory video](https://github.com/InnerSourceCommons/innersource-working-group/tree/main#recording)
+- Read through the group's [Website](https://innersourcecommons.github.io/innersource-working-group/)
+- Add the [InnerSource Working Group meeting](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Nzd2cmJzOTJuaGVvZjQyb3U4NmpybjBtcXBfMjAyNjA4MTdUMTUwMDAwWiBjXzYyNjk0ZjQxNDA1NWFjNTY5ZTVjYjEyZGFmYmIwODkwY2EyMmYzNjQwYjE3N2E0YjEwYjUzMTcxZmJjOWJkZDRAZw&tmsrc=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com&scp=ALL) to your calendar and plan to attend regularly
 - Review and comment on one of the no-status [Challenges from our Kanban board](https://github.com/orgs/InnerSourceCommons/projects/4/views/1)
 
 ## Patterns Working Group
@@ -150,21 +150,21 @@ You have time and skills and want to make a difference. Jump in:
 - Begin to connect with areas that align most with your interests:
 
 
-## ISPO Working Group
+## InnerSource Working Group
 
-**Description:** This working group is for those who are managing InnerSource projects, working in established ISPOs, or looking to start an ISPO in their company. They may have experience to share with others, or they may be looking for guidance and advice. This group meets biweekly in APAC and NA Time Zones and collaborates asynchronously on GitHub and [Slack](/slack).
+**Description:** This working group is for InnerSource practitioners. They may have experience to share with others, or they may be looking for guidance and advice. This group meets biweekly in APAC and NA Time Zones and collaborates asynchronously on GitHub and [Slack](/slack).
 
-- Join [Slack](/slack) and the [ISPO working group channel](https://innersourcecommons.slack.com/archives/C04DT6NQX7G)
+- Join [Slack](/slack) and the [InnerSource working group channel](https://innersourcecommons.slack.com/archives/C04DT6NQX7G)
 - Watch the [introductory video](https://www.youtube.com/watch?v=r8Ce7GlwBeA) 
-- Read through the group’s [Website](https://innersourcecommons.github.io/ispo-working-group/)
-- Add the [ISPO Working Group meeting](https://calendar.google.com/calendar/u/0/embed?src=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4@group.calendar.google.com) to your calendar and plan to attend regularly
+- Read through the group's [Website](https://innersourcecommons.github.io/innersource-working-group/)
+- Add the [InnerSource Working Group meeting](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Nzd2cmJzOTJuaGVvZjQyb3U4NmpybjBtcXBfMjAyNjA4MTdUMTUwMDAwWiBjXzYyNjk0ZjQxNDA1NWFjNTY5ZTVjYjEyZGFmYmIwODkwY2EyMmYzNjQwYjE3N2E0YjEwYjUzMTcxZmJjOWJkZDRAZw&tmsrc=c_62694f414055ac569e5cb12dafbb0890ca22f3640b177a4b10b53171fbc9bdd4%40group.calendar.google.com&scp=ALL) to your calendar and plan to attend regularly
 - Review and comment on the no-status [Challenges from our Kanban board](https://github.com/orgs/InnerSourceCommons/projects/4/views/1)
 
 
 After a few months:
-- Volunteer for [one of the roles](https://github.com/InnerSourceCommons/ispo-working-group/tree/main/roles) in the meeting, attend regularly
-- [Contribute](https://github.com/InnerSourceCommons/ispo-working-group/blob/main/CONTRIBUTING.md#lead-or-make-project-contributions) to an open project on the ISPO [list of open projects board](https://github.com/InnerSourceCommons/ispo-working-group/projects?query=is%3Aopen)
-- [Contribute to the documentation or ISPO](https://github.com/InnerSourceCommons/ispo-working-group/blob/main/CONTRIBUTING.md#to-add-documentation-to-this-repository-and-the-corresponding-website) Working Group website
+- Volunteer for [one of the roles](https://github.com/InnerSourceCommons/innersource-working-group/tree/main/roles) in the meeting, attend regularly
+- [Contribute](https://github.com/InnerSourceCommons/innersource-working-group/blob/main/CONTRIBUTING.md#lead-or-make-project-contributions) to an open project on the InnerSource Working Group [list of open projects board](https://github.com/InnerSourceCommons/innersource-working-group/projects?query=is%3Aopen)
+- [Contribute to the documentation](https://github.com/InnerSourceCommons/innersource-working-group/blob/main/CONTRIBUTING.md#to-add-documentation-to-this-repository-and-the-corresponding-website) for the InnerSource Working Group website
 - Open a new challenge on the [kanban board](https://github.com/orgs/InnerSourceCommons/projects/4/views/1)
 
 ## Patterns Working Group
