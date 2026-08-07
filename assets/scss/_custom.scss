@@ -252,6 +252,10 @@ ol.breadcrumb {
     max-width: 240px;
     height: auto;
     object-fit: cover;
+    // The source photo has him positioned well right of center, with a lot of
+    // empty background on the left — a centered crop grabs too much of that
+    // background instead of following him. Bias the crop right to compensate.
+    object-position: 65% center;
     margin: 0;
     float: none;
 }
