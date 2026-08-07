@@ -2,7 +2,7 @@
 ---
 layout: page
 title: 'InnerSource Commons Announces Scott Hanselman as Keynote Speaker for InnerSource Summit 2026'
-image: "/images/about/announcements/2026-08-scott-hanselman-keynote.jpg"
+image: "/images/events/speakers/Scott_Hanselman.jpg"
 date: 2026-08-06
 featured: true
 type: "announcements"
