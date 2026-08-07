@@ -212,12 +212,14 @@ ol.breadcrumb {
     margin-right: 50px;
 }
 
-// .content img sets width: 100% at equal-or-higher specificity than .speaker-photo,
-// so a bare .speaker-photo rule can't hold its 200px width against it — the photo
-// stretches to fill the column instead of sitting beside the bio text as intended.
+// .content img sets width: 100% and margin: 2rem auto at equal-or-higher specificity
+// than .speaker-photo, so a bare .speaker-photo rule can't hold its own size or
+// spacing against it — the photo stretches to fill the column and loses its right-side
+// gap (margin-right collapses to the shorthand's "auto", which floats resolve to 0).
 .content img.speaker-photo {
-    width: 200px;
-    max-width: 200px;
+    width: 240px;
+    max-width: 240px;
+    margin: 0 40px 24px 0;
 }
 
 @media (max-width: 576px) {
@@ -225,7 +227,7 @@ ol.breadcrumb {
         float: none;
         display: block;
         width: 100%;
-        max-width: 200px;
+        max-width: 240px;
         margin: 0 auto 20px;
     }
 }
