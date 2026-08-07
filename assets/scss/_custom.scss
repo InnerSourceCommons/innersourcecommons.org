@@ -232,6 +232,43 @@ ol.breadcrumb {
     }
 }
 
+// Opt-in variant: photo scales to match the height of its bio text instead of
+// floating at a fixed size. Scoped to its own modifier classes so it doesn't change
+// the float-based layout every other speaker-bio entry on the site already uses.
+.speaker-bio--match-height {
+    display: flex;
+    align-items: stretch;
+    gap: 40px;
+}
+
+.speaker-bio--match-height .speaker-bio-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.content img.speaker-photo.speaker-photo--match-height {
+    flex: 0 0 240px;
+    width: 240px;
+    max-width: 240px;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+    float: none;
+}
+
+@media (max-width: 576px) {
+    .speaker-bio--match-height {
+        flex-direction: column;
+    }
+
+    .content img.speaker-photo.speaker-photo--match-height {
+        flex-basis: auto;
+        width: 100%;
+        max-width: 100%;
+        height: 260px;
+    }
+}
+
 .content img {
     display: block;
     margin: 2rem auto;
