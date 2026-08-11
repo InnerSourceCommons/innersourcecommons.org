@@ -8,7 +8,7 @@ featured: true
 type: "announcements"
 ---
 
-InnerSource Commons is delighted to announce that Scott Hanselman, Vice President and Member of Technical Staff at Microsoft/GitHub, will deliver a keynote at [InnerSource Summit 2026](/events/isc-2026/) at 2:30 PM PST on Thursday, November 12, 2026.
+InnerSource Commons is delighted to announce that Scott Hanselman, Vice President and Member of Technical Staff at Microsoft/GitHub, will deliver a keynote at [InnerSource Summit 2026](/events/isc-2026/), taking place on Thursday, November 12, 2026.
 
 InnerSource Summit 2026 is a 22-hour global virtual event that follows the sun across every timezone, bringing together practitioners, engineering leaders, researchers, and open collaboration advocates from around the world to share experiences, innovations, and best practices in InnerSource.
 
