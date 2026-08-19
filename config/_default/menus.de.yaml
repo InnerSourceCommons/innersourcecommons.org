@@ -16,7 +16,7 @@ main:
     parent: start-here
     weight: 3
   - name: Join our Chat on Slack
-    URL: /slack
+    URL: https://innersourcecommons.org/slack
     parent: start-here
     weight: 4
   - name: Join our Mailing List
@@ -58,7 +58,7 @@ main:
     weight: 3
     identifier: community
   - name: Join us on Slack
-    URL: /slack
+    URL: https://innersourcecommons.org/slack
     parent: community
     weight: 1
   - name: Working Groups
