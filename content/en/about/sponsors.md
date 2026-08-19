@@ -30,6 +30,7 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
   <div class="container">
     <div class="row justify-content-center">
       <!-- {{< company name="Adeo" image="/images/logos/adeo-supporters.png" >}}{{< /company >}} -->
+      {{< company name="Airbus" image="/images/logos/airbus.png" >}}{{< /company >}}
       {{< company name="Bosch" image="/images/logos/bosch.png" >}}{{< /company >}}
       {{< company name="Capital One" image="/images/logos/capital-one.png" >}}{{< /company >}}
       {{< company name="Comcast" image="/images/logos/comcast.png" >}}{{< /company >}}
