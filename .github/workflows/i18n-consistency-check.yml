@@ -17,7 +17,7 @@ jobs:
       matrix:
         language: [ja, de, zh, it, es, ru, fr, pt-br]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           fetch-depth: '0'
       - name: Check consistency
@@ -56,6 +56,7 @@ jobs:
               days_since_overdue_updates=$(($(( $(date +%s) - $original_updated_at))/ 60 / 60 / 24))
               # Get the diff between the original file and the translated file
               original_last_update_hash=$(git log -1 --format=%H $file)
+              i18n_last_update_hash=$(git log -1 --format=%H $i18n_filename)
               # Get the parent hash of the original last update hash
               parent_hash=$(git log -1 --format=%P $original_last_update_hash)
                 # Get the diff between the original file and the translated file
