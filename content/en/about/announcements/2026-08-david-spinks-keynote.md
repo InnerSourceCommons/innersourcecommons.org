@@ -14,7 +14,7 @@ InnerSource Summit 2026 is a 22-hour global virtual event that follows the sun a
 
 David Spinks is one of the world's foremost voices on community building. Over 15 years he has advised and trained hundreds of organizations - including Facebook, Salesforce, Airbnb, and Google - on how to build thriving communities, work he distilled into his acclaimed book *The Business of Belonging: How to Make Community Your Competitive Advantage* and his Masters of Community podcast.
 
-"InnerSource is, at its heart, about community - people across an organization choosing to collaborate in the open rather than in silos," said Russ Rutledge, Executive Director of InnerSource Commons. "Nobody has done more to show how communities create real value than David Spinks. I can't wait for our attendees to learn from him."
+"InnerSource is, at its heart, about community - people across an organization choosing to collaborate in the open rather than in silos," said Russ Rutledge, Executive Director of InnerSource Commons. "David Spinks is an expert in showing how communities create real value. I can't wait for our attendees to learn from him."
 
 Additional keynote speakers, session agendas, and registration details will be rolled out over the coming months.
 
