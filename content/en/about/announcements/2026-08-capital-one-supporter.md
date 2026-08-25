@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'InnerSource Commons Welcomes Capital One as a Supporter'
-image: "/images/logos/capital-one.png"
+image: "/images/about/announcements/2026-08-capital-one-supporter.png"
 date: 2026-08-24
 type: "announcements"
 ---
