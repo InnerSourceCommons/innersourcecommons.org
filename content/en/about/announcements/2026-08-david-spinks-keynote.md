@@ -2,7 +2,7 @@
 ---
 layout: page
 title: 'InnerSource Commons Announces David Spinks as Keynote Speaker for InnerSource Summit 2026'
-image: "/images/events/speakers/Picture_Pending.png"
+image: "/images/events/speakers/David_Spinks.jpg"
 date: 2026-08-25
 featured: true
 type: "announcements"
