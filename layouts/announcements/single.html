@@ -14,7 +14,7 @@
         </div>
         {{ else }}
         <h2 class="mb-4">{{ .Title }}</h2>
-        <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4 mt-1">
+        <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid rounded mb-4 mt-1 d-block mx-auto" style="max-height: 420px; width: auto;">
         {{ end }}
         <div class="content">{{.Content}}</div>
         <div class="fw-500 mb-4 fl-r"><i class="ti-calendar text-dark me-1"></i> {{ .Params.Date.Format "January 2, 2006" }}</div>
