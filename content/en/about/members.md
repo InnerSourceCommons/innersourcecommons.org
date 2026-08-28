@@ -33,12 +33,14 @@ Membership in the InnerSource Commons Foundation requires nomination and electio
 * Dmitrii Sugrobov
 * Fei Wan
 * Fernando Correa
+* Frédéric Sicot Mouret
 * Georg Gr&#x00FC;tter
 * Guilherme Dellagustin
 * Igor Zubaiurre 
 * Isabel Drost-Fromm
 * Jacob Green
 * Jeff Bailey
+* Jenna Ritten
 * Jerry Tan
 * Johannes Tigges
 * Justin Gosses
@@ -46,12 +48,14 @@ Membership in the InnerSource Commons Foundation requires nomination and electio
 * Klaas-Jan Stol
 * Matt Cobby
 * Maximilian Capraro
+* Micaela Eller
 * Mishari Muqbil
 * Niall Maher
 * Regina Nkenchor
 * Russell Rutledge
 * Ryo Ashikawa
 * Sebastian Spier
+* Shingo Oidate
 * Shoma Kubo
 * Silona Bonewald
 * Thomas Froment
