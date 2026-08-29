@@ -13,3 +13,9 @@ resources
 
 ### Prevent automatically generated untranslated files for local debugging from being pushed to the remote
 content/.gitignore
+
+### Build and temporary files
+hugo.deb
+lychee.tar.gz
+*.deb
+*.tar.gz
