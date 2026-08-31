@@ -26,7 +26,7 @@ Each of these new Members has played a pivotal role in growing and strengthening
 - **Micaela Eller** has led InnerSource Offices at IBM and EY, has been a Summit speaker since 2022, was a key organizer of the 2025 Summit, and serves on the InnerSource Commons Board.
 - **Shingo Oidate** leads InnerSource evangelism across Japan and, as General Manager of Mitsubishi Electric's Open Source Program Office, hosted InnerSource Summit 2025 in Yokohama.
 
-“Each of these four has already shaped InnerSource Commons in real ways—standing up InnerSource offices inside major enterprises, bringing our Summit to new corners of the world, and helping practitioners everywhere put InnerSource into practice. Welcoming them as Members simply makes official the work they have been doing for our community for years, and I could not be more pleased to do it,” said Addie Cobb, Chair of InnerSource Commons.
+“Each of these four has already shaped InnerSource Commons in real ways - standing up InnerSource offices inside major enterprises, bringing our Summit to new corners of the world, and helping practitioners everywhere put InnerSource into practice. Welcoming them as Members simply makes official the work they have been doing for our community for years, and I could not be more pleased to do it,” said Addie Cobb, Chair of InnerSource Commons.
 
 ### About InnerSource Commons
 
