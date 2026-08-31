@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'New Members Appointed to the InnerSource Commons Foundation'
+title: 'New Members Elected to the InnerSource Commons Foundation'
 image: "/images/about/announcements/2026-09-new-members-announcement.png"
 date: 2026-09-02
 featured: false
@@ -9,7 +9,7 @@ type: "announcements"
 
 September 2, 2026
 
-**New Members Appointed to the InnerSource Commons Foundation**
+**New Members Elected to the InnerSource Commons Foundation**
 
 We are excited to announce our new InnerSource Commons (ISC) Foundation Members: Frédéric Sicot Mouret, Jenna Ritten, Micaela Eller, and Shingo Oidate.
 
