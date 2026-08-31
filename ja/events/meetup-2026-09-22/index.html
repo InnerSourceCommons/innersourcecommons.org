@@ -49,18 +49,18 @@
   
   
 	
-	<link rel="alternate" hreflang="en" href="https://innersourcecommons.org/events/meetup-2026-05-26/" title="English">
+	<link rel="alternate" hreflang="en" href="https://innersourcecommons.org/events/meetup-2026-09-22/" title="English">
 	
-	<link rel="alternate" hreflang="fr" href="https://innersourcecommons.org/fr/events/meetup-2026-05-26/" title="Français">
+	<link rel="alternate" hreflang="fr" href="https://innersourcecommons.org/fr/events/meetup-2026-09-22/" title="Français">
 	
-	<link rel="alternate" hreflang="pt-br" href="https://innersourcecommons.org/pt-br/events/meetup-2026-05-26/" title="Português Brasileiro">
+	<link rel="alternate" hreflang="pt-br" href="https://innersourcecommons.org/pt-br/events/meetup-2026-09-22/" title="Português Brasileiro">
 	
   
   
-  <meta property="og:url" content="https://innersourcecommons.org/ja/events/meetup-2026-05-26/">
+  <meta property="og:url" content="https://innersourcecommons.org/ja/events/meetup-2026-09-22/">
   <meta property="og:site_name" content="InnerSource Commons">
   <meta property="og:title" content="InnerSource Commons">
-  <meta property="og:description" content="Debunking the Myths Leaders Believe About What It Takes to Shift From Not-Invented-Here Culture to an InnerSource Collaboration-Contribution-Reuse Culture –&gt;">
+  <meta property="og:description" content="The InnerSource Commons is a growing community of practitioners with the goal of creating and sharing knowledge about InnerSource.">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="events">
@@ -873,11 +873,11 @@ document.addEventListener('DOMContentLoaded', function() {
             <option value="" selected disabled>日本語</option>
             
             
-            <option value="https://innersourcecommons.org/events/meetup-2026-05-26/">English</option>
+            <option value="https://innersourcecommons.org/events/meetup-2026-09-22/">English</option>
             
-            <option value="https://innersourcecommons.org/fr/events/meetup-2026-05-26/">Français</option>
+            <option value="https://innersourcecommons.org/fr/events/meetup-2026-09-22/">Français</option>
             
-            <option value="https://innersourcecommons.org/pt-br/events/meetup-2026-05-26/">Português Brasileiro</option>
+            <option value="https://innersourcecommons.org/pt-br/events/meetup-2026-09-22/">Português Brasileiro</option>
             
             
           </select>
@@ -1067,17 +1067,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
           <h2 class="mb-4"></h2>
         
-        <div class="content"><!-- ---
-title: The Value Is Obvious. The Investment Isn’t.
-type: redirects
-redirect: "https://bit.ly/ISCSep22"
-image: "/images/events/meetup-2026-09-22.jpg"
-date: 2026-09-22
-publishDate: 2026-08-28
-<!-- # youtubeLink: "https://youtu.be/NbCXrCzfBKo" -->
-<hr>
-<p>Debunking the Myths Leaders Believe About What It Takes to Shift From Not-Invented-Here Culture to an InnerSource Collaboration-Contribution-Reuse Culture &ndash;&gt;</p>
-</div>
+        <div class="content"></div>
       </div>
     </div>
   </div>
@@ -1205,5 +1195,29 @@ publishDate: 2026-08-28
 
 </body>
 
+
+ 
+	<script>
+		const path = window.location.pathname;
+		const pathParts = path.split('/');
+		const currentLang = pathParts[1];
+		
+		
+		if (currentLang !== 'en' && currentLang.length === 2) {
+			const englishPath = path.replace(`/${currentLang}/`, '/en/');
+			
+			
+			fetch(englishPath)
+			.then(response => {
+				if (response.ok) {
+				window.location.href = englishPath;
+				}
+			})
+			.catch(() => {
+				
+			});
+		}
+	</script>
+  
 
 </html>
