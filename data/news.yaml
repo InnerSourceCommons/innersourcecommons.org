@@ -1,5 +1,5 @@
-- content: "Join us on Tuesday, 30th June, 9am BST, 10am CEST, 1:30pm IST, 6pm AEST, when Younes Hairej, Aokumo Inc., will discuss [Beyond Pull Requests: Quantifying the ROI of InnerSource](https://bit.ly/445FO6i)."
-  active: false
+- content: "Join us on Tuesday, 22nd September, 5pm BST / 6pm CEST / 11am CDT / 9am PDT, when Micaela Eller, Ernst & Young, will discuss [The Value Is Obvious. The Investment Is Not.](https://bit.ly/ISCSep22)."
+  active: true
   type: "primary"
 
 - content: "Join us on Monday, May 11th, 5pm BST / 6pm CEST / 11am CDT / 9am PDT, when Tom Sadler, BBC, will discuss [InnerSource Anti-patterns.](https://bit.ly/4dpk7U7)."
