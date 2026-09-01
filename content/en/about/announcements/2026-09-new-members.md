@@ -22,7 +22,7 @@ Since InnerSource Commons is structured as a membership-based organization, ISC 
 Each of these new Members has played a pivotal role in growing and strengthening InnerSource Commons:
 
 - **Frédéric Sicot Mouret** founded the Open Source Program Office at Airbus and is a regular voice at the InnerSource Summit, most recently speaking on generative AI at InnerSource Summit 2025.
-- **Jenna Ritten** has championed IBM's InnerSource practice for years and led the effort to bring the InnerSource Summit to New York.
+- **Jenna Ritten** co-created and now leads IBM's InnerSource Ecosystem worldwide, founded IBM Hacktoberfest in partnership with Digital Ocean and MLH, and led the effort to bring InnerSource Summit to New York.
 - **Micaela Eller** has led InnerSource Offices at IBM and EY, has been a Summit speaker since 2022, was a key organizer of the 2025 Summit, and serves on the InnerSource Commons Board.
 - **Shingo Oidate** leads InnerSource evangelism across Japan and, as General Manager of Mitsubishi Electric's Open Source Program Office, hosted InnerSource Summit 2025 in Yokohama.
 
