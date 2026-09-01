@@ -73,4 +73,10 @@
   {{ "<!-- Mastodon verification code -->" | safeHTML }}
   <link href="https://fosstodon.org/@innersource" rel="me">
 
+  {{ if .Params.pretixWidget }}
+  {{ "<!-- pretix ticket widget -->" | safeHTML }}
+  <link rel="stylesheet" type="text/css" href="https://pretix.eu/InnerSource/Summit26/widget/v2.css" crossorigin>
+  <script type="text/javascript" src="https://pretix.eu/widget/v2.en.js" async crossorigin></script>
+  {{ end }}
+
 </head>
