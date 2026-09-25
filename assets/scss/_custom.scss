@@ -276,46 +276,56 @@ ol.breadcrumb {
 // Opt-in variant: keeps bio text (including lists) indented beside the photo
 // for the entire height of the entry, instead of the float-based layout's
 // default behavior — once text runs past the photo's bottom edge, a plain
-// float lets the remainder revert to full container width. Uses grid instead
-// of a fixed min-height so the row auto-sizes to whichever is taller, the
-// photo or the text — a fixed min-height under-reserved space for photos
-// taller than it (non-square crops), letting them overlap the next entry.
-// Scoped to its own modifier class so it doesn't change the float-based
-// layout other speaker-bio entries on the site still use.
+// float lets the remainder revert to full container width. Uses flexbox so
+// the row auto-sizes to whichever is taller, the photo or the text — a fixed
+// min-height under-reserved space for photos taller than it (non-square
+// crops), letting them overlap the next entry, and a grid layout stretched
+// each auto-placed text row to reach the spanning photo's full height,
+// leaving a gap between short lines. Scoped to its own modifier class so it
+// doesn't change the float-based layout other speaker-bio entries on the
+// site still use.
 .speaker-bio--aligned {
-    display: grid;
-    grid-template-columns: 240px 1fr;
-    column-gap: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
     margin-bottom: 32px;
 }
 
-.speaker-bio--aligned > img.speaker-photo {
-    grid-column: 1;
-    grid-row: 1 / -1;
+.speaker-bio--aligned .speaker-bio-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.speaker-bio--aligned img.speaker-photo {
+    flex: 0 0 240px;
+    width: 240px;
+    max-width: 240px;
     float: none;
     margin: 0;
 }
 
-.speaker-bio--aligned > *:not(img) {
-    grid-column: 2;
-}
-
 @media (max-width: 576px) {
     .speaker-bio--aligned {
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
 
-    .speaker-bio--aligned > img.speaker-photo {
-        grid-column: 1;
-        grid-row: auto;
+    .speaker-bio--aligned img.speaker-photo {
         width: 100%;
         max-width: 240px;
         margin: 0 auto 20px;
     }
+}
 
-    .speaker-bio--aligned > *:not(img) {
-        grid-column: 1;
-    }
+// A bio's bullet list sits inside a flex item (.speaker-bio-text). With the
+// default outside marker position, browsers can lay the bullet out relative
+// to the flex row instead of the list item, stranding it beside the photo
+// far from its own text. Rendering the marker inside the item's own content
+// box keeps it anchored to its text regardless of the surrounding flex
+// layout.
+.speaker-bio-text ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 1em 0;
 }
 
 .content img {
