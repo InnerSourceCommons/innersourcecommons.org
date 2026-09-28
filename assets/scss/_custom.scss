@@ -316,6 +316,15 @@ ol.breadcrumb {
     }
 }
 
+// Opt-in variant: crops a non-square source photo (e.g. a landscape headshot)
+// to the same square footprint the other speaker-bio--aligned photos have,
+// instead of rendering at its natural aspect ratio and looking shorter than
+// the square photos around it.
+.content img.speaker-photo.speaker-photo--crop-square {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
 // A bio's bullet list sits inside a flex item (.speaker-bio-text). With the
 // default outside marker position, browsers can lay the bullet out relative
 // to the flex row instead of the list item, stranding it beside the photo
