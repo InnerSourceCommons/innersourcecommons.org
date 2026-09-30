@@ -76,6 +76,17 @@
   {{ if .Params.pretixWidget }}
   {{ "<!-- pretix ticket widget -->" | safeHTML }}
   <link rel="stylesheet" type="text/css" href="https://pretix.eu/InnerSource/Summit26/widget/v2.css" crossorigin>
+  {{ "<!-- carry a member referral code (?ref=ISC26-xxxx) into the widget as a Pretix campaign -->" | safeHTML }}
+  <script type="text/javascript">
+  window.pretixWidgetCallback = function () {
+    var ref = new URLSearchParams(window.location.search).get('ref');
+    if (ref && /^ISC26-[A-Z0-9-]{1,40}$/.test(ref)) {
+      var el = document.querySelector('pretix-widget');
+      if (el) el.setAttribute('data-campaign', ref);
+    }
+    window.PretixWidget.buildWidgets();
+  };
+  </script>
   <script type="text/javascript" src="https://pretix.eu/widget/v2.en.js" async crossorigin></script>
   {{ end }}
 
