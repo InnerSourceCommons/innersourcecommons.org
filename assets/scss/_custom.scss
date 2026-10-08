@@ -1133,3 +1133,19 @@ body.has-notice {
     display: none !important;
   }
 }
+
+
+// Marks Featured Speakers in the Summit agenda rows and in their speaker bios.
+.featured-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    background: #f0a30a;
+    color: #1a1a1a;
+    font-size: 0.75em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    vertical-align: middle;
+    white-space: nowrap;
+}
