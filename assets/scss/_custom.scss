@@ -1138,9 +1138,13 @@ body.has-notice {
 // Labels keynote and featured speakers in the Summit agenda rows and in their bios.
 // Inline (not inline-block) so the label's padding never grows the line box:
 // it sits on the text baseline without adding vertical space.
+// The all-caps label has no descenders, so the extra room goes above it and the
+// pill is nudged up (relative offset, no layout effect) to center on the name.
 .speaker-badge {
+    position: relative;
+    top: -0.1em;
     margin-left: 0.5em;
-    padding: 0.1em 0.6em;
+    padding: 0.14em 0.6em 0.02em;
     border-radius: 0.8em;
     font-size: 0.7em;
     font-weight: 600;
