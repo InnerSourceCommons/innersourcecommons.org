@@ -1135,17 +1135,26 @@ body.has-notice {
 }
 
 
-// Marks Featured Speakers in the Summit agenda rows and in their speaker bios.
-.featured-badge {
-    display: inline-block;
-    margin-left: 6px;
-    padding: 1px 8px;
-    border-radius: 10px;
+// Labels keynote and featured speakers in the Summit agenda rows and in their bios.
+// Inline (not inline-block) so the label's padding never grows the line box:
+// it sits on the text baseline without adding vertical space.
+.speaker-badge {
+    margin-left: 0.5em;
+    padding: 0.1em 0.6em;
+    border-radius: 0.8em;
+    font-size: 0.7em;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.speaker-badge--featured {
     background: #f0a30a;
     color: #1a1a1a;
-    font-size: 0.75em;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    vertical-align: middle;
-    white-space: nowrap;
+}
+
+.speaker-badge--keynote {
+    background: #1d4e5f;
+    color: #fff;
 }
