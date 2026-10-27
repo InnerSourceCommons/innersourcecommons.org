@@ -15,9 +15,12 @@ InnerSource Summit 2026 is a 22-hour global virtual event that follows the sun a
 
 Kelsey Hightower is one of the most recognized voices in cloud native computing and open source. He is the co-author of *Kubernetes: Up and Running*, the creator of the popular tutorial *Kubernetes The Hard Way*, and a speaker at conferences around the world, including KubeCon and PlatformCon.
 
-"We're thrilled to have Kelsey Hightower join us," said Addie Cobb, Chair of InnerSource Commons. "Kelsey has a gift for making hard technology approachable and for bringing communities together around shared work. That is just what InnerSource is about, and I'm very excited for our attendees to hear from him."
+"We're thrilled to have Kelsey Hightower join us," said Addie Cobb, Chair of InnerSource Commons.
+"Kelsey has a gift for making hard technology approachable and for bringing communities together around shared work.
+That is just what InnerSource is about, and I'm very excited for our attendees to hear from him."
 
-The Summit's keynote speakers are Scott Hanselman, Sarah Novotny, and David Spinks. [View the full schedule and register](/events/isc-2026/).
+The Summit's keynote speakers are Scott Hanselman, Sarah Novotny, and David Spinks.
+[View the full schedule and register](/events/isc-2026/).
 
 ### About InnerSource Commons
 
