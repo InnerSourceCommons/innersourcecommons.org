@@ -10,7 +10,7 @@ type: "announcements"
 
 InnerSource Commons is delighted to announce that Kelsey Hightower, former Distinguished Engineer at Google, will deliver a keynote at [InnerSource Summit 2026](/events/isc-2026/), taking place on Thursday, November 12, 2026.
 
-His session, "Stop Paying Twice: ZTA as an InnerSource Practice," begins at 15:00 UTC on Summit day.
+His session, "Stop Paying Twice: Zero Token Architecture (ZTA) as an InnerSource Practice," begins at 15:00 UTC on Summit day.
 
 InnerSource Summit 2026 is a 22-hour global virtual event that follows the sun across every timezone, bringing together practitioners, engineering leaders, researchers, and open collaboration advocates from around the world to share experiences, innovations, and best practices in InnerSource.
 
