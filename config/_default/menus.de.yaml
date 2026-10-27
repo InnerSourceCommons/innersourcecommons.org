@@ -52,6 +52,10 @@ main:
     URL: /about/contact/
     parent: about
     weight: 5
+  - name: Vacancies
+    URL: /about/vacancies/
+    parent: about
+    weight: 6
 
   # Community
   - name: Community
