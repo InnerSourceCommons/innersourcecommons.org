@@ -78,12 +78,13 @@ subtitle: "Our Partners are organizations helping to lead the InnerSource moveme
       </div>
     </div>
     <div class="row d-flex justify-content-center">
-        <a href="mailto:sponsor@innersourcecommons.org" class="btn btn-primary btn-sm" style="color: white;">Get in Touch to Find Out More</a>
+        <a href="mailto:sponsor@innersourcecommons.org" class="btn btn-primary btn-sm mr-2" style="color: white;">Get in Touch to Find Out More</a>
+        <a href="/documents/ISC-Sponsorship-Prospectus-2027.pdf" class="btn btn-primary btn-sm" style="color: white;">Download the 2027 Sponsorship Prospectus</a>
     </div>
   </div>
 </section>
       
 We are thankful to our sponsors for their partnership and support which contributes to growing our community, facilitating the work we do and spreading the word about InnerSource.
 
-Sponsorship costs vary depending on the type of sponsorship, type and size of organization and length of commitment. You can find out more information [here](https://docs.google.com/presentation/d/1jmlImPQZLXL6qC9MnbJ0QgcgoyPKos8Z/edit#slide=id.p1). If you are interested in sponsoring InnerSource Commons and would like to know more about our Partner and Supporter Programs, please contact us at sponsor@innersourcecommons.org. 
+Sponsorship costs vary depending on the type of sponsorship, type and size of organization and length of commitment. You can find out more information [here](/documents/ISC-Sponsorship-Prospectus-2027.pdf). If you are interested in sponsoring InnerSource Commons and would like to know more about our Partner and Supporter Programs, please contact us at sponsor@innersourcecommons.org. 
 
