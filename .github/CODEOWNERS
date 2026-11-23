@@ -11,3 +11,8 @@
 
 # Changes to https://innersourcecommons.org/about/board/ incl. the terse notes for Board meetings should be reviewed by the Board
 /content/en/about/board/* @InnerSourceCommons/isc-board
+
+# Require Cristina Coffey's review for changes to website menu-related files
+**/nav*.* @clcoffey
+**/menu*.* @clcoffey
+**/header*.* @clcoffey
