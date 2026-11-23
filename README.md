@@ -27,11 +27,15 @@ GitHub Codespaces provides an easy way to work on the website without installing
 3. Select the "Codespaces" tab
 4. Click "Create codespace on master"
 5. Wait for the codespace to load (this may take a minute)
-6. Once loaded, click the "Run and Debug" icon in the sidebar (or press F5)
-7. Select "Hugo Server" from the dropdown menu and click the play button
-8. When prompted, click "Open in Browser" to view the website
+6. Start the Hugo server using **any of these methods**:
+   - Run `hugo server` in the terminal (recommended - works automatically in Codespaces!)
+   - Run `npm start` in the terminal
+   - Click the "Run and Debug" icon in the sidebar (or press F5), select "Hugo Server" and click the play button
+7. When prompted, click "Open in Browser" to view the website
 
 The website will be displayed in a new browser tab, and any changes you make will automatically update in real-time.
+
+**Note**: In Codespaces, `hugo server` automatically detects the environment and configures the correct URL, so CSS and assets load properly from the Codespaces forwarded URL.
 
 For a more detailed guide with screenshots, please see our [Codespaces documentation](CODESPACES.md).
 
